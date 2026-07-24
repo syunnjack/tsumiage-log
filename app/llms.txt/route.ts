@@ -9,6 +9,7 @@ export function GET() {
     "## Primary pages",
     "- [Home](https://syunnjack.dev/): サイト概要、学習年表、プロジェクト",
     "- [Articles](https://syunnjack.dev/articles): 技術記事一覧",
+    "- [Videos](https://syunnjack.dev/videos): 2026年8月から公開予定の技術解説動画",
     "",
     "## Repository articles",
     ...articles.map(

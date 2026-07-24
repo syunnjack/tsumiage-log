@@ -44,6 +44,15 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>主要言語: {article.primaryLanguage}</span><span>更新: {formatDate(article.updatedAt)}</span><span>根拠コミット: {article.commits.length}件</span></div>
       </header>
+      <aside className="article-video-cta">
+        <div className="video-cta-icon" aria-hidden="true">▶</div>
+        <div>
+          <p>VIDEO EXPLANATION / COMING SOON</p>
+          <h2>この記事の解説動画を2026年8月に公開予定</h2>
+          <span>設計図、コード、コミットの変化を画面で追いながら解説します。</span>
+        </div>
+        <Link href={`/videos#${article.slug}`}>動画の公開予定を見る →</Link>
+      </aside>
       <div className="article-layout">
         <aside className="article-toc"><strong>この記事の内容</strong><a href="#answer">要点</a><a href="#overview">概要</a><a href="#stack">技術構成</a><a href="#architecture">設計</a><a href="#history">実装の変遷</a><a href="#learning">学び</a><a href="#faq">FAQ</a></aside>
         <div className="article-content">
