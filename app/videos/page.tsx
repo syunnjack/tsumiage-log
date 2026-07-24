@@ -45,13 +45,44 @@ export default function VideosPage() {
       </section>
 
       <section className="video-plan-section">
+        <div className="original-video-panel">
+          <div>
+            <p className="eyebrow">
+              <span />
+              ORIGINAL SERIES
+            </p>
+            <h2>記事にとらわれない、動画だけの学び。</h2>
+            <p>
+              基礎解説、開発環境、学習方法、制作の裏側など、特定の記事に紐づかない動画も公開します。
+            </p>
+          </div>
+          <div className="original-series-grid">
+            {[
+              ["01", "React・Web開発入門", "基礎から小さなアプリを完成させるシリーズ"],
+              ["02", "Git・GitHub実践", "コミット、ブランチ、PRを実際の流れで解説"],
+              ["03", "開発環境とツール", "Vite、エディタ、Lint、デプロイの整え方"],
+              ["04", "学習と振り返り", "挫折を減らし、知識を定着させる学び方"],
+              ["05", "制作の裏側", "企画から公開までの判断と失敗を記録"],
+            ].map(([number, title, description]) => (
+              <article key={number}>
+                <span>{number}</span>
+                <div>
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                </div>
+                <small>企画中</small>
+              </article>
+            ))}
+          </div>
+        </div>
+
         <div className="section-heading">
           <div>
             <p className="eyebrow">
               <span />
-              VIDEO ROADMAP
+            ARTICLE VIDEO ROADMAP
             </p>
-            <h2>公開予定</h2>
+            <h2>記事解説の公開予定</h2>
           </div>
           <p>記事ごとに10〜15分程度の技術解説を予定しています。</p>
         </div>

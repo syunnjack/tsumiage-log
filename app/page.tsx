@@ -68,7 +68,7 @@ export default function Home() {
         </a>
         <nav aria-label="メインナビゲーション">
           <Link href="/articles">記事</Link>
-          <Link href="/videos">解説動画</Link>
+          <Link href="/videos">動画</Link>
           <a href="#timeline">学習年表</a>
           <a href="#project">プロジェクト</a>
           <a href="#about">プロフィール</a>
