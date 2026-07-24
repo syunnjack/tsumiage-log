@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-24T21:22:53.741Z",
+  "generatedAt": "2026-07-24T22:04:26.034Z",
   "owner": "syunnjack",
-  "totalRepositories": 139,
+  "totalRepositories": 127,
   "publicRepositories": 127,
   "articles": [
     {
@@ -9,7 +9,7 @@
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
       "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 確認 URL 公開予定: https://syunnjack.dev GitHub: https://github.com/syunnjack/tsumiage log",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
       "url": "https://github.com/syunnjack/tsumiage-log",
       "defaultBranch": "main",
       "primaryLanguage": "TypeScript",
@@ -32,6 +32,7 @@
         "package.json",
         "postcss.config.mjs",
         "public",
+        "scripts",
         "tests",
         "tsconfig.json",
         "vite.config.ts",
@@ -39,13 +40,49 @@
       ],
       "commits": [
         {
+          "sha": "47fe551",
+          "message": "Fix content automation safety audit",
+          "date": "2026-07-24T22:02:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/47fe5513130ac4a96dab4b00742d4adf768c28db"
+        },
+        {
+          "sha": "d0e33ef",
+          "message": "Automate repository article updates and alerts",
+          "date": "2026-07-24T21:57:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0e33efd0f7202e130d72eb04f5f7cbed6246ace"
+        },
+        {
+          "sha": "191b5ce",
+          "message": "Add original video series pathways",
+          "date": "2026-07-24T21:48:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/191b5cec9d6f3784b9bdd21f8bfa45f485d835cf"
+        },
+        {
+          "sha": "980bfcd",
+          "message": "Add upcoming article video pathways",
+          "date": "2026-07-24T21:46:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/980bfcd8e5a3552ac64ff4583d105c13f685267b"
+        },
+        {
+          "sha": "f25b4f2",
+          "message": "Hide sensitive repository articles",
+          "date": "2026-07-24T21:41:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f25b4f244c75831441e85164efe2f08b39762940"
+        },
+        {
+          "sha": "cfb2416",
+          "message": "Publish GitHub repository technical articles",
+          "date": "2026-07-24T21:30:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cfb2416d57e1fe6fc2746a84b39ba59cc8a0b32c"
+        },
+        {
           "sha": "00e4e9e",
           "message": "Create initial Tsumia​ge Log website",
           "date": "2026-07-24T21:05:46Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/00e4e9e5ff9617a7b8e4396e4f28b6e5b67b8f12"
         }
       ],
-      "updatedAt": "2026-07-24T21:06:25Z",
+      "updatedAt": "2026-07-24T22:02:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -5246,6 +5283,5 @@
       "stars": 0,
       "forks": 0
     }
-  ],
-  "excludedByPolicy": 11
+  ]
 }
