@@ -10,6 +10,7 @@ export function GET() {
     "- [Home](https://syunnjack.dev/): サイト概要、学習年表、プロジェクト",
     "- [Articles](https://syunnjack.dev/articles): 技術記事一覧",
     "- [Videos](https://syunnjack.dev/videos): 記事解説と独立企画を含む、2026年8月から公開予定の技術動画",
+    "- [Favorite videos](https://syunnjack.dev/videos/favorites): 技術、学習、F1など実際に見て気に入った動画の選定理由付きコレクション",
     "",
     "## Repository articles",
     ...articles.map(
