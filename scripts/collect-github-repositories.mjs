@@ -126,12 +126,22 @@ const collected = publishable.map((repo, index) => {
   }
 })
 
+let generatedAt = new Date().toISOString()
+try {
+  const previousData = JSON.parse(readFileSync(outputPath, "utf8"))
+  if (JSON.stringify(previousData.articles) === JSON.stringify(collected)) {
+    generatedAt = previousData.generatedAt
+  }
+} catch {
+  // 初回生成時は現在時刻を使用します。
+}
+
 mkdirSync(dirname(outputPath), { recursive: true })
 writeFileSync(
   outputPath,
   `${JSON.stringify(
     {
-      generatedAt: new Date().toISOString(),
+      generatedAt,
       owner,
       totalRepositories: repositories.length,
       publicRepositories: repositories.filter((repo) => !repo.isPrivate).length,

@@ -1,0 +1,114 @@
+name: Repository article automation
+
+on:
+  schedule:
+    # 毎日 03:15 JST
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: repository-article-automation
+  cancel-in-progress: false
+
+jobs:
+  update-articles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+
+      - name: Record current article count
+        id: before
+        run: echo "count=$(node -p 'require(\"./app/data/repositories.json\").articles.length')" >> "$GITHUB_OUTPUT"
+
+      - name: Collect public repository changes
+        run: npm run content:collect
+
+      - name: Audit content policy and article quality
+        id: audit
+        run: npm run content:audit
+
+      - name: Validate site
+        run: |
+          npm run lint
+          npm run build
+
+      - name: Detect updates
+        id: changes
+        run: |
+          if git diff --quiet -- app/data/repositories.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push article updates
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/repositories.json
+          git commit -m "Update repository articles from GitHub activity"
+          git push
+
+      - name: Create or update publication alert
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          BEFORE_COUNT: ${{ steps.before.outputs.count }}
+          AFTER_COUNT: ${{ steps.audit.outputs.article_count }}
+          WARNING_COUNT: ${{ steps.audit.outputs.warning_count }}
+        run: |
+          title="記事自動更新: 本番公開待ち"
+          body="GitHubの新しいコミットを検出し、記事データを更新しました。
+
+          - 更新前の記事数: ${BEFORE_COUNT}
+          - 更新後の記事数: ${AFTER_COUNT}
+          - 品質警告: ${WARNING_COUNT}
+          - 実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+
+          内容を確認し、Sitesへ新しいバージョンを公開してください。"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh label create content-automation --color 1f6f55 --description "記事自動化からの通知" --force
+            gh issue create --title "$title" --body "$body" --label content-automation
+          fi
+
+      - name: Report no changes
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "公開リポジトリに記事更新が必要な変更はありませんでした。" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Alert on automation failure
+        if: failure()
+        run: |
+          title="記事自動化エラー"
+          body="記事自動化が失敗しました。秘密情報や禁止コンテンツは公開されていません。
+
+          実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh label create content-automation --color b42318 --description "記事自動化からの通知" --force
+            gh issue create --title "$title" --body "$body" --label content-automation
+          fi
