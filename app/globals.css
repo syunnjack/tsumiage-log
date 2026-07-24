@@ -814,3 +814,371 @@ footer > a {
     transition-duration: 0.01ms !important;
   }
 }
+
+.article-site-header {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  min-height: 82px;
+  padding: 18px clamp(20px, 6vw, 88px);
+}
+
+.article-site-header > a:last-child {
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.archive-hero,
+.article-hero {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(21, 60, 46, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 60, 46, 0.055) 1px, transparent 1px);
+  background-size: 48px 48px;
+  padding: 90px max(24px, calc((100vw - 1080px) / 2));
+}
+
+.archive-hero h1,
+.article-hero h1 {
+  font-size: clamp(42px, 7vw, 88px);
+  max-width: 990px;
+}
+
+.archive-hero > p:last-of-type,
+.article-summary {
+  color: #53685e;
+  line-height: 2;
+  max-width: 750px;
+}
+
+.archive-hero dl {
+  display: flex;
+  gap: 55px;
+  margin: 45px 0 0;
+}
+
+.archive-hero dt {
+  font-size: 10px;
+}
+
+.archive-hero dd {
+  color: var(--amber);
+  font-family: "DM Mono", monospace;
+  font-size: 38px;
+  margin: 5px 0 0;
+}
+
+.repository-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 max(24px, calc((100vw - 1160px) / 2)) 100px;
+}
+
+.repository-card {
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  min-height: 310px;
+  padding: 30px;
+}
+
+.repository-card:nth-child(3n + 1) {
+  border-left: 1px solid var(--line);
+}
+
+.repository-card-meta,
+.repository-card-footer,
+.article-facts {
+  display: flex;
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  justify-content: space-between;
+}
+
+.repository-card-meta span:last-child {
+  color: var(--amber);
+}
+
+.repository-card h2 {
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 42px 0 15px;
+}
+
+.repository-card > p {
+  color: #607269;
+  display: -webkit-box;
+  font-size: 12px;
+  line-height: 1.8;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.repository-card-footer {
+  margin-top: 35px;
+}
+
+.repository-card-footer a {
+  font-weight: 700;
+}
+
+.article-hero nav {
+  color: #6d7b74;
+  display: flex;
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  gap: 8px;
+  margin-bottom: 65px;
+}
+
+.article-hero h1 {
+  font-size: clamp(38px, 6vw, 72px);
+  line-height: 1.25;
+}
+
+.article-summary {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.article-facts {
+  border-top: 1px solid var(--line);
+  justify-content: start;
+  gap: 35px;
+  margin-top: 42px;
+  padding-top: 20px;
+}
+
+.article-layout {
+  display: grid;
+  gap: clamp(45px, 8vw, 110px);
+  grid-template-columns: 190px minmax(0, 760px);
+  justify-content: center;
+  padding: 80px 24px 120px;
+}
+
+.article-toc {
+  align-self: start;
+  display: grid;
+  font-size: 11px;
+  gap: 13px;
+  position: sticky;
+  top: 30px;
+}
+
+.article-toc strong {
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 6px;
+  padding-bottom: 12px;
+}
+
+.article-toc a {
+  color: #63756c;
+}
+
+.article-content > section {
+  border-bottom: 1px solid var(--line);
+  padding: 65px 0;
+  scroll-margin-top: 25px;
+}
+
+.article-content h2 {
+  font-size: clamp(27px, 4vw, 40px);
+  letter-spacing: -0.05em;
+  margin: 8px 0 26px;
+}
+
+.article-content p,
+.article-content li {
+  color: #4f665b;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.article-content code {
+  background: #e2e2d7;
+  border-radius: 2px;
+  color: var(--ink);
+  font-family: "DM Mono", monospace;
+  font-size: 0.86em;
+  margin: 0 3px;
+  padding: 2px 5px;
+}
+
+.direct-answer {
+  background: var(--ink);
+  color: white;
+  padding: 35px !important;
+}
+
+.direct-answer > p:first-child,
+.section-kicker {
+  color: var(--amber) !important;
+  font-family: "DM Mono", monospace;
+  font-size: 9px !important;
+  letter-spacing: 0.13em;
+}
+
+.direct-answer h2 {
+  color: white;
+}
+
+.direct-answer > p:last-child {
+  color: #c7d1cc;
+}
+
+.technology-table > div {
+  align-items: start;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 30px 130px 1fr;
+  padding: 20px 0;
+}
+
+.technology-table span {
+  color: var(--amber);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+}
+
+.technology-table p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.commit-history {
+  list-style: none;
+  margin: 35px 0 0;
+  padding: 0;
+}
+
+.commit-history li {
+  border-left: 1px solid var(--line);
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 110px 1fr;
+  padding: 0 0 30px 25px;
+  position: relative;
+}
+
+.commit-history li::before {
+  background: var(--amber);
+  border-radius: 50%;
+  content: "";
+  height: 8px;
+  left: -5px;
+  position: absolute;
+  top: 8px;
+  width: 8px;
+}
+
+.commit-history time,
+.commit-history a {
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+}
+
+.commit-history strong,
+.commit-history a {
+  display: block;
+}
+
+.commit-history strong {
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.commit-history a {
+  color: #6f7f77;
+  margin-top: 6px;
+}
+
+.learning-list {
+  display: grid;
+  gap: 1px;
+  list-style: none;
+  padding: 0;
+}
+
+.learning-list li {
+  background: #e7e6dc;
+  padding: 22px;
+}
+
+.learning-list strong {
+  color: var(--ink);
+}
+
+.learning-list p {
+  font-size: 12px;
+  margin: 5px 0 0;
+}
+
+.faq-list details {
+  border-top: 1px solid var(--line);
+  padding: 20px 0;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.faq-list p {
+  font-size: 13px;
+}
+
+.source-note {
+  background: #e1e1d5;
+  margin-top: 55px;
+  padding: 25px;
+}
+
+.source-note p,
+.source-note a {
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.source-note a {
+  font-weight: 800;
+}
+
+@media (max-width: 850px) {
+  .repository-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .repository-card:nth-child(3n + 1) {
+    border-left: 0;
+  }
+  .repository-card:nth-child(2n + 1) {
+    border-left: 1px solid var(--line);
+  }
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+  .article-toc {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .repository-grid {
+    grid-template-columns: 1fr;
+  }
+  .repository-card {
+    border-left: 1px solid var(--line) !important;
+  }
+  .article-facts {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .technology-table > div,
+  .commit-history li {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}

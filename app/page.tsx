@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const articles = [
   {
     number: "01",
@@ -65,7 +67,7 @@ export default function Home() {
           </span>
         </a>
         <nav aria-label="メインナビゲーション">
-          <a href="#articles">記事</a>
+          <Link href="/articles">記事</Link>
           <a href="#timeline">学習年表</a>
           <a href="#project">プロジェクト</a>
           <a href="#about">プロフィール</a>
@@ -161,7 +163,8 @@ export default function Home() {
           ))}
         </div>
         <p className="coming-note">
-          最初の記事は現在執筆中です。公開までの過程も、このサイトの最初の記録になります。
+          GitHubの公開コミットを根拠にした技術解説を公開しています。{" "}
+          <Link href="/articles">全記事を見る →</Link>
         </p>
       </section>
 
