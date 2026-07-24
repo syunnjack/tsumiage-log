@@ -1,4 +1,5 @@
 import repositoryData from "../data/repositories.json"
+import contentPolicy from "../data/content-policy.json"
 
 export type RepositoryArticle = {
   slug: string; name: string; displayName: string; description: string
@@ -8,7 +9,10 @@ export type RepositoryArticle = {
   updatedAt: string; stars: number; forks: number
 }
 
-export const articles = repositoryData.articles as RepositoryArticle[]
+const excludedRepositories = new Set(contentPolicy.excludedRepositories)
+export const articles = (repositoryData.articles as RepositoryArticle[]).filter(
+  (article) => !excludedRepositories.has(article.name),
+)
 export const articleStats = repositoryData
 export const getArticle = (slug: string) =>
   articles.find((article) => article.slug === slug)

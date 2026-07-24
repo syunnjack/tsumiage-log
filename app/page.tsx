@@ -4,27 +4,27 @@ const articles = [
   {
     number: "01",
     category: "はじめに",
-    title: "学生時代から、Reactでタスク管理アプリを公開するまで",
+    title: "GoalPilotで学ぶ、続けられる目標管理の設計",
     excerpt:
-      "技術に興味を持ったきっかけから、最初の個人開発を公開するまで。遠回りも含めて、現在地を振り返ります。",
+      "挫折を前提にしたタスク設計、3分スタート、リカバリーモードの実装過程をコミットから振り返ります。",
     date: "2026.07.25",
     readTime: "8 min",
   },
   {
     number: "02",
     category: "React",
-    title: "つくりながら理解する、Reactの状態管理",
+    title: "地図検索サービスを再利用可能な構成にする",
     excerpt:
-      "タスクの追加・完了・削除を題材に、状態をどこに置き、どう更新するかを実装から考えます。",
+      "Leafletを使った地図と検索結果の連動、カテゴリ設計、ローカル検索の共通化を考えます。",
     date: "準備中",
     readTime: "—",
   },
   {
     number: "03",
     category: "Web",
-    title: "localStorageでデータを残すときに考えたこと",
+    title: "高速バス比較サービスのデータ同期設計",
     excerpt:
-      "手軽な永続化の裏側にある制約、壊れたデータへの備え、次の設計へ進む判断をまとめます。",
+      "CSV取り込み、重複排除、運行会社API、定期同期へと拡張したコミットの流れを解説します。",
     date: "準備中",
     readTime: "—",
   },
@@ -201,23 +201,23 @@ export default function Home() {
               FEATURED PROJECT
             </p>
             <p className="project-number">PROJECT / 001</p>
-            <h2>Task Dashboard</h2>
+            <h2>GoalPilot</h2>
             <p className="project-description">
-              毎日のタスクを、迷わず記録して進めるためのWebアプリ。
-              Reactでの状態管理、ブラウザ保存、GitHub Pagesへの公開を実践しています。
+              三日坊主になることを前提に、目標へ戻る仕組みを設計したWebアプリ。
+              逆算スケジュール、3分スタート、挫折リスクの可視化を実践しています。
             </p>
             <div className="tags">
               <span>React 19</span>
               <span>Vite</span>
-              <span>localStorage</span>
-              <span>GitHub Actions</span>
+              <span>Next.js</span>
+              <span>Capacitor</span>
             </div>
-            <a
+            <Link
               className="button primary"
-              href="https://syunnjack.github.io/task-dashboard/"
+              href="/articles/goal-pilot-app"
             >
               プロジェクトを見る <span aria-hidden="true">↗</span>
-            </a>
+            </Link>
           </div>
           <div className="project-preview" aria-hidden="true">
             <div className="preview-window">
@@ -225,19 +225,19 @@ export default function Home() {
                 <i />
                 <i />
                 <i />
-                <span>task-dashboard</span>
+                <span>goal-pilot</span>
               </div>
               <div className="preview-content">
                 <p>TODAY</p>
-                <strong>今日の積み上げ</strong>
+                <strong>今日の3分スタート</strong>
                 <div className="preview-task done">
-                  <i /> Reactの状態管理を復習する
+                  <i /> 最初の小さな行動を決める
                 </div>
                 <div className="preview-task">
-                  <i /> 技術記事の構成を考える
+                  <i /> 3分タイマーを開始する
                 </div>
                 <div className="preview-task">
-                  <i /> 変更をコミットする
+                  <i /> 今日の進捗を記録する
                 </div>
                 <div className="preview-progress">
                   <span />

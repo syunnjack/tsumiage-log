@@ -1,9 +1,13 @@
 import { execFileSync } from "node:child_process"
-import { mkdirSync, writeFileSync } from "node:fs"
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { dirname, resolve } from "node:path"
 
 const owner = "syunnjack"
 const outputPath = resolve("app/data/repositories.json")
+const contentPolicy = JSON.parse(
+  readFileSync(resolve("app/data/content-policy.json"), "utf8"),
+)
+const excludedRepositories = new Set(contentPolicy.excludedRepositories)
 
 function gh(args, fallback = null) {
   try {
@@ -54,7 +58,8 @@ const publishable = repositories.filter(
     !repo.isPrivate &&
     !repo.isFork &&
     !repo.isArchived &&
-    repo.defaultBranchRef?.name,
+    repo.defaultBranchRef?.name &&
+    !excludedRepositories.has(repo.name),
 )
 
 const collected = publishable.map((repo, index) => {

@@ -1,0 +1,16 @@
+{
+  "excludedRepositories": [
+    "affiliate-feed-core",
+    "content-stream-finder",
+    "darekore-affiliate-site",
+    "darekore-site",
+    "dvd-jan-scan-db",
+    "fanza-sdk",
+    "licensed-video-guide",
+    "machi-list",
+    "rakuafi-tool",
+    "task-dashboard",
+    "work-catalog"
+  ],
+  "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。"
+}
