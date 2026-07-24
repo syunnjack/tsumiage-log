@@ -52,6 +52,14 @@ jobs:
           npm run lint
           npm run build
 
+      - name: Close resolved failure alert
+        run: |
+          title="記事自動化エラー"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "再実行が正常に監査とビルドを通過したため、自動的にクローズします。"
+          fi
+
       - name: Detect updates
         id: changes
         run: |

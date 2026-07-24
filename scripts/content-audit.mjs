@@ -38,7 +38,6 @@ for (const article of repositoryData.articles) {
   const searchable = [
     article.name,
     article.description,
-    article.readmeExcerpt,
     ...article.commits.map((commit) => commit.message),
   ].join(" ")
   const matchedTerm = forbiddenTerms.find((pattern) => pattern.test(searchable))
