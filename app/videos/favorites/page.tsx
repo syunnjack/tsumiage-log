@@ -5,11 +5,11 @@ import favoriteVideoData from "../../data/favorite-videos.json"
 export const metadata: Metadata = {
   title: "気に入った動画 | 積み上げログ",
   description:
-    "技術、学習、F1・モータースポーツなど、実際に見て気に入った動画を選定理由とともに紹介します。",
+    "技術、F1、お笑い、犬猫の癒やし、好きな楽曲など、実際に見て気に入った動画を選定理由とともに紹介します。",
   alternates: { canonical: "/videos/favorites" },
   openGraph: {
     title: "気に入った動画 | 積み上げログ",
-    description: "実際に見て気に入った動画を、テーマと選定理由から探せます。",
+    description: "技術、F1、お笑い、犬猫、音楽から、実際に見て気に入った動画を探せます。",
     url: "/videos/favorites",
     images: ["/og.png"],
   },
@@ -80,7 +80,7 @@ export default function FavoriteVideosPage() {
         <p>QUICK ANSWER</p>
         <h2>このカテゴリで紹介する動画は？</h2>
         <p>
-          技術や学習に役立つ動画だけでなく、F1、映像、趣味など、
+          技術や学習に役立つ動画だけでなく、F1、お笑い、犬・猫、音楽など、
           実際に視聴して人に紹介したいと思った動画を掲載します。
           公開後も内容を見直し、古くなった情報には注記します。
         </p>
@@ -156,10 +156,10 @@ export default function FavoriteVideosPage() {
         <p className="section-kicker">SELECTION POLICY</p>
         <h2>動画の選定基準</h2>
         <ol>
-          <li><span>01</span><div><strong>正確さ</strong><p>公式資料や実際の挙動と照らして、誤解を招く説明がないか確認します。</p></div></li>
-          <li><span>02</span><div><strong>分かりやすさ</strong><p>前提、手順、理由が整理され、視聴後に説明できる内容を選びます。</p></div></li>
-          <li><span>03</span><div><strong>実践性</strong><p>見て終わらず、自分のコードや学習に応用できる動画を優先します。</p></div></li>
-          <li><span>04</span><div><strong>透明性</strong><p>紹介理由と対象者を明記し、広告や利害関係がある場合は表示します。</p></div></li>
+          <li><span>01</span><div><strong>実際に視聴</strong><p>タイトルだけで選ばず、実際に見て気に入った動画を掲載します。</p></div></li>
+          <li><span>02</span><div><strong>紹介理由</strong><p>面白かった点、癒やされた点、学べたことなど、自分の言葉で理由を添えます。</p></div></li>
+          <li><span>03</span><div><strong>正規の配信元</strong><p>楽曲や番組は、公式チャンネルや権利者が認めた配信元を優先します。</p></div></li>
+          <li><span>04</span><div><strong>透明性</strong><p>制作者と元動画へリンクし、広告や利害関係がある場合は明記します。</p></div></li>
         </ol>
       </section>
     </main>

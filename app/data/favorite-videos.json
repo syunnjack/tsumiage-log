@@ -25,6 +25,21 @@
       "slug": "f1-motorsport",
       "name": "F1・モータースポーツ",
       "description": "F1の歴史、映像表現、名勝負など、印象に残ったモータースポーツ動画"
+    },
+    {
+      "slug": "comedy",
+      "name": "お笑い",
+      "description": "漫才、コント、トークなど、何度でも見たくなるお気に入りのお笑い動画"
+    },
+    {
+      "slug": "dogs-cats",
+      "name": "犬・猫の癒やし",
+      "description": "犬や猫の日常、かわいい仕草、心が落ち着く癒やしの動画"
+    },
+    {
+      "slug": "favorite-music",
+      "name": "好きな楽曲",
+      "description": "公式ミュージックビデオ、ライブ映像など、繰り返し聴きたい好きな楽曲"
     }
   ],
   "videos": [

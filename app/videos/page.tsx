@@ -49,7 +49,7 @@ export default function VideosPage() {
           <div>
             <p>CURATED FAVORITES</p>
             <h2>気に入った動画</h2>
-            <span>技術からF1まで、実際に見て印象に残った動画を紹介します。</span>
+            <span>技術、F1、お笑い、犬猫、音楽など、実際に見て印象に残った動画を紹介します。</span>
           </div>
           <strong>お気に入りを見る →</strong>
         </Link>
