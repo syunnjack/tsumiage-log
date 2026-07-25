@@ -1,9 +1,57 @@
 {
-  "generatedAt": "2026-07-24T22:04:26.034Z",
+  "generatedAt": "2026-07-25T18:36:41.043Z",
   "owner": "syunnjack",
-  "totalRepositories": 127,
-  "publicRepositories": 127,
+  "totalRepositories": 129,
+  "publicRepositories": 129,
   "articles": [
+    {
+      "slug": "akecom-spa2x-ryu",
+      "name": "akecom-spa2x-ryu",
+      "displayName": "Akecom Spa2x Ryu",
+      "description": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
+      "readmeExcerpt": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです。 ブラウザ上で入力を記録し、 中K → ↓↘→↓↘→ + P の順序と所要フレームを判定します。ゲームへコマンドを送るマクロではありません。 使い方 1. GitHub Pagesで公開されたページをスマートフォンまたはPCで開く 2. 「練習開始」を押す 3. 画面の十字キーとボタン、キーボード、またはPCに接続したUSBアケコンで入力する 4. 判定結果と入力履歴を見て、速度と抜けた方向を修正する キーボード 方向: 矢印キー 中K: J 弱P／中P／強P: U ／ I ／ O 向き変更: F リセット: Esc USBアケコン ブラウザのGamepad APIを使用します。「アケコン接続」を押してから、レバーまたはボタンを一度入力してください。機種ごとにボタン番号が異なるため、設定画面で中Kとパンチの番号を変更できます。 判定について 60 fps換算で入力間隔を表示します。 初期設定のキャンセル猶予は16フレームです。実機・移植・基板設定に合わせて調整してください。 方向入力は右向き／左向きの両方に対応します。 成功判定は練習用の目安であり、ゲーム内部の受付処理を完全に再現するものではありません。 ゲームセンターでの利用 筐体や店舗設備には接続・改造せず、スマートフォンのテンポ提示と入力イメージ練習に使ってください。実機入力を取得する場合は、店舗管理者の許可を得たうえで、自分のアケコンと絶縁したセンサーを使用してください。 Picoについて 最初の段階ではラズパイは不要です。PCとUSBアケコンがあれば入力解析できます。将来、物理スイッチの入力取得器を作る場合は Raspberry Pi Pico 2、フォトカプラ、抵抗、配線材を使い、ゲーム側へ入力を注入しない「読み取り専用」にします。 ローカル起動 静的ファイルだけで動作します。 http://localhost:8080 を開いてください。",
+      "url": "https://github.com/syunnjack/akecom-spa2x-ryu",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [
+        "README.md"
+      ],
+      "commits": [
+        {
+          "sha": "4417348",
+          "message": "Initialize training tool documentation",
+          "date": "2026-07-25T12:04:44Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/4417348653e58a10bca9057f96702d1b94e541e5"
+        }
+      ],
+      "updatedAt": "2026-07-25T12:04:48Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "chutonavi",
+      "name": "chutonavi",
+      "displayName": "Chutonavi",
+      "description": "Chutonaviの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/chutonavi",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "2f4bdf8",
+          "message": "chore: initialize repository",
+          "date": "2026-07-25T00:01:06Z",
+          "url": "https://github.com/syunnjack/chutonavi/commit/2f4bdf8373cdff5197baefadd86bb14a4b4313ca"
+        }
+      ],
+      "updatedAt": "2026-07-25T00:01:13Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -40,6 +88,42 @@
       ],
       "commits": [
         {
+          "sha": "79b838a",
+          "message": "Add new favorites and affiliate-ready Hulu pathway",
+          "date": "2026-07-25T06:23:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
+        },
+        {
+          "sha": "05ef868",
+          "message": "Add travel sports entertainment and pet favorites",
+          "date": "2026-07-25T06:15:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
+        },
+        {
+          "sha": "df9cf6a",
+          "message": "Add comedy gaming and development favorites",
+          "date": "2026-07-25T06:12:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/df9cf6a9d84553a468ead1e44e5736e3e7563afd"
+        },
+        {
+          "sha": "3a6c35a",
+          "message": "Expand favorite video categories",
+          "date": "2026-07-25T00:20:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3a6c35a596fb3bcb885a8429c6ea3854f38e2314"
+        },
+        {
+          "sha": "05fc645",
+          "message": "Add curated favorite video category",
+          "date": "2026-07-24T23:48:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/05fc6450a79ac70d6fc4612c55ff915e20d223b2"
+        },
+        {
+          "sha": "41b68ee",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-24T22:04:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/41b68ee4e3956a817cdc0b4c9a2be02c68f7227d"
+        },
+        {
           "sha": "47fe551",
           "message": "Fix content automation safety audit",
           "date": "2026-07-24T22:02:21Z",
@@ -74,15 +158,9 @@
           "message": "Publish GitHub repository technical articles",
           "date": "2026-07-24T21:30:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cfb2416d57e1fe6fc2746a84b39ba59cc8a0b32c"
-        },
-        {
-          "sha": "00e4e9e",
-          "message": "Create initial Tsumia​ge Log website",
-          "date": "2026-07-24T21:05:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/00e4e9e5ff9617a7b8e4396e4f28b6e5b67b8f12"
         }
       ],
-      "updatedAt": "2026-07-24T22:02:27Z",
+      "updatedAt": "2026-07-25T06:23:14Z",
       "stars": 0,
       "forks": 0
     },
