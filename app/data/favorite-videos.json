@@ -45,6 +45,26 @@
       "slug": "games-esports",
       "name": "ゲーム・対戦",
       "description": "対戦ゲーム、大会、実況配信など、熱量や駆け引きを楽しめる動画"
+    },
+    {
+      "slug": "travel-lifestyle",
+      "name": "旅・街歩き",
+      "description": "地域の魅力、人との出会い、街の空気を楽しめる旅や街歩きの動画"
+    },
+    {
+      "slug": "sports",
+      "name": "スポーツ",
+      "description": "大会、名勝負、選手の技術など、競技の魅力と緊張感を楽しめる動画"
+    },
+    {
+      "slug": "history-drama",
+      "name": "歴史・ドラマ",
+      "description": "歴史上の物語、人物、時代背景を映像で楽しめる動画"
+    },
+    {
+      "slug": "entertainment-idols",
+      "name": "エンタメ・アイドル",
+      "description": "バラエティ、アイドル番組など、出演者の個性と企画を楽しめる動画"
     }
   ],
   "videos": [
@@ -119,6 +139,78 @@
       "sourceUrl": "https://www.youtube.com/watch?v=xzV7B-5KaG4",
       "embedUrl": "https://www.youtube-nocookie.com/embed/xzV7B-5KaG4",
       "thumbnailUrl": "https://i.ytimg.com/vi/xzV7B-5KaG4/hqdefault.jpg"
+    },
+    {
+      "id": "PoVDDjhFm_E",
+      "title": "いい福みつけ旅 第283回 三橋くん 佐野なぎさ 福盛訓之",
+      "author": "いい福みつけ旅",
+      "authorUrl": "https://www.youtube.com/@%E3%81%84%E3%81%84%E7%A6%8F%E3%81%BF%E3%81%A4%E3%81%91%E6%97%85",
+      "category": "travel-lifestyle",
+      "description": "出演者が地域を訪ね、人や場所との出会いを通して街の魅力を紹介する『いい福みつけ旅』第283回です。",
+      "selectionReason": "観光情報だけでなく、出演者と地域の人とのやり取りから土地の雰囲気を感じられる点が魅力です。",
+      "sourceUrl": "https://www.youtube.com/watch?v=PoVDDjhFm_E",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/PoVDDjhFm_E",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PoVDDjhFm_E/hqdefault.jpg"
+    },
+    {
+      "id": "7c_zxfwlMuk",
+      "title": "「HANDA CUP」・第54回全日本女子プロボウリング選手権大会／準決勝",
+      "author": "BOWLING ch",
+      "authorUrl": "https://www.youtube.com/@bowlingch4421",
+      "category": "sports",
+      "description": "第54回全日本女子プロボウリング選手権大会『HANDA CUP』準決勝の競技映像です。",
+      "selectionReason": "トップ選手の投球技術と、決勝進出を懸けた試合ならではの緊張感をじっくり見られます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=7c_zxfwlMuk",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/7c_zxfwlMuk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7c_zxfwlMuk/hqdefault.jpg"
+    },
+    {
+      "id": "pkYGNnW1xCA",
+      "title": "THREE KINGDOMS 第7巻",
+      "author": "china01",
+      "authorUrl": "https://www.youtube.com/@matgay2001",
+      "category": "history-drama",
+      "description": "三国志の世界と登場人物を描く映像作品『THREE KINGDOMS』第7巻です。",
+      "selectionReason": "三国志の人物関係や時代の動きを、映像と演技を通して追える点が印象に残ります。",
+      "sourceUrl": "https://www.youtube.com/watch?v=pkYGNnW1xCA",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pkYGNnW1xCA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pkYGNnW1xCA/hqdefault.jpg"
+    },
+    {
+      "id": "3bgEAMUnzTA",
+      "title": "お客さんが知らない猫カフェの裏側",
+      "author": "猫カフェMOCHA",
+      "authorUrl": "https://www.youtube.com/@catcafemocha",
+      "category": "dogs-cats",
+      "description": "猫カフェMOCHAが、営業中には見えにくい猫カフェの日常やスタッフの仕事を紹介する動画です。",
+      "selectionReason": "かわいい猫たちの姿に加え、健康や快適さを支えるスタッフの仕事も知ることができます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=3bgEAMUnzTA",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3bgEAMUnzTA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3bgEAMUnzTA/hqdefault.jpg"
+    },
+    {
+      "id": "yAIFTX_I4gc",
+      "title": "【公式】「乃木坂工事中」#571「第5回 内輪ウケものまね大賞 前編」2026.07.05 OA",
+      "author": "乃木坂配信中",
+      "authorUrl": "https://www.youtube.com/@nogizakahaishinchu",
+      "category": "entertainment-idols",
+      "description": "乃木坂46メンバーが身近なメンバーの特徴をものまねする『内輪ウケものまね大賞』第5回の前編です。",
+      "selectionReason": "メンバー同士だから気付ける細かな特徴と、それを表現する観察力を楽しめる企画です。",
+      "sourceUrl": "https://www.youtube.com/watch?v=yAIFTX_I4gc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/yAIFTX_I4gc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yAIFTX_I4gc/hqdefault.jpg"
+    },
+    {
+      "id": "ncEFEjyh78Q",
+      "title": "【因縁】第7回ツッコまれたい女たち！タイムマシーン3号山本vs青山天南&インパルス板倉！",
+      "author": "佐久間宣行のNOBROCK TV",
+      "authorUrl": "https://www.youtube.com/@NOBROCKTV",
+      "category": "comedy",
+      "description": "タイムマシーン3号・山本さんとインパルス・板倉さんが出演する『ツッコまれたい女たち』第7回です。",
+      "selectionReason": "芸人同士の世代を越えた掛け合いと、それぞれのツッコミの違いを楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=ncEFEjyh78Q",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ncEFEjyh78Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ncEFEjyh78Q/hqdefault.jpg"
     }
   ]
 }
