@@ -121,9 +121,30 @@ export default function FavoriteVideosPage() {
                   <strong>気に入った理由</strong>
                   <p>{video.selectionReason}</p>
                 </div>
+                {"sourceNote" in video && video.sourceNote && (
+                  <p className="video-source-note">{video.sourceNote}</p>
+                )}
                 <a className="youtube-source-link" href={video.sourceUrl}>
                   YouTubeで元動画を見る ↗
                 </a>
+                {"ctaUrl" in video && video.ctaUrl && (
+                  <div className="video-service-cta">
+                    {"affiliatePending" in video && video.affiliatePending && (
+                      <span>アフィリエイト導線準備中</span>
+                    )}
+                    <a
+                      href={video.ctaUrl}
+                      rel={"isAffiliate" in video && video.isAffiliate ? "sponsored noopener" : "noopener"}
+                    >
+                      {"ctaLabel" in video ? video.ctaLabel : "関連サービスを見る"} ↗
+                    </a>
+                    <small>
+                      {"isAffiliate" in video && video.isAffiliate
+                        ? "PR：リンク経由の申込みで運営者に報酬が発生する場合があります。"
+                        : "現在は通常の公式サイトリンクです。広告リンクではありません。"}
+                    </small>
+                  </div>
+                )}
               </div>
             </article>
           ))}

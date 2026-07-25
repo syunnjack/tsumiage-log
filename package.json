@@ -14,6 +14,7 @@
     "content:collect": "node scripts/collect-github-repositories.mjs",
     "content:audit": "node scripts/content-audit.mjs",
     "content:update": "npm run content:collect && npm run content:audit && npm run lint && npm run build",
+    "video:audit": "node scripts/video-audit.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

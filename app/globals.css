@@ -1358,6 +1358,51 @@ footer > a {
   padding-bottom: 5px;
 }
 
+.video-source-note {
+  background: #f0dfb6;
+  border: 1px solid #d6ba79;
+  color: #604e26 !important;
+  font-size: 10px !important;
+  line-height: 1.7 !important;
+  margin: 18px 0 0 !important;
+  padding: 10px 12px;
+}
+
+.video-service-cta {
+  background: var(--ink);
+  border-left: 0 !important;
+  color: white;
+  margin-top: 24px;
+  padding: 18px !important;
+}
+
+.video-service-cta > span,
+.video-service-cta > a,
+.video-service-cta > small {
+  display: block;
+}
+
+.video-service-cta > span {
+  color: var(--amber);
+  font-family: "DM Mono", monospace;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.video-service-cta > a {
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.video-service-cta > small {
+  color: #b8c5bf;
+  font-size: 8px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
 .favorite-category-grid {
   border-top: 1px solid var(--ink);
 }
