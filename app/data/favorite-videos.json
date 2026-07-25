@@ -40,6 +40,11 @@
       "slug": "favorite-music",
       "name": "好きな楽曲",
       "description": "公式ミュージックビデオ、ライブ映像など、繰り返し聴きたい好きな楽曲"
+    },
+    {
+      "slug": "games-esports",
+      "name": "ゲーム・対戦",
+      "description": "対戦ゲーム、大会、実況配信など、熱量や駆け引きを楽しめる動画"
     }
   ],
   "videos": [
@@ -66,6 +71,54 @@
       "sourceUrl": "https://www.youtube.com/watch?v=_n_1SouMIFE",
       "embedUrl": "https://www.youtube-nocookie.com/embed/_n_1SouMIFE",
       "thumbnailUrl": "https://i.ytimg.com/vi/_n_1SouMIFE/hqdefault.jpg"
+    },
+    {
+      "id": "QcPSaXWCAGQ",
+      "title": "【ブチギレ逆ドッキリ】キレる芝居がうますぎる女優 伊勢川乃亜が、ニセ仕掛け人ザ・マミィ酒井の横柄な態度にブチギレ連発！",
+      "author": "佐久間宣行のNOBROCK TV",
+      "authorUrl": "https://www.youtube.com/@NOBROCKTV",
+      "category": "comedy",
+      "description": "伊勢川乃亜さんとザ・マミィ酒井さんによる、仕掛ける側が逆に追い込まれていくブチギレ逆ドッキリ企画です。",
+      "selectionReason": "怒りの芝居の迫力と、ニセ仕掛け人の想定を超えて展開していく逆ドッキリの構成が見どころです。",
+      "sourceUrl": "https://www.youtube.com/watch?v=QcPSaXWCAGQ",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/QcPSaXWCAGQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QcPSaXWCAGQ/hqdefault.jpg"
+    },
+    {
+      "id": "1FUF7H4XvVY",
+      "title": "【逆ドッキリ】ブチギレ演技うますぎ女優伊勢川乃亜が、仕掛け人だと思って最低演技を連発する真空ジェシカガクの何倍もキレまくる！",
+      "author": "佐久間宣行のNOBROCK TV",
+      "authorUrl": "https://www.youtube.com/@NOBROCKTV",
+      "category": "comedy",
+      "description": "仕掛け人のつもりで演技する真空ジェシカ・ガクさんに対し、伊勢川乃亜さんがさらに強い演技で返す逆ドッキリ企画です。",
+      "selectionReason": "仕掛ける側と仕掛けられる側の立場が崩れていく展開と、両者のリアクションを楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=1FUF7H4XvVY",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1FUF7H4XvVY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1FUF7H4XvVY/hqdefault.jpg"
+    },
+    {
+      "id": "2BmcXbxQLyk",
+      "title": "配信round738 スパ2X 8.8店舗大会G3同キャラ杯【バルログ】野試合・東西戦 ポート24浜松",
+      "author": "スパ2xポート24浜松",
+      "authorUrl": "https://www.youtube.com/@%E3%82%B9%E3%83%912x%E3%83%9D%E3%83%BC%E3%83%8824%E6%B5%9C%E6%9D%BE",
+      "category": "games-esports",
+      "description": "ポート24浜松から配信された『スーパーストリートファイターII X』の同キャラ杯、野試合、東西戦を収録した長時間ライブ配信です。",
+      "selectionReason": "対戦ごとの読み合いに加え、店舗大会ならではの空気と長時間配信の熱量を楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=2BmcXbxQLyk",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2BmcXbxQLyk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2BmcXbxQLyk/hqdefault.jpg"
+    },
+    {
+      "id": "xzV7B-5KaG4",
+      "title": "【アイデアをお金に】Claude Codeで一人アプリ開発で成功するまでのロードマップ完全版",
+      "author": "プログラミングチュートリアル",
+      "authorUrl": "https://www.youtube.com/@programming_tutorial_youtube",
+      "category": "web-development",
+      "description": "Claude Codeを活用した一人でのアプリ開発について、アイデアから開発、公開、収益化までのロードマップを解説する動画です。",
+      "selectionReason": "ツールの操作だけでなく、個人開発を成果につなげるまでの流れを一つのロードマップとして確認できる点が参考になります。",
+      "sourceUrl": "https://www.youtube.com/watch?v=xzV7B-5KaG4",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/xzV7B-5KaG4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xzV7B-5KaG4/hqdefault.jpg"
     }
   ]
 }

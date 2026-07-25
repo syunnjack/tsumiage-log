@@ -108,7 +108,12 @@ export default function FavoriteVideosPage() {
                 />
               </div>
               <div className="favorite-video-copy">
-                <p>{String(index + 1).padStart(2, "0")} / F1・モータースポーツ</p>
+                <p>
+                  {String(index + 1).padStart(2, "0")} /{" "}
+                  {favoriteVideoData.categories.find(
+                    (category) => category.slug === video.category,
+                  )?.name ?? "お気に入り"}
+                </p>
                 <h2>{video.title}</h2>
                 <a href={video.authorUrl}>{video.author} ↗</a>
                 <p>{video.description}</p>
