@@ -47,6 +47,9 @@ jobs:
         id: audit
         run: npm run content:audit
 
+      - name: Audit original articles
+        run: npm run manual:audit
+
       - name: Validate site
         run: |
           npm run video:audit

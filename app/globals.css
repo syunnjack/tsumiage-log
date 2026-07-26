@@ -875,6 +875,11 @@ footer > a {
   padding: 0 max(24px, calc((100vw - 1160px) / 2)) 100px;
 }
 
+.manual-article-card { border-top: 4px solid var(--accent, #d46b35); }
+.manual-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.manual-tags span { border: 1px solid currentColor; border-radius: 999px; font-size: 0.75rem; padding: 0.25rem 0.65rem; }
+.manual-article-layout pre { margin: 1.5rem 0; overflow-x: auto; border-radius: 0.5rem; background: #17211d; color: #f6f2e8; padding: 1.25rem; line-height: 1.7; }
+
 .repository-card {
   border-bottom: 1px solid var(--line);
   border-right: 1px solid var(--line);

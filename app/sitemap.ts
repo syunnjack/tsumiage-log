@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import { articles } from "./lib/repository-articles"
+import { manualArticles } from "./lib/manual-articles"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://syunnjack.dev"
@@ -13,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    })),
+    ...manualArticles.map((article) => ({
+      url: `${base}/articles/manual/${article.slug}`,
+      lastModified: new Date(article.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     })),
   ]
 }

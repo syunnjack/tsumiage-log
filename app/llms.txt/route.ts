@@ -1,4 +1,5 @@
 import { articles } from "../lib/repository-articles"
+import { manualArticles } from "../lib/manual-articles"
 
 export function GET() {
   const body = [
@@ -16,6 +17,12 @@ export function GET() {
     ...articles.map(
       (article) =>
         `- [${article.displayName}](https://syunnjack.dev/articles/${article.slug}): ${article.description}`,
+    ),
+    "",
+    "## Original articles",
+    ...manualArticles.map(
+      (article) =>
+        `- [${article.title}](https://syunnjack.dev/articles/manual/${article.slug}): ${article.description}`,
     ),
     "",
     "## Source policy",
