@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-26",
   "categories": [
     {
       "slug": "web-development",
@@ -361,6 +361,57 @@
       "sourceUrl": "https://www.youtube.com/watch?v=EKb6f3hzh5Q",
       "embedUrl": "https://www.youtube-nocookie.com/embed/EKb6f3hzh5Q",
       "thumbnailUrl": "https://i.ytimg.com/vi/EKb6f3hzh5Q/hqdefault.jpg"
+    },
+    {
+      "id": "x6s1uoPUVSs",
+      "title": "【F1】懐かしのF1ドライバー達に付けられたあだ名がヒドすぎた！",
+      "author": "F1channel音速の貴公子",
+      "authorUrl": "https://www.youtube.com/@F1channel",
+      "category": "f1-motorsport",
+      "description": "往年のF1ドライバーに付けられた個性的な愛称を振り返りながら、当時の選手像やF1文化を楽しむ動画です。",
+      "selectionReason": "レース結果とは違う角度からドライバーの個性と時代背景に触れられ、F1の記憶を楽しく振り返れます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=x6s1uoPUVSs",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/x6s1uoPUVSs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x6s1uoPUVSs/hqdefault.jpg"
+    },
+    {
+      "id": "d4cB1UHgf68",
+      "title": "ものまね レジェンド × 栗田貫一",
+      "author": "ものまね紅白",
+      "authorUrl": "https://www.youtube.com/@%E3%82%82%E3%81%AE%E3%81%BE%E3%81%AD%E7%B4%85%E7%99%BD",
+      "category": "comedy",
+      "description": "栗田貫一さんのものまね芸を楽しめる、ものまね番組の映像です。",
+      "selectionReason": "声色や歌い方の細かな再現と、長年磨かれたステージ表現をまとめて楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=d4cB1UHgf68",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/d4cB1UHgf68",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d4cB1UHgf68/hqdefault.jpg",
+      "sourceNote": "公式チャンネルからの配信であることを確認できないため、YouTube上の元動画を優先し、権利者による公開状況もあわせて確認してください。"
+    },
+    {
+      "id": "5sb7nvlvDHM",
+      "title": "③【阪神タイガース 掛布雅之】松村邦洋さん登場！ 大爆笑の野球モノマネメドレー",
+      "author": "桜坂ちゃんねる",
+      "authorUrl": "https://www.youtube.com/@%E6%A1%9C%E5%9D%82%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B",
+      "category": "comedy",
+      "description": "松村邦洋さんが阪神タイガースの掛布雅之さんをはじめ、野球にまつわるものまねを披露する動画です。",
+      "selectionReason": "野球への深い知識と観察力が笑いにつながる、松村さんならではのものまねを楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=5sb7nvlvDHM",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/5sb7nvlvDHM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5sb7nvlvDHM/hqdefault.jpg",
+      "sourceNote": "公式チャンネルからの配信であることを確認できないため、YouTube上の元動画を優先し、権利者による公開状況もあわせて確認してください。"
+    },
+    {
+      "id": "wk3kUuIvB7U",
+      "title": "桂文枝 襲名披露 口上に明石家さんま登場",
+      "author": "james",
+      "authorUrl": "https://www.youtube.com/@james-k1m2p",
+      "category": "comedy",
+      "description": "桂文枝さんの襲名披露口上に明石家さんまさんが登場する、華やかで笑いのある舞台映像です。",
+      "selectionReason": "伝統的な襲名披露の場と、さんまさんならではの話芸が交わる貴重な雰囲気を楽しめます。",
+      "sourceUrl": "https://www.youtube.com/watch?v=wk3kUuIvB7U",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/wk3kUuIvB7U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wk3kUuIvB7U/hqdefault.jpg",
+      "sourceNote": "公式チャンネルからの配信であることを確認できないため、YouTube上の元動画を優先し、権利者による公開状況もあわせて確認してください。"
     }
   ]
 }

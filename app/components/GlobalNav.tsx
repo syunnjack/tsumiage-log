@@ -1,6 +1,14 @@
 import Link from "next/link"
 
-const items = [["記事", "/articles"], ["ポートフォリオ", "/portfolio"], ["プロフィール", "/profile"], ["サービス", "/services"], ["見積依頼", "/estimate"], ["お問い合わせ", "/contact"]]
+const items = [
+  ["記事", "/articles"],
+  ["ポートフォリオ", "/portfolio"],
+  ["プロフィール", "/profile"],
+  ["サービス", "/services"],
+  ["見積依頼", "/estimate"],
+  ["お問い合わせ", "/contact"],
+  ["お気に入り動画", "/videos/favorites"],
+]
 
 export default function GlobalNav() {
   return <header className="global-header">
