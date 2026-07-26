@@ -1,23 +1,157 @@
 {
-  "generatedAt": "2026-07-25T18:36:41.043Z",
+  "generatedAt": "2026-07-26T18:37:37.890Z",
   "owner": "syunnjack",
-  "totalRepositories": 129,
-  "publicRepositories": 129,
+  "totalRepositories": 133,
+  "publicRepositories": 133,
   "articles": [
+    {
+      "slug": "autohensei",
+      "name": "autohensei",
+      "displayName": "Autohensei",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/autohensei",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "data",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "299ee4d",
+          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
+          "date": "2026-07-26T18:02:09Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
+        },
+        {
+          "sha": "48e7a13",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T17:52:39Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/48e7a13763f1e7aec36b91d37be280296b752240"
+        }
+      ],
+      "updatedAt": "2026-07-26T18:13:15Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "dqwalk-mukatoshin",
+      "name": "dqwalk-mukatoshin",
+      "displayName": "Dqwalk Mukatoshin",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/dqwalk-mukatoshin",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "data",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "299ee4d",
+          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
+          "date": "2026-07-26T18:02:09Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
+        },
+        {
+          "sha": "48e7a13",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T17:52:39Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/48e7a13763f1e7aec36b91d37be280296b752240"
+        }
+      ],
+      "updatedAt": "2026-07-26T18:02:21Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "akecom-spa2x-ryu",
       "name": "akecom-spa2x-ryu",
       "displayName": "Akecom Spa2x Ryu",
       "description": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
-      "readmeExcerpt": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです。 ブラウザ上で入力を記録し、 中K → ↓↘→↓↘→ + P の順序と所要フレームを判定します。ゲームへコマンドを送るマクロではありません。 使い方 1. GitHub Pagesで公開されたページをスマートフォンまたはPCで開く 2. 「練習開始」を押す 3. 画面の十字キーとボタン、キーボード、またはPCに接続したUSBアケコンで入力する 4. 判定結果と入力履歴を見て、速度と抜けた方向を修正する キーボード 方向: 矢印キー 中K: J 弱P／中P／強P: U ／ I ／ O 向き変更: F リセット: Esc USBアケコン ブラウザのGamepad APIを使用します。「アケコン接続」を押してから、レバーまたはボタンを一度入力してください。機種ごとにボタン番号が異なるため、設定画面で中Kとパンチの番号を変更できます。 判定について 60 fps換算で入力間隔を表示します。 初期設定のキャンセル猶予は16フレームです。実機・移植・基板設定に合わせて調整してください。 方向入力は右向き／左向きの両方に対応します。 成功判定は練習用の目安であり、ゲーム内部の受付処理を完全に再現するものではありません。 ゲームセンターでの利用 筐体や店舗設備には接続・改造せず、スマートフォンのテンポ提示と入力イメージ練習に使ってください。実機入力を取得する場合は、店舗管理者の許可を得たうえで、自分のアケコンと絶縁したセンサーを使用してください。 Picoについて 最初の段階ではラズパイは不要です。PCとUSBアケコンがあれば入力解析できます。将来、物理スイッチの入力取得器を作る場合は Raspberry Pi Pico 2、フォトカプラ、抵抗、配線材を使い、ゲーム側へ入力を注入しない「読み取り専用」にします。 ローカル起動 静的ファイルだけで動作します。 http://localhost:8080 を開いてください。",
+      "readmeExcerpt": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです。 ブラウザ上で入力を記録し、実戦的な仕込み入力 ↓↘→ → ↓＋中K → ↘→＋P （数値表記では 2362＋中K36＋P ）の順序と所要フレームを判定します。ゲームへコマンドを送るマクロではありません。 画面左側のレバー入力タイムラインには、方向記号、テンキー表記、9方向の略図、その方向を保持したフレーム数が表示されます。ニュートラルも記録するため、斜め抜けやレバーを戻す時間を確認できます。 中Kとパンチも方向入力の間へ記録されます。中Kは先行入力 2362 の成立、パンチは中K後の 36 と目標フレーム内の押下を検査し、成功・方向不足・遅い入力を色分けします。 使い方 1. GitHub Pagesで公開されたページをスマートフォンまたはPCで開く 2. ↓↘→ を先に入力し、続けて ↓＋中K 、中足が出たら素早く ↘→＋P と入力する 3. 判定結果と入力履歴を見て、速度と抜けた方向を修正する キーボード 方向: 矢印キー 中K: J 弱P／中P／強P: U ／ I ／ O 向き変更: F リセット: Esc USBアケコン ブラウザのGamepad APIを使用します。「アケコン接続」を押してから、レバーまたはボタンを一度入力してください。機種ごとにボタン番号が異なるため、設定画面で中Kとパンチの番号を変更できます。 判定について 60 fps換算で下中Kからパンチまでの入力間隔を表示します。 初期設定の中K後の目標時間は16フレームです。実機・移植・基板設定に合わせて調整してください。 方向入力は右向き／左向きの両方に対応します。 成功判定は練習用の目安であり、ゲーム内部の受付処理を完全に再現するものではありません。 ゲームセンターでの利用 筐体や店舗設備には接続・改造せず、スマートフォンのテンポ提示と入力イメージ練習に使ってください。実機入力を取得する場合は、店舗管理者の許可を得たうえで、自分のアケコンと",
       "url": "https://github.com/syunnjack/akecom-spa2x-ryu",
       "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
       "files": [
-        "README.md"
+        "LICENSE",
+        "README.md",
+        "app.js",
+        "index.html",
+        "manifest.webmanifest",
+        "style.css",
+        "sw.js"
       ],
       "commits": [
+        {
+          "sha": "064cce3",
+          "message": "入力フレームタイムラインを追加 (#5)",
+          "date": "2026-07-26T16:31:21Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/064cce31980ae233b86462ea215af6351bfbc1fc"
+        },
+        {
+          "sha": "d67b039",
+          "message": "アケコンの自動設定と入力モニターを追加 (#4)",
+          "date": "2026-07-26T06:50:50Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/d67b039772e1ac8f6f29050793623304ff01421f"
+        },
+        {
+          "sha": "dd58477",
+          "message": "真空波動拳の仕込み入力判定を実装 (#3)",
+          "date": "2026-07-25T19:03:47Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/dd584773b8a4f71c9894505f85982f8bb563643e"
+        },
+        {
+          "sha": "30f104b",
+          "message": "開始入力を下中Kへ修正 (#2)",
+          "date": "2026-07-25T18:53:29Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/30f104b3c638c685416b3066bb17a97a415d2586"
+        },
+        {
+          "sha": "8a26ac8",
+          "message": "中足キャンセル真空波動拳トレーナーを追加 (#1)",
+          "date": "2026-07-25T18:37:32Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/8a26ac851eda08dec49b3dee167f226a4829268c"
+        },
         {
           "sha": "4417348",
           "message": "Initialize training tool documentation",
@@ -25,30 +159,7 @@
           "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/4417348653e58a10bca9057f96702d1b94e541e5"
         }
       ],
-      "updatedAt": "2026-07-25T12:04:48Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "chutonavi",
-      "name": "chutonavi",
-      "displayName": "Chutonavi",
-      "description": "Chutonaviの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "",
-      "url": "https://github.com/syunnjack/chutonavi",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "2f4bdf8",
-          "message": "chore: initialize repository",
-          "date": "2026-07-25T00:01:06Z",
-          "url": "https://github.com/syunnjack/chutonavi/commit/2f4bdf8373cdff5197baefadd86bb14a4b4313ca"
-        }
-      ],
-      "updatedAt": "2026-07-25T00:01:13Z",
+      "updatedAt": "2026-07-26T16:31:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -71,6 +182,7 @@
         "app",
         "build",
         "db",
+        "docs",
         "drizzle.config.ts",
         "drizzle",
         "eslint.config.mjs",
@@ -87,6 +199,54 @@
         "worker"
       ],
       "commits": [
+        {
+          "sha": "e1bc413",
+          "message": "Add Three Kingdoms and Chu Han drama favorites",
+          "date": "2026-07-26T09:40:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
+        },
+        {
+          "sha": "820e171",
+          "message": "Add favorite videos menu and four selections",
+          "date": "2026-07-26T01:53:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
+        },
+        {
+          "sha": "7d9394c",
+          "message": "Add portfolio services and inquiry platform",
+          "date": "2026-07-26T00:32:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
+        },
+        {
+          "sha": "b6e4cf0",
+          "message": "Add original article publishing workflow",
+          "date": "2026-07-26T00:12:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
+        },
+        {
+          "sha": "c99ce01",
+          "message": "Add arcade and cat cafe favorite videos",
+          "date": "2026-07-25T22:35:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
+        },
+        {
+          "sha": "2ff4350",
+          "message": "Add Wangan Midnight beginner guide favorite",
+          "date": "2026-07-25T22:28:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
+        },
+        {
+          "sha": "3b11ab8",
+          "message": "Add Street Fighter voice actor favorite",
+          "date": "2026-07-25T19:33:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
+        },
+        {
+          "sha": "5fd2212",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-25T18:36:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
+        },
         {
           "sha": "79b838a",
           "message": "Add new favorites and affiliate-ready Hulu pathway",
@@ -110,57 +270,96 @@
           "message": "Expand favorite video categories",
           "date": "2026-07-25T00:20:54Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/3a6c35a596fb3bcb885a8429c6ea3854f38e2314"
-        },
-        {
-          "sha": "05fc645",
-          "message": "Add curated favorite video category",
-          "date": "2026-07-24T23:48:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/05fc6450a79ac70d6fc4612c55ff915e20d223b2"
-        },
-        {
-          "sha": "41b68ee",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-24T22:04:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/41b68ee4e3956a817cdc0b4c9a2be02c68f7227d"
-        },
-        {
-          "sha": "47fe551",
-          "message": "Fix content automation safety audit",
-          "date": "2026-07-24T22:02:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/47fe5513130ac4a96dab4b00742d4adf768c28db"
-        },
-        {
-          "sha": "d0e33ef",
-          "message": "Automate repository article updates and alerts",
-          "date": "2026-07-24T21:57:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0e33efd0f7202e130d72eb04f5f7cbed6246ace"
-        },
-        {
-          "sha": "191b5ce",
-          "message": "Add original video series pathways",
-          "date": "2026-07-24T21:48:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/191b5cec9d6f3784b9bdd21f8bfa45f485d835cf"
-        },
-        {
-          "sha": "980bfcd",
-          "message": "Add upcoming article video pathways",
-          "date": "2026-07-24T21:46:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/980bfcd8e5a3552ac64ff4583d105c13f685267b"
-        },
-        {
-          "sha": "f25b4f2",
-          "message": "Hide sensitive repository articles",
-          "date": "2026-07-24T21:41:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f25b4f244c75831441e85164efe2f08b39762940"
-        },
-        {
-          "sha": "cfb2416",
-          "message": "Publish GitHub repository technical articles",
-          "date": "2026-07-24T21:30:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cfb2416d57e1fe6fc2746a84b39ba59cc8a0b32c"
         }
       ],
-      "updatedAt": "2026-07-25T06:23:14Z",
+      "updatedAt": "2026-07-26T09:42:27Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "goal-pilot-app",
+      "name": "goal-pilot-app",
+      "displayName": "Goal Pilot App",
+      "description": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
+      "readmeExcerpt": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days. It combines backcasting, three minute starts, recovery mode, reward design, and relapse risk visibility. Repository goal pilot app Domain goalpilot.jp Product Concept Most goal apps assume users can keep going. GoalPilot assumes motivation will disappear, and designs a way back. Core Features Free three day quitting pattern diagnosis LINE reminder landing page SEO goal template library SNS progress card funnel Pro plan landing page Reward affiliate landing page Enhanced recovery mode with one minute comeback and comeback points Goal and deadline setup Backcast schedule generation Daily three minute starter task Three minute timer Task completion and streak tracking Relapse risk score Recovery mode that reduces unfinished tasks to three minutes Reward points and unlocked self rewards Fu",
+      "url": "https://github.com/syunnjack/goal-pilot-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "Java"
+      ],
+      "files": [
+        "README.md",
+        "android",
+        "app",
+        "capacitor.config.ts",
+        "components",
+        "docs",
+        "next-env.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "6d4a1a4",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-07-26T08:18:47Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
+        },
+        {
+          "sha": "67efa88",
+          "message": "Add GoalPilot growth funnels",
+          "date": "2026-07-26T07:26:06Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
+        },
+        {
+          "sha": "c26bb69",
+          "message": "Add three-day quitting diagnosis funnel",
+          "date": "2026-07-26T07:17:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c26bb69d4f30d2810cce675e15489053b5ba606c"
+        },
+        {
+          "sha": "300294d",
+          "message": "Add GoalPilot templates and reminder flows",
+          "date": "2026-07-24T09:41:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
+        },
+        {
+          "sha": "b7b821c",
+          "message": "Initial GoalPilot app",
+          "date": "2026-07-22T11:11:55Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
+        }
+      ],
+      "updatedAt": "2026-07-26T08:19:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "chutonavi",
+      "name": "chutonavi",
+      "displayName": "Chutonavi",
+      "description": "Chutonaviの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/chutonavi",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "2f4bdf8",
+          "message": "chore: initialize repository",
+          "date": "2026-07-25T00:01:06Z",
+          "url": "https://github.com/syunnjack/chutonavi/commit/2f4bdf8373cdff5197baefadd86bb14a4b4313ca"
+        }
+      ],
+      "updatedAt": "2026-07-25T00:01:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -212,52 +411,6 @@
         }
       ],
       "updatedAt": "2026-07-22T11:37:45Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "goal-pilot-app",
-      "name": "goal-pilot-app",
-      "displayName": "Goal Pilot App",
-      "description": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
-      "readmeExcerpt": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days. It combines backcasting, three minute starts, recovery mode, reward design, and relapse risk visibility. Repository goal pilot app Domain goalpilot.jp Product Concept Most goal apps assume users can keep going. GoalPilot assumes motivation will disappear, and designs a way back. Core Features Goal and deadline setup Backcast schedule generation Daily three minute starter task Three minute timer Task completion and streak tracking Relapse risk score Recovery mode that reduces unfinished tasks to three minutes Reward points and unlocked self rewards Future self identity statement Monetization panel for subscriptions, coaching, educational affiliate, and reward affiliate flows Behavioral Psychology Initial action arousal: motivation often appears after starting Implementation intention: c",
-      "url": "https://github.com/syunnjack/goal-pilot-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "Java"
-      ],
-      "files": [
-        "README.md",
-        "android",
-        "app",
-        "capacitor.config.ts",
-        "components",
-        "docs",
-        "next-env.d.ts",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "300294d",
-          "message": "Add GoalPilot templates and reminder flows",
-          "date": "2026-07-24T09:41:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
-        },
-        {
-          "sha": "b7b821c",
-          "message": "Initial GoalPilot app",
-          "date": "2026-07-22T11:11:55Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
-        }
-      ],
-      "updatedAt": "2026-07-24T09:49:33Z",
       "stars": 0,
       "forks": 0
     },
