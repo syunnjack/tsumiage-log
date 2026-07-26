@@ -11,6 +11,50 @@
   --white: #fffef9;
 }
 
+.global-header { position: sticky; top: 0; z-index: 100; display: flex; align-items: center; gap: 1.5rem; min-height: 74px; padding: .8rem clamp(1rem,4vw,4rem); background: rgba(247,244,235,.96); border-bottom: 1px solid rgba(23,33,29,.16); backdrop-filter: blur(12px); }
+.global-brand { display: flex; align-items: center; gap: .65rem; color: inherit; text-decoration: none; white-space: nowrap; }
+.global-brand > span { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: #1f6f55; color: white; }
+.global-brand strong { display: grid; font-size: .95rem; line-height: 1.1; }
+.global-brand small { font-size: .58rem; letter-spacing: .16em; font-weight: 500; }
+.global-header nav { display: flex; justify-content: center; flex: 1; gap: clamp(.7rem,2vw,1.7rem); }
+.global-header nav a, .global-github { color: inherit; font-size: .82rem; font-weight: 700; text-decoration: none; }
+.global-header nav a:hover { color: #1f6f55; }
+.global-github { border: 1px solid currentColor; padding: .55rem .8rem; }
+.site-header, .article-site-header { display: none; }
+.business-page { color: #17211d; background: #f7f4eb; min-height: 100vh; }
+.business-hero { padding: clamp(5rem,10vw,9rem) clamp(1.25rem,8vw,9rem); background: #17211d; color: #f7f4eb; }
+.business-hero h1 { max-width: 900px; margin: 1rem 0; font-size: clamp(2.5rem,7vw,6rem); line-height: 1.04; }
+.business-hero > p:last-child { max-width: 760px; font-size: clamp(1rem,2vw,1.3rem); line-height: 1.9; }
+.business-section { padding: clamp(4rem,8vw,8rem) clamp(1.25rem,8vw,9rem); }
+.work-grid, .service-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.work-grid article, .service-grid article { display: flex; flex-direction: column; gap: .85rem; min-height: 310px; padding: 1.7rem; border: 1px solid rgba(23,33,29,.2); background: white; }
+.work-grid article > span, .service-grid article > span { color: #b6542d; font: 700 .75rem monospace; }
+.work-grid h2, .service-grid h2 { margin: 0; font-size: 1.35rem; }
+.work-grid p, .service-grid p { line-height: 1.75; flex: 1; }
+.work-grid small, .service-grid small { display: inline-block; margin: .15rem; padding: .25rem .45rem; background: #eef2ec; }
+.work-grid a, .service-grid a { color: #1f6f55; font-weight: 800; }
+.profile-grid, .form-section { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.2fr); gap: clamp(2rem,7vw,7rem); }
+.career-list { list-style: none; padding: 0; border-left: 2px solid #1f6f55; }
+.career-list li { padding: 0 0 2rem 1.5rem; }
+.career-list p, .skill-list { line-height: 1.8; }
+.skill-list li { margin-bottom: 1rem; }
+.process { margin-top: 5rem; }
+.process ol { display: grid; grid-template-columns: repeat(4,1fr); list-style: none; padding: 0; }
+.process li { display: grid; gap: .4rem; padding: 1.25rem; border-top: 2px solid #1f6f55; }
+.inquiry-form { display: grid; gap: 1rem; padding: clamp(1.25rem,4vw,2.5rem); background: white; border: 1px solid rgba(23,33,29,.2); }
+.inquiry-form label { display: grid; gap: .45rem; font-weight: 700; }
+.inquiry-form label > span { color: #b42318; font-size: .7rem; }
+.inquiry-form input, .inquiry-form select, .inquiry-form textarea { width: 100%; box-sizing: border-box; border: 1px solid #8b948e; background: white; padding: .8rem; font: inherit; }
+.inquiry-form .consent { display: flex; align-items: flex-start; font-weight: 500; line-height: 1.6; }
+.inquiry-form .consent input { width: auto; margin-top: .3rem; }
+.inquiry-form button { border: 0; background: #1f6f55; color: white; padding: 1rem; font-weight: 800; cursor: pointer; }
+.form-error { color: #b42318; }
+.business-cta { padding: clamp(4rem,7vw,7rem) clamp(1.25rem,8vw,9rem); text-align: center; background: #dde8df; }
+.business-cta h2 { font-size: clamp(1.8rem,4vw,3.2rem); }
+.business-cta div { display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; }
+@media (max-width: 960px) { .global-header { align-items: flex-start; flex-wrap: wrap; } .global-header nav { order: 3; flex-basis: 100%; justify-content: flex-start; overflow-x: auto; padding-bottom: .35rem; } .work-grid,.service-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .profile-grid,.form-section { grid-template-columns: 1fr; } }
+@media (max-width: 620px) { .global-github { display:none; } .work-grid,.service-grid,.process ol { grid-template-columns: 1fr; } .business-cta div { flex-direction: column; } }
+
 * {
   box-sizing: border-box;
 }

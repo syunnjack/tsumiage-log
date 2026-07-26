@@ -14,6 +14,12 @@ export function GET() {
     "- [Favorite videos](https://syunnjack.dev/videos/favorites): 技術、F1、お笑い、犬猫、音楽など実際に見て気に入った動画の選定理由付きコレクション",
     "",
     "## Repository articles",
+    "- [Portfolio](https://syunnjack.dev/portfolio): 公開プロジェクトに基づく開発実績",
+    "- [Profile](https://syunnjack.dev/profile): 経歴、スキル、実績",
+    "- [Services](https://syunnjack.dev/services): Web制作、システム開発、自動化、技術相談",
+    "- [Estimate](https://syunnjack.dev/estimate): 見積依頼フォーム",
+    "- [Contact](https://syunnjack.dev/contact): お問い合わせフォーム",
+    "",
     ...articles.map(
       (article) =>
         `- [${article.displayName}](https://syunnjack.dev/articles/${article.slug}): ${article.description}`,
