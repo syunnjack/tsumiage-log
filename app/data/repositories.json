@@ -1,9 +1,556 @@
 {
-  "generatedAt": "2026-07-26T18:37:37.890Z",
+  "generatedAt": "2026-07-27T18:49:21.885Z",
   "owner": "syunnjack",
-  "totalRepositories": 133,
-  "publicRepositories": 133,
+  "totalRepositories": 136,
+  "publicRepositories": 136,
   "articles": [
+    {
+      "slug": "allbowl01",
+      "name": "allbowl01",
+      "displayName": "Allbowl01",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: bowling event.jp） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data/events.json へエクスポート: ",
+      "url": "https://github.com/syunnjack/allbowl01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "Astro",
+        "HTML",
+        "TypeScript",
+        "Python",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "allbowl01.sln",
+        "allbowl01",
+        "cocoon-child-mankan",
+        "docs",
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py",
+        "web"
+      ],
+      "commits": [
+        {
+          "sha": "449d9e9",
+          "message": "Merge main: keep Astro and WordPress for performance comparison.",
+          "date": "2026-07-27T18:22:23Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
+        },
+        {
+          "sha": "8935106",
+          "message": "Add Cocoon child theme for Mankan top landing page.",
+          "date": "2026-07-27T17:05:01Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/89351063315894007b90a48bd8ebcac46183dd64"
+        },
+        {
+          "sha": "ccdd6b8",
+          "message": "Initial commit: MVP API, event scraper, and site design doc.",
+          "date": "2026-07-16T16:22:38Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
+        },
+        {
+          "sha": "6f2dca5",
+          "message": "Improve SEO and LLM metadata",
+          "date": "2026-07-12T23:09:45Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
+        },
+        {
+          "sha": "5a16670",
+          "message": "Add event search controls",
+          "date": "2026-07-12T22:34:36Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
+        },
+        {
+          "sha": "30827c8",
+          "message": "Improve homepage heading wrapping",
+          "date": "2026-07-12T22:22:51Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
+        },
+        {
+          "sha": "4f282d9",
+          "message": "Fix Windows app publish workflow",
+          "date": "2026-07-12T21:52:12Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
+        },
+        {
+          "sha": "5834225",
+          "message": "Configure bowling-event domain",
+          "date": "2026-07-12T21:41:46Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
+        },
+        {
+          "sha": "2d1bcaf",
+          "message": "Reduce prefecture collection gaps",
+          "date": "2026-07-12T21:28:22Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/2d1bcaf870567b64e11f6c5cc4bbda10a2d5c340"
+        },
+        {
+          "sha": "f2d470c",
+          "message": "Improve AI and SEO structured data",
+          "date": "2026-07-12T20:48:53Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/f2d470cd02d526c88437630623d661b2554c8782"
+        },
+        {
+          "sha": "86ebbd7",
+          "message": "Add JPBA calendar coverage",
+          "date": "2026-07-12T17:45:32Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/86ebbd776c1461efcd7a2491296211da88055563"
+        },
+        {
+          "sha": "102be2f",
+          "message": "Expand major metro event coverage",
+          "date": "2026-07-12T12:14:47Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/102be2f2cdc03566ae954a6ab205ac200c7c1384"
+        }
+      ],
+      "updatedAt": "2026-07-27T18:46:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "readmeExcerpt": "vinext starter A clean full stack starter running on vinext https://github.com/cloudflare/vinext , with optional Cloudflare D1 and Drizzle support. Prerequisites Node.js =22.13.0 Quick Start This starter does not use wrangler.jsonc . Included Shape edit site code under app/ .openai/hosting.json declares optional Sites D1 and R2 bindings vite.config.ts simulates declared bindings for local development db/schema.ts starts intentionally empty examples/d1/ contains an optional D1 example surface drizzle.config.ts supports local migration generation when needed Workspace Auth Headers OpenAI workspace sites can read the current user's email from oai authenticated user email . SIWC authenticated workspace sites may also receive oai authenticated user full name when the user's SIWC profile has a non empty name claim. The full name value is percent encoded UTF 8 and is accompanied by oai authenti",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "data",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "da05ee7",
+          "message": "Add GTFS local bus data platform",
+          "date": "2026-07-27T18:43:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
+        },
+        {
+          "sha": "474aa06",
+          "message": "Add route insights and price history",
+          "date": "2026-07-27T17:39:43Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
+        },
+        {
+          "sha": "6a10859",
+          "message": "Add nationwide route and city SEO hubs",
+          "date": "2026-07-23T09:40:42Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
+        },
+        {
+          "sha": "8611130",
+          "message": "Add secure hourly feed scheduler",
+          "date": "2026-07-23T09:24:18Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
+        },
+        {
+          "sha": "daad918",
+          "message": "Add live operator API synchronization",
+          "date": "2026-07-23T09:11:07Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
+        },
+        {
+          "sha": "d472e4e",
+          "message": "Add feed source management and import history",
+          "date": "2026-07-23T09:01:24Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
+        },
+        {
+          "sha": "913b51b",
+          "message": "Add CSV service import and feed deduplication",
+          "date": "2026-07-23T08:46:51Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
+        },
+        {
+          "sha": "a9ba842",
+          "message": "Add operator inventory and affiliate URL management",
+          "date": "2026-07-23T07:04:23Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
+        },
+        {
+          "sha": "5a96100",
+          "message": "Add programmatic route SEO and AI discovery",
+          "date": "2026-07-23T06:47:31Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5a961000436e054859f0d5b4d9209dd66b504719"
+        },
+        {
+          "sha": "1a7c977",
+          "message": "Add onward search API and operator analytics",
+          "date": "2026-07-23T06:06:22Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/1a7c97741600efe4b9bbf9ab5d9568954800a08d"
+        },
+        {
+          "sha": "5cdebf7",
+          "message": "Add dynamic search, referral tracking, and domain readiness",
+          "date": "2026-07-23T05:45:15Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5cdebf7737b8ccc9e9e33494426dab005bcfa8cd"
+        },
+        {
+          "sha": "c02751d",
+          "message": "Connect live reviews and add moderation workflow",
+          "date": "2026-07-23T05:33:01Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c02751da5b443afd69671f1909cf5387ef65190e"
+        }
+      ],
+      "updatedAt": "2026-07-27T18:44:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "akecom-spa2x-ryu",
+      "name": "akecom-spa2x-ryu",
+      "displayName": "Akecom Spa2x Ryu",
+      "description": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
+      "readmeExcerpt": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです。 ブラウザ上で入力を記録し、実戦的な仕込み入力 ↓↘→ → ↓＋中K → ↘→＋P （数値表記では 2362＋中K36＋P ）の順序と所要フレームを判定します。ゲームへコマンドを送るマクロではありません。 画面左側のレバー入力タイムラインには、方向記号、テンキー表記、9方向の略図、その方向を保持したフレーム数が表示されます。ニュートラルも記録するため、斜め抜けやレバーを戻す時間を確認できます。 中Kとパンチも方向入力の間へ記録されます。中Kは先行入力 2362 の成立、パンチは中K後の 36 と目標フレーム内の押下を検査し、成功・方向不足・遅い入力を色分けします。 使い方 1. GitHub Pagesで公開されたページをスマートフォンまたはPCで開く 2. ↓↘→ を先に入力し、続けて ↓＋中K 、中足が出たら素早く ↘→＋P と入力する 3. 判定結果と入力履歴を見て、速度と抜けた方向を修正する キーボード 方向: 矢印キー 中K: J 弱P／中P／強P: U ／ I ／ O 向き変更: F リセット: Esc USBアケコン ブラウザのGamepad APIを使用します。「アケコン接続」を押してから、レバーまたはボタンを一度入力してください。機種ごとにボタン番号が異なるため、設定画面で中Kとパンチの番号を変更できます。 判定について 60 fps換算で下中Kからパンチまでの入力間隔を表示します。 初期設定の中K後の目標時間は16フレームです。実機・移植・基板設定に合わせて調整してください。 方向入力は右向き／左向きの両方に対応します。 成功判定は練習用の目安であり、ゲーム内部の受付処理を完全に再現するものではありません。 ゲームセンターでの利用 筐体や店舗設備には接続・改造せず、スマートフォンのテンポ提示と入力イメージ練習に使ってください。実機入力を取得する場合は、店舗管理者の許可を得たうえで、自分のアケコンと",
+      "url": "https://github.com/syunnjack/akecom-spa2x-ryu",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "LICENSE",
+        "README.md",
+        "app.js",
+        "index.html",
+        "manifest.webmanifest",
+        "style.css",
+        "sw.js"
+      ],
+      "commits": [
+        {
+          "sha": "d265a72",
+          "message": "参考動画に合わせてキャンセル入力判定を改善 (#6)",
+          "date": "2026-07-27T17:46:27Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/d265a720bd1f8154a0a6fc3fe9f4cf3ba3fce869"
+        },
+        {
+          "sha": "064cce3",
+          "message": "入力フレームタイムラインを追加 (#5)",
+          "date": "2026-07-26T16:31:21Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/064cce31980ae233b86462ea215af6351bfbc1fc"
+        },
+        {
+          "sha": "d67b039",
+          "message": "アケコンの自動設定と入力モニターを追加 (#4)",
+          "date": "2026-07-26T06:50:50Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/d67b039772e1ac8f6f29050793623304ff01421f"
+        },
+        {
+          "sha": "dd58477",
+          "message": "真空波動拳の仕込み入力判定を実装 (#3)",
+          "date": "2026-07-25T19:03:47Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/dd584773b8a4f71c9894505f85982f8bb563643e"
+        },
+        {
+          "sha": "30f104b",
+          "message": "開始入力を下中Kへ修正 (#2)",
+          "date": "2026-07-25T18:53:29Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/30f104b3c638c685416b3066bb17a97a415d2586"
+        },
+        {
+          "sha": "8a26ac8",
+          "message": "中足キャンセル真空波動拳トレーナーを追加 (#1)",
+          "date": "2026-07-25T18:37:32Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/8a26ac851eda08dec49b3dee167f226a4829268c"
+        },
+        {
+          "sha": "4417348",
+          "message": "Initialize training tool documentation",
+          "date": "2026-07-25T12:04:44Z",
+          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/4417348653e58a10bca9057f96702d1b94e541e5"
+        }
+      ],
+      "updatedAt": "2026-07-27T17:48:07Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "king-sys",
+      "name": "king-sys",
+      "displayName": "King Sys",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/king-sys",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "a717673",
+          "message": "Initial king-sys MVP: slot reservation + queue priority guarantee",
+          "date": "2026-07-26T21:36:20Z",
+          "url": "https://github.com/syunnjack/king-sys/commit/a7176739ec3ad8383aa842809c5f1ff2ce89612a"
+        },
+        {
+          "sha": "3e7b943",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T21:10:28Z",
+          "url": "https://github.com/syunnjack/king-sys/commit/3e7b943347f8df54bba27559c7a867aaaf935888"
+        }
+      ],
+      "updatedAt": "2026-07-26T21:36:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "reserve-sys",
+      "name": "reserve-sys",
+      "displayName": "Reserve Sys",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/reserve-sys",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "14c9885",
+          "message": "Initial multi-tenant reservation system MVP",
+          "date": "2026-07-26T20:46:30Z",
+          "url": "https://github.com/syunnjack/reserve-sys/commit/14c9885a51f415541bdaa3f7589cca338b4004d6"
+        },
+        {
+          "sha": "2c07f6e",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T19:42:45Z",
+          "url": "https://github.com/syunnjack/reserve-sys/commit/2c07f6e7b70e34ec2fc98ad0967714ddbb8e23e4"
+        }
+      ],
+      "updatedAt": "2026-07-26T20:46:37Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gemecard-portal",
+      "name": "gemecard-portal",
+      "displayName": "Gemecard Portal",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/gemecard-portal",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "components",
+        "data",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "supabase",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "6f38bcc",
+          "message": "Initial gamecard portal: card companies, game titles, community board",
+          "date": "2026-07-26T19:20:16Z",
+          "url": "https://github.com/syunnjack/gemecard-portal/commit/6f38bccc335e1961f1628e2d0e7fa48f8a6e93b0"
+        },
+        {
+          "sha": "fb0a54c",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T18:30:58Z",
+          "url": "https://github.com/syunnjack/gemecard-portal/commit/fb0a54c4b344c436de3b89fdc8f4ae4a80464c32"
+        }
+      ],
+      "updatedAt": "2026-07-26T19:20:25Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "e3c5de9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-26T18:37:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
+        },
+        {
+          "sha": "e1bc413",
+          "message": "Add Three Kingdoms and Chu Han drama favorites",
+          "date": "2026-07-26T09:40:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
+        },
+        {
+          "sha": "820e171",
+          "message": "Add favorite videos menu and four selections",
+          "date": "2026-07-26T01:53:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
+        },
+        {
+          "sha": "7d9394c",
+          "message": "Add portfolio services and inquiry platform",
+          "date": "2026-07-26T00:32:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
+        },
+        {
+          "sha": "b6e4cf0",
+          "message": "Add original article publishing workflow",
+          "date": "2026-07-26T00:12:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
+        },
+        {
+          "sha": "c99ce01",
+          "message": "Add arcade and cat cafe favorite videos",
+          "date": "2026-07-25T22:35:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
+        },
+        {
+          "sha": "2ff4350",
+          "message": "Add Wangan Midnight beginner guide favorite",
+          "date": "2026-07-25T22:28:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
+        },
+        {
+          "sha": "3b11ab8",
+          "message": "Add Street Fighter voice actor favorite",
+          "date": "2026-07-25T19:33:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
+        },
+        {
+          "sha": "5fd2212",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-25T18:36:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
+        },
+        {
+          "sha": "79b838a",
+          "message": "Add new favorites and affiliate-ready Hulu pathway",
+          "date": "2026-07-25T06:23:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
+        },
+        {
+          "sha": "05ef868",
+          "message": "Add travel sports entertainment and pet favorites",
+          "date": "2026-07-25T06:15:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
+        },
+        {
+          "sha": "df9cf6a",
+          "message": "Add comedy gaming and development favorites",
+          "date": "2026-07-25T06:12:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/df9cf6a9d84553a468ead1e44e5736e3e7563afd"
+        }
+      ],
+      "updatedAt": "2026-07-26T18:37:50Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "autohensei",
       "name": "autohensei",
@@ -95,184 +642,6 @@
         }
       ],
       "updatedAt": "2026-07-26T18:02:21Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "akecom-spa2x-ryu",
-      "name": "akecom-spa2x-ryu",
-      "displayName": "Akecom Spa2x Ryu",
-      "description": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
-      "readmeExcerpt": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです。 ブラウザ上で入力を記録し、実戦的な仕込み入力 ↓↘→ → ↓＋中K → ↘→＋P （数値表記では 2362＋中K36＋P ）の順序と所要フレームを判定します。ゲームへコマンドを送るマクロではありません。 画面左側のレバー入力タイムラインには、方向記号、テンキー表記、9方向の略図、その方向を保持したフレーム数が表示されます。ニュートラルも記録するため、斜め抜けやレバーを戻す時間を確認できます。 中Kとパンチも方向入力の間へ記録されます。中Kは先行入力 2362 の成立、パンチは中K後の 36 と目標フレーム内の押下を検査し、成功・方向不足・遅い入力を色分けします。 使い方 1. GitHub Pagesで公開されたページをスマートフォンまたはPCで開く 2. ↓↘→ を先に入力し、続けて ↓＋中K 、中足が出たら素早く ↘→＋P と入力する 3. 判定結果と入力履歴を見て、速度と抜けた方向を修正する キーボード 方向: 矢印キー 中K: J 弱P／中P／強P: U ／ I ／ O 向き変更: F リセット: Esc USBアケコン ブラウザのGamepad APIを使用します。「アケコン接続」を押してから、レバーまたはボタンを一度入力してください。機種ごとにボタン番号が異なるため、設定画面で中Kとパンチの番号を変更できます。 判定について 60 fps換算で下中Kからパンチまでの入力間隔を表示します。 初期設定の中K後の目標時間は16フレームです。実機・移植・基板設定に合わせて調整してください。 方向入力は右向き／左向きの両方に対応します。 成功判定は練習用の目安であり、ゲーム内部の受付処理を完全に再現するものではありません。 ゲームセンターでの利用 筐体や店舗設備には接続・改造せず、スマートフォンのテンポ提示と入力イメージ練習に使ってください。実機入力を取得する場合は、店舗管理者の許可を得たうえで、自分のアケコンと",
-      "url": "https://github.com/syunnjack/akecom-spa2x-ryu",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "LICENSE",
-        "README.md",
-        "app.js",
-        "index.html",
-        "manifest.webmanifest",
-        "style.css",
-        "sw.js"
-      ],
-      "commits": [
-        {
-          "sha": "064cce3",
-          "message": "入力フレームタイムラインを追加 (#5)",
-          "date": "2026-07-26T16:31:21Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/064cce31980ae233b86462ea215af6351bfbc1fc"
-        },
-        {
-          "sha": "d67b039",
-          "message": "アケコンの自動設定と入力モニターを追加 (#4)",
-          "date": "2026-07-26T06:50:50Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/d67b039772e1ac8f6f29050793623304ff01421f"
-        },
-        {
-          "sha": "dd58477",
-          "message": "真空波動拳の仕込み入力判定を実装 (#3)",
-          "date": "2026-07-25T19:03:47Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/dd584773b8a4f71c9894505f85982f8bb563643e"
-        },
-        {
-          "sha": "30f104b",
-          "message": "開始入力を下中Kへ修正 (#2)",
-          "date": "2026-07-25T18:53:29Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/30f104b3c638c685416b3066bb17a97a415d2586"
-        },
-        {
-          "sha": "8a26ac8",
-          "message": "中足キャンセル真空波動拳トレーナーを追加 (#1)",
-          "date": "2026-07-25T18:37:32Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/8a26ac851eda08dec49b3dee167f226a4829268c"
-        },
-        {
-          "sha": "4417348",
-          "message": "Initialize training tool documentation",
-          "date": "2026-07-25T12:04:44Z",
-          "url": "https://github.com/syunnjack/akecom-spa2x-ryu/commit/4417348653e58a10bca9057f96702d1b94e541e5"
-        }
-      ],
-      "updatedAt": "2026-07-26T16:31:41Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "e1bc413",
-          "message": "Add Three Kingdoms and Chu Han drama favorites",
-          "date": "2026-07-26T09:40:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
-        },
-        {
-          "sha": "820e171",
-          "message": "Add favorite videos menu and four selections",
-          "date": "2026-07-26T01:53:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
-        },
-        {
-          "sha": "7d9394c",
-          "message": "Add portfolio services and inquiry platform",
-          "date": "2026-07-26T00:32:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
-        },
-        {
-          "sha": "b6e4cf0",
-          "message": "Add original article publishing workflow",
-          "date": "2026-07-26T00:12:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
-        },
-        {
-          "sha": "c99ce01",
-          "message": "Add arcade and cat cafe favorite videos",
-          "date": "2026-07-25T22:35:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
-        },
-        {
-          "sha": "2ff4350",
-          "message": "Add Wangan Midnight beginner guide favorite",
-          "date": "2026-07-25T22:28:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
-        },
-        {
-          "sha": "3b11ab8",
-          "message": "Add Street Fighter voice actor favorite",
-          "date": "2026-07-25T19:33:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
-        },
-        {
-          "sha": "5fd2212",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-25T18:36:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
-        },
-        {
-          "sha": "79b838a",
-          "message": "Add new favorites and affiliate-ready Hulu pathway",
-          "date": "2026-07-25T06:23:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
-        },
-        {
-          "sha": "05ef868",
-          "message": "Add travel sports entertainment and pet favorites",
-          "date": "2026-07-25T06:15:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
-        },
-        {
-          "sha": "df9cf6a",
-          "message": "Add comedy gaming and development favorites",
-          "date": "2026-07-25T06:12:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/df9cf6a9d84553a468ead1e44e5736e3e7563afd"
-        },
-        {
-          "sha": "3a6c35a",
-          "message": "Expand favorite video categories",
-          "date": "2026-07-25T00:20:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3a6c35a596fb3bcb885a8429c6ea3854f38e2314"
-        }
-      ],
-      "updatedAt": "2026-07-26T09:42:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -411,117 +780,6 @@
         }
       ],
       "updatedAt": "2026-07-22T11:37:45Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "vinext starter A clean full stack starter running on vinext https://github",
-      "readmeExcerpt": "vinext starter A clean full stack starter running on vinext https://github.com/cloudflare/vinext , with optional Cloudflare D1 and Drizzle support. Prerequisites Node.js =22.13.0 Quick Start This starter does not use wrangler.jsonc . Included Shape edit site code under app/ .openai/hosting.json declares optional Sites D1 and R2 bindings vite.config.ts simulates declared bindings for local development db/schema.ts starts intentionally empty examples/d1/ contains an optional D1 example surface drizzle.config.ts supports local migration generation when needed Workspace Auth Headers OpenAI workspace sites can read the current user's email from oai authenticated user email . SIWC authenticated workspace sites may also receive oai authenticated user full name when the user's SIWC profile has a non empty name claim. The full name value is percent encoded UTF 8 and is accompanied by oai authenti",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "6a10859",
-          "message": "Add nationwide route and city SEO hubs",
-          "date": "2026-07-23T09:40:42Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
-        },
-        {
-          "sha": "8611130",
-          "message": "Add secure hourly feed scheduler",
-          "date": "2026-07-23T09:24:18Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
-        },
-        {
-          "sha": "daad918",
-          "message": "Add live operator API synchronization",
-          "date": "2026-07-23T09:11:07Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
-        },
-        {
-          "sha": "d472e4e",
-          "message": "Add feed source management and import history",
-          "date": "2026-07-23T09:01:24Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
-        },
-        {
-          "sha": "913b51b",
-          "message": "Add CSV service import and feed deduplication",
-          "date": "2026-07-23T08:46:51Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
-        },
-        {
-          "sha": "a9ba842",
-          "message": "Add operator inventory and affiliate URL management",
-          "date": "2026-07-23T07:04:23Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
-        },
-        {
-          "sha": "5a96100",
-          "message": "Add programmatic route SEO and AI discovery",
-          "date": "2026-07-23T06:47:31Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5a961000436e054859f0d5b4d9209dd66b504719"
-        },
-        {
-          "sha": "1a7c977",
-          "message": "Add onward search API and operator analytics",
-          "date": "2026-07-23T06:06:22Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/1a7c97741600efe4b9bbf9ab5d9568954800a08d"
-        },
-        {
-          "sha": "5cdebf7",
-          "message": "Add dynamic search, referral tracking, and domain readiness",
-          "date": "2026-07-23T05:45:15Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5cdebf7737b8ccc9e9e33494426dab005bcfa8cd"
-        },
-        {
-          "sha": "c02751d",
-          "message": "Connect live reviews and add moderation workflow",
-          "date": "2026-07-23T05:33:01Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c02751da5b443afd69671f1909cf5387ef65190e"
-        },
-        {
-          "sha": "d31c3a5",
-          "message": "Add persistent UGC and ranking data foundation",
-          "date": "2026-07-23T05:17:20Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d31c3a5edf1e4541fa7991ebe75dc0ad1d2a0d51"
-        },
-        {
-          "sha": "19cc374",
-          "message": "Build NOLU high-speed bus comparison MVP",
-          "date": "2026-07-23T05:07:58Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/19cc3740708a3731db9c7de490d700cc2dbebf1b"
-        }
-      ],
-      "updatedAt": "2026-07-23T09:57:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -3733,106 +3991,6 @@
         }
       ],
       "updatedAt": "2026-07-16T18:07:15Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "allbowl01",
-      "name": "allbowl01",
-      "displayName": "Allbowl01",
-      "description": "Bowling Event Bowling Event is a Japanese professional bowling event directory",
-      "readmeExcerpt": "Bowling Event Bowling Event is a Japanese professional bowling event directory. It collects official pro challenge, pro am, and selected tournament schedule information, then publishes it in two forms: Web version: a static Astro site for SEO, AIO, and LLMO visibility. Windows app version: a WinForms/WebView2 tool for scraping, local review, SQLite storage, and web data export. Production Domain The public domain is: The web site uses web/public/CNAME for GitHub Pages custom domain support. Recommended DNS for GitHub Pages: A @ 185.199.108.153 A @ 185.199.109.153 A @ 185.199.110.153 A @ 185.199.111.153 CNAME www syunnjack.github.io After DNS propagation, set the GitHub Pages custom domain to bowling event.jp and enable Enforce HTTPS . Repository Structure allbowl01/ : .NET 8 Windows Forms app with WebView2 and SQLite. web/ : Astro static website. .github/workflows/deploy web.yml : builds",
-      "url": "https://github.com/syunnjack/allbowl01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "web"
-      ],
-      "commits": [
-        {
-          "sha": "6f2dca5",
-          "message": "Improve SEO and LLM metadata",
-          "date": "2026-07-12T23:09:45Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
-        },
-        {
-          "sha": "5a16670",
-          "message": "Add event search controls",
-          "date": "2026-07-12T22:34:36Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
-        },
-        {
-          "sha": "30827c8",
-          "message": "Improve homepage heading wrapping",
-          "date": "2026-07-12T22:22:51Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
-        },
-        {
-          "sha": "4f282d9",
-          "message": "Fix Windows app publish workflow",
-          "date": "2026-07-12T21:52:12Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
-        },
-        {
-          "sha": "5834225",
-          "message": "Configure bowling-event domain",
-          "date": "2026-07-12T21:41:46Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
-        },
-        {
-          "sha": "2d1bcaf",
-          "message": "Reduce prefecture collection gaps",
-          "date": "2026-07-12T21:28:22Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2d1bcaf870567b64e11f6c5cc4bbda10a2d5c340"
-        },
-        {
-          "sha": "f2d470c",
-          "message": "Improve AI and SEO structured data",
-          "date": "2026-07-12T20:48:53Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/f2d470cd02d526c88437630623d661b2554c8782"
-        },
-        {
-          "sha": "86ebbd7",
-          "message": "Add JPBA calendar coverage",
-          "date": "2026-07-12T17:45:32Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/86ebbd776c1461efcd7a2491296211da88055563"
-        },
-        {
-          "sha": "102be2f",
-          "message": "Expand major metro event coverage",
-          "date": "2026-07-12T12:14:47Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/102be2f2cdc03566ae954a6ab205ac200c7c1384"
-        },
-        {
-          "sha": "76f39f5",
-          "message": "Add nationwide prefecture coverage",
-          "date": "2026-07-12T11:56:52Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/76f39f56eb29faf293a5fcfefe83ae7dac6f5c31"
-        },
-        {
-          "sha": "533c755",
-          "message": "Add scraping CLI and publish event data",
-          "date": "2026-07-12T11:38:19Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/533c755ae4124d85275701921e1d193cc2dcaa52"
-        },
-        {
-          "sha": "01173c6",
-          "message": "Add event detail and chain pages",
-          "date": "2026-07-12T11:22:48Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/01173c6dbf594d7b957fd1c604ea28fbf72b030c"
-        }
-      ],
-      "updatedAt": "2026-07-12T23:10:08Z",
       "stars": 0,
       "forks": 0
     },
