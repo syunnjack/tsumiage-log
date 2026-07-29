@@ -1,9 +1,589 @@
 {
-  "generatedAt": "2026-07-27T18:49:21.885Z",
+  "generatedAt": "2026-07-29T21:17:45.218Z",
   "owner": "syunnjack",
-  "totalRepositories": 136,
-  "publicRepositories": 136,
+  "totalRepositories": 155,
+  "publicRepositories": 155,
+  "skippedRepositories": [
+    "abeshi-mvp",
+    "yuniba"
+  ],
   "articles": [
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約前には必ずリンク先の楽天トラベルで最新情報を確認してください。 SEO/AIO/LLMO対応 Web版には次を実装しています。 トップページのtitle、description、ca",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "CSS",
+        "Dockerfile"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml"
+      ],
+      "commits": [
+        {
+          "sha": "e752861",
+          "message": "Merge pull request #2 from syunnjack/cursor/finish-web-version-029d",
+          "date": "2026-07-29T20:24:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/e7528617cb6b4ac5c7b3d4d56c6497e1d9a206ea"
+        },
+        {
+          "sha": "15527c6",
+          "message": "Send required Rakuten request context headers",
+          "date": "2026-07-29T19:58:52Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/15527c6fd350c4ad15652559a1badf5517cab2a3"
+        },
+        {
+          "sha": "b53bda8",
+          "message": "Merge pull request #1 from syunnjack/cursor/finish-web-version-029d",
+          "date": "2026-07-29T19:55:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/b53bda8b079882dcd74e839a1cffb9e4ccc6a106"
+        },
+        {
+          "sha": "97642ab",
+          "message": "Prepare shudenhotel.jp deployment",
+          "date": "2026-07-27T17:15:11Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/97642ab1e4dfac9af8274fc2ae731acffb10c49f"
+        },
+        {
+          "sha": "d07e494",
+          "message": "Merge branch 'master' into cursor/finish-web-version-029d",
+          "date": "2026-07-27T17:13:43Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d07e49445ed4622d25e2c795763b833672cb326f"
+        },
+        {
+          "sha": "947d48d",
+          "message": "Document required Rakuten and inotify-fix env vars in render.yaml",
+          "date": "2026-07-26T17:29:26Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/947d48da49732631cf5a3b70a6edb09f6c12a722"
+        },
+        {
+          "sha": "d168de5",
+          "message": "Restrict geocoding search to Japan to avoid mismatched results",
+          "date": "2026-07-26T17:29:01Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d168de5522b40a928fdabe5acf7bb05bbdb6fc81"
+        },
+        {
+          "sha": "5c3e297",
+          "message": "Migrate Rakuten Travel API to new endpoint and accessKey auth",
+          "date": "2026-07-26T17:22:54Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/5c3e29714a5158aef92f0c3d2cfad0ea5b6a1d95"
+        },
+        {
+          "sha": "aca037e",
+          "message": "Add Origin header to Rakuten Travel API requests",
+          "date": "2026-07-26T17:16:57Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/aca037e0dbb8d91d3acf5aaec5a48d35a166e198"
+        },
+        {
+          "sha": "53f905f",
+          "message": "Use Render free plan instead of paid starter plan",
+          "date": "2026-07-26T17:06:18Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/53f905f8413d27c5545016ee1106d06ee0da054c"
+        },
+        {
+          "sha": "f410a5b",
+          "message": "Polish tonight hotel web experience",
+          "date": "2026-07-16T16:09:03Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/f410a5b319a486f858caf735c25c857d5d0bcd15"
+        },
+        {
+          "sha": "d48314d",
+          "message": "Add SEO landing pages",
+          "date": "2026-07-12T23:35:36Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d48314d57f92f60c537a8f2802d4e95898bbdf05"
+        }
+      ],
+      "updatedAt": "2026-07-29T20:24:23Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "togo-kanri-tool",
+      "name": "togo-kanri-tool",
+      "displayName": "Togo Kanri Tool",
+      "description": "Togo Kanri Toolの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/togo-kanri-tool",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "app",
+        "eslint.config.mjs",
+        "lib",
+        "middleware.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "scripts",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "48a92c3",
+          "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
+          "date": "2026-07-29T14:58:04Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
+        }
+      ],
+      "updatedAt": "2026-07-29T15:00:02Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "akira-special",
+      "name": "akira-special",
+      "displayName": "Akira Special",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "readmeExcerpt": "vinext starter A clean full stack starter running on vinext https://github.com/cloudflare/vinext , with optional Cloudflare D1 and Drizzle support. Prerequisites Node.js =22.13.0 Quick Start This starter does not use wrangler.jsonc . Included Shape edit site code under app/ .openai/hosting.json declares optional Sites D1 and R2 bindings vite.config.ts simulates declared bindings for local development db/schema.ts starts intentionally empty examples/d1/ contains an optional D1 example surface drizzle.config.ts supports local migration generation when needed Workspace Auth Headers OpenAI workspace sites can read the current user's email from oai authenticated user email . SIWC authenticated workspace sites may also receive oai authenticated user full name when the user's SIWC profile has a non empty name claim. The full name value is percent encoded UTF 8 and is accompanied by oai authenti",
+      "url": "https://github.com/syunnjack/akira-special",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package.json",
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "9abbc49",
+          "message": "Improve beginner arcade-stick UX in app/globals.css",
+          "date": "2026-07-29T10:30:58Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/9abbc491977503d36c53a182d85457c2035c571f"
+        },
+        {
+          "sha": "6561921",
+          "message": "Improve beginner arcade-stick UX in app/layout.tsx",
+          "date": "2026-07-29T10:30:55Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/6561921a431c15116c4520ce15d4935d66b70b62"
+        },
+        {
+          "sha": "85629ba",
+          "message": "Improve beginner arcade-stick UX in app/page.tsx",
+          "date": "2026-07-29T10:30:51Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/85629ba119486a62d6b010e9ce7085178f8cd80c"
+        },
+        {
+          "sha": "13fb9f4",
+          "message": "Add public/favicon.svg",
+          "date": "2026-07-29T08:23:36Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/13fb9f4582eae6538ae1003409cda6f502aca23d"
+        },
+        {
+          "sha": "a3422c7",
+          "message": "Add tests/rendered-html.test.mjs",
+          "date": "2026-07-29T08:23:34Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/a3422c7c6beaafe5104138617f304414d233af05"
+        },
+        {
+          "sha": "c4109ea",
+          "message": "Add drizzle/meta/_journal.json",
+          "date": "2026-07-29T08:23:32Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/c4109ea392b03a720a0127937936595cb0d83225"
+        },
+        {
+          "sha": "dafeddc",
+          "message": "Add db/schema.ts",
+          "date": "2026-07-29T08:23:30Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/dafeddcd91ac8aab1e7c7aa0675fb834e6d11bd6"
+        },
+        {
+          "sha": "14f3695",
+          "message": "Add db/index.ts",
+          "date": "2026-07-29T08:23:28Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/14f369572cb42c2b42438987dd937eccdbb6ca88"
+        },
+        {
+          "sha": "03ae0d2",
+          "message": "Add worker/index.ts",
+          "date": "2026-07-29T08:23:26Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/03ae0d2d84dba85f4d8470b972bbca1e7e2bc564"
+        },
+        {
+          "sha": "a3e5788",
+          "message": "Add build/sites-vite-plugin.ts",
+          "date": "2026-07-29T08:23:23Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/a3e5788b0b20acdda6795c9079c8f290cbca84ad"
+        },
+        {
+          "sha": "209fc3d",
+          "message": "Add app/chatgpt-auth.ts",
+          "date": "2026-07-29T08:23:19Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/209fc3d00b6eaf0dbc370840ba38cd7cc11b8045"
+        },
+        {
+          "sha": "d49471a",
+          "message": "Add app/globals.css",
+          "date": "2026-07-29T08:23:17Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/d49471a367a05f508ddaad09d3ad69025a5b2e43"
+        }
+      ],
+      "updatedAt": "2026-07-29T10:32:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "reserve-serapi",
+      "name": "reserve-serapi",
+      "displayName": "Reserve Serapi",
+      "description": "This is a Next",
+      "readmeExcerpt": "This is a Next.js https://nextjs.org project bootstrapped with create next app https://nextjs.org/docs/app/api reference/cli/create next app . Getting Started First, run the development server: Open http://localhost:3000 http://localhost:3000 with your browser to see the result. You can start editing the page by modifying app/page.tsx . The page auto updates as you edit the file. This project uses next/font https://nextjs.org/docs/app/building your application/optimizing/fonts to automatically optimize and load Geist https://vercel.com/font , a new font family for Vercel. Learn More To learn more about Next.js, take a look at the following resources: Next.js Documentation https://nextjs.org/docs learn about Next.js features and API. Learn Next.js https://nextjs.org/learn an interactive Next.js tutorial. You can check out the Next.js GitHub repository https://github.com/vercel/next.js you",
+      "url": "https://github.com/syunnjack/reserve-serapi",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "components",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "3403185",
+          "message": "Add host-based landing page variants for multi-domain rollout",
+          "date": "2026-07-29T08:05:56Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/3403185c2d5db3f2292753ebcd0bdffd314f5945"
+        },
+        {
+          "sha": "01a6863",
+          "message": "Adjust cron schedule to daily for Vercel Hobby plan compatibility",
+          "date": "2026-07-28T22:50:51Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/01a68633eb111b588712e5d09a946adc4d656745"
+        },
+        {
+          "sha": "5a833b8",
+          "message": "Initial reserve-serapi MVP: shift-aware therapist booking PWA",
+          "date": "2026-07-28T22:49:39Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/5a833b897c8ca61f97ff2135a7af3c69ef2028f7"
+        },
+        {
+          "sha": "3de261b",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-28T22:02:28Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
+        }
+      ],
+      "updatedAt": "2026-07-29T08:08:14Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "cross-genre",
+      "name": "cross-genre",
+      "displayName": "Cross Genre",
+      "description": "Cross Genreの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/cross-genre",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "app",
+        "components",
+        "data",
+        "next-env.d.ts",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "ef0701f",
+          "message": "Upgrade Next.js to fix critical security vulnerabilities",
+          "date": "2026-07-28T18:50:43Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/ef0701fba4cb09083a4f97bf0e686b7f2c3477a7"
+        },
+        {
+          "sha": "d083e1d",
+          "message": "fix: add 0413",
+          "date": "2026-04-13T11:10:44Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d083e1d0d3ce2e359ac88b0addccc80b882a22cb"
+        },
+        {
+          "sha": "a7324bc",
+          "message": "fix: add google maps types",
+          "date": "2026-04-12T15:54:29Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/a7324bc0e590e737d54e7097897cdee240eb5597"
+        },
+        {
+          "sha": "0220ff6",
+          "message": "fix: correct json syntax in package.json",
+          "date": "2026-04-12T15:49:47Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/0220ff633ccb959c9203aaf99ca2284ed73e0b46"
+        },
+        {
+          "sha": "d52a2ec",
+          "message": "fix: add missing google maps loader dependency",
+          "date": "2026-04-12T15:45:41Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d52a2ec357d9a24e41552fa128dc7bb927dbc735"
+        },
+        {
+          "sha": "54723c7",
+          "message": "fix: upgrade next.js to patch security vulnerability",
+          "date": "2026-04-12T15:40:16Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/54723c7edbbf7b8b485c195a14e8f0af8031057c"
+        },
+        {
+          "sha": "4752760",
+          "message": "fix: restore json data to fix empty build error",
+          "date": "2026-04-12T14:19:10Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/47527600136295036fcdc565f96606cb61685eba"
+        },
+        {
+          "sha": "1e151db",
+          "message": "initial commit: clean start without node_modules",
+          "date": "2026-04-12T14:12:59Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/1e151db4f19274e19699cc0b41ea3070853ce4a2"
+        }
+      ],
+      "updatedAt": "2026-07-28T18:51:10Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "goal-pilot-app",
+      "name": "goal-pilot-app",
+      "displayName": "Goal Pilot App",
+      "description": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
+      "readmeExcerpt": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days. It combines backcasting, three minute starts, recovery mode, reward design, and relapse risk visibility. Repository goal pilot app Domain goalpilot.jp Product Concept Most goal apps assume users can keep going. GoalPilot assumes motivation will disappear, and designs a way back. Core Features Free three day quitting pattern diagnosis LINE reminder landing page SEO goal template library SNS progress card funnel Pro plan landing page Reward affiliate landing page Enhanced recovery mode with one minute comeback and comeback points Goal and deadline setup Backcast schedule generation Daily three minute starter task Three minute timer Task completion and streak tracking Relapse risk score Recovery mode that reduces unfinished tasks to three minutes Reward points and unlocked self rewards Fu",
+      "url": "https://github.com/syunnjack/goal-pilot-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "Java"
+      ],
+      "files": [
+        "README.md",
+        "android",
+        "app",
+        "capacitor.config.ts",
+        "components",
+        "docs",
+        "next-env.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "527de87",
+          "message": "Add sitemap.xml and robots.txt for SEO crawlability",
+          "date": "2026-07-28T18:41:00Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
+        },
+        {
+          "sha": "6d4a1a4",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-07-26T08:18:47Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
+        },
+        {
+          "sha": "67efa88",
+          "message": "Add GoalPilot growth funnels",
+          "date": "2026-07-26T07:26:06Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
+        },
+        {
+          "sha": "c26bb69",
+          "message": "Add three-day quitting diagnosis funnel",
+          "date": "2026-07-26T07:17:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c26bb69d4f30d2810cce675e15489053b5ba606c"
+        },
+        {
+          "sha": "300294d",
+          "message": "Add GoalPilot templates and reminder flows",
+          "date": "2026-07-24T09:41:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
+        },
+        {
+          "sha": "b7b821c",
+          "message": "Initial GoalPilot app",
+          "date": "2026-07-22T11:11:55Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
+        }
+      ],
+      "updatedAt": "2026-07-28T18:43:59Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "map-search",
+      "name": "map-search",
+      "displayName": "Map Search",
+      "description": "Map Searchの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/map-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AFFILIATE_SETUP.md",
+        "HOTPEPPER_API.md",
+        "aichi",
+        "analytics.js",
+        "api",
+        "assets",
+        "config.js",
+        "config.production.js",
+        "data",
+        "docs",
+        "index.html",
+        "llms.txt",
+        "package.json",
+        "place-detail.js",
+        "place-index.js",
+        "place",
+        "rakuten-api-version.js",
+        "robots.txt",
+        "script.js",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "a734a62",
+          "message": "Configure root as Vercel output directory for static site",
+          "date": "2026-07-28T10:29:43Z",
+          "url": "https://github.com/syunnjack/map-search/commit/a734a620ccaafd46286fb6fafdf53b63e754b65a"
+        },
+        {
+          "sha": "b0a7014",
+          "message": "Add Origin header to Rakuten Travel API request",
+          "date": "2026-07-28T10:28:02Z",
+          "url": "https://github.com/syunnjack/map-search/commit/b0a7014260aa4460b9002dd965fc37996dfd86f7"
+        },
+        {
+          "sha": "d6e52e1",
+          "message": "Import remaining Shizuoka izakaya places",
+          "date": "2026-07-27T23:24:28Z",
+          "url": "https://github.com/syunnjack/map-search/commit/d6e52e1fead7d8b457b78dd3b8bdcf09f7bad57b"
+        },
+        {
+          "sha": "3ff92bd",
+          "message": "Import Hot Pepper izakaya places for Shizuoka cities",
+          "date": "2026-07-27T23:23:00Z",
+          "url": "https://github.com/syunnjack/map-search/commit/3ff92bd2bfc799a36d42f346e2738c5ed134238d"
+        },
+        {
+          "sha": "2ba1f55",
+          "message": "Import initial Hot Pepper Shizuoka places",
+          "date": "2026-07-27T23:21:35Z",
+          "url": "https://github.com/syunnjack/map-search/commit/2ba1f551f943f8d8ff07b1d460dc9ff0d01be62f"
+        },
+        {
+          "sha": "2e1f0d5",
+          "message": "Add Hot Pepper batch import tooling",
+          "date": "2026-07-27T23:17:03Z",
+          "url": "https://github.com/syunnjack/map-search/commit/2e1f0d5f7a15ec363675a6669f6b3d8565c06aa1"
+        },
+        {
+          "sha": "ad54404",
+          "message": "Add Hot Pepper place import flow",
+          "date": "2026-07-27T23:01:10Z",
+          "url": "https://github.com/syunnjack/map-search/commit/ad5440495d97aa06bde3b6d35b0aaec24cda4017"
+        },
+        {
+          "sha": "f7fb04e",
+          "message": "Add place detail pages and revenue tracking",
+          "date": "2026-07-23T09:39:14Z",
+          "url": "https://github.com/syunnjack/map-search/commit/f7fb04e0fe0c581ed605c0dd97488609fc37ddc4"
+        },
+        {
+          "sha": "7a614b3",
+          "message": "Add deployment validation and place detail planning",
+          "date": "2026-07-23T09:22:03Z",
+          "url": "https://github.com/syunnjack/map-search/commit/7a614b3261c34d7ff445a4f32c68787e9f4e1178"
+        },
+        {
+          "sha": "359ef20",
+          "message": "Add generated area pages for SEO expansion",
+          "date": "2026-07-23T09:12:03Z",
+          "url": "https://github.com/syunnjack/map-search/commit/359ef20d470168376b19aabe1d0057b3d0776ca4"
+        },
+        {
+          "sha": "cd935ce",
+          "message": "Add Google Places proxy and GBP integration plan",
+          "date": "2026-07-23T08:48:56Z",
+          "url": "https://github.com/syunnjack/map-search/commit/cd935cef02aa94fdd741aea30f71fa517b6b093d"
+        },
+        {
+          "sha": "7a0abe4",
+          "message": "Improve revenue rail and prefecture landing links",
+          "date": "2026-07-23T08:43:01Z",
+          "url": "https://github.com/syunnjack/map-search/commit/7a0abe4cb9101b9672493756022d7d1a006de034"
+        }
+      ],
+      "updatedAt": "2026-07-28T10:29:50Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "allbowl01",
       "name": "allbowl01",
@@ -34,6 +614,12 @@
         "web"
       ],
       "commits": [
+        {
+          "sha": "c8ba389",
+          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
+          "date": "2026-07-27T23:09:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
+        },
         {
           "sha": "449d9e9",
           "message": "Merge main: keep Astro and WordPress for performance comparison.",
@@ -99,15 +685,9 @@
           "message": "Add JPBA calendar coverage",
           "date": "2026-07-12T17:45:32Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/86ebbd776c1461efcd7a2491296211da88055563"
-        },
-        {
-          "sha": "102be2f",
-          "message": "Expand major metro event coverage",
-          "date": "2026-07-12T12:14:47Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/102be2f2cdc03566ae954a6ab205ac200c7c1384"
         }
       ],
-      "updatedAt": "2026-07-27T18:46:17Z",
+      "updatedAt": "2026-07-27T23:43:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -147,6 +727,24 @@
         "worker"
       ],
       "commits": [
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        },
+        {
+          "sha": "7cf15c8",
+          "message": "Automate official GTFS synchronization",
+          "date": "2026-07-27T23:27:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
+        },
+        {
+          "sha": "0e95a8e",
+          "message": "Connect highway bus search with multimodal onward transit",
+          "date": "2026-07-27T20:41:10Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
+        },
         {
           "sha": "da05ee7",
           "message": "Add GTFS local bus data platform",
@@ -200,27 +798,122 @@
           "message": "Add programmatic route SEO and AI discovery",
           "date": "2026-07-23T06:47:31Z",
           "url": "https://github.com/syunnjack/kousokubus-benri/commit/5a961000436e054859f0d5b4d9209dd66b504719"
-        },
-        {
-          "sha": "1a7c977",
-          "message": "Add onward search API and operator analytics",
-          "date": "2026-07-23T06:06:22Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/1a7c97741600efe4b9bbf9ab5d9568954800a08d"
-        },
-        {
-          "sha": "5cdebf7",
-          "message": "Add dynamic search, referral tracking, and domain readiness",
-          "date": "2026-07-23T05:45:15Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5cdebf7737b8ccc9e9e33494426dab005bcfa8cd"
-        },
-        {
-          "sha": "c02751d",
-          "message": "Connect live reviews and add moderation workflow",
-          "date": "2026-07-23T05:33:01Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c02751da5b443afd69671f1909cf5387ef65190e"
         }
       ],
-      "updatedAt": "2026-07-27T18:44:44Z",
+      "updatedAt": "2026-07-27T23:36:20Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "9e82c94",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-27T18:49:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9e82c94c0b476823142f491cecfe88fa176114a0"
+        },
+        {
+          "sha": "e3c5de9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-26T18:37:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
+        },
+        {
+          "sha": "e1bc413",
+          "message": "Add Three Kingdoms and Chu Han drama favorites",
+          "date": "2026-07-26T09:40:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
+        },
+        {
+          "sha": "820e171",
+          "message": "Add favorite videos menu and four selections",
+          "date": "2026-07-26T01:53:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
+        },
+        {
+          "sha": "7d9394c",
+          "message": "Add portfolio services and inquiry platform",
+          "date": "2026-07-26T00:32:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
+        },
+        {
+          "sha": "b6e4cf0",
+          "message": "Add original article publishing workflow",
+          "date": "2026-07-26T00:12:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
+        },
+        {
+          "sha": "c99ce01",
+          "message": "Add arcade and cat cafe favorite videos",
+          "date": "2026-07-25T22:35:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
+        },
+        {
+          "sha": "2ff4350",
+          "message": "Add Wangan Midnight beginner guide favorite",
+          "date": "2026-07-25T22:28:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
+        },
+        {
+          "sha": "3b11ab8",
+          "message": "Add Street Fighter voice actor favorite",
+          "date": "2026-07-25T19:33:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
+        },
+        {
+          "sha": "5fd2212",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-25T18:36:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
+        },
+        {
+          "sha": "79b838a",
+          "message": "Add new favorites and affiliate-ready Hulu pathway",
+          "date": "2026-07-25T06:23:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
+        },
+        {
+          "sha": "05ef868",
+          "message": "Add travel sports entertainment and pet favorites",
+          "date": "2026-07-25T06:15:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
+        }
+      ],
+      "updatedAt": "2026-07-27T18:50:05Z",
       "stars": 0,
       "forks": 0
     },
@@ -439,119 +1132,6 @@
       "forks": 0
     },
     {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "e3c5de9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-26T18:37:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
-        },
-        {
-          "sha": "e1bc413",
-          "message": "Add Three Kingdoms and Chu Han drama favorites",
-          "date": "2026-07-26T09:40:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
-        },
-        {
-          "sha": "820e171",
-          "message": "Add favorite videos menu and four selections",
-          "date": "2026-07-26T01:53:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
-        },
-        {
-          "sha": "7d9394c",
-          "message": "Add portfolio services and inquiry platform",
-          "date": "2026-07-26T00:32:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
-        },
-        {
-          "sha": "b6e4cf0",
-          "message": "Add original article publishing workflow",
-          "date": "2026-07-26T00:12:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
-        },
-        {
-          "sha": "c99ce01",
-          "message": "Add arcade and cat cafe favorite videos",
-          "date": "2026-07-25T22:35:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
-        },
-        {
-          "sha": "2ff4350",
-          "message": "Add Wangan Midnight beginner guide favorite",
-          "date": "2026-07-25T22:28:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
-        },
-        {
-          "sha": "3b11ab8",
-          "message": "Add Street Fighter voice actor favorite",
-          "date": "2026-07-25T19:33:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
-        },
-        {
-          "sha": "5fd2212",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-25T18:36:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
-        },
-        {
-          "sha": "79b838a",
-          "message": "Add new favorites and affiliate-ready Hulu pathway",
-          "date": "2026-07-25T06:23:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
-        },
-        {
-          "sha": "05ef868",
-          "message": "Add travel sports entertainment and pet favorites",
-          "date": "2026-07-25T06:15:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
-        },
-        {
-          "sha": "df9cf6a",
-          "message": "Add comedy gaming and development favorites",
-          "date": "2026-07-25T06:12:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/df9cf6a9d84553a468ead1e44e5736e3e7563afd"
-        }
-      ],
-      "updatedAt": "2026-07-26T18:37:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "autohensei",
       "name": "autohensei",
       "displayName": "Autohensei",
@@ -646,70 +1226,6 @@
       "forks": 0
     },
     {
-      "slug": "goal-pilot-app",
-      "name": "goal-pilot-app",
-      "displayName": "Goal Pilot App",
-      "description": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
-      "readmeExcerpt": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days. It combines backcasting, three minute starts, recovery mode, reward design, and relapse risk visibility. Repository goal pilot app Domain goalpilot.jp Product Concept Most goal apps assume users can keep going. GoalPilot assumes motivation will disappear, and designs a way back. Core Features Free three day quitting pattern diagnosis LINE reminder landing page SEO goal template library SNS progress card funnel Pro plan landing page Reward affiliate landing page Enhanced recovery mode with one minute comeback and comeback points Goal and deadline setup Backcast schedule generation Daily three minute starter task Three minute timer Task completion and streak tracking Relapse risk score Recovery mode that reduces unfinished tasks to three minutes Reward points and unlocked self rewards Fu",
-      "url": "https://github.com/syunnjack/goal-pilot-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "Java"
-      ],
-      "files": [
-        "README.md",
-        "android",
-        "app",
-        "capacitor.config.ts",
-        "components",
-        "docs",
-        "next-env.d.ts",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "6d4a1a4",
-          "message": "Add GitHub Pages deployment",
-          "date": "2026-07-26T08:18:47Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
-        },
-        {
-          "sha": "67efa88",
-          "message": "Add GoalPilot growth funnels",
-          "date": "2026-07-26T07:26:06Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
-        },
-        {
-          "sha": "c26bb69",
-          "message": "Add three-day quitting diagnosis funnel",
-          "date": "2026-07-26T07:17:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c26bb69d4f30d2810cce675e15489053b5ba606c"
-        },
-        {
-          "sha": "300294d",
-          "message": "Add GoalPilot templates and reminder flows",
-          "date": "2026-07-24T09:41:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
-        },
-        {
-          "sha": "b7b821c",
-          "message": "Initial GoalPilot app",
-          "date": "2026-07-22T11:11:55Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
-        }
-      ],
-      "updatedAt": "2026-07-26T08:19:04Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "chutonavi",
       "name": "chutonavi",
       "displayName": "Chutonavi",
@@ -729,6 +1245,118 @@
         }
       ],
       "updatedAt": "2026-07-25T00:01:13Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "vinext starter A clean full stack starter running on vinext https://github.com/cloudflare/vinext , with optional Cloudflare D1 and Drizzle support. Prerequisites Node.js =22.13.0 Quick Start This starter does not use wrangler.jsonc . Included Shape edit site code under app/ .openai/hosting.json declares optional Sites D1 and R2 bindings vite.config.ts simulates declared bindings for local development db/schema.ts starts intentionally empty examples/d1/ contains an optional D1 example surface drizzle.config.ts supports local migration generation when needed Workspace Auth Headers OpenAI workspace sites can read the current user's email from oai authenticated user email . SIWC authenticated workspace sites may also receive oai authenticated user full name when the user's SIWC profile has a non empty name claim. The full name value is percent encoded UTF 8 and is accompanied by oai authenti",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        },
+        {
+          "sha": "7b35a98",
+          "message": "feat: add verified house cleaning providers",
+          "date": "2026-07-24T14:14:41Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/7b35a988a49c60077668585bf526d557a4478c97"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -780,96 +1408,6 @@
         }
       ],
       "updatedAt": "2026-07-22T11:37:45Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "map-search",
-      "name": "map-search",
-      "displayName": "Map Search",
-      "description": "Map Searchの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "",
-      "url": "https://github.com/syunnjack/map-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "AFFILIATE_SETUP.md",
-        "HOTPEPPER_API.md",
-        "aichi",
-        "analytics.js",
-        "api",
-        "assets",
-        "config.js",
-        "config.production.js",
-        "data",
-        "docs",
-        "index.html",
-        "llms.txt",
-        "package.json",
-        "place-detail.js",
-        "place",
-        "rakuten-api-version.js",
-        "robots.txt",
-        "script.js",
-        "scripts",
-        "shizuoka"
-      ],
-      "commits": [
-        {
-          "sha": "f7fb04e",
-          "message": "Add place detail pages and revenue tracking",
-          "date": "2026-07-23T09:39:14Z",
-          "url": "https://github.com/syunnjack/map-search/commit/f7fb04e0fe0c581ed605c0dd97488609fc37ddc4"
-        },
-        {
-          "sha": "7a614b3",
-          "message": "Add deployment validation and place detail planning",
-          "date": "2026-07-23T09:22:03Z",
-          "url": "https://github.com/syunnjack/map-search/commit/7a614b3261c34d7ff445a4f32c68787e9f4e1178"
-        },
-        {
-          "sha": "359ef20",
-          "message": "Add generated area pages for SEO expansion",
-          "date": "2026-07-23T09:12:03Z",
-          "url": "https://github.com/syunnjack/map-search/commit/359ef20d470168376b19aabe1d0057b3d0776ca4"
-        },
-        {
-          "sha": "cd935ce",
-          "message": "Add Google Places proxy and GBP integration plan",
-          "date": "2026-07-23T08:48:56Z",
-          "url": "https://github.com/syunnjack/map-search/commit/cd935cef02aa94fdd741aea30f71fa517b6b093d"
-        },
-        {
-          "sha": "7a0abe4",
-          "message": "Improve revenue rail and prefecture landing links",
-          "date": "2026-07-23T08:43:01Z",
-          "url": "https://github.com/syunnjack/map-search/commit/7a0abe4cb9101b9672493756022d7d1a006de034"
-        },
-        {
-          "sha": "6ebbaa8",
-          "message": "Expand map search to Aichi and add API proxy foundation",
-          "date": "2026-07-23T07:06:15Z",
-          "url": "https://github.com/syunnjack/map-search/commit/6ebbaa8c9a359b3c50e54cdb17687755204122f8"
-        },
-        {
-          "sha": "a7d56e6",
-          "message": "Add nationwide API expansion foundation",
-          "date": "2026-07-23T06:50:29Z",
-          "url": "https://github.com/syunnjack/map-search/commit/a7d56e67a99b651b3e0e7dcf83b3f91391d08567"
-        },
-        {
-          "sha": "61dddde",
-          "message": "Build Shizuoka map search MVP",
-          "date": "2026-07-13T11:20:44Z",
-          "url": "https://github.com/syunnjack/map-search/commit/61ddddede239d4a5c318bef90fe529ded4c1309c"
-        }
-      ],
-      "updatedAt": "2026-07-23T09:39:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -1608,6 +2146,29 @@
         }
       ],
       "updatedAt": "2026-07-20T06:03:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sukima-insight",
+      "name": "sukima-insight",
+      "displayName": "Sukima Insight",
+      "description": "Sukima Insightの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/sukima-insight",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "c2c24ed",
+          "message": "Initialize repository",
+          "date": "2026-07-19T19:59:24Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/c2c24ed8ca5c17231e775b3232b6fbb8e595d373"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:29Z",
       "stars": 0,
       "forks": 0
     },
@@ -4716,6 +5277,52 @@
       "forks": 0
     },
     {
+      "slug": "hotpapi01",
+      "name": "hotpAPI01",
+      "displayName": "HotpAPI01",
+      "description": "HotpAPI01の設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/hotpAPI01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#"
+      ],
+      "files": [
+        "hotpAPI01.sln",
+        "hotpAPI01"
+      ],
+      "commits": [
+        {
+          "sha": "ff19640",
+          "message": "Fix silently-broken budget filter codes (B004/B005/B006 no longer exist)",
+          "date": "2026-07-15T00:38:17Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/ff19640276f8813996086a8189d36cb2d1c18c1e"
+        },
+        {
+          "sha": "dac4ff2",
+          "message": "Move API key out of source, fix Shikoku prefecture labels",
+          "date": "2026-07-12T22:11:39Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/dac4ff2e4753aec6253d57907147f2b68c2959b5"
+        },
+        {
+          "sha": "a7cfe45",
+          "message": "プロジェクト ファイルを追加します。",
+          "date": "2026-03-25T02:02:10Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/a7cfe459cb811e98cc87a4dbfa26a956162be049"
+        },
+        {
+          "sha": "3341689",
+          "message": ".gitattributes と .gitignore を追加します。",
+          "date": "2026-03-25T02:02:08Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/33416898728e7b71555a4913012da21b2e085a3b"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:31Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "storage-locker-near",
       "name": "storage-locker-near",
       "displayName": "Storage Locker Near",
@@ -4754,6 +5361,75 @@
         }
       ],
       "updatedAt": "2026-07-15T00:07:40Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "walkmap",
+      "name": "walkmap",
+      "displayName": "Walkmap",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "readmeExcerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: Simple, fast routing engine https://laravel.com/docs/routing . Powerful dependency injection container https://laravel.com/docs/container . Multiple back ends for session https://laravel.com/docs/session and cache https://laravel.com/docs/cache storage. Expressive, intuitive database ORM https://laravel.com/docs/eloquent . Database agnostic schema migrations https://laravel.com/docs/migrations . Robust background job processing https://laravel.com/docs/queues . Real time event broadcasting https://laravel.com/docs/broadcasting . Laravel is accessible, powerful, and provides tools required for large, robust applica",
+      "url": "https://github.com/syunnjack/walkmap",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ff4ca20",
+          "message": "LINE混雑度通知を追加(住宅展示場など予約サイトにない情報の差別化)",
+          "date": "2026-07-14T23:59:41Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/ff4ca2077d924b129387c9c6dd1723c1562f0269"
+        },
+        {
+          "sha": "f978943",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:01:10Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/f978943ee5cdb75d4c9d06b9b1599d69f251b7d6"
+        },
+        {
+          "sha": "c989a8a",
+          "message": "EV充電・電源/Wi-Fiカフェ・ペット可施設・コインランドリー検索を追加",
+          "date": "2026-07-14T19:18:00Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/c989a8a86048e20c641f9bb32713e1c3097d0d7f"
+        },
+        {
+          "sha": "f6c44e4",
+          "message": "Consolidate walkmap onto free-only stack, add UGC congestion reports",
+          "date": "2026-07-14T11:41:09Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/f6c44e44d315d66085474eb329f75dc40987854d"
+        },
+        {
+          "sha": "4519e91",
+          "message": "first commit",
+          "date": "2025-07-24T08:02:20Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/4519e91a2dc48af0141f8acd476a8277daf3b2ff"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -5136,6 +5812,54 @@
       "forks": 0
     },
     {
+      "slug": "like-mangavi",
+      "name": "like-mangavi",
+      "displayName": "Like Mangavi",
+      "description": "Like Mangaviの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "",
+      "url": "https://github.com/syunnjack/like-mangavi",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "laravel"
+      ],
+      "commits": [
+        {
+          "sha": "c099cc6",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:02:22Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/c099cc629509ac93ae0731713eec8092295c9561"
+        },
+        {
+          "sha": "67fb699",
+          "message": "Point sitemap at the production domain manga-kuchikomi.jp",
+          "date": "2026-07-14T10:05:56Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/67fb6998f540a5d80b26afc4d7a5925f3199e25c"
+        },
+        {
+          "sha": "ce7959e",
+          "message": "Build マンガ口コミ検索: legal manga/photobook/DVD search with UGC",
+          "date": "2026-07-14T09:59:26Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/ce7959e3d5a44391017affaae3c59dee7937b02a"
+        },
+        {
+          "sha": "90897ec",
+          "message": "Initial commit like-mangavi",
+          "date": "2025-07-26T12:01:17Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/90897ecc024081dc21c3f36e53a6d1eaf4d124b2"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "laravel-posting-app",
       "name": "laravel-posting-app",
       "displayName": "Laravel Posting App",
@@ -5204,6 +5928,183 @@
         }
       ],
       "updatedAt": "2026-07-14T22:02:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "maportal",
+      "name": "maportal",
+      "displayName": "Maportal",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "readmeExcerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: Simple, fast routing engine https://laravel.com/docs/routing . Powerful dependency injection container https://laravel.com/docs/container . Multiple back ends for session https://laravel.com/docs/session and cache https://laravel.com/docs/cache storage. Expressive, intuitive database ORM https://laravel.com/docs/eloquent . Database agnostic schema migrations https://laravel.com/docs/migrations . Robust background job processing https://laravel.com/docs/queues . Real time event broadcasting https://laravel.com/docs/broadcasting . Laravel is accessible, powerful, and provides tools required for large, robust applica",
+      "url": "https://github.com/syunnjack/maportal",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "3a4a3dd",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:00:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
+        },
+        {
+          "sha": "7d456a4",
+          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
+          "date": "2026-07-14T10:22:33Z",
+          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
+        },
+        {
+          "sha": "55e634f",
+          "message": "Initial commit maportal",
+          "date": "2025-07-26T11:52:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:33Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gesenmap",
+      "name": "gesenmap",
+      "displayName": "Gesenmap",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "readmeExcerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: Simple, fast routing engine https://laravel.com/docs/routing . Powerful dependency injection container https://laravel.com/docs/container . Multiple back ends for session https://laravel.com/docs/session and cache https://laravel.com/docs/cache storage. Expressive, intuitive database ORM https://laravel.com/docs/eloquent . Database agnostic schema migrations https://laravel.com/docs/migrations . Robust background job processing https://laravel.com/docs/queues . Real time event broadcasting https://laravel.com/docs/broadcasting . Laravel is accessible, powerful, and provides tools required for large, robust applica",
+      "url": "https://github.com/syunnjack/gesenmap",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "7d34b0c",
+          "message": "$(cat <<'EOF'",
+          "date": "2026-07-14T21:59:52Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/7d34b0c8ad386cb199ac2b6548abe4a83bcc9f43"
+        },
+        {
+          "sha": "e68d2cd",
+          "message": "Point sitemap at the production domain gesen-kuchikomi.jp",
+          "date": "2026-07-14T11:19:33Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/e68d2cd454b55965b30cb69b3f4aeb489cc43f87"
+        },
+        {
+          "sha": "096f768",
+          "message": "Fix fatal bugs and build out ゲーセンマップ into a working UGC site",
+          "date": "2026-07-14T11:09:46Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/096f768392c4931574235626219ce1aae0bb7aea"
+        },
+        {
+          "sha": "2686bb4",
+          "message": "Initial commit gesenmap",
+          "date": "2025-07-26T11:50:07Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/2686bb402aee8a9e79ff6f01a31d1057208e0423"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "readmeExcerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: Simple, fast routing engine https://laravel.com/docs/routing . Powerful dependency injection container https://laravel.com/docs/container . Multiple back ends for session https://laravel.com/docs/session and cache https://laravel.com/docs/cache storage. Expressive, intuitive database ORM https://laravel.com/docs/eloquent . Database agnostic schema migrations https://laravel.com/docs/migrations . Robust background job processing https://laravel.com/docs/queues . Real time event broadcasting https://laravel.com/docs/broadcasting . Laravel is accessible, powerful, and provides tools required for large, robust applica",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "060c543",
+          "message": "$(cat <<'EOF'",
+          "date": "2026-07-14T21:59:45Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/060c54376658f98d82a7be908942e88bc1e9e400"
+        },
+        {
+          "sha": "21a73ac",
+          "message": "Fix broken search, migrate to 2026 Rakuten API, add SEO/AIO/LLMO and UGC",
+          "date": "2026-07-14T09:26:49Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/21a73acd7ec8f4201d71b9c1d1197eda68299006"
+        },
+        {
+          "sha": "979c7e8",
+          "message": "Initial commit golf-search",
+          "date": "2025-07-26T11:56:09Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/979c7e8f789d22d7ee70c89dd944194a7b57679b"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -5411,77 +6312,6 @@
       "forks": 0
     },
     {
-      "slug": "cross-genre",
-      "name": "cross-genre",
-      "displayName": "Cross Genre",
-      "description": "Cross Genreの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "",
-      "url": "https://github.com/syunnjack/cross-genre",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "app",
-        "components",
-        "data",
-        "next.config.mjs",
-        "package-lock.json",
-        "package.json",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "d083e1d",
-          "message": "fix: add 0413",
-          "date": "2026-04-13T11:10:44Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d083e1d0d3ce2e359ac88b0addccc80b882a22cb"
-        },
-        {
-          "sha": "a7324bc",
-          "message": "fix: add google maps types",
-          "date": "2026-04-12T15:54:29Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/a7324bc0e590e737d54e7097897cdee240eb5597"
-        },
-        {
-          "sha": "0220ff6",
-          "message": "fix: correct json syntax in package.json",
-          "date": "2026-04-12T15:49:47Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/0220ff633ccb959c9203aaf99ca2284ed73e0b46"
-        },
-        {
-          "sha": "d52a2ec",
-          "message": "fix: add missing google maps loader dependency",
-          "date": "2026-04-12T15:45:41Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d52a2ec357d9a24e41552fa128dc7bb927dbc735"
-        },
-        {
-          "sha": "54723c7",
-          "message": "fix: upgrade next.js to patch security vulnerability",
-          "date": "2026-04-12T15:40:16Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/54723c7edbbf7b8b485c195a14e8f0af8031057c"
-        },
-        {
-          "sha": "4752760",
-          "message": "fix: restore json data to fix empty build error",
-          "date": "2026-04-12T14:19:10Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/47527600136295036fcdc565f96606cb61685eba"
-        },
-        {
-          "sha": "1e151db",
-          "message": "initial commit: clean start without node_modules",
-          "date": "2026-04-12T14:12:59Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/1e151db4f19274e19699cc0b41ea3070853ce4a2"
-        }
-      ],
-      "updatedAt": "2026-04-13T11:11:05Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "my-affiliate-site",
       "name": "my-affiliate-site",
       "displayName": "My Affiliate Site",
@@ -5585,6 +6415,52 @@
         }
       ],
       "updatedAt": "2026-04-11T08:33:51Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "studylaw-app",
+      "name": "studylaw-app",
+      "displayName": "Studylaw App",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "readmeExcerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: Simple, fast routing engine https://laravel.com/docs/routing . Powerful dependency injection container https://laravel.com/docs/container . Multiple back ends for session https://laravel.com/docs/session and cache https://laravel.com/docs/cache storage. Expressive, intuitive database ORM https://laravel.com/docs/eloquent . Database agnostic schema migrations https://laravel.com/docs/migrations . Robust background job processing https://laravel.com/docs/queues . Real time event broadcasting https://laravel.com/docs/broadcasting . Laravel is accessible, powerful, and provides tools required for large, robust applica",
+      "url": "https://github.com/syunnjack/studylaw-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "fd398f5",
+          "message": "Initial commit studylaw-app",
+          "date": "2025-07-26T12:04:55Z",
+          "url": "https://github.com/syunnjack/studylaw-app/commit/fd398f513a4fe72489e87a8c2f2feec776ebfda0"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:34Z",
       "stars": 0,
       "forks": 0
     },

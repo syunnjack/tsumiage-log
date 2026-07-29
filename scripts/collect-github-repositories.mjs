@@ -8,6 +8,17 @@ const contentPolicy = JSON.parse(
   readFileSync(resolve("app/data/content-policy.json"), "utf8"),
 )
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
+const allowedRepositories = new Set(contentPolicy.allowedRepositories ?? [])
+const forbiddenTerms = [
+  /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i,
+  /アダルト/, /成人向け/, /風俗/, /部外秘/, /社外秘/,
+  /機密.*マニュアル/, /\bconfidential\b/i,
+]
+
+function containsForbiddenContent(...values) {
+  const searchable = values.flat().filter(Boolean).join(" ")
+  return forbiddenTerms.some((pattern) => pattern.test(searchable))
+}
 
 function gh(args, fallback = null) {
   try {
@@ -62,7 +73,7 @@ const publishable = repositories.filter(
     !excludedRepositories.has(repo.name),
 )
 
-const collected = publishable.map((repo, index) => {
+const candidates = publishable.map((repo, index) => {
   process.stdout.write(
     `[${String(index + 1).padStart(3, "0")}/${publishable.length}] ${repo.name}\n`,
   )
@@ -126,6 +137,23 @@ const collected = publishable.map((repo, index) => {
   }
 })
 
+const skippedRepositories = []
+const collected = candidates.filter((article) => {
+  if (allowedRepositories.has(article.name)) return true
+  const forbidden = containsForbiddenContent(
+    article.name,
+    article.description,
+    article.readmeExcerpt,
+    ...article.commits.map((commit) => commit.message),
+  )
+  if (forbidden) {
+    skippedRepositories.push(article.name)
+    process.stdout.write(`[SKIP] ${article.name}: content policy\n`)
+    return false
+  }
+  return true
+})
+
 let generatedAt = new Date().toISOString()
 try {
   const previousData = JSON.parse(readFileSync(outputPath, "utf8"))
@@ -145,6 +173,7 @@ writeFileSync(
       owner,
       totalRepositories: repositories.length,
       publicRepositories: repositories.filter((repo) => !repo.isPrivate).length,
+      skippedRepositories,
       articles: collected,
     },
     null,
@@ -153,3 +182,4 @@ writeFileSync(
 )
 
 console.log(`Collected ${collected.length} repositories into ${outputPath}`)
+console.log(`Skipped ${skippedRepositories.length} repositories by content policy`)

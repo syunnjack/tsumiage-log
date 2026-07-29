@@ -43,6 +43,10 @@ jobs:
       - name: Collect public repository changes
         run: npm run content:collect
 
+      - name: Report policy exclusions
+        run: |
+          node -e 'const d=require("./app/data/repositories.json"); const names=d.skippedRepositories||[]; console.log(`自動除外: ${names.length}件${names.length ? ` (${names.join(", ")})` : ""}`)' >> "$GITHUB_STEP_SUMMARY"
+
       - name: Audit content policy and article quality
         id: audit
         run: npm run content:audit

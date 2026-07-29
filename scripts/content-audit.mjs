@@ -22,6 +22,7 @@ const forbiddenTerms = [
   /\bconfidential\b/i,
 ]
 const excluded = new Set(contentPolicy.excludedRepositories)
+const allowed = new Set(contentPolicy.allowedRepositories ?? [])
 const slugs = new Set()
 const errors = []
 const warnings = []
@@ -41,7 +42,7 @@ for (const article of repositoryData.articles) {
     ...article.commits.map((commit) => commit.message),
   ].join(" ")
   const matchedTerm = forbiddenTerms.find((pattern) => pattern.test(searchable))
-  if (matchedTerm) {
+  if (matchedTerm && !allowed.has(article.name)) {
     errors.push(`${article.name}: 公開禁止キーワードを検出しました (${matchedTerm})`)
   }
   if (!article.commits.length) {

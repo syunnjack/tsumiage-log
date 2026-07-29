@@ -1,14 +1,20 @@
 {
+  "allowedRepositories": [
+    "tsumiage-log"
+  ],
   "excludedRepositories": [
     "affiliate-feed-core",
     "content-stream-finder",
     "darekore-affiliate-site",
     "darekore-site",
     "dvd-jan-scan-db",
+    "dmm-fanza-builder",
     "fanza-sdk",
     "licensed-video-guide",
     "machi-list",
+    "mature-select",
     "rakuafi-tool",
+    "ribenji",
     "task-dashboard",
     "work-catalog"
   ],
