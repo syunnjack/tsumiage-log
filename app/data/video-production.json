@@ -1,0 +1,2573 @@
+{
+  "generatedAt": "2026-07-29T22:08:10.855Z",
+  "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
+  "completed": [
+    {
+      "slug": "rakuten02",
+      "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
+    }
+  ],
+  "queuedCount": 128,
+  "videos": [
+    {
+      "slug": "tsumiage-log",
+      "repository": "tsumiage-log",
+      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
+      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-02T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Tsumiage Logの技術構成を短く解説します。",
+        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Fix repository article automation exclusionsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "togo-kanri-tool",
+      "repository": "togo-kanri-tool",
+      "title": "Togo Kanri Toolの技術解説｜設計と実装を75秒で紹介",
+      "description": "Togo Kanri Toolの設計と実装を記録したプロジェクト",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/togo-kanri-tool",
+      "repositoryUrl": "https://github.com/syunnjack/togo-kanri-tool",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/togo-kanri-tool\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/togo-kanri-tool\n\nTogo Kanri Toolの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Togo Kanri Toolの技術構成を短く解説します。",
+        "Togo Kanri Toolの設計と実装を記録したプロジェクト",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、app、eslint.config.mjs、libを中心に実装を確認できます。",
+        "最近の変更では、Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestionsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "akira-special",
+      "repository": "akira-special",
+      "title": "Akira Specialの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/akira-special",
+      "repositoryUrl": "https://github.com/syunnjack/akira-special",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/akira-special\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/akira-special\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-04T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Akira Specialの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Improve beginner arcade-stick UX in app/globals.cssという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "reserve-serapi",
+      "repository": "reserve-serapi",
+      "title": "Reserve Serapiの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/reserve-serapi",
+      "repositoryUrl": "https://github.com/syunnjack/reserve-serapi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/reserve-serapi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/reserve-serapi\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-05T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Reserve Serapiの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Add host-based landing page variants for multi-domain rolloutという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "cross-genre",
+      "repository": "cross-genre",
+      "title": "Cross Genreの技術解説｜設計と実装を75秒で紹介",
+      "description": "Cross Genreの設計と実装を記録したプロジェクト",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/cross-genre",
+      "repositoryUrl": "https://github.com/syunnjack/cross-genre",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cross-genre\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cross-genre\n\nCross Genreの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-06T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Cross Genreの技術構成を短く解説します。",
+        "Cross Genreの設計と実装を記録したプロジェクト",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、app、components、dataを中心に実装を確認できます。",
+        "最近の変更では、Upgrade Next.js to fix critical security vulnerabilitiesという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "goal-pilot-app",
+      "repository": "goal-pilot-app",
+      "title": "Goal Pilot Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
+      "language": "TypeScript・CSS・Java",
+      "articleUrl": "https://syunnjack.dev/articles/goal-pilot-app",
+      "repositoryUrl": "https://github.com/syunnjack/goal-pilot-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/goal-pilot-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/goal-pilot-app\n\nGoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-07T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Goal Pilot Appの技術構成を短く解説します。",
+        "GoalPilot GoalPilot is an anti give up goal achievement app for people who often quit after a few days",
+        "主な技術はTypeScript・CSS・Javaです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、android、appを中心に実装を確認できます。",
+        "最近の変更では、Add sitemap.xml and robots.txt for SEO crawlabilityという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "map-search",
+      "repository": "map-search",
+      "title": "Map Searchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Map Searchの設計と実装を記録したプロジェクト",
+      "language": "HTML・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/map-search",
+      "repositoryUrl": "https://github.com/syunnjack/map-search",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/map-search\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/map-search\n\nMap Searchの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #HTML",
+      "publishAt": "2026-08-08T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Map Searchの技術構成を短く解説します。",
+        "Map Searchの設計と実装を記録したプロジェクト",
+        "主な技術はHTML・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AFFILIATE_SETUP.md、HOTPEPPER_API.md、aichiを中心に実装を確認できます。",
+        "最近の変更では、Configure root as Vercel output directory for static siteという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "allbowl01",
+      "repository": "allbowl01",
+      "title": "Allbowl01の技術解説｜設計と実装を75秒で紹介",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "language": "C#・Astro・HTML・TypeScript・Python・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/allbowl01",
+      "repositoryUrl": "https://github.com/syunnjack/allbowl01",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/allbowl01\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/allbowl01\n\nallbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル\n\n#技術解説 #個人開発 #C",
+      "publishAt": "2026-08-09T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Allbowl01の技術構成を短く解説します。",
+        "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+        "主な技術はC#・Astro・HTML・TypeScript・Python・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、allbowl01.sln、allbowl01を中心に実装を確認できます。",
+        "最近の変更では、Add SEO, LLMO, and UGC activation features for Astro and WordPress.という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "kousokubus-benri",
+      "repository": "kousokubus-benri",
+      "title": "Kousokubus Benriの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/kousokubus-benri",
+      "repositoryUrl": "https://github.com/syunnjack/kousokubus-benri",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kousokubus-benri\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kousokubus-benri\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-10T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Kousokubus Benriの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Upgrade GTFS workflow to Node 24 actionsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "akecom-spa2x-ryu",
+      "repository": "akecom-spa2x-ryu",
+      "title": "Akecom Spa2x Ryuの技術解説｜設計と実装を75秒で紹介",
+      "description": "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
+      "language": "JavaScript・CSS・HTML",
+      "articleUrl": "https://syunnjack.dev/articles/akecom-spa2x-ryu",
+      "repositoryUrl": "https://github.com/syunnjack/akecom-spa2x-ryu",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/akecom-spa2x-ryu\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/akecom-spa2x-ryu\n\n真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-08-11T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Akecom Spa2x Ryuの技術構成を短く解説します。",
+        "真空トレーナー 『スーパーストリートファイターII X』のリュウで、中足キャンセル真空波動拳を自力で出せるようになるための、非自動化トレーニングツールです",
+        "主な技術はJavaScript・CSS・HTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、LICENSE、README.md、app.jsを中心に実装を確認できます。",
+        "最近の変更では、参考動画に合わせてキャンセル入力判定を改善 (#6)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "king-sys",
+      "repository": "king-sys",
+      "title": "King Sysの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/king-sys",
+      "repositoryUrl": "https://github.com/syunnjack/king-sys",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/king-sys\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/king-sys\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-12T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、King Sysの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial king-sys MVP: slot reservation + queue priority guaranteeという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "reserve-sys",
+      "repository": "reserve-sys",
+      "title": "Reserve Sysの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/reserve-sys",
+      "repositoryUrl": "https://github.com/syunnjack/reserve-sys",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/reserve-sys\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/reserve-sys\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-13T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Reserve Sysの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial multi-tenant reservation system MVPという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "gemecard-portal",
+      "repository": "gemecard-portal",
+      "title": "Gemecard Portalの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/gemecard-portal",
+      "repositoryUrl": "https://github.com/syunnjack/gemecard-portal",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gemecard-portal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gemecard-portal\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-14T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Gemecard Portalの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial gamecard portal: card companies, game titles, community boardという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "autohensei",
+      "repository": "autohensei",
+      "title": "Autohenseiの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/autohensei",
+      "repositoryUrl": "https://github.com/syunnjack/autohensei",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/autohensei\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/autohensei\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-15T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Autohenseiの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial DQ Walk free-to-play / auto-battle composition guideという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "dqwalk-mukatoshin",
+      "repository": "dqwalk-mukatoshin",
+      "title": "Dqwalk Mukatoshinの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/dqwalk-mukatoshin",
+      "repositoryUrl": "https://github.com/syunnjack/dqwalk-mukatoshin",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/dqwalk-mukatoshin\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/dqwalk-mukatoshin\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-16T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Dqwalk Mukatoshinの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial DQ Walk free-to-play / auto-battle composition guideという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "chutonavi",
+      "repository": "chutonavi",
+      "title": "Chutonaviの技術解説｜設計と実装を75秒で紹介",
+      "description": "Chutonaviの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/chutonavi",
+      "repositoryUrl": "https://github.com/syunnjack/chutonavi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/chutonavi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/chutonavi\n\nChutonaviの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-08-17T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Chutonaviの技術構成を短く解説します。",
+        "Chutonaviの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、chore: initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-service-finder",
+      "repository": "local-service-finder",
+      "title": "Local Service Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-service-finder",
+      "repositoryUrl": "https://github.com/syunnjack/local-service-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-service-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-service-finder\n\n市町村別の生活・美容・教育サービス比較基盤\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-18T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Local Service Finderの技術構成を短く解説します。",
+        "市町村別の生活・美容・教育サービス比較基盤",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、feat: prioritize helpful discovery on homeという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "leaflet-web1",
+      "repository": "leaflet-web1",
+      "title": "Leaflet Web1の技術解説｜設計と実装を75秒で紹介",
+      "description": "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/leaflet-web1",
+      "repositoryUrl": "https://github.com/syunnjack/leaflet-web1",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/leaflet-web1\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/leaflet-web1\n\nSPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-19T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Leaflet Web1の技術構成を短く解説します。",
+        "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Rebrand web platform as SPOTPALETTEという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "leaflet-app1",
+      "repository": "leaflet-app1",
+      "title": "Leaflet App1の技術解説｜設計と実装を75秒で紹介",
+      "description": "SPOTPALETTE App Leaflet地図をアプリ内WebViewで動かす、iOS・Android共通の地域検索MVPです",
+      "language": "TypeScript",
+      "articleUrl": "https://syunnjack.dev/articles/leaflet-app1",
+      "repositoryUrl": "https://github.com/syunnjack/leaflet-app1",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/leaflet-app1\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/leaflet-app1\n\nSPOTPALETTE App Leaflet地図をアプリ内WebViewで動かす、iOS・Android共通の地域検索MVPです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-20T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Leaflet App1の技術構成を短く解説します。",
+        "SPOTPALETTE App Leaflet地図をアプリ内WebViewで動かす、iOS・Android共通の地域検索MVPです",
+        "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app.json、appを中心に実装を確認できます。",
+        "最近の変更では、Rebrand mobile app as SPOTPALETTEという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "vs-jt",
+      "repository": "vs-jt",
+      "title": "Vs Jtの技術解説｜設計と実装を75秒で紹介",
+      "description": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
+      "language": "JavaScript・PLpgSQL・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/vs-jt",
+      "repositoryUrl": "https://github.com/syunnjack/vs-jt",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/vs-jt\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/vs-jt\n\nvs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-08-21T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Vs Jtの技術構成を短く解説します。",
+        "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
+        "主な技術はJavaScript・PLpgSQL・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Configure GitHub Pages for sugusuu.jpという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "miseoshi-app",
+      "repository": "miseoshi-app",
+      "title": "Miseoshi Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "miseoshi お店とファンが来店後もつながる、業態横断型のモバイル会員アプリMVPです",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/miseoshi-app",
+      "repositoryUrl": "https://github.com/syunnjack/miseoshi-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/miseoshi-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/miseoshi-app\n\nmiseoshi お店とファンが来店後もつながる、業態横断型のモバイル会員アプリMVPです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-22T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Miseoshi Appの技術構成を短く解説します。",
+        "miseoshi お店とファンが来店後もつながる、業態横断型のモバイル会員アプリMVPです",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Route admin domain to management consoleという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "miseoshi-web",
+      "repository": "miseoshi-web",
+      "title": "Miseoshi Webの技術解説｜設計と実装を75秒で紹介",
+      "description": "miseoshi web 店舗検索、リアルタイム待ち時間、スマホ順番受付、受付後の進行表示を一連で体験できる販売提案用MVPです",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/miseoshi-web",
+      "repositoryUrl": "https://github.com/syunnjack/miseoshi-web",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/miseoshi-web\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/miseoshi-web\n\nmiseoshi web 店舗検索、リアルタイム待ち時間、スマホ順番受付、受付後の進行表示を一連で体験できる販売提案用MVPです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-23T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Miseoshi Webの技術構成を短く解説します。",
+        "miseoshi web 店舗検索、リアルタイム待ち時間、スマホ順番受付、受付後の進行表示を一連で体験できる販売提案用MVPです",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure Sites hostingという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "reservation-waiting-time-v1",
+      "repository": "reservation-waiting-time-v1",
+      "title": "Reservation Waiting Time V1の技術解説｜設計と実装を75秒で紹介",
+      "description": "NearQueue 店舗の近くからスマートフォンで受付番号を取得し、待ち時間を自由に使える順番待ちシステムです",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/reservation-waiting-time-v1",
+      "repositoryUrl": "https://github.com/syunnjack/reservation-waiting-time-v1",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/reservation-waiting-time-v1\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/reservation-waiting-time-v1\n\nNearQueue 店舗の近くからスマートフォンで受付番号を取得し、待ち時間を自由に使える順番待ちシステムです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-24T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Reservation Waiting Time V1の技術構成を短く解説します。",
+        "NearQueue 店舗の近くからスマートフォンで受付番号を取得し、待ち時間を自由に使える順番待ちシステムです",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure hosted NearQueue releaseという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-new-games-api",
+      "repository": "retro-new-games-api",
+      "title": "Retro New Games Apiの技術解説｜設計と実装を75秒で紹介",
+      "description": "GAME PORTAL JP API Web版・iOS版・Android版が共通利用するCloudflare Workers + D1 APIです",
+      "language": "TypeScript",
+      "articleUrl": "https://syunnjack.dev/articles/retro-new-games-api",
+      "repositoryUrl": "https://github.com/syunnjack/retro-new-games-api",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-new-games-api\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-new-games-api\n\nGAME PORTAL JP API Web版・iOS版・Android版が共通利用するCloudflare Workers + D1 APIです\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-25T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro New Games Apiの技術構成を短く解説します。",
+        "GAME PORTAL JP API Web版・iOS版・Android版が共通利用するCloudflare Workers + D1 APIです",
+        "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、migrations、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Build shared GAME PORTAL JP APIという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-new-games-app",
+      "repository": "retro-new-games-app",
+      "title": "Retro New Games Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "GAME PORTAL JP App iOS / Android向けExpoアプリ",
+      "language": "TypeScript",
+      "articleUrl": "https://syunnjack.dev/articles/retro-new-games-app",
+      "repositoryUrl": "https://github.com/syunnjack/retro-new-games-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-new-games-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-new-games-app\n\nGAME PORTAL JP App iOS / Android向けExpoアプリ\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-26T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro New Games Appの技術構成を短く解説します。",
+        "GAME PORTAL JP App iOS / Android向けExpoアプリ",
+        "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app.json、appを中心に実装を確認できます。",
+        "最近の変更では、Build GAME PORTAL JP mobile app prototypeという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-new-games",
+      "repository": "retro-new-games",
+      "title": "Retro New Gamesの技術解説｜設計と実装を75秒で紹介",
+      "description": "GAME PORTAL JP レトロゲームから最新ゲームまでの攻略情報と、全国のオンライン・実店舗大会を横断できるゲームポータルの初期版です",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/retro-new-games",
+      "repositoryUrl": "https://github.com/syunnjack/retro-new-games",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-new-games\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-new-games\n\nGAME PORTAL JP レトロゲームから最新ゲームまでの攻略情報と、全国のオンライン・実店舗大会を横断できるゲームポータルの初期版です\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-27T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro New Gamesの技術構成を短く解説します。",
+        "GAME PORTAL JP レトロゲームから最新ゲームまでの攻略情報と、全国のオンライン・実店舗大会を横断できるゲームポータルの初期版です",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Add installable web app supportという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "choice-compass",
+      "repository": "choice-compass",
+      "title": "Choice Compassの技術解説｜設計と実装を75秒で紹介",
+      "description": "Choice Compassの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/choice-compass",
+      "repositoryUrl": "https://github.com/syunnjack/choice-compass",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/choice-compass\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/choice-compass\n\nChoice Compassの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-08-28T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Choice Compassの技術構成を短く解説します。",
+        "Choice Compassの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "vr-content-gear-guide",
+      "repository": "vr-content-gear-guide",
+      "title": "Vr Content Gear Guideの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/vr-content-gear-guide",
+      "repositoryUrl": "https://github.com/syunnjack/vr-content-gear-guide",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/vr-content-gear-guide\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/vr-content-gear-guide\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-29T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Vr Content Gear Guideの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure Sites projectという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "cosme-stock-alert",
+      "repository": "cosme-stock-alert",
+      "title": "Cosme Stock Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/cosme-stock-alert",
+      "repositoryUrl": "https://github.com/syunnjack/cosme-stock-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cosme-stock-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cosme-stock-alert\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-30T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Cosme Stock Alertの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure private site hostingという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "asia-trip-concierge",
+      "repository": "asia-trip-concierge",
+      "title": "Asia Trip Conciergeの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/asia-trip-concierge",
+      "repositoryUrl": "https://github.com/syunnjack/asia-trip-concierge",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/asia-trip-concierge\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/asia-trip-concierge\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-08-31T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Asia Trip Conciergeの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure private site hostingという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "oshi-trip-alert",
+      "repository": "oshi-trip-alert",
+      "title": "Oshi Trip Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/oshi-trip-alert",
+      "repositoryUrl": "https://github.com/syunnjack/oshi-trip-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/oshi-trip-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/oshi-trip-alert\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-09-01T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Oshi Trip Alertの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Configure private site hostingという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "niche-compare-hub",
+      "repository": "niche-compare-hub",
+      "title": "Niche Compare Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/niche-compare-hub",
+      "repositoryUrl": "https://github.com/syunnjack/niche-compare-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/niche-compare-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/niche-compare-hub\n\nNiche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-02T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Niche Compare Hubの技術構成を短く解説します。",
+        "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "domain-safety-checker",
+      "repository": "domain-safety-checker",
+      "title": "Domain Safety Checkerの技術解説｜設計と実装を75秒で紹介",
+      "description": "Domain Safety Checkerの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/domain-safety-checker",
+      "repositoryUrl": "https://github.com/syunnjack/domain-safety-checker",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/domain-safety-checker\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/domain-safety-checker\n\nDomain Safety Checkerの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-09-03T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Domain Safety Checkerの技術構成を短く解説します。",
+        "Domain Safety Checkerの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "ranking-widget-hub",
+      "repository": "ranking-widget-hub",
+      "title": "Ranking Widget Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Ranking Widget Hubの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/ranking-widget-hub",
+      "repositoryUrl": "https://github.com/syunnjack/ranking-widget-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ranking-widget-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ranking-widget-hub\n\nRanking Widget Hubの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-09-04T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Ranking Widget Hubの技術構成を短く解説します。",
+        "Ranking Widget Hubの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "publish-flow",
+      "repository": "publish-flow",
+      "title": "Publish Flowの技術解説｜設計と実装を75秒で紹介",
+      "description": "Publish Flowの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/publish-flow",
+      "repositoryUrl": "https://github.com/syunnjack/publish-flow",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/publish-flow\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/publish-flow\n\nPublish Flowの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-09-05T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Publish Flowの技術構成を短く解説します。",
+        "Publish Flowの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "content-brief-engine",
+      "repository": "content-brief-engine",
+      "title": "Content Brief Engineの技術解説｜設計と実装を75秒で紹介",
+      "description": "Content Brief Engineの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/content-brief-engine",
+      "repositoryUrl": "https://github.com/syunnjack/content-brief-engine",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/content-brief-engine\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/content-brief-engine\n\nContent Brief Engineの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-09-06T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Content Brief Engineの技術構成を短く解説します。",
+        "Content Brief Engineの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "sukima-insight",
+      "repository": "sukima-insight",
+      "title": "Sukima Insightの技術解説｜設計と実装を75秒で紹介",
+      "description": "Sukima Insightの設計と実装を記録したプロジェクト",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/sukima-insight",
+      "repositoryUrl": "https://github.com/syunnjack/sukima-insight",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sukima-insight\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sukima-insight\n\nSukima Insightの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-09-07T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Sukima Insightの技術構成を短く解説します。",
+        "Sukima Insightの設計と実装を記録したプロジェクト",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "最近の変更では、Initialize repositoryという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "tourism-crowd-parking-alert",
+      "repository": "tourism-crowd-parking-alert",
+      "title": "Tourism Crowd Parking Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/tourism-crowd-parking-alert",
+      "repositoryUrl": "https://github.com/syunnjack/tourism-crowd-parking-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tourism-crowd-parking-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tourism-crowd-parking-alert\n\nTourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-08T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Tourism Crowd Parking Alertの技術構成を短く解説します。",
+        "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "wait-time-alert",
+      "repository": "wait-time-alert",
+      "title": "Wait Time Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/wait-time-alert",
+      "repositoryUrl": "https://github.com/syunnjack/wait-time-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/wait-time-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/wait-time-alert\n\nWait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-09T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Wait Time Alertの技術構成を短く解説します。",
+        "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "disaster-spot-alert",
+      "repository": "disaster-spot-alert",
+      "title": "Disaster Spot Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/disaster-spot-alert",
+      "repositoryUrl": "https://github.com/syunnjack/disaster-spot-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/disaster-spot-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/disaster-spot-alert\n\nDisaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-10T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Disaster Spot Alertの技術構成を短く解説します。",
+        "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-board-alert",
+      "repository": "local-board-alert",
+      "title": "Local Board Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Local Board Alert 地域掲示板の新着投稿通知 Repository Recommended repository name: local board alert Domain candidates Confirmed domain: localboardalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-board-alert",
+      "repositoryUrl": "https://github.com/syunnjack/local-board-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-board-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-board-alert\n\nLocal Board Alert 地域掲示板の新着投稿通知 Repository Recommended repository name: local board alert Domain candidates Confirmed domain: localboardalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-11T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Local Board Alertの技術構成を短く解説します。",
+        "Local Board Alert 地域掲示板の新着投稿通知 Repository Recommended repository name: local board alert Domain candidates Confirmed domain: localboardalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "subsidy-alert-hub",
+      "repository": "subsidy-alert-hub",
+      "title": "Subsidy Alert Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/subsidy-alert-hub",
+      "repositoryUrl": "https://github.com/syunnjack/subsidy-alert-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/subsidy-alert-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/subsidy-alert-hub\n\nSubsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-12T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Subsidy Alert Hubの技術構成を短く解説します。",
+        "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "welfare-job-alert",
+      "repository": "welfare-job-alert",
+      "title": "Welfare Job Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Welfare Job Alert 障害者雇用・福祉系求人通知 Repository Recommended repository name: welfare job alert Domain candidates Confirmed domain: welfarejob",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/welfare-job-alert",
+      "repositoryUrl": "https://github.com/syunnjack/welfare-job-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/welfare-job-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/welfare-job-alert\n\nWelfare Job Alert 障害者雇用・福祉系求人通知 Repository Recommended repository name: welfare job alert Domain candidates Confirmed domain: welfarejob\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-13T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Welfare Job Alertの技術構成を短く解説します。",
+        "Welfare Job Alert 障害者雇用・福祉系求人通知 Repository Recommended repository name: welfare job alert Domain candidates Confirmed domain: welfarejob",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bar-job-alert",
+      "repository": "bar-job-alert",
+      "title": "Bar Job Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bar-job-alert",
+      "repositoryUrl": "https://github.com/syunnjack/bar-job-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bar-job-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bar-job-alert\n\nBar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-14T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Bar Job Alertの技術構成を短く解説します。",
+        "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "job-match-alert",
+      "repository": "job-match-alert",
+      "title": "Job Match Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/job-match-alert",
+      "repositoryUrl": "https://github.com/syunnjack/job-match-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/job-match-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/job-match-alert\n\nJob Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-15T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Job Match Alertの技術構成を短く解説します。",
+        "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "flea-price-watch",
+      "repository": "flea-price-watch",
+      "title": "Flea Price Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Flea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/flea-price-watch",
+      "repositoryUrl": "https://github.com/syunnjack/flea-price-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/flea-price-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/flea-price-watch\n\nFlea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-16T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Flea Price Watchの技術構成を短く解説します。",
+        "Flea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hobby-stock-price-alert",
+      "repository": "hobby-stock-price-alert",
+      "title": "Hobby Stock Price Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobbystock",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hobby-stock-price-alert",
+      "repositoryUrl": "https://github.com/syunnjack/hobby-stock-price-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hobby-stock-price-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hobby-stock-price-alert\n\nHobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobbystock\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-17T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Hobby Stock Price Alertの技術構成を短く解説します。",
+        "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobbystock",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "buyback-price-alert",
+      "repository": "buyback-price-alert",
+      "title": "Buyback Price Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Buyback Price Alert 中古品・買取価格アラート Repository Recommended repository name: buyback price alert Domain candidates Confirmed domain: buybackalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/buyback-price-alert",
+      "repositoryUrl": "https://github.com/syunnjack/buyback-price-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/buyback-price-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/buyback-price-alert\n\nBuyback Price Alert 中古品・買取価格アラート Repository Recommended repository name: buyback price alert Domain candidates Confirmed domain: buybackalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-18T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Buyback Price Alertの技術構成を短く解説します。",
+        "Buyback Price Alert 中古品・買取価格アラート Repository Recommended repository name: buyback price alert Domain candidates Confirmed domain: buybackalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "exam-date-alert",
+      "repository": "exam-date-alert",
+      "title": "Exam Date Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/exam-date-alert",
+      "repositoryUrl": "https://github.com/syunnjack/exam-date-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/exam-date-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/exam-date-alert\n\nExam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-19T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Exam Date Alertの技術構成を短く解説します。",
+        "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "study-reminder-ai",
+      "repository": "study-reminder-ai",
+      "title": "Study Reminder Aiの技術解説｜設計と実装を75秒で紹介",
+      "description": "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/study-reminder-ai",
+      "repositoryUrl": "https://github.com/syunnjack/study-reminder-ai",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/study-reminder-ai\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/study-reminder-ai\n\nStudy Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-20T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Study Reminder Aiの技術構成を短く解説します。",
+        "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "smoking-map-alert",
+      "repository": "smoking-map-alert",
+      "title": "Smoking Map Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/smoking-map-alert",
+      "repositoryUrl": "https://github.com/syunnjack/smoking-map-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/smoking-map-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/smoking-map-alert\n\nSmoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-21T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Smoking Map Alertの技術構成を短く解説します。",
+        "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "sauna-crowd-alert",
+      "repository": "sauna-crowd-alert",
+      "title": "Sauna Crowd Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/sauna-crowd-alert",
+      "repositoryUrl": "https://github.com/syunnjack/sauna-crowd-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sauna-crowd-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sauna-crowd-alert\n\nSauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-22T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Sauna Crowd Alertの技術構成を短く解説します。",
+        "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "netcafe-seat-watch",
+      "repository": "netcafe-seat-watch",
+      "title": "Netcafe Seat Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/netcafe-seat-watch",
+      "repositoryUrl": "https://github.com/syunnjack/netcafe-seat-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/netcafe-seat-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/netcafe-seat-watch\n\nNetcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-23T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Netcafe Seat Watchの技術構成を短く解説します。",
+        "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "midnight-spot-alert",
+      "repository": "midnight-spot-alert",
+      "title": "Midnight Spot Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Midnight Spot Alert 深夜営業・終電後スポット通知 Repository Recommended repository name: midnight spot alert Domain candidates Confirmed domain: midnightspot",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/midnight-spot-alert",
+      "repositoryUrl": "https://github.com/syunnjack/midnight-spot-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/midnight-spot-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/midnight-spot-alert\n\nMidnight Spot Alert 深夜営業・終電後スポット通知 Repository Recommended repository name: midnight spot alert Domain candidates Confirmed domain: midnightspot\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-24T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Midnight Spot Alertの技術構成を短く解説します。",
+        "Midnight Spot Alert 深夜営業・終電後スポット通知 Repository Recommended repository name: midnight spot alert Domain candidates Confirmed domain: midnightspot",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "restaurant-seat-alert",
+      "repository": "restaurant-seat-alert",
+      "title": "Restaurant Seat Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/restaurant-seat-alert",
+      "repositoryUrl": "https://github.com/syunnjack/restaurant-seat-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/restaurant-seat-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/restaurant-seat-alert\n\nRestaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-25T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Restaurant Seat Alertの技術構成を短く解説します。",
+        "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "golf-slot-watch",
+      "repository": "golf-slot-watch",
+      "title": "Golf Slot Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/golf-slot-watch",
+      "repositoryUrl": "https://github.com/syunnjack/golf-slot-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/golf-slot-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/golf-slot-watch\n\nGolf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-26T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Golf Slot Watchの技術構成を短く解説します。",
+        "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "rc-course-alert",
+      "repository": "rc-course-alert",
+      "title": "Rc Course Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/rc-course-alert",
+      "repositoryUrl": "https://github.com/syunnjack/rc-course-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/rc-course-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/rc-course-alert\n\nRC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-27T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Rc Course Alertの技術構成を短く解説します。",
+        "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bowling-lane-alert",
+      "repository": "bowling-lane-alert",
+      "title": "Bowling Lane Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bowling-lane-alert",
+      "repositoryUrl": "https://github.com/syunnjack/bowling-lane-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bowling-lane-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bowling-lane-alert\n\nBowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-28T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Bowling Lane Alertの技術構成を短く解説します。",
+        "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "darts-event-alert",
+      "repository": "darts-event-alert",
+      "title": "Darts Event Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/darts-event-alert",
+      "repositoryUrl": "https://github.com/syunnjack/darts-event-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/darts-event-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/darts-event-alert\n\nDarts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-29T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Darts Event Alertの技術構成を短く解説します。",
+        "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-game-watch",
+      "repository": "retro-game-watch",
+      "title": "Retro Game Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/retro-game-watch",
+      "repositoryUrl": "https://github.com/syunnjack/retro-game-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-game-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-game-watch\n\nRetro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-09-30T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro Game Watchの技術構成を短く解説します。",
+        "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-jihanki-live",
+      "repository": "retro-jihanki-live",
+      "title": "Retro Jihanki Liveの技術解説｜設計と実装を75秒で紹介",
+      "description": "Retro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/retro-jihanki-live",
+      "repositoryUrl": "https://github.com/syunnjack/retro-jihanki-live",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-jihanki-live\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-jihanki-live\n\nRetro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-01T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro Jihanki Liveの技術構成を短く解説します。",
+        "Retro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "prize-arrival-watch",
+      "repository": "prize-arrival-watch",
+      "title": "Prize Arrival Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Prize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/prize-arrival-watch",
+      "repositoryUrl": "https://github.com/syunnjack/prize-arrival-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/prize-arrival-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/prize-arrival-watch\n\nPrize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-02T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Prize Arrival Watchの技術構成を短く解説します。",
+        "Prize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "event-trip-alert",
+      "repository": "event-trip-alert",
+      "title": "Event Trip Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/event-trip-alert",
+      "repositoryUrl": "https://github.com/syunnjack/event-trip-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/event-trip-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/event-trip-alert\n\nEvent Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-03T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Event Trip Alertの技術構成を短く解説します。",
+        "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "smoking-stay-alert",
+      "repository": "smoking-stay-alert",
+      "title": "Smoking Stay Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/smoking-stay-alert",
+      "repositoryUrl": "https://github.com/syunnjack/smoking-stay-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/smoking-stay-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/smoking-stay-alert\n\nSmoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-04T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Smoking Stay Alertの技術構成を短く解説します。",
+        "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hotel-price-watch",
+      "repository": "hotel-price-watch",
+      "title": "Hotel Price Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: hotelpricewatch",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hotel-price-watch",
+      "repositoryUrl": "https://github.com/syunnjack/hotel-price-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hotel-price-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hotel-price-watch\n\nHotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: hotelpricewatch\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-05T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Hotel Price Watchの技術構成を短く解説します。",
+        "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: hotelpricewatch",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "route-delay-stay-alert",
+      "repository": "route-delay-stay-alert",
+      "title": "Route Delay Stay Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: delaystay",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/route-delay-stay-alert",
+      "repositoryUrl": "https://github.com/syunnjack/route-delay-stay-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/route-delay-stay-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/route-delay-stay-alert\n\nRoute Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: delaystay\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-06T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Route Delay Stay Alertの技術構成を短く解説します。",
+        "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: delaystay",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "openclose-pulse",
+      "repository": "openclose-pulse",
+      "title": "Openclose Pulseの技術解説｜設計と実装を75秒で紹介",
+      "description": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: openclosepulse",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/openclose-pulse",
+      "repositoryUrl": "https://github.com/syunnjack/openclose-pulse",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/openclose-pulse\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/openclose-pulse\n\nOpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: openclosepulse\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-07T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Openclose Pulseの技術構成を短く解説します。",
+        "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: openclosepulse",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "ai-quiz-study",
+      "repository": "ai-quiz-study",
+      "title": "Ai Quiz Studyの技術解説｜設計と実装を75秒で紹介",
+      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: aiichimon",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/ai-quiz-study",
+      "repositoryUrl": "https://github.com/syunnjack/ai-quiz-study",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ai-quiz-study\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ai-quiz-study\n\nAI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: aiichimon\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-08T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Ai Quiz Studyの技術構成を短く解説します。",
+        "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: aiichimon",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "prize-stock-alert",
+      "repository": "prize-stock-alert",
+      "title": "Prize Stock Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: prizealert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/prize-stock-alert",
+      "repositoryUrl": "https://github.com/syunnjack/prize-stock-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/prize-stock-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/prize-stock-alert\n\nPrize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: prizealert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-09T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Prize Stock Alertの技術構成を短く解説します。",
+        "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: prizealert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "showa-retro-route",
+      "repository": "showa-retro-route",
+      "title": "Showa Retro Routeの技術解説｜設計と実装を75秒で紹介",
+      "description": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: showaroute",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/showa-retro-route",
+      "repositoryUrl": "https://github.com/syunnjack/showa-retro-route",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/showa-retro-route\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/showa-retro-route\n\nShowa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: showaroute\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-10T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Showa Retro Routeの技術構成を短く解説します。",
+        "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: showaroute",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-alert-radar",
+      "repository": "local-alert-radar",
+      "title": "Local Alert Radarの技術解説｜設計と実装を75秒で紹介",
+      "description": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: localalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-alert-radar",
+      "repositoryUrl": "https://github.com/syunnjack/local-alert-radar",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-alert-radar\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-alert-radar\n\nLocal Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: localalert\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-11T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Local Alert Radarの技術構成を短く解説します。",
+        "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: localalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "trip-route-stay",
+      "repository": "trip-route-stay",
+      "title": "Trip Route Stayの技術解説｜設計と実装を75秒で紹介",
+      "description": "Trip Route Stay Priority 1 app from the PDF deep dive: travel route, accommodation and local spot monetization",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/trip-route-stay",
+      "repositoryUrl": "https://github.com/syunnjack/trip-route-stay",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/trip-route-stay\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/trip-route-stay\n\nTrip Route Stay Priority 1 app from the PDF deep dive: travel route, accommodation and local spot monetization\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-12T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Trip Route Stayの技術構成を短く解説します。",
+        "Trip Route Stay Priority 1 app from the PDF deep dive: travel route, accommodation and local spot monetization",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "anchor-suggest-search",
+      "repository": "anchor-suggest-search",
+      "title": "Anchor Suggest Searchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Anchor Suggest Search Recommended repository: anchor suggest search Confirmed domain: anchorsuggest",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/anchor-suggest-search",
+      "repositoryUrl": "https://github.com/syunnjack/anchor-suggest-search",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/anchor-suggest-search\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/anchor-suggest-search\n\nAnchor Suggest Search Recommended repository: anchor suggest search Confirmed domain: anchorsuggest\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-13T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Anchor Suggest Searchの技術構成を短く解説します。",
+        "Anchor Suggest Search Recommended repository: anchor suggest search Confirmed domain: anchorsuggest",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "golf-course-booking",
+      "repository": "golf-course-booking",
+      "title": "Golf Course Bookingの技術解説｜設計と実装を75秒で紹介",
+      "description": "Golf Course Booking Recommended repository: golf course booking Confirmed domain: golfrsv",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/golf-course-booking",
+      "repositoryUrl": "https://github.com/syunnjack/golf-course-booking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/golf-course-booking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/golf-course-booking\n\nGolf Course Booking Recommended repository: golf course booking Confirmed domain: golfrsv\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-14T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Golf Course Bookingの技術構成を短く解説します。",
+        "Golf Course Booking Recommended repository: golf course booking Confirmed domain: golfrsv",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "work-bar-navi",
+      "repository": "work-bar-navi",
+      "title": "Work Bar Naviの技術解説｜設計と実装を75秒で紹介",
+      "description": "Work Bar Navi Recommended repository: work bar navi Confirmed domain: workbar",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/work-bar-navi",
+      "repositoryUrl": "https://github.com/syunnjack/work-bar-navi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/work-bar-navi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/work-bar-navi\n\nWork Bar Navi Recommended repository: work bar navi Confirmed domain: workbar\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-15T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Work Bar Naviの技術構成を短く解説します。",
+        "Work Bar Navi Recommended repository: work bar navi Confirmed domain: workbar",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bowling-score-hub",
+      "repository": "bowling-score-hub",
+      "title": "Bowling Score Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bowling Score Hub Recommended repository: bowling score hub Confirmed domain: bowlscore",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bowling-score-hub",
+      "repositoryUrl": "https://github.com/syunnjack/bowling-score-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bowling-score-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bowling-score-hub\n\nBowling Score Hub Recommended repository: bowling score hub Confirmed domain: bowlscore\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-16T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Bowling Score Hubの技術構成を短く解説します。",
+        "Bowling Score Hub Recommended repository: bowling score hub Confirmed domain: bowlscore",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "gyosei-quiz-one",
+      "repository": "gyosei-quiz-one",
+      "title": "Gyosei Quiz Oneの技術解説｜設計と実装を75秒で紹介",
+      "description": "Gyosei Quiz One Recommended repository: gyosei quiz one Confirmed domain: gyoseiquiz",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/gyosei-quiz-one",
+      "repositoryUrl": "https://github.com/syunnjack/gyosei-quiz-one",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gyosei-quiz-one\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gyosei-quiz-one\n\nGyosei Quiz One Recommended repository: gyosei quiz one Confirmed domain: gyoseiquiz\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-17T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Gyosei Quiz Oneの技術構成を短く解説します。",
+        "Gyosei Quiz One Recommended repository: gyosei quiz one Confirmed domain: gyoseiquiz",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "haikyo-archive-map",
+      "repository": "haikyo-archive-map",
+      "title": "Haikyo Archive Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "Haikyo Archive Map Recommended repository: haikyo archive map Confirmed domain: haikyoarchive",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/haikyo-archive-map",
+      "repositoryUrl": "https://github.com/syunnjack/haikyo-archive-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/haikyo-archive-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/haikyo-archive-map\n\nHaikyo Archive Map Recommended repository: haikyo archive map Confirmed domain: haikyoarchive\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-18T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Haikyo Archive Mapの技術構成を短く解説します。",
+        "Haikyo Archive Map Recommended repository: haikyo archive map Confirmed domain: haikyoarchive",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "prize-stock-finder",
+      "repository": "prize-stock-finder",
+      "title": "Prize Stock Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "Prize Stock Finder Recommended repository: prize stock finder Confirmed domain: prizestock",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/prize-stock-finder",
+      "repositoryUrl": "https://github.com/syunnjack/prize-stock-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/prize-stock-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/prize-stock-finder\n\nPrize Stock Finder Recommended repository: prize stock finder Confirmed domain: prizestock\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-19T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Prize Stock Finderの技術構成を短く解説します。",
+        "Prize Stock Finder Recommended repository: prize stock finder Confirmed domain: prizestock",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "eki-genre-map",
+      "repository": "eki-genre-map",
+      "title": "Eki Genre Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "Eki Genre Map Recommended repository: eki genre map Confirmed domain: ekigenre",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/eki-genre-map",
+      "repositoryUrl": "https://github.com/syunnjack/eki-genre-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/eki-genre-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/eki-genre-map\n\nEki Genre Map Recommended repository: eki genre map Confirmed domain: ekigenre\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-20T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Eki Genre Mapの技術構成を短く解説します。",
+        "Eki Genre Map Recommended repository: eki genre map Confirmed domain: ekigenre",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "price-review-compare",
+      "repository": "price-review-compare",
+      "title": "Price Review Compareの技術解説｜設計と実装を75秒で紹介",
+      "description": "Price Review Compare Recommended repository: price review compare Confirmed domain: reviewhikaku",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/price-review-compare",
+      "repositoryUrl": "https://github.com/syunnjack/price-review-compare",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/price-review-compare\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/price-review-compare\n\nPrice Review Compare Recommended repository: price review compare Confirmed domain: reviewhikaku\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-21T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Price Review Compareの技術構成を短く解説します。",
+        "Price Review Compare Recommended repository: price review compare Confirmed domain: reviewhikaku",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set confirmed custom domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-board-plus",
+      "repository": "local-board-plus",
+      "title": "Local Board Plusの技術解説｜設計と実装を75秒で紹介",
+      "description": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-board-plus",
+      "repositoryUrl": "https://github.com/syunnjack/local-board-plus",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-board-plus\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-board-plus\n\nLocal Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-22T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Local Board Plusの技術構成を短く解説します。",
+        "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set localboard domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "ranking-vote-hub",
+      "repository": "ranking-vote-hub",
+      "title": "Ranking Vote Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/ranking-vote-hub",
+      "repositoryUrl": "https://github.com/syunnjack/ranking-vote-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ranking-vote-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ranking-vote-hub\n\nRanking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-23T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Ranking Vote Hubの技術構成を短く解説します。",
+        "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set rankvote domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "open-close-radar",
+      "repository": "open-close-radar",
+      "title": "Open Close Radarの技術解説｜設計と実装を75秒で紹介",
+      "description": "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/open-close-radar",
+      "repositoryUrl": "https://github.com/syunnjack/open-close-radar",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/open-close-radar\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/open-close-radar\n\n開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-24T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Open Close Radarの技術構成を短く解説します。",
+        "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Add kaitenheiten alerts and revenue flowsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "rc-course-finder",
+      "repository": "rc-course-finder",
+      "title": "Rc Course Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/rc-course-finder",
+      "repositoryUrl": "https://github.com/syunnjack/rc-course-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/rc-course-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/rc-course-finder\n\nRC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-25T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Rc Course Finderの技術構成を短く解説します。",
+        "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set rccourse domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "my-dartslive",
+      "repository": "my-dartslive",
+      "title": "My Dartsliveの技術解説｜設計と実装を75秒で紹介",
+      "description": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/my-dartslive",
+      "repositoryUrl": "https://github.com/syunnjack/my-dartslive",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/my-dartslive\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/my-dartslive\n\nMy Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-26T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、My Dartsliveの技術構成を短く解説します。",
+        "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set dartspot domainという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "manga-cafe-finder",
+      "repository": "manga-cafe-finder",
+      "title": "Manga Cafe Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/manga-cafe-finder",
+      "repositoryUrl": "https://github.com/syunnjack/manga-cafe-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/manga-cafe-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/manga-cafe-finder\n\nComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-27T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Manga Cafe Finderの技術構成を短く解説します。",
+        "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Set ComicStay domain metadataという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "route-spot-navi",
+      "repository": "route-spot-navi",
+      "title": "Route Spot Naviの技術解説｜設計と実装を75秒で紹介",
+      "description": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/route-spot-navi",
+      "repositoryUrl": "https://github.com/syunnjack/route-spot-navi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/route-spot-navi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/route-spot-navi\n\nroute spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-28T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Route Spot Naviの技術構成を短く解説します。",
+        "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Add SEO UGC and monetization strategyという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "wait-time-guide",
+      "repository": "wait-time-guide",
+      "title": "Wait Time Guideの技術解説｜設計と実装を75秒で紹介",
+      "description": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/wait-time-guide",
+      "repositoryUrl": "https://github.com/syunnjack/wait-time-guide",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/wait-time-guide\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/wait-time-guide\n\nwait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-29T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Wait Time Guideの技術構成を短く解説します。",
+        "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Add SEO UGC and monetization strategyという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bus-arrival-guide",
+      "repository": "bus-arrival-guide",
+      "title": "Bus Arrival Guideの技術解説｜設計と実装を75秒で紹介",
+      "description": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bus-arrival-guide",
+      "repositoryUrl": "https://github.com/syunnjack/bus-arrival-guide",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bus-arrival-guide\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bus-arrival-guide\n\nbus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-30T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Bus Arrival Guideの技術構成を短く解説します。",
+        "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Add SEO UGC and monetization strategyという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "solo-spot-map",
+      "repository": "solo-spot-map",
+      "title": "Solo Spot Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/solo-spot-map",
+      "repositoryUrl": "https://github.com/syunnjack/solo-spot-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/solo-spot-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/solo-spot-map\n\nsolo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-10-31T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Solo Spot Mapの技術構成を短く解説します。",
+        "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Add SEO UGC and monetization strategyという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "retro-game-map",
+      "repository": "retro-game-map",
+      "title": "Retro Game Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
+      "language": "JavaScript・CSS・HTML",
+      "articleUrl": "https://syunnjack.dev/articles/retro-game-map",
+      "repositoryUrl": "https://github.com/syunnjack/retro-game-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/retro-game-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/retro-game-map\n\nretro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-11-01T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Retro Game Mapの技術構成を短く解説します。",
+        "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
+        "主な技術はJavaScript・CSS・HTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "最近の変更では、Improve SEO UGC and monetization flowsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "smoking-spot-finder",
+      "repository": "smoking-spot-finder",
+      "title": "Smoking Spot Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/smoking-spot-finder",
+      "repositoryUrl": "https://github.com/syunnjack/smoking-spot-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/smoking-spot-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/smoking-spot-finder\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-11-02T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Smoking Spot Finderの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Add Nagoya station MVP pageという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "dart-portal",
+      "repository": "dart-portal",
+      "title": "Dart Portalの技術解説｜設計と実装を75秒で紹介",
+      "description": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
+      "language": "Python",
+      "articleUrl": "https://syunnjack.dev/articles/dart-portal",
+      "repositoryUrl": "https://github.com/syunnjack/dart-portal",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/dart-portal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/dart-portal\n\ndart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド\n\n#技術解説 #個人開発 #Python",
+      "publishAt": "2026-11-03T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Dart Portalの技術構成を短く解説します。",
+        "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
+        "主な技術はPythonです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、docs、events.jsonを中心に実装を確認できます。",
+        "最近の変更では、Initial commit: MVP API, event scraper, and site design doc.という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "foodtruck-map",
+      "repository": "foodtruck-map",
+      "title": "Foodtruck Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/foodtruck-map",
+      "repositoryUrl": "https://github.com/syunnjack/foodtruck-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/foodtruck-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/foodtruck-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-04T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Foodtruck Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、フードトラックマップ（出店情報UGC×LINE通知）を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hikkoshi-hikaku",
+      "repository": "hikkoshi-hikaku",
+      "title": "Hikkoshi Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hikkoshi-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/hikkoshi-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hikkoshi-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hikkoshi-hikaku\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-05T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Hikkoshi Hikakuの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、引越し業者相見積もり口コミサイト＋LINE通知を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "space-map",
+      "repository": "space-map",
+      "title": "Space Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/space-map",
+      "repositoryUrl": "https://github.com/syunnjack/space-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/space-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/space-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-06T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Space Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、レンタルスペースマップ（地図×直前空き枠UGC×LINE通知・予約問い合わせ）を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "sauna-map",
+      "repository": "sauna-map",
+      "title": "Sauna Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/sauna-map",
+      "repositoryUrl": "https://github.com/syunnjack/sauna-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sauna-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sauna-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-07T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Sauna Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、サウナ・銭湯マップ（地図×混雑度UGC×LINE通知）を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "juku-map",
+      "repository": "juku-map",
+      "title": "Juku Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/juku-map",
+      "repositoryUrl": "https://github.com/syunnjack/juku-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/juku-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/juku-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-08T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Juku Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "funeral-hall-map",
+      "repository": "funeral-hall-map",
+      "title": "Funeral Hall Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/funeral-hall-map",
+      "repositoryUrl": "https://github.com/syunnjack/funeral-hall-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/funeral-hall-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/funeral-hall-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-09T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Funeral Hall Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "kuruma-kaitori-kuchikomi",
+      "repository": "kuruma-kaitori-kuchikomi",
+      "title": "Kuruma Kaitori Kuchikomiの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/kuruma-kaitori-kuchikomi",
+      "repositoryUrl": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kuruma-kaitori-kuchikomi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kuruma-kaitori-kuchikomi\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-10T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Kuruma Kaitori Kuchikomiの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、CheckPriceReportWatches: 検知カーソルをcreated_atからprice_reports.idベースに変更という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "fudousan-kakaku-watch",
+      "repository": "fudousan-kakaku-watch",
+      "title": "Fudousan Kakaku Watchの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/fudousan-kakaku-watch",
+      "repositoryUrl": "https://github.com/syunnjack/fudousan-kakaku-watch",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/fudousan-kakaku-watch\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/fudousan-kakaku-watch\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-11T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Fudousan Kakaku Watchの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、CheckRentWatches: 検知カーソルをcreated_atからrent_reports.idベースに変更という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hoiku-map",
+      "repository": "hoiku-map",
+      "title": "Hoiku Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hoiku-map",
+      "repositoryUrl": "https://github.com/syunnjack/hoiku-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hoiku-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hoiku-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-12T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Hoiku Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、保育園マップ（地図×UGC×空きあり通知・見学入園相談受付）を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "cat-cafe-etc",
+      "repository": "cat-cafe-etc",
+      "title": "Cat Cafe Etcの技術解説｜設計と実装を75秒で紹介",
+      "description": "vinext starter A clean full stack starter running on vinext https://github",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/cat-cafe-etc",
+      "repositoryUrl": "https://github.com/syunnjack/cat-cafe-etc",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cat-cafe-etc\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cat-cafe-etc\n\nvinext starter A clean full stack starter running on vinext https://github\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-11-13T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Cat Cafe Etcの技術構成を短く解説します。",
+        "vinext starter A clean full stack starter running on vinext https://github",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "最近の変更では、Add verified venues reviews and revenue pathsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "wedding-hall-map",
+      "repository": "wedding-hall-map",
+      "title": "Wedding Hall Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/wedding-hall-map",
+      "repositoryUrl": "https://github.com/syunnjack/wedding-hall-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/wedding-hall-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/wedding-hall-map\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-14T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Wedding Hall Mapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、結婚式場マップ（地図×UGC×LINE通知・資料請求）を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "camp-hikaku",
+      "repository": "camp-hikaku",
+      "title": "Camp Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/camp-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/camp-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/camp-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/camp-hikaku\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-15T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Camp Hikakuの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、キャンプ場UGC空き状況マップ＋LINE通知を新規構築という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hotpapi-web",
+      "repository": "hotpapi-web",
+      "title": "Hotpapi Webの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hotpapi-web",
+      "repositoryUrl": "https://github.com/syunnjack/hotpapi-web",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hotpapi-web\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hotpapi-web\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-11-16T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Hotpapi Webの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Fix silently-broken budget filter codes (B004/B005/B006 no longer exist)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hotpapi01",
+      "repository": "hotpAPI01",
+      "title": "HotpAPI01の技術解説｜設計と実装を75秒で紹介",
+      "description": "HotpAPI01の設計と実装を記録したプロジェクト",
+      "language": "C#",
+      "articleUrl": "https://syunnjack.dev/articles/hotpapi01",
+      "repositoryUrl": "https://github.com/syunnjack/hotpAPI01",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hotpapi01\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hotpAPI01\n\nHotpAPI01の設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #C",
+      "publishAt": "2026-11-17T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、HotpAPI01の技術構成を短く解説します。",
+        "HotpAPI01の設計と実装を記録したプロジェクト",
+        "主な技術はC#です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、hotpAPI01.sln、hotpAPI01を中心に実装を確認できます。",
+        "最近の変更では、Fix silently-broken budget filter codes (B004/B005/B006 no longer exist)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "storage-locker-near",
+      "repository": "storage-locker-near",
+      "title": "Storage Locker Nearの技術解説｜設計と実装を75秒で紹介",
+      "description": "LockerLoop CashPoint 近くの空きコインロッカーを探し、予約パス発行と地域送客のキャッシュポイント化までを見せる静的プロトタイプです",
+      "language": "JavaScript・CSS・HTML",
+      "articleUrl": "https://syunnjack.dev/articles/storage-locker-near",
+      "repositoryUrl": "https://github.com/syunnjack/storage-locker-near",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/storage-locker-near\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/storage-locker-near\n\nLockerLoop CashPoint 近くの空きコインロッカーを探し、予約パス発行と地域送客のキャッシュポイント化までを見せる静的プロトタイプです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-11-18T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Storage Locker Nearの技術構成を短く解説します。",
+        "LockerLoop CashPoint 近くの空きコインロッカーを探し、予約パス発行と地域送客のキャッシュポイント化までを見せる静的プロトタイプです",
+        "主な技術はJavaScript・CSS・HTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、LINE_SETUP.md、README.md、apiを中心に実装を確認できます。",
+        "最近の変更では、Add LINE webhook setup for user ID captureという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "walkmap",
+      "repository": "walkmap",
+      "title": "Walkmapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/walkmap",
+      "repositoryUrl": "https://github.com/syunnjack/walkmap",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/walkmap\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/walkmap\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-19T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Walkmapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、LINE混雑度通知を追加(住宅展示場など予約サイトにない情報の差別化)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "kaden-hikaku",
+      "repository": "kaden-hikaku",
+      "title": "Kaden Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/kaden-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/kaden-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kaden-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kaden-hikaku\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-20T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Kaden Hikakuの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、LINE価格ウォッチ通知を追加(値下がり検知)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "furusato-hikaku",
+      "repository": "furusato-hikaku",
+      "title": "Furusato Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/furusato-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/furusato-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/furusato-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/furusato-hikaku\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-21T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Furusato Hikakuの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、LINEウォッチ通知を追加(新着・再登場の返礼品検知)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "itshikaku-shindan",
+      "repository": "itshikaku-shindan",
+      "title": "Itshikaku Shindanの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・CSS・JavaScript・Procfile",
+      "articleUrl": "https://syunnjack.dev/articles/itshikaku-shindan",
+      "repositoryUrl": "https://github.com/syunnjack/itshikaku-shindan",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/itshikaku-shindan\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/itshikaku-shindan\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-22T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Itshikaku Shindanの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・CSS・JavaScript・Procfileです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、Procfile、README.md、appを中心に実装を確認できます。",
+        "最近の変更では、Enrich paid question explanationsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "smoking-area-where",
+      "repository": "smoking-area-where",
+      "title": "Smoking Area Whereの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・JavaScript・CSS・Procfile",
+      "articleUrl": "https://syunnjack.dev/articles/smoking-area-where",
+      "repositoryUrl": "https://github.com/syunnjack/smoking-area-where",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/smoking-area-where\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/smoking-area-where\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-11-23T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Smoking Area Whereの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・JavaScript・CSS・Procfileです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、Procfile、README.md、appを中心に実装を確認できます。",
+        "最近の変更では、LINEプッシュ通知連携を追加(お気に入りスポットの混雑度変化)という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "ai-tool-diagnoser",
+      "repository": "ai-tool-diagnoser",
+      "title": "Ai Tool Diagnoserの技術解説｜設計と実装を75秒で紹介",
+      "description": "Ai Tool Diagnoserの設計と実装を記録したプロジェクト",
+      "language": "TypeScript・Astro・PHP・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/ai-tool-diagnoser",
+      "repositoryUrl": "https://github.com/syunnjack/ai-tool-diagnoser",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ai-tool-diagnoser\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ai-tool-diagnoser\n\nAi Tool Diagnoserの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-11-24T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Ai Tool Diagnoserの技術構成を短く解説します。",
+        "Ai Tool Diagnoserの設計と実装を記録したプロジェクト",
+        "主な技術はTypeScript・Astro・PHP・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、astro.config.mjs、package-lock.json、package.jsonを中心に実装を確認できます。",
+        "最近の変更では、診断結果ページにLINEシェアボタンを追加という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "like-mangavi",
+      "repository": "like-mangavi",
+      "title": "Like Mangaviの技術解説｜設計と実装を75秒で紹介",
+      "description": "Like Mangaviの設計と実装を記録したプロジェクト",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/like-mangavi",
+      "repositoryUrl": "https://github.com/syunnjack/like-mangavi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/like-mangavi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/like-mangavi\n\nLike Mangaviの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-25T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Like Mangaviの技術構成を短く解説します。",
+        "Like Mangaviの設計と実装を記録したプロジェクト",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、laravelを中心に実装を確認できます。",
+        "最近の変更では、JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "laravel-posting-app",
+      "repository": "laravel-posting-app",
+      "title": "Laravel Posting Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/laravel-posting-app",
+      "repositoryUrl": "https://github.com/syunnjack/laravel-posting-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/laravel-posting-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/laravel-posting-app\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-26T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Laravel Posting Appの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "maportal",
+      "repository": "maportal",
+      "title": "Maportalの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/maportal",
+      "repositoryUrl": "https://github.com/syunnjack/maportal",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/maportal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/maportal\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-27T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Maportalの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "gesenmap",
+      "repository": "gesenmap",
+      "title": "Gesenmapの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/gesenmap",
+      "repositoryUrl": "https://github.com/syunnjack/gesenmap",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gesenmap\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gesenmap\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-28T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Gesenmapの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、$(cat <<'EOF'という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "golf-search",
+      "repository": "golf-search",
+      "title": "Golf Searchの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/golf-search",
+      "repositoryUrl": "https://github.com/syunnjack/golf-search",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/golf-search\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/golf-search\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-29T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Golf Searchの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、$(cat <<'EOF'という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "onsen-list",
+      "repository": "onsen-list",
+      "title": "Onsen Listの技術解説｜設計と実装を75秒で紹介",
+      "description": "Onsen Listの設計と実装を記録したプロジェクト",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/onsen-list",
+      "repositoryUrl": "https://github.com/syunnjack/onsen-list",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/onsen-list\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/onsen-list\n\nOnsen Listの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #PHP",
+      "publishAt": "2026-11-30T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Onsen Listの技術構成を短く解説します。",
+        "Onsen Listの設計と実装を記録したプロジェクト",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、app、artisan、bootstrapを中心に実装を確認できます。",
+        "最近の変更では、$(cat <<'EOF'という改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-search",
+      "repository": "local-search",
+      "title": "Local Searchの技術解説｜設計と実装を75秒で紹介",
+      "description": "Local Searchの設計と実装を記録したプロジェクト",
+      "language": "HTML・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-search",
+      "repositoryUrl": "https://github.com/syunnjack/local-search",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-search\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-search\n\nLocal Searchの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #HTML",
+      "publishAt": "2026-12-01T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Local Searchの技術構成を短く解説します。",
+        "Local Searchの設計と実装を記録したプロジェクト",
+        "主な技術はHTML・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、local-searchを中心に実装を確認できます。",
+        "最近の変更では、Build Aichi local search MVPという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "codespace-first",
+      "repository": "codespace-first",
+      "title": "Codespace Firstの技術解説｜設計と実装を75秒で紹介",
+      "description": "codespace first",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/codespace-first",
+      "repositoryUrl": "https://github.com/syunnjack/codespace-first",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/codespace-first\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/codespace-first\n\ncodespace first\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-12-02T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Codespace Firstの技術構成を短く解説します。",
+        "codespace first",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial commitという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "receipt-jp",
+      "repository": "receipt-jp",
+      "title": "Receipt Jpの技術解説｜設計と実装を75秒で紹介",
+      "description": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
+      "language": "JavaScript・CSS・HTML",
+      "articleUrl": "https://syunnjack.dev/articles/receipt-jp",
+      "repositoryUrl": "https://github.com/syunnjack/receipt-jp",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/receipt-jp\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/receipt-jp\n\nレシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです\n\n#技術解説 #個人開発 #JavaScript",
+      "publishAt": "2026-12-03T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Receipt Jpの技術構成を短く解説します。",
+        "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
+        "主な技術はJavaScript・CSS・HTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、CLAUDE.md、README.md、clientを中心に実装を確認できます。",
+        "最近の変更では、Add live camera capture for receiptsという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "my-affiliate-site",
+      "repository": "my-affiliate-site",
+      "title": "My Affiliate Siteの技術解説｜設計と実装を75秒で紹介",
+      "description": "This is a Next",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/my-affiliate-site",
+      "repositoryUrl": "https://github.com/syunnjack/my-affiliate-site",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/my-affiliate-site\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/my-affiliate-site\n\nThis is a Next\n\n#技術解説 #個人開発 #TypeScript",
+      "publishAt": "2026-12-04T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、My Affiliate Siteの技術構成を短く解説します。",
+        "This is a Next",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "最近の変更では、fix: sort prefectures from North to Southという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "studylaw-app",
+      "repository": "studylaw-app",
+      "title": "Studylaw Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/studylaw-app",
+      "repositoryUrl": "https://github.com/syunnjack/studylaw-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/studylaw-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/studylaw-app\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-12-05T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Studylaw Appの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "最近の変更では、Initial commit studylaw-appという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "quiz-app",
+      "repository": "quiz-app",
+      "title": "Quiz Appの技術解説｜設計と実装を75秒で紹介",
+      "description": "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+      "language": "Blade・PHP・CSS・JavaScript・Procfile",
+      "articleUrl": "https://syunnjack.dev/articles/quiz-app",
+      "repositoryUrl": "https://github.com/syunnjack/quiz-app",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/quiz-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/quiz-app\n\nAbout Laravel Laravel is a web application framework with expressive, elegant syntax\n\n#技術解説 #個人開発 #Blade",
+      "publishAt": "2026-12-06T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Quiz Appの技術構成を短く解説します。",
+        "About Laravel Laravel is a web application framework with expressive, elegant syntax",
+        "主な技術はBlade・PHP・CSS・JavaScript・Procfileです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、Procfile、README.md、appを中心に実装を確認できます。",
+        "最近の変更では、Add Procfileという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "desktop-tutorial",
+      "repository": "desktop-tutorial",
+      "title": "Desktop Tutorialの技術解説｜設計と実装を75秒で紹介",
+      "description": "GitHub Desktop tutorial repository",
+      "language": "未分類",
+      "articleUrl": "https://syunnjack.dev/articles/desktop-tutorial",
+      "repositoryUrl": "https://github.com/syunnjack/desktop-tutorial",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/desktop-tutorial\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/desktop-tutorial\n\nGitHub Desktop tutorial repository\n\n#技術解説 #個人開発 #未分類",
+      "publishAt": "2026-12-07T01:00:00.000Z",
+      "status": "queued",
+      "narration": [
+        "今回は、Desktop Tutorialの技術構成を短く解説します。",
+        "GitHub Desktop tutorial repository",
+        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.mdを中心に実装を確認できます。",
+        "最近の変更では、Initial commitという改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    }
+  ]
+}

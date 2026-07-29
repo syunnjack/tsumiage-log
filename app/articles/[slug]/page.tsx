@@ -38,6 +38,7 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
     <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>TSUMIAGE LOG</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
     <article>
       {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>Rakuten02の技術解説・試作版</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日10:00公開）↗</a></aside>}
+      {article.slug === "togo-kanri-tool" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>togo-kanri-toolの技術解説・試作版</h2><span>公開コード、README、コミット履歴から設計と改善の流れを紹介します。</span></div><video controls preload="metadata" aria-label="togo-kanri-toolの技術解説 試作版"><source src="/videos/repositories/togo-kanri-tool/togo-kanri-tool-tech-preview.mp4" type="video/mp4" /></video><Link href="/videos#togo-kanri-tool">動画一覧で見る →</Link></aside>}
       <header className="article-hero">
         <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">技術記事</Link><span>/</span><span>{article.name}</span></nav>
         <p className="eyebrow"><span />REPOSITORY DEEP DIVE</p>

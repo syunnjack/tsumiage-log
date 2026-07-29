@@ -99,6 +99,7 @@ export default function VideosPage() {
           {articles.map((article, index) => (
             <article className="video-plan-card" id={article.slug} key={article.slug}>
               {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日公開）↗</a></>}
+              {article.slug === "togo-kanri-tool" && <video className="published-video" controls preload="metadata" aria-label="togo-kanri-toolの技術解説 試作版"><source src="/videos/repositories/togo-kanri-tool/togo-kanri-tool-tech-preview.mp4" type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
                 <span>VIDEO {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>

@@ -17,6 +17,8 @@
     "manual:new": "node scripts/new-manual-article.mjs",
     "content:update": "npm run content:collect && npm run content:audit && npm run lint && npm run build",
     "video:audit": "node scripts/video-audit.mjs",
+    "video:queue": "node scripts/build-video-production-queue.mjs",
+    "video:render": "powershell -ExecutionPolicy Bypass -File scripts/render-repository-video.ps1",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
