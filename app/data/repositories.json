@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T21:17:45.218Z",
+  "generatedAt": "2026-07-29T21:23:04.884Z",
   "owner": "syunnjack",
   "totalRepositories": 155,
   "publicRepositories": 155,
@@ -8,6 +8,119 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "48813dd",
+          "message": "Fix repository article automation exclusions",
+          "date": "2026-07-29T21:19:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/48813dde5098145ffd79b139dfb3d86b7565b485"
+        },
+        {
+          "sha": "9e82c94",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-27T18:49:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9e82c94c0b476823142f491cecfe88fa176114a0"
+        },
+        {
+          "sha": "e3c5de9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-26T18:37:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
+        },
+        {
+          "sha": "e1bc413",
+          "message": "Add Three Kingdoms and Chu Han drama favorites",
+          "date": "2026-07-26T09:40:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
+        },
+        {
+          "sha": "820e171",
+          "message": "Add favorite videos menu and four selections",
+          "date": "2026-07-26T01:53:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
+        },
+        {
+          "sha": "7d9394c",
+          "message": "Add portfolio services and inquiry platform",
+          "date": "2026-07-26T00:32:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
+        },
+        {
+          "sha": "b6e4cf0",
+          "message": "Add original article publishing workflow",
+          "date": "2026-07-26T00:12:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
+        },
+        {
+          "sha": "c99ce01",
+          "message": "Add arcade and cat cafe favorite videos",
+          "date": "2026-07-25T22:35:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
+        },
+        {
+          "sha": "2ff4350",
+          "message": "Add Wangan Midnight beginner guide favorite",
+          "date": "2026-07-25T22:28:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
+        },
+        {
+          "sha": "3b11ab8",
+          "message": "Add Street Fighter voice actor favorite",
+          "date": "2026-07-25T19:33:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
+        },
+        {
+          "sha": "5fd2212",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-07-25T18:36:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
+        },
+        {
+          "sha": "79b838a",
+          "message": "Add new favorites and affiliate-ready Hulu pathway",
+          "date": "2026-07-25T06:23:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
+        }
+      ],
+      "updatedAt": "2026-07-29T21:19:11Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "rakuten02",
       "name": "rakuten02",
@@ -801,119 +914,6 @@
         }
       ],
       "updatedAt": "2026-07-27T23:36:20Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです。 ローカル開発 記事自動化 GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。 1. syunnjack の公開リポジトリと最新コミットを収集 2. アダルト・機密情報の除外ポリシーを適用 3. 記事データの品質監査 4. Lintと公開用ビルド 5. 変更があれば自動コミット・プッシュ 6. 公開待ちまたは失敗をGitHub Issueで通知 手動で同じ確認を行う場合： 収集のみ： 公開ポリシーと記事品質の監査のみ： 除外対象は app/data/content policy.json で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。 確認 URL 公開予定ドメイン: https://syunnjack.dev 現在の公開サイト: https://tsumiage log.syunnjack.chatgpt.site GitHub: https://github.com/syunnjack/tsumiage log",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "9e82c94",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-27T18:49:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9e82c94c0b476823142f491cecfe88fa176114a0"
-        },
-        {
-          "sha": "e3c5de9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-26T18:37:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
-        },
-        {
-          "sha": "e1bc413",
-          "message": "Add Three Kingdoms and Chu Han drama favorites",
-          "date": "2026-07-26T09:40:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
-        },
-        {
-          "sha": "820e171",
-          "message": "Add favorite videos menu and four selections",
-          "date": "2026-07-26T01:53:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
-        },
-        {
-          "sha": "7d9394c",
-          "message": "Add portfolio services and inquiry platform",
-          "date": "2026-07-26T00:32:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
-        },
-        {
-          "sha": "b6e4cf0",
-          "message": "Add original article publishing workflow",
-          "date": "2026-07-26T00:12:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
-        },
-        {
-          "sha": "c99ce01",
-          "message": "Add arcade and cat cafe favorite videos",
-          "date": "2026-07-25T22:35:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
-        },
-        {
-          "sha": "2ff4350",
-          "message": "Add Wangan Midnight beginner guide favorite",
-          "date": "2026-07-25T22:28:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
-        },
-        {
-          "sha": "3b11ab8",
-          "message": "Add Street Fighter voice actor favorite",
-          "date": "2026-07-25T19:33:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
-        },
-        {
-          "sha": "5fd2212",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-25T18:36:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
-        },
-        {
-          "sha": "79b838a",
-          "message": "Add new favorites and affiliate-ready Hulu pathway",
-          "date": "2026-07-25T06:23:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
-        },
-        {
-          "sha": "05ef868",
-          "message": "Add travel sports entertainment and pet favorites",
-          "date": "2026-07-25T06:15:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/05ef868c1d2b1a6a1b4f14fec0e0830217ee81ea"
-        }
-      ],
-      "updatedAt": "2026-07-27T18:50:05Z",
       "stars": 0,
       "forks": 0
     },
