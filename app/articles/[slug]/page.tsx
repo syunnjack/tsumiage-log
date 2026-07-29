@@ -37,7 +37,7 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>TSUMIAGE LOG</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
     <article>
-      {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>Rakuten02の技術解説・試作版</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><Link href="/videos#rakuten02">動画一覧で見る →</Link></aside>}
+      {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>Rakuten02の技術解説・試作版</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日10:00公開）↗</a></aside>}
       <header className="article-hero">
         <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">技術記事</Link><span>/</span><span>{article.name}</span></nav>
         <p className="eyebrow"><span />REPOSITORY DEEP DIVE</p>

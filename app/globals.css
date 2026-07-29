@@ -23,6 +23,12 @@
   display: none;
 }
 
+.youtube-published-link {
+  display: inline-block;
+  margin: .8rem 1rem 0;
+  font-weight: 700;
+}
+
 .article-video-published {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 560px);
