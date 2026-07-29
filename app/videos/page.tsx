@@ -98,6 +98,7 @@ export default function VideosPage() {
         <div className="video-plan-grid">
           {articles.map((article, index) => (
             <article className="video-plan-card" id={article.slug} key={article.slug}>
+              {article.slug === "rakuten02" && <video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
                 <span>VIDEO {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>
