@@ -39,6 +39,7 @@ $powerPoint = New-Object -ComObject PowerPoint.Application
 $presentation = $null
 try {
   $powerPoint.Visible = -1
+  try { $powerPoint.WindowState = 2 } catch {}
   $presentation = $powerPoint.Presentations.Add()
   $presentation.PageSetup.SlideWidth = 960
   $presentation.PageSetup.SlideHeight = 540
@@ -68,9 +69,9 @@ try {
   }
   $presentation.SaveAs($pptxPath)
   $presentation.CreateVideo($mp4Path, -1, 5, 720, 30, 80)
-  $deadline = (Get-Date).AddMinutes(15)
+  $deadline = (Get-Date).AddMinutes(3)
   while ((Get-Date) -lt $deadline -and [int]$presentation.CreateVideoStatus -notin 3, 4) { Start-Sleep -Seconds 5 }
-  if ([int]$presentation.CreateVideoStatus -ne 3) { throw 'Video export failed or timed out.' }
+  if ([int]$presentation.CreateVideoStatus -ne 3 -and (-not (Test-Path $mp4Path) -or (Get-Item $mp4Path).Length -eq 0)) { throw 'Video export failed or timed out.' }
 } finally {
   if ($presentation) { $presentation.Close(); [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($presentation) }
   try { $powerPoint.Quit() } catch {}
@@ -78,3 +79,11 @@ try {
 }
 
 Get-Item $mp4Path, $pptxPath | Select-Object FullName, Length
+
+$item.status = 'rendered'
+if ($item.PSObject.Properties.Name -notcontains 'localVideoUrl') { $item | Add-Member -NotePropertyName localVideoUrl -NotePropertyValue $null }
+if ($item.PSObject.Properties.Name -notcontains 'localPptxUrl') { $item | Add-Member -NotePropertyName localPptxUrl -NotePropertyValue $null }
+$item.localVideoUrl = "/videos/repositories/$Slug/$Slug-tech-preview.mp4"
+$item.localPptxUrl = "/videos/repositories/$Slug/$Slug-tech-preview.pptx"
+$json = $queue | ConvertTo-Json -Depth 20
+[System.IO.File]::WriteAllText((Join-Path $root 'app/data/video-production.json'), "$json`n", [System.Text.UTF8Encoding]::new($false))

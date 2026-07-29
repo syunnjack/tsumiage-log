@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs"
+import { existsSync, readFileSync, writeFileSync } from "node:fs"
 import { resolve } from "node:path"
 
 const repositoryData = JSON.parse(readFileSync(resolve("app/data/repositories.json"), "utf8"))
@@ -7,6 +7,9 @@ const excluded = new Set(policy.excludedRepositories)
 const allowed = new Set(policy.allowedRepositories ?? [])
 const forbidden = [/fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /アダルト/, /成人向け/, /部外秘/, /社外秘/, /機密/]
 const start = new Date("2026-08-02T10:00:00+09:00")
+const outputPath = resolve("app/data/video-production.json")
+const previous = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, "utf8")) : { videos: [] }
+const previousBySlug = new Map(previous.videos.map((video) => [video.slug, video]))
 
 const videos = repositoryData.articles
   .filter((article) => article.slug !== "rakuten02")
@@ -16,6 +19,10 @@ const videos = repositoryData.articles
     const publishAt = new Date(start.getTime() + index * 24 * 60 * 60 * 1000)
     const languages = article.languages.length ? article.languages.join("・") : article.primaryLanguage
     const latest = article.commits[0]?.message ?? "継続的な改善"
+    const prior = previousBySlug.get(article.slug) ?? {}
+    const localVideoUrl = `/videos/repositories/${article.slug}/${article.slug}-tech-preview.mp4`
+    const localPptxUrl = `/videos/repositories/${article.slug}/${article.slug}-tech-preview.pptx`
+    const rendered = existsSync(resolve(`public${localVideoUrl}`))
     return {
       slug: article.slug,
       repository: article.name,
@@ -36,7 +43,10 @@ const videos = repositoryData.articles
         `#技術解説 #個人開発 #${article.primaryLanguage.replace(/[^\p{L}\p{N}]/gu, "")}`,
       ].join("\n"),
       publishAt: publishAt.toISOString(),
-      status: "queued",
+      status: rendered ? "rendered" : (prior.status ?? "queued"),
+      localVideoUrl: rendered ? localVideoUrl : (prior.localVideoUrl ?? null),
+      localPptxUrl: rendered ? localPptxUrl : (prior.localPptxUrl ?? null),
+      youtubeUrl: prior.youtubeUrl ?? null,
       narration: [
         `今回は、${article.displayName}の技術構成を短く解説します。`,
         `${article.description}`,
@@ -56,5 +66,5 @@ const output = {
   videos,
 }
 
-writeFileSync(resolve("app/data/video-production.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8")
+writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8")
 console.log(`Video production queue: ${videos.length} repositories`)
