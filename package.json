@@ -2,11 +2,25 @@
   "name": "tsumiage-log",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "content:collect": "node scripts/collect-github-repositories.mjs",
+    "content:audit": "node scripts/content-audit.mjs",
+    "manual:audit": "node scripts/manual-article-audit.mjs",
+    "manual:new": "node scripts/new-manual-article.mjs",
+    "content:update": "npm run content:collect && npm run video:queue && npm run content:audit && npm run manual:audit && npm run video:audit && npm run video:assets:audit && npm run lint && npm run build",
+    "video:audit": "node scripts/video-audit.mjs",
+    "video:assets:audit": "node scripts/repository-video-assets-audit.mjs",
+    "video:queue": "node scripts/build-video-production-queue.mjs",
+    "video:render": "powershell -ExecutionPolicy Bypass -File scripts/render-repository-video.ps1",
+    "video:batch": "powershell -ExecutionPolicy Bypass -File scripts/render-video-batch.ps1",
+    "video:status": "node scripts/update-video-status.mjs"
   },
   "dependencies": {
     "next": "16.2.6",

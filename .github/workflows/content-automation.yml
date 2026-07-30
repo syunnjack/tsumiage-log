@@ -43,6 +43,9 @@ jobs:
       - name: Collect public repository changes
         run: npm run content:collect
 
+      - name: Refresh video production queue
+        run: npm run video:queue
+
       - name: Report policy exclusions
         run: |
           node -e 'const d=require("./app/data/repositories.json"); const names=d.skippedRepositories||[]; console.log(`自動除外: ${names.length}件${names.length ? ` (${names.join(", ")})` : ""}`)' >> "$GITHUB_STEP_SUMMARY"
@@ -57,6 +60,7 @@ jobs:
       - name: Validate site
         run: |
           npm run video:audit
+          npm run video:assets:audit
           npm run lint
           npm run build
 
@@ -71,7 +75,7 @@ jobs:
       - name: Detect updates
         id: changes
         run: |
-          if git diff --quiet -- app/data/repositories.json; then
+          if git diff --quiet -- app/data/repositories.json app/data/video-production.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -82,7 +86,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/data/repositories.json
+          git add app/data/repositories.json app/data/video-production.json
           git commit -m "Update repository articles from GitHub activity"
           git push
 
@@ -93,15 +97,17 @@ jobs:
           AFTER_COUNT: ${{ steps.audit.outputs.article_count }}
           WARNING_COUNT: ${{ steps.audit.outputs.warning_count }}
         run: |
-          title="記事自動更新: 本番公開待ち"
+          title="記事自動更新: Vercel反映開始"
+          queued_count="$(node -p 'require("./app/data/video-production.json").videos.filter((video) => video.status === "queued").length')"
           body="GitHubの新しいコミットを検出し、記事データを更新しました。
 
           - 更新前の記事数: ${BEFORE_COUNT}
           - 更新後の記事数: ${AFTER_COUNT}
           - 品質警告: ${WARNING_COUNT}
+          - 動画制作待ち: ${queued_count}本
           - 実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
 
-          内容を確認し、Sitesへ新しいバージョンを公開してください。"
+          mainブランチへの更新により、Vercelの自動デプロイが開始されます。"
           issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$issue_number" ]; then
             gh issue comment "$issue_number" --body "$body"
