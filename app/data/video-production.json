@@ -4994,9 +4994,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-11T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/fudousan-kakaku-watch/fudousan-kakaku-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/fudousan-kakaku-watch/fudousan-kakaku-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Fudousan Kakaku Watchの技術構成を短く解説します。",
@@ -5043,9 +5043,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-12T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hoiku-map/hoiku-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hoiku-map/hoiku-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Hoiku Mapの技術構成を短く解説します。",
@@ -5092,9 +5092,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-13T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Cat Cafe Etcの技術構成を短く解説します。",
@@ -5141,9 +5141,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-14T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/wedding-hall-map/wedding-hall-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/wedding-hall-map/wedding-hall-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Wedding Hall Mapの技術構成を短く解説します。",
@@ -5190,9 +5190,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-15T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/camp-hikaku/camp-hikaku-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/camp-hikaku/camp-hikaku-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Camp Hikakuの技術構成を短く解説します。",
@@ -5239,9 +5239,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-16T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Hotpapi Webの技術構成を短く解説します。",
@@ -5288,9 +5288,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-17T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hotpapi01/hotpapi01-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hotpapi01/hotpapi01-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、HotpAPI01の技術構成を短く解説します。",
@@ -5337,9 +5337,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-18T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/storage-locker-near/storage-locker-near-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/storage-locker-near/storage-locker-near-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Storage Locker Nearの技術構成を短く解説します。",
@@ -5386,9 +5386,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-19T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/walkmap/walkmap-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/walkmap/walkmap-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Walkmapの技術構成を短く解説します。",
@@ -5435,9 +5435,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-20T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/kaden-hikaku/kaden-hikaku-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/kaden-hikaku/kaden-hikaku-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Kaden Hikakuの技術構成を短く解説します。",
@@ -5484,9 +5484,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-21T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Furusato Hikakuの技術構成を短く解説します。",
@@ -5533,9 +5533,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-22T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/itshikaku-shindan/itshikaku-shindan-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/itshikaku-shindan/itshikaku-shindan-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Itshikaku Shindanの技術構成を短く解説します。",
@@ -5582,9 +5582,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-23T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Smoking Area Whereの技術構成を短く解説します。",
@@ -5631,9 +5631,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-24T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Ai Tool Diagnoserの技術構成を短く解説します。",
@@ -5680,9 +5680,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-25T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/like-mangavi/like-mangavi-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/like-mangavi/like-mangavi-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Like Mangaviの技術構成を短く解説します。",
@@ -5729,9 +5729,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-26T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/laravel-posting-app/laravel-posting-app-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/laravel-posting-app/laravel-posting-app-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Laravel Posting Appの技術構成を短く解説します。",
@@ -5778,9 +5778,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-27T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/maportal/maportal-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/maportal/maportal-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Maportalの技術構成を短く解説します。",
@@ -5827,9 +5827,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-28T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/gesenmap/gesenmap-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/gesenmap/gesenmap-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Gesenmapの技術構成を短く解説します。",
@@ -5876,9 +5876,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-29T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/golf-search/golf-search-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/golf-search/golf-search-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Golf Searchの技術構成を短く解説します。",
@@ -5925,9 +5925,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-30T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/onsen-list/onsen-list-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/onsen-list/onsen-list-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Onsen Listの技術構成を短く解説します。",
