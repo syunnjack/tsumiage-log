@@ -14,6 +14,7 @@ New-Item -ItemType Directory -Force -Path $outputDir | Out-Null
 $pptxPath = Join-Path $outputDir "$Slug-tech-preview.pptx"
 $mp4Path = Join-Path $outputDir "$Slug-tech-preview.mp4"
 $audioDir = Join-Path $outputDir 'audio'
+Remove-Item -LiteralPath $pptxPath, $mp4Path -Force -ErrorAction SilentlyContinue
 New-Item -ItemType Directory -Force -Path $audioDir | Out-Null
 
 function Add-Text($slide, $text, $left, $top, $width, $height, $size, $bold = $false, $color = 0x111111) {
@@ -77,7 +78,9 @@ try {
 
 Get-Item $mp4Path, $pptxPath | Select-Object FullName, Length
 
-$item.status = 'rendered'
+if ($item.status -notin @('scheduled', 'published')) {
+  $item.status = 'rendered'
+}
 if ($item.PSObject.Properties.Name -notcontains 'localVideoUrl') { $item | Add-Member -NotePropertyName localVideoUrl -NotePropertyValue $null }
 if ($item.PSObject.Properties.Name -notcontains 'localPptxUrl') { $item | Add-Member -NotePropertyName localPptxUrl -NotePropertyValue $null }
 $item.localVideoUrl = "/videos/repositories/$Slug/$Slug-tech-preview.mp4"

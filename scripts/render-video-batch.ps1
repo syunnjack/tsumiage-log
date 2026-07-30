@@ -37,11 +37,15 @@ foreach ($target in $targets) {
     $expectedMp4 = Join-Path $root "public/videos/repositories/$($target.slug)/$($target.slug)-tech-preview.mp4"
     $expectedPptx = Join-Path $root "public/videos/repositories/$($target.slug)/$($target.slug)-tech-preview.pptx"
     $hasArtifacts = (Test-Path $expectedMp4) -and (Test-Path $expectedPptx) -and
-      (Get-Item $expectedMp4).Length -gt 0 -and (Get-Item $expectedPptx).Length -gt 0
-    if (-not $hasArtifacts) {
+      (Get-Item $expectedMp4).Length -gt 0 -and (Get-Item $expectedPptx).Length -gt 0 -and
+      (Get-Item $expectedMp4).LastWriteTime -ge $started -and (Get-Item $expectedPptx).LastWriteTime -ge $started
+    $hasNonZeroExitCode = $null -ne $process.ExitCode -and $process.ExitCode -ne 0
+    if ($hasNonZeroExitCode -or -not $hasArtifacts) {
       $detail = if (Test-Path $stderr) { Get-Content $stderr -Raw } else { '' }
-      throw "Renderer did not create complete artifacts. $detail"
+      throw "Renderer exited with code $($process.ExitCode) or did not create fresh artifacts. $detail"
     }
+    $audioDir = Join-Path $root "public/videos/repositories/$($target.slug)/audio"
+    Remove-Item -LiteralPath $audioDir -Recurse -Force -ErrorAction SilentlyContinue
     Remove-Item $stdout, $stderr -Force -ErrorAction SilentlyContinue
     $results += [PSCustomObject]@{ slug = $target.slug; status = 'rendered'; seconds = [Math]::Round(((Get-Date) - $started).TotalSeconds, 1) }
     Start-Sleep -Seconds 8
