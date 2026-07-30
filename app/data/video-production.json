@@ -2495,9 +2495,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-21T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/smoking-map-alert/smoking-map-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/smoking-map-alert/smoking-map-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Smoking Map Alertの技術構成を短く解説します。",
@@ -2544,9 +2544,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-22T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Sauna Crowd Alertの技術構成を短く解説します。",
@@ -2593,9 +2593,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-23T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/netcafe-seat-watch/netcafe-seat-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/netcafe-seat-watch/netcafe-seat-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Netcafe Seat Watchの技術構成を短く解説します。",
@@ -2642,9 +2642,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-24T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/midnight-spot-alert/midnight-spot-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/midnight-spot-alert/midnight-spot-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Midnight Spot Alertの技術構成を短く解説します。",
@@ -2691,9 +2691,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-25T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Restaurant Seat Alertの技術構成を短く解説します。",
@@ -2740,9 +2740,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-26T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/golf-slot-watch/golf-slot-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/golf-slot-watch/golf-slot-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Golf Slot Watchの技術構成を短く解説します。",
@@ -2789,9 +2789,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-27T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Rc Course Alertの技術構成を短く解説します。",
@@ -2838,9 +2838,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-28T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/bowling-lane-alert/bowling-lane-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/bowling-lane-alert/bowling-lane-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Bowling Lane Alertの技術構成を短く解説します。",
@@ -2887,9 +2887,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-29T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/darts-event-alert/darts-event-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/darts-event-alert/darts-event-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Darts Event Alertの技術構成を短く解説します。",
@@ -2936,9 +2936,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-30T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Retro Game Watchの技術構成を短く解説します。",
@@ -2985,9 +2985,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-01T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Retro Jihanki Liveの技術構成を短く解説します。",
