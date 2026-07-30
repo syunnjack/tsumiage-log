@@ -1,12 +1,17 @@
 param(
-  [int]$Count = 10
+  [int]$Count = 10,
+  [string[]]$Slugs = @()
 )
 
 $ErrorActionPreference = 'Continue'
 $root = Split-Path $PSScriptRoot -Parent
 $queuePath = Join-Path $root 'app/data/video-production.json'
 $queue = Get-Content $queuePath -Raw -Encoding UTF8 | ConvertFrom-Json
-$targets = @($queue.videos | Where-Object status -eq 'queued' | Select-Object -First $Count)
+$targets = if ($Slugs.Count) {
+  @($queue.videos | Where-Object { $_.slug -in $Slugs })
+} else {
+  @($queue.videos | Where-Object status -eq 'queued' | Select-Object -First $Count)
+}
 $results = @()
 
 foreach ($target in $targets) {

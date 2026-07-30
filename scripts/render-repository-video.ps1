@@ -26,14 +26,8 @@ function Add-Text($slide, $text, $left, $top, $width, $height, $size, $bold = $f
   return $shape
 }
 
-$slides = @(
-  @{ title = "$($item.repository) TECH EXPLANATION"; body = "Architecture, implementation and commit history in 75 seconds" },
-  @{ title = 'WHAT DOES IT SOLVE?'; body = $item.description },
-  @{ title = 'TECH STACK'; body = "Primary technologies: $($item.language)" },
-  @{ title = 'REPOSITORY HIGHLIGHTS'; body = "Public source code, README and commit history reveal the design decisions." },
-  @{ title = 'ITERATIVE IMPROVEMENT'; body = 'Small commits continuously improve features, quality and release readiness.' },
-  @{ title = 'READ THE FULL ARTICLE'; body = "$($item.articleUrl)`n`nTSUMIAGE LOG" }
-)
+$slides = @($item.slides)
+if ($slides.Count -ne 6) { throw "Six Japanese slide definitions are required for $Slug" }
 
 $powerPoint = New-Object -ComObject PowerPoint.Application
 $presentation = $null

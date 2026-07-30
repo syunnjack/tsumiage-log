@@ -42,6 +42,14 @@ const videos = repositoryData.articles
         "",
         `#技術解説 #個人開発 #${article.primaryLanguage.replace(/[^\p{L}\p{N}]/gu, "")}`,
       ].join("\n"),
+      slides: [
+        { title: `${article.displayName}の技術解説`, body: "設計・実装・コミットから学ぶ短時間プレビュー" },
+        { title: "このプロジェクトは何を解決する？", body: article.description },
+        { title: "技術スタック", body: `主要技術：${languages}\n役割を分け、保守しやすい構成を目指しています。` },
+        { title: "リポジトリの読みどころ", body: `公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：${article.files.slice(0, 3).join("、") || "主要なソースファイル"}` },
+        { title: "コミットから分かる改善", body: latest },
+        { title: "詳しくは積み上げログへ", body: `記事： https://syunnjack.dev/articles/${article.slug}\n\n学び、作り、振り返る開発記録。` },
+      ],
       publishAt: publishAt.toISOString(),
       status: ["scheduled", "published"].includes(prior.status)
         ? prior.status
