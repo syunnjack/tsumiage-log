@@ -3034,9 +3034,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-02T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/prize-arrival-watch/prize-arrival-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/prize-arrival-watch/prize-arrival-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Prize Arrival Watchの技術構成を短く解説します。",
@@ -3083,9 +3083,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-03T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/event-trip-alert/event-trip-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/event-trip-alert/event-trip-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Event Trip Alertの技術構成を短く解説します。",
@@ -3132,9 +3132,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-04T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Smoking Stay Alertの技術構成を短く解説します。",
@@ -3181,9 +3181,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-05T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hotel-price-watch/hotel-price-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hotel-price-watch/hotel-price-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Hotel Price Watchの技術構成を短く解説します。",
@@ -3230,9 +3230,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-06T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Route Delay Stay Alertの技術構成を短く解説します。",
@@ -3279,9 +3279,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-07T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/openclose-pulse/openclose-pulse-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/openclose-pulse/openclose-pulse-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Openclose Pulseの技術構成を短く解説します。",
@@ -3328,9 +3328,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-08T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/ai-quiz-study/ai-quiz-study-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/ai-quiz-study/ai-quiz-study-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Ai Quiz Studyの技術構成を短く解説します。",
@@ -3377,9 +3377,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-09T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/prize-stock-alert/prize-stock-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/prize-stock-alert/prize-stock-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Prize Stock Alertの技術構成を短く解説します。",
@@ -3426,9 +3426,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-10T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Showa Retro Routeの技術構成を短く解説します。",
@@ -3475,9 +3475,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-11T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/local-alert-radar/local-alert-radar-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/local-alert-radar/local-alert-radar-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Local Alert Radarの技術構成を短く解説します。",
@@ -3524,9 +3524,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-12T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Trip Route Stayの技術構成を短く解説します。",
@@ -3573,9 +3573,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-13T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/anchor-suggest-search/anchor-suggest-search-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/anchor-suggest-search/anchor-suggest-search-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Anchor Suggest Searchの技術構成を短く解説します。",
@@ -3622,9 +3622,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-14T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/golf-course-booking/golf-course-booking-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/golf-course-booking/golf-course-booking-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Golf Course Bookingの技術構成を短く解説します。",
@@ -3671,9 +3671,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-15T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Work Bar Naviの技術構成を短く解説します。",
@@ -3720,9 +3720,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-16T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Bowling Score Hubの技術構成を短く解説します。",
@@ -3769,9 +3769,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-17T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/gyosei-quiz-one/gyosei-quiz-one-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/gyosei-quiz-one/gyosei-quiz-one-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Gyosei Quiz Oneの技術構成を短く解説します。",
@@ -3818,9 +3818,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-18T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/haikyo-archive-map/haikyo-archive-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/haikyo-archive-map/haikyo-archive-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Haikyo Archive Mapの技術構成を短く解説します。",
@@ -3867,9 +3867,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-19T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/prize-stock-finder/prize-stock-finder-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/prize-stock-finder/prize-stock-finder-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Prize Stock Finderの技術構成を短く解説します。",
@@ -3916,9 +3916,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-20T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/eki-genre-map/eki-genre-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/eki-genre-map/eki-genre-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Eki Genre Mapの技術構成を短く解説します。",
@@ -3965,9 +3965,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-21T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/price-review-compare/price-review-compare-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/price-review-compare/price-review-compare-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Price Review Compareの技術構成を短く解説します。",
