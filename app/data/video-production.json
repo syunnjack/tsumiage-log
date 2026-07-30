@@ -1515,9 +1515,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-01T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/oshi-trip-alert/oshi-trip-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/oshi-trip-alert/oshi-trip-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Oshi Trip Alertの技術構成を短く解説します。",
@@ -1564,9 +1564,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-02T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/niche-compare-hub/niche-compare-hub-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/niche-compare-hub/niche-compare-hub-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Niche Compare Hubの技術構成を短く解説します。",
@@ -1613,9 +1613,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-03T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/domain-safety-checker/domain-safety-checker-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/domain-safety-checker/domain-safety-checker-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Domain Safety Checkerの技術構成を短く解説します。",
@@ -1662,9 +1662,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-04T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Ranking Widget Hubの技術構成を短く解説します。",
@@ -1711,9 +1711,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-05T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/publish-flow/publish-flow-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/publish-flow/publish-flow-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Publish Flowの技術構成を短く解説します。",
@@ -1760,9 +1760,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-06T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/content-brief-engine/content-brief-engine-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/content-brief-engine/content-brief-engine-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Content Brief Engineの技術構成を短く解説します。",
@@ -1809,9 +1809,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-07T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/sukima-insight/sukima-insight-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/sukima-insight/sukima-insight-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Sukima Insightの技術構成を短く解説します。",
@@ -1858,9 +1858,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-08T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/tourism-crowd-parking-alert/tourism-crowd-parking-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/tourism-crowd-parking-alert/tourism-crowd-parking-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Tourism Crowd Parking Alertの技術構成を短く解説します。",
@@ -1907,9 +1907,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-09T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Wait Time Alertの技術構成を短く解説します。",
@@ -1956,9 +1956,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-10T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/disaster-spot-alert/disaster-spot-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/disaster-spot-alert/disaster-spot-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Disaster Spot Alertの技術構成を短く解説します。",
@@ -2005,9 +2005,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-11T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/local-board-alert/local-board-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/local-board-alert/local-board-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Local Board Alertの技術構成を短く解説します。",
@@ -2054,9 +2054,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-12T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Subsidy Alert Hubの技術構成を短く解説します。",
@@ -2103,9 +2103,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-13T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/welfare-job-alert/welfare-job-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/welfare-job-alert/welfare-job-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Welfare Job Alertの技術構成を短く解説します。",
@@ -2152,9 +2152,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-14T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/bar-job-alert/bar-job-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/bar-job-alert/bar-job-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Bar Job Alertの技術構成を短く解説します。",
@@ -2201,9 +2201,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-15T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/job-match-alert/job-match-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/job-match-alert/job-match-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Job Match Alertの技術構成を短く解説します。",
@@ -2250,9 +2250,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-16T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/flea-price-watch/flea-price-watch-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/flea-price-watch/flea-price-watch-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Flea Price Watchの技術構成を短く解説します。",
@@ -2299,9 +2299,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-17T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hobby-stock-price-alert/hobby-stock-price-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hobby-stock-price-alert/hobby-stock-price-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Hobby Stock Price Alertの技術構成を短く解説します。",
@@ -2348,9 +2348,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-18T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/buyback-price-alert/buyback-price-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/buyback-price-alert/buyback-price-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Buyback Price Alertの技術構成を短く解説します。",
@@ -2397,9 +2397,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-19T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/exam-date-alert/exam-date-alert-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/exam-date-alert/exam-date-alert-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Exam Date Alertの技術構成を短く解説します。",
@@ -2446,9 +2446,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-09-20T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Study Reminder Aiの技術構成を短く解説します。",
