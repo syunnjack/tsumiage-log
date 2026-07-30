@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { articles } from "../lib/repository-articles"
+import { resolveVideoAssetUrl } from "../lib/video-assets"
 import videoProduction from "../data/video-production.json"
 
 export const metadata: Metadata = {
@@ -100,7 +101,7 @@ export default function VideosPage() {
           {articles.map((article, index) => (
             <article className="video-plan-card" id={article.slug} key={article.slug}>
               {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日公開）↗</a></>}
-              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説 試作版`}><source src={videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl ?? undefined} type="video/mp4" /></video>}
+              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説 試作版`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
                 <span>VIDEO {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>
