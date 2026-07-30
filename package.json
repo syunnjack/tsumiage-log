@@ -19,6 +19,7 @@
     "video:audit": "node scripts/video-audit.mjs",
     "video:queue": "node scripts/build-video-production-queue.mjs",
     "video:render": "powershell -ExecutionPolicy Bypass -File scripts/render-repository-video.ps1",
+    "video:status": "node scripts/update-video-status.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
