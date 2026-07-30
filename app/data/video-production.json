@@ -4014,9 +4014,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-22T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/local-board-plus/local-board-plus-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/local-board-plus/local-board-plus-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Local Board Plusの技術構成を短く解説します。",
@@ -4063,9 +4063,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-23T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/ranking-vote-hub/ranking-vote-hub-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/ranking-vote-hub/ranking-vote-hub-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Ranking Vote Hubの技術構成を短く解説します。",
@@ -4112,9 +4112,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-24T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/open-close-radar/open-close-radar-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/open-close-radar/open-close-radar-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Open Close Radarの技術構成を短く解説します。",
@@ -4161,9 +4161,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-25T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/rc-course-finder/rc-course-finder-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/rc-course-finder/rc-course-finder-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Rc Course Finderの技術構成を短く解説します。",
@@ -4210,9 +4210,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-26T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/my-dartslive/my-dartslive-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/my-dartslive/my-dartslive-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、My Dartsliveの技術構成を短く解説します。",
@@ -4259,9 +4259,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-27T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/manga-cafe-finder/manga-cafe-finder-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/manga-cafe-finder/manga-cafe-finder-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Manga Cafe Finderの技術構成を短く解説します。",
@@ -4308,9 +4308,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-28T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/route-spot-navi/route-spot-navi-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/route-spot-navi/route-spot-navi-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Route Spot Naviの技術構成を短く解説します。",
@@ -4357,9 +4357,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-29T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/wait-time-guide/wait-time-guide-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/wait-time-guide/wait-time-guide-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Wait Time Guideの技術構成を短く解説します。",
@@ -4406,9 +4406,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-30T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/bus-arrival-guide/bus-arrival-guide-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/bus-arrival-guide/bus-arrival-guide-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Bus Arrival Guideの技術構成を短く解説します。",
@@ -4455,9 +4455,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-10-31T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/solo-spot-map/solo-spot-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/solo-spot-map/solo-spot-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Solo Spot Mapの技術構成を短く解説します。",
@@ -4504,9 +4504,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-01T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/retro-game-map/retro-game-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/retro-game-map/retro-game-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Retro Game Mapの技術構成を短く解説します。",
@@ -4553,9 +4553,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-02T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Smoking Spot Finderの技術構成を短く解説します。",
@@ -4602,9 +4602,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-03T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/dart-portal/dart-portal-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/dart-portal/dart-portal-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Dart Portalの技術構成を短く解説します。",
@@ -4651,9 +4651,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-04T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/foodtruck-map/foodtruck-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/foodtruck-map/foodtruck-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Foodtruck Mapの技術構成を短く解説します。",
@@ -4700,9 +4700,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-05T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/hikkoshi-hikaku/hikkoshi-hikaku-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/hikkoshi-hikaku/hikkoshi-hikaku-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Hikkoshi Hikakuの技術構成を短く解説します。",
@@ -4749,9 +4749,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-06T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/space-map/space-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/space-map/space-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Space Mapの技術構成を短く解説します。",
@@ -4798,9 +4798,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-07T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/sauna-map/sauna-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/sauna-map/sauna-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Sauna Mapの技術構成を短く解説します。",
@@ -4847,9 +4847,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-08T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/juku-map/juku-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/juku-map/juku-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Juku Mapの技術構成を短く解説します。",
@@ -4896,9 +4896,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-09T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/funeral-hall-map/funeral-hall-map-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/funeral-hall-map/funeral-hall-map-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Funeral Hall Mapの技術構成を短く解説します。",
@@ -4945,9 +4945,9 @@
                                       }
                                   ],
                        "publishAt":  "2026-11-10T01:00:00.000Z",
-                       "status":  "queued",
-                       "localVideoUrl":  null,
-                       "localPptxUrl":  null,
+                       "status":  "rendered",
+                       "localVideoUrl":  "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.mp4",
+                       "localPptxUrl":  "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.pptx",
                        "youtubeUrl":  null,
                        "narration":  [
                                          "今回は、Kuruma Kaitori Kuchikomiの技術構成を短く解説します。",
