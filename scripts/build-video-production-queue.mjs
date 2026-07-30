@@ -43,7 +43,9 @@ const videos = repositoryData.articles
         `#技術解説 #個人開発 #${article.primaryLanguage.replace(/[^\p{L}\p{N}]/gu, "")}`,
       ].join("\n"),
       publishAt: publishAt.toISOString(),
-      status: rendered ? "rendered" : (prior.status ?? "queued"),
+      status: ["scheduled", "published"].includes(prior.status)
+        ? prior.status
+        : (rendered ? "rendered" : (prior.status ?? "queued")),
       localVideoUrl: rendered ? localVideoUrl : (prior.localVideoUrl ?? null),
       localPptxUrl: rendered ? localPptxUrl : (prior.localPptxUrl ?? null),
       youtubeUrl: prior.youtubeUrl ?? null,

@@ -73,9 +73,12 @@ try {
   while ((Get-Date) -lt $deadline -and [int]$presentation.CreateVideoStatus -notin 3, 4) { Start-Sleep -Seconds 5 }
   if ([int]$presentation.CreateVideoStatus -ne 3 -and (-not (Test-Path $mp4Path) -or (Get-Item $mp4Path).Length -eq 0)) { throw 'Video export failed or timed out.' }
 } finally {
-  if ($presentation) { $presentation.Close(); [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($presentation) }
+  if ($presentation) {
+    try { $presentation.Close() } catch { Write-Warning "Presentation was already closed: $($_.Exception.Message)" }
+    try { [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($presentation) } catch {}
+  }
   try { $powerPoint.Quit() } catch {}
-  [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($powerPoint)
+  try { [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($powerPoint) } catch {}
 }
 
 Get-Item $mp4Path, $pptxPath | Select-Object FullName, Length
