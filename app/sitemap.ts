@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next"
 import { articles } from "./lib/repository-articles"
 import { manualArticles } from "./lib/manual-articles"
 
+export const dynamic = "force-static"
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://syunnjack.dev"
   return [

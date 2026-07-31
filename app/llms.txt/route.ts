@@ -1,6 +1,8 @@
 import { articles } from "../lib/repository-articles"
 import { manualArticles } from "../lib/manual-articles"
 
+export const dynamic = "force-static"
+
 export function GET() {
   const body = [
     "# 積み上げログ",

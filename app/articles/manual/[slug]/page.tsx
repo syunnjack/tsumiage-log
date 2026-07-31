@@ -4,7 +4,11 @@ import { notFound } from "next/navigation"
 import { getManualArticle, manualArticles } from "../../../lib/manual-articles"
 import { formatDate } from "../../../lib/repository-articles"
 
-export const generateStaticParams = () => manualArticles.map(({ slug }) => ({ slug }))
+export const dynamicParams = false
+export const generateStaticParams = () =>
+  manualArticles.length
+    ? manualArticles.map(({ slug }) => ({ slug }))
+    : [{ slug: "__empty" }]
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const article = getManualArticle((await params).slug)
