@@ -82,7 +82,7 @@ export default function FavoriteVideosPage() {
         <p>
           技術や学習に役立つ動画だけでなく、F1、お笑い、犬・猫、音楽など、
           実際に視聴して人に紹介したいと思った動画を掲載します。
-          公開後も内容を見直し、古くなった情報には注記します。
+          内容が古くなった場合は、そのことが分かる注記を添えます。
         </p>
       </section>
 
@@ -129,9 +129,6 @@ export default function FavoriteVideosPage() {
                 </a>
                 {"ctaUrl" in video && video.ctaUrl && (
                   <div className="video-service-cta">
-                    {"affiliatePending" in video && video.affiliatePending && (
-                      <span>アフィリエイト導線準備中</span>
-                    )}
                     <a
                       href={video.ctaUrl}
                       rel={"isAffiliate" in video && video.isAffiliate ? "sponsored noopener" : "noopener"}

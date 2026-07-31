@@ -41,8 +41,8 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>TSUMIAGE LOG</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
     <article>
-      {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>Rakuten02の技術解説・試作版</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日10:00公開）↗</a></aside>}
-      {repositoryVideoUrl && <aside className="article-video-published"><div><p>VIDEO EXPLANATION / PREVIEW</p><h2>{article.displayName}の技術解説・試作版</h2><span>公開コード、README、コミット履歴から設計と改善の流れを紹介します。</span></div><video controls preload="metadata" aria-label={`${article.displayName}の技術解説 試作版`}><source src={repositoryVideoUrl} type="video/mp4" /></video>{repositoryVideo?.youtubeUrl ? <a href={repositoryVideo.youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside>}
+      {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>VIDEO EXPLANATION</p><h2>Rakuten02の技術解説</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></aside>}
+      {repositoryVideoUrl && <aside className="article-video-published"><div><p>VIDEO EXPLANATION</p><h2>{article.displayName}の技術解説</h2><span>公開コード、README、コミット履歴から設計と改善の流れを紹介します。</span></div><video controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={repositoryVideoUrl} type="video/mp4" /></video>{repositoryVideo?.youtubeUrl ? <a href={repositoryVideo.youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside>}
       <header className="article-hero">
         <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">技術記事</Link><span>/</span><span>{article.name}</span></nav>
         <p className="eyebrow"><span />REPOSITORY DEEP DIVE</p>
@@ -53,11 +53,11 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
       <aside className="article-video-cta">
         <div className="video-cta-icon" aria-hidden="true">▶</div>
         <div>
-          <p>VIDEO EXPLANATION / COMING SOON</p>
-          <h2>この記事の解説動画を2026年8月に公開予定</h2>
-          <span>設計図、コード、コミットの変化を画面で追いながら解説します。</span>
+          <p>VIDEO LEARNING GUIDE</p>
+          <h2>設計図、コード、コミットの変化を動画で確認</h2>
+          <span>技術記事と解説動画を行き来しながら、実装判断と改善の流れを理解できます。</span>
         </div>
-        <Link href={`/videos#${article.slug}`}>動画の公開予定を見る →</Link>
+        <Link href={`/videos#${article.slug}`}>技術解説動画を見る →</Link>
       </aside>
       <div className="article-layout">
         <aside className="article-toc"><strong>この記事の内容</strong><a href="#answer">要点</a><a href="#overview">概要</a><a href="#stack">技術構成</a><a href="#architecture">設計</a><a href="#history">実装の変遷</a><a href="#learning">学び</a><a href="#faq">FAQ</a></aside>

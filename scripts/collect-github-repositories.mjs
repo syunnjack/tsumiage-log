@@ -118,13 +118,15 @@ const candidates = publishable.map((repo, index) => {
     repo.description ||
     decodeReadme(readme).split(/[。.!?]/)[0] ||
     `${humanize(repo.name)}の設計と実装を記録したプロジェクト`
+  const readmeExcerpt =
+    repo.name === "tsumiage-log" ? summary : decodeReadme(readme)
 
   return {
     slug: repo.name.toLowerCase(),
     name: repo.name,
     displayName: humanize(repo.name),
     description: summary.slice(0, 220),
-    readmeExcerpt: decodeReadme(readme),
+    readmeExcerpt,
     url: repo.url,
     defaultBranch: repo.defaultBranchRef.name,
     primaryLanguage: repo.primaryLanguage?.name ?? languageList[0] ?? "未分類",

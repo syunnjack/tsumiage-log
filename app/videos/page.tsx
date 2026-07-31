@@ -7,7 +7,7 @@ import videoProduction from "../data/video-production.json"
 export const metadata: Metadata = {
   title: "技術解説動画 | 積み上げログ",
   description:
-    "積み上げログの技術記事を、設計図やコードを見ながら学べる解説動画の公開予定一覧です。",
+    "積み上げログの技術記事を、設計図、コード、コミットの変化とともに学べる技術解説動画の一覧です。",
   alternates: { canonical: "/videos" },
 }
 
@@ -36,13 +36,13 @@ export default function VideosPage() {
           動画でも。
         </h1>
         <p>
-          設計図、画面、コード、コミットの変化を見ながら理解できる解説動画を、
-          2026年8月から順次公開します。
+          設計図、画面、コード、コミットの変化を見ながら、
+          実装の要点と判断の流れを短時間で理解できます。
         </p>
         <div className="video-release-note">
-          <span>COMING IN</span>
-          <strong>2026.08</strong>
-          <p>公開後、このページから各動画を視聴できるようになります。</p>
+          <span>LEARN WITH VIDEO</span>
+          <strong>{articles.length} PROJECTS</strong>
+          <p>記事と動画を行き来しながら、設計、実装、改善のつながりを確認できます。</p>
         </div>
       </section>
 
@@ -81,7 +81,7 @@ export default function VideosPage() {
                   <h3>{title}</h3>
                   <p>{description}</p>
                 </div>
-                <small>企画中</small>
+                <small>学習テーマ</small>
               </article>
             ))}
           </div>
@@ -91,21 +91,21 @@ export default function VideosPage() {
           <div>
             <p className="eyebrow">
               <span />
-            ARTICLE VIDEO ROADMAP
+            ARTICLE VIDEO LIBRARY
             </p>
-            <h2>記事解説の公開予定</h2>
+            <h2>リポジトリ別の技術解説</h2>
           </div>
-          <p>記事ごとに10〜15分程度の技術解説を予定しています。</p>
+          <p>設計、技術選定、コミット履歴の要点をプロジェクトごとに確認できます。</p>
         </div>
         <div className="video-plan-grid">
           {articles.map((article, index) => (
             <article className="video-plan-card" id={article.slug} key={article.slug}>
-              {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説 試作版"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る（8月1日公開）↗</a></>}
-              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説 試作版`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
+              {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></>}
+              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
                 <span>VIDEO {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>
-                <small>2026.08—</small>
+                <small>DESIGN / CODE</small>
               </div>
               <p>{article.primaryLanguage}</p>
               <h2>{article.displayName}の技術解説</h2>
@@ -113,8 +113,8 @@ export default function VideosPage() {
                 設計、使用技術、コミットによる実装の変化を画面とコードで解説します。
               </p>
               <div>
-                <span>公開準備中</span>
-                <Link href={`/articles/${article.slug}`}>先に記事を読む →</Link>
+                <span>設計・実装・改善</span>
+                <Link href={`/articles/${article.slug}`}>技術記事を読む →</Link>
               </div>
             </article>
           ))}

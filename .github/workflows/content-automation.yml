@@ -59,6 +59,7 @@ jobs:
 
       - name: Validate site
         run: |
+          npm run copy:audit
           npm run video:audit
           npm run video:assets:audit
           npm run lint

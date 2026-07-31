@@ -12,7 +12,7 @@ export function GET() {
     "## Primary pages",
     "- [Home](https://syunnjack.dev/): サイト概要、学習年表、プロジェクト",
     "- [Articles](https://syunnjack.dev/articles): 技術記事一覧",
-    "- [Videos](https://syunnjack.dev/videos): 記事解説と独立企画を含む、2026年8月から公開予定の技術動画",
+    "- [Videos](https://syunnjack.dev/videos): 設計、コード、コミット履歴をプロジェクト別に学べる技術解説動画",
     "- [Favorite videos](https://syunnjack.dev/videos/favorites): 技術、F1、お笑い、犬猫、音楽など実際に見て気に入った動画の選定理由付きコレクション",
     "",
     "## Repository articles",
