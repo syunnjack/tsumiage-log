@@ -2,8 +2,8 @@ name: Repository article automation
 
 on:
   schedule:
-    # 毎日 03:15 JST
-    - cron: "15 18 * * *"
+    # 毎時15分に公開リポジトリの変更を確認
+    - cron: "15 * * * *"
   workflow_dispatch:
 
 permissions:
