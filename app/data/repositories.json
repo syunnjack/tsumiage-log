@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T04:19:13.796Z",
+  "generatedAt": "2026-08-01T11:54:27.752Z",
   "owner": "syunnjack",
   "totalRepositories": 157,
   "publicRepositories": 157,
@@ -38,6 +38,24 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "7274490",
+          "message": "Dqwv2動画の固定配信URLを反映",
+          "date": "2026-08-01T05:21:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7274490378273f3d439ef019922981703296455f"
+        },
+        {
+          "sha": "a7effb7",
+          "message": "Dqwv2技術解説動画を追加",
+          "date": "2026-08-01T05:16:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7effb7ea44f191990a756f7b05287ded29bae71"
+        },
+        {
+          "sha": "eeffc4e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T04:19:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eeffc4e8231073aaa53d0d046768256de5a4c678"
+        },
         {
           "sha": "d342d0f",
           "message": "記事更新後の公開処理を自動化",
@@ -91,27 +109,9 @@
           "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
           "date": "2026-07-30T16:19:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9f3ea7af260602f9aad0dcdc769ac030de612bb7"
-        },
-        {
-          "sha": "e3b453c",
-          "message": "Regenerate repository videos with Japanese narration",
-          "date": "2026-07-30T13:02:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3b453c1c1231c6eee5235fb81d5a00d8af3b8b2"
-        },
-        {
-          "sha": "316b47b",
-          "message": "Generate eighth Japanese repository video batch",
-          "date": "2026-07-30T07:42:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/316b47bf887f43b3b016736df2bd9525e1296da4"
-        },
-        {
-          "sha": "a087c1b",
-          "message": "Generate seventh Japanese repository video batch",
-          "date": "2026-07-30T07:14:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a087c1b7e770b18bba06c3cf9bae295dd3a4d16c"
         }
       ],
-      "updatedAt": "2026-08-01T04:16:36Z",
+      "updatedAt": "2026-08-01T05:21:44Z",
       "stars": 0,
       "forks": 0
     },
