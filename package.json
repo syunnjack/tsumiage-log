@@ -11,6 +11,7 @@
     "start": "next start",
     "lint": "eslint",
     "content:collect": "node scripts/collect-github-repositories.mjs",
+    "content:localize": "node scripts/localize-repository-content.mjs",
     "content:audit": "node scripts/content-audit.mjs",
     "manual:audit": "node scripts/manual-article-audit.mjs",
     "copy:audit": "node scripts/reader-first-copy-audit.mjs",

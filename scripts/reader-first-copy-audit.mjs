@@ -1,5 +1,6 @@
 import { readdir, readFile } from "node:fs/promises"
 import path from "node:path"
+import { hasJapaneseText, leadingEnglishLength } from "./repository-content-ja.mjs"
 
 const appDirectory = path.resolve("app")
 const publicDataFiles = [
@@ -22,6 +23,28 @@ const prohibitedExpressions = [
   "公開後",
   "予定しています",
   "予定一覧",
+  "準備ができ次第",
+  "VIDEO EXPLANATION",
+  "VIDEO LEARNING GUIDE",
+  "REPOSITORY DEEP DIVE",
+  "DEVELOPMENT NOTES",
+  "ORIGINAL NOTE",
+  "EXPLANATION VIDEOS",
+  "LEARN WITH VIDEO",
+  "CURATED FAVORITES",
+  "ORIGINAL SERIES",
+  "ARTICLE VIDEO LIBRARY",
+  "QUICK ANSWER",
+  "SELECTED VIDEOS",
+  "BROWSE BY TOPIC",
+  "SELECTION POLICY",
+  "LEARNING IN PUBLIC",
+  "BUILD / REFLECT / REPEAT",
+  "SCROLL TO EXPLORE",
+  "LATEST NOTES",
+  "MY JOURNEY",
+  "FEATURED PROJECT",
+  "ABOUT THIS LOG",
 ]
 
 async function collectSourceFiles(directory) {
@@ -62,6 +85,24 @@ for (const filePath of await collectSourceFiles(appDirectory)) {
 for (const relativePath of publicDataFiles) {
   const filePath = path.resolve(relativePath)
   inspectText(await readFile(filePath, "utf8"), filePath)
+}
+
+const repositoryData = JSON.parse(
+  await readFile(path.resolve("app/data/repositories.json"), "utf8"),
+)
+for (const article of repositoryData.articles) {
+  if (!hasJapaneseText(article.description)) {
+    violations.push(`app/data/repositories.json ${article.name}: 説明文が日本語ではありません`)
+  }
+  if (article.readmeExcerpt && !hasJapaneseText(article.readmeExcerpt)) {
+    violations.push(`app/data/repositories.json ${article.name}: 本文概要が日本語ではありません`)
+  }
+  if (leadingEnglishLength(article.description) > 60) {
+    violations.push(`app/data/repositories.json ${article.name}: 説明文が長い英語から始まっています`)
+  }
+  if (leadingEnglishLength(article.readmeExcerpt) > 120) {
+    violations.push(`app/data/repositories.json ${article.name}: 本文概要が長い英語から始まっています`)
+  }
 }
 
 if (violations.length > 0) {

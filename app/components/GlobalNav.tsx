@@ -12,7 +12,7 @@ const items = [
 
 export default function GlobalNav() {
   return <header className="global-header">
-    <Link className="global-brand" href="/"><span>つ</span><strong>積み上げログ<small>TSUMIAGE LOG</small></strong></Link>
+    <Link className="global-brand" href="/"><span>つ</span><strong>積み上げログ<small>技術ブログ</small></strong></Link>
     <nav aria-label="グローバルメニュー">{items.map(([label, href]) => <Link href={href} key={href}>{label}</Link>)}</nav>
     <Link className="global-github" href="https://github.com/syunnjack">GitHub ↗</Link>
   </header>

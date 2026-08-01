@@ -19,7 +19,7 @@ export default function VideosPage() {
           <span className="brand-mark">つ</span>
           <span>
             <strong>積み上げログ</strong>
-            <small>TSUMIAGE LOG</small>
+            <small>技術ブログ</small>
           </span>
         </Link>
         <Link href="/">ホームへ戻る</Link>
@@ -28,7 +28,7 @@ export default function VideosPage() {
       <section className="archive-hero video-hero">
         <p className="eyebrow">
           <span />
-          EXPLANATION VIDEOS
+          技術解説動画
         </p>
         <h1>
           記事を、
@@ -40,8 +40,8 @@ export default function VideosPage() {
           実装の要点と判断の流れを短時間で理解できます。
         </p>
         <div className="video-release-note">
-          <span>LEARN WITH VIDEO</span>
-          <strong>{articles.length} PROJECTS</strong>
+          <span>動画で学ぶ</span>
+          <strong>{articles.length}プロジェクト</strong>
           <p>記事と動画を行き来しながら、設計、実装、改善のつながりを確認できます。</p>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function VideosPage() {
       <section className="video-plan-section">
         <Link className="favorite-video-entry" href="/videos/favorites">
           <div>
-            <p>CURATED FAVORITES</p>
+            <p>おすすめ動画</p>
             <h2>気に入った動画</h2>
             <span>技術、F1、お笑い、犬猫、音楽など、実際に見て印象に残った動画を紹介します。</span>
           </div>
@@ -60,7 +60,7 @@ export default function VideosPage() {
           <div>
             <p className="eyebrow">
               <span />
-              ORIGINAL SERIES
+              オリジナルシリーズ
             </p>
             <h2>記事にとらわれない、動画だけの学び。</h2>
             <p>
@@ -91,7 +91,7 @@ export default function VideosPage() {
           <div>
             <p className="eyebrow">
               <span />
-            ARTICLE VIDEO LIBRARY
+            記事解説動画
             </p>
             <h2>リポジトリ別の技術解説</h2>
           </div>
@@ -103,9 +103,9 @@ export default function VideosPage() {
               {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></>}
               {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
-                <span>VIDEO {String(index + 1).padStart(3, "0")}</span>
+                <span>動画 {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>
-                <small>DESIGN / CODE</small>
+                <small>設計・コード</small>
               </div>
               <p>{article.primaryLanguage}</p>
               <h2>{article.displayName}の技術解説</h2>

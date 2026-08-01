@@ -21,6 +21,29 @@ export const formatDate = (date: string | null) =>
     ? new Intl.DateTimeFormat("ja-JP", { dateStyle: "medium" }).format(new Date(date))
     : "日付不明"
 
+export function formatCommitMessage(message: string) {
+  const normalized = message.toLowerCase()
+  if (/[ぁ-んァ-ヶ一-龠々]/.test(message)) {
+    return message
+      .replace(/^add\s*[:：-]?\s*/i, "追加：")
+      .replace(/^fix\s*[:：-]?\s*/i, "修正：")
+      .replace(/^update\s*[:：-]?\s*/i, "更新：")
+      .replace(/^improve\s*[:：-]?\s*/i, "改善：")
+      .replace(/^remove\s*[:：-]?\s*/i, "削除：")
+  }
+  if (normalized.includes("initial")) return "プロジェクトの初期構成を作成"
+  if (normalized.includes("readme") || normalized.includes("docs")) return "説明資料を更新"
+  if (normalized.includes("test")) return "テストを追加・更新"
+  if (normalized.includes("remove") || normalized.includes("delete")) return "不要な実装・設定を削除"
+  if (normalized.includes("refactor")) return "コード構成を整理"
+  if (normalized.includes("fix")) return "不具合や設定を修正"
+  if (normalized.includes("improve") || normalized.includes("enhance")) return "実装と使いやすさを改善"
+  if (normalized.includes("add") || normalized.includes("create")) return "機能・コンテンツを追加"
+  if (normalized.includes("update") || normalized.includes("change")) return "実装・データを更新"
+  if (normalized.includes("merge")) return "開発内容を統合"
+  return "実装内容を更新"
+}
+
 export function inferArchitecture(article: RepositoryArticle) {
   const files = article.files.map((file) => file.toLowerCase())
   const result = []

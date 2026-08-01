@@ -63,7 +63,7 @@ export default function Home() {
           </span>
           <span>
             <strong>積み上げログ</strong>
-            <small>TSUMIAGE LOG</small>
+            <small>技術ブログ</small>
           </span>
         </a>
         <nav aria-label="メインナビゲーション">
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">
             <span />
-            LEARNING IN PUBLIC
+            学びを公開する
           </p>
           <h1>
             学びを、
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
         </div>
         <div className="growth-visual" aria-label="学びの積み重ねを表すグラフ">
-          <div className="visual-label">BUILD / REFLECT / REPEAT</div>
+          <div className="visual-label">作る・振り返る・続ける</div>
           <div className="growth-line">
             {[18, 31, 45, 61, 78, 91].map((height, index) => (
               <span
@@ -126,7 +126,7 @@ export default function Home() {
             次の一歩へ。
           </p>
         </div>
-        <div className="scroll-note">SCROLL TO EXPLORE</div>
+        <div className="scroll-note">下へスクロール</div>
       </section>
 
       <section className="section articles-section" id="articles">
@@ -134,7 +134,7 @@ export default function Home() {
           <div>
             <p className="eyebrow">
               <span />
-              LATEST NOTES
+              最新記事
             </p>
             <h2>新しい記録</h2>
           </div>
@@ -174,7 +174,7 @@ export default function Home() {
           <div>
             <p className="eyebrow light">
               <span />
-              MY JOURNEY
+              これまでの歩み
             </p>
             <h2>これまでの歩み</h2>
           </div>
@@ -199,9 +199,9 @@ export default function Home() {
           <div className="project-intro">
             <p className="eyebrow">
               <span />
-              FEATURED PROJECT
+              注目プロジェクト
             </p>
-            <p className="project-number">PROJECT / 001</p>
+            <p className="project-number">プロジェクト / 001</p>
             <h2>GoalPilot</h2>
             <p className="project-description">
               三日坊主になることを前提に、目標へ戻る仕組みを設計したWebアプリ。
@@ -229,7 +229,7 @@ export default function Home() {
                 <span>goal-pilot</span>
               </div>
               <div className="preview-content">
-                <p>TODAY</p>
+                <p>今日</p>
                 <strong>今日の3分スタート</strong>
                 <div className="preview-task done">
                   <i /> 最初の小さな行動を決める
@@ -243,7 +243,7 @@ export default function Home() {
                 <div className="preview-progress">
                   <span />
                 </div>
-                <small>1 / 3 COMPLETED</small>
+                <small>1 / 3 完了</small>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function Home() {
         <div className="about-copy">
           <p className="eyebrow">
             <span />
-            ABOUT THIS LOG
+            このブログについて
           </p>
           <h2>
             完成よりも、

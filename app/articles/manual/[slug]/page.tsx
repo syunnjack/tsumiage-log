@@ -48,13 +48,13 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
   return <main className="tech-article-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <header className="article-site-header">
-      <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>TSUMIAGE LOG</small></span></Link>
+      <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link>
       <Link href="/articles">記事一覧へ</Link>
     </header>
     <article>
       <header className="article-hero">
         <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">記事</Link><span>/</span><span>自主執筆</span></nav>
-        <p className="eyebrow"><span />ORIGINAL NOTE</p>
+        <p className="eyebrow"><span />自主執筆記事</p>
         <h1>{article.title}</h1>
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>{article.category}</span><span>公開: {formatDate(article.publishedAt)}</span><span>更新: {formatDate(article.updatedAt)}</span></div>
@@ -64,7 +64,7 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
         <aside className="article-toc"><strong>この記事の内容</strong>{article.sections.map((section, index) => <a href={`#section-${index + 1}`} key={section.heading}>{section.heading}</a>)}</aside>
         <div className="article-content">
           {article.sections.map((section, index) => <section id={`section-${index + 1}`} key={section.heading}>
-            <p className="section-kicker">{String(index + 1).padStart(2, "0")} / ORIGINAL</p>
+            <p className="section-kicker">{String(index + 1).padStart(2, "0")} / 本文</p>
             <h2>{section.heading}</h2>
             {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             {section.code && <pre><code className={`language-${section.code.language}`}>{section.code.content}</code></pre>}

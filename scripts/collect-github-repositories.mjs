@@ -1,6 +1,7 @@
 import { execFileSync } from "node:child_process"
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import { dirname, resolve } from "node:path"
+import { localizeRepositoryArticle } from "./repository-content-ja.mjs"
 
 const owner = "syunnjack"
 const outputPath = resolve("app/data/repositories.json")
@@ -121,7 +122,7 @@ const candidates = publishable.map((repo, index) => {
   const readmeExcerpt =
     repo.name === "tsumiage-log" ? summary : decodeReadme(readme)
 
-  return {
+  return localizeRepositoryArticle({
     slug: repo.name.toLowerCase(),
     name: repo.name,
     displayName: humanize(repo.name),
@@ -136,7 +137,7 @@ const candidates = publishable.map((repo, index) => {
     updatedAt: repo.updatedAt,
     stars: repo.stargazerCount,
     forks: repo.forkCount,
-  }
+  })
 })
 
 const skippedRepositories = []

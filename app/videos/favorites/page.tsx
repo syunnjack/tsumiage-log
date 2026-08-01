@@ -57,7 +57,7 @@ export default function FavoriteVideosPage() {
       <header className="article-site-header">
         <Link className="brand" href="/">
           <span className="brand-mark">つ</span>
-          <span><strong>積み上げログ</strong><small>TSUMIAGE LOG</small></span>
+          <span><strong>積み上げログ</strong><small>技術ブログ</small></span>
         </Link>
         <Link href="/videos">動画ページへ戻る</Link>
       </header>
@@ -68,7 +68,7 @@ export default function FavoriteVideosPage() {
           <Link href="/videos">動画</Link><span>/</span>
           <span>気に入った動画</span>
         </nav>
-        <p className="eyebrow"><span />CURATED FAVORITES</p>
+        <p className="eyebrow"><span />おすすめ動画</p>
         <h1>気に入った<br />動画</h1>
         <p>
           再生数だけでは選びません。実際に見て印象に残った動画を、
@@ -77,7 +77,7 @@ export default function FavoriteVideosPage() {
       </section>
 
       <section className="favorite-answer">
-        <p>QUICK ANSWER</p>
+        <p>このページについて</p>
         <h2>このカテゴリで紹介する動画は？</h2>
         <p>
           技術や学習に役立つ動画だけでなく、F1、お笑い、犬・猫、音楽など、
@@ -89,7 +89,7 @@ export default function FavoriteVideosPage() {
       <section className="favorite-video-list-section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow"><span />SELECTED VIDEOS</p>
+            <p className="eyebrow"><span />厳選動画</p>
             <h2>お気に入り動画</h2>
           </div>
           <p>埋め込みで視聴でき、YouTubeの元動画にも移動できます。</p>
@@ -151,10 +151,10 @@ export default function FavoriteVideosPage() {
       <section className="favorite-category-section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow"><span />BROWSE BY TOPIC</p>
+            <p className="eyebrow"><span />テーマ別</p>
             <h2>テーマから探す</h2>
           </div>
-          <p>動画は準備ができ次第、それぞれのテーマへ追加します。</p>
+          <p>技術、F1、お笑い、犬・猫、音楽など、関心に合うテーマから探せます。</p>
         </div>
         <div className="favorite-category-grid">
           {favoriteVideoData.categories.map((category, index) => {
@@ -168,7 +168,7 @@ export default function FavoriteVideosPage() {
                   <h3>{category.name}</h3>
                   <p>{category.description}</p>
                 </div>
-                <strong>{count} VIDEOS</strong>
+                <strong>{count}本</strong>
               </article>
             )
           })}
@@ -176,7 +176,7 @@ export default function FavoriteVideosPage() {
       </section>
 
       <section className="selection-policy">
-        <p className="section-kicker">SELECTION POLICY</p>
+        <p className="section-kicker">選定方針</p>
         <h2>動画の選定基準</h2>
         <ol>
           <li><span>01</span><div><strong>実際に視聴</strong><p>タイトルだけで選ばず、実際に見て気に入った動画を掲載します。</p></div></li>
