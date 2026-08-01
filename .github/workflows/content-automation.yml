@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
   issues: write
 
@@ -91,6 +92,10 @@ jobs:
           git commit -m "Update repository articles from GitHub activity"
           git push
 
+      - name: Start GitHub Pages deployment
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: gh workflow run deploy.yml --ref main
+
       - name: Create or update publication alert
         if: steps.changes.outputs.changed == 'true'
         env:
@@ -98,7 +103,7 @@ jobs:
           AFTER_COUNT: ${{ steps.audit.outputs.article_count }}
           WARNING_COUNT: ${{ steps.audit.outputs.warning_count }}
         run: |
-          title="記事自動更新: Vercel反映開始"
+          title="記事自動更新: GitHub Pages反映開始"
           queued_count="$(node -p 'require("./app/data/video-production.json").videos.filter((video) => video.status === "queued").length')"
           body="GitHubの新しいコミットを検出し、記事データを更新しました。
 
@@ -108,7 +113,7 @@ jobs:
           - 動画制作待ち: ${queued_count}本
           - 実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
 
-          mainブランチへの更新により、Vercelの自動デプロイが開始されます。"
+          GitHub Pagesの公開処理を開始しました。"
           issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$issue_number" ]; then
             gh issue comment "$issue_number" --body "$body"
