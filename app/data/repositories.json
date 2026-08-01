@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T04:04:54.202Z",
+  "generatedAt": "2026-08-01T04:19:13.796Z",
   "owner": "syunnjack",
   "totalRepositories": 157,
   "publicRepositories": 157,
@@ -38,6 +38,18 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "d342d0f",
+          "message": "記事更新後の公開処理を自動化",
+          "date": "2026-08-01T04:14:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d342d0fe06376511fab3fe3388b18f0d448e6553"
+        },
+        {
+          "sha": "3162a19",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T04:05:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3162a19f561ca2feb1618b73c3de15ccd950339f"
+        },
         {
           "sha": "b839dbf",
           "message": "記事自動監視の失敗を修正",
@@ -97,21 +109,9 @@
           "message": "Generate seventh Japanese repository video batch",
           "date": "2026-07-30T07:14:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a087c1b7e770b18bba06c3cf9bae295dd3a4d16c"
-        },
-        {
-          "sha": "44cbc08",
-          "message": "Generate sixth Japanese repository video batch",
-          "date": "2026-07-30T06:58:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/44cbc083234413ac0407a67bfda42216740a165b"
-        },
-        {
-          "sha": "5001366",
-          "message": "Generate fifth Japanese repository video batch",
-          "date": "2026-07-30T06:42:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5001366a683149ce498e0a742d22f52d96cbcfef"
         }
       ],
-      "updatedAt": "2026-08-01T04:00:08Z",
+      "updatedAt": "2026-08-01T04:16:36Z",
       "stars": 0,
       "forks": 0
     },
