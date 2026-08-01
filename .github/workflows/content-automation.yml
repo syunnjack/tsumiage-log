@@ -38,7 +38,7 @@ jobs:
 
       - name: Record current article count
         id: before
-        run: echo "count=$(node -p 'require(\"./app/data/repositories.json\").articles.length')" >> "$GITHUB_OUTPUT"
+        run: node scripts/write-article-count.mjs
 
       - name: Collect public repository changes
         run: npm run content:collect
