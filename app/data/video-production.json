@@ -1613,9 +1613,9 @@
         }
       ],
       "publishAt": "2026-09-03T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/dqwv2/dqwv2-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/dqwv2/dqwv2-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Dqwv2の技術構成を短く解説します。",
