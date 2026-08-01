@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-29T21:23:04.884Z",
+  "generatedAt": "2026-08-01T04:04:54.202Z",
   "owner": "syunnjack",
-  "totalRepositories": 155,
-  "publicRepositories": 155,
+  "totalRepositories": 157,
+  "publicRepositories": 157,
   "skippedRepositories": [
     "abeshi-mvp",
     "yuniba"
@@ -20,206 +20,1580 @@
       "languages": [
         "TypeScript",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "PowerShell"
       ],
       "files": [
         "README.md",
         "app",
-        "build",
-        "db",
         "docs",
-        "drizzle.config.ts",
-        "drizzle",
         "eslint.config.mjs",
-        "examples",
         "next.config.ts",
         "package-lock.json",
         "package.json",
         "postcss.config.mjs",
         "public",
         "scripts",
-        "tests",
         "tsconfig.json",
-        "vite.config.ts",
-        "worker"
+        "video-assets"
       ],
       "commits": [
         {
-          "sha": "48813dd",
-          "message": "Fix repository article automation exclusions",
-          "date": "2026-07-29T21:19:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/48813dde5098145ffd79b139dfb3d86b7565b485"
+          "sha": "b839dbf",
+          "message": "記事自動監視の失敗を修正",
+          "date": "2026-08-01T03:59:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b839dbf2570c10c8875331ab8325971f89b55213"
         },
         {
-          "sha": "9e82c94",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-27T18:49:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9e82c94c0b476823142f491cecfe88fa176114a0"
+          "sha": "301aa63",
+          "message": "記事本文を日本語に統一",
+          "date": "2026-08-01T03:48:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/301aa630d1285a0450f5269587c305dc157603be"
         },
         {
-          "sha": "e3c5de9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-26T18:37:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3c5de9a0d5058a9ec22fe297a15ad40e59fb93b"
+          "sha": "7846cec",
+          "message": "Replace production-status copy with reader-first guidance",
+          "date": "2026-07-31T07:05:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7846cece15482b5f8d0c66a605de695067eda269"
         },
         {
-          "sha": "e1bc413",
-          "message": "Add Three Kingdoms and Chu Han drama favorites",
-          "date": "2026-07-26T09:40:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1bc413b8524cd5137b909dfc23ac46d7f730e0f"
+          "sha": "7db702b",
+          "message": "Deploy blog with GitHub Pages",
+          "date": "2026-07-31T05:24:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7db702bd6ac13a989c55fad65abc5b7065190eac"
         },
         {
-          "sha": "820e171",
-          "message": "Add favorite videos menu and four selections",
-          "date": "2026-07-26T01:53:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/820e1714a3756d7eb7a1f41e70a0ca536d43232f"
+          "sha": "e5e8462",
+          "message": "Restore automation for Vercel deployment",
+          "date": "2026-07-30T21:29:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e5e8462589a84c00d5a8768029be42328bfaa9cf"
         },
         {
-          "sha": "7d9394c",
-          "message": "Add portfolio services and inquiry platform",
-          "date": "2026-07-26T00:32:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d9394c3c5aa6b145fd95be3e619868748f4d5b4"
+          "sha": "e0eb725",
+          "message": "Use CDN for repository video assets",
+          "date": "2026-07-30T20:25:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e0eb725c431ac11aa2a59db09ac7b3ffa4c819b3"
         },
         {
-          "sha": "b6e4cf0",
-          "message": "Add original article publishing workflow",
-          "date": "2026-07-26T00:12:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6e4cf0ebc5416068a7521e9af7833c9e959b1b4"
+          "sha": "9f3ea7a",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T16:19:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f3ea7af260602f9aad0dcdc769ac030de612bb7"
         },
         {
-          "sha": "c99ce01",
-          "message": "Add arcade and cat cafe favorite videos",
-          "date": "2026-07-25T22:35:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c99ce0142bfcf199160efb308c29f133f893ae29"
+          "sha": "e3b453c",
+          "message": "Regenerate repository videos with Japanese narration",
+          "date": "2026-07-30T13:02:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e3b453c1c1231c6eee5235fb81d5a00d8af3b8b2"
         },
         {
-          "sha": "2ff4350",
-          "message": "Add Wangan Midnight beginner guide favorite",
-          "date": "2026-07-25T22:28:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ff435040ef8ce54055de8fe4bfbf5bb58c98f28"
+          "sha": "316b47b",
+          "message": "Generate eighth Japanese repository video batch",
+          "date": "2026-07-30T07:42:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/316b47bf887f43b3b016736df2bd9525e1296da4"
         },
         {
-          "sha": "3b11ab8",
-          "message": "Add Street Fighter voice actor favorite",
-          "date": "2026-07-25T19:33:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b11ab890d1f77e08f21f8d39ff510125e6f5c3d"
+          "sha": "a087c1b",
+          "message": "Generate seventh Japanese repository video batch",
+          "date": "2026-07-30T07:14:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a087c1b7e770b18bba06c3cf9bae295dd3a4d16c"
         },
         {
-          "sha": "5fd2212",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-07-25T18:36:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5fd22120c273206a2aa62a4c7881cd66ac45ad81"
+          "sha": "44cbc08",
+          "message": "Generate sixth Japanese repository video batch",
+          "date": "2026-07-30T06:58:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/44cbc083234413ac0407a67bfda42216740a165b"
         },
         {
-          "sha": "79b838a",
-          "message": "Add new favorites and affiliate-ready Hulu pathway",
-          "date": "2026-07-25T06:23:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/79b838a67598e2424782c504e44632d4e8599716"
+          "sha": "5001366",
+          "message": "Generate fifth Japanese repository video batch",
+          "date": "2026-07-30T06:42:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5001366a683149ce498e0a742d22f52d96cbcfef"
         }
       ],
-      "updatedAt": "2026-07-29T21:19:11Z",
+      "updatedAt": "2026-08-01T04:00:08Z",
       "stars": 0,
       "forks": 0
     },
     {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約前には必ずリンク先の楽天トラベルで最新情報を確認してください。 SEO/AIO/LLMO対応 Web版には次を実装しています。 トップページのtitle、description、ca",
-      "url": "https://github.com/syunnjack/rakuten02",
+      "slug": "allbowl01",
+      "name": "allbowl01",
+      "displayName": "Allbowl01",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
+      "url": "https://github.com/syunnjack/allbowl01",
       "defaultBranch": "master",
       "primaryLanguage": "C#",
       "languages": [
         "C#",
-        "CSS",
-        "Dockerfile"
+        "Astro",
+        "HTML",
+        "TypeScript",
+        "Python",
+        "CSS"
       ],
       "files": [
-        "Dockerfile",
         "README.md",
+        "allbowl01.sln",
+        "allbowl01",
+        "cocoon-child-mankan",
         "docs",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml"
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py",
+        "web"
       ],
       "commits": [
         {
-          "sha": "e752861",
-          "message": "Merge pull request #2 from syunnjack/cursor/finish-web-version-029d",
-          "date": "2026-07-29T20:24:13Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/e7528617cb6b4ac5c7b3d4d56c6497e1d9a206ea"
+          "sha": "bfb6a6e",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:07:13Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/bfb6a6e827d945141772d81b0727864f6490212a"
         },
         {
-          "sha": "15527c6",
-          "message": "Send required Rakuten request context headers",
-          "date": "2026-07-29T19:58:52Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/15527c6fd350c4ad15652559a1badf5517cab2a3"
+          "sha": "c8ba389",
+          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
+          "date": "2026-07-27T23:09:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
         },
         {
-          "sha": "b53bda8",
-          "message": "Merge pull request #1 from syunnjack/cursor/finish-web-version-029d",
-          "date": "2026-07-29T19:55:48Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/b53bda8b079882dcd74e839a1cffb9e4ccc6a106"
+          "sha": "449d9e9",
+          "message": "Merge main: keep Astro and WordPress for performance comparison.",
+          "date": "2026-07-27T18:22:23Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
         },
         {
-          "sha": "97642ab",
-          "message": "Prepare shudenhotel.jp deployment",
-          "date": "2026-07-27T17:15:11Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/97642ab1e4dfac9af8274fc2ae731acffb10c49f"
+          "sha": "8935106",
+          "message": "Add Cocoon child theme for Mankan top landing page.",
+          "date": "2026-07-27T17:05:01Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/89351063315894007b90a48bd8ebcac46183dd64"
         },
         {
-          "sha": "d07e494",
-          "message": "Merge branch 'master' into cursor/finish-web-version-029d",
-          "date": "2026-07-27T17:13:43Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d07e49445ed4622d25e2c795763b833672cb326f"
+          "sha": "ccdd6b8",
+          "message": "Initial commit: MVP API, event scraper, and site design doc.",
+          "date": "2026-07-16T16:22:38Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
         },
         {
-          "sha": "947d48d",
-          "message": "Document required Rakuten and inotify-fix env vars in render.yaml",
-          "date": "2026-07-26T17:29:26Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/947d48da49732631cf5a3b70a6edb09f6c12a722"
+          "sha": "6f2dca5",
+          "message": "Improve SEO and LLM metadata",
+          "date": "2026-07-12T23:09:45Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
         },
         {
-          "sha": "d168de5",
-          "message": "Restrict geocoding search to Japan to avoid mismatched results",
-          "date": "2026-07-26T17:29:01Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d168de5522b40a928fdabe5acf7bb05bbdb6fc81"
+          "sha": "5a16670",
+          "message": "Add event search controls",
+          "date": "2026-07-12T22:34:36Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
         },
         {
-          "sha": "5c3e297",
-          "message": "Migrate Rakuten Travel API to new endpoint and accessKey auth",
-          "date": "2026-07-26T17:22:54Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/5c3e29714a5158aef92f0c3d2cfad0ea5b6a1d95"
+          "sha": "30827c8",
+          "message": "Improve homepage heading wrapping",
+          "date": "2026-07-12T22:22:51Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
         },
         {
-          "sha": "aca037e",
-          "message": "Add Origin header to Rakuten Travel API requests",
-          "date": "2026-07-26T17:16:57Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/aca037e0dbb8d91d3acf5aaec5a48d35a166e198"
+          "sha": "4f282d9",
+          "message": "Fix Windows app publish workflow",
+          "date": "2026-07-12T21:52:12Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
         },
         {
-          "sha": "53f905f",
-          "message": "Use Render free plan instead of paid starter plan",
-          "date": "2026-07-26T17:06:18Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/53f905f8413d27c5545016ee1106d06ee0da054c"
+          "sha": "5834225",
+          "message": "Configure bowling-event domain",
+          "date": "2026-07-12T21:41:46Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
         },
         {
-          "sha": "f410a5b",
-          "message": "Polish tonight hotel web experience",
-          "date": "2026-07-16T16:09:03Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/f410a5b319a486f858caf735c25c857d5d0bcd15"
+          "sha": "2d1bcaf",
+          "message": "Reduce prefecture collection gaps",
+          "date": "2026-07-12T21:28:22Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/2d1bcaf870567b64e11f6c5cc4bbda10a2d5c340"
         },
         {
-          "sha": "d48314d",
-          "message": "Add SEO landing pages",
-          "date": "2026-07-12T23:35:36Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d48314d57f92f60c537a8f2802d4e95898bbdf05"
+          "sha": "f2d470c",
+          "message": "Improve AI and SEO structured data",
+          "date": "2026-07-12T20:48:53Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/f2d470cd02d526c88437630623d661b2554c8782"
         }
       ],
-      "updatedAt": "2026-07-29T20:24:23Z",
+      "updatedAt": "2026-07-31T23:07:20Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "prize-stock-alert",
+      "name": "prize-stock-alert",
+      "displayName": "Prize Stock Alert",
+      "description": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: https://syunnjack.github.io/prize stock alert/ Other candidates: https://syunnjack.github.io/prize stock alert/ prizestock.jp charastock.jp getprize.jp Concept キャラクター名、景品名、店舗名からプライズ入荷、在庫、取れやすさ、再入荷通知を探せるUGC型在庫アラート。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 入荷通知課金 店舗掲載課金 ECアフィリエイト 景品スポンサー 動画連携広告 Commands",
+      "url": "https://github.com/syunnjack/prize-stock-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d997743",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:07:07Z",
+          "url": "https://github.com/syunnjack/prize-stock-alert/commit/d997743f07b5b9661ee26e562833ad063dada3e2"
+        },
+        {
+          "sha": "7477179",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:37Z",
+          "url": "https://github.com/syunnjack/prize-stock-alert/commit/7477179cd23e1ce248753fabe28d4ae24f19efdc"
+        },
+        {
+          "sha": "394b548",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:54Z",
+          "url": "https://github.com/syunnjack/prize-stock-alert/commit/394b548cac248b282bd4e255a1c14e44da59939f"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:07:14Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-course-booking",
+      "name": "golf-course-booking",
+      "displayName": "Golf Course Booking",
+      "description": "Golf Course Bookingは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Course Bookingは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-course-booking",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1bbf49b",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:07:02Z",
+          "url": "https://github.com/syunnjack/golf-course-booking/commit/1bbf49b45b2f227436d31a2087f22392e4f6dfbf"
+        },
+        {
+          "sha": "ae898e6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/golf-course-booking/commit/ae898e6f08adb39f30fdc689413b938d9deaeb03"
+        },
+        {
+          "sha": "fc8d11f",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:30Z",
+          "url": "https://github.com/syunnjack/golf-course-booking/commit/fc8d11fe2983fa1caf9a37d54d27a99b875f160c"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:07:08Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ranking-vote-hub",
+      "name": "ranking-vote-hub",
+      "displayName": "Ranking Vote Hub",
+      "description": "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです",
+      "readmeExcerpt": "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです。 Canonical domain: https://syunnjack.github.io/ranking vote hub/ Repository Name ranking vote hub Features ジャンル別ランキング検索 投票・保存・推薦理由投稿 UGC投稿と確認待ちステータス SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt スポンサーランキング、送客、予約、クーポン、アフィリエイト、確認済み掲載の収益導線",
+      "url": "https://github.com/syunnjack/ranking-vote-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "4554474",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:57Z",
+          "url": "https://github.com/syunnjack/ranking-vote-hub/commit/4554474645ee19496d88ec67288683f837f46d48"
+        },
+        {
+          "sha": "601d38a",
+          "message": "Set rankvote domain",
+          "date": "2026-07-17T22:35:42Z",
+          "url": "https://github.com/syunnjack/ranking-vote-hub/commit/601d38a1feee2af2af0d4d08b4122e78e3a65bdd"
+        },
+        {
+          "sha": "1d8b2ff",
+          "message": "Create ranking vote hub app",
+          "date": "2026-07-17T22:32:06Z",
+          "url": "https://github.com/syunnjack/ranking-vote-hub/commit/1d8b2ff8fb94aa4207b00b2dd46f0091c6f72384"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:07:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "retro-game-map",
+      "name": "retro-game-map",
+      "displayName": "Retro Game Map",
+      "description": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
+      "readmeExcerpt": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです。 Concept 現存、閉店、要確認の施設ステータスを分けて表示する レトロ筐体、格ゲー、音ゲー、自販機、プライズなどで探せる 遠征者向けに宿、喫煙所、飲食、最寄駅メモを併記する ユーザー投稿と管理者確認で、古い情報やリンク切れを減らす Suggested Domain https://syunnjack.github.io/retro game map/ gesen navi.jp arcade log.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "url": "https://github.com/syunnjack/retro-game-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "63b4e0b",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:52Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/63b4e0b5f049868c7653881105d80c96ed3c6daf"
+        },
+        {
+          "sha": "d681adc",
+          "message": "Improve SEO UGC and monetization flows",
+          "date": "2026-07-17T19:48:06Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/d681adc6904777a2f8be957e8d538b20fb160736"
+        },
+        {
+          "sha": "6b02d62",
+          "message": "Add UGC SEO and revenue growth features",
+          "date": "2026-07-17T19:40:34Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/6b02d6234acaa6396fc814744a87d186d48177f4"
+        },
+        {
+          "sha": "03e5481",
+          "message": "Add auto restaurant history archive",
+          "date": "2026-07-17T19:32:17Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/03e5481117b2f054c1da7c71fde7e53c03cee7a8"
+        },
+        {
+          "sha": "a3e44cf",
+          "message": "Initial Retro Game Map app",
+          "date": "2026-07-17T19:29:46Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/a3e44cf330b4d9e1de65717d49a6d838873da0d3"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:07:15Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-alert-radar",
+      "name": "local-alert-radar",
+      "displayName": "Local Alert Radar",
+      "description": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: https://syunnjack.github.io/local alert radar/ Other candidates: https://syunnjack.github.io/local alert radar/ machialert.jp openclosealert.jp tenpoalert.jp Concept 開店、閉店、移転、休業、再開、求人、災害や遅延時の周辺スポット通知をLINEとXへ展開する地域アラートメディア。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 新店掲載課金 LINE有料アラート 求人送客 クーポン配信 地域PR記事 Commands",
+      "url": "https://github.com/syunnjack/local-alert-radar",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "13524a0",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:46Z",
+          "url": "https://github.com/syunnjack/local-alert-radar/commit/13524a05dc8cc87c7bba19db6ee3db403bb8ef95"
+        },
+        {
+          "sha": "8032e56",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:37Z",
+          "url": "https://github.com/syunnjack/local-alert-radar/commit/8032e5602a93ef7a2eb9bbfcb1bafc91f31439c8"
+        },
+        {
+          "sha": "5f8c821",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:53Z",
+          "url": "https://github.com/syunnjack/local-alert-radar/commit/5f8c821a0f7a109d8460fc90f1e3435741235c1d"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:56Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "anchor-suggest-search",
+      "name": "anchor-suggest-search",
+      "displayName": "Anchor Suggest Search",
+      "description": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/anchor-suggest-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ac2dad8",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:41Z",
+          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/ac2dad855aff2fa81f39ec3de8fad0f679ca56ef"
+        },
+        {
+          "sha": "8a4c4f5",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/8a4c4f5a343619d00c860a2de3d2226139a585f7"
+        },
+        {
+          "sha": "b984102",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:30Z",
+          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/b984102d1c0578b4e73a5030a89f03546d1e0169"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:48Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "solo-spot-map",
+      "name": "solo-spot-map",
+      "displayName": "Solo Spot Map",
+      "description": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
+      "readmeExcerpt": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです。 Concept 一人利用歓迎、喫煙可、電源あり、深夜営業などの条件で探せる 「2名様から」「シングルチャージあり」など、一人利用で困る条件を見える化する 待ち時間、バス到着後、仕事前後の短時間利用に向く場所を提案する 将来的に口コミ、地図、投稿、閉店確認、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/solo spot map/ hitori map.jp smoke cafe.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "url": "https://github.com/syunnjack/solo-spot-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ac3ad92",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:35Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/ac3ad923268a016f434b17cba9f60c4e5f2f733c"
+        },
+        {
+          "sha": "4c0b243",
+          "message": "Add SEO UGC and monetization strategy",
+          "date": "2026-07-17T20:07:26Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/4c0b2437e1c91afabd24a3b8746dfb14b6bf1451"
+        },
+        {
+          "sha": "d9dca68",
+          "message": "Initial Solo Spot Map app",
+          "date": "2026-07-17T19:17:31Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/d9dca68bebae4ffbbd240bfc8846b8aac01987e3"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:46Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "route-spot-navi",
+      "name": "route-spot-navi",
+      "displayName": "Route Spot Navi",
+      "description": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです",
+      "readmeExcerpt": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです。 Concept 経路検索の到着地から、周辺スポット、宿、喫煙場所、カフェ、ゲーム施設などへ誘導する 待ち時間、徒歩分数、料金、評価、ユーザー投票で比較できる 掲載候補をメモし、カテゴリ別の検索条件に反映できる 将来的に地図、口コミ、閉店情報、ランキング、API連携へ拡張する Production Domain: https://syunnjack.github.io/route spot navi/ Build command: npm run build Build output: dist GitHub Pagesで公開する場合は、 public/CNAME に https://syunnjack.github.io/route spot navi/ を設定済みです。 Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "url": "https://github.com/syunnjack/route-spot-navi",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "758b1b4",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:30Z",
+          "url": "https://github.com/syunnjack/route-spot-navi/commit/758b1b46fa8cdb95c74077ab4d463591ea7d2078"
+        },
+        {
+          "sha": "985956f",
+          "message": "Add SEO UGC and monetization strategy",
+          "date": "2026-07-17T20:07:26Z",
+          "url": "https://github.com/syunnjack/route-spot-navi/commit/985956fd9a25c498e0de5e3c45a5b75d2d44e7c0"
+        },
+        {
+          "sha": "af712f0",
+          "message": "Initial Route Spot Navi app",
+          "date": "2026-07-17T18:37:59Z",
+          "url": "https://github.com/syunnjack/route-spot-navi/commit/af712f03a0437a58bd6121371b8c61499955b5d1"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:36Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "prize-stock-finder",
+      "name": "prize-stock-finder",
+      "displayName": "Prize Stock Finder",
+      "description": "Prize Stock Finderは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Prize Stock Finderは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/prize-stock-finder",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "cae0b21",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:24Z",
+          "url": "https://github.com/syunnjack/prize-stock-finder/commit/cae0b21b0e443e64c9f173bea4046a165efa48d2"
+        },
+        {
+          "sha": "4546c93",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:49Z",
+          "url": "https://github.com/syunnjack/prize-stock-finder/commit/4546c93aa8b0ff15be8b38b98c555555e9526bf8"
+        },
+        {
+          "sha": "3b0ead1",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:29Z",
+          "url": "https://github.com/syunnjack/prize-stock-finder/commit/3b0ead1dcfc3b1f096e848709a6a23e362a02c0d"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:30Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-board-plus",
+      "name": "local-board-plus",
+      "displayName": "Local Board Plus",
+      "description": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
+      "readmeExcerpt": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです。 Canonical domain: https://syunnjack.github.io/local board plus/ Repository Name local board plus Features 地域掲示板とアンテナサイト UGC投稿、確認待ち、確認済みステータス モデレーションルール SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 地域スポンサー、掲示板広告、イベント告知、確認済み掲載、周辺送客の収益導線",
+      "url": "https://github.com/syunnjack/local-board-plus",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "67245a7",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:18Z",
+          "url": "https://github.com/syunnjack/local-board-plus/commit/67245a770a1be157334e057e6051e9282c94e2a6"
+        },
+        {
+          "sha": "3f616a9",
+          "message": "Set localboard domain",
+          "date": "2026-07-17T22:47:17Z",
+          "url": "https://github.com/syunnjack/local-board-plus/commit/3f616a96cc560a8359aaaf922808a1314959bb01"
+        },
+        {
+          "sha": "9539cd0",
+          "message": "Create local board plus app",
+          "date": "2026-07-17T22:39:59Z",
+          "url": "https://github.com/syunnjack/local-board-plus/commit/9539cd0fda48b6066cb8744a02ea94d4f835bc3a"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:40Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "manga-cafe-finder",
+      "name": "manga-cafe-finder",
+      "displayName": "Manga Cafe Finder",
+      "description": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです",
+      "readmeExcerpt": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです。 Canonical domain: https://syunnjack.github.io/manga cafe finder/ Domain Candidates mangacafemap.jp netcafemap.jp https://syunnjack.github.io/manga cafe finder/ Features 設備条件フィルター UGC投稿 SEO/AIO/LLMO向けFAQと即答ブロック robots.txt / sitemap.xml / llms.txt 店舗送客、クーポン、宿泊交通、電子書籍、確認済み掲載の収益導線",
+      "url": "https://github.com/syunnjack/manga-cafe-finder",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "348cae4",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:12Z",
+          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/348cae4bfd93dffd49c214430938bbe1db21b56b"
+        },
+        {
+          "sha": "c6654b8",
+          "message": "Set ComicStay domain metadata",
+          "date": "2026-07-17T20:34:51Z",
+          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/c6654b8566215eb762d0197c0a407541560c0f25"
+        },
+        {
+          "sha": "cec3622",
+          "message": "Create manga cafe finder app",
+          "date": "2026-07-17T20:15:22Z",
+          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/cec3622c3089a8a5e2f1ecf89099e5ac3b1bd7e1"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:19Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "showa-retro-route",
+      "name": "showa-retro-route",
+      "displayName": "Showa Retro Route",
+      "description": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: https://syunnjack.github.io/showa retro route/ Other candidates: https://syunnjack.github.io/showa retro route/ retromeguri.jp jihankimap.jp autorest.jp Concept 昭和レトロスポット、現存/閉店オートレストラン、レトロ自販機、ゲームセンターを遠征ルート化する保存型メディア。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊アフィリエイト ZINE/グッズ販売 スポットスポンサー 動画企画協賛 保存活動支援 Commands",
+      "url": "https://github.com/syunnjack/showa-retro-route",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ac3a1eb",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:07Z",
+          "url": "https://github.com/syunnjack/showa-retro-route/commit/ac3a1eb5aae53b9095875ffab4530565f2cc1c89"
+        },
+        {
+          "sha": "26ea35c",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:37Z",
+          "url": "https://github.com/syunnjack/showa-retro-route/commit/26ea35c54592bed0f7a7fa9221c0e70e03698d25"
+        },
+        {
+          "sha": "6076c88",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:54Z",
+          "url": "https://github.com/syunnjack/showa-retro-route/commit/6076c88e28766093c856f2c03b841122b0385ee3"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "hotel-price-watch",
+      "name": "hotel-price-watch",
+      "displayName": "Hotel Price Watch",
+      "description": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack.github.io/hotel price watch/ Other candidates: https://syunnjack.github.io/hotel price watch/ stayprice.jp akiyasu.jp hotelalert.jp Concept 指定エリア、日程、条件の空室と値下げを通知し、予約アフィリエイトと有料ウォッチへ誘導する宿泊アラート。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths ホテル予約成果報酬 有料ウォッチ 広告枠 旅行保険送客 メールスポンサー Commands",
+      "url": "https://github.com/syunnjack/hotel-price-watch",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "dc9f995",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:06:02Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/dc9f995f09e6446749acfaa1b81c28d7a5315ec4"
+        },
+        {
+          "sha": "46eace6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:04Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/46eace685c2c2971f9d98aaeb498a9582db130cf"
+        },
+        {
+          "sha": "7ffdd82",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:41Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/7ffdd82dd6be09e6dbd700f97e201f7b59106f61"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "route-delay-stay-alert",
+      "name": "route-delay-stay-alert",
+      "displayName": "Route Delay Stay Alert",
+      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack.github.io/route delay stay alert/ Other candidates: https://syunnjack.github.io/route delay stay alert/ routealert.jp bushttps://syunnjack.github.io/route delay stay alert/ arrivalspot.jp Concept 遅延、終電後、早朝到着時に宿、漫画喫茶、飲食店、タクシーへ送客する移動者向け通知ナビ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊予約 漫画喫茶送客 飲食店送客 タクシー広告 旅行アフィリエイト Commands",
+      "url": "https://github.com/syunnjack/route-delay-stay-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "e7cd76c",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:57Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/e7cd76ce7b7a63f8b811ca882e3988d38c8a2279"
+        },
+        {
+          "sha": "3e51127",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:04Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/3e511273ffb2463f7400e5893828126b9df2555e"
+        },
+        {
+          "sha": "9c42c69",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:41Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/9c42c69e5fb2e514b952b002111c7ba86d47ad42"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:03Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "price-review-compare",
+      "name": "price-review-compare",
+      "displayName": "Price Review Compare",
+      "description": "Price Review Compareは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Price Review Compareは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/price-review-compare",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "0cdb864",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:52Z",
+          "url": "https://github.com/syunnjack/price-review-compare/commit/0cdb86424c661890ac1ae1d00e32f0699618f4cb"
+        },
+        {
+          "sha": "2847184",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:49Z",
+          "url": "https://github.com/syunnjack/price-review-compare/commit/2847184f316fc6c65ce0f643a57420796aa16a19"
+        },
+        {
+          "sha": "b7022f1",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:28Z",
+          "url": "https://github.com/syunnjack/price-review-compare/commit/b7022f1fff57023c21cc034fcd6286162ed7d289"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:06:05Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "wait-time-guide",
+      "name": "wait-time-guide",
+      "displayName": "Wait Time Guide",
+      "description": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
+      "readmeExcerpt": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです。 Concept 施設の現在待ち時間、受付状況、呼び出し目安を比較する 待ち時間に合わせてカフェ、喫煙所、漫画喫茶、買い物、食事を提案する QRコードや整理券番号から、自分の順番を見失わない導線を想定する 将来的に猫の目コム風の混雑表示、民間施設の案内、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/wait time guide/ waitplus.jp junban navi.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "url": "https://github.com/syunnjack/wait-time-guide",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d39a6d3",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:47Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/d39a6d3478ade9eb3909938ebdc21cf1759ce42a"
+        },
+        {
+          "sha": "5e74d0a",
+          "message": "Add SEO UGC and monetization strategy",
+          "date": "2026-07-17T20:07:26Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/5e74d0ae74272b48b4a35f5d1a691ea96e580a78"
+        },
+        {
+          "sha": "9ea5215",
+          "message": "Initial Wait Time Guide app",
+          "date": "2026-07-17T19:05:03Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/9ea52155d96149ba52b910977aa9e9a8a2c307a2"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "openclose-pulse",
+      "name": "openclose-pulse",
+      "displayName": "Openclose Pulse",
+      "description": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: https://syunnjack.github.io/openclose pulse/ Other candidates: https://syunnjack.github.io/openclose pulse/ tenpopulse.jp machitenpo.jp heitenalert.jp Concept 開店、閉店、移転、休業、再開をLINE/X/メールで通知し、掲載課金、求人、クーポン、PR記事へつなげる地域速報サービス。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 店舗掲載課金 求人送客 クーポン配信 PR記事 地域広告 Commands",
+      "url": "https://github.com/syunnjack/openclose-pulse",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6ad962a",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:41Z",
+          "url": "https://github.com/syunnjack/openclose-pulse/commit/6ad962ade11f34e06b6e106b8e1f3261ad3f036d"
+        },
+        {
+          "sha": "e960307",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:03Z",
+          "url": "https://github.com/syunnjack/openclose-pulse/commit/e9603072cba43cec602935adefffda1f661fc414"
+        },
+        {
+          "sha": "73c0840",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:39Z",
+          "url": "https://github.com/syunnjack/openclose-pulse/commit/73c0840900cfe2e94d315adc5d3ecfb76e975edf"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:51Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "trip-route-stay",
+      "name": "trip-route-stay",
+      "displayName": "Trip Route Stay",
+      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/trip-route-stay",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ecbd2b9",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:36Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/ecbd2b9acb005d7f570007be94b8806e1110ad42"
+        },
+        {
+          "sha": "e17e784",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:36Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/e17e78470e225c47cd3d55bc0ea0c9c7bba894d0"
+        },
+        {
+          "sha": "efffa09",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:52Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/efffa09c5e2762be3694b88f194a6a9110669d8c"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:42Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rc-course-finder",
+      "name": "rc-course-finder",
+      "displayName": "Rc Course Finder",
+      "description": "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです",
+      "readmeExcerpt": "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです。 Repository Name rc course finder Domain Candidates https://syunnjack.github.io/rc course finder/ rcmap.jp minicourse.jp circuitspot.jp Features RCサーキット・ミニ四駆・ゴーカート場の横断検索 屋内外、レンタル、初心者向け、大会ありフィルター 営業確認、路面状態、レイアウト変更、閉店情報のUGC投稿 SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 走行予約、用品アフィリエイト、大会告知、確認済み掲載、遠征送客の収益導線",
+      "url": "https://github.com/syunnjack/rc-course-finder",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "5db8208",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:30Z",
+          "url": "https://github.com/syunnjack/rc-course-finder/commit/5db820810ad6aef42b9971533b095e9f4e231d27"
+        },
+        {
+          "sha": "4f4e0d6",
+          "message": "Set rccourse domain",
+          "date": "2026-07-17T21:23:30Z",
+          "url": "https://github.com/syunnjack/rc-course-finder/commit/4f4e0d6813775ca05166501050738bd48b5ef14a"
+        },
+        {
+          "sha": "6b49637",
+          "message": "Create rc course finder app",
+          "date": "2026-07-17T20:54:33Z",
+          "url": "https://github.com/syunnjack/rc-course-finder/commit/6b496370a52910cab5ed88028ac7f2d3c5926413"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:46Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "work-bar-navi",
+      "name": "work-bar-navi",
+      "displayName": "Work Bar Navi",
+      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/work-bar-navi",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6fe4667",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:24Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
+        },
+        {
+          "sha": "2e0dd5d",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
+        },
+        {
+          "sha": "74a3e6c",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:30Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:33Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "smoking-map-alert",
+      "name": "smoking-map-alert",
+      "displayName": "Smoking Map Alert",
+      "description": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
+      "readmeExcerpt": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap.net Other candidates: kitsuenmap.jp smokealert.jp smokecafe.jp Concept 喫煙所の新設、閉鎖、喫煙可飲食店を通知し、飲食店送客、掲載課金、マップ広告へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 飲食店送客 掲載課金 マップ広告 クーポン スポンサー Commands",
+      "url": "https://github.com/syunnjack/smoking-map-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f4fa47e",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:05:19Z",
+          "url": "https://github.com/syunnjack/smoking-map-alert/commit/f4fa47e8ece3f6c6eaaa68c805668bd71bcc4890"
+        },
+        {
+          "sha": "40c4fa6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:07Z",
+          "url": "https://github.com/syunnjack/smoking-map-alert/commit/40c4fa60dfcd823b53287c2a94f1ef475311eda1"
+        },
+        {
+          "sha": "9147f9f",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:48Z",
+          "url": "https://github.com/syunnjack/smoking-map-alert/commit/9147f9f66481316c9f4d9006f4aa5a4b7f3e662d"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:25Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "bowling-score-hub",
+      "name": "bowling-score-hub",
+      "displayName": "Bowling Score Hub",
+      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bowling-score-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "aad6e10",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:14Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/aad6e10fb0a5ad9fd9d41aa26a481ba57e179051"
+        },
+        {
+          "sha": "f85f6f6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/f85f6f6c4347fcff2c65bc0523f6b8f5d50512f8"
+        },
+        {
+          "sha": "d1e0ba8",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:29Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/d1e0ba83303d9362eb26aa9487f2218936b15f3b"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:22Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "eki-genre-map",
+      "name": "eki-genre-map",
+      "displayName": "Eki Genre Map",
+      "description": "Eki Genre Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Eki Genre Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/eki-genre-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "0fe4705",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:09Z",
+          "url": "https://github.com/syunnjack/eki-genre-map/commit/0fe47053866b1a8de31fe2bc809f868735a9391b"
+        },
+        {
+          "sha": "19ffb50",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:49Z",
+          "url": "https://github.com/syunnjack/eki-genre-map/commit/19ffb50bb95be75433afd212eb2938232c4e0810"
+        },
+        {
+          "sha": "ad8a4ac",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:28Z",
+          "url": "https://github.com/syunnjack/eki-genre-map/commit/ad8a4ac78c6f99cc9a46b4c9c224bdcd8cc0ad58"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "bus-arrival-guide",
+      "name": "bus-arrival-guide",
+      "displayName": "Bus Arrival Guide",
+      "description": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです",
+      "readmeExcerpt": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです。 Concept 名古屋から静岡など、高速バス到着後の行動をまとめて比較する 宿泊、喫煙可、バストイレ付、深夜営業、駅近などの条件で探せる 到着時間に合わせて、カフェ、漫画喫茶、ゲームセンター、飲食店を提案する 将来的に楽天トラベル、じゃらん、Google Maps、バス比較API等へ接続する Suggested Domain https://syunnjack.github.io/bus arrival guide/ arrivalstay.jp bus yado.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "url": "https://github.com/syunnjack/bus-arrival-guide",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a7db66b",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:03Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/a7db66bc98d85e7d26bdaa7c04a579f369ed5fe1"
+        },
+        {
+          "sha": "629a675",
+          "message": "Add SEO UGC and monetization strategy",
+          "date": "2026-07-17T20:07:26Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/629a675a00feff65ba171447c6d11ff420ddb822"
+        },
+        {
+          "sha": "c8f4c7b",
+          "message": "Initial Bus Arrival Guide app",
+          "date": "2026-07-17T18:58:29Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/c8f4c7bd3c23f65ba7d66b14e3a1d00ea2471e3d"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ai-quiz-study",
+      "name": "ai-quiz-study",
+      "displayName": "Ai Quiz Study",
+      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
+      "url": "https://github.com/syunnjack/ai-quiz-study",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "95e498c",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:04:57Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
+        },
+        {
+          "sha": "42dc506",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:38Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/42dc50607f23775b4cbfbbcd92b6202b10b1fed6"
+        },
+        {
+          "sha": "6d7bedd",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:55Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7bedd4c5239a05375d8e9babacab7a632307c9"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:02Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "hobby-stock-price-alert",
+      "name": "hobby-stock-price-alert",
+      "displayName": "Hobby Stock Price Alert",
+      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock",
+      "readmeExcerpt": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock.jp Other candidates: figurealert.jp cardstock.jp gamezaiko.jp Concept 在庫復活、価格下落、予約開始、再販を通知し、ECアフィリエイトと有料通知へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths EC affiliate 有料通知 買取送客 広告枠 スポンサー Commands",
+      "url": "https://github.com/syunnjack/hobby-stock-price-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "bf829ca",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:04:52Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/bf829ca1451941d14d3c08a56bcfe506754e4c9d"
+        },
+        {
+          "sha": "7260a82",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:08Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/7260a82b989831a8c0c9dc75ed81603bf61ecf42"
+        },
+        {
+          "sha": "debaa8d",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:50Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/debaa8dbef5c8459242a025d854b1344cce951e8"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:05:00Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "my-dartslive",
+      "name": "my-dartslive",
+      "displayName": "My Dartslive",
+      "description": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
+      "readmeExcerpt": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです。 Canonical domain: https://syunnjack.github.io/my dartslive/ Features ジャンル・駅・条件検索 大会・イベント、クーポン、深夜営業、団体向けフィルター 設置情報、混雑、景品入荷、大会、閉店情報のUGC投稿 SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 店舗送客、予約、クーポン、イベント告知、確認済み掲載、物販アフィリエイトの収益導線",
+      "url": "https://github.com/syunnjack/my-dartslive",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "83a0d51",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:04:46Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/83a0d517e7e75fefa249ce302bc73b72be60fd94"
+        },
+        {
+          "sha": "2f52ac7",
+          "message": "Set dartspot domain",
+          "date": "2026-07-17T20:44:34Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/2f52ac763397728ab53d4b863c309baf6150458e"
+        },
+        {
+          "sha": "40fdd52",
+          "message": "Create my dartslive app",
+          "date": "2026-07-17T20:41:37Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/40fdd5260717831fbccf7e32df795ca8fa21f871"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:04:52Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "haikyo-archive-map",
+      "name": "haikyo-archive-map",
+      "displayName": "Haikyo Archive Map",
+      "description": "Haikyo Archive Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Haikyo Archive Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/haikyo-archive-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f4274c8",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:04:41Z",
+          "url": "https://github.com/syunnjack/haikyo-archive-map/commit/f4274c83e8f3916f15d30d85dbe0b7c5b72462ab"
+        },
+        {
+          "sha": "c95bfd6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:49Z",
+          "url": "https://github.com/syunnjack/haikyo-archive-map/commit/c95bfd650fe3266946c32db5397e0522cd49d4b6"
+        },
+        {
+          "sha": "b738b6f",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:29Z",
+          "url": "https://github.com/syunnjack/haikyo-archive-map/commit/b738b6fc28aa91af2359019669ed1a6d18f065ac"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:04:46Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gyosei-quiz-one",
+      "name": "gyosei-quiz-one",
+      "displayName": "Gyosei Quiz One",
+      "description": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/gyosei-quiz-one",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "3dccdee",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:04:35Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/3dccdeedd623918f7568784f0f206e9b03f54b83"
+        },
+        {
+          "sha": "f65a28c",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/f65a28c34e31fcb75197b0f913821be9960ad243"
+        },
+        {
+          "sha": "473dc9b",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:29Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/473dc9beadf4dda743f53a6d32f3470c626bb525"
+        }
+      ],
+      "updatedAt": "2026-07-31T23:04:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -253,13 +1627,418 @@
       ],
       "commits": [
         {
+          "sha": "95e446a",
+          "message": "Add GA4 integration alongside Search Console",
+          "date": "2026-07-31T19:11:50Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/95e446a35703aebf4c917516f58870a7a3b05529"
+        },
+        {
           "sha": "48a92c3",
           "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
           "date": "2026-07-29T14:58:04Z",
           "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
         }
       ],
-      "updatedAt": "2026-07-29T15:00:02Z",
+      "updatedAt": "2026-07-31T19:12:25Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "dqwv2",
+      "name": "dqwv2",
+      "displayName": "Dqwv2",
+      "description": "dqwv2 — 無課金ウォーカーの手引き 無課金でドラクエウォークを続けるプレイヤー向けの支援サイト",
+      "readmeExcerpt": "dqwv2 — 無課金ウォーカーの手引き 無課金でドラクエウォークを続けるプレイヤー向けの支援サイト。日課チェックリスト、 イベント情報ボード、オートバトル安定重視のパーティ編成・装備ガイドをまとめています。 デプロイ先: https://dqw navi.com/ セットアップ 主なコマンド npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run preview : ビルド結果のプレビュー npm run lint : oxlintによる静的解析 データについて 日課・イベント情報・パーティ編成ガイドは、いずれも自動取得ではなく手動入力です。 ゲームの実際の仕様・確率・日程は公式情報で確認のうえ、自分の言葉で記録してください。 データはブラウザのlocalStorageに保存されます サーバーには送信されません 。 収益導線を有効にする アフィリエイトリンク 歩行関連グッズ 「歩き続けるためのおすすめグッズ」セクションの各カードにある入力欄に、実際の商品ページの アフィリエイトURLを貼り付けてください。空欄の間はリンクが無効表示になります。 Google AdSense 1. AdSenseで発行された タグを index.html の に追加する。 2. src/App.jsx の .ad slot の中身を、AdSenseが発行する タグに 置き換える。",
+      "url": "https://github.com/syunnjack/dqwv2",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "CLAUDE.md",
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "de3dc55",
+          "message": "Point dqwv2 at the dqw-navi.com custom domain",
+          "date": "2026-07-31T07:08:49Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/de3dc55af22be083ca34f6f5b1af77eb4ec1d05e"
+        },
+        {
+          "sha": "46c89c0",
+          "message": "Add story-quest and mega-monster TIPS categories",
+          "date": "2026-07-31T06:45:15Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/46c89c022112b6800a24e87b4a186f9006e9ec23"
+        },
+        {
+          "sha": "e7432f1",
+          "message": "Add F2P/auto-battle stability TIPS section",
+          "date": "2026-07-31T05:20:41Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/e7432f1a2b54b1aa56c133180e9b66d009dca158"
+        },
+        {
+          "sha": "5b69411",
+          "message": "Add weekly completion chart and gem savings planner",
+          "date": "2026-07-31T05:01:56Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/5b694114c98fddccb94af2e312d20bd190f98c65"
+        },
+        {
+          "sha": "2779f48",
+          "message": "Add daily-checklist streak tracker for shareability",
+          "date": "2026-07-30T21:53:31Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/2779f48a42293ffdde64ed2d7dbd1ae8a21af51b"
+        },
+        {
+          "sha": "c758f69",
+          "message": "Initial dqwv2: F2P DQ Walk daily checklist, event board, party guide",
+          "date": "2026-07-30T21:46:40Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/c758f6968461a346c6d5b6a05c3e58d3c210567d"
+        }
+      ],
+      "updatedAt": "2026-07-31T07:09:56Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "leaflet-web1",
+      "name": "leaflet-web1",
+      "displayName": "Leaflet Web1",
+      "description": "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです",
+      "readmeExcerpt": "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです。 正式URLは https://spotpalette.jp 。 .com と .net は .jp へ301転送し、 .app はアプリ紹介ページとして使用します。 10カテゴリの絞り込み・全文検索 地図マーカーと施設カードの双方向選択 モバイル向け地図／一覧切り替え SEO・AIO・LLMO向け要約、更新日、構造化データ 無料掲載、Pro、予約・広告の収益導線 設計は docs/MVP DESIGN.md を参照してください。",
+      "url": "https://github.com/syunnjack/leaflet-web1",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "709da37",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T16:19:53Z",
+          "url": "https://github.com/syunnjack/leaflet-web1/commit/709da37fdef8a9ec0fe8ad8223ea4a04d3673217"
+        },
+        {
+          "sha": "f5a9b5a",
+          "message": "Rebrand web platform as SPOTPALETTE",
+          "date": "2026-07-22T11:37:32Z",
+          "url": "https://github.com/syunnjack/leaflet-web1/commit/f5a9b5a4890b85cf6272a0b83f0f006ad4b716fd"
+        },
+        {
+          "sha": "5b962f7",
+          "message": "Build reusable Leaflet local discovery MVP",
+          "date": "2026-07-22T00:41:53Z",
+          "url": "https://github.com/syunnjack/leaflet-web1/commit/5b962f798538b4b863c7caac160674017c25471f"
+        }
+      ],
+      "updatedAt": "2026-07-30T16:23:20Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "cat-cafe-etc",
+      "name": "cat-cafe-etc",
+      "displayName": "Cat Cafe Etc",
+      "description": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/cat-cafe-etc",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "24c5fc6",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T16:19:51Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/24c5fc6624b41942c4f25acc18e4d6b0b9d75c20"
+        },
+        {
+          "sha": "851d78b",
+          "message": "Add verified venues reviews and revenue paths",
+          "date": "2026-07-15T07:57:15Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
+        },
+        {
+          "sha": "5e39911",
+          "message": "Remove overlapping portal signature",
+          "date": "2026-07-15T07:47:38Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5e3991108adb35722fd2f2f65a67ba85adbe8905"
+        },
+        {
+          "sha": "c199a4d",
+          "message": "Fix overlapping portal footer",
+          "date": "2026-07-15T05:13:13Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c199a4d75e85527f4d7377d3776379c43e88b0f6"
+        },
+        {
+          "sha": "660f280",
+          "message": "Create indexable cat and dog cafe routes",
+          "date": "2026-07-15T05:02:50Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/660f2807a8a0b356539c1e6eaa7d5025eea906f2"
+        },
+        {
+          "sha": "96fb502",
+          "message": "Add cat and dog page switcher",
+          "date": "2026-07-15T04:42:59Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/96fb502a07503d6f2876fb1de52c48fe23803c68"
+        },
+        {
+          "sha": "09e370c",
+          "message": "Build Nekobiyori cat cafe guide",
+          "date": "2026-07-15T04:28:00Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/09e370cd09af08da1ebf50ba764938d48efc6c16"
+        }
+      ],
+      "updatedAt": "2026-07-30T16:23:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "asia-trip-concierge",
+      "name": "asia-trip-concierge",
+      "displayName": "Asia Trip Concierge",
+      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/asia-trip-concierge",
+      "defaultBranch": "codex/asia-trip-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "6e2ad3d",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T13:09:32Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
+        },
+        {
+          "sha": "774b1b1",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:56:36Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
+        },
+        {
+          "sha": "33d6c83",
+          "message": "Build Korea Taiwan trip concierge",
+          "date": "2026-07-20T22:55:53Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/33d6c8357abb0ad2f3b5e2fb33dad7447dcef45a"
+        }
+      ],
+      "updatedAt": "2026-07-30T13:12:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "storage-locker-near",
+      "name": "storage-locker-near",
+      "displayName": "Storage Locker Near",
+      "description": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/storage-locker-near",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "LINE_SETUP.md",
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "b7604f8",
+          "message": "Rebuild as Laravel app: lockers, reviews, favorites, LINE login/webhook",
+          "date": "2026-07-30T12:58:54Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/b7604f8c951d0629466a582fac09cc567f136c9d"
+        },
+        {
+          "sha": "d61f05e",
+          "message": "Add LINE webhook setup for user ID capture",
+          "date": "2026-07-15T00:03:42Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
+        },
+        {
+          "sha": "8b39ab6",
+          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
+          "date": "2026-07-14T23:52:04Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
+        }
+      ],
+      "updatedAt": "2026-07-30T13:00:16Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "TypeScript",
+        "Dockerfile"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "1232322",
+          "message": "Merge pull request #8 from syunnjack/cursor/multi-site-analytics-setup-0b8e",
+          "date": "2026-07-30T07:36:52Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/123232236a5688d9e5cf465333d21ee60b61efff"
+        },
+        {
+          "sha": "6560847",
+          "message": "Add reusable multi-site analytics/SEO setup kit",
+          "date": "2026-07-30T07:36:41Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6560847e621c4c0ccdb47a4c6a360f31091ff30b"
+        },
+        {
+          "sha": "720435a",
+          "message": "Merge pull request #7 from syunnjack/cursor/fix-sitemap-head-0b8e",
+          "date": "2026-07-30T07:15:28Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/720435a962e8f4ab9fb87890617b52f8b7a73ced"
+        },
+        {
+          "sha": "3656fa7",
+          "message": "Allow HEAD requests for sitemap.xml and robots.txt",
+          "date": "2026-07-30T07:15:17Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3656fa7a317e0c13a2cc1a87d00cddaa0e71f11b"
+        },
+        {
+          "sha": "2ddf851",
+          "message": "Merge pull request #6 from syunnjack/cursor/search-console-verification-0b8e",
+          "date": "2026-07-30T07:10:05Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2ddf8511b27af01756bcce5d9e90cfd2a7cee5f1"
+        },
+        {
+          "sha": "58c53a8",
+          "message": "Set Google Search Console verification token on Render",
+          "date": "2026-07-30T07:09:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/58c53a84ef0c715c8425c11a65c6570559931be6"
+        },
+        {
+          "sha": "2fa2796",
+          "message": "Merge pull request #5 from syunnjack/cursor/enable-ga4-measurement-id-0b8e",
+          "date": "2026-07-30T06:44:37Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2fa2796b3e10e2078cb414248da63c3518868d01"
+        },
+        {
+          "sha": "8581d93",
+          "message": "Enable GA4 with measurement ID G-542370310 on Render",
+          "date": "2026-07-30T06:44:25Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8581d936737bf97c484b3ce2ebdff28e2de39bda"
+        },
+        {
+          "sha": "59d27e7",
+          "message": "Merge pull request #4 from syunnjack/cursor/complete-deployment-setup-0b8e",
+          "date": "2026-07-30T06:42:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/59d27e7f82eca36d44aadd4e05871d359155b28b"
+        },
+        {
+          "sha": "74d1183",
+          "message": "Fix GA4 build errors and add IndexNow for search indexing",
+          "date": "2026-07-30T06:42:02Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/74d1183a24bf110fe1694c5938f71e84a193ab1d"
+        },
+        {
+          "sha": "9c3cb5d",
+          "message": "Merge pull request #3 from syunnjack/cursor/no-access-site-improvements-0b8e",
+          "date": "2026-07-30T06:35:25Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/9c3cb5db68a076a8780b2fff7282bbfbd11b8067"
+        },
+        {
+          "sha": "d9844b9",
+          "message": "Add GA4 tracking and SEO improvements for zero-traffic site",
+          "date": "2026-07-30T06:34:18Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d9844b940b5c9e11c7864560fe607cc0058744a2"
+        }
+      ],
+      "updatedAt": "2026-07-30T07:41:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -694,113 +2473,6 @@
         }
       ],
       "updatedAt": "2026-07-28T10:29:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "allbowl01",
-      "name": "allbowl01",
-      "displayName": "Allbowl01",
-      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: bowling event.jp） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data/events.json へエクスポート: ",
-      "url": "https://github.com/syunnjack/allbowl01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "Python",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "cocoon-child-mankan",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py",
-        "web"
-      ],
-      "commits": [
-        {
-          "sha": "c8ba389",
-          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
-          "date": "2026-07-27T23:09:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
-        },
-        {
-          "sha": "449d9e9",
-          "message": "Merge main: keep Astro and WordPress for performance comparison.",
-          "date": "2026-07-27T18:22:23Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
-        },
-        {
-          "sha": "8935106",
-          "message": "Add Cocoon child theme for Mankan top landing page.",
-          "date": "2026-07-27T17:05:01Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/89351063315894007b90a48bd8ebcac46183dd64"
-        },
-        {
-          "sha": "ccdd6b8",
-          "message": "Initial commit: MVP API, event scraper, and site design doc.",
-          "date": "2026-07-16T16:22:38Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
-        },
-        {
-          "sha": "6f2dca5",
-          "message": "Improve SEO and LLM metadata",
-          "date": "2026-07-12T23:09:45Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
-        },
-        {
-          "sha": "5a16670",
-          "message": "Add event search controls",
-          "date": "2026-07-12T22:34:36Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
-        },
-        {
-          "sha": "30827c8",
-          "message": "Improve homepage heading wrapping",
-          "date": "2026-07-12T22:22:51Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
-        },
-        {
-          "sha": "4f282d9",
-          "message": "Fix Windows app publish workflow",
-          "date": "2026-07-12T21:52:12Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
-        },
-        {
-          "sha": "5834225",
-          "message": "Configure bowling-event domain",
-          "date": "2026-07-12T21:41:46Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
-        },
-        {
-          "sha": "2d1bcaf",
-          "message": "Reduce prefecture collection gaps",
-          "date": "2026-07-12T21:28:22Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2d1bcaf870567b64e11f6c5cc4bbda10a2d5c340"
-        },
-        {
-          "sha": "f2d470c",
-          "message": "Improve AI and SEO structured data",
-          "date": "2026-07-12T20:48:53Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/f2d470cd02d526c88437630623d661b2554c8782"
-        },
-        {
-          "sha": "86ebbd7",
-          "message": "Add JPBA calendar coverage",
-          "date": "2026-07-12T17:45:32Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/86ebbd776c1461efcd7a2491296211da88055563"
-        }
-      ],
-      "updatedAt": "2026-07-27T23:43:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -1361,57 +3033,6 @@
       "forks": 0
     },
     {
-      "slug": "leaflet-web1",
-      "name": "leaflet-web1",
-      "displayName": "Leaflet Web1",
-      "description": "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです",
-      "readmeExcerpt": "SPOTPALETTE Web Leafletの地図と検索結果一覧を連動させた、10業種共通のローカル検索MVPです。 正式URLは https://spotpalette.jp 。 .com と .net は .jp へ301転送し、 .app はアプリ紹介ページとして使用します。 10カテゴリの絞り込み・全文検索 地図マーカーと施設カードの双方向選択 モバイル向け地図／一覧切り替え SEO・AIO・LLMO向け要約、更新日、構造化データ 無料掲載、Pro、予約・広告の収益導線 設計は docs/MVP DESIGN.md を参照してください。",
-      "url": "https://github.com/syunnjack/leaflet-web1",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "f5a9b5a",
-          "message": "Rebrand web platform as SPOTPALETTE",
-          "date": "2026-07-22T11:37:32Z",
-          "url": "https://github.com/syunnjack/leaflet-web1/commit/f5a9b5a4890b85cf6272a0b83f0f006ad4b716fd"
-        },
-        {
-          "sha": "5b962f7",
-          "message": "Build reusable Leaflet local discovery MVP",
-          "date": "2026-07-22T00:41:53Z",
-          "url": "https://github.com/syunnjack/leaflet-web1/commit/5b962f798538b4b863c7caac160674017c25471f"
-        }
-      ],
-      "updatedAt": "2026-07-22T11:37:45Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "leaflet-app1",
       "name": "leaflet-app1",
       "displayName": "Leaflet App1",
@@ -1907,56 +3528,6 @@
         }
       ],
       "updatedAt": "2026-07-20T23:04:11Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "asia-trip-concierge",
-      "name": "asia-trip-concierge",
-      "displayName": "Asia Trip Concierge",
-      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/asia-trip-concierge",
-      "defaultBranch": "codex/asia-trip-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "774b1b1",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:56:36Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
-        },
-        {
-          "sha": "33d6c83",
-          "message": "Build Korea Taiwan trip concierge",
-          "date": "2026-07-20T22:55:53Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/33d6c8357abb0ad2f3b5e2fb33dad7447dcef45a"
-        }
-      ],
-      "updatedAt": "2026-07-20T22:56:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -2542,47 +4113,6 @@
       "forks": 0
     },
     {
-      "slug": "hobby-stock-price-alert",
-      "name": "hobby-stock-price-alert",
-      "displayName": "Hobby Stock Price Alert",
-      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobbystock",
-      "readmeExcerpt": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobbystock.jp Other candidates: hobbystock.jp figurealert.jp cardstock.jp gamezaiko.jp Concept 在庫復活、価格下落、予約開始、再販を通知し、ECアフィリエイトと有料通知へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths EC affiliate 有料通知 買取送客 広告枠 スポンサー Commands",
-      "url": "https://github.com/syunnjack/hobby-stock-price-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "7260a82",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:08Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/7260a82b989831a8c0c9dc75ed81603bf61ecf42"
-        },
-        {
-          "sha": "debaa8d",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:50Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/debaa8dbef5c8459242a025d854b1344cce951e8"
-        }
-      ],
-      "updatedAt": "2026-07-18T15:54:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "buyback-price-alert",
       "name": "buyback-price-alert",
       "displayName": "Buyback Price Alert",
@@ -2702,47 +4232,6 @@
         }
       ],
       "updatedAt": "2026-07-18T15:54:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "smoking-map-alert",
-      "name": "smoking-map-alert",
-      "displayName": "Smoking Map Alert",
-      "description": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
-      "readmeExcerpt": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap.jp Other candidates: smokingmap.jp kitsuenmap.jp smokealert.jp smokecafe.jp Concept 喫煙所の新設、閉鎖、喫煙可飲食店を通知し、飲食店送客、掲載課金、マップ広告へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 飲食店送客 掲載課金 マップ広告 クーポン スポンサー Commands",
-      "url": "https://github.com/syunnjack/smoking-map-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "40c4fa6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:07Z",
-          "url": "https://github.com/syunnjack/smoking-map-alert/commit/40c4fa60dfcd823b53287c2a94f1ef475311eda1"
-        },
-        {
-          "sha": "9147f9f",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:48Z",
-          "url": "https://github.com/syunnjack/smoking-map-alert/commit/9147f9f66481316c9f4d9006f4aa5a4b7f3e662d"
-        }
-      ],
-      "updatedAt": "2026-07-18T15:54:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -3286,785 +4775,6 @@
       "forks": 0
     },
     {
-      "slug": "hotel-price-watch",
-      "name": "hotel-price-watch",
-      "displayName": "Hotel Price Watch",
-      "description": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: hotelpricewatch",
-      "readmeExcerpt": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: hotelpricewatch.jp Other candidates: hotelpricewatch.jp stayprice.jp akiyasu.jp hotelalert.jp Concept 指定エリア、日程、条件の空室と値下げを通知し、予約アフィリエイトと有料ウォッチへ誘導する宿泊アラート。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths ホテル予約成果報酬 有料ウォッチ 広告枠 旅行保険送客 メールスポンサー Commands",
-      "url": "https://github.com/syunnjack/hotel-price-watch",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "46eace6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:04Z",
-          "url": "https://github.com/syunnjack/hotel-price-watch/commit/46eace685c2c2971f9d98aaeb498a9582db130cf"
-        },
-        {
-          "sha": "7ffdd82",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:41Z",
-          "url": "https://github.com/syunnjack/hotel-price-watch/commit/7ffdd82dd6be09e6dbd700f97e201f7b59106f61"
-        }
-      ],
-      "updatedAt": "2026-07-18T15:54:09Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "route-delay-stay-alert",
-      "name": "route-delay-stay-alert",
-      "displayName": "Route Delay Stay Alert",
-      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: delaystay",
-      "readmeExcerpt": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: delaystay.jp Other candidates: delaystay.jp routealert.jp busdelaystay.jp arrivalspot.jp Concept 遅延、終電後、早朝到着時に宿、漫画喫茶、飲食店、タクシーへ送客する移動者向け通知ナビ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊予約 漫画喫茶送客 飲食店送客 タクシー広告 旅行アフィリエイト Commands",
-      "url": "https://github.com/syunnjack/route-delay-stay-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "3e51127",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:04Z",
-          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/3e511273ffb2463f7400e5893828126b9df2555e"
-        },
-        {
-          "sha": "9c42c69",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:41Z",
-          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/9c42c69e5fb2e514b952b002111c7ba86d47ad42"
-        }
-      ],
-      "updatedAt": "2026-07-18T15:54:07Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "openclose-pulse",
-      "name": "openclose-pulse",
-      "displayName": "Openclose Pulse",
-      "description": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: openclosepulse",
-      "readmeExcerpt": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: openclosepulse.jp Other candidates: openclosepulse.jp tenpopulse.jp machitenpo.jp heitenalert.jp Concept 開店、閉店、移転、休業、再開をLINE/X/メールで通知し、掲載課金、求人、クーポン、PR記事へつなげる地域速報サービス。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 店舗掲載課金 求人送客 クーポン配信 PR記事 地域広告 Commands",
-      "url": "https://github.com/syunnjack/openclose-pulse",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e960307",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:03Z",
-          "url": "https://github.com/syunnjack/openclose-pulse/commit/e9603072cba43cec602935adefffda1f661fc414"
-        },
-        {
-          "sha": "73c0840",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:39Z",
-          "url": "https://github.com/syunnjack/openclose-pulse/commit/73c0840900cfe2e94d315adc5d3ecfb76e975edf"
-        }
-      ],
-      "updatedAt": "2026-07-18T15:54:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "ai-quiz-study",
-      "name": "ai-quiz-study",
-      "displayName": "Ai Quiz Study",
-      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: aiichimon",
-      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: aiichimon.jp Other candidates: aiichimon.jp quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
-      "url": "https://github.com/syunnjack/ai-quiz-study",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "42dc506",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/42dc50607f23775b4cbfbbcd92b6202b10b1fed6"
-        },
-        {
-          "sha": "6d7bedd",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:55Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7bedd4c5239a05375d8e9babacab7a632307c9"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:35:05Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "prize-stock-alert",
-      "name": "prize-stock-alert",
-      "displayName": "Prize Stock Alert",
-      "description": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: prizealert",
-      "readmeExcerpt": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: prizealert.jp Other candidates: prizealert.jp prizestock.jp charastock.jp getprize.jp Concept キャラクター名、景品名、店舗名からプライズ入荷、在庫、取れやすさ、再入荷通知を探せるUGC型在庫アラート。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 入荷通知課金 店舗掲載課金 ECアフィリエイト 景品スポンサー 動画連携広告 Commands",
-      "url": "https://github.com/syunnjack/prize-stock-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "7477179",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:37Z",
-          "url": "https://github.com/syunnjack/prize-stock-alert/commit/7477179cd23e1ce248753fabe28d4ae24f19efdc"
-        },
-        {
-          "sha": "394b548",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:54Z",
-          "url": "https://github.com/syunnjack/prize-stock-alert/commit/394b548cac248b282bd4e255a1c14e44da59939f"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:35:02Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "showa-retro-route",
-      "name": "showa-retro-route",
-      "displayName": "Showa Retro Route",
-      "description": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: showaroute",
-      "readmeExcerpt": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: showaroute.jp Other candidates: showaroute.jp retromeguri.jp jihankimap.jp autorest.jp Concept 昭和レトロスポット、現存/閉店オートレストラン、レトロ自販機、ゲームセンターを遠征ルート化する保存型メディア。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊アフィリエイト ZINE/グッズ販売 スポットスポンサー 動画企画協賛 保存活動支援 Commands",
-      "url": "https://github.com/syunnjack/showa-retro-route",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "26ea35c",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:37Z",
-          "url": "https://github.com/syunnjack/showa-retro-route/commit/26ea35c54592bed0f7a7fa9221c0e70e03698d25"
-        },
-        {
-          "sha": "6076c88",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:54Z",
-          "url": "https://github.com/syunnjack/showa-retro-route/commit/6076c88e28766093c856f2c03b841122b0385ee3"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:34:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-alert-radar",
-      "name": "local-alert-radar",
-      "displayName": "Local Alert Radar",
-      "description": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: localalert",
-      "readmeExcerpt": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: localalert.jp Other candidates: localalert.jp machialert.jp openclosealert.jp tenpoalert.jp Concept 開店、閉店、移転、休業、再開、求人、災害や遅延時の周辺スポット通知をLINEとXへ展開する地域アラートメディア。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 新店掲載課金 LINE有料アラート 求人送客 クーポン配信 地域PR記事 Commands",
-      "url": "https://github.com/syunnjack/local-alert-radar",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8032e56",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:37Z",
-          "url": "https://github.com/syunnjack/local-alert-radar/commit/8032e5602a93ef7a2eb9bbfcb1bafc91f31439c8"
-        },
-        {
-          "sha": "5f8c821",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:53Z",
-          "url": "https://github.com/syunnjack/local-alert-radar/commit/5f8c821a0f7a109d8460fc90f1e3435741235c1d"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:34:55Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "trip-route-stay",
-      "name": "trip-route-stay",
-      "displayName": "Trip Route Stay",
-      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/trip-route-stay",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e17e784",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:36Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/e17e78470e225c47cd3d55bc0ea0c9c7bba894d0"
-        },
-        {
-          "sha": "efffa09",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:52Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/efffa09c5e2762be3694b88f194a6a9110669d8c"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:34:52Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "anchor-suggest-search",
-      "name": "anchor-suggest-search",
-      "displayName": "Anchor Suggest Search",
-      "description": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/anchor-suggest-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8a4c4f5",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/8a4c4f5a343619d00c860a2de3d2226139a585f7"
-        },
-        {
-          "sha": "b984102",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:30Z",
-          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/b984102d1c0578b4e73a5030a89f03546d1e0169"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:09:03Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "golf-course-booking",
-      "name": "golf-course-booking",
-      "displayName": "Golf Course Booking",
-      "description": "Golf Course Bookingは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Course Bookingは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-course-booking",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "ae898e6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/golf-course-booking/commit/ae898e6f08adb39f30fdc689413b938d9deaeb03"
-        },
-        {
-          "sha": "fc8d11f",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:30Z",
-          "url": "https://github.com/syunnjack/golf-course-booking/commit/fc8d11fe2983fa1caf9a37d54d27a99b875f160c"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:09:01Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "work-bar-navi",
-      "name": "work-bar-navi",
-      "displayName": "Work Bar Navi",
-      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/work-bar-navi",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "2e0dd5d",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
-        },
-        {
-          "sha": "74a3e6c",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:30Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:59Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bowling-score-hub",
-      "name": "bowling-score-hub",
-      "displayName": "Bowling Score Hub",
-      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bowling-score-hub",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "f85f6f6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/f85f6f6c4347fcff2c65bc0523f6b8f5d50512f8"
-        },
-        {
-          "sha": "d1e0ba8",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:29Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/d1e0ba83303d9362eb26aa9487f2218936b15f3b"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:57Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "gyosei-quiz-one",
-      "name": "gyosei-quiz-one",
-      "displayName": "Gyosei Quiz One",
-      "description": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/gyosei-quiz-one",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "f65a28c",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/f65a28c34e31fcb75197b0f913821be9960ad243"
-        },
-        {
-          "sha": "473dc9b",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:29Z",
-          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/473dc9beadf4dda743f53a6d32f3470c626bb525"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:55Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "haikyo-archive-map",
-      "name": "haikyo-archive-map",
-      "displayName": "Haikyo Archive Map",
-      "description": "Haikyo Archive Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Haikyo Archive Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/haikyo-archive-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "c95bfd6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:49Z",
-          "url": "https://github.com/syunnjack/haikyo-archive-map/commit/c95bfd650fe3266946c32db5397e0522cd49d4b6"
-        },
-        {
-          "sha": "b738b6f",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:29Z",
-          "url": "https://github.com/syunnjack/haikyo-archive-map/commit/b738b6fc28aa91af2359019669ed1a6d18f065ac"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "prize-stock-finder",
-      "name": "prize-stock-finder",
-      "displayName": "Prize Stock Finder",
-      "description": "Prize Stock Finderは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Prize Stock Finderは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/prize-stock-finder",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4546c93",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:49Z",
-          "url": "https://github.com/syunnjack/prize-stock-finder/commit/4546c93aa8b0ff15be8b38b98c555555e9526bf8"
-        },
-        {
-          "sha": "3b0ead1",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:29Z",
-          "url": "https://github.com/syunnjack/prize-stock-finder/commit/3b0ead1dcfc3b1f096e848709a6a23e362a02c0d"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:51Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "eki-genre-map",
-      "name": "eki-genre-map",
-      "displayName": "Eki Genre Map",
-      "description": "Eki Genre Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Eki Genre Mapは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/eki-genre-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "19ffb50",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:49Z",
-          "url": "https://github.com/syunnjack/eki-genre-map/commit/19ffb50bb95be75433afd212eb2938232c4e0810"
-        },
-        {
-          "sha": "ad8a4ac",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:28Z",
-          "url": "https://github.com/syunnjack/eki-genre-map/commit/ad8a4ac78c6f99cc9a46b4c9c224bdcd8cc0ad58"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:49Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "price-review-compare",
-      "name": "price-review-compare",
-      "displayName": "Price Review Compare",
-      "description": "Price Review Compareは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Price Review Compareは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/price-review-compare",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "2847184",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:49Z",
-          "url": "https://github.com/syunnjack/price-review-compare/commit/2847184f316fc6c65ce0f643a57420796aa16a19"
-        },
-        {
-          "sha": "b7022f1",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:28Z",
-          "url": "https://github.com/syunnjack/price-review-compare/commit/b7022f1fff57023c21cc034fcd6286162ed7d289"
-        }
-      ],
-      "updatedAt": "2026-07-18T00:08:49Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-board-plus",
-      "name": "local-board-plus",
-      "displayName": "Local Board Plus",
-      "description": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
-      "readmeExcerpt": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです。 Canonical domain: https://localboard.jp/ Repository Name local board plus Features 地域掲示板とアンテナサイト UGC投稿、確認待ち、確認済みステータス モデレーションルール SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 地域スポンサー、掲示板広告、イベント告知、確認済み掲載、周辺送客の収益導線",
-      "url": "https://github.com/syunnjack/local-board-plus",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "3f616a9",
-          "message": "Set localboard domain",
-          "date": "2026-07-17T22:47:17Z",
-          "url": "https://github.com/syunnjack/local-board-plus/commit/3f616a96cc560a8359aaaf922808a1314959bb01"
-        },
-        {
-          "sha": "9539cd0",
-          "message": "Create local board plus app",
-          "date": "2026-07-17T22:39:59Z",
-          "url": "https://github.com/syunnjack/local-board-plus/commit/9539cd0fda48b6066cb8744a02ea94d4f835bc3a"
-        }
-      ],
-      "updatedAt": "2026-07-17T22:47:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "ranking-vote-hub",
-      "name": "ranking-vote-hub",
-      "displayName": "Ranking Vote Hub",
-      "description": "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです",
-      "readmeExcerpt": "Ranking Vote Hub ユーザー投票と口コミで、施設・作品・スポットをジャンル別にランキング化するUGC対応サービスです。 Canonical domain: https://rankvote.jp/ Repository Name ranking vote hub Features ジャンル別ランキング検索 投票・保存・推薦理由投稿 UGC投稿と確認待ちステータス SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt スポンサーランキング、送客、予約、クーポン、アフィリエイト、確認済み掲載の収益導線",
-      "url": "https://github.com/syunnjack/ranking-vote-hub",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "601d38a",
-          "message": "Set rankvote domain",
-          "date": "2026-07-17T22:35:42Z",
-          "url": "https://github.com/syunnjack/ranking-vote-hub/commit/601d38a1feee2af2af0d4d08b4122e78e3a65bdd"
-        },
-        {
-          "sha": "1d8b2ff",
-          "message": "Create ranking vote hub app",
-          "date": "2026-07-17T22:32:06Z",
-          "url": "https://github.com/syunnjack/ranking-vote-hub/commit/1d8b2ff8fb94aa4207b00b2dd46f0091c6f72384"
-        }
-      ],
-      "updatedAt": "2026-07-17T22:36:14Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "open-close-radar",
       "name": "open-close-radar",
       "displayName": "Open Close Radar",
@@ -4102,346 +4812,6 @@
         }
       ],
       "updatedAt": "2026-07-17T22:23:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rc-course-finder",
-      "name": "rc-course-finder",
-      "displayName": "Rc Course Finder",
-      "description": "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです",
-      "readmeExcerpt": "RC Course Finder ラジコンサーキット、ミニ四駆コース、ゴーカート場を横断検索するUGC対応コース検索サービスです。 Repository Name rc course finder Domain Candidates rccourse.jp rcmap.jp minicourse.jp circuitspot.jp Features RCサーキット・ミニ四駆・ゴーカート場の横断検索 屋内外、レンタル、初心者向け、大会ありフィルター 営業確認、路面状態、レイアウト変更、閉店情報のUGC投稿 SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 走行予約、用品アフィリエイト、大会告知、確認済み掲載、遠征送客の収益導線",
-      "url": "https://github.com/syunnjack/rc-course-finder",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4f4e0d6",
-          "message": "Set rccourse domain",
-          "date": "2026-07-17T21:23:30Z",
-          "url": "https://github.com/syunnjack/rc-course-finder/commit/4f4e0d6813775ca05166501050738bd48b5ef14a"
-        },
-        {
-          "sha": "6b49637",
-          "message": "Create rc course finder app",
-          "date": "2026-07-17T20:54:33Z",
-          "url": "https://github.com/syunnjack/rc-course-finder/commit/6b496370a52910cab5ed88028ac7f2d3c5926413"
-        }
-      ],
-      "updatedAt": "2026-07-17T21:24:08Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "my-dartslive",
-      "name": "my-dartslive",
-      "displayName": "My Dartslive",
-      "description": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
-      "readmeExcerpt": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです。 Canonical domain: https://dartspot.jp/ Features ジャンル・駅・条件検索 大会・イベント、クーポン、深夜営業、団体向けフィルター 設置情報、混雑、景品入荷、大会、閉店情報のUGC投稿 SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 店舗送客、予約、クーポン、イベント告知、確認済み掲載、物販アフィリエイトの収益導線",
-      "url": "https://github.com/syunnjack/my-dartslive",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "2f52ac7",
-          "message": "Set dartspot domain",
-          "date": "2026-07-17T20:44:34Z",
-          "url": "https://github.com/syunnjack/my-dartslive/commit/2f52ac763397728ab53d4b863c309baf6150458e"
-        },
-        {
-          "sha": "40fdd52",
-          "message": "Create my dartslive app",
-          "date": "2026-07-17T20:41:37Z",
-          "url": "https://github.com/syunnjack/my-dartslive/commit/40fdd5260717831fbccf7e32df795ca8fa21f871"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:45:01Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "manga-cafe-finder",
-      "name": "manga-cafe-finder",
-      "displayName": "Manga Cafe Finder",
-      "description": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです",
-      "readmeExcerpt": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです。 Canonical domain: https://comicstay.jp/ Domain Candidates mangacafemap.jp netcafemap.jp comicstay.jp Features 設備条件フィルター UGC投稿 SEO/AIO/LLMO向けFAQと即答ブロック robots.txt / sitemap.xml / llms.txt 店舗送客、クーポン、宿泊交通、電子書籍、確認済み掲載の収益導線",
-      "url": "https://github.com/syunnjack/manga-cafe-finder",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "c6654b8",
-          "message": "Set ComicStay domain metadata",
-          "date": "2026-07-17T20:34:51Z",
-          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/c6654b8566215eb762d0197c0a407541560c0f25"
-        },
-        {
-          "sha": "cec3622",
-          "message": "Create manga cafe finder app",
-          "date": "2026-07-17T20:15:22Z",
-          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/cec3622c3089a8a5e2f1ecf89099e5ac3b1bd7e1"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:35:04Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "route-spot-navi",
-      "name": "route-spot-navi",
-      "displayName": "Route Spot Navi",
-      "description": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです",
-      "readmeExcerpt": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです。 Concept 経路検索の到着地から、周辺スポット、宿、喫煙場所、カフェ、ゲーム施設などへ誘導する 待ち時間、徒歩分数、料金、評価、ユーザー投票で比較できる 掲載候補をメモし、カテゴリ別の検索条件に反映できる 将来的に地図、口コミ、閉店情報、ランキング、API連携へ拡張する Production Domain: routespot.jp Build command: npm run build Build output: dist GitHub Pagesで公開する場合は、 public/CNAME に routespot.jp を設定済みです。 Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/route-spot-navi",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "985956f",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/route-spot-navi/commit/985956fd9a25c498e0de5e3c45a5b75d2d44e7c0"
-        },
-        {
-          "sha": "af712f0",
-          "message": "Initial Route Spot Navi app",
-          "date": "2026-07-17T18:37:59Z",
-          "url": "https://github.com/syunnjack/route-spot-navi/commit/af712f03a0437a58bd6121371b8c61499955b5d1"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:08:03Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "wait-time-guide",
-      "name": "wait-time-guide",
-      "displayName": "Wait Time Guide",
-      "description": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
-      "readmeExcerpt": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです。 Concept 施設の現在待ち時間、受付状況、呼び出し目安を比較する 待ち時間に合わせてカフェ、喫煙所、漫画喫茶、買い物、食事を提案する QRコードや整理券番号から、自分の順番を見失わない導線を想定する 将来的に猫の目コム風の混雑表示、民間施設の案内、広告導線へ拡張する Suggested Domain machijikan.jp waitplus.jp junban navi.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/wait-time-guide",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "5e74d0a",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/wait-time-guide/commit/5e74d0ae74272b48b4a35f5d1a691ea96e580a78"
-        },
-        {
-          "sha": "9ea5215",
-          "message": "Initial Wait Time Guide app",
-          "date": "2026-07-17T19:05:03Z",
-          "url": "https://github.com/syunnjack/wait-time-guide/commit/9ea52155d96149ba52b910977aa9e9a8a2c307a2"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:08:13Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bus-arrival-guide",
-      "name": "bus-arrival-guide",
-      "displayName": "Bus Arrival Guide",
-      "description": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです",
-      "readmeExcerpt": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです。 Concept 名古屋から静岡など、高速バス到着後の行動をまとめて比較する 宿泊、喫煙可、バストイレ付、深夜営業、駅近などの条件で探せる 到着時間に合わせて、カフェ、漫画喫茶、ゲームセンター、飲食店を提案する 将来的に楽天トラベル、じゃらん、Google Maps、バス比較API等へ接続する Suggested Domain busstay.jp arrivalstay.jp bus yado.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/bus-arrival-guide",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "629a675",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/629a675a00feff65ba171447c6d11ff420ddb822"
-        },
-        {
-          "sha": "c8f4c7b",
-          "message": "Initial Bus Arrival Guide app",
-          "date": "2026-07-17T18:58:29Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/c8f4c7bd3c23f65ba7d66b14e3a1d00ea2471e3d"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:08:03Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "solo-spot-map",
-      "name": "solo-spot-map",
-      "displayName": "Solo Spot Map",
-      "description": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
-      "readmeExcerpt": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです。 Concept 一人利用歓迎、喫煙可、電源あり、深夜営業などの条件で探せる 「2名様から」「シングルチャージあり」など、一人利用で困る条件を見える化する 待ち時間、バス到着後、仕事前後の短時間利用に向く場所を提案する 将来的に口コミ、地図、投稿、閉店確認、広告導線へ拡張する Suggested Domain solospot.jp hitori map.jp smoke cafe.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/solo-spot-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4c0b243",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/solo-spot-map/commit/4c0b2437e1c91afabd24a3b8746dfb14b6bf1451"
-        },
-        {
-          "sha": "d9dca68",
-          "message": "Initial Solo Spot Map app",
-          "date": "2026-07-17T19:17:31Z",
-          "url": "https://github.com/syunnjack/solo-spot-map/commit/d9dca68bebae4ffbbd240bfc8846b8aac01987e3"
-        }
-      ],
-      "updatedAt": "2026-07-17T20:08:21Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "retro-game-map",
-      "name": "retro-game-map",
-      "displayName": "Retro Game Map",
-      "description": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
-      "readmeExcerpt": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです。 Concept 現存、閉店、要確認の施設ステータスを分けて表示する レトロ筐体、格ゲー、音ゲー、自販機、プライズなどで探せる 遠征者向けに宿、喫煙所、飲食、最寄駅メモを併記する ユーザー投稿と管理者確認で、古い情報やリンク切れを減らす Suggested Domain retrogame map.jp gesen navi.jp arcade log.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/retro-game-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "d681adc",
-          "message": "Improve SEO UGC and monetization flows",
-          "date": "2026-07-17T19:48:06Z",
-          "url": "https://github.com/syunnjack/retro-game-map/commit/d681adc6904777a2f8be957e8d538b20fb160736"
-        },
-        {
-          "sha": "6b02d62",
-          "message": "Add UGC SEO and revenue growth features",
-          "date": "2026-07-17T19:40:34Z",
-          "url": "https://github.com/syunnjack/retro-game-map/commit/6b02d6234acaa6396fc814744a87d186d48177f4"
-        },
-        {
-          "sha": "03e5481",
-          "message": "Add auto restaurant history archive",
-          "date": "2026-07-17T19:32:17Z",
-          "url": "https://github.com/syunnjack/retro-game-map/commit/03e5481117b2f054c1da7c71fde7e53c03cee7a8"
-        },
-        {
-          "sha": "a3e44cf",
-          "message": "Initial Retro Game Map app",
-          "date": "2026-07-17T19:29:46Z",
-          "url": "https://github.com/syunnjack/retro-game-map/commit/a3e44cf330b4d9e1de65717d49a6d838873da0d3"
-        }
-      ],
-      "updatedAt": "2026-07-17T19:48:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -5029,82 +5399,6 @@
       "forks": 0
     },
     {
-      "slug": "cat-cafe-etc",
-      "name": "cat-cafe-etc",
-      "displayName": "Cat Cafe Etc",
-      "description": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/cat-cafe-etc",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "pnpm-lock.yaml",
-        "pnpm-workspace.yaml",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "851d78b",
-          "message": "Add verified venues reviews and revenue paths",
-          "date": "2026-07-15T07:57:15Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
-        },
-        {
-          "sha": "5e39911",
-          "message": "Remove overlapping portal signature",
-          "date": "2026-07-15T07:47:38Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5e3991108adb35722fd2f2f65a67ba85adbe8905"
-        },
-        {
-          "sha": "c199a4d",
-          "message": "Fix overlapping portal footer",
-          "date": "2026-07-15T05:13:13Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c199a4d75e85527f4d7377d3776379c43e88b0f6"
-        },
-        {
-          "sha": "660f280",
-          "message": "Create indexable cat and dog cafe routes",
-          "date": "2026-07-15T05:02:50Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/660f2807a8a0b356539c1e6eaa7d5025eea906f2"
-        },
-        {
-          "sha": "96fb502",
-          "message": "Add cat and dog page switcher",
-          "date": "2026-07-15T04:42:59Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/96fb502a07503d6f2876fb1de52c48fe23803c68"
-        },
-        {
-          "sha": "09e370c",
-          "message": "Build Nekobiyori cat cafe guide",
-          "date": "2026-07-15T04:28:00Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/09e370cd09af08da1ebf50ba764938d48efc6c16"
-        }
-      ],
-      "updatedAt": "2026-07-15T08:20:02Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "wedding-hall-map",
       "name": "wedding-hall-map",
       "displayName": "Wedding Hall Map",
@@ -5319,48 +5613,6 @@
         }
       ],
       "updatedAt": "2026-07-29T12:29:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "storage-locker-near",
-      "name": "storage-locker-near",
-      "displayName": "Storage Locker Near",
-      "description": "LockerLoop CashPoint 近くの空きコインロッカーを探し、予約パス発行と地域送客のキャッシュポイント化までを見せる静的プロトタイプです",
-      "readmeExcerpt": "LockerLoop CashPoint 近くの空きコインロッカーを探し、予約パス発行と地域送客のキャッシュポイント化までを見せる静的プロトタイプです。 機能 駅周辺ロッカーのエリア・サイズ・空き状況検索 予約料金、手数料、CashPoint還元の即時計算 運営者向け稼働率・月間粗利予測ダッシュボード LINE Messaging APIによる予約パス通知連携 LINE通知 LINE Notifyは終了済みのため、 api/line notify.js でLINE Messaging APIのpush messageを使います。 必要な環境変数: 詳しくは LINE SETUP.md ./LINE SETUP.md を参照してください。 デプロイ Vercelに接続すると、静的ページと api/ 配下のServerless Functionをそのまま利用できます。 通知送信: /api/line notify LINE Webhook確認: /api/line webhook",
-      "url": "https://github.com/syunnjack/storage-locker-near",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "LINE_SETUP.md",
-        "README.md",
-        "api",
-        "assets",
-        "index.html",
-        "script.js",
-        "styles.css",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "d61f05e",
-          "message": "Add LINE webhook setup for user ID capture",
-          "date": "2026-07-15T00:03:42Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
-        },
-        {
-          "sha": "8b39ab6",
-          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
-          "date": "2026-07-14T23:52:04Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
-        }
-      ],
-      "updatedAt": "2026-07-15T00:07:40Z",
       "stars": 0,
       "forks": 0
     },
