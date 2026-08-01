@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T11:54:27.752Z",
+  "generatedAt": "2026-08-01T18:37:45.605Z",
   "owner": "syunnjack",
   "totalRepositories": 157,
   "publicRepositories": 157,
@@ -8,6 +8,57 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "camp-hikaku",
+      "name": "camp-hikaku",
+      "displayName": "Camp Hikaku",
+      "description": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/camp-hikaku",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "e4919aa",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T15:45:44Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/e4919aa4c189de469d5875c402a6a026253b8c00"
+        },
+        {
+          "sha": "8975e57",
+          "message": "キャンプ場UGC空き状況マップ＋LINE通知を新規構築",
+          "date": "2026-07-15T00:42:48Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
+        }
+      ],
+      "updatedAt": "2026-08-01T15:46:01Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -38,6 +89,18 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "3df0845",
+          "message": "独自ドメインとアクセス解析連携を準備",
+          "date": "2026-08-01T12:27:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3df0845ef763d81a018b61f93f25a1c930e23126"
+        },
+        {
+          "sha": "275ba74",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T11:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/275ba74a2019d33a047c9d8fe984aa5e17754907"
+        },
         {
           "sha": "7274490",
           "message": "Dqwv2動画の固定配信URLを反映",
@@ -97,21 +160,9 @@
           "message": "Restore automation for Vercel deployment",
           "date": "2026-07-30T21:29:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e5e8462589a84c00d5a8768029be42328bfaa9cf"
-        },
-        {
-          "sha": "e0eb725",
-          "message": "Use CDN for repository video assets",
-          "date": "2026-07-30T20:25:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e0eb725c431ac11aa2a59db09ac7b3ffa4c819b3"
-        },
-        {
-          "sha": "9f3ea7a",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T16:19:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f3ea7af260602f9aad0dcdc769ac030de612bb7"
         }
       ],
-      "updatedAt": "2026-08-01T05:21:44Z",
+      "updatedAt": "2026-08-01T12:27:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -5440,51 +5491,6 @@
         }
       ],
       "updatedAt": "2026-07-15T05:09:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "camp-hikaku",
-      "name": "camp-hikaku",
-      "displayName": "Camp Hikaku",
-      "description": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/camp-hikaku",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8975e57",
-          "message": "キャンプ場UGC空き状況マップ＋LINE通知を新規構築",
-          "date": "2026-07-15T00:42:48Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
-        }
-      ],
-      "updatedAt": "2026-07-15T00:42:58Z",
       "stars": 0,
       "forks": 0
     },
