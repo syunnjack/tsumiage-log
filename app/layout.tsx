@@ -1,6 +1,10 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import GlobalNav from "./components/GlobalNav"
 import "./globals.css"
+
+const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim()
+const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim()
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://syunnjack.dev"),
@@ -9,8 +13,30 @@ export const metadata: Metadata = {
   openGraph: { title: "積み上げログ", description: "学び、作り、振り返る開発記録", url: "https://syunnjack.dev", siteName: "積み上げログ", locale: "ja_JP", type: "website", images: [{ url: "/og.png", width: 1733, height: 909, alt: "積み上げログ" }] },
   twitter: { card: "summary_large_image", title: "積み上げログ", description: "学び、作り、振り返る開発記録", images: ["/og.png"] },
   icons: { icon: "/favicon.svg" },
+  verification: googleSiteVerification ? { google: googleSiteVerification } : undefined,
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ja"><body><GlobalNav />{children}</body></html>
+  return (
+    <html lang="ja">
+      <body>
+        <GlobalNav />
+        {children}
+        {googleAnalyticsId ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${googleAnalyticsId}');`}
+            </Script>
+          </>
+        ) : null}
+      </body>
+    </html>
+  )
 }
