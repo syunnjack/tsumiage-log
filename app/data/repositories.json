@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:30:21.883Z",
+  "generatedAt": "2026-08-02T07:12:37.135Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "fc81516",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T05:30:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc81516a6f44190deceeb43937990c3d8f6f5b52"
+        },
         {
           "sha": "9d2a08c",
           "message": "Add beginner and career support paths (#13)",
@@ -104,15 +110,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-02T00:05:58Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
-        },
-        {
-          "sha": "7e4aa2c",
-          "message": "Remove blocked F1 favorite video",
-          "date": "2026-08-01T23:57:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
         }
       ],
-      "updatedAt": "2026-08-02T04:05:00Z",
+      "updatedAt": "2026-08-02T05:30:42Z",
       "stars": 0,
       "forks": 0
     },
