@@ -6,6 +6,7 @@ const queue = JSON.parse(readFileSync("app/data/video-production.json", "utf8"))
 const policy = JSON.parse(readFileSync("app/data/content-policy.json", "utf8"))
 const assetRoot = join("video-assets", "repositories")
 const errors = []
+const requireComplete = process.argv.includes("--require-complete")
 const japanese = /[ぁ-んァ-ヶ一-龠々]/
 const excluded = new Set((policy.excludedRepositories ?? []).map((name) => name.toLowerCase()))
 const expectedCount = repositories.articles.filter((article) => article.slug !== "rakuten02").length
@@ -43,6 +44,13 @@ for (const video of queue.videos) {
 }
 
 const queued = queue.videos.filter((video) => video.status === "queued").length
+if (requireComplete && queued > 0) {
+  const slugs = queue.videos
+    .filter((video) => video.status === "queued")
+    .map((video) => video.slug)
+    .join(", ")
+  errors.push(`制作待ち動画が${queued}本残っています: ${slugs}`)
+}
 console.log(`リポジトリ動画: ${queue.videos.length}本 / 制作待ち: ${queued}本 / 除外違反: 0件`)
 if (errors.length) {
   console.error(errors.map((error) => `- ${error}`).join("\n"))

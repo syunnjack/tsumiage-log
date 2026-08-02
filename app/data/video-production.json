@@ -94,9 +94,9 @@
         }
       ],
       "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/wangan-base/wangan-base-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/wangan-base/wangan-base-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Wangan Baseの技術構成を短く解説します。",
@@ -143,9 +143,9 @@
         }
       ],
       "publishAt": "2026-08-04T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/inid-comunity/inid-comunity-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/inid-comunity/inid-comunity-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、IniD Comunityの技術構成を短く解説します。",
@@ -192,9 +192,9 @@
         }
       ],
       "publishAt": "2026-08-05T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/game-ense-/game-ense--tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/game-ense-/game-ense--tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Game Enseの技術構成を短く解説します。",
