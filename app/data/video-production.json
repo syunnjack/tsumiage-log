@@ -45,9 +45,9 @@
         }
       ],
       "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/king-epark-neo/king-epark-neo-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/king-epark-neo/king-epark-neo-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、King Epark Neoの技術構成を短く解説します。",
