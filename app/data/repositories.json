@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:26:11.180Z",
+  "generatedAt": "2026-08-02T05:30:21.883Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -10,16 +10,124 @@
   ],
   "articles": [
     {
-      "slug": "game-ense-",
-      "name": "game-ense-",
-      "displayName": "Game Ense",
-      "description": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/game-ense-",
-      "defaultBranch": "codex/game-ense-launch",
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript",
+        "CSS",
+        "JavaScript",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "9d2a08c",
+          "message": "Add beginner and career support paths (#13)",
+          "date": "2026-08-02T04:04:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9d2a08c7bc3ac1f8ad6c5ee00bcc08603521d00b"
+        },
+        {
+          "sha": "8b4f82e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T03:26:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8b4f82e020864953420742a64189621f78a351fd"
+        },
+        {
+          "sha": "a594866",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T01:58:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a594866c09756f301f64553a8d317737bbe8c3e4"
+        },
+        {
+          "sha": "f8c538a",
+          "message": "Merge pull request #12 from syunnjack/codex/render-king-epark-video",
+          "date": "2026-08-02T01:18:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8c538aa65533d8b38d2bb6f58a0232426cfaa03"
+        },
+        {
+          "sha": "7a96119",
+          "message": "Publish complete repository video set",
+          "date": "2026-08-02T01:08:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a961195cf1c769fda68ba08d59c558549f1f26e"
+        },
+        {
+          "sha": "5964dad",
+          "message": "Fix Japanese text in generated video",
+          "date": "2026-08-02T01:04:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5964dadaaff5ccdb0a4be65242f661af3aa07f7c"
+        },
+        {
+          "sha": "ec0e0c1",
+          "message": "Use Japanese copy in repository videos",
+          "date": "2026-08-02T00:48:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ec0e0c10b9764dcefe9fc92112d75cf480a2c403"
+        },
+        {
+          "sha": "1b96f6e",
+          "message": "Add king-epark-neo explainer video",
+          "date": "2026-08-02T00:42:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1b96f6ec05a835b44bf5ced4827e5419e60dd37a"
+        },
+        {
+          "sha": "0d2be1f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T00:59:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2be1f133df5677e5db3ed72cfe837db0257a9b"
+        },
+        {
+          "sha": "20e41c4",
+          "message": "Fix repository count and add king-epark-neo article (#11)",
+          "date": "2026-08-02T00:28:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
+        },
+        {
+          "sha": "2c98530",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T00:05:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
+        },
+        {
+          "sha": "7e4aa2c",
+          "message": "Remove blocked F1 favorite video",
+          "date": "2026-08-01T23:57:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
+        }
+      ],
+      "updatedAt": "2026-08-02T04:05:00Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "wangan-base",
+      "name": "wangan-base",
+      "displayName": "Wangan Base",
+      "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
+      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
+      "url": "https://github.com/syunnjack/wangan-base",
+      "defaultBranch": "codex/initial-community-site",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
         "JavaScript"
       ],
       "files": [
@@ -43,25 +151,61 @@
       ],
       "commits": [
         {
-          "sha": "6dd1975",
-          "message": "Add GitHub Pages deployment",
-          "date": "2026-08-02T03:18:34Z",
-          "url": "https://github.com/syunnjack/game-ense-/commit/6dd1975f70f84c39c62f67a556b12e83876db55b"
+          "sha": "476ee08",
+          "message": "Merge pull request #4 from syunnjack/agent/add-revenue-paths",
+          "date": "2026-08-02T04:04:09Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/476ee080b35eb994014c612cff9ae69548fdae5e"
         },
         {
-          "sha": "51959b9",
-          "message": "Use game-ense.jp as canonical domain",
-          "date": "2026-08-02T02:31:22Z",
-          "url": "https://github.com/syunnjack/game-ense-/commit/51959b9f98a057742d01d218271ee530466c1b99"
+          "sha": "ba165dd",
+          "message": "Add supporter, affiliate, and sponsor revenue paths",
+          "date": "2026-08-02T04:02:43Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/ba165ddf9d8b7723c974e27895bde3183fd1bfd5"
         },
         {
-          "sha": "2f82552",
-          "message": "Build GAME ENSE arcade community site",
-          "date": "2026-08-02T02:24:41Z",
-          "url": "https://github.com/syunnjack/game-ense-/commit/2f825524bc16795e92cdd7373e414139273713d3"
+          "sha": "7d43678",
+          "message": "Merge pull request #3 from syunnjack/agent/activate-ugc",
+          "date": "2026-08-02T03:47:31Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/7d43678a5d3ab135d5479ef4e0c343621c09ee26"
+        },
+        {
+          "sha": "720ebf3",
+          "message": "Add UGC engagement, voting, and rankings",
+          "date": "2026-08-02T03:44:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/720ebf3194daad113298c7f1a3af77f70a27e5fe"
+        },
+        {
+          "sha": "3be923f",
+          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
+          "date": "2026-08-02T02:25:00Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
+        },
+        {
+          "sha": "42973d3",
+          "message": "Enable GitHub Pages during deployment",
+          "date": "2026-08-02T02:23:51Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
+        },
+        {
+          "sha": "5be9895",
+          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
+          "date": "2026-08-02T02:18:06Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
+        },
+        {
+          "sha": "6bdb691",
+          "message": "Configure midnightpit.jp GitHub Pages deployment",
+          "date": "2026-08-02T02:12:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
+        },
+        {
+          "sha": "6f5fe39",
+          "message": "Build initial WANGAN BASE community site",
+          "date": "2026-08-02T01:25:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
         }
       ],
-      "updatedAt": "2026-08-02T03:19:02Z",
+      "updatedAt": "2026-08-02T04:04:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -100,6 +244,24 @@
       ],
       "commits": [
         {
+          "sha": "d4b6103",
+          "message": "Add transparent revenue pathways",
+          "date": "2026-08-02T04:02:38Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/d4b61031cb7d7841a9864324c2b12633a0b44493"
+        },
+        {
+          "sha": "9c444b2",
+          "message": "Add community voting and rankings",
+          "date": "2026-08-02T03:42:34Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/9c444b295586463e1aea34a4c89b709276a68577"
+        },
+        {
+          "sha": "f249f7b",
+          "message": "Add UGC engagement loops",
+          "date": "2026-08-02T03:38:33Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/f249f7b2ec4f562188daab6e2f07cbcbe070cba6"
+        },
+        {
           "sha": "a469ab9",
           "message": "Prepare domain launch operations",
           "date": "2026-08-02T03:13:20Z",
@@ -118,18 +280,18 @@
           "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
         }
       ],
-      "updatedAt": "2026-08-02T03:13:28Z",
+      "updatedAt": "2026-08-02T04:02:54Z",
       "stars": 0,
       "forks": 0
     },
     {
-      "slug": "wangan-base",
-      "name": "wangan-base",
-      "displayName": "Wangan Base",
-      "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
-      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
-      "url": "https://github.com/syunnjack/wangan-base",
-      "defaultBranch": "codex/initial-community-site",
+      "slug": "game-ense-",
+      "name": "game-ense-",
+      "displayName": "Game Ense",
+      "description": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/game-ense-",
+      "defaultBranch": "codex/game-ense-launch",
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript",
@@ -149,6 +311,7 @@
         "package.json",
         "postcss.config.mjs",
         "public",
+        "scripts",
         "tests",
         "tsconfig.json",
         "vite.config.ts",
@@ -156,37 +319,37 @@
       ],
       "commits": [
         {
-          "sha": "3be923f",
-          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
-          "date": "2026-08-02T02:25:00Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
+          "sha": "0074177",
+          "message": "Add travel affiliate APIs and offers",
+          "date": "2026-08-02T03:57:53Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/0074177589bcccc87dfed5b42da69cac6a748759"
         },
         {
-          "sha": "42973d3",
-          "message": "Enable GitHub Pages during deployment",
-          "date": "2026-08-02T02:23:51Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
+          "sha": "b1c8acb",
+          "message": "Add easy mode and travel booking paths",
+          "date": "2026-08-02T03:37:15Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/b1c8acb4f81cfcecf9006b7a721ba0f3297cd29e"
         },
         {
-          "sha": "5be9895",
-          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
-          "date": "2026-08-02T02:18:06Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
+          "sha": "6dd1975",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-08-02T03:18:34Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/6dd1975f70f84c39c62f67a556b12e83876db55b"
         },
         {
-          "sha": "6bdb691",
-          "message": "Configure midnightpit.jp GitHub Pages deployment",
-          "date": "2026-08-02T02:12:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
+          "sha": "51959b9",
+          "message": "Use game-ense.jp as canonical domain",
+          "date": "2026-08-02T02:31:22Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/51959b9f98a057742d01d218271ee530466c1b99"
         },
         {
-          "sha": "6f5fe39",
-          "message": "Build initial WANGAN BASE community site",
-          "date": "2026-08-02T01:25:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
+          "sha": "2f82552",
+          "message": "Build GAME ENSE arcade community site",
+          "date": "2026-08-02T02:24:41Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/2f825524bc16795e92cdd7373e414139273713d3"
         }
       ],
-      "updatedAt": "2026-08-02T02:41:17Z",
+      "updatedAt": "2026-08-02T03:58:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -294,113 +457,6 @@
         }
       ],
       "updatedAt": "2026-08-02T02:12:36Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "a594866",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T01:58:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a594866c09756f301f64553a8d317737bbe8c3e4"
-        },
-        {
-          "sha": "f8c538a",
-          "message": "Merge pull request #12 from syunnjack/codex/render-king-epark-video",
-          "date": "2026-08-02T01:18:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8c538aa65533d8b38d2bb6f58a0232426cfaa03"
-        },
-        {
-          "sha": "7a96119",
-          "message": "Publish complete repository video set",
-          "date": "2026-08-02T01:08:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a961195cf1c769fda68ba08d59c558549f1f26e"
-        },
-        {
-          "sha": "5964dad",
-          "message": "Fix Japanese text in generated video",
-          "date": "2026-08-02T01:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5964dadaaff5ccdb0a4be65242f661af3aa07f7c"
-        },
-        {
-          "sha": "ec0e0c1",
-          "message": "Use Japanese copy in repository videos",
-          "date": "2026-08-02T00:48:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ec0e0c10b9764dcefe9fc92112d75cf480a2c403"
-        },
-        {
-          "sha": "1b96f6e",
-          "message": "Add king-epark-neo explainer video",
-          "date": "2026-08-02T00:42:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1b96f6ec05a835b44bf5ced4827e5419e60dd37a"
-        },
-        {
-          "sha": "0d2be1f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T00:59:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2be1f133df5677e5db3ed72cfe837db0257a9b"
-        },
-        {
-          "sha": "20e41c4",
-          "message": "Fix repository count and add king-epark-neo article (#11)",
-          "date": "2026-08-02T00:28:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
-        },
-        {
-          "sha": "2c98530",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T00:05:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
-        },
-        {
-          "sha": "7e4aa2c",
-          "message": "Remove blocked F1 favorite video",
-          "date": "2026-08-01T23:57:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
-        },
-        {
-          "sha": "5a8a7be",
-          "message": "Run repository article automation hourly",
-          "date": "2026-08-01T23:53:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5a8a7be8dcc6577fa4eec5adf3d7ec054846ac14"
-        },
-        {
-          "sha": "681a0bb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T23:41:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/681a0bb0abd15fafe4550f2d670ecfb2c781d346"
-        }
-      ],
-      "updatedAt": "2026-08-02T01:58:49Z",
       "stars": 0,
       "forks": 0
     },
