@@ -1,14 +1,165 @@
 {
-  "generatedAt": "2026-08-02T00:59:38.225Z",
+  "generatedAt": "2026-08-02T01:58:30.976Z",
   "owner": "syunnjack",
-  "totalRepositories": 160,
-  "publicRepositories": 158,
+  "totalRepositories": 161,
+  "publicRepositories": 159,
   "privateRepositories": 2,
   "skippedRepositories": [
     "abeshi-mvp",
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "wangan-base",
+      "name": "wangan-base",
+      "displayName": "Wangan Base",
+      "description": "WANGAN BASE 走るほど、つながる",
+      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
+      "url": "https://github.com/syunnjack/wangan-base",
+      "defaultBranch": "codex/initial-community-site",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "6f5fe39",
+          "message": "Build initial WANGAN BASE community site",
+          "date": "2026-08-02T01:25:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
+        }
+      ],
+      "updatedAt": "2026-08-02T01:40:13Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "f8c538a",
+          "message": "Merge pull request #12 from syunnjack/codex/render-king-epark-video",
+          "date": "2026-08-02T01:18:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8c538aa65533d8b38d2bb6f58a0232426cfaa03"
+        },
+        {
+          "sha": "7a96119",
+          "message": "Publish complete repository video set",
+          "date": "2026-08-02T01:08:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a961195cf1c769fda68ba08d59c558549f1f26e"
+        },
+        {
+          "sha": "5964dad",
+          "message": "Fix Japanese text in generated video",
+          "date": "2026-08-02T01:04:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5964dadaaff5ccdb0a4be65242f661af3aa07f7c"
+        },
+        {
+          "sha": "ec0e0c1",
+          "message": "Use Japanese copy in repository videos",
+          "date": "2026-08-02T00:48:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ec0e0c10b9764dcefe9fc92112d75cf480a2c403"
+        },
+        {
+          "sha": "1b96f6e",
+          "message": "Add king-epark-neo explainer video",
+          "date": "2026-08-02T00:42:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1b96f6ec05a835b44bf5ced4827e5419e60dd37a"
+        },
+        {
+          "sha": "0d2be1f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T00:59:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2be1f133df5677e5db3ed72cfe837db0257a9b"
+        },
+        {
+          "sha": "20e41c4",
+          "message": "Fix repository count and add king-epark-neo article (#11)",
+          "date": "2026-08-02T00:28:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
+        },
+        {
+          "sha": "2c98530",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T00:05:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
+        },
+        {
+          "sha": "7e4aa2c",
+          "message": "Remove blocked F1 favorite video",
+          "date": "2026-08-01T23:57:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
+        },
+        {
+          "sha": "5a8a7be",
+          "message": "Run repository article automation hourly",
+          "date": "2026-08-01T23:53:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5a8a7be8dcc6577fa4eec5adf3d7ec054846ac14"
+        },
+        {
+          "sha": "681a0bb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T23:41:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/681a0bb0abd15fafe4550f2d670ecfb2c781d346"
+        },
+        {
+          "sha": "c48fcd3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T18:37:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c48fcd36d0a1ec060a0663db384001831e63c130"
+        }
+      ],
+      "updatedAt": "2026-08-02T01:18:25Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "king-epark-neo",
       "name": "king-epark-neo",
@@ -32,6 +183,7 @@
         "faq.html",
         "index.html",
         "llms.txt",
+        "marketing",
         "menu.html",
         "monitor-terms.html",
         "monitor.html",
@@ -44,6 +196,18 @@
         "tokushoho.html"
       ],
       "commits": [
+        {
+          "sha": "93c516d",
+          "message": "Add Monday visit materials: printable flyer and pitch deck",
+          "date": "2026-08-02T01:15:42Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/93c516d387b49df6ecca63fb3c5f6217c374ee84"
+        },
+        {
+          "sha": "48f5954",
+          "message": "Add GA4/GSC integration scaffolding; fix canonical/sitemap mismatch and broken hero image reference",
+          "date": "2026-08-02T00:58:46Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/48f5954781fd2654c59441403cab84813e869300"
+        },
         {
           "sha": "2aa7448",
           "message": "Add Phase 3 groundwork: standalone AIO/LLMO package and monthly AI search report services",
@@ -81,114 +245,7 @@
           "url": "https://github.com/syunnjack/king-epark-neo/commit/a7b63e20475a6cc22025028ea93ccac3a7fc13d4"
         }
       ],
-      "updatedAt": "2026-08-02T00:49:19Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "20e41c4",
-          "message": "Fix repository count and add king-epark-neo article (#11)",
-          "date": "2026-08-02T00:28:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
-        },
-        {
-          "sha": "2c98530",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T00:05:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
-        },
-        {
-          "sha": "7e4aa2c",
-          "message": "Remove blocked F1 favorite video",
-          "date": "2026-08-01T23:57:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
-        },
-        {
-          "sha": "5a8a7be",
-          "message": "Run repository article automation hourly",
-          "date": "2026-08-01T23:53:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5a8a7be8dcc6577fa4eec5adf3d7ec054846ac14"
-        },
-        {
-          "sha": "681a0bb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T23:41:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/681a0bb0abd15fafe4550f2d670ecfb2c781d346"
-        },
-        {
-          "sha": "c48fcd3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T18:37:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c48fcd36d0a1ec060a0663db384001831e63c130"
-        },
-        {
-          "sha": "3df0845",
-          "message": "独自ドメインとアクセス解析連携を準備",
-          "date": "2026-08-01T12:27:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3df0845ef763d81a018b61f93f25a1c930e23126"
-        },
-        {
-          "sha": "275ba74",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T11:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/275ba74a2019d33a047c9d8fe984aa5e17754907"
-        },
-        {
-          "sha": "7274490",
-          "message": "Dqwv2動画の固定配信URLを反映",
-          "date": "2026-08-01T05:21:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7274490378273f3d439ef019922981703296455f"
-        },
-        {
-          "sha": "a7effb7",
-          "message": "Dqwv2技術解説動画を追加",
-          "date": "2026-08-01T05:16:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7effb7ea44f191990a756f7b05287ded29bae71"
-        },
-        {
-          "sha": "eeffc4e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T04:19:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eeffc4e8231073aaa53d0d046768256de5a4c678"
-        },
-        {
-          "sha": "d342d0f",
-          "message": "記事更新後の公開処理を自動化",
-          "date": "2026-08-01T04:14:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d342d0fe06376511fab3fe3388b18f0d448e6553"
-        }
-      ],
-      "updatedAt": "2026-08-02T00:28:44Z",
+      "updatedAt": "2026-08-02T01:15:51Z",
       "stars": 0,
       "forks": 0
     },
