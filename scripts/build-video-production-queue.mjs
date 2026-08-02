@@ -70,7 +70,7 @@ const videos = repositoryData.articles
         `#技術解説 #個人開発 #${article.primaryLanguage.replace(/[^\p{L}\p{N}]/gu, "")}`,
       ].join("\n"),
       slides: [
-        { title: `${article.displayName}の技術解説`, body: "設計・実装・コミットから学ぶ短時間プレビュー" },
+        { title: `${article.displayName}の技術解説`, body: "設計・実装・コミットから学ぶ短時間の技術解説" },
         { title: "このプロジェクトは何を解決する？", body: projectSummary },
         { title: "技術スタック", body: `主要技術：${languages}\n役割を分け、保守しやすい構成を目指しています。` },
         { title: "リポジトリの読みどころ", body: `公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：${article.files.slice(0, 3).join("、") || "主要なソースファイル"}` },
