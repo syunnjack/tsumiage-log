@@ -41,7 +41,7 @@ try {
   for ($i = 0; $i -lt $slides.Count; $i++) {
     $slide = $presentation.Slides.Add($i + 1, 12)
     $slide.Background.Fill.ForeColor.RGB = 0xF5F2E9
-    [void](Add-Text $slide 'TSUMIAGE LOG / TECH VIDEO' 42 32 850 32 16 $true 0x356F55)
+    [void](Add-Text $slide $item.slides[0].title 42 32 850 32 16 $true 0x356F55)
     [void](Add-Text $slide $slides[$i].title 42 130 850 105 34 $true)
     [void](Add-Text $slide $slides[$i].body 42 270 850 170 20 $false 0x333333)
     [void](Add-Text $slide ('{0:D2}' -f ($i + 1)) 875 490 45 20 10 $false 0x666666)
