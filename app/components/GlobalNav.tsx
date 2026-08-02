@@ -1,6 +1,8 @@
 import Link from "next/link"
 
 const items = [
+  ["トップ・ホーム画面", "/"],
+  ["このブログについて", "/#about"],
   ["スマホ・パソコンの操作・設定でお困りの方へ", "/beginner"],
   ["記事", "/articles"],
   ["ポートフォリオ", "/portfolio"],
