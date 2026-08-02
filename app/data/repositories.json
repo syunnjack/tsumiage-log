@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T09:57:30.772Z",
+  "generatedAt": "2026-08-02T10:51:41.044Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "4d7c829",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T09:57:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d7c8290b0a44eac5ee61540b18f093a6e525b2d"
+        },
         {
           "sha": "505ffa7",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +110,9 @@
           "message": "Use Japanese copy in repository videos",
           "date": "2026-08-02T00:48:14Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ec0e0c10b9764dcefe9fc92112d75cf480a2c403"
-        },
-        {
-          "sha": "1b96f6e",
-          "message": "Add king-epark-neo explainer video",
-          "date": "2026-08-02T00:42:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1b96f6ec05a835b44bf5ced4827e5419e60dd37a"
         }
       ],
-      "updatedAt": "2026-08-02T09:04:08Z",
+      "updatedAt": "2026-08-02T09:57:47Z",
       "stars": 0,
       "forks": 0
     },
