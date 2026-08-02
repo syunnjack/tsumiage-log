@@ -1,9 +1,11 @@
 import Link from "next/link"
 
 const items = [
+  ["はじめての方", "/beginner"],
   ["記事", "/articles"],
   ["ポートフォリオ", "/portfolio"],
   ["プロフィール", "/profile"],
+  ["キャリア・学習", "/career-support"],
   ["サービス", "/services"],
   ["見積依頼", "/estimate"],
   ["お問い合わせ", "/contact"],

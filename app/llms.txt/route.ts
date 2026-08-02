@@ -11,6 +11,8 @@ export function GET() {
     "",
     "## Primary pages",
     "- [Home](https://syunnjack.dev/): サイト概要、学習年表、プロジェクト",
+    "- [Beginner guide](https://syunnjack.dev/beginner): パソコンやITが苦手な方向けの読み方、動画、問い合わせ案内",
+    "- [Career and learning guide](https://syunnjack.dev/career-support): IT転職、副業、フリーランス、スクール、資格の比較と相談案内",
     "- [Articles](https://syunnjack.dev/articles): 技術記事一覧",
     "- [Videos](https://syunnjack.dev/videos): 設計、コード、コミット履歴をプロジェクト別に学べる技術解説動画",
     "- [Favorite videos](https://syunnjack.dev/videos/favorites): 技術、F1、お笑い、犬猫、音楽など実際に見て気に入った動画の選定理由付きコレクション",
