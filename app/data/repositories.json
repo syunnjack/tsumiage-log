@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T12:40:59.043Z",
+  "generatedAt": "2026-08-02T13:53:23.257Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "8ecd93a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T12:41:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8ecd93aef4fc164851a6684377aa3ac04baf3cde"
+        },
         {
           "sha": "d640a02",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +110,9 @@
           "message": "Merge pull request #12 from syunnjack/codex/render-king-epark-video",
           "date": "2026-08-02T01:18:20Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f8c538aa65533d8b38d2bb6f58a0232426cfaa03"
-        },
-        {
-          "sha": "7a96119",
-          "message": "Publish complete repository video set",
-          "date": "2026-08-02T01:08:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a961195cf1c769fda68ba08d59c558549f1f26e"
         }
       ],
-      "updatedAt": "2026-08-02T11:43:15Z",
+      "updatedAt": "2026-08-02T12:41:18Z",
       "stars": 0,
       "forks": 0
     },
