@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26",
+  "updatedAt": "2026-08-02",
   "categories": [
     {
       "slug": "web-development",
@@ -373,6 +373,19 @@
       "sourceUrl": "https://www.youtube.com/watch?v=d4cB1UHgf68",
       "embedUrl": "https://www.youtube-nocookie.com/embed/d4cB1UHgf68",
       "thumbnailUrl": "https://i.ytimg.com/vi/d4cB1UHgf68/hqdefault.jpg",
+      "sourceNote": "公式チャンネルからの配信であることを確認できないため、YouTube上の元動画を優先し、権利者による公開状況もあわせて確認してください。"
+    },
+    {
+      "id": "klVgGJN62BM",
+      "title": "【これオレだよ？！】四天王 栗田貫一 貫禄のものまね！！！",
+      "author": "Merle Heard",
+      "authorUrl": "https://www.youtube.com/@merleheard2384",
+      "category": "comedy",
+      "description": "四天王の栗田貫一さんが、長年磨いてきたものまね芸を披露する映像です。",
+      "selectionReason": "声色の再現だけでなく、間の取り方や堂々としたステージ表現まで楽しめる点が印象に残ります。",
+      "sourceUrl": "https://www.youtube.com/watch?v=klVgGJN62BM",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/klVgGJN62BM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/klVgGJN62BM/hqdefault.jpg",
       "sourceNote": "公式チャンネルからの配信であることを確認できないため、YouTube上の元動画を優先し、権利者による公開状況もあわせて確認してください。"
     },
     {

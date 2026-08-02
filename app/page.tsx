@@ -91,17 +91,17 @@ export default function Home() {
             <em>積み上げる。</em>
           </h1>
           <p className="hero-lead">
-            学び、作り、振り返る開発記録。
+            パソコンが苦手な方には、専門用語をかみくだいて。
             <br />
-            答えだけでなく、考えた過程も残していきます。
+            ITエンジニアには、設計と実装の過程まで深く伝えます。
           </p>
           <div className="hero-actions">
-            <a className="button primary" href="#articles">
-              記事を読む <span aria-hidden="true">↓</span>
-            </a>
-            <a className="button secondary" href="#timeline">
-              これまでの歩み
-            </a>
+            <Link className="button primary" href="/beginner">
+              はじめての方へ <span aria-hidden="true">→</span>
+            </Link>
+            <Link className="button secondary" href="/articles">
+              技術記事を読む
+            </Link>
           </div>
         </div>
         <div className="growth-visual" aria-label="学びの積み重ねを表すグラフ">

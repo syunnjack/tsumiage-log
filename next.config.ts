@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath: isGitHubPages && !hasCustomDomain ? pagesBasePath : "",
   assetPrefix: isGitHubPages && !hasCustomDomain ? pagesBasePath : "",
+  experimental: {
+    cpus: 2,
+  },
 };
 
 export default nextConfig;
