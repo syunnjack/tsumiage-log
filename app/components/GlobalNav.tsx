@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const items = [
-  ["はじめての方", "/beginner"],
+  ["スマホ・パソコンの操作・設定でお困りの方へ", "/beginner"],
   ["記事", "/articles"],
   ["ポートフォリオ", "/portfolio"],
   ["プロフィール", "/profile"],
