@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:37:14.197Z",
+  "generatedAt": "2026-08-02T17:40:04.251Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "99d5d56",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T16:37:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/99d5d569d1c0333496bf976a645b25faa41ac535"
+        },
         {
           "sha": "6a4a586",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +110,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-02T05:30:35Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fc81516a6f44190deceeb43937990c3d8f6f5b52"
-        },
-        {
-          "sha": "9d2a08c",
-          "message": "Add beginner and career support paths (#13)",
-          "date": "2026-08-02T04:04:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9d2a08c7bc3ac1f8ad6c5ee00bcc08603521d00b"
         }
       ],
-      "updatedAt": "2026-08-02T15:43:04Z",
+      "updatedAt": "2026-08-02T16:37:45Z",
       "stars": 0,
       "forks": 0
     },
