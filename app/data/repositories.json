@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:12:37.135Z",
+  "generatedAt": "2026-08-02T08:00:00.075Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "66df330",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T07:12:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/66df3301c09467374f525819d93ab15d454e461d"
+        },
         {
           "sha": "fc81516",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +110,9 @@
           "message": "Fix repository count and add king-epark-neo article (#11)",
           "date": "2026-08-02T00:28:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
-        },
-        {
-          "sha": "2c98530",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T00:05:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c985303887a9eecc2fbdce2d9c79a5923d3c29a"
         }
       ],
-      "updatedAt": "2026-08-02T05:30:42Z",
+      "updatedAt": "2026-08-02T07:13:04Z",
       "stars": 0,
       "forks": 0
     },
