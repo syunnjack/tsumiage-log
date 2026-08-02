@@ -2,6 +2,7 @@
   "allowedRepositories": [
     "tsumiage-log"
   ],
+  "privateRepositoryCount": 2,
   "excludedRepositories": [
     "affiliate-feed-core",
     "content-stream-finder",

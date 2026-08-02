@@ -10,6 +10,7 @@ const contentPolicy = JSON.parse(
 )
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
 const allowedRepositories = new Set(contentPolicy.allowedRepositories ?? [])
+const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
 const forbiddenTerms = [
   /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i,
   /アダルト/, /成人向け/, /風俗/, /部外秘/, /社外秘/,
@@ -64,6 +65,7 @@ const repositories = gh([
   "--json",
   "name,description,isPrivate,isFork,isArchived,primaryLanguage,updatedAt,url,defaultBranchRef,stargazerCount,forkCount",
 ], [])
+const publicRepositoryCount = repositories.filter((repo) => !repo.isPrivate).length
 
 const publishable = repositories.filter(
   (repo) =>
@@ -174,8 +176,9 @@ writeFileSync(
     {
       generatedAt,
       owner,
-      totalRepositories: repositories.length,
-      publicRepositories: repositories.filter((repo) => !repo.isPrivate).length,
+      totalRepositories: publicRepositoryCount + privateRepositoryCount,
+      publicRepositories: publicRepositoryCount,
+      privateRepositories: privateRepositoryCount,
       skippedRepositories,
       articles: collected,
     },
