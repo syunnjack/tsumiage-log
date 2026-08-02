@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:18:53.768Z",
+  "generatedAt": "2026-08-02T00:59:38.225Z",
   "owner": "syunnjack",
   "totalRepositories": 160,
   "publicRepositories": 158,
@@ -24,6 +24,7 @@
         "CSS"
       ],
       "files": [
+        "CNAME",
         "README.md",
         "about-platform.html",
         "assets",
@@ -32,12 +33,47 @@
         "index.html",
         "llms.txt",
         "menu.html",
+        "monitor-terms.html",
+        "monitor.html",
+        "pricing.html",
         "reserve.html",
         "reviews.html",
         "robots.txt",
-        "sitemap.xml"
+        "services.html",
+        "sitemap.xml",
+        "tokushoho.html"
       ],
       "commits": [
+        {
+          "sha": "2aa7448",
+          "message": "Add Phase 3 groundwork: standalone AIO/LLMO package and monthly AI search report services",
+          "date": "2026-08-02T00:49:13Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/2aa7448e1654f561e9e5a66ac44b89329b60f715"
+        },
+        {
+          "sha": "8b08fc1",
+          "message": "Add Phase 2 groundwork: pricing page and tokushoho (legal disclosure) template",
+          "date": "2026-08-02T00:37:25Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/8b08fc1b3864cacc2f737e41dafecab9c6f80ecd"
+        },
+        {
+          "sha": "21a59ac",
+          "message": "Add Phase 1 monitor recruitment page, terms draft, and execution checklist",
+          "date": "2026-08-02T00:29:32Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/21a59acd8c05cbe4695ba911237aa2292b6e4d88"
+        },
+        {
+          "sha": "74986f4",
+          "message": "Point site at custom domain junbannavi.com",
+          "date": "2026-08-02T00:23:03Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/74986f4c6ab87f32799145c2a115fa116c1cb6d6"
+        },
+        {
+          "sha": "bda4840",
+          "message": "Point canonical/JSON-LD/llms.txt/robots.txt/sitemap at the live GitHub Pages URL",
+          "date": "2026-08-02T00:14:34Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/bda48400e52e82b0ba146a0d48be5df1eaf7633c"
+        },
         {
           "sha": "a7b63e2",
           "message": "Initial commit: AIO/LLMO-optimized restaurant queue/reservation demo, researched from EPARK and Yakiniku King",
@@ -45,7 +81,7 @@
           "url": "https://github.com/syunnjack/king-epark-neo/commit/a7b63e20475a6cc22025028ea93ccac3a7fc13d4"
         }
       ],
-      "updatedAt": "2026-08-02T00:12:29Z",
+      "updatedAt": "2026-08-02T00:49:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -79,6 +115,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "20e41c4",
+          "message": "Fix repository count and add king-epark-neo article (#11)",
+          "date": "2026-08-02T00:28:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/20e41c4aee257fb565a2bcfdbd03cec487338501"
+        },
         {
           "sha": "2c98530",
           "message": "Update repository articles from GitHub activity",
@@ -144,15 +186,9 @@
           "message": "記事更新後の公開処理を自動化",
           "date": "2026-08-01T04:14:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d342d0fe06376511fab3fe3388b18f0d448e6553"
-        },
-        {
-          "sha": "3162a19",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T04:05:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3162a19f561ca2feb1618b73c3de15ccd950339f"
         }
       ],
-      "updatedAt": "2026-08-02T00:06:03Z",
+      "updatedAt": "2026-08-02T00:28:44Z",
       "stars": 0,
       "forks": 0
     },
