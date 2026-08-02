@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-02T01:58:30.976Z",
+  "generatedAt": "2026-08-02T03:26:11.180Z",
   "owner": "syunnjack",
-  "totalRepositories": 161,
-  "publicRepositories": 159,
+  "totalRepositories": 163,
+  "publicRepositories": 161,
   "privateRepositories": 2,
   "skippedRepositories": [
     "abeshi-mvp",
@@ -10,10 +10,123 @@
   ],
   "articles": [
     {
+      "slug": "game-ense-",
+      "name": "game-ense-",
+      "displayName": "Game Ense",
+      "description": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Game Enseは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/game-ense-",
+      "defaultBranch": "codex/game-ense-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "6dd1975",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-08-02T03:18:34Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/6dd1975f70f84c39c62f67a556b12e83876db55b"
+        },
+        {
+          "sha": "51959b9",
+          "message": "Use game-ense.jp as canonical domain",
+          "date": "2026-08-02T02:31:22Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/51959b9f98a057742d01d218271ee530466c1b99"
+        },
+        {
+          "sha": "2f82552",
+          "message": "Build GAME ENSE arcade community site",
+          "date": "2026-08-02T02:24:41Z",
+          "url": "https://github.com/syunnjack/game-ense-/commit/2f825524bc16795e92cdd7373e414139273713d3"
+        }
+      ],
+      "updatedAt": "2026-08-02T03:19:02Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "inid-comunity",
+      "name": "iniD-comunity",
+      "displayName": "IniD Comunity",
+      "description": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです",
+      "readmeExcerpt": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです。 主な機能 最初の10プレイ向けロードマップ 初心者向けコース・車種ガイド localStorageへ保存する走行ログ 投稿、検索、カテゴリ絞り込み、いいね FAQ構造化データ、サイトマップ、robots.txt、llms.txt 開発 本サイトはファンによる非公式サイトで、ゲームメーカーおよび権利者各社とは関係ありません。",
+      "url": "https://github.com/syunnjack/iniD-comunity",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "a469ab9",
+          "message": "Prepare domain launch operations",
+          "date": "2026-08-02T03:13:20Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/a469ab9c3f83fdf10c752cd907fba5f3e269e5af"
+        },
+        {
+          "sha": "72980aa",
+          "message": "Configure touge-start.jp domain",
+          "date": "2026-08-02T02:36:28Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/72980aad39e4244277b69336847269c675bd3149"
+        },
+        {
+          "sha": "4817e13",
+          "message": "Build Initial D beginner community site",
+          "date": "2026-08-02T02:26:15Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
+        }
+      ],
+      "updatedAt": "2026-08-02T03:13:28Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "wangan-base",
       "name": "wangan-base",
       "displayName": "Wangan Base",
-      "description": "WANGAN BASE 走るほど、つながる",
+      "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
       "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
       "url": "https://github.com/syunnjack/wangan-base",
       "defaultBranch": "codex/initial-community-site",
@@ -43,13 +156,144 @@
       ],
       "commits": [
         {
+          "sha": "3be923f",
+          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
+          "date": "2026-08-02T02:25:00Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
+        },
+        {
+          "sha": "42973d3",
+          "message": "Enable GitHub Pages during deployment",
+          "date": "2026-08-02T02:23:51Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
+        },
+        {
+          "sha": "5be9895",
+          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
+          "date": "2026-08-02T02:18:06Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
+        },
+        {
+          "sha": "6bdb691",
+          "message": "Configure midnightpit.jp GitHub Pages deployment",
+          "date": "2026-08-02T02:12:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
+        },
+        {
           "sha": "6f5fe39",
           "message": "Build initial WANGAN BASE community site",
           "date": "2026-08-02T01:25:41Z",
           "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
         }
       ],
-      "updatedAt": "2026-08-02T01:40:13Z",
+      "updatedAt": "2026-08-02T02:41:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "TypeScript",
+        "Dockerfile"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "7a3cb57",
+          "message": "Merge pull request #9 from syunnjack/cursor/update-site-status-0b8e",
+          "date": "2026-08-02T02:12:32Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/7a3cb5774d30e84269b7b242173d8b1253b32ea3"
+        },
+        {
+          "sha": "e039552",
+          "message": "Fix darekore.jp target repo to task-dashboard and add patch",
+          "date": "2026-08-02T02:12:19Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/e039552e3b72351e2587ba9c211fb3e2dce71bec"
+        },
+        {
+          "sha": "1232322",
+          "message": "Merge pull request #8 from syunnjack/cursor/multi-site-analytics-setup-0b8e",
+          "date": "2026-07-30T07:36:52Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/123232236a5688d9e5cf465333d21ee60b61efff"
+        },
+        {
+          "sha": "6560847",
+          "message": "Add reusable multi-site analytics/SEO setup kit",
+          "date": "2026-07-30T07:36:41Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6560847e621c4c0ccdb47a4c6a360f31091ff30b"
+        },
+        {
+          "sha": "720435a",
+          "message": "Merge pull request #7 from syunnjack/cursor/fix-sitemap-head-0b8e",
+          "date": "2026-07-30T07:15:28Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/720435a962e8f4ab9fb87890617b52f8b7a73ced"
+        },
+        {
+          "sha": "3656fa7",
+          "message": "Allow HEAD requests for sitemap.xml and robots.txt",
+          "date": "2026-07-30T07:15:17Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3656fa7a317e0c13a2cc1a87d00cddaa0e71f11b"
+        },
+        {
+          "sha": "2ddf851",
+          "message": "Merge pull request #6 from syunnjack/cursor/search-console-verification-0b8e",
+          "date": "2026-07-30T07:10:05Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2ddf8511b27af01756bcce5d9e90cfd2a7cee5f1"
+        },
+        {
+          "sha": "58c53a8",
+          "message": "Set Google Search Console verification token on Render",
+          "date": "2026-07-30T07:09:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/58c53a84ef0c715c8425c11a65c6570559931be6"
+        },
+        {
+          "sha": "2fa2796",
+          "message": "Merge pull request #5 from syunnjack/cursor/enable-ga4-measurement-id-0b8e",
+          "date": "2026-07-30T06:44:37Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2fa2796b3e10e2078cb414248da63c3518868d01"
+        },
+        {
+          "sha": "8581d93",
+          "message": "Enable GA4 with measurement ID G-542370310 on Render",
+          "date": "2026-07-30T06:44:25Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8581d936737bf97c484b3ce2ebdff28e2de39bda"
+        },
+        {
+          "sha": "59d27e7",
+          "message": "Merge pull request #4 from syunnjack/cursor/complete-deployment-setup-0b8e",
+          "date": "2026-07-30T06:42:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/59d27e7f82eca36d44aadd4e05871d359155b28b"
+        },
+        {
+          "sha": "74d1183",
+          "message": "Fix GA4 build errors and add IndexNow for search indexing",
+          "date": "2026-07-30T06:42:02Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/74d1183a24bf110fe1694c5938f71e84a193ab1d"
+        }
+      ],
+      "updatedAt": "2026-08-02T02:12:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -83,6 +327,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "a594866",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T01:58:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a594866c09756f301f64553a8d317737bbe8c3e4"
+        },
         {
           "sha": "f8c538a",
           "message": "Merge pull request #12 from syunnjack/codex/render-king-epark-video",
@@ -148,15 +398,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-01T23:41:15Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/681a0bb0abd15fafe4550f2d670ecfb2c781d346"
-        },
-        {
-          "sha": "c48fcd3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T18:37:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c48fcd36d0a1ec060a0663db384001831e63c130"
         }
       ],
-      "updatedAt": "2026-08-02T01:18:25Z",
+      "updatedAt": "2026-08-02T01:58:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -3408,113 +3652,6 @@
         }
       ],
       "updatedAt": "2026-07-30T13:00:16Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "CSS",
-        "JavaScript",
-        "Shell",
-        "TypeScript",
-        "Dockerfile"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "1232322",
-          "message": "Merge pull request #8 from syunnjack/cursor/multi-site-analytics-setup-0b8e",
-          "date": "2026-07-30T07:36:52Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/123232236a5688d9e5cf465333d21ee60b61efff"
-        },
-        {
-          "sha": "6560847",
-          "message": "Add reusable multi-site analytics/SEO setup kit",
-          "date": "2026-07-30T07:36:41Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6560847e621c4c0ccdb47a4c6a360f31091ff30b"
-        },
-        {
-          "sha": "720435a",
-          "message": "Merge pull request #7 from syunnjack/cursor/fix-sitemap-head-0b8e",
-          "date": "2026-07-30T07:15:28Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/720435a962e8f4ab9fb87890617b52f8b7a73ced"
-        },
-        {
-          "sha": "3656fa7",
-          "message": "Allow HEAD requests for sitemap.xml and robots.txt",
-          "date": "2026-07-30T07:15:17Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3656fa7a317e0c13a2cc1a87d00cddaa0e71f11b"
-        },
-        {
-          "sha": "2ddf851",
-          "message": "Merge pull request #6 from syunnjack/cursor/search-console-verification-0b8e",
-          "date": "2026-07-30T07:10:05Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2ddf8511b27af01756bcce5d9e90cfd2a7cee5f1"
-        },
-        {
-          "sha": "58c53a8",
-          "message": "Set Google Search Console verification token on Render",
-          "date": "2026-07-30T07:09:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/58c53a84ef0c715c8425c11a65c6570559931be6"
-        },
-        {
-          "sha": "2fa2796",
-          "message": "Merge pull request #5 from syunnjack/cursor/enable-ga4-measurement-id-0b8e",
-          "date": "2026-07-30T06:44:37Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2fa2796b3e10e2078cb414248da63c3518868d01"
-        },
-        {
-          "sha": "8581d93",
-          "message": "Enable GA4 with measurement ID G-542370310 on Render",
-          "date": "2026-07-30T06:44:25Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8581d936737bf97c484b3ce2ebdff28e2de39bda"
-        },
-        {
-          "sha": "59d27e7",
-          "message": "Merge pull request #4 from syunnjack/cursor/complete-deployment-setup-0b8e",
-          "date": "2026-07-30T06:42:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/59d27e7f82eca36d44aadd4e05871d359155b28b"
-        },
-        {
-          "sha": "74d1183",
-          "message": "Fix GA4 build errors and add IndexNow for search indexing",
-          "date": "2026-07-30T06:42:02Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/74d1183a24bf110fe1694c5938f71e84a193ab1d"
-        },
-        {
-          "sha": "9c3cb5d",
-          "message": "Merge pull request #3 from syunnjack/cursor/no-access-site-improvements-0b8e",
-          "date": "2026-07-30T06:35:25Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/9c3cb5db68a076a8780b2fff7282bbfbd11b8067"
-        },
-        {
-          "sha": "d9844b9",
-          "message": "Add GA4 tracking and SEO improvements for zero-traffic site",
-          "date": "2026-07-30T06:34:18Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d9844b940b5c9e11c7864560fe607cc0058744a2"
-        }
-      ],
-      "updatedAt": "2026-07-30T07:41:34Z",
       "stars": 0,
       "forks": 0
     },
