@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T11:42:53.273Z",
+  "generatedAt": "2026-08-02T12:40:59.043Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "d640a02",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T11:43:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d640a02380ddefd2678ed00ee49d75b1af6dfdf3"
+        },
         {
           "sha": "290797f",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +110,9 @@
           "message": "Publish complete repository video set",
           "date": "2026-08-02T01:08:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7a961195cf1c769fda68ba08d59c558549f1f26e"
-        },
-        {
-          "sha": "5964dad",
-          "message": "Fix Japanese text in generated video",
-          "date": "2026-08-02T01:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5964dadaaff5ccdb0a4be65242f661af3aa07f7c"
         }
       ],
-      "updatedAt": "2026-08-02T10:52:18Z",
+      "updatedAt": "2026-08-02T11:43:15Z",
       "stars": 0,
       "forks": 0
     },
