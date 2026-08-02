@@ -1,13 +1,120 @@
 {
-  "generatedAt": "2026-08-01T23:41:00.840Z",
+  "generatedAt": "2026-08-02T00:05:45.442Z",
   "owner": "syunnjack",
-  "totalRepositories": 157,
-  "publicRepositories": 157,
+  "totalRepositories": 158,
+  "publicRepositories": 158,
   "skippedRepositories": [
     "abeshi-mvp",
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "7e4aa2c",
+          "message": "Remove blocked F1 favorite video",
+          "date": "2026-08-01T23:57:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e4aa2c23a91fde4e162e155848ab96edbbef323"
+        },
+        {
+          "sha": "5a8a7be",
+          "message": "Run repository article automation hourly",
+          "date": "2026-08-01T23:53:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5a8a7be8dcc6577fa4eec5adf3d7ec054846ac14"
+        },
+        {
+          "sha": "681a0bb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T23:41:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/681a0bb0abd15fafe4550f2d670ecfb2c781d346"
+        },
+        {
+          "sha": "c48fcd3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T18:37:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c48fcd36d0a1ec060a0663db384001831e63c130"
+        },
+        {
+          "sha": "3df0845",
+          "message": "独自ドメインとアクセス解析連携を準備",
+          "date": "2026-08-01T12:27:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3df0845ef763d81a018b61f93f25a1c930e23126"
+        },
+        {
+          "sha": "275ba74",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T11:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/275ba74a2019d33a047c9d8fe984aa5e17754907"
+        },
+        {
+          "sha": "7274490",
+          "message": "Dqwv2動画の固定配信URLを反映",
+          "date": "2026-08-01T05:21:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7274490378273f3d439ef019922981703296455f"
+        },
+        {
+          "sha": "a7effb7",
+          "message": "Dqwv2技術解説動画を追加",
+          "date": "2026-08-01T05:16:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7effb7ea44f191990a756f7b05287ded29bae71"
+        },
+        {
+          "sha": "eeffc4e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T04:19:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eeffc4e8231073aaa53d0d046768256de5a4c678"
+        },
+        {
+          "sha": "d342d0f",
+          "message": "記事更新後の公開処理を自動化",
+          "date": "2026-08-01T04:14:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d342d0fe06376511fab3fe3388b18f0d448e6553"
+        },
+        {
+          "sha": "3162a19",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-01T04:05:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3162a19f561ca2feb1618b73c3de15ccd950339f"
+        },
+        {
+          "sha": "b839dbf",
+          "message": "記事自動監視の失敗を修正",
+          "date": "2026-08-01T03:59:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b839dbf2570c10c8875331ab8325971f89b55213"
+        }
+      ],
+      "updatedAt": "2026-08-01T23:57:40Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "like-mangavi",
       "name": "like-mangavi",
@@ -1347,113 +1454,6 @@
         }
       ],
       "updatedAt": "2026-08-01T18:53:52Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "c48fcd3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T18:37:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c48fcd36d0a1ec060a0663db384001831e63c130"
-        },
-        {
-          "sha": "3df0845",
-          "message": "独自ドメインとアクセス解析連携を準備",
-          "date": "2026-08-01T12:27:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3df0845ef763d81a018b61f93f25a1c930e23126"
-        },
-        {
-          "sha": "275ba74",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T11:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/275ba74a2019d33a047c9d8fe984aa5e17754907"
-        },
-        {
-          "sha": "7274490",
-          "message": "Dqwv2動画の固定配信URLを反映",
-          "date": "2026-08-01T05:21:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7274490378273f3d439ef019922981703296455f"
-        },
-        {
-          "sha": "a7effb7",
-          "message": "Dqwv2技術解説動画を追加",
-          "date": "2026-08-01T05:16:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7effb7ea44f191990a756f7b05287ded29bae71"
-        },
-        {
-          "sha": "eeffc4e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T04:19:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eeffc4e8231073aaa53d0d046768256de5a4c678"
-        },
-        {
-          "sha": "d342d0f",
-          "message": "記事更新後の公開処理を自動化",
-          "date": "2026-08-01T04:14:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d342d0fe06376511fab3fe3388b18f0d448e6553"
-        },
-        {
-          "sha": "3162a19",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-01T04:05:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3162a19f561ca2feb1618b73c3de15ccd950339f"
-        },
-        {
-          "sha": "b839dbf",
-          "message": "記事自動監視の失敗を修正",
-          "date": "2026-08-01T03:59:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b839dbf2570c10c8875331ab8325971f89b55213"
-        },
-        {
-          "sha": "301aa63",
-          "message": "記事本文を日本語に統一",
-          "date": "2026-08-01T03:48:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/301aa630d1285a0450f5269587c305dc157603be"
-        },
-        {
-          "sha": "7846cec",
-          "message": "Replace production-status copy with reader-first guidance",
-          "date": "2026-07-31T07:05:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7846cece15482b5f8d0c66a605de695067eda269"
-        },
-        {
-          "sha": "7db702b",
-          "message": "Deploy blog with GitHub Pages",
-          "date": "2026-07-31T05:24:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7db702bd6ac13a989c55fad65abc5b7065190eac"
-        }
-      ],
-      "updatedAt": "2026-08-01T18:38:07Z",
       "stars": 0,
       "forks": 0
     },
