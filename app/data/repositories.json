@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:36:25.838Z",
+  "generatedAt": "2026-08-02T22:38:41.233Z",
   "owner": "syunnjack",
   "totalRepositories": 163,
   "publicRepositories": 161,
@@ -39,6 +39,30 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "01f5529",
+          "message": "Add home and about navigation (#17)",
+          "date": "2026-08-02T22:12:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/01f5529d4f4fa49cab7db1206846d9b1fc7e0f7e"
+        },
+        {
+          "sha": "76d6701",
+          "message": "Rename device support navigation (#16)",
+          "date": "2026-08-02T22:01:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/76d6701727071ff6668ce26ded5fd7b0a1d51bcc"
+        },
+        {
+          "sha": "a72b30c",
+          "message": "Reframe beginner support guidance (#15)",
+          "date": "2026-08-02T21:55:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a72b30ce08fc3dad4cbe396cd3afe6f8e9fe1891"
+        },
+        {
+          "sha": "4a03d44",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-02T21:36:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4a03d447960bc5648a42343c7ef731a50d246566"
+        },
         {
           "sha": "1d3f040",
           "message": "Merge pull request #14 from syunnjack/codex/automate-video-rendering",
@@ -86,33 +110,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-02T16:37:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/99d5d569d1c0333496bf976a645b25faa41ac535"
-        },
-        {
-          "sha": "6a4a586",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T15:42:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6a4a586ab2e0e2c0cdc5ca40cb168c61be272d2a"
-        },
-        {
-          "sha": "2a9d9c0",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T14:47:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a9d9c0096a0da4e3380702fd87fb7ced74958b8"
-        },
-        {
-          "sha": "00fa133",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T13:53:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/00fa133dacff6854a82a0a039eaa61b82a4a8b1c"
-        },
-        {
-          "sha": "8ecd93a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T12:41:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8ecd93aef4fc164851a6684377aa3ac04baf3cde"
         }
       ],
-      "updatedAt": "2026-08-02T20:50:54Z",
+      "updatedAt": "2026-08-02T22:12:50Z",
       "stars": 0,
       "forks": 0
     },
