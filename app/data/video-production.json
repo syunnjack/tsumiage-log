@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:20:27.408Z",
+  "generatedAt": "2026-08-03T17:03:51.211Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,55 +9,6 @@
   ],
   "queuedCount": 135,
   "videos": [
-    {
-      "slug": "gyosei-yosou",
-      "repository": "gyosei-yosou",
-      "title": "Gyosei Yosouの技術解説｜設計と実装を75秒で紹介",
-      "description": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
-      "language": "JavaScript・Python・HTML",
-      "articleUrl": "https://syunnjack.dev/articles/gyosei-yosou",
-      "repositoryUrl": "https://github.com/syunnjack/gyosei-yosou",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gyosei-yosou\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gyosei-yosou\n\nGYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです\n\n#技術解説 #個人開発 #JavaScript",
-      "slides": [
-        {
-          "title": "Gyosei Yosouの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：JavaScript・Python・HTML\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/gyosei-yosou\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Gyosei Yosouの技術構成を短く解説します。",
-        "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
-        "主な技術はJavaScript・Python・HTMLです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
     {
       "slug": "tsumiage-log",
       "repository": "tsumiage-log",
@@ -104,6 +55,55 @@
         "主な技術はTypeScript・CSS・JavaScript・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "gyosei-yosou",
+      "repository": "gyosei-yosou",
+      "title": "Gyosei Yosouの技術解説｜設計と実装を75秒で紹介",
+      "description": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
+      "language": "JavaScript・Python・HTML",
+      "articleUrl": "https://syunnjack.dev/articles/gyosei-yosou",
+      "repositoryUrl": "https://github.com/syunnjack/gyosei-yosou",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gyosei-yosou\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gyosei-yosou\n\nGYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Gyosei Yosouの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・Python・HTML\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/gyosei-yosou\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Gyosei Yosouの技術構成を短く解説します。",
+        "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
+        "主な技術はJavaScript・Python・HTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
