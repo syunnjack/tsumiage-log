@@ -3867,9 +3867,9 @@
         }
       ],
       "publishAt": "2026-10-19T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/gyosei-yosou/gyosei-yosou-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/gyosei-yosou/gyosei-yosou-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Gyosei Yosouの技術構成を短く解説します。",
@@ -3916,9 +3916,9 @@
         }
       ],
       "publishAt": "2026-10-20T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Sedora Sの技術構成を短く解説します。",
