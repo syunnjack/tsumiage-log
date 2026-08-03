@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T21:42:42.347Z",
+  "generatedAt": "2026-08-03T22:38:48.308Z",
   "owner": "syunnjack",
   "totalRepositories": 166,
   "publicRepositories": 164,
@@ -9,66 +9,6 @@
     "yuniba"
   ],
   "articles": [
-    {
-      "slug": "municipacipality-car",
-      "name": "municipacipality-car",
-      "displayName": "Municipacipality Car",
-      "description": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/municipacipality-car",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6c40211",
-          "message": "Add real official statistics (vehicle ownership, city population) to differentiate pages",
-          "date": "2026-08-03T21:21:29Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/6c402112eb5573d16b3ae25d62b11b65a53f934a"
-        },
-        {
-          "sha": "dbdc8b3",
-          "message": "Switch deploy to rsync over ssh (avoid SFTP action key-parsing issue)",
-          "date": "2026-08-03T21:12:56Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/dbdc8b31f0d227d345a8bbf8d0941e29d6580e8b"
-        },
-        {
-          "sha": "c784ec5",
-          "message": "Add major-city pages (73 cities) grouped under each prefecture",
-          "date": "2026-08-03T21:06:07Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/c784ec52ad203a71d9050f2178506e88472d8bf1"
-        },
-        {
-          "sha": "b0e6279",
-          "message": "Switch deployment target to Xserver",
-          "date": "2026-08-03T20:46:18Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/b0e6279f70f8f9026c76b12eec825db79a84b1f0"
-        },
-        {
-          "sha": "241109b",
-          "message": "Build national car buyback guide site (47 prefectures)",
-          "date": "2026-08-03T20:39:27Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
-        }
-      ],
-      "updatedAt": "2026-08-03T21:23:10Z",
-      "stars": 0,
-      "forks": 0
-    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -99,6 +39,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "bd69577",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T21:42:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bd695770ffb10ac7c35a1e83ed3147c0ad7b736c"
+        },
         {
           "sha": "ebe9592",
           "message": "Update repository articles from GitHub activity",
@@ -164,15 +110,69 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-03T07:29:50Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0ed386eaa334fd8bac318f01ce66f864903189d4"
-        },
-        {
-          "sha": "2a57073",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T05:30:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a5707321704b7729052789e9223bc941c69126d"
         }
       ],
-      "updatedAt": "2026-08-03T20:45:21Z",
+      "updatedAt": "2026-08-03T21:43:02Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "municipacipality-car",
+      "name": "municipacipality-car",
+      "displayName": "Municipacipality Car",
+      "description": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/municipacipality-car",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6c40211",
+          "message": "Add real official statistics (vehicle ownership, city population) to differentiate pages",
+          "date": "2026-08-03T21:21:29Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/6c402112eb5573d16b3ae25d62b11b65a53f934a"
+        },
+        {
+          "sha": "dbdc8b3",
+          "message": "Switch deploy to rsync over ssh (avoid SFTP action key-parsing issue)",
+          "date": "2026-08-03T21:12:56Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/dbdc8b31f0d227d345a8bbf8d0941e29d6580e8b"
+        },
+        {
+          "sha": "c784ec5",
+          "message": "Add major-city pages (73 cities) grouped under each prefecture",
+          "date": "2026-08-03T21:06:07Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/c784ec52ad203a71d9050f2178506e88472d8bf1"
+        },
+        {
+          "sha": "b0e6279",
+          "message": "Switch deployment target to Xserver",
+          "date": "2026-08-03T20:46:18Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/b0e6279f70f8f9026c76b12eec825db79a84b1f0"
+        },
+        {
+          "sha": "241109b",
+          "message": "Build national car buyback guide site (47 prefectures)",
+          "date": "2026-08-03T20:39:27Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
+        }
+      ],
+      "updatedAt": "2026-08-03T21:23:10Z",
       "stars": 0,
       "forks": 0
     },
