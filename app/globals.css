@@ -91,12 +91,43 @@
 .inquiry-form .consent { display: flex; align-items: flex-start; font-weight: 500; line-height: 1.6; }
 .inquiry-form .consent input { width: auto; margin-top: .3rem; }
 .inquiry-form button { border: 0; background: #1f6f55; color: white; padding: 1rem; font-weight: 800; cursor: pointer; }
+.privacy-confirmation { padding: 1.25rem; border-left: 4px solid #1f6f55; background: #eef2ec; }
+.privacy-confirmation strong { color: #153c2e; }
+.privacy-confirmation p { margin: .65rem 0 0; line-height: 1.7; font-size: .9rem; }
+.private-inquiry-form { display: grid; gap: 1rem; min-width: 0; }
+.private-inquiry-embed { width: 100%; min-height: 980px; border: 1px solid rgba(23,33,29,.2); background: white; }
+.private-form-link { justify-self: end; padding-bottom: .3rem; border-bottom: 1px solid currentColor; color: #1f6f55; font-weight: 800; }
 .form-error { color: #b42318; }
 .business-cta { padding: clamp(4rem,7vw,7rem) clamp(1.25rem,8vw,9rem); text-align: center; background: #dde8df; }
 .business-cta h2 { font-size: clamp(1.8rem,4vw,3.2rem); }
 .business-cta div { display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; }
+.career-diagnosis { background: #eef2ec; }
+.diagnosis-privacy { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: 0 0 2rem; padding: 1rem 1.25rem; border-left: 4px solid #1f6f55; background: #fff; }
+.diagnosis-privacy strong { color: #1f6f55; }
+.diagnosis-questions { display: grid; gap: 1rem; }
+.diagnosis-questions fieldset { margin: 0; padding: clamp(1.25rem,3vw,2rem); border: 1px solid rgba(23,33,29,.22); background: #fff; }
+.diagnosis-questions legend { padding: 0 .5rem; font-size: 1.05rem; font-weight: 800; }
+.diagnosis-questions legend span { margin-right: .75rem; color: #b6542d; font: 700 .75rem monospace; }
+.diagnosis-questions fieldset > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .65rem; margin-top: .5rem; }
+.diagnosis-questions label { display: flex; align-items: center; gap: .65rem; min-height: 50px; padding: .75rem 1rem; border: 1px solid #c5ccc8; cursor: pointer; }
+.diagnosis-questions label:has(input:checked) { border-color: #1f6f55; background: #e5efe8; box-shadow: inset 4px 0 #1f6f55; }
+.diagnosis-questions input { width: 1rem; height: 1rem; accent-color: #1f6f55; }
+.diagnosis-submit { display: block; width: min(100%,420px); margin: 1.5rem auto 0; padding: 1rem 1.5rem; border: 0; background: #1f6f55; color: #fff; font: inherit; font-weight: 800; cursor: pointer; }
+.diagnosis-submit:hover { background: #153c2e; }
+.diagnosis-error { color: #b42318; text-align: center; font-weight: 700; }
+.diagnosis-result { display: none; max-width: 840px; margin: 2rem auto 0; padding: clamp(1.5rem,4vw,3rem); background: #17211d; color: #f7f4eb; scroll-margin-top: 9rem; }
+.diagnosis-result.is-visible { display: block; }
+.diagnosis-result > p:first-child { color: #d9911b; font: 700 .75rem monospace; letter-spacing: .12em; }
+.diagnosis-result h3 { margin: .5rem 0 1rem; font-size: clamp(1.7rem,4vw,2.7rem); }
+.diagnosis-result > p:not(:first-child), .diagnosis-result li { line-height: 1.8; color: #d5ddd9; }
+.diagnosis-result ol { padding-left: 1.4rem; }
+.diagnosis-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.5rem 0; }
+.diagnosis-actions a { padding: .85rem 1rem; background: #d9911b; color: #17211d; font-weight: 800; }
+.diagnosis-actions a:last-child { background: #f7f4eb; }
+.diagnosis-result small { display: block; color: #aebcb5; line-height: 1.7; }
+.service-grid article[id] { scroll-margin-top: 9rem; }
 @media (max-width: 960px) { .work-grid,.service-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .profile-grid,.form-section { grid-template-columns: 1fr; } }
-@media (max-width: 620px) { .global-github { display:none; } .work-grid,.service-grid,.process ol { grid-template-columns: 1fr; } .business-cta div { flex-direction: column; } }
+@media (max-width: 620px) { .global-github { display:none; } .work-grid,.service-grid,.process ol,.diagnosis-questions fieldset > div { grid-template-columns: 1fr; } .business-cta div { flex-direction: column; } }
 
 * {
   box-sizing: border-box;
