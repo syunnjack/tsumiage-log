@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:30:03.778Z",
+  "generatedAt": "2026-08-03T07:29:36.800Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,55 +9,6 @@
   ],
   "queuedCount": 134,
   "videos": [
-    {
-      "slug": "sedora-s",
-      "repository": "sedora-s",
-      "title": "Sedora Sの技術解説｜設計と実装を75秒で紹介",
-      "description": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
-      "language": "C#",
-      "articleUrl": "https://syunnjack.dev/articles/sedora-s",
-      "repositoryUrl": "https://github.com/syunnjack/sedora-s",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sedora-s\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sedora-s\n\nJAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます\n\n#技術解説 #個人開発 #C",
-      "slides": [
-        {
-          "title": "Sedora Sの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：C#\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.md"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/sedora-s\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Sedora Sの技術構成を短く解説します。",
-        "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
-        "主な技術はC#です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.mdを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
     {
       "slug": "tsumiage-log",
       "repository": "tsumiage-log",
@@ -104,6 +55,55 @@
         "主な技術はTypeScript・CSS・JavaScript・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "sedora-s",
+      "repository": "sedora-s",
+      "title": "Sedora Sの技術解説｜設計と実装を75秒で紹介",
+      "description": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
+      "language": "C#",
+      "articleUrl": "https://syunnjack.dev/articles/sedora-s",
+      "repositoryUrl": "https://github.com/syunnjack/sedora-s",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sedora-s\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sedora-s\n\nJAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます\n\n#技術解説 #個人開発 #C",
+      "slides": [
+        {
+          "title": "Sedora Sの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：C#\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.md"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/sedora-s\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Sedora Sの技術構成を短く解説します。",
+        "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
+        "主な技術はC#です。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.mdを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
