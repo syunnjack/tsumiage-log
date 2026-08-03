@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:44:46.515Z",
+  "generatedAt": "2026-08-03T21:42:42.347Z",
   "owner": "syunnjack",
   "totalRepositories": 166,
   "publicRepositories": 164,
@@ -35,13 +35,37 @@
       ],
       "commits": [
         {
+          "sha": "6c40211",
+          "message": "Add real official statistics (vehicle ownership, city population) to differentiate pages",
+          "date": "2026-08-03T21:21:29Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/6c402112eb5573d16b3ae25d62b11b65a53f934a"
+        },
+        {
+          "sha": "dbdc8b3",
+          "message": "Switch deploy to rsync over ssh (avoid SFTP action key-parsing issue)",
+          "date": "2026-08-03T21:12:56Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/dbdc8b31f0d227d345a8bbf8d0941e29d6580e8b"
+        },
+        {
+          "sha": "c784ec5",
+          "message": "Add major-city pages (73 cities) grouped under each prefecture",
+          "date": "2026-08-03T21:06:07Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/c784ec52ad203a71d9050f2178506e88472d8bf1"
+        },
+        {
+          "sha": "b0e6279",
+          "message": "Switch deployment target to Xserver",
+          "date": "2026-08-03T20:46:18Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/b0e6279f70f8f9026c76b12eec825db79a84b1f0"
+        },
+        {
           "sha": "241109b",
           "message": "Build national car buyback guide site (47 prefectures)",
           "date": "2026-08-03T20:39:27Z",
           "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
         }
       ],
-      "updatedAt": "2026-08-03T20:41:29Z",
+      "updatedAt": "2026-08-03T21:23:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -75,6 +99,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "ebe9592",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T20:44:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ebe95922f5c95e49022de795bc9a98f0c2452a4b"
+        },
         {
           "sha": "03b53ae",
           "message": "Update repository articles from GitHub activity",
@@ -140,15 +170,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-03T05:30:17Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2a5707321704b7729052789e9223bc941c69126d"
-        },
-        {
-          "sha": "7a7cc8a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T03:27:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a7cc8a7337c1101ed5042786d6ca6b66f02e22e"
         }
       ],
-      "updatedAt": "2026-08-03T19:54:48Z",
+      "updatedAt": "2026-08-03T20:45:21Z",
       "stars": 0,
       "forks": 0
     },
