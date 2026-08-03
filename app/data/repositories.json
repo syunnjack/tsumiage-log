@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T13:21:47.657Z",
+  "generatedAt": "2026-08-03T15:20:27.234Z",
   "owner": "syunnjack",
   "totalRepositories": 165,
   "publicRepositories": 163,
@@ -9,6 +9,48 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "gyosei-yosou",
+      "name": "gyosei-yosou",
+      "displayName": "Gyosei Yosou",
+      "description": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
+      "readmeExcerpt": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです。 開発 データ分析 C:\\Users\\syunn\\Downloads に r2 mondai.pdf 〜 r7 mondai.pdf を配置して実行します。 R2〜R6はPDF内の日本語文字マップ不整合があるため、構造補助解析として扱います。R7は全文抽出を利用します。予測スコアは学習優先度の目安で、実際の出題を保証しません。",
+      "url": "https://github.com/syunnjack/gyosei-yosou",
+      "defaultBranch": "codex/build-ai-forecast-site",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "Python",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "requirements.txt",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a4f3bb2",
+          "message": "Clean up forecast view markup",
+          "date": "2026-08-03T13:28:38Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/a4f3bb204d1e0e311d77f37397c05b09a9ecf042"
+        },
+        {
+          "sha": "4eca113",
+          "message": "Build AI-assisted administrative scrivener exam forecast site",
+          "date": "2026-08-03T13:28:20Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
+        }
+      ],
+      "updatedAt": "2026-08-03T13:37:36Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -39,6 +81,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "53b9668",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T13:22:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/53b9668d994ebbf21cc8e1adad4fc67489cb9be1"
+        },
         {
           "sha": "6236138",
           "message": "Add AI career diagnosis and private inquiry flow (#18)",
@@ -104,15 +152,9 @@
           "message": "Add home and about navigation (#17)",
           "date": "2026-08-02T22:12:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/01f5529d4f4fa49cab7db1206846d9b1fc7e0f7e"
-        },
-        {
-          "sha": "76d6701",
-          "message": "Rename device support navigation (#16)",
-          "date": "2026-08-02T22:01:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/76d6701727071ff6668ce26ded5fd7b0a1d51bcc"
         }
       ],
-      "updatedAt": "2026-08-03T12:50:36Z",
+      "updatedAt": "2026-08-03T13:24:47Z",
       "stars": 0,
       "forks": 0
     },
