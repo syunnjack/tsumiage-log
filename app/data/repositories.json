@@ -1,14 +1,157 @@
 {
-  "generatedAt": "2026-08-03T19:53:57.394Z",
+  "generatedAt": "2026-08-03T20:44:46.515Z",
   "owner": "syunnjack",
-  "totalRepositories": 165,
-  "publicRepositories": 163,
+  "totalRepositories": 166,
+  "publicRepositories": 164,
   "privateRepositories": 2,
   "skippedRepositories": [
     "abeshi-mvp",
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "municipacipality-car",
+      "name": "municipacipality-car",
+      "displayName": "Municipacipality Car",
+      "description": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/municipacipality-car",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "241109b",
+          "message": "Build national car buyback guide site (47 prefectures)",
+          "date": "2026-08-03T20:39:27Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
+        }
+      ],
+      "updatedAt": "2026-08-03T20:41:29Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "03b53ae",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T19:54:12Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/03b53ae689379688f3e5912a0aa4fe068ed235e6"
+        },
+        {
+          "sha": "d79068d",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T18:58:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d79068d0459a8f01926714b42cdf6f739471c1a4"
+        },
+        {
+          "sha": "2baa73e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T17:56:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2baa73ec12e5e7c0fc9ce07a28deb01506bd4a19"
+        },
+        {
+          "sha": "cbbba17",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T17:04:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbbba17bf3613f86de862d404619110959e8825c"
+        },
+        {
+          "sha": "f565e5e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T15:20:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f565e5ecdfd34a61edd4384b5a77028aea392cfb"
+        },
+        {
+          "sha": "53b9668",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T13:22:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/53b9668d994ebbf21cc8e1adad4fc67489cb9be1"
+        },
+        {
+          "sha": "6236138",
+          "message": "Add AI career diagnosis and private inquiry flow (#18)",
+          "date": "2026-08-03T12:48:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/623613840900ea0287cccf3d0c80e79c01584300"
+        },
+        {
+          "sha": "dd9d17e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T11:29:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/dd9d17e04fa0e978031a6dc812939475e0960b86"
+        },
+        {
+          "sha": "f461267",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T09:29:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f461267eda701bc9bb6b7255e55108075ce218aa"
+        },
+        {
+          "sha": "0ed386e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T07:29:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0ed386eaa334fd8bac318f01ce66f864903189d4"
+        },
+        {
+          "sha": "2a57073",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T05:30:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a5707321704b7729052789e9223bc941c69126d"
+        },
+        {
+          "sha": "7a7cc8a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T03:27:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a7cc8a7337c1101ed5042786d6ca6b66f02e22e"
+        }
+      ],
+      "updatedAt": "2026-08-03T19:54:48Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "work-bar-navi",
       "name": "work-bar-navi",
@@ -3284,113 +3427,6 @@
         }
       ],
       "updatedAt": "2026-08-03T19:19:17Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "d79068d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T18:58:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d79068d0459a8f01926714b42cdf6f739471c1a4"
-        },
-        {
-          "sha": "2baa73e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T17:56:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2baa73ec12e5e7c0fc9ce07a28deb01506bd4a19"
-        },
-        {
-          "sha": "cbbba17",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T17:04:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbbba17bf3613f86de862d404619110959e8825c"
-        },
-        {
-          "sha": "f565e5e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T15:20:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f565e5ecdfd34a61edd4384b5a77028aea392cfb"
-        },
-        {
-          "sha": "53b9668",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T13:22:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/53b9668d994ebbf21cc8e1adad4fc67489cb9be1"
-        },
-        {
-          "sha": "6236138",
-          "message": "Add AI career diagnosis and private inquiry flow (#18)",
-          "date": "2026-08-03T12:48:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/623613840900ea0287cccf3d0c80e79c01584300"
-        },
-        {
-          "sha": "dd9d17e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T11:29:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/dd9d17e04fa0e978031a6dc812939475e0960b86"
-        },
-        {
-          "sha": "f461267",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T09:29:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f461267eda701bc9bb6b7255e55108075ce218aa"
-        },
-        {
-          "sha": "0ed386e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T07:29:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0ed386eaa334fd8bac318f01ce66f864903189d4"
-        },
-        {
-          "sha": "2a57073",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T05:30:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a5707321704b7729052789e9223bc941c69126d"
-        },
-        {
-          "sha": "7a7cc8a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T03:27:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a7cc8a7337c1101ed5042786d6ca6b66f02e22e"
-        },
-        {
-          "sha": "fe1b8aa",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T01:59:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe1b8aad9269f215393832432a8a991200f776b8"
-        }
-      ],
-      "updatedAt": "2026-08-03T18:58:59Z",
       "stars": 0,
       "forks": 0
     },
