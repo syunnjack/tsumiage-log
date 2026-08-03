@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:26:58.163Z",
+  "generatedAt": "2026-08-03T05:30:03.610Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 162,
@@ -14,7 +14,7 @@
       "name": "sedora-s",
       "displayName": "Sedora S",
       "description": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
-      "readmeExcerpt": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます。 対応対象 ISBN 10 / ISBN 13: 書籍 JAN: DVD、Blu ray、ゲーム、フィギュア、トレーディングカード、一般商品 仕入額、販売予定額、手数料率、送料による見込み利益計算 楽天市場の出品価格とAmazon（Keepa）の新品・中古価格を集計し、最安値・中央値・推奨販売価格を自動判定 駿河屋・アニメイトへJAN/ISBNを引き継いで公式検索（提携API提供後は自動相場集計へ移行可能） ブックオフ、ハードオフ、ネットオフ、バリューブックスを含む中古市場の利用可否・API・提携方針は MARKET PROVIDERS.md に整理 起動 bin/Release/net10.0 windows/JAN ISBN DVD作品検索.exe を実行します。Microsoft Edge WebView2 Runtimeが必要です。 API設定 ISBNはGoogle Booksから検索します。JANおよび楽天Books検索には、楽天ウェブサービスの「アプリID」と「アクセスキー」を画面下部に入力して保存してください。アクセスキーは楽天ウェブサービスの管理画面で取得します。 Amazonの新品・中古相場を自動取得する場合はKeepa APIキーも入力します。キーがない場合でも楽天市場相場の自動集計は動作します。Amazon公式API、Keepa、他市場のデータは、それぞれ正規の契約・認証情報が必要です。 Yahoo ショッピングのClient ID、PriceCharting APIトークン、eBay Application access tokenを登録すると、それぞれの相場も自動集計します。eBay価格は通貨を明示し、現段階では為替換算せず表示します。 操作 1. 画面上部の入力欄を選択する 2. バーコードを読み取る（Enter付きなら自動検索） 3. 作品・商品情報を確認する 4. 画面下部の利益計算欄へ",
+      "readmeExcerpt": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます。 対応対象 ISBN 10 / ISBN 13: 書籍 JAN: DVD、Blu ray、ゲーム、フィギュア、トレーディングカード、一般商品 仕入額、販売予定額、手数料率、送料による見込み利益計算 楽天市場の出品価格とAmazon（Keepa）の新品・中古価格を集計し、最安値・中央値・推奨販売価格を自動判定 駿河屋・アニメイトへJAN/ISBNを引き継いで公式検索（提携API提供後は自動相場集計へ移行可能） ブックオフ、ハードオフ、ネットオフ、バリューブックスを含む中古市場の利用可否・API・提携方針は MARKET PROVIDERS.md に整理 起動 bin/Release/net10.0 windows/JAN ISBN DVD作品検索.exe を実行します。Microsoft Edge WebView2 Runtimeが必要です。 API設定 ISBNはGoogle Booksから検索します。JANおよび楽天Books検索には、楽天ウェブサービスの「アプリID」と「アクセスキー」を画面下部に入力して保存してください。アクセスキーは楽天ウェブサービスの管理画面で取得します。 Amazonの新品・中古相場を自動取得する場合はKeepa APIキーも入力します。キーがない場合でも楽天市場相場の自動集計は動作します。Amazon公式API、Keepa、他市場のデータは、それぞれ正規の契約・認証情報が必要です。 Yahoo ショッピングのClient ID、PriceCharting APIトークン、eBay Application access tokenを登録すると、それぞれの相場も自動集計します。eBay価格は通貨を明示し、現段階では為替換算せず表示します。 API設定はWindows DPAPIで暗号化し、WindowsユーザーのLocalApplicationData内へ保存します。設定ファイルやAPIキーをG",
       "url": "https://github.com/syunnjack/sedora-s",
       "defaultBranch": "main",
       "primaryLanguage": "C#",
@@ -23,13 +23,63 @@
       ],
       "files": [
         "BarcodeWorkInfoComplete.csproj",
+        "DOMAIN_CANDIDATES.md",
         "MARKET_PROVIDERS.md",
         "MainForm.cs",
         "Program.cs",
         "README.md",
+        "TEST_REPORT.md",
         "収益ロードマップ.md"
       ],
       "commits": [
+        {
+          "sha": "45911e1",
+          "message": "Add Windows release build verification",
+          "date": "2026-08-03T03:55:02Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/45911e1fd92c10cd8a35da6fe8c2f3d54095625c"
+        },
+        {
+          "sha": "585a17c",
+          "message": "Prevent build outputs and secrets from being committed",
+          "date": "2026-08-03T03:55:00Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/585a17c9038d3f0fdfe5ac5c011b03f5cc914286"
+        },
+        {
+          "sha": "8ffb1c5",
+          "message": "Document encrypted API settings storage",
+          "date": "2026-08-03T03:54:59Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/8ffb1c54457391a92bc0c11c5e2bdc5afcc0ddd4"
+        },
+        {
+          "sha": "541bd39",
+          "message": "Encrypt saved API credentials with Windows DPAPI",
+          "date": "2026-08-03T03:54:57Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/541bd3920548e3180284af774c133abcdd467fe3"
+        },
+        {
+          "sha": "a34e945",
+          "message": "Record domain registrations",
+          "date": "2026-08-03T03:47:18Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/a34e94552f68e74fb317aad9f097aeab26cf96d2"
+        },
+        {
+          "sha": "be86fa8",
+          "message": "Link test report and domain candidates",
+          "date": "2026-08-03T03:28:03Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/be86fa83771e18d50828512aeaa95d45c493ac91"
+        },
+        {
+          "sha": "8807249",
+          "message": "Add DOMAIN_CANDIDATES.md",
+          "date": "2026-08-03T03:28:00Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/8807249cb6fcc350b66869058b81c57468bcc807"
+        },
+        {
+          "sha": "c720b5f",
+          "message": "Add TEST_REPORT.md",
+          "date": "2026-08-03T03:27:57Z",
+          "url": "https://github.com/syunnjack/sedora-s/commit/c720b5fee9558bb7c25e8a657b91a5b52e740a0c"
+        },
         {
           "sha": "af37fa9",
           "message": "Add individual market APIs to README.md",
@@ -53,57 +103,9 @@
           "message": "Document individual-access MARKET_PROVIDERS.md",
           "date": "2026-08-03T03:16:45Z",
           "url": "https://github.com/syunnjack/sedora-s/commit/e216e0d9233abe14358d3cf751f0414766b71d6a"
-        },
-        {
-          "sha": "5a22827",
-          "message": "Add used-market provider research",
-          "date": "2026-08-03T03:08:26Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/5a22827e622cd62a398743b803bfa7aadedde383"
-        },
-        {
-          "sha": "405984b",
-          "message": "Update 収益ロードマップ.md",
-          "date": "2026-08-03T03:06:16Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/405984b40709cc0d36eb3b8e769201c18e7acf10"
-        },
-        {
-          "sha": "82d4a05",
-          "message": "Update README.md",
-          "date": "2026-08-03T03:06:14Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/82d4a05b069757f9b62494684164b13d38c20428"
-        },
-        {
-          "sha": "7f3ae3a",
-          "message": "Update MainForm.cs",
-          "date": "2026-08-03T03:06:11Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/7f3ae3a9ad2da374f2c38677fe96af27bb30ac6c"
-        },
-        {
-          "sha": "12fcc4b",
-          "message": "Update BarcodeWorkInfoComplete.csproj",
-          "date": "2026-08-03T03:06:09Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/12fcc4becfb9a371b9d7cd396b075e495a8b1a31"
-        },
-        {
-          "sha": "09b802c",
-          "message": "Fix 収益ロードマップ.md content",
-          "date": "2026-08-03T03:03:38Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/09b802cca8cd9a771a5baec43bf1f7402f3fed03"
-        },
-        {
-          "sha": "f39cbcb",
-          "message": "Fix MainForm.cs content",
-          "date": "2026-08-03T03:03:36Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/f39cbcb44bfbba9de0e8545b13968a7f04366b1a"
-        },
-        {
-          "sha": "ca1195e",
-          "message": "Fix Program.cs content",
-          "date": "2026-08-03T03:03:33Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/ca1195ed57e0855cb359dd4c2a6ade338f5eba5d"
         }
       ],
-      "updatedAt": "2026-08-03T03:19:54Z",
+      "updatedAt": "2026-08-03T03:55:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -137,6 +139,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "7a7cc8a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T03:27:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a7cc8a7337c1101ed5042786d6ca6b66f02e22e"
+        },
         {
           "sha": "fe1b8aa",
           "message": "Update repository articles from GitHub activity",
@@ -202,15 +210,9 @@
           "message": "Automate repository video preparation",
           "date": "2026-08-02T20:42:14Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/569ac45db76164867f5ab736b9389c5d41c7c44c"
-        },
-        {
-          "sha": "72fb39a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T20:36:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/72fb39a4f69f6c2f120df15eef72f178328a3603"
         }
       ],
-      "updatedAt": "2026-08-03T01:59:28Z",
+      "updatedAt": "2026-08-03T03:27:44Z",
       "stars": 0,
       "forks": 0
     },

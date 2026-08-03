@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:26:58.298Z",
+  "generatedAt": "2026-08-03T05:30:03.778Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -33,7 +33,7 @@
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：BarcodeWorkInfoComplete.csproj、MARKET_PROVIDERS.md、MainForm.cs"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.md"
         },
         {
           "title": "コミットから分かる改善",
@@ -53,7 +53,7 @@
         "今回は、Sedora Sの技術構成を短く解説します。",
         "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
         "主な技術はC#です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、BarcodeWorkInfoComplete.csproj、MARKET_PROVIDERS.md、MainForm.csを中心に実装を確認できます。",
+        "リポジトリでは、BarcodeWorkInfoComplete.csproj、DOMAIN_CANDIDATES.md、MARKET_PROVIDERS.mdを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
