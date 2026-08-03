@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-03T11:28:49.614Z",
+  "generatedAt": "2026-08-03T13:21:47.657Z",
   "owner": "syunnjack",
-  "totalRepositories": 164,
-  "publicRepositories": 162,
+  "totalRepositories": 165,
+  "publicRepositories": 163,
   "privateRepositories": 2,
   "skippedRepositories": [
     "abeshi-mvp",
@@ -39,6 +39,18 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "6236138",
+          "message": "Add AI career diagnosis and private inquiry flow (#18)",
+          "date": "2026-08-03T12:48:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/623613840900ea0287cccf3d0c80e79c01584300"
+        },
+        {
+          "sha": "dd9d17e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T11:29:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/dd9d17e04fa0e978031a6dc812939475e0960b86"
+        },
         {
           "sha": "f461267",
           "message": "Update repository articles from GitHub activity",
@@ -98,21 +110,9 @@
           "message": "Rename device support navigation (#16)",
           "date": "2026-08-02T22:01:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/76d6701727071ff6668ce26ded5fd7b0a1d51bcc"
-        },
-        {
-          "sha": "a72b30c",
-          "message": "Reframe beginner support guidance (#15)",
-          "date": "2026-08-02T21:55:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a72b30ce08fc3dad4cbe396cd3afe6f8e9fe1891"
-        },
-        {
-          "sha": "4a03d44",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T21:36:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4a03d447960bc5648a42343c7ef731a50d246566"
         }
       ],
-      "updatedAt": "2026-08-03T09:31:40Z",
+      "updatedAt": "2026-08-03T12:50:36Z",
       "stars": 0,
       "forks": 0
     },
