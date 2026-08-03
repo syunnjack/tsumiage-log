@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import CareerAiDiagnosis from "../components/CareerAiDiagnosis"
 
 export const metadata: Metadata = {
   title: "IT転職・副業・フリーランス・スクール・資格ガイド | 積み上げログ",
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 
 const paths = [
   {
+    id: "career",
     number: "01",
     title: "IT転職",
     text: "経験の棚卸し、ポートフォリオ、応募先で求められる技術を整理し、次に準備するものを明確にします。",
@@ -18,6 +20,7 @@ const paths = [
     service: "IT転職・ポートフォリオ相談",
   },
   {
+    id: "side-business",
     number: "02",
     title: "副業・フリーランス",
     text: "提供できる作業、実績の見せ方、見積もり、問い合わせ導線を整え、案件へ応募する準備を進めます。",
@@ -26,6 +29,7 @@ const paths = [
     service: "副業・フリーランス準備相談",
   },
   {
+    id: "school",
     number: "03",
     title: "プログラミングスクール",
     text: "学習目的、料金、受講期間、質問対応、転職支援を比較し、自分に必要な支援があるかを判断します。",
@@ -34,6 +38,7 @@ const paths = [
     service: "プログラミングスクール選び相談",
   },
   {
+    id: "certification",
     number: "04",
     title: "IT資格",
     text: "目指す仕事に資格が必要かを確認し、試験範囲、学習期間、実務とのつながりから学習計画を作ります。",
@@ -87,17 +92,19 @@ export default function CareerSupportPage() {
         </p>
       </section>
 
-      <section className="business-section">
+      <CareerAiDiagnosis />
+
+      <section className="business-section" id="career-options">
         <div className="section-heading">
           <div>
-            <p className="eyebrow"><span />目的別ガイド</p>
-            <h2>今の目的に近いものを選ぶ</h2>
+            <p className="eyebrow"><span />診断後の収入・学習ルート</p>
+            <h2>診断結果に合う次の行動を選ぶ</h2>
           </div>
-          <p>相談内容を整理し、必要に応じて見積もり・問い合わせへ進めます。</p>
+          <p>詳細を確認してから、必要に応じて相談・見積もりへ進めます。</p>
         </div>
         <div className="service-grid">
           {paths.map((path) => (
-            <article key={path.title}>
+            <article key={path.title} id={`career-option-${path.id}`}>
               <span>{path.number}</span>
               <h2>{path.title}</h2>
               <p>{path.text}</p>
