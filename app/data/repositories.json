@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:03:51.036Z",
+  "generatedAt": "2026-08-03T17:56:42.037Z",
   "owner": "syunnjack",
   "totalRepositories": 165,
   "publicRepositories": 163,
@@ -9,6 +9,123 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "camp-hikaku",
+      "name": "camp-hikaku",
+      "displayName": "Camp Hikaku",
+      "description": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/camp-hikaku",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "46442b0",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T17:39:09Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/46442b0d0ebc6979969c8f4a0ebec4c501713bb8"
+        },
+        {
+          "sha": "fe1e9c7",
+          "message": "Fix: Change deploy path from dist to public",
+          "date": "2026-08-01T18:53:44Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/fe1e9c7403ea8d993f394344a4ccea3b4b36c615"
+        },
+        {
+          "sha": "efae480",
+          "message": "Fix: Add SSH port 10022 for Xserver",
+          "date": "2026-08-01T18:45:12Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/efae48023129243e0966061fb9db1a5c88b0101d"
+        },
+        {
+          "sha": "830e93e",
+          "message": "Fix: Use npm install instead of npm ci",
+          "date": "2026-08-01T18:38:45Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/830e93e0365a04ed3bb40ec5c4d248f6fb4d6b89"
+        },
+        {
+          "sha": "e4919aa",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T15:45:44Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/e4919aa4c189de469d5875c402a6a026253b8c00"
+        },
+        {
+          "sha": "8975e57",
+          "message": "キャンプ場UGC空き状況マップ＋LINE通知を新規構築",
+          "date": "2026-07-15T00:42:48Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
+        }
+      ],
+      "updatedAt": "2026-08-03T17:40:16Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gyosei-yosou",
+      "name": "gyosei-yosou",
+      "displayName": "Gyosei Yosou",
+      "description": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
+      "readmeExcerpt": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです。 開発 データ分析 C:\\Users\\syunn\\Downloads に r2 mondai.pdf 〜 r7 mondai.pdf を配置して実行します。 R2〜R6はPDF内の日本語文字マップ不整合があるため、構造補助解析として扱います。R7は全文抽出を利用します。予測スコアは学習優先度の目安で、実際の出題を保証しません。",
+      "url": "https://github.com/syunnjack/gyosei-yosou",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "Python",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "requirements.txt",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a4f3bb2",
+          "message": "Clean up forecast view markup",
+          "date": "2026-08-03T13:28:38Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/a4f3bb204d1e0e311d77f37397c05b09a9ecf042"
+        },
+        {
+          "sha": "4eca113",
+          "message": "Build AI-assisted administrative scrivener exam forecast site",
+          "date": "2026-08-03T13:28:20Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
+        }
+      ],
+      "updatedAt": "2026-08-03T13:37:36Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -39,6 +156,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "cbbba17",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T17:04:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbbba17bf3613f86de862d404619110959e8825c"
+        },
         {
           "sha": "f565e5e",
           "message": "Update repository articles from GitHub activity",
@@ -104,57 +227,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-02T23:39:48Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b6927bdbef420013fb380a966e65eee7c31c4ccf"
-        },
-        {
-          "sha": "910f9c5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-02T22:38:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/910f9c59a244b7b5a2cbdb066408f4d3990b65c8"
         }
       ],
-      "updatedAt": "2026-08-03T15:23:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "gyosei-yosou",
-      "name": "gyosei-yosou",
-      "displayName": "Gyosei Yosou",
-      "description": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです",
-      "readmeExcerpt": "GYOSAI 行政書士試験 AI予測分析 令和2〜7年度の行政書士本試験問題冊子をもとに、科目配分、抽出品質、論点横断性を可視化する学習支援サイトです。 開発 データ分析 C:\\Users\\syunn\\Downloads に r2 mondai.pdf 〜 r7 mondai.pdf を配置して実行します。 R2〜R6はPDF内の日本語文字マップ不整合があるため、構造補助解析として扱います。R7は全文抽出を利用します。予測スコアは学習優先度の目安で、実際の出題を保証しません。",
-      "url": "https://github.com/syunnjack/gyosei-yosou",
-      "defaultBranch": "codex/build-ai-forecast-site",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "Python",
-        "HTML"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "requirements.txt",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a4f3bb2",
-          "message": "Clean up forecast view markup",
-          "date": "2026-08-03T13:28:38Z",
-          "url": "https://github.com/syunnjack/gyosei-yosou/commit/a4f3bb204d1e0e311d77f37397c05b09a9ecf042"
-        },
-        {
-          "sha": "4eca113",
-          "message": "Build AI-assisted administrative scrivener exam forecast site",
-          "date": "2026-08-03T13:28:20Z",
-          "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
-        }
-      ],
-      "updatedAt": "2026-08-03T13:37:36Z",
+      "updatedAt": "2026-08-03T17:04:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -1961,75 +2036,6 @@
         }
       ],
       "updatedAt": "2026-08-01T19:08:45Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "camp-hikaku",
-      "name": "camp-hikaku",
-      "displayName": "Camp Hikaku",
-      "description": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Camp Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/camp-hikaku",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fe1e9c7",
-          "message": "Fix: Change deploy path from dist to public",
-          "date": "2026-08-01T18:53:44Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/fe1e9c7403ea8d993f394344a4ccea3b4b36c615"
-        },
-        {
-          "sha": "efae480",
-          "message": "Fix: Add SSH port 10022 for Xserver",
-          "date": "2026-08-01T18:45:12Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/efae48023129243e0966061fb9db1a5c88b0101d"
-        },
-        {
-          "sha": "830e93e",
-          "message": "Fix: Use npm install instead of npm ci",
-          "date": "2026-08-01T18:38:45Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/830e93e0365a04ed3bb40ec5c4d248f6fb4d6b89"
-        },
-        {
-          "sha": "e4919aa",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T15:45:44Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/e4919aa4c189de469d5875c402a6a026253b8c00"
-        },
-        {
-          "sha": "8975e57",
-          "message": "キャンプ場UGC空き状況マップ＋LINE通知を新規構築",
-          "date": "2026-07-15T00:42:48Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
-        }
-      ],
-      "updatedAt": "2026-08-01T18:53:52Z",
       "stars": 0,
       "forks": 0
     },
