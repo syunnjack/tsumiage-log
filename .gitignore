@@ -40,3 +40,9 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# repository video rendering intermediates
+/video-assets/repositories/*/audio/
+/video-assets/repositories/*/segments/
+/video-assets/repositories/*/rendered-slides/
+/video-assets/repositories/**/*.inspect.ndjson

@@ -5,85 +5,71 @@ param(
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Speech
 $root = Split-Path $PSScriptRoot -Parent
-$queue = Get-Content (Join-Path $root 'app/data/video-production.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$queuePath = Join-Path $root 'app/data/video-production.json'
+$queue = Get-Content $queuePath -Raw -Encoding UTF8 | ConvertFrom-Json
 $item = $queue.videos | Where-Object slug -eq $Slug | Select-Object -First 1
 if (-not $item) { throw "Video queue entry not found: $Slug" }
 
 $outputDir = Join-Path $root "video-assets/repositories/$Slug"
-New-Item -ItemType Directory -Force -Path $outputDir | Out-Null
+$renderDir = Join-Path $outputDir 'rendered-slides'
+$audioDir = Join-Path $outputDir 'audio'
+$segmentDir = Join-Path $outputDir 'segments'
 $pptxPath = Join-Path $outputDir "$Slug-tech-preview.pptx"
 $mp4Path = Join-Path $outputDir "$Slug-tech-preview.mp4"
-$audioDir = Join-Path $outputDir 'audio'
-Remove-Item -LiteralPath $pptxPath, $mp4Path -Force -ErrorAction SilentlyContinue
-New-Item -ItemType Directory -Force -Path $audioDir | Out-Null
 
-function Add-Text($slide, $text, $left, $top, $width, $height, $size, $bold = $false, $color = 0x111111) {
-  $shape = $slide.Shapes.AddTextbox(1, $left, $top, $width, $height)
-  $shape.TextFrame.TextRange.Text = $text
-  $shape.TextFrame.TextRange.Font.Name = 'Arial'
-  $shape.TextFrame.TextRange.Font.Size = $size
-  $shape.TextFrame.TextRange.Font.Bold = [int]$bold * -1
-  $shape.TextFrame.TextRange.Font.Color.RGB = $color
-  return $shape
+New-Item -ItemType Directory -Force -Path $outputDir, $renderDir, $audioDir, $segmentDir | Out-Null
+Remove-Item -LiteralPath $pptxPath, $mp4Path -Force -ErrorAction SilentlyContinue
+Get-ChildItem -LiteralPath $renderDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
+Get-ChildItem -LiteralPath $audioDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
+Get-ChildItem -LiteralPath $segmentDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
+
+& node (Join-Path $root 'scripts/create-repository-video-deck.mjs') $Slug $renderDir $pptxPath
+if ($LASTEXITCODE -ne 0) { throw 'Headless slide rendering failed.' }
+
+$ffmpegPath = & node -e "process.stdout.write(require('ffmpeg-static'))"
+if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $ffmpegPath)) {
+  throw 'ffmpeg-static executable was not found. Run npm install first.'
 }
 
 $slides = @($item.slides)
-if ($slides.Count -ne 6) { throw "Six Japanese slide definitions are required for $Slug" }
-
-$powerPoint = New-Object -ComObject PowerPoint.Application
-$presentation = $null
-try {
-  $powerPoint.Visible = -1
-  try { $powerPoint.WindowState = 2 } catch {}
-  $presentation = $powerPoint.Presentations.Add()
-  $presentation.PageSetup.SlideWidth = 960
-  $presentation.PageSetup.SlideHeight = 540
-  for ($i = 0; $i -lt $slides.Count; $i++) {
-    $slide = $presentation.Slides.Add($i + 1, 12)
-    $slide.Background.Fill.ForeColor.RGB = 0xF5F2E9
-    [void](Add-Text $slide $item.slides[0].title 42 32 850 32 16 $true 0x356F55)
-    [void](Add-Text $slide $slides[$i].title 42 130 850 105 34 $true)
-    [void](Add-Text $slide $slides[$i].body 42 270 850 170 20 $false 0x333333)
-    [void](Add-Text $slide ('{0:D2}' -f ($i + 1)) 875 490 45 20 10 $false 0x666666)
-
-    $wav = Join-Path $audioDir ('slide-{0:D2}.wav' -f ($i + 1))
-    $speaker = [System.Speech.Synthesis.SpeechSynthesizer]::new()
-    try {
-      $speaker.SelectVoice('Microsoft Haruka Desktop')
-      $speaker.SetOutputToWaveFile($wav)
-      $speaker.Speak([string]$item.narration[$i])
-    } finally { $speaker.Dispose() }
-    $player = New-Object -ComObject WMPlayer.OCX
-    $duration = [Math]::Max([double]$player.newMedia($wav).duration + 1, 5)
-    [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($player)
-    $media = $slide.Shapes.AddMediaObject2($wav, 0, -1, -20, -20, 1, 1)
-    $media.AnimationSettings.PlaySettings.PlayOnEntry = -1
-    $media.AnimationSettings.PlaySettings.HideWhileNotPlaying = -1
-    $slide.SlideShowTransition.AdvanceOnTime = -1
-    $slide.SlideShowTransition.AdvanceTime = $duration
-  }
-  $presentation.SaveAs($pptxPath)
-  $presentation.CreateVideo($mp4Path, -1, 5, 720, 30, 80)
-  $deadline = (Get-Date).AddMinutes(3)
-  while ((Get-Date) -lt $deadline -and [int]$presentation.CreateVideoStatus -notin 3, 4) { Start-Sleep -Seconds 5 }
-  if ([int]$presentation.CreateVideoStatus -ne 3 -and (-not (Test-Path $mp4Path) -or (Get-Item $mp4Path).Length -eq 0)) { throw 'Video export failed or timed out.' }
-} finally {
-  if ($presentation) {
-    try { $presentation.Close() } catch { Write-Warning "Presentation was already closed: $($_.Exception.Message)" }
-    try { [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($presentation) } catch {}
-  }
-  try { $powerPoint.Quit() } catch {}
-  try { [void][System.Runtime.InteropServices.Marshal]::FinalReleaseComObject($powerPoint) } catch {}
+if ($slides.Count -ne 6 -or @($item.narration).Count -ne 6) {
+  throw "Six Japanese slide and narration definitions are required for $Slug"
 }
+
+$segments = @()
+for ($i = 0; $i -lt $slides.Count; $i++) {
+  $number = '{0:D2}' -f ($i + 1)
+  $pngPath = Join-Path $renderDir "slide-$number.png"
+  $wavPath = Join-Path $audioDir "slide-$number.wav"
+  $segmentPath = Join-Path $segmentDir "slide-$number.mp4"
+
+  $speaker = [System.Speech.Synthesis.SpeechSynthesizer]::new()
+  try {
+    try { $speaker.SelectVoice('Microsoft Haruka Desktop') } catch { Write-Warning 'Microsoft Haruka Desktop was not found; using the default Japanese-capable voice.' }
+    $speaker.Rate = 0
+    $speaker.Volume = 100
+    $speaker.SetOutputToWaveFile($wavPath)
+    $speaker.Speak([string]$item.narration[$i])
+  } finally {
+    $speaker.Dispose()
+  }
+
+  & $ffmpegPath -y -hide_banner -loglevel error -loop 1 -framerate 30 -i $pngPath -i $wavPath -filter_complex '[1:a]apad=pad_dur=1[a]' -map '0:v' -map '[a]' -c:v libx264 -preset medium -tune stillimage -c:a aac -b:a 160k -pix_fmt yuv420p -shortest -movflags +faststart $segmentPath
+  if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $segmentPath) -or (Get-Item $segmentPath).Length -eq 0) {
+    throw "Video segment rendering failed: $number"
+  }
+  $segments += $segmentPath
+}
+
+$concatPath = Join-Path $segmentDir 'concat.txt'
+$concatLines = $segments | ForEach-Object { "file '$($_.Replace("'", "''"))'" }
+[System.IO.File]::WriteAllLines($concatPath, $concatLines, [System.Text.UTF8Encoding]::new($false))
+& $ffmpegPath -y -hide_banner -loglevel error -f concat -safe 0 -i $concatPath -c copy -movflags +faststart $mp4Path
+if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $mp4Path) -or (Get-Item $mp4Path).Length -eq 0) {
+  throw 'Final MP4 rendering failed.'
+}
+
+& node (Join-Path $root 'scripts/update-video-render-status.mjs') $Slug
+if ($LASTEXITCODE -ne 0) { throw 'Video production status update failed.' }
 
 Get-Item $mp4Path, $pptxPath | Select-Object FullName, Length
-
-if ($item.status -notin @('scheduled', 'published')) {
-  $item.status = 'rendered'
-}
-if ($item.PSObject.Properties.Name -notcontains 'localVideoUrl') { $item | Add-Member -NotePropertyName localVideoUrl -NotePropertyValue $null }
-if ($item.PSObject.Properties.Name -notcontains 'localPptxUrl') { $item | Add-Member -NotePropertyName localPptxUrl -NotePropertyValue $null }
-$item.localVideoUrl = "/videos/repositories/$Slug/$Slug-tech-preview.mp4"
-$item.localPptxUrl = "/videos/repositories/$Slug/$Slug-tech-preview.pptx"
-$json = $queue | ConvertTo-Json -Depth 20
-[System.IO.File]::WriteAllText((Join-Path $root 'app/data/video-production.json'), "$json`n", [System.Text.UTF8Encoding]::new($false))

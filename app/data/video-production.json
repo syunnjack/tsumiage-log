@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T22:38:48.481Z",
+  "generatedAt": "2026-08-04T02:18:06.646Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -94,9 +94,9 @@
         }
       ],
       "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Municipacipality Carの技術構成を短く解説します。",
@@ -3916,9 +3916,9 @@
         }
       ],
       "publishAt": "2026-10-20T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/gyosei-yosou/gyosei-yosou-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/gyosei-yosou/gyosei-yosou-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Gyosei Yosouの技術構成を短く解説します。",
@@ -3965,9 +3965,9 @@
         }
       ],
       "publishAt": "2026-10-21T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Sedora Sの技術構成を短く解説します。",
