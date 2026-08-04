@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:05:12.257Z",
+  "generatedAt": "2026-08-04T17:00:51.532Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,6 +9,55 @@
   ],
   "queuedCount": 137,
   "videos": [
+    {
+      "slug": "tsumiage-log",
+      "repository": "tsumiage-log",
+      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "language": "TypeScript・JavaScript・CSS・PowerShell",
+      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
+      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Tsumiage Logの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript・CSS・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "scheduled",
+      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
+      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
+      "narration": [
+        "今回は、Tsumiage Logの技術構成を短く解説します。",
+        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+        "主な技術はTypeScript・JavaScript・CSS・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
+        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
     {
       "slug": "retro-jihanki-live",
       "repository": "retro-jihanki-live",
@@ -44,7 +93,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-jihanki-live\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
+      "publishAt": "2026-08-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.pptx",
@@ -93,7 +142,7 @@
           "body": "記事： https://syunnjack.dev/articles/flea-price-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
+      "publishAt": "2026-08-04T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/flea-price-watch/flea-price-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/flea-price-watch/flea-price-watch-tech-preview.pptx",
@@ -142,7 +191,7 @@
           "body": "記事： https://syunnjack.dev/articles/exam-date-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-04T01:00:00.000Z",
+      "publishAt": "2026-08-05T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/exam-date-alert/exam-date-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/exam-date-alert/exam-date-alert-tech-preview.pptx",
@@ -191,7 +240,7 @@
           "body": "記事： https://syunnjack.dev/articles/event-trip-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-05T01:00:00.000Z",
+      "publishAt": "2026-08-06T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/event-trip-alert/event-trip-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/event-trip-alert/event-trip-alert-tech-preview.pptx",
@@ -240,7 +289,7 @@
           "body": "記事： https://syunnjack.dev/articles/route-delay-stay-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-06T01:00:00.000Z",
+      "publishAt": "2026-08-07T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.pptx",
@@ -289,7 +338,7 @@
           "body": "記事： https://syunnjack.dev/articles/darts-event-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-07T01:00:00.000Z",
+      "publishAt": "2026-08-08T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/darts-event-alert/darts-event-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/darts-event-alert/darts-event-alert-tech-preview.pptx",
@@ -338,7 +387,7 @@
           "body": "記事： https://syunnjack.dev/articles/buyback-price-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-08T01:00:00.000Z",
+      "publishAt": "2026-08-09T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/buyback-price-alert/buyback-price-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/buyback-price-alert/buyback-price-alert-tech-preview.pptx",
@@ -387,7 +436,7 @@
           "body": "記事： https://syunnjack.dev/articles/subsidy-alert-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-09T01:00:00.000Z",
+      "publishAt": "2026-08-10T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
@@ -436,7 +485,7 @@
           "body": "記事： https://syunnjack.dev/articles/study-reminder-ai\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-10T01:00:00.000Z",
+      "publishAt": "2026-08-11T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.pptx",
@@ -485,7 +534,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-stay-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-11T01:00:00.000Z",
+      "publishAt": "2026-08-12T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.pptx",
@@ -534,7 +583,7 @@
           "body": "記事： https://syunnjack.dev/articles/showa-retro-route\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-12T01:00:00.000Z",
+      "publishAt": "2026-08-13T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.pptx",
@@ -583,7 +632,7 @@
           "body": "記事： https://syunnjack.dev/articles/restaurant-seat-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-13T01:00:00.000Z",
+      "publishAt": "2026-08-14T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.pptx",
@@ -632,7 +681,7 @@
           "body": "記事： https://syunnjack.dev/articles/sauna-crowd-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-14T01:00:00.000Z",
+      "publishAt": "2026-08-15T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.pptx",
@@ -681,7 +730,7 @@
           "body": "記事： https://syunnjack.dev/articles/price-review-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-15T01:00:00.000Z",
+      "publishAt": "2026-08-16T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/price-review-compare/price-review-compare-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/price-review-compare/price-review-compare-tech-preview.pptx",
@@ -730,7 +779,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-game-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-16T01:00:00.000Z",
+      "publishAt": "2026-08-17T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.pptx",
@@ -779,7 +828,7 @@
           "body": "記事： https://syunnjack.dev/articles/rc-course-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-17T01:00:00.000Z",
+      "publishAt": "2026-08-18T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.pptx",
@@ -828,7 +877,7 @@
           "body": "記事： https://syunnjack.dev/articles/prize-stock-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-18T01:00:00.000Z",
+      "publishAt": "2026-08-19T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/prize-stock-finder/prize-stock-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/prize-stock-finder/prize-stock-finder-tech-preview.pptx",
@@ -877,7 +926,7 @@
           "body": "記事： https://syunnjack.dev/articles/prize-arrival-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-19T01:00:00.000Z",
+      "publishAt": "2026-08-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/prize-arrival-watch/prize-arrival-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/prize-arrival-watch/prize-arrival-watch-tech-preview.pptx",
@@ -926,7 +975,7 @@
           "body": "記事： https://syunnjack.dev/articles/prize-stock-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-20T01:00:00.000Z",
+      "publishAt": "2026-08-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/prize-stock-alert/prize-stock-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/prize-stock-alert/prize-stock-alert-tech-preview.pptx",
@@ -975,7 +1024,7 @@
           "body": "記事： https://syunnjack.dev/articles/openclose-pulse\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-21T01:00:00.000Z",
+      "publishAt": "2026-08-22T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/openclose-pulse/openclose-pulse-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/openclose-pulse/openclose-pulse-tech-preview.pptx",
@@ -1024,7 +1073,7 @@
           "body": "記事： https://syunnjack.dev/articles/niche-compare-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-22T01:00:00.000Z",
+      "publishAt": "2026-08-23T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/niche-compare-hub/niche-compare-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/niche-compare-hub/niche-compare-hub-tech-preview.pptx",
@@ -1073,7 +1122,7 @@
           "body": "記事： https://syunnjack.dev/articles/netcafe-seat-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-23T01:00:00.000Z",
+      "publishAt": "2026-08-24T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/netcafe-seat-watch/netcafe-seat-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/netcafe-seat-watch/netcafe-seat-watch-tech-preview.pptx",
@@ -1122,7 +1171,7 @@
           "body": "記事： https://syunnjack.dev/articles/local-board-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-24T01:00:00.000Z",
+      "publishAt": "2026-08-25T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/local-board-alert/local-board-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/local-board-alert/local-board-alert-tech-preview.pptx",
@@ -1171,7 +1220,7 @@
           "body": "記事： https://syunnjack.dev/articles/local-alert-radar\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-25T01:00:00.000Z",
+      "publishAt": "2026-08-26T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/local-alert-radar/local-alert-radar-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/local-alert-radar/local-alert-radar-tech-preview.pptx",
@@ -1220,7 +1269,7 @@
           "body": "記事： https://syunnjack.dev/articles/job-match-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-26T01:00:00.000Z",
+      "publishAt": "2026-08-27T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/job-match-alert/job-match-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/job-match-alert/job-match-alert-tech-preview.pptx",
@@ -1269,7 +1318,7 @@
           "body": "記事： https://syunnjack.dev/articles/hotel-price-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-27T01:00:00.000Z",
+      "publishAt": "2026-08-28T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/hotel-price-watch/hotel-price-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/hotel-price-watch/hotel-price-watch-tech-preview.pptx",
@@ -1318,7 +1367,7 @@
           "body": "記事： https://syunnjack.dev/articles/golf-slot-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-28T01:00:00.000Z",
+      "publishAt": "2026-08-29T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/golf-slot-watch/golf-slot-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/golf-slot-watch/golf-slot-watch-tech-preview.pptx",
@@ -1367,7 +1416,7 @@
           "body": "記事： https://syunnjack.dev/articles/golf-course-booking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-29T01:00:00.000Z",
+      "publishAt": "2026-08-30T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/golf-course-booking/golf-course-booking-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/golf-course-booking/golf-course-booking-tech-preview.pptx",
@@ -1416,7 +1465,7 @@
           "body": "記事： https://syunnjack.dev/articles/haikyo-archive-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-30T01:00:00.000Z",
+      "publishAt": "2026-08-31T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/haikyo-archive-map/haikyo-archive-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/haikyo-archive-map/haikyo-archive-map-tech-preview.pptx",
@@ -1465,7 +1514,7 @@
           "body": "記事： https://syunnjack.dev/articles/bowling-score-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-31T01:00:00.000Z",
+      "publishAt": "2026-09-01T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.pptx",
@@ -1514,7 +1563,7 @@
           "body": "記事： https://syunnjack.dev/articles/anchor-suggest-search\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-01T01:00:00.000Z",
+      "publishAt": "2026-09-02T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/anchor-suggest-search/anchor-suggest-search-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/anchor-suggest-search/anchor-suggest-search-tech-preview.pptx",
@@ -1563,7 +1612,7 @@
           "body": "記事： https://syunnjack.dev/articles/disaster-spot-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-02T01:00:00.000Z",
+      "publishAt": "2026-09-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/disaster-spot-alert/disaster-spot-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/disaster-spot-alert/disaster-spot-alert-tech-preview.pptx",
@@ -1612,7 +1661,7 @@
           "body": "記事： https://syunnjack.dev/articles/bar-job-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-03T01:00:00.000Z",
+      "publishAt": "2026-09-04T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/bar-job-alert/bar-job-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/bar-job-alert/bar-job-alert-tech-preview.pptx",
@@ -1661,7 +1710,7 @@
           "body": "記事： https://syunnjack.dev/articles/vs-jt\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-04T01:00:00.000Z",
+      "publishAt": "2026-09-05T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.pptx",
@@ -1672,55 +1721,6 @@
         "主な技術はJavaScript・PLpgSQL・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "tsumiage-log",
-      "repository": "tsumiage-log",
-      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "language": "TypeScript・JavaScript・CSS・PowerShell",
-      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
-      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Tsumiage Logの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript・CSS・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "scheduled",
-      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
-      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
-      "narration": [
-        "今回は、Tsumiage Logの技術構成を短く解説します。",
-        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-        "主な技術はTypeScript・JavaScript・CSS・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:05:12.075Z",
+  "generatedAt": "2026-08-04T17:00:51.357Z",
   "owner": "syunnjack",
   "totalRepositories": 168,
   "publicRepositories": 166,
@@ -9,6 +9,220 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "TypeScript",
+        "Dockerfile"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "17eb2bc",
+          "message": "Merge pull request #11 from syunnjack/cursor/site-rollout-step1-4-0b8e",
+          "date": "2026-08-04T16:48:09Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/17eb2bcb1074e34e4ffa0478cefebec431f803fe"
+        },
+        {
+          "sha": "82b9b6b",
+          "message": "Update sites.config.json with live status as of 2026-08-04",
+          "date": "2026-08-04T16:47:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/82b9b6be4046441ea24b81ec7f770c908113c31c"
+        },
+        {
+          "sha": "fb8b9ae",
+          "message": "Add rollout patches and docs for steps 1-4",
+          "date": "2026-08-04T16:47:51Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/fb8b9aed5f082a30a6da48b02af9f7da5aa14e98"
+        },
+        {
+          "sha": "c16b558",
+          "message": "Add Render custom-domain deploy path for machi-list.jp",
+          "date": "2026-08-02T02:21:23Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c16b55810f62d73fe8b41b34315ad947d7e47100"
+        },
+        {
+          "sha": "7a3cb57",
+          "message": "Merge pull request #9 from syunnjack/cursor/update-site-status-0b8e",
+          "date": "2026-08-02T02:12:32Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/7a3cb5774d30e84269b7b242173d8b1253b32ea3"
+        },
+        {
+          "sha": "e039552",
+          "message": "Fix darekore.jp target repo to task-dashboard and add patch",
+          "date": "2026-08-02T02:12:19Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/e039552e3b72351e2587ba9c211fb3e2dce71bec"
+        },
+        {
+          "sha": "1232322",
+          "message": "Merge pull request #8 from syunnjack/cursor/multi-site-analytics-setup-0b8e",
+          "date": "2026-07-30T07:36:52Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/123232236a5688d9e5cf465333d21ee60b61efff"
+        },
+        {
+          "sha": "6560847",
+          "message": "Add reusable multi-site analytics/SEO setup kit",
+          "date": "2026-07-30T07:36:41Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6560847e621c4c0ccdb47a4c6a360f31091ff30b"
+        },
+        {
+          "sha": "720435a",
+          "message": "Merge pull request #7 from syunnjack/cursor/fix-sitemap-head-0b8e",
+          "date": "2026-07-30T07:15:28Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/720435a962e8f4ab9fb87890617b52f8b7a73ced"
+        },
+        {
+          "sha": "3656fa7",
+          "message": "Allow HEAD requests for sitemap.xml and robots.txt",
+          "date": "2026-07-30T07:15:17Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3656fa7a317e0c13a2cc1a87d00cddaa0e71f11b"
+        },
+        {
+          "sha": "2ddf851",
+          "message": "Merge pull request #6 from syunnjack/cursor/search-console-verification-0b8e",
+          "date": "2026-07-30T07:10:05Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2ddf8511b27af01756bcce5d9e90cfd2a7cee5f1"
+        },
+        {
+          "sha": "58c53a8",
+          "message": "Set Google Search Console verification token on Render",
+          "date": "2026-07-30T07:09:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/58c53a84ef0c715c8425c11a65c6570559931be6"
+        }
+      ],
+      "updatedAt": "2026-08-04T16:50:45Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "75e48d4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T16:05:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75e48d4d6fbe4f1a07982a700d4cda34b0176c70"
+        },
+        {
+          "sha": "6687efd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T15:10:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6687efdbd52522faf2e71cd41a7ae20017fe4685"
+        },
+        {
+          "sha": "d46d750",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T13:59:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d46d750d64a8007209d4662d5113a667572aa918"
+        },
+        {
+          "sha": "0e0d74a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T13:00:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0e0d74afadf8ceba29408b9daadf0796a8ecd1d2"
+        },
+        {
+          "sha": "73faea4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T12:00:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/73faea404cc6ed6b4cf24d9b13b0d27f7511bf64"
+        },
+        {
+          "sha": "74e1c31",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T11:11:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/74e1c31710c9e977e9f1112dc2c5521306c4d83d"
+        },
+        {
+          "sha": "3f6be2c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T10:18:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f6be2c89a972ce54d7866e80a800aa00692d4a3"
+        },
+        {
+          "sha": "e76de6d",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T08:08:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e76de6d50e4cd193edcc4535089616289d6528ba"
+        },
+        {
+          "sha": "4d93301",
+          "message": "Merge pull request #22 from syunnjack/codex/automated-video-20260804-164239",
+          "date": "2026-08-04T07:42:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d93301bcc56faa493d88f6a0e372281a463cdc4"
+        },
+        {
+          "sha": "0983208",
+          "message": "Publish repository articles and Japanese videos",
+          "date": "2026-08-04T07:42:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0983208fd480000f952ca5b47e169cce6283cc14"
+        },
+        {
+          "sha": "de1f421",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T07:15:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/de1f42177f8d4febbcd59ffd612e1637d676d0f4"
+        },
+        {
+          "sha": "e1c7c04",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T05:25:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1c7c0453a5eaf4ec74e33951592a8efc64d211e"
+        }
+      ],
+      "updatedAt": "2026-08-04T16:07:58Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "retro-jihanki-live",
       "name": "retro-jihanki-live",
@@ -2499,113 +2713,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:16:19Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "6687efd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T15:10:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6687efdbd52522faf2e71cd41a7ae20017fe4685"
-        },
-        {
-          "sha": "d46d750",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T13:59:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d46d750d64a8007209d4662d5113a667572aa918"
-        },
-        {
-          "sha": "0e0d74a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T13:00:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0e0d74afadf8ceba29408b9daadf0796a8ecd1d2"
-        },
-        {
-          "sha": "73faea4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T12:00:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/73faea404cc6ed6b4cf24d9b13b0d27f7511bf64"
-        },
-        {
-          "sha": "74e1c31",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T11:11:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/74e1c31710c9e977e9f1112dc2c5521306c4d83d"
-        },
-        {
-          "sha": "3f6be2c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T10:18:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f6be2c89a972ce54d7866e80a800aa00692d4a3"
-        },
-        {
-          "sha": "e76de6d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T08:08:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e76de6d50e4cd193edcc4535089616289d6528ba"
-        },
-        {
-          "sha": "4d93301",
-          "message": "Merge pull request #22 from syunnjack/codex/automated-video-20260804-164239",
-          "date": "2026-08-04T07:42:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d93301bcc56faa493d88f6a0e372281a463cdc4"
-        },
-        {
-          "sha": "0983208",
-          "message": "Publish repository articles and Japanese videos",
-          "date": "2026-08-04T07:42:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0983208fd480000f952ca5b47e169cce6283cc14"
-        },
-        {
-          "sha": "de1f421",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T07:15:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/de1f42177f8d4febbcd59ffd612e1637d676d0f4"
-        },
-        {
-          "sha": "e1c7c04",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T05:25:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e1c7c0453a5eaf4ec74e33951592a8efc64d211e"
-        },
-        {
-          "sha": "612e67a",
-          "message": "Prevent eager loading of all repository videos (#20)",
-          "date": "2026-08-04T03:49:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/612e67a2b2eebe6ce3edc95e2b2a823ed10942a3"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:14:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -7663,113 +7770,6 @@
         }
       ],
       "updatedAt": "2026-08-02T04:02:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "CSS",
-        "JavaScript",
-        "Shell",
-        "TypeScript",
-        "Dockerfile"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "7a3cb57",
-          "message": "Merge pull request #9 from syunnjack/cursor/update-site-status-0b8e",
-          "date": "2026-08-02T02:12:32Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/7a3cb5774d30e84269b7b242173d8b1253b32ea3"
-        },
-        {
-          "sha": "e039552",
-          "message": "Fix darekore.jp target repo to task-dashboard and add patch",
-          "date": "2026-08-02T02:12:19Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/e039552e3b72351e2587ba9c211fb3e2dce71bec"
-        },
-        {
-          "sha": "1232322",
-          "message": "Merge pull request #8 from syunnjack/cursor/multi-site-analytics-setup-0b8e",
-          "date": "2026-07-30T07:36:52Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/123232236a5688d9e5cf465333d21ee60b61efff"
-        },
-        {
-          "sha": "6560847",
-          "message": "Add reusable multi-site analytics/SEO setup kit",
-          "date": "2026-07-30T07:36:41Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6560847e621c4c0ccdb47a4c6a360f31091ff30b"
-        },
-        {
-          "sha": "720435a",
-          "message": "Merge pull request #7 from syunnjack/cursor/fix-sitemap-head-0b8e",
-          "date": "2026-07-30T07:15:28Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/720435a962e8f4ab9fb87890617b52f8b7a73ced"
-        },
-        {
-          "sha": "3656fa7",
-          "message": "Allow HEAD requests for sitemap.xml and robots.txt",
-          "date": "2026-07-30T07:15:17Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3656fa7a317e0c13a2cc1a87d00cddaa0e71f11b"
-        },
-        {
-          "sha": "2ddf851",
-          "message": "Merge pull request #6 from syunnjack/cursor/search-console-verification-0b8e",
-          "date": "2026-07-30T07:10:05Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2ddf8511b27af01756bcce5d9e90cfd2a7cee5f1"
-        },
-        {
-          "sha": "58c53a8",
-          "message": "Set Google Search Console verification token on Render",
-          "date": "2026-07-30T07:09:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/58c53a84ef0c715c8425c11a65c6570559931be6"
-        },
-        {
-          "sha": "2fa2796",
-          "message": "Merge pull request #5 from syunnjack/cursor/enable-ga4-measurement-id-0b8e",
-          "date": "2026-07-30T06:44:37Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2fa2796b3e10e2078cb414248da63c3518868d01"
-        },
-        {
-          "sha": "8581d93",
-          "message": "Enable GA4 with measurement ID G-542370310 on Render",
-          "date": "2026-07-30T06:44:25Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8581d936737bf97c484b3ce2ebdff28e2de39bda"
-        },
-        {
-          "sha": "59d27e7",
-          "message": "Merge pull request #4 from syunnjack/cursor/complete-deployment-setup-0b8e",
-          "date": "2026-07-30T06:42:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/59d27e7f82eca36d44aadd4e05871d359155b28b"
-        },
-        {
-          "sha": "74d1183",
-          "message": "Fix GA4 build errors and add IndexNow for search indexing",
-          "date": "2026-07-30T06:42:02Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/74d1183a24bf110fe1694c5938f71e84a193ab1d"
-        }
-      ],
-      "updatedAt": "2026-08-02T02:12:36Z",
       "stars": 0,
       "forks": 0
     },
