@@ -22,6 +22,7 @@ jobs:
       CUSTOM_DOMAIN: "syunnjack.dev"
       NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
       NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ vars.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
+      NEXT_PUBLIC_VIDEO_ASSET_REVISION: ${{ github.sha }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

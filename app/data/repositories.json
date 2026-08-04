@@ -1,50 +1,14 @@
 {
-  "generatedAt": "2026-08-03T20:44:46.515Z",
+  "generatedAt": "2026-08-04T01:59:54.698Z",
   "owner": "syunnjack",
-  "totalRepositories": 166,
-  "publicRepositories": 164,
+  "totalRepositories": 167,
+  "publicRepositories": 165,
   "privateRepositories": 2,
   "skippedRepositories": [
     "abeshi-mvp",
     "yuniba"
   ],
   "articles": [
-    {
-      "slug": "municipacipality-car",
-      "name": "municipacipality-car",
-      "displayName": "Municipacipality Car",
-      "description": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/municipacipality-car",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "241109b",
-          "message": "Build national car buyback guide site (47 prefectures)",
-          "date": "2026-08-03T20:39:27Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
-        }
-      ],
-      "updatedAt": "2026-08-03T20:41:29Z",
-      "stars": 0,
-      "forks": 0
-    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -75,6 +39,36 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "04d0456",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T00:57:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/04d045639393d5638b0c1017721ea822242d7172"
+        },
+        {
+          "sha": "ae038cf",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T23:43:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ae038cf01622713e990dcb1a816df3cb64a8ae12"
+        },
+        {
+          "sha": "a0d7bc0",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T22:39:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0d7bc047ec6f19141690c6e219ca24b8cec941b"
+        },
+        {
+          "sha": "bd69577",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T21:42:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bd695770ffb10ac7c35a1e83ed3147c0ad7b736c"
+        },
+        {
+          "sha": "ebe9592",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-03T20:44:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ebe95922f5c95e49022de795bc9a98f0c2452a4b"
+        },
         {
           "sha": "03b53ae",
           "message": "Update repository articles from GitHub activity",
@@ -116,39 +110,69 @@
           "message": "Add AI career diagnosis and private inquiry flow (#18)",
           "date": "2026-08-03T12:48:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/623613840900ea0287cccf3d0c80e79c01584300"
-        },
-        {
-          "sha": "dd9d17e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T11:29:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/dd9d17e04fa0e978031a6dc812939475e0960b86"
-        },
-        {
-          "sha": "f461267",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T09:29:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f461267eda701bc9bb6b7255e55108075ce218aa"
-        },
-        {
-          "sha": "0ed386e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T07:29:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0ed386eaa334fd8bac318f01ce66f864903189d4"
-        },
-        {
-          "sha": "2a57073",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T05:30:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a5707321704b7729052789e9223bc941c69126d"
-        },
-        {
-          "sha": "7a7cc8a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T03:27:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a7cc8a7337c1101ed5042786d6ca6b66f02e22e"
         }
       ],
-      "updatedAt": "2026-08-03T19:54:48Z",
+      "updatedAt": "2026-08-04T00:57:22Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "municipacipality-car",
+      "name": "municipacipality-car",
+      "displayName": "Municipacipality Car",
+      "description": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Municipacipality Carは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/municipacipality-car",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6c40211",
+          "message": "Add real official statistics (vehicle ownership, city population) to differentiate pages",
+          "date": "2026-08-03T21:21:29Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/6c402112eb5573d16b3ae25d62b11b65a53f934a"
+        },
+        {
+          "sha": "dbdc8b3",
+          "message": "Switch deploy to rsync over ssh (avoid SFTP action key-parsing issue)",
+          "date": "2026-08-03T21:12:56Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/dbdc8b31f0d227d345a8bbf8d0941e29d6580e8b"
+        },
+        {
+          "sha": "c784ec5",
+          "message": "Add major-city pages (73 cities) grouped under each prefecture",
+          "date": "2026-08-03T21:06:07Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/c784ec52ad203a71d9050f2178506e88472d8bf1"
+        },
+        {
+          "sha": "b0e6279",
+          "message": "Switch deployment target to Xserver",
+          "date": "2026-08-03T20:46:18Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/b0e6279f70f8f9026c76b12eec825db79a84b1f0"
+        },
+        {
+          "sha": "241109b",
+          "message": "Build national car buyback guide site (47 prefectures)",
+          "date": "2026-08-03T20:39:27Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
+        }
+      ],
+      "updatedAt": "2026-08-03T21:23:10Z",
       "stars": 0,
       "forks": 0
     },
