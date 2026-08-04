@@ -241,9 +241,9 @@
         }
       ],
       "publishAt": "2026-08-06T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/raku-toolv2/raku-toolv2-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/raku-toolv2/raku-toolv2-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Raku Toolv2の技術構成を短く解説します。",
