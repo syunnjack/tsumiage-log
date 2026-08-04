@@ -101,7 +101,7 @@ export default function VideosPage() {
           {articles.map((article, index) => (
             <article className="video-plan-card" id={article.slug} key={article.slug}>
               {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></>}
-              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
+              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="none" aria-label={`${article.displayName}の技術解説`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
               <div className="video-placeholder" aria-hidden="true">
                 <span>動画 {String(index + 1).padStart(3, "0")}</span>
                 <i>▶</i>
