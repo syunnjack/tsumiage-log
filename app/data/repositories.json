@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:08:29.551Z",
+  "generatedAt": "2026-08-04T10:18:38.937Z",
   "owner": "syunnjack",
   "totalRepositories": 167,
   "publicRepositories": 165,
@@ -9,6 +9,235 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "vr-content-gear-guide",
+      "name": "vr-content-gear-guide",
+      "displayName": "Vr Content Gear Guide",
+      "description": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/vr-content-gear-guide",
+      "defaultBranch": "codex/vrchoice-launch",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6fcefbf",
+          "message": "Rebuild as Laravel app: VR device guide with gear alert notifications",
+          "date": "2026-08-04T08:48:11Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/6fcefbfa4bdd628dfd7f7b4a401e882f69aad1f3"
+        },
+        {
+          "sha": "0c2bbf2",
+          "message": "Configure Sites project",
+          "date": "2026-07-20T23:36:52Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/0c2bbf2cf2972921ad114ca4a2dc1eda11dd9b92"
+        },
+        {
+          "sha": "e033450",
+          "message": "Build VR content and gear comparison MVP",
+          "date": "2026-07-20T23:36:02Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/e0334508f575cb657e1924582e4a39bd27121808"
+        }
+      ],
+      "updatedAt": "2026-08-04T08:51:15Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "oshi-trip-alert",
+      "name": "oshi-trip-alert",
+      "displayName": "Oshi Trip Alert",
+      "description": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/oshi-trip-alert",
+      "defaultBranch": "codex/oshi-trip-launch",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "e6ecf04",
+          "message": "Rebuild as Laravel app: travel prep guide with subscription notifications",
+          "date": "2026-08-04T08:45:02Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/e6ecf04fec146babf35d7d31fb41987f9b5441d6"
+        },
+        {
+          "sha": "0812e97",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:39:21Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
+        },
+        {
+          "sha": "d6667e2",
+          "message": "Exclude local development logs",
+          "date": "2026-07-20T22:37:35Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
+        },
+        {
+          "sha": "87dfeac",
+          "message": "Build Korea Taiwan oshi trip alerts",
+          "date": "2026-07-20T22:36:27Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
+        }
+      ],
+      "updatedAt": "2026-08-04T08:48:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "akira-special",
+      "name": "akira-special",
+      "displayName": "Akira Special",
+      "description": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/akira-special",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "490f491",
+          "message": "Rebuild as Laravel app: 1-frame release input trainer (no DB needed)",
+          "date": "2026-08-04T08:24:10Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/490f4914abad524080931f909713310c2d452cb0"
+        },
+        {
+          "sha": "9abbc49",
+          "message": "Improve beginner arcade-stick UX in app/globals.css",
+          "date": "2026-07-29T10:30:58Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/9abbc491977503d36c53a182d85457c2035c571f"
+        },
+        {
+          "sha": "6561921",
+          "message": "Improve beginner arcade-stick UX in app/layout.tsx",
+          "date": "2026-07-29T10:30:55Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/6561921a431c15116c4520ce15d4935d66b70b62"
+        },
+        {
+          "sha": "85629ba",
+          "message": "Improve beginner arcade-stick UX in app/page.tsx",
+          "date": "2026-07-29T10:30:51Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/85629ba119486a62d6b010e9ce7085178f8cd80c"
+        },
+        {
+          "sha": "13fb9f4",
+          "message": "Add public/favicon.svg",
+          "date": "2026-07-29T08:23:36Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/13fb9f4582eae6538ae1003409cda6f502aca23d"
+        },
+        {
+          "sha": "a3422c7",
+          "message": "Add tests/rendered-html.test.mjs",
+          "date": "2026-07-29T08:23:34Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/a3422c7c6beaafe5104138617f304414d233af05"
+        },
+        {
+          "sha": "c4109ea",
+          "message": "Add drizzle/meta/_journal.json",
+          "date": "2026-07-29T08:23:32Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/c4109ea392b03a720a0127937936595cb0d83225"
+        },
+        {
+          "sha": "dafeddc",
+          "message": "Add db/schema.ts",
+          "date": "2026-07-29T08:23:30Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/dafeddcd91ac8aab1e7c7aa0675fb834e6d11bd6"
+        },
+        {
+          "sha": "14f3695",
+          "message": "Add db/index.ts",
+          "date": "2026-07-29T08:23:28Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/14f369572cb42c2b42438987dd937eccdbb6ca88"
+        },
+        {
+          "sha": "03ae0d2",
+          "message": "Add worker/index.ts",
+          "date": "2026-07-29T08:23:26Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/03ae0d2d84dba85f4d8470b972bbca1e7e2bc564"
+        },
+        {
+          "sha": "a3e5788",
+          "message": "Add build/sites-vite-plugin.ts",
+          "date": "2026-07-29T08:23:23Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/a3e5788b0b20acdda6795c9079c8f290cbca84ad"
+        },
+        {
+          "sha": "209fc3d",
+          "message": "Add app/chatgpt-auth.ts",
+          "date": "2026-07-29T08:23:19Z",
+          "url": "https://github.com/syunnjack/akira-special/commit/209fc3d00b6eaf0dbc370840ba38cd7cc11b8045"
+        }
+      ],
+      "updatedAt": "2026-08-04T08:25:17Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -39,6 +268,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "e76de6d",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-04T08:08:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e76de6d50e4cd193edcc4535089616289d6528ba"
+        },
         {
           "sha": "4d93301",
           "message": "Merge pull request #22 from syunnjack/codex/automated-video-20260804-164239",
@@ -104,15 +339,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-03T22:39:02Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a0d7bc047ec6f19141690c6e219ca24b8cec941b"
-        },
-        {
-          "sha": "bd69577",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T21:42:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bd695770ffb10ac7c35a1e83ed3147c0ad7b736c"
         }
       ],
-      "updatedAt": "2026-08-04T07:44:59Z",
+      "updatedAt": "2026-08-04T08:10:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -7334,117 +7563,6 @@
       "forks": 0
     },
     {
-      "slug": "akira-special",
-      "name": "akira-special",
-      "displayName": "Akira Special",
-      "description": "Akira Specialは、TypeScript、CSS、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Akira Specialは、TypeScript、CSS、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/akira-special",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package.json",
-        "pnpm-lock.yaml",
-        "pnpm-workspace.yaml",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "9abbc49",
-          "message": "Improve beginner arcade-stick UX in app/globals.css",
-          "date": "2026-07-29T10:30:58Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/9abbc491977503d36c53a182d85457c2035c571f"
-        },
-        {
-          "sha": "6561921",
-          "message": "Improve beginner arcade-stick UX in app/layout.tsx",
-          "date": "2026-07-29T10:30:55Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/6561921a431c15116c4520ce15d4935d66b70b62"
-        },
-        {
-          "sha": "85629ba",
-          "message": "Improve beginner arcade-stick UX in app/page.tsx",
-          "date": "2026-07-29T10:30:51Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/85629ba119486a62d6b010e9ce7085178f8cd80c"
-        },
-        {
-          "sha": "13fb9f4",
-          "message": "Add public/favicon.svg",
-          "date": "2026-07-29T08:23:36Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/13fb9f4582eae6538ae1003409cda6f502aca23d"
-        },
-        {
-          "sha": "a3422c7",
-          "message": "Add tests/rendered-html.test.mjs",
-          "date": "2026-07-29T08:23:34Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/a3422c7c6beaafe5104138617f304414d233af05"
-        },
-        {
-          "sha": "c4109ea",
-          "message": "Add drizzle/meta/_journal.json",
-          "date": "2026-07-29T08:23:32Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/c4109ea392b03a720a0127937936595cb0d83225"
-        },
-        {
-          "sha": "dafeddc",
-          "message": "Add db/schema.ts",
-          "date": "2026-07-29T08:23:30Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/dafeddcd91ac8aab1e7c7aa0675fb834e6d11bd6"
-        },
-        {
-          "sha": "14f3695",
-          "message": "Add db/index.ts",
-          "date": "2026-07-29T08:23:28Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/14f369572cb42c2b42438987dd937eccdbb6ca88"
-        },
-        {
-          "sha": "03ae0d2",
-          "message": "Add worker/index.ts",
-          "date": "2026-07-29T08:23:26Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/03ae0d2d84dba85f4d8470b972bbca1e7e2bc564"
-        },
-        {
-          "sha": "a3e5788",
-          "message": "Add build/sites-vite-plugin.ts",
-          "date": "2026-07-29T08:23:23Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/a3e5788b0b20acdda6795c9079c8f290cbca84ad"
-        },
-        {
-          "sha": "209fc3d",
-          "message": "Add app/chatgpt-auth.ts",
-          "date": "2026-07-29T08:23:19Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/209fc3d00b6eaf0dbc370840ba38cd7cc11b8045"
-        },
-        {
-          "sha": "d49471a",
-          "message": "Add app/globals.css",
-          "date": "2026-07-29T08:23:17Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/d49471a367a05f508ddaad09d3ad69025a5b2e43"
-        }
-      ],
-      "updatedAt": "2026-07-29T10:32:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "reserve-serapi",
       "name": "reserve-serapi",
       "displayName": "Reserve Serapi",
@@ -8260,56 +8378,6 @@
       "forks": 0
     },
     {
-      "slug": "vr-content-gear-guide",
-      "name": "vr-content-gear-guide",
-      "displayName": "Vr Content Gear Guide",
-      "description": "Vr Content Gear Guideは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Vr Content Gear Guideは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/vr-content-gear-guide",
-      "defaultBranch": "codex/vrchoice-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "0c2bbf2",
-          "message": "Configure Sites project",
-          "date": "2026-07-20T23:36:52Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/0c2bbf2cf2972921ad114ca4a2dc1eda11dd9b92"
-        },
-        {
-          "sha": "e033450",
-          "message": "Build VR content and gear comparison MVP",
-          "date": "2026-07-20T23:36:02Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/e0334508f575cb657e1924582e4a39bd27121808"
-        }
-      ],
-      "updatedAt": "2026-07-20T23:36:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "cosme-stock-alert",
       "name": "cosme-stock-alert",
       "displayName": "Cosme Stock Alert",
@@ -8356,62 +8424,6 @@
         }
       ],
       "updatedAt": "2026-07-20T23:04:11Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "oshi-trip-alert",
-      "name": "oshi-trip-alert",
-      "displayName": "Oshi Trip Alert",
-      "description": "Oshi Trip Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Oshi Trip Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/oshi-trip-alert",
-      "defaultBranch": "codex/oshi-trip-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "0812e97",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:39:21Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
-        },
-        {
-          "sha": "d6667e2",
-          "message": "Exclude local development logs",
-          "date": "2026-07-20T22:37:35Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
-        },
-        {
-          "sha": "87dfeac",
-          "message": "Build Korea Taiwan oshi trip alerts",
-          "date": "2026-07-20T22:36:27Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
-        }
-      ],
-      "updatedAt": "2026-07-20T22:39:26Z",
       "stars": 0,
       "forks": 0
     },
