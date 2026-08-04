@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T07:39:09.136Z",
+  "generatedAt": "2026-08-04T08:08:29.551Z",
   "owner": "syunnjack",
   "totalRepositories": 167,
   "publicRepositories": 165,
@@ -39,6 +39,18 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "4d93301",
+          "message": "Merge pull request #22 from syunnjack/codex/automated-video-20260804-164239",
+          "date": "2026-08-04T07:42:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d93301bcc56faa493d88f6a0e372281a463cdc4"
+        },
+        {
+          "sha": "0983208",
+          "message": "Publish repository articles and Japanese videos",
+          "date": "2026-08-04T07:42:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0983208fd480000f952ca5b47e169cce6283cc14"
+        },
         {
           "sha": "de1f421",
           "message": "Update repository articles from GitHub activity",
@@ -98,21 +110,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-03T21:42:56Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bd695770ffb10ac7c35a1e83ed3147c0ad7b736c"
-        },
-        {
-          "sha": "ebe9592",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T20:44:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ebe95922f5c95e49022de795bc9a98f0c2452a4b"
-        },
-        {
-          "sha": "03b53ae",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-03T19:54:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/03b53ae689379688f3e5912a0aa4fe068ed235e6"
         }
       ],
-      "updatedAt": "2026-08-04T07:15:45Z",
+      "updatedAt": "2026-08-04T07:44:59Z",
       "stars": 0,
       "forks": 0
     },
