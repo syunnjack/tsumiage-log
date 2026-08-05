@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T16:54:26.317Z",
+  "generatedAt": "2026-08-05T17:54:13.572Z",
   "owner": "syunnjack",
-  "totalRepositories": 176,
-  "publicRepositories": 174,
+  "totalRepositories": 179,
+  "publicRepositories": 177,
   "privateRepositories": 2,
   "skippedRepositories": [
     "adult-comic-ranking",
@@ -15,6 +15,159 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "mgs-video-guide",
+      "name": "mgs-video-guide",
+      "displayName": "Mgs Video Guide",
+      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/mgs-video-guide",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "e74f3a1",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T17:49:43Z",
+          "url": "https://github.com/syunnjack/mgs-video-guide/commit/e74f3a1c851bf0d9077d7a350643c6e9df5ec5af"
+        },
+        {
+          "sha": "0772a42",
+          "message": "Initial build: MGS video guide landing page with widget embeds",
+          "date": "2026-08-05T17:44:20Z",
+          "url": "https://github.com/syunnjack/mgs-video-guide/commit/0772a428ab29f6dbbdd94b1bb01e464837db3653"
+        }
+      ],
+      "updatedAt": "2026-08-05T17:50:28Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "duga-video-ranking",
+      "name": "duga-video-ranking",
+      "displayName": "Duga Video Ranking",
+      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/duga-video-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1dc6e3f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T17:32:51Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
+        },
+        {
+          "sha": "a531585",
+          "message": "Initial build: DUGA popular video ranking",
+          "date": "2026-08-05T17:25:55Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
+        }
+      ],
+      "updatedAt": "2026-08-05T17:34:05Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sexy-costume-compare",
+      "name": "sexy-costume-compare",
+      "displayName": "Sexy Costume Compare",
+      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/sexy-costume-compare",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "3311e39",
+          "message": "Add Google Search Console verification; fix footer copy",
+          "date": "2026-08-05T17:09:35Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/3311e39d739e40c6a8cd45032e0d1520fa00a74d"
+        },
+        {
+          "sha": "64ef218",
+          "message": "Initial build: best-selling sexy costume ranking (Yahoo Shopping)",
+          "date": "2026-08-05T17:07:17Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/64ef218ca7414b4c34a3435ae3b44c1ccc79dd2f"
+        }
+      ],
+      "updatedAt": "2026-08-05T17:09:53Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -45,6 +198,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "37b5278",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
+        },
         {
           "sha": "1fdb459",
           "message": "Update repository articles from GitHub activity",
@@ -110,15 +269,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T05:26:01Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/28b7001d2aac9156845e91cec68744d16870d201"
-        },
-        {
-          "sha": "cb613d7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T03:27:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb613d7afc25f3631e73611289f465d65f824208"
         }
       ],
-      "updatedAt": "2026-08-05T16:03:20Z",
+      "updatedAt": "2026-08-05T16:54:50Z",
       "stars": 0,
       "forks": 0
     },
