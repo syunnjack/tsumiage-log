@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T09:18:11.825Z",
+  "generatedAt": "2026-08-05T10:15:26.396Z",
   "owner": "syunnjack",
   "totalRepositories": 168,
   "publicRepositories": 166,
@@ -9,6 +9,212 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "storage-locker-near",
+      "name": "storage-locker-near",
+      "displayName": "Storage Locker Near",
+      "description": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/storage-locker-near",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "LINE_SETUP.md",
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a46bb04",
+          "message": "Add Google Search Console verification meta tag",
+          "date": "2026-08-05T10:07:27Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/a46bb04351ff5026290a6d0298ad5980d3539245"
+        },
+        {
+          "sha": "b9b7146",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T15:03:44Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/b9b71468e397e636ec59aa6c3904fbefb48b7fba"
+        },
+        {
+          "sha": "b7604f8",
+          "message": "Rebuild as Laravel app: lockers, reviews, favorites, LINE login/webhook",
+          "date": "2026-07-30T12:58:54Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/b7604f8c951d0629466a582fac09cc567f136c9d"
+        },
+        {
+          "sha": "d61f05e",
+          "message": "Add LINE webhook setup for user ID capture",
+          "date": "2026-07-15T00:03:42Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
+        },
+        {
+          "sha": "8b39ab6",
+          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
+          "date": "2026-07-14T23:52:04Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
+        }
+      ],
+      "updatedAt": "2026-08-05T10:08:19Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "vr-content-gear-guide",
+      "name": "vr-content-gear-guide",
+      "displayName": "Vr Content Gear Guide",
+      "description": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/vr-content-gear-guide",
+      "defaultBranch": "codex/vrchoice-launch",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1499b1f",
+          "message": "Add Google Search Console verification meta tag",
+          "date": "2026-08-05T10:07:24Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/1499b1fb5af2159cce55476d4d4943b577c99f8a"
+        },
+        {
+          "sha": "6fcefbf",
+          "message": "Rebuild as Laravel app: VR device guide with gear alert notifications",
+          "date": "2026-08-04T08:48:11Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/6fcefbfa4bdd628dfd7f7b4a401e882f69aad1f3"
+        },
+        {
+          "sha": "0c2bbf2",
+          "message": "Configure Sites project",
+          "date": "2026-07-20T23:36:52Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/0c2bbf2cf2972921ad114ca4a2dc1eda11dd9b92"
+        },
+        {
+          "sha": "e033450",
+          "message": "Build VR content and gear comparison MVP",
+          "date": "2026-07-20T23:36:02Z",
+          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/e0334508f575cb657e1924582e4a39bd27121808"
+        }
+      ],
+      "updatedAt": "2026-08-05T10:08:43Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "oshi-trip-alert",
+      "name": "oshi-trip-alert",
+      "displayName": "Oshi Trip Alert",
+      "description": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/oshi-trip-alert",
+      "defaultBranch": "codex/oshi-trip-launch",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d5c5371",
+          "message": "Add Google Search Console verification meta tag",
+          "date": "2026-08-05T10:07:21Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d5c5371244eda781212675fc3afe5cc3ea6ab7ed"
+        },
+        {
+          "sha": "64c7f2b",
+          "message": "Fix Blade parse error: escape literal @ in JSON-LD",
+          "date": "2026-08-05T10:02:30Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/64c7f2ba9f19d31d215370ac6d6010da103bcafe"
+        },
+        {
+          "sha": "e6ecf04",
+          "message": "Rebuild as Laravel app: travel prep guide with subscription notifications",
+          "date": "2026-08-04T08:45:02Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/e6ecf04fec146babf35d7d31fb41987f9b5441d6"
+        },
+        {
+          "sha": "0812e97",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:39:21Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
+        },
+        {
+          "sha": "d6667e2",
+          "message": "Exclude local development logs",
+          "date": "2026-07-20T22:37:35Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
+        },
+        {
+          "sha": "87dfeac",
+          "message": "Build Korea Taiwan oshi trip alerts",
+          "date": "2026-07-20T22:36:27Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
+        }
+      ],
+      "updatedAt": "2026-08-05T10:10:23Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
@@ -39,6 +245,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "edb4dd8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T09:18:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/edb4dd867ac60c2fdba0d3ca2490119d838d354f"
+        },
         {
           "sha": "af77bc1",
           "message": "Update repository articles from GitHub activity",
@@ -104,15 +316,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-04T19:54:16Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/54cf36d3a863d2746d8d95e06d5289156cb8f95a"
-        },
-        {
-          "sha": "06f4923",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T18:52:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/06f492374b8f1ef650bd62073377dd3e166643fa"
         }
       ],
-      "updatedAt": "2026-08-05T08:10:34Z",
+      "updatedAt": "2026-08-05T09:19:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -2717,70 +2923,6 @@
       "forks": 0
     },
     {
-      "slug": "storage-locker-near",
-      "name": "storage-locker-near",
-      "displayName": "Storage Locker Near",
-      "description": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/storage-locker-near",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "LINE_SETUP.md",
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "b9b7146",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T15:03:44Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/b9b71468e397e636ec59aa6c3904fbefb48b7fba"
-        },
-        {
-          "sha": "b7604f8",
-          "message": "Rebuild as Laravel app: lockers, reviews, favorites, LINE login/webhook",
-          "date": "2026-07-30T12:58:54Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/b7604f8c951d0629466a582fac09cc567f136c9d"
-        },
-        {
-          "sha": "d61f05e",
-          "message": "Add LINE webhook setup for user ID capture",
-          "date": "2026-07-15T00:03:42Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
-        },
-        {
-          "sha": "8b39ab6",
-          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
-          "date": "2026-07-14T23:52:04Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:07:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "akira-special",
       "name": "akira-special",
       "displayName": "Akira Special",
@@ -4165,124 +4307,6 @@
         }
       ],
       "updatedAt": "2026-08-04T14:15:10Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "vr-content-gear-guide",
-      "name": "vr-content-gear-guide",
-      "displayName": "Vr Content Gear Guide",
-      "description": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/vr-content-gear-guide",
-      "defaultBranch": "codex/vrchoice-launch",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6fcefbf",
-          "message": "Rebuild as Laravel app: VR device guide with gear alert notifications",
-          "date": "2026-08-04T08:48:11Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/6fcefbfa4bdd628dfd7f7b4a401e882f69aad1f3"
-        },
-        {
-          "sha": "0c2bbf2",
-          "message": "Configure Sites project",
-          "date": "2026-07-20T23:36:52Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/0c2bbf2cf2972921ad114ca4a2dc1eda11dd9b92"
-        },
-        {
-          "sha": "e033450",
-          "message": "Build VR content and gear comparison MVP",
-          "date": "2026-07-20T23:36:02Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/e0334508f575cb657e1924582e4a39bd27121808"
-        }
-      ],
-      "updatedAt": "2026-08-04T08:51:15Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "oshi-trip-alert",
-      "name": "oshi-trip-alert",
-      "displayName": "Oshi Trip Alert",
-      "description": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/oshi-trip-alert",
-      "defaultBranch": "codex/oshi-trip-launch",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e6ecf04",
-          "message": "Rebuild as Laravel app: travel prep guide with subscription notifications",
-          "date": "2026-08-04T08:45:02Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/e6ecf04fec146babf35d7d31fb41987f9b5441d6"
-        },
-        {
-          "sha": "0812e97",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:39:21Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
-        },
-        {
-          "sha": "d6667e2",
-          "message": "Exclude local development logs",
-          "date": "2026-07-20T22:37:35Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
-        },
-        {
-          "sha": "87dfeac",
-          "message": "Build Korea Taiwan oshi trip alerts",
-          "date": "2026-07-20T22:36:27Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
-        }
-      ],
-      "updatedAt": "2026-08-04T08:48:11Z",
       "stars": 0,
       "forks": 0
     },
