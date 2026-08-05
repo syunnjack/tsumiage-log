@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-08-05T19:54:01.519Z",
+  "generatedAt": "2026-08-05T20:45:28.316Z",
   "owner": "syunnjack",
-  "totalRepositories": 186,
-  "publicRepositories": 184,
+  "totalRepositories": 190,
+  "publicRepositories": 188,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "mature-genre-ranking",
+    "adult-figure-ranking",
     "cross-asp-ranking",
     "adult-comic-ranking",
     "adult-goods-compare",
@@ -16,6 +18,266 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "unlimited-comic-hub",
+      "name": "unlimited-comic-hub",
+      "displayName": "Unlimited Comic Hub",
+      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/unlimited-comic-hub",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "126be68",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:33:01Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/126be682f209372f44c6b3a0545385b84c2c5ecf"
+        },
+        {
+          "sha": "5df6a50",
+          "message": "Initial build: unlimited comic reading plan hub",
+          "date": "2026-08-05T20:30:16Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/5df6a507df8061eb06476e5e05cd402891c39b25"
+        }
+      ],
+      "updatedAt": "2026-08-05T20:33:22Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sokmil-new-releases",
+      "name": "sokmil-new-releases",
+      "displayName": "Sokmil New Releases",
+      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/sokmil-new-releases",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "4a26942",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:07:08Z",
+          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/4a2694257e419d4c8e553ffd6d5d59c1b6cb41a7"
+        },
+        {
+          "sha": "64cd9f0",
+          "message": "Initial build: SOKMIL new release feed",
+          "date": "2026-08-05T18:00:14Z",
+          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
+        }
+      ],
+      "updatedAt": "2026-08-05T20:08:12Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "bl-tl-novel-ranking",
+      "name": "bl-tl-novel-ranking",
+      "displayName": "Bl Tl Novel Ranking",
+      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bl-tl-novel-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "35f91ef",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:02:12Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/35f91efa800a7dee1e1d886f4d2bee4bfedb4e4a"
+        },
+        {
+          "sha": "10f8a44",
+          "message": "Initial build: review-ranked BL/TL novel ranking",
+          "date": "2026-08-05T19:55:41Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/10f8a449f2aa34a4b4cfe212e5e591109ae84bf4"
+        }
+      ],
+      "updatedAt": "2026-08-05T20:03:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "c38a3f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T19:54:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c38a3f3d88e7ba725c38927174103b6e4eb9180a"
+        },
+        {
+          "sha": "778e07a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T18:53:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
+        },
+        {
+          "sha": "56b64ea",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T17:54:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
+        },
+        {
+          "sha": "37b5278",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
+        },
+        {
+          "sha": "1fdb459",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:00:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
+        },
+        {
+          "sha": "a2a33bd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T15:04:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
+        },
+        {
+          "sha": "bce7c3a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T14:00:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
+        },
+        {
+          "sha": "fc8f88e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T12:58:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
+        },
+        {
+          "sha": "224d4d2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T11:58:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/224d4d267ae8e9c499be430fb98f49d35aca64e8"
+        },
+        {
+          "sha": "7c65a7e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T11:08:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7c65a7e2b9cca7dce9f2384f94f8dd5afe7ddfab"
+        },
+        {
+          "sha": "3158932",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T10:15:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3158932c2cb471476c988922633d1dd0c72bfdec"
+        },
+        {
+          "sha": "edb4dd8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T09:18:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/edb4dd867ac60c2fdba0d3ca2490119d838d354f"
+        }
+      ],
+      "updatedAt": "2026-08-05T19:54:26Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "bl-tl-doujin-ranking",
       "name": "bl-tl-doujin-ranking",
@@ -221,113 +483,6 @@
       "forks": 0
     },
     {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "778e07a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T18:53:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
-        },
-        {
-          "sha": "56b64ea",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T17:54:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
-        },
-        {
-          "sha": "37b5278",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
-        },
-        {
-          "sha": "1fdb459",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:00:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
-        },
-        {
-          "sha": "a2a33bd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T15:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
-        },
-        {
-          "sha": "bce7c3a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T14:00:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
-        },
-        {
-          "sha": "fc8f88e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T12:58:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
-        },
-        {
-          "sha": "224d4d2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T11:58:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/224d4d267ae8e9c499be430fb98f49d35aca64e8"
-        },
-        {
-          "sha": "7c65a7e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T11:08:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7c65a7e2b9cca7dce9f2384f94f8dd5afe7ddfab"
-        },
-        {
-          "sha": "3158932",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T10:15:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3158932c2cb471476c988922633d1dd0c72bfdec"
-        },
-        {
-          "sha": "edb4dd8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T09:18:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/edb4dd867ac60c2fdba0d3ca2490119d838d354f"
-        },
-        {
-          "sha": "af77bc1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T08:09:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/af77bc1be4e096c9f720a4539e4632044cdea425"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:54:17Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "hey-douga-guide",
       "name": "hey-douga-guide",
       "displayName": "Hey Douga Guide",
@@ -375,51 +530,6 @@
         }
       ],
       "updatedAt": "2026-08-05T18:28:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sokmil-new-releases",
-      "name": "sokmil-new-releases",
-      "displayName": "Sokmil New Releases",
-      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sokmil-new-releases",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "64cd9f0",
-          "message": "Initial build: SOKMIL new release feed",
-          "date": "2026-08-05T18:00:14Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:01:34Z",
       "stars": 0,
       "forks": 0
     },
