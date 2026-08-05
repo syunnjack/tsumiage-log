@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T14:00:34.589Z",
+  "generatedAt": "2026-08-05T15:04:41.107Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -37,7 +37,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -54,7 +54,56 @@
         "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "av-debut-tracker",
+      "repository": "av-debut-tracker",
+      "title": "Av Debut Trackerの技術解説｜設計と実装を75秒で紹介",
+      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/av-debut-tracker",
+      "repositoryUrl": "https://github.com/syunnjack/av-debut-tracker",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/av-debut-tracker\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/av-debut-tracker\n\nAv Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Av Debut Trackerの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/av-debut-tracker\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Av Debut Trackerの技術構成を短く解説します。",
+        "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -104,55 +153,6 @@
         "主な技術はTypeScript・JavaScript・CSS・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "av-debut-tracker",
-      "repository": "av-debut-tracker",
-      "title": "Av Debut Trackerの技術解説｜設計と実装を75秒で紹介",
-      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/av-debut-tracker",
-      "repositoryUrl": "https://github.com/syunnjack/av-debut-tracker",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/av-debut-tracker\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/av-debut-tracker\n\nAv Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Av Debut Trackerの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/av-debut-tracker\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-04T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Av Debut Trackerの技術構成を短く解説します。",
-        "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
