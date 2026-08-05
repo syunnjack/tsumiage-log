@@ -1,25 +1,34 @@
 {
-  "generatedAt": "2026-08-05T12:58:07.767Z",
+  "generatedAt": "2026-08-05T14:00:34.409Z",
   "owner": "syunnjack",
-  "totalRepositories": 170,
-  "publicRepositories": 168,
+  "totalRepositories": 175,
+  "publicRepositories": 173,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "adult-novel-ranking",
+    "adult-goods-compare",
+    "eroge-release-alert",
+    "doujin-release-calendar",
     "fanza-sale-watch",
     "abeshi-mvp",
     "yuniba"
   ],
   "articles": [
     {
-      "slug": "av-debut-tracker",
-      "name": "av-debut-tracker",
-      "displayName": "Av Debut Tracker",
-      "description": "Av Debut Trackerは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Av Debut Trackerは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/av-debut-tracker",
+      "slug": "subscription-compare",
+      "name": "subscription-compare",
+      "displayName": "Subscription Compare",
+      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/subscription-compare",
       "defaultBranch": "master",
-      "primaryLanguage": "未分類",
-      "languages": [],
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
       "files": [
         "README.md",
         "app",
@@ -40,13 +49,13 @@
       ],
       "commits": [
         {
-          "sha": "c731cad",
-          "message": "Initial build: AV debut release tracker",
-          "date": "2026-08-05T12:54:03Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
+          "sha": "1b89a3c",
+          "message": "Initial build: unlimited-viewing plan new arrivals watch",
+          "date": "2026-08-05T13:43:40Z",
+          "url": "https://github.com/syunnjack/subscription-compare/commit/1b89a3ccd750805a19ac8d99dffe89d823493b76"
         }
       ],
-      "updatedAt": "2026-08-05T12:48:18Z",
+      "updatedAt": "2026-08-05T13:44:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -80,6 +89,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "fc8f88e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T12:58:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
+        },
         {
           "sha": "224d4d2",
           "message": "Update repository articles from GitHub activity",
@@ -145,15 +160,54 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-04T23:40:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/070198024134058ba7a72a58625e500e096c883a"
-        },
-        {
-          "sha": "345a810",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-04T22:42:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/345a810d71a737ed0d9ef197c6bece5527942ee6"
         }
       ],
-      "updatedAt": "2026-08-05T11:58:38Z",
+      "updatedAt": "2026-08-05T12:59:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "av-debut-tracker",
+      "name": "av-debut-tracker",
+      "displayName": "Av Debut Tracker",
+      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/av-debut-tracker",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "c731cad",
+          "message": "Initial build: AV debut release tracker",
+          "date": "2026-08-05T12:54:03Z",
+          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
+        }
+      ],
+      "updatedAt": "2026-08-05T12:56:16Z",
       "stars": 0,
       "forks": 0
     },
