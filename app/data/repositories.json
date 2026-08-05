@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T18:53:37.613Z",
+  "generatedAt": "2026-08-05T19:54:01.519Z",
   "owner": "syunnjack",
-  "totalRepositories": 182,
-  "publicRepositories": 180,
+  "totalRepositories": 186,
+  "publicRepositories": 184,
   "privateRepositories": 2,
   "skippedRepositories": [
     "cross-asp-ranking",
@@ -16,6 +16,317 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "bl-tl-doujin-ranking",
+      "name": "bl-tl-doujin-ranking",
+      "displayName": "Bl Tl Doujin Ranking",
+      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bl-tl-doujin-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f817525",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:38:14Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/f817525d2e5c96e5ca924e6bda0b5373b1d51a90"
+        },
+        {
+          "sha": "fa23122",
+          "message": "Initial build: BL/TL doujin new release feed",
+          "date": "2026-08-05T19:32:24Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fa23122016e537283779a88b19eee4511033e876"
+        }
+      ],
+      "updatedAt": "2026-08-05T19:38:24Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gravure-photo-ranking",
+      "name": "gravure-photo-ranking",
+      "displayName": "Gravure Photo Ranking",
+      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/gravure-photo-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "eb8aed4",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:22:58Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/eb8aed4885ef85741171d8b33a884ffc3be86450"
+        },
+        {
+          "sha": "6f88c46",
+          "message": "Initial build: review-ranked gravure photo book ranking",
+          "date": "2026-08-05T19:20:46Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/6f88c46b66a3d890325e7fa0abbee3a4ac7c1fcf"
+        }
+      ],
+      "updatedAt": "2026-08-05T19:23:31Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "free-sample-hub",
+      "name": "free-sample-hub",
+      "displayName": "Free Sample Hub",
+      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/free-sample-hub",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "fd7db7f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:09:36Z",
+          "url": "https://github.com/syunnjack/free-sample-hub/commit/fd7db7ffae866fb1a4ccb29b32b30e3c47ff2db5"
+        },
+        {
+          "sha": "ee08786",
+          "message": "Initial build: free sample video hub with inline player",
+          "date": "2026-08-05T19:06:38Z",
+          "url": "https://github.com/syunnjack/free-sample-hub/commit/ee0878672c063d07071a720027eb64a4b0eaef83"
+        }
+      ],
+      "updatedAt": "2026-08-05T19:12:42Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "r18-anime-ranking",
+      "name": "r18-anime-ranking",
+      "displayName": "R18 Anime Ranking",
+      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/r18-anime-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "4b068ea",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:56:31Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/4b068ea1b0104647f2ab697845be54067be956c5"
+        },
+        {
+          "sha": "c30c494",
+          "message": "Initial build: review-ranked R18 anime ranking",
+          "date": "2026-08-05T18:52:33Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/c30c4940df93a136754dfbfdac08abc496bdcf0a"
+        }
+      ],
+      "updatedAt": "2026-08-05T18:56:56Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "778e07a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T18:53:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
+        },
+        {
+          "sha": "56b64ea",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T17:54:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
+        },
+        {
+          "sha": "37b5278",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
+        },
+        {
+          "sha": "1fdb459",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:00:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
+        },
+        {
+          "sha": "a2a33bd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T15:04:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
+        },
+        {
+          "sha": "bce7c3a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T14:00:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
+        },
+        {
+          "sha": "fc8f88e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T12:58:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
+        },
+        {
+          "sha": "224d4d2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T11:58:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/224d4d267ae8e9c499be430fb98f49d35aca64e8"
+        },
+        {
+          "sha": "7c65a7e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T11:08:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7c65a7e2b9cca7dce9f2384f94f8dd5afe7ddfab"
+        },
+        {
+          "sha": "3158932",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T10:15:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3158932c2cb471476c988922633d1dd0c72bfdec"
+        },
+        {
+          "sha": "edb4dd8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T09:18:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/edb4dd867ac60c2fdba0d3ca2490119d838d354f"
+        },
+        {
+          "sha": "af77bc1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T08:09:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/af77bc1be4e096c9f720a4539e4632044cdea425"
+        }
+      ],
+      "updatedAt": "2026-08-05T18:54:17Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "hey-douga-guide",
       "name": "hey-douga-guide",
@@ -109,113 +420,6 @@
         }
       ],
       "updatedAt": "2026-08-05T18:01:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "56b64ea",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T17:54:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
-        },
-        {
-          "sha": "37b5278",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
-        },
-        {
-          "sha": "1fdb459",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:00:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
-        },
-        {
-          "sha": "a2a33bd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T15:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
-        },
-        {
-          "sha": "bce7c3a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T14:00:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
-        },
-        {
-          "sha": "fc8f88e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T12:58:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
-        },
-        {
-          "sha": "224d4d2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T11:58:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/224d4d267ae8e9c499be430fb98f49d35aca64e8"
-        },
-        {
-          "sha": "7c65a7e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T11:08:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7c65a7e2b9cca7dce9f2384f94f8dd5afe7ddfab"
-        },
-        {
-          "sha": "3158932",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T10:15:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3158932c2cb471476c988922633d1dd0c72bfdec"
-        },
-        {
-          "sha": "edb4dd8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T09:18:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/edb4dd867ac60c2fdba0d3ca2490119d838d354f"
-        },
-        {
-          "sha": "af77bc1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T08:09:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/af77bc1be4e096c9f720a4539e4632044cdea425"
-        },
-        {
-          "sha": "b303605",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T07:13:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b3036054f2e4753947a47019904aef1224de90ec"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:56:02Z",
       "stars": 0,
       "forks": 0
     },
