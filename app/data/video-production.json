@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T01:59:50.271Z",
+  "generatedAt": "2026-08-06T03:26:15.937Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -7,8 +7,57 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 149,
+  "queuedCount": 138,
   "videos": [
+    {
+      "slug": "tsumiage-log",
+      "repository": "tsumiage-log",
+      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "language": "TypeScript・JavaScript・CSS・PowerShell",
+      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
+      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Tsumiage Logの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript・CSS・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "scheduled",
+      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
+      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
+      "narration": [
+        "今回は、Tsumiage Logの技術構成を短く解説します。",
+        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+        "主な技術はTypeScript・JavaScript・CSS・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
+        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
     {
       "slug": "sexy-costume-compare",
       "repository": "sexy-costume-compare",
@@ -44,7 +93,7 @@
           "body": "記事： https://syunnjack.dev/articles/sexy-costume-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
+      "publishAt": "2026-08-03T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -93,7 +142,7 @@
           "body": "記事： https://syunnjack.dev/articles/unlimited-comic-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
+      "publishAt": "2026-08-04T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -142,7 +191,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-novel-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-04T01:00:00.000Z",
+      "publishAt": "2026-08-05T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -191,7 +240,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-doujin-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-05T01:00:00.000Z",
+      "publishAt": "2026-08-06T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -202,55 +251,6 @@
         "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "tsumiage-log",
-      "repository": "tsumiage-log",
-      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "language": "TypeScript・JavaScript・CSS・PowerShell",
-      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
-      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Tsumiage Logの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript・CSS・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "scheduled",
-      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
-      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
-      "narration": [
-        "今回は、Tsumiage Logの技術構成を短く解説します。",
-        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-        "主な技術はTypeScript・JavaScript・CSS・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6768,545 +6768,6 @@
         "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "ranking-widget-hub",
-      "repository": "ranking-widget-hub",
-      "title": "Ranking Widget Hubの技術解説｜設計と実装を75秒で紹介",
-      "description": "Ranking Widget Hubの設計と実装を記録したプロジェクト",
-      "language": "未分類",
-      "articleUrl": "https://syunnjack.dev/articles/ranking-widget-hub",
-      "repositoryUrl": "https://github.com/syunnjack/ranking-widget-hub",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ranking-widget-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ranking-widget-hub\n\nRanking Widget Hubの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
-      "slides": [
-        {
-          "title": "Ranking Widget Hubの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Ranking Widget Hubの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：未分類\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/ranking-widget-hub\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-18T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Ranking Widget Hubの技術構成を短く解説します。",
-        "Ranking Widget Hubの設計と実装を記録したプロジェクト",
-        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "publish-flow",
-      "repository": "publish-flow",
-      "title": "Publish Flowの技術解説｜設計と実装を75秒で紹介",
-      "description": "Publish Flowの設計と実装を記録したプロジェクト",
-      "language": "未分類",
-      "articleUrl": "https://syunnjack.dev/articles/publish-flow",
-      "repositoryUrl": "https://github.com/syunnjack/publish-flow",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/publish-flow\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/publish-flow\n\nPublish Flowの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
-      "slides": [
-        {
-          "title": "Publish Flowの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Publish Flowの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：未分類\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/publish-flow\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-19T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/publish-flow/publish-flow-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/publish-flow/publish-flow-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Publish Flowの技術構成を短く解説します。",
-        "Publish Flowの設計と実装を記録したプロジェクト",
-        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "content-brief-engine",
-      "repository": "content-brief-engine",
-      "title": "Content Brief Engineの技術解説｜設計と実装を75秒で紹介",
-      "description": "Content Brief Engineの設計と実装を記録したプロジェクト",
-      "language": "未分類",
-      "articleUrl": "https://syunnjack.dev/articles/content-brief-engine",
-      "repositoryUrl": "https://github.com/syunnjack/content-brief-engine",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/content-brief-engine\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/content-brief-engine\n\nContent Brief Engineの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
-      "slides": [
-        {
-          "title": "Content Brief Engineの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Content Brief Engineの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：未分類\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/content-brief-engine\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-20T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/content-brief-engine/content-brief-engine-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/content-brief-engine/content-brief-engine-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Content Brief Engineの技術構成を短く解説します。",
-        "Content Brief Engineの設計と実装を記録したプロジェクト",
-        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "sukima-insight",
-      "repository": "sukima-insight",
-      "title": "Sukima Insightの技術解説｜設計と実装を75秒で紹介",
-      "description": "Sukima Insightの設計と実装を記録したプロジェクト",
-      "language": "未分類",
-      "articleUrl": "https://syunnjack.dev/articles/sukima-insight",
-      "repositoryUrl": "https://github.com/syunnjack/sukima-insight",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sukima-insight\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sukima-insight\n\nSukima Insightの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #未分類",
-      "slides": [
-        {
-          "title": "Sukima Insightの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Sukima Insightの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：未分類\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/sukima-insight\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-21T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/sukima-insight/sukima-insight-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/sukima-insight/sukima-insight-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Sukima Insightの技術構成を短く解説します。",
-        "Sukima Insightの設計と実装を記録したプロジェクト",
-        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "dart-portal",
-      "repository": "dart-portal",
-      "title": "Dart Portalの技術解説｜設計と実装を75秒で紹介",
-      "description": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
-      "language": "Python",
-      "articleUrl": "https://syunnjack.dev/articles/dart-portal",
-      "repositoryUrl": "https://github.com/syunnjack/dart-portal",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/dart-portal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/dart-portal\n\ndart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド\n\n#技術解説 #個人開発 #Python",
-      "slides": [
-        {
-          "title": "Dart Portalの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：Python\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、docs、events.json"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/dart-portal\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-22T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/dart-portal/dart-portal-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/dart-portal/dart-portal-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Dart Portalの技術構成を短く解説します。",
-        "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
-        "主な技術はPythonです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、docs、events.jsonを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "hotpapi01",
-      "repository": "hotpAPI01",
-      "title": "HotpAPI01の技術解説｜設計と実装を75秒で紹介",
-      "description": "HotpAPI01の設計と実装を記録したプロジェクト",
-      "language": "C#",
-      "articleUrl": "https://syunnjack.dev/articles/hotpapi01",
-      "repositoryUrl": "https://github.com/syunnjack/hotpAPI01",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hotpapi01\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hotpAPI01\n\nHotpAPI01の設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #C",
-      "slides": [
-        {
-          "title": "HotpAPI01の技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "HotpAPI01の設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：C#\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：hotpAPI01.sln、hotpAPI01"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/hotpapi01\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-23T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/hotpapi01/hotpapi01-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/hotpapi01/hotpapi01-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、HotpAPI01の技術構成を短く解説します。",
-        "HotpAPI01の設計と実装を記録したプロジェクト",
-        "主な技術はC#です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、hotpAPI01.sln、hotpAPI01を中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "local-search",
-      "repository": "local-search",
-      "title": "Local Searchの技術解説｜設計と実装を75秒で紹介",
-      "description": "Local Searchの設計と実装を記録したプロジェクト",
-      "language": "HTML・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/local-search",
-      "repositoryUrl": "https://github.com/syunnjack/local-search",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-search\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-search\n\nLocal Searchの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #HTML",
-      "slides": [
-        {
-          "title": "Local Searchの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Local Searchの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：HTML・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：local-search"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/local-search\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-24T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/local-search/local-search-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/local-search/local-search-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Local Searchの技術構成を短く解説します。",
-        "Local Searchの設計と実装を記録したプロジェクト",
-        "主な技術はHTML・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、local-searchを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "codespace-first",
-      "repository": "codespace-first",
-      "title": "Codespace Firstの技術解説｜設計と実装を75秒で紹介",
-      "description": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
-      "language": "未分類",
-      "articleUrl": "https://syunnjack.dev/articles/codespace-first",
-      "repositoryUrl": "https://github.com/syunnjack/codespace-first",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/codespace-first\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/codespace-first\n\nCodespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #未分類",
-      "slides": [
-        {
-          "title": "Codespace Firstの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：未分類\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/codespace-first\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-25T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/codespace-first/codespace-first-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/codespace-first/codespace-first-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Codespace Firstの技術構成を短く解説します。",
-        "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
-        "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.mdを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "receipt-jp",
-      "repository": "receipt-jp",
-      "title": "Receipt Jpの技術解説｜設計と実装を75秒で紹介",
-      "description": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
-      "language": "JavaScript・CSS・HTML",
-      "articleUrl": "https://syunnjack.dev/articles/receipt-jp",
-      "repositoryUrl": "https://github.com/syunnjack/receipt-jp",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/receipt-jp\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/receipt-jp\n\nレシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです\n\n#技術解説 #個人開発 #JavaScript",
-      "slides": [
-        {
-          "title": "Receipt Jpの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：JavaScript・CSS・HTML\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：CLAUDE.md、README.md、client"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/receipt-jp\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-26T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/receipt-jp/receipt-jp-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/receipt-jp/receipt-jp-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Receipt Jpの技術構成を短く解説します。",
-        "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
-        "主な技術はJavaScript・CSS・HTMLです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、CLAUDE.md、README.md、clientを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "studylaw-app",
-      "repository": "studylaw-app",
-      "title": "Studylaw Appの技術解説｜設計と実装を75秒で紹介",
-      "description": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "Blade・PHP・CSS・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/studylaw-app",
-      "repositoryUrl": "https://github.com/syunnjack/studylaw-app",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/studylaw-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/studylaw-app\n\nStudylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
-      "slides": [
-        {
-          "title": "Studylaw Appの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：Blade・PHP・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/studylaw-app\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-27T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/studylaw-app/studylaw-app-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/studylaw-app/studylaw-app-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Studylaw Appの技術構成を短く解説します。",
-        "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はBlade・PHP・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "quiz-app",
-      "repository": "quiz-app",
-      "title": "Quiz Appの技術解説｜設計と実装を75秒で紹介",
-      "description": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "Blade・PHP・CSS・JavaScript・Procfile",
-      "articleUrl": "https://syunnjack.dev/articles/quiz-app",
-      "repositoryUrl": "https://github.com/syunnjack/quiz-app",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/quiz-app\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/quiz-app\n\nQuiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
-      "slides": [
-        {
-          "title": "Quiz Appの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：Blade・PHP・CSS・JavaScript・Procfile\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：Procfile、README.md、app"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/quiz-app\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-28T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/quiz-app/quiz-app-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/quiz-app/quiz-app-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Quiz Appの技術構成を短く解説します。",
-        "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はBlade・PHP・CSS・JavaScript・Procfileです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、Procfile、README.md、appを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     }

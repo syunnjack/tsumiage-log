@@ -1,10 +1,29 @@
 {
-  "generatedAt": "2026-08-06T01:59:50.099Z",
+  "generatedAt": "2026-08-06T03:26:15.736Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "play-withladies-ranking",
+    "play-withca-ranking",
+    "play-with-stewardess-ranking",
+    "play-with-racequeen-ranking",
+    "play-intrain-ranking",
+    "play-with-roundgirl-ranking",
+    "play-with-promotionalgirl-ranking",
+    "playincar-ranking",
+    "play-inplane-ranking",
+    "play-inbus-ranking",
+    "ntr-exchange-ranking",
+    "ikigaman-ranking",
+    "gyakyu-netorare-ranking",
+    "neback-ranking",
+    "mesuochi-ranking",
+    "hard-piston-ranking",
+    "back-piston-ranking",
+    "gyaru-ranking",
+    "onsen-ranking",
     "shibari-ranking",
     "netorare-ranking",
     "tachiback-ranking",
@@ -31,6 +50,113 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "7f5d32f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T02:00:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f5d32ffef6fa3036d935ce84d8789cfcd4fb84a"
+        },
+        {
+          "sha": "019534c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T00:50:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/019534c10d5c8f3ab9bbdf7deed9e7aa2a2800b2"
+        },
+        {
+          "sha": "8bbacf8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T23:37:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bbacf877333046119c01098a883d163893d3a14"
+        },
+        {
+          "sha": "55d6fa8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T22:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55d6fa8b48da293d879e71d012fbf65af64c24fe"
+        },
+        {
+          "sha": "4342dfa",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T21:44:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4342dfa5698c6e1bff2ef738ae0db80a4c1dd3e9"
+        },
+        {
+          "sha": "f5bfd30",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T20:45:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f5bfd30ebf2f1be0b382c55a01921ef5ee57d71b"
+        },
+        {
+          "sha": "c38a3f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T19:54:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c38a3f3d88e7ba725c38927174103b6e4eb9180a"
+        },
+        {
+          "sha": "778e07a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T18:53:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
+        },
+        {
+          "sha": "56b64ea",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T17:54:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
+        },
+        {
+          "sha": "37b5278",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
+        },
+        {
+          "sha": "1fdb459",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:00:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
+        },
+        {
+          "sha": "a2a33bd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T15:04:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
+        }
+      ],
+      "updatedAt": "2026-08-06T02:00:12Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "sexy-costume-compare",
       "name": "sexy-costume-compare",
@@ -256,113 +382,6 @@
         }
       ],
       "updatedAt": "2026-08-06T01:25:48Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "019534c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T00:50:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/019534c10d5c8f3ab9bbdf7deed9e7aa2a2800b2"
-        },
-        {
-          "sha": "8bbacf8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T23:37:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bbacf877333046119c01098a883d163893d3a14"
-        },
-        {
-          "sha": "55d6fa8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T22:40:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/55d6fa8b48da293d879e71d012fbf65af64c24fe"
-        },
-        {
-          "sha": "4342dfa",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T21:44:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4342dfa5698c6e1bff2ef738ae0db80a4c1dd3e9"
-        },
-        {
-          "sha": "f5bfd30",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T20:45:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f5bfd30ebf2f1be0b382c55a01921ef5ee57d71b"
-        },
-        {
-          "sha": "c38a3f3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T19:54:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c38a3f3d88e7ba725c38927174103b6e4eb9180a"
-        },
-        {
-          "sha": "778e07a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T18:53:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
-        },
-        {
-          "sha": "56b64ea",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T17:54:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
-        },
-        {
-          "sha": "37b5278",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
-        },
-        {
-          "sha": "1fdb459",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:00:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
-        },
-        {
-          "sha": "a2a33bd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T15:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
-        },
-        {
-          "sha": "bce7c3a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T14:00:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
-        }
-      ],
-      "updatedAt": "2026-08-06T00:50:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -9768,379 +9787,6 @@
         }
       ],
       "updatedAt": "2026-07-20T06:59:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "ranking-widget-hub",
-      "name": "ranking-widget-hub",
-      "displayName": "Ranking Widget Hub",
-      "description": "Ranking Widget Hubの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Ranking Widget Hubの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/ranking-widget-hub",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "97bc935",
-          "message": "Initialize repository",
-          "date": "2026-07-20T06:30:26Z",
-          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/97bc9359c9a25fa9ce225bd9d4ade01f2f84d1ea"
-        }
-      ],
-      "updatedAt": "2026-07-20T06:30:49Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "publish-flow",
-      "name": "publish-flow",
-      "displayName": "Publish Flow",
-      "description": "Publish Flowの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Publish Flowの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/publish-flow",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "6922686",
-          "message": "Initialize repository",
-          "date": "2026-07-20T06:12:24Z",
-          "url": "https://github.com/syunnjack/publish-flow/commit/6922686ad073001e233ffb1b9cb9cd65337855dc"
-        }
-      ],
-      "updatedAt": "2026-07-20T06:12:33Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "content-brief-engine",
-      "name": "content-brief-engine",
-      "displayName": "Content Brief Engine",
-      "description": "Content Brief Engineの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Content Brief Engineの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/content-brief-engine",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "a5f58cb",
-          "message": "Initialize repository",
-          "date": "2026-07-20T06:03:22Z",
-          "url": "https://github.com/syunnjack/content-brief-engine/commit/a5f58cb32ebaabd4aebce055c2dfc7ce90c5575a"
-        }
-      ],
-      "updatedAt": "2026-07-20T06:03:44Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sukima-insight",
-      "name": "sukima-insight",
-      "displayName": "Sukima Insight",
-      "description": "Sukima Insightの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Sukima Insightの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sukima-insight",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "c2c24ed",
-          "message": "Initialize repository",
-          "date": "2026-07-19T19:59:24Z",
-          "url": "https://github.com/syunnjack/sukima-insight/commit/c2c24ed8ca5c17231e775b3232b6fbb8e595d373"
-        }
-      ],
-      "updatedAt": "2026-07-29T12:29:29Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "dart-portal",
-      "name": "dart-portal",
-      "displayName": "Dart Portal",
-      "description": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
-      "readmeExcerpt": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド。 イベント情報の自動収集と、推しプロ × イベント × ギアのレコメンド API を提供します。 セットアップ イベント情報の更新 神戸六甲ボウルの来店イベントを取得し、 events.json に保存します。 API 起動 Swagger UI: http://127.0.0.1:8765/docs レコメンド API: POST /offers リクエスト例 設計書 全体設計・API・CMS・ロードマップは docs/DESIGN.md docs/DESIGN.md を参照してください。",
-      "url": "https://github.com/syunnjack/dart-portal",
-      "defaultBranch": "main",
-      "primaryLanguage": "Python",
-      "languages": [
-        "Python"
-      ],
-      "files": [
-        "README.md",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py"
-      ],
-      "commits": [
-        {
-          "sha": "ccdd6b8",
-          "message": "Initial commit: MVP API, event scraper, and site design doc.",
-          "date": "2026-07-16T16:22:38Z",
-          "url": "https://github.com/syunnjack/dart-portal/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
-        }
-      ],
-      "updatedAt": "2026-07-16T16:25:21Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hotpapi01",
-      "name": "hotpAPI01",
-      "displayName": "HotpAPI01",
-      "description": "HotpAPI01の設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "HotpAPI01の設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hotpAPI01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#"
-      ],
-      "files": [
-        "hotpAPI01.sln",
-        "hotpAPI01"
-      ],
-      "commits": [
-        {
-          "sha": "ff19640",
-          "message": "Fix silently-broken budget filter codes (B004/B005/B006 no longer exist)",
-          "date": "2026-07-15T00:38:17Z",
-          "url": "https://github.com/syunnjack/hotpAPI01/commit/ff19640276f8813996086a8189d36cb2d1c18c1e"
-        },
-        {
-          "sha": "dac4ff2",
-          "message": "Move API key out of source, fix Shikoku prefecture labels",
-          "date": "2026-07-12T22:11:39Z",
-          "url": "https://github.com/syunnjack/hotpAPI01/commit/dac4ff2e4753aec6253d57907147f2b68c2959b5"
-        },
-        {
-          "sha": "a7cfe45",
-          "message": "プロジェクト ファイルを追加します。",
-          "date": "2026-03-25T02:02:10Z",
-          "url": "https://github.com/syunnjack/hotpAPI01/commit/a7cfe459cb811e98cc87a4dbfa26a956162be049"
-        },
-        {
-          "sha": "3341689",
-          "message": ".gitattributes と .gitignore を追加します。",
-          "date": "2026-03-25T02:02:08Z",
-          "url": "https://github.com/syunnjack/hotpAPI01/commit/33416898728e7b71555a4913012da21b2e085a3b"
-        }
-      ],
-      "updatedAt": "2026-07-29T12:29:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-search",
-      "name": "local-search",
-      "displayName": "Local Search",
-      "description": "Local Searchの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Local Searchの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-search",
-      "defaultBranch": "master",
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "local-search"
-      ],
-      "commits": [
-        {
-          "sha": "6c2a676",
-          "message": "Build Aichi local search MVP",
-          "date": "2026-07-13T11:20:10Z",
-          "url": "https://github.com/syunnjack/local-search/commit/6c2a67661c7737c98b91e845e70bd17af789e381"
-        }
-      ],
-      "updatedAt": "2026-07-13T11:22:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "codespace-first",
-      "name": "codespace-first",
-      "displayName": "Codespace First",
-      "description": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/codespace-first",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [
-        "README.md"
-      ],
-      "commits": [
-        {
-          "sha": "2e15139",
-          "message": "Initial commit",
-          "date": "2026-07-08T11:25:49Z",
-          "url": "https://github.com/syunnjack/codespace-first/commit/2e151395fc78c4dd5c9ba1b3e9b441e2f6b8df4b"
-        }
-      ],
-      "updatedAt": "2026-07-08T11:25:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "receipt-jp",
-      "name": "receipt-jp",
-      "displayName": "Receipt Jp",
-      "description": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
-      "readmeExcerpt": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです。 機能 レシート画像のアップロード → Claude APIによる自動読み取り 商品名・金額・日付の一覧表示 カテゴリ別（食費・日用品・外食など）の自動分類・集計 Chart.jsによるカテゴリ別円グラフ・月別棒グラフ 登録データはブラウザのlocalStorageに保存（リロードしても消えない） 構成 client/ — React Vite フロントエンド server/ — Node.js Express バックエンド。Claude APIの呼び出しはここでのみ行い、APIキーをブラウザに公開しない セットアップ 1. サーバー 2. クライアント ブラウザで http://localhost:5173 を開いてください。",
-      "url": "https://github.com/syunnjack/receipt-jp",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "files": [
-        "CLAUDE.md",
-        "README.md",
-        "client",
-        "server"
-      ],
-      "commits": [
-        {
-          "sha": "72aa65f",
-          "message": "Add live camera capture for receipts",
-          "date": "2026-07-04T13:41:16Z",
-          "url": "https://github.com/syunnjack/receipt-jp/commit/72aa65f74fb3790b90e3bdeff38c328965992143"
-        },
-        {
-          "sha": "b198ab2",
-          "message": "Add validation for negative amounts and duplicate receipts",
-          "date": "2026-07-04T05:19:22Z",
-          "url": "https://github.com/syunnjack/receipt-jp/commit/b198ab263d0acb36e1e8155cb5dac58a6026521d"
-        },
-        {
-          "sha": "8012e01",
-          "message": "Add receipt-reading household budget app",
-          "date": "2026-07-04T05:12:20Z",
-          "url": "https://github.com/syunnjack/receipt-jp/commit/8012e013f112c26f96f256befe3363520e4965ff"
-        }
-      ],
-      "updatedAt": "2026-07-04T13:41:23Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "studylaw-app",
-      "name": "studylaw-app",
-      "displayName": "Studylaw App",
-      "description": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/studylaw-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fd398f5",
-          "message": "Initial commit studylaw-app",
-          "date": "2025-07-26T12:04:55Z",
-          "url": "https://github.com/syunnjack/studylaw-app/commit/fd398f513a4fe72489e87a8c2f2feec776ebfda0"
-        }
-      ],
-      "updatedAt": "2026-07-29T12:29:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "quiz-app",
-      "name": "quiz-app",
-      "displayName": "Quiz App",
-      "description": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/quiz-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "CSS",
-        "JavaScript",
-        "Procfile"
-      ],
-      "files": [
-        "Procfile",
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "c68b18e",
-          "message": "Add Procfile",
-          "date": "2025-06-26T08:11:53Z",
-          "url": "https://github.com/syunnjack/quiz-app/commit/c68b18e11c602edc652ffd90d3acc75f2d0dfaa2"
-        },
-        {
-          "sha": "f479979",
-          "message": "trigger redeploy",
-          "date": "2025-06-26T00:05:00Z",
-          "url": "https://github.com/syunnjack/quiz-app/commit/f47997941e860f302371d051bc3c27245cf75cc4"
-        },
-        {
-          "sha": "42010f6",
-          "message": "initial commit",
-          "date": "2025-06-25T13:50:22Z",
-          "url": "https://github.com/syunnjack/quiz-app/commit/42010f68f89601738df2d1af6f6bf780e25f4805"
-        }
-      ],
-      "updatedAt": "2026-07-14T15:20:17Z",
       "stars": 0,
       "forks": 0
     }
