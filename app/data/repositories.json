@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T05:28:12.763Z",
+  "generatedAt": "2026-08-06T07:17:05.464Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -50,6 +50,113 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "fe8a1db",
+          "message": "Merge pull request #20 from syunnjack/cursor/busselect-patch-0002-f103",
+          "date": "2026-08-06T06:54:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/fe8a1db69f1238765cca5d5c7e7337d885c7cd35"
+        },
+        {
+          "sha": "aba4403",
+          "message": "Fix busselect patch for current layout (0002)",
+          "date": "2026-08-06T06:54:04Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/aba44034f2f62b2e568c63255b814ba4680cd31b"
+        },
+        {
+          "sha": "a62a988",
+          "message": "Merge pull request #19 from syunnjack/cursor/handoff-master-f103",
+          "date": "2026-08-06T06:50:06Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/a62a9886031925bbbd943878afc4abf3df563bf4"
+        },
+        {
+          "sha": "f48e778",
+          "message": "Add master handoff doc and refresh site rollout status",
+          "date": "2026-08-06T06:49:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/f48e778c3442a97695d9942003e00d6e5f5ba313"
+        },
+        {
+          "sha": "6662b96",
+          "message": "Merge pull request #18 from syunnjack/cursor/dti-status-docs-f103",
+          "date": "2026-08-06T06:38:21Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6662b9691456c2dad31494402cb473bd1b71b8b2"
+        },
+        {
+          "sha": "67f1218",
+          "message": "Add DTI project status tracker and merge/setup guides",
+          "date": "2026-08-06T06:38:11Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/67f12187c303899caedc3297e0068423bfdb1ee1"
+        },
+        {
+          "sha": "8d5b02f",
+          "message": "Merge pull request #17 from syunnjack/cursor/dti-deploy-docs-f103",
+          "date": "2026-08-06T06:37:49Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8d5b02fa8a3af4afc8935f79b537b01782b9f514"
+        },
+        {
+          "sha": "3905ddc",
+          "message": "Add Windows deploy guide, PowerShell patch script, and CI validation",
+          "date": "2026-08-06T06:21:10Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3905ddcb40ef3af70a4c9e78efd61d2d876b1299"
+        },
+        {
+          "sha": "fd96a4e",
+          "message": "Merge pull request #16 from syunnjack/cursor/hey-douga-guide-csv-import-f103",
+          "date": "2026-08-06T05:58:04Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/fd96a4eae8b616dd6089159e67658841bc764840"
+        },
+        {
+          "sha": "020ca29",
+          "message": "Merge pull request #15 from syunnjack/cursor/dti-movie-data-processing-f103",
+          "date": "2026-08-06T05:58:01Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/020ca293b4e3c082aa269ce762b49d5b4f1938e2"
+        },
+        {
+          "sha": "a07f97c",
+          "message": "Add free-sample-hub patch README",
+          "date": "2026-08-06T05:55:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/a07f97c367ea6c29e1197748feca976e852b9bad"
+        },
+        {
+          "sha": "d4f558d",
+          "message": "Add follow-up DTI patches: thumbnails and RSS enrichment",
+          "date": "2026-08-06T05:55:26Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d4f558d6a0bde845a24050927dbef02dec1d6bfa"
+        }
+      ],
+      "updatedAt": "2026-08-06T06:55:43Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "hey-douga-guide",
       "name": "hey-douga-guide",
@@ -108,63 +215,6 @@
       "forks": 0
     },
     {
-      "slug": "duga-video-ranking",
-      "name": "duga-video-ranking",
-      "displayName": "Duga Video Ranking",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/duga-video-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "5c3e836",
-          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
-          "date": "2026-08-06T03:57:48Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
-        },
-        {
-          "sha": "1dc6e3f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:32:51Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
-        },
-        {
-          "sha": "a531585",
-          "message": "Initial build: DUGA popular video ranking",
-          "date": "2026-08-05T17:25:55Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
-        }
-      ],
-      "updatedAt": "2026-08-06T03:57:57Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -194,6 +244,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "eb457c9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T05:28:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb457c90e32eb7160f408d63e4fd57be220ef1b4"
+        },
         {
           "sha": "8a94908",
           "message": "Update repository articles from GitHub activity",
@@ -259,15 +315,66 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T16:54:41Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
-        },
-        {
-          "sha": "1fdb459",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:00:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
         }
       ],
-      "updatedAt": "2026-08-06T03:26:47Z",
+      "updatedAt": "2026-08-06T05:28:59Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "duga-video-ranking",
+      "name": "duga-video-ranking",
+      "displayName": "Duga Video Ranking",
+      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/duga-video-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "5c3e836",
+          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
+          "date": "2026-08-06T03:57:48Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
+        },
+        {
+          "sha": "1dc6e3f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T17:32:51Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
+        },
+        {
+          "sha": "a531585",
+          "message": "Initial build: DUGA popular video ranking",
+          "date": "2026-08-05T17:25:55Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
+        }
+      ],
+      "updatedAt": "2026-08-06T03:57:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -1737,113 +1844,6 @@
         }
       ],
       "updatedAt": "2026-08-05T11:25:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "JavaScript",
-        "Shell",
-        "TypeScript"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "079c81a",
-          "message": "Merge pull request #14 from syunnjack/cursor/fix-gsc-patch-0004-0b8e",
-          "date": "2026-08-05T10:42:58Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/079c81a5c00daf9c57cc55e3ae318146b848cb7e"
-        },
-        {
-          "sha": "bafea2b",
-          "message": "Fix task-dashboard GSC patch for current index.html (0004)",
-          "date": "2026-08-05T10:42:49Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/bafea2bc9ecd52083acf285de96f2f56fa7c0a41"
-        },
-        {
-          "sha": "d6f748b",
-          "message": "Merge pull request #13 from syunnjack/cursor/rollout-step1-index-html-0b8e",
-          "date": "2026-08-05T10:38:36Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d6f748b37114e9b2db3174f2551e7d6fa72579c7"
-        },
-        {
-          "sha": "7e6dda3",
-          "message": "Step 1: add index.html GSC patch and run-rollout.ps1 guide",
-          "date": "2026-08-05T10:38:25Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/7e6dda3142c1ec01285d9be07284c3f095c20198"
-        },
-        {
-          "sha": "0552611",
-          "message": "Merge pull request #12 from syunnjack/cursor/site-rollout-continue-0b8e",
-          "date": "2026-08-05T07:58:03Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/05526111449815b211b05499063b9200c69e11a8"
-        },
-        {
-          "sha": "52defb2",
-          "message": "Continue site rollout: HTML file GSC, machi-list DNS guide, check script",
-          "date": "2026-08-05T07:57:52Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/52defb272a700660a2d149f39254184181b4bc41"
-        },
-        {
-          "sha": "17eb2bc",
-          "message": "Merge pull request #11 from syunnjack/cursor/site-rollout-step1-4-0b8e",
-          "date": "2026-08-04T16:48:09Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/17eb2bcb1074e34e4ffa0478cefebec431f803fe"
-        },
-        {
-          "sha": "82b9b6b",
-          "message": "Update sites.config.json with live status as of 2026-08-04",
-          "date": "2026-08-04T16:47:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/82b9b6be4046441ea24b81ec7f770c908113c31c"
-        },
-        {
-          "sha": "fb8b9ae",
-          "message": "Add rollout patches and docs for steps 1-4",
-          "date": "2026-08-04T16:47:51Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/fb8b9aed5f082a30a6da48b02af9f7da5aa14e98"
-        },
-        {
-          "sha": "c16b558",
-          "message": "Add Render custom-domain deploy path for machi-list.jp",
-          "date": "2026-08-02T02:21:23Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/c16b55810f62d73fe8b41b34315ad947d7e47100"
-        },
-        {
-          "sha": "7a3cb57",
-          "message": "Merge pull request #9 from syunnjack/cursor/update-site-status-0b8e",
-          "date": "2026-08-02T02:12:32Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/7a3cb5774d30e84269b7b242173d8b1253b32ea3"
-        },
-        {
-          "sha": "e039552",
-          "message": "Fix darekore.jp target repo to task-dashboard and add patch",
-          "date": "2026-08-02T02:12:19Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/e039552e3b72351e2587ba9c211fb3e2dce71bec"
-        }
-      ],
-      "updatedAt": "2026-08-05T10:43:07Z",
       "stars": 0,
       "forks": 0
     },
