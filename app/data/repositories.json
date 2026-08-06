@@ -1,30 +1,51 @@
 {
-  "generatedAt": "2026-08-06T00:50:25.923Z",
+  "generatedAt": "2026-08-06T03:51:01.640Z",
   "owner": "syunnjack",
-  "totalRepositories": 201,
-  "publicRepositories": 199,
+  "totalRepositories": 222,
+  "publicRepositories": 220,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "play-withladies-ranking",
+    "play-withca-ranking",
+    "play-with-stewardess-ranking",
+    "play-with-racequeen-ranking",
+    "play-intrain-ranking",
+    "play-with-roundgirl-ranking",
+    "play-with-promotionalgirl-ranking",
+    "playincar-ranking",
+    "play-inplane-ranking",
+    "play-inbus-ranking",
+    "ntr-exchange-ranking",
+    "ikigaman-ranking",
+    "gyakyu-netorare-ranking",
+    "neback-ranking",
+    "mesuochi-ranking",
+    "hard-piston-ranking",
+    "back-piston-ranking",
+    "gyaru-ranking",
+    "onsen-ranking",
+    "shibari-ranking",
+    "netorare-ranking",
+    "tachiback-ranking",
+    "kosupure-ranking",
+    "adult-goods-compare",
+    "adult-comic-ranking",
+    "adult-novel-ranking",
+    "doujin-release-calendar",
     "shirouto-ranking",
     "taimenzai-ranking",
     "mesuiki-ranking",
     "kyonyu-ranking",
-    "kosupure-ranking",
     "chijo-ranking",
     "ohogao-ranking",
     "netorase-ranking",
     "kijoi-ranking",
-    "tachiback-ranking",
     "ahegao-ranking",
     "mature-genre-ranking",
     "adult-figure-ranking",
     "cross-asp-ranking",
-    "adult-comic-ranking",
-    "adult-goods-compare",
     "eroge-release-alert",
-    "doujin-release-calendar",
     "fanza-sale-watch",
-    "adult-novel-ranking",
     "abeshi-mvp",
     "yuniba"
   ],
@@ -59,6 +80,24 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "8a94908",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T03:26:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8a949081fb7d9a7cdadc1e85e6f621b7ff396cd2"
+        },
+        {
+          "sha": "7f5d32f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T02:00:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f5d32ffef6fa3036d935ce84d8789cfcd4fb84a"
+        },
+        {
+          "sha": "019534c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T00:50:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/019534c10d5c8f3ab9bbdf7deed9e7aa2a2800b2"
+        },
         {
           "sha": "8bbacf8",
           "message": "Update repository articles from GitHub activity",
@@ -112,690 +151,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T16:00:53Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
-        },
-        {
-          "sha": "a2a33bd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T15:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
-        },
-        {
-          "sha": "bce7c3a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T14:00:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bce7c3a12cb41988c8371e19674f6e8d2b6cc87c"
-        },
-        {
-          "sha": "fc8f88e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T12:58:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
         }
       ],
-      "updatedAt": "2026-08-05T23:37:51Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "unlimited-comic-hub",
-      "name": "unlimited-comic-hub",
-      "displayName": "Unlimited Comic Hub",
-      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/unlimited-comic-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "126be68",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:33:01Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/126be682f209372f44c6b3a0545385b84c2c5ecf"
-        },
-        {
-          "sha": "5df6a50",
-          "message": "Initial build: unlimited comic reading plan hub",
-          "date": "2026-08-05T20:30:16Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/5df6a507df8061eb06476e5e05cd402891c39b25"
-        }
-      ],
-      "updatedAt": "2026-08-05T20:33:22Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sokmil-new-releases",
-      "name": "sokmil-new-releases",
-      "displayName": "Sokmil New Releases",
-      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sokmil-new-releases",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4a26942",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:07:08Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/4a2694257e419d4c8e553ffd6d5d59c1b6cb41a7"
-        },
-        {
-          "sha": "64cd9f0",
-          "message": "Initial build: SOKMIL new release feed",
-          "date": "2026-08-05T18:00:14Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
-        }
-      ],
-      "updatedAt": "2026-08-05T20:08:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bl-tl-novel-ranking",
-      "name": "bl-tl-novel-ranking",
-      "displayName": "Bl Tl Novel Ranking",
-      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-novel-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "35f91ef",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:02:12Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/35f91efa800a7dee1e1d886f4d2bee4bfedb4e4a"
-        },
-        {
-          "sha": "10f8a44",
-          "message": "Initial build: review-ranked BL/TL novel ranking",
-          "date": "2026-08-05T19:55:41Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/10f8a449f2aa34a4b4cfe212e5e591109ae84bf4"
-        }
-      ],
-      "updatedAt": "2026-08-05T20:03:17Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bl-tl-doujin-ranking",
-      "name": "bl-tl-doujin-ranking",
-      "displayName": "Bl Tl Doujin Ranking",
-      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-doujin-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "f817525",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:38:14Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/f817525d2e5c96e5ca924e6bda0b5373b1d51a90"
-        },
-        {
-          "sha": "fa23122",
-          "message": "Initial build: BL/TL doujin new release feed",
-          "date": "2026-08-05T19:32:24Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fa23122016e537283779a88b19eee4511033e876"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:38:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "gravure-photo-ranking",
-      "name": "gravure-photo-ranking",
-      "displayName": "Gravure Photo Ranking",
-      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/gravure-photo-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "eb8aed4",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:22:58Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/eb8aed4885ef85741171d8b33a884ffc3be86450"
-        },
-        {
-          "sha": "6f88c46",
-          "message": "Initial build: review-ranked gravure photo book ranking",
-          "date": "2026-08-05T19:20:46Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/6f88c46b66a3d890325e7fa0abbee3a4ac7c1fcf"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:23:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "free-sample-hub",
-      "name": "free-sample-hub",
-      "displayName": "Free Sample Hub",
-      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/free-sample-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fd7db7f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:09:36Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/fd7db7ffae866fb1a4ccb29b32b30e3c47ff2db5"
-        },
-        {
-          "sha": "ee08786",
-          "message": "Initial build: free sample video hub with inline player",
-          "date": "2026-08-05T19:06:38Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/ee0878672c063d07071a720027eb64a4b0eaef83"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:12:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "r18-anime-ranking",
-      "name": "r18-anime-ranking",
-      "displayName": "R18 Anime Ranking",
-      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/r18-anime-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4b068ea",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:56:31Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/4b068ea1b0104647f2ab697845be54067be956c5"
-        },
-        {
-          "sha": "c30c494",
-          "message": "Initial build: review-ranked R18 anime ranking",
-          "date": "2026-08-05T18:52:33Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/c30c4940df93a136754dfbfdac08abc496bdcf0a"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:56:56Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:28:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "mgs-video-guide",
-      "name": "mgs-video-guide",
-      "displayName": "Mgs Video Guide",
-      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/mgs-video-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e74f3a1",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:49:43Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/e74f3a1c851bf0d9077d7a350643c6e9df5ec5af"
-        },
-        {
-          "sha": "0772a42",
-          "message": "Initial build: MGS video guide landing page with widget embeds",
-          "date": "2026-08-05T17:44:20Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/0772a428ab29f6dbbdd94b1bb01e464837db3653"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "duga-video-ranking",
-      "name": "duga-video-ranking",
-      "displayName": "Duga Video Ranking",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/duga-video-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "1dc6e3f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:32:51Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
-        },
-        {
-          "sha": "a531585",
-          "message": "Initial build: DUGA popular video ranking",
-          "date": "2026-08-05T17:25:55Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:34:05Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sexy-costume-compare",
-      "name": "sexy-costume-compare",
-      "displayName": "Sexy Costume Compare",
-      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sexy-costume-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "3311e39",
-          "message": "Add Google Search Console verification; fix footer copy",
-          "date": "2026-08-05T17:09:35Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/3311e39d739e40c6a8cd45032e0d1520fa00a74d"
-        },
-        {
-          "sha": "64ef218",
-          "message": "Initial build: best-selling sexy costume ranking (Yahoo Shopping)",
-          "date": "2026-08-05T17:07:17Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/64ef218ca7414b4c34a3435ae3b44c1ccc79dd2f"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:09:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "subscription-compare",
-      "name": "subscription-compare",
-      "displayName": "Subscription Compare",
-      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/subscription-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a656d70",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:38Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/a656d70dd87f4e05ec4bb8f4732a160b5a3b7e82"
-        },
-        {
-          "sha": "1b89a3c",
-          "message": "Initial build: unlimited-viewing plan new arrivals watch",
-          "date": "2026-08-05T13:43:40Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/1b89a3ccd750805a19ac8d99dffe89d823493b76"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "av-debut-tracker",
-      "name": "av-debut-tracker",
-      "displayName": "Av Debut Tracker",
-      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/av-debut-tracker",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6f93de7",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:28Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/6f93de72faa7d1929f87fe213a3f9d26f96fa7a4"
-        },
-        {
-          "sha": "c731cad",
-          "message": "Initial build: AV debut release tracker",
-          "date": "2026-08-05T12:54:03Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:02Z",
+      "updatedAt": "2026-08-06T03:26:47Z",
       "stars": 0,
       "forks": 0
     },
