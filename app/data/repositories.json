@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T11:13:26.268Z",
+  "generatedAt": "2026-08-06T11:59:36.441Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -50,6 +50,81 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "hey-douga-guide",
+      "name": "hey-douga-guide",
+      "displayName": "Hey Douga Guide",
+      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/hey-douga-guide",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "34cb2c7",
+          "message": "Merge pull request #1 from syunnjack/cursor/dti-csv-import-f103",
+          "date": "2026-08-06T11:49:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/34cb2c7f3f614316450bddc39cbda615b571f1e8"
+        },
+        {
+          "sha": "713a915",
+          "message": "Enrich RSS sync with page URL, thumbnails, and sample MP4",
+          "date": "2026-08-06T05:55:13Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/713a915b1c194b9fd1b565c759957e80e7dbdecb"
+        },
+        {
+          "sha": "cd895a5",
+          "message": "Add DTI CSV import, sample MP4 playback, and thumbnail derivation",
+          "date": "2026-08-06T05:53:35Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/cd895a5cb4f3ba1f672ba0188c9add6574d351e0"
+        },
+        {
+          "sha": "dea1cf1",
+          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
+          "date": "2026-08-06T05:00:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
+        },
+        {
+          "sha": "f821b56",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:28:18Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
+        },
+        {
+          "sha": "b4115b4",
+          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
+          "date": "2026-08-05T18:24:40Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
+        }
+      ],
+      "updatedAt": "2026-08-06T11:49:14Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "rakuten02",
       "name": "rakuten02",
@@ -188,6 +263,12 @@
       ],
       "commits": [
         {
+          "sha": "aa9c00e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T11:13:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa9c00e02eba3dc3fbadace068eb3b671a499318"
+        },
+        {
           "sha": "88d4a04",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-06T10:17:04Z",
@@ -252,15 +333,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T21:44:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4342dfa5698c6e1bff2ef738ae0db80a4c1dd3e9"
-        },
-        {
-          "sha": "f5bfd30",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T20:45:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f5bfd30ebf2f1be0b382c55a01921ef5ee57d71b"
         }
       ],
-      "updatedAt": "2026-08-06T10:17:49Z",
+      "updatedAt": "2026-08-06T11:13:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -374,63 +449,6 @@
         }
       ],
       "updatedAt": "2026-08-06T07:29:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "dea1cf1",
-          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
-          "date": "2026-08-06T05:00:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
-        },
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-06T05:00:26Z",
       "stars": 0,
       "forks": 0
     },
