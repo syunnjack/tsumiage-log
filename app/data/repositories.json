@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T03:26:15.736Z",
+  "generatedAt": "2026-08-06T05:28:12.763Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,120 @@
   ],
   "articles": [
     {
+      "slug": "hey-douga-guide",
+      "name": "hey-douga-guide",
+      "displayName": "Hey Douga Guide",
+      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/hey-douga-guide",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "dea1cf1",
+          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
+          "date": "2026-08-06T05:00:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
+        },
+        {
+          "sha": "f821b56",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:28:18Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
+        },
+        {
+          "sha": "b4115b4",
+          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
+          "date": "2026-08-05T18:24:40Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
+        }
+      ],
+      "updatedAt": "2026-08-06T05:00:26Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "duga-video-ranking",
+      "name": "duga-video-ranking",
+      "displayName": "Duga Video Ranking",
+      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/duga-video-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "5c3e836",
+          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
+          "date": "2026-08-06T03:57:48Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
+        },
+        {
+          "sha": "1dc6e3f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T17:32:51Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
+        },
+        {
+          "sha": "a531585",
+          "message": "Initial build: DUGA popular video ranking",
+          "date": "2026-08-05T17:25:55Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
+        }
+      ],
+      "updatedAt": "2026-08-06T03:57:57Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -80,6 +194,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "8a94908",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T03:26:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8a949081fb7d9a7cdadc1e85e6f621b7ff396cd2"
+        },
         {
           "sha": "7f5d32f",
           "message": "Update repository articles from GitHub activity",
@@ -145,15 +265,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T16:00:53Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
-        },
-        {
-          "sha": "a2a33bd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T15:04:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a33bd8552bc72a18e1b40a7db929252083d43f"
         }
       ],
-      "updatedAt": "2026-08-06T02:00:12Z",
+      "updatedAt": "2026-08-06T03:26:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -590,57 +704,6 @@
       "forks": 0
     },
     {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:28:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "mgs-video-guide",
       "name": "mgs-video-guide",
       "displayName": "Mgs Video Guide",
@@ -688,57 +751,6 @@
         }
       ],
       "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "duga-video-ranking",
-      "name": "duga-video-ranking",
-      "displayName": "Duga Video Ranking",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/duga-video-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "1dc6e3f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:32:51Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
-        },
-        {
-          "sha": "a531585",
-          "message": "Initial build: DUGA popular video ranking",
-          "date": "2026-08-05T17:25:55Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:34:05Z",
       "stars": 0,
       "forks": 0
     },
