@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-06T11:59:36.441Z",
+  "generatedAt": "2026-08-06T03:51:01.640Z",
   "owner": "syunnjack",
-  "totalRepositories": 202,
-  "publicRepositories": 200,
+  "totalRepositories": 222,
+  "publicRepositories": 220,
   "privateRepositories": 2,
   "skippedRepositories": [
     "play-withladies-ranking",
@@ -51,188 +51,6 @@
   ],
   "articles": [
     {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "34cb2c7",
-          "message": "Merge pull request #1 from syunnjack/cursor/dti-csv-import-f103",
-          "date": "2026-08-06T11:49:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/34cb2c7f3f614316450bddc39cbda615b571f1e8"
-        },
-        {
-          "sha": "713a915",
-          "message": "Enrich RSS sync with page URL, thumbnails, and sample MP4",
-          "date": "2026-08-06T05:55:13Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/713a915b1c194b9fd1b565c759957e80e7dbdecb"
-        },
-        {
-          "sha": "cd895a5",
-          "message": "Add DTI CSV import, sample MP4 playback, and thumbnail derivation",
-          "date": "2026-08-06T05:53:35Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/cd895a5cb4f3ba1f672ba0188c9add6574d351e0"
-        },
-        {
-          "sha": "dea1cf1",
-          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
-          "date": "2026-08-06T05:00:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
-        },
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-06T11:49:14Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "7cb599b",
-          "message": "Merge pull request #22 from syunnjack/cursor/resume-handoff-f103",
-          "date": "2026-08-06T07:47:16Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/7cb599bd66250292cc77fc2ce2b056387f91f02d"
-        },
-        {
-          "sha": "063220d",
-          "message": "Add combined ONAMAE DNS guide and update handoff after PR #21 merge",
-          "date": "2026-08-06T07:47:01Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/063220d4d92509075c696e559d404282a28b98ec"
-        },
-        {
-          "sha": "68e02fa",
-          "message": "Merge pull request #21 from syunnjack/cursor/busselect-patch-0002-f103",
-          "date": "2026-08-06T07:46:37Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/68e02fae3ca86633fcfc1363e8a562368892c4a0"
-        },
-        {
-          "sha": "06c6417",
-          "message": "Document busselect post-patch steps: Site Creator env + DNS",
-          "date": "2026-08-06T07:34:20Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/06c6417adbb75486cb4b765e53a9590aa9d7c615"
-        },
-        {
-          "sha": "8b56ef5",
-          "message": "Add busselect APPLY guide and fix scripts to use patch 0002",
-          "date": "2026-08-06T06:56:58Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8b56ef5ddab65a66891b8ef531203cc588bc4661"
-        },
-        {
-          "sha": "4b05758",
-          "message": "Fix busselect apply steps: abort rakuten02, clone to C:\\Users\\syunn",
-          "date": "2026-08-06T06:56:12Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/4b057580802e6c34b986b89888c7dd8b53e126bd"
-        },
-        {
-          "sha": "fe8a1db",
-          "message": "Merge pull request #20 from syunnjack/cursor/busselect-patch-0002-f103",
-          "date": "2026-08-06T06:54:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/fe8a1db69f1238765cca5d5c7e7337d885c7cd35"
-        },
-        {
-          "sha": "aba4403",
-          "message": "Fix busselect patch for current layout (0002)",
-          "date": "2026-08-06T06:54:04Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/aba44034f2f62b2e568c63255b814ba4680cd31b"
-        },
-        {
-          "sha": "a62a988",
-          "message": "Merge pull request #19 from syunnjack/cursor/handoff-master-f103",
-          "date": "2026-08-06T06:50:06Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/a62a9886031925bbbd943878afc4abf3df563bf4"
-        },
-        {
-          "sha": "f48e778",
-          "message": "Add master handoff doc and refresh site rollout status",
-          "date": "2026-08-06T06:49:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/f48e778c3442a97695d9942003e00d6e5f5ba313"
-        },
-        {
-          "sha": "6662b96",
-          "message": "Merge pull request #18 from syunnjack/cursor/dti-status-docs-f103",
-          "date": "2026-08-06T06:38:21Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6662b9691456c2dad31494402cb473bd1b71b8b2"
-        },
-        {
-          "sha": "67f1218",
-          "message": "Add DTI project status tracker and merge/setup guides",
-          "date": "2026-08-06T06:38:11Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/67f12187c303899caedc3297e0068423bfdb1ee1"
-        }
-      ],
-      "updatedAt": "2026-08-06T07:48:38Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -262,42 +80,6 @@
         "video-assets"
       ],
       "commits": [
-        {
-          "sha": "aa9c00e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T11:13:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa9c00e02eba3dc3fbadace068eb3b671a499318"
-        },
-        {
-          "sha": "88d4a04",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T10:17:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/88d4a0428bead19c7a8a1402794bf0b11a5637a8"
-        },
-        {
-          "sha": "167aaa8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T09:19:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/167aaa82f7d0d48e4ed2b6c7215d18a503ebe5b4"
-        },
-        {
-          "sha": "41fa312",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T08:08:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/41fa312ce2b5f198a540c8bff1d1a932509e5238"
-        },
-        {
-          "sha": "463c7d3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T07:17:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/463c7d3a0619479f466bea4f4874a2d0eb3aec35"
-        },
-        {
-          "sha": "eb457c9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T05:28:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb457c90e32eb7160f408d63e4fd57be220ef1b4"
-        },
         {
           "sha": "8a94908",
           "message": "Update repository articles from GitHub activity",
@@ -333,764 +115,45 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T21:44:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4342dfa5698c6e1bff2ef738ae0db80a4c1dd3e9"
+        },
+        {
+          "sha": "f5bfd30",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T20:45:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f5bfd30ebf2f1be0b382c55a01921ef5ee57d71b"
+        },
+        {
+          "sha": "c38a3f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T19:54:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c38a3f3d88e7ba725c38927174103b6e4eb9180a"
+        },
+        {
+          "sha": "778e07a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T18:53:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/778e07a03e46c8706d191f0dd05f572b4ae57b8e"
+        },
+        {
+          "sha": "56b64ea",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T17:54:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
+        },
+        {
+          "sha": "37b5278",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:54:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
+        },
+        {
+          "sha": "1fdb459",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T16:00:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1fdb459e7c5e651f4d80ab9ba059f523b369b5b0"
         }
       ],
-      "updatedAt": "2026-08-06T11:13:57Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "busselectindex2026.txt",
-        "data",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "8b53be4",
-          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
-          "date": "2026-08-06T06:53:52Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
-        },
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
-        },
-        {
-          "sha": "7cf15c8",
-          "message": "Automate official GTFS synchronization",
-          "date": "2026-07-27T23:27:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
-        },
-        {
-          "sha": "0e95a8e",
-          "message": "Connect highway bus search with multimodal onward transit",
-          "date": "2026-07-27T20:41:10Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
-        },
-        {
-          "sha": "da05ee7",
-          "message": "Add GTFS local bus data platform",
-          "date": "2026-07-27T18:43:47Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
-        },
-        {
-          "sha": "474aa06",
-          "message": "Add route insights and price history",
-          "date": "2026-07-27T17:39:43Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
-        },
-        {
-          "sha": "6a10859",
-          "message": "Add nationwide route and city SEO hubs",
-          "date": "2026-07-23T09:40:42Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
-        },
-        {
-          "sha": "8611130",
-          "message": "Add secure hourly feed scheduler",
-          "date": "2026-07-23T09:24:18Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
-        },
-        {
-          "sha": "daad918",
-          "message": "Add live operator API synchronization",
-          "date": "2026-07-23T09:11:07Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
-        },
-        {
-          "sha": "d472e4e",
-          "message": "Add feed source management and import history",
-          "date": "2026-07-23T09:01:24Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
-        },
-        {
-          "sha": "913b51b",
-          "message": "Add CSV service import and feed deduplication",
-          "date": "2026-07-23T08:46:51Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
-        },
-        {
-          "sha": "a9ba842",
-          "message": "Add operator inventory and affiliate URL management",
-          "date": "2026-07-23T07:04:23Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
-        }
-      ],
-      "updatedAt": "2026-08-06T07:29:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "duga-video-ranking",
-      "name": "duga-video-ranking",
-      "displayName": "Duga Video Ranking",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/duga-video-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "5c3e836",
-          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
-          "date": "2026-08-06T03:57:48Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
-        },
-        {
-          "sha": "1dc6e3f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:32:51Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
-        },
-        {
-          "sha": "a531585",
-          "message": "Initial build: DUGA popular video ranking",
-          "date": "2026-08-05T17:25:55Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
-        }
-      ],
-      "updatedAt": "2026-08-06T03:57:57Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sexy-costume-compare",
-      "name": "sexy-costume-compare",
-      "displayName": "Sexy Costume Compare",
-      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sexy-costume-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "40c0db2",
-          "message": "Add BannerBridge (Akiba.com fetish DVD store) banner",
-          "date": "2026-08-06T01:30:10Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/40c0db2df657651e81b1e1c5368ef6bdb4208671"
-        },
-        {
-          "sha": "3311e39",
-          "message": "Add Google Search Console verification; fix footer copy",
-          "date": "2026-08-05T17:09:35Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/3311e39d739e40c6a8cd45032e0d1520fa00a74d"
-        },
-        {
-          "sha": "64ef218",
-          "message": "Initial build: best-selling sexy costume ranking (Yahoo Shopping)",
-          "date": "2026-08-05T17:07:17Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/64ef218ca7414b4c34a3435ae3b44c1ccc79dd2f"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:30:18Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "unlimited-comic-hub",
-      "name": "unlimited-comic-hub",
-      "displayName": "Unlimited Comic Hub",
-      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/unlimited-comic-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8baf7fa",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:46Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/8baf7fac6dd442fd69a09f044bf0c640c5504a73"
-        },
-        {
-          "sha": "126be68",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:33:01Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/126be682f209372f44c6b3a0545385b84c2c5ecf"
-        },
-        {
-          "sha": "5df6a50",
-          "message": "Initial build: unlimited comic reading plan hub",
-          "date": "2026-08-05T20:30:16Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/5df6a507df8061eb06476e5e05cd402891c39b25"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:25:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bl-tl-novel-ranking",
-      "name": "bl-tl-novel-ranking",
-      "displayName": "Bl Tl Novel Ranking",
-      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-novel-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4b97e16",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:44Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/4b97e160aa71c51731017ec3a325fa7b0e89572a"
-        },
-        {
-          "sha": "35f91ef",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:02:12Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/35f91efa800a7dee1e1d886f4d2bee4bfedb4e4a"
-        },
-        {
-          "sha": "10f8a44",
-          "message": "Initial build: review-ranked BL/TL novel ranking",
-          "date": "2026-08-05T19:55:41Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/10f8a449f2aa34a4b4cfe212e5e591109ae84bf4"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:25:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bl-tl-doujin-ranking",
-      "name": "bl-tl-doujin-ranking",
-      "displayName": "Bl Tl Doujin Ranking",
-      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-doujin-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "1e2f516",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:42Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/1e2f516c6115a175d6c36c21c11b614c4d397259"
-        },
-        {
-          "sha": "f817525",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:38:14Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/f817525d2e5c96e5ca924e6bda0b5373b1d51a90"
-        },
-        {
-          "sha": "fa23122",
-          "message": "Initial build: BL/TL doujin new release feed",
-          "date": "2026-08-05T19:32:24Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fa23122016e537283779a88b19eee4511033e876"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:25:48Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sokmil-new-releases",
-      "name": "sokmil-new-releases",
-      "displayName": "Sokmil New Releases",
-      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sokmil-new-releases",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4a26942",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:07:08Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/4a2694257e419d4c8e553ffd6d5d59c1b6cb41a7"
-        },
-        {
-          "sha": "64cd9f0",
-          "message": "Initial build: SOKMIL new release feed",
-          "date": "2026-08-05T18:00:14Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
-        }
-      ],
-      "updatedAt": "2026-08-05T20:08:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "gravure-photo-ranking",
-      "name": "gravure-photo-ranking",
-      "displayName": "Gravure Photo Ranking",
-      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/gravure-photo-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "eb8aed4",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:22:58Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/eb8aed4885ef85741171d8b33a884ffc3be86450"
-        },
-        {
-          "sha": "6f88c46",
-          "message": "Initial build: review-ranked gravure photo book ranking",
-          "date": "2026-08-05T19:20:46Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/6f88c46b66a3d890325e7fa0abbee3a4ac7c1fcf"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:23:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "free-sample-hub",
-      "name": "free-sample-hub",
-      "displayName": "Free Sample Hub",
-      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/free-sample-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fd7db7f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:09:36Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/fd7db7ffae866fb1a4ccb29b32b30e3c47ff2db5"
-        },
-        {
-          "sha": "ee08786",
-          "message": "Initial build: free sample video hub with inline player",
-          "date": "2026-08-05T19:06:38Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/ee0878672c063d07071a720027eb64a4b0eaef83"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:12:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "r18-anime-ranking",
-      "name": "r18-anime-ranking",
-      "displayName": "R18 Anime Ranking",
-      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/r18-anime-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4b068ea",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:56:31Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/4b068ea1b0104647f2ab697845be54067be956c5"
-        },
-        {
-          "sha": "c30c494",
-          "message": "Initial build: review-ranked R18 anime ranking",
-          "date": "2026-08-05T18:52:33Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/c30c4940df93a136754dfbfdac08abc496bdcf0a"
-        }
-      ],
-      "updatedAt": "2026-08-05T18:56:56Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "mgs-video-guide",
-      "name": "mgs-video-guide",
-      "displayName": "Mgs Video Guide",
-      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/mgs-video-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e74f3a1",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:49:43Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/e74f3a1c851bf0d9077d7a350643c6e9df5ec5af"
-        },
-        {
-          "sha": "0772a42",
-          "message": "Initial build: MGS video guide landing page with widget embeds",
-          "date": "2026-08-05T17:44:20Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/0772a428ab29f6dbbdd94b1bb01e464837db3653"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "subscription-compare",
-      "name": "subscription-compare",
-      "displayName": "Subscription Compare",
-      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/subscription-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a656d70",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:38Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/a656d70dd87f4e05ec4bb8f4732a160b5a3b7e82"
-        },
-        {
-          "sha": "1b89a3c",
-          "message": "Initial build: unlimited-viewing plan new arrivals watch",
-          "date": "2026-08-05T13:43:40Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/1b89a3ccd750805a19ac8d99dffe89d823493b76"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "av-debut-tracker",
-      "name": "av-debut-tracker",
-      "displayName": "Av Debut Tracker",
-      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/av-debut-tracker",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6f93de7",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:28Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/6f93de72faa7d1929f87fe213a3f9d26f96fa7a4"
-        },
-        {
-          "sha": "c731cad",
-          "message": "Initial build: AV debut release tracker",
-          "date": "2026-08-05T12:54:03Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:02Z",
+      "updatedAt": "2026-08-06T03:26:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -1975,6 +1038,113 @@
         }
       ],
       "updatedAt": "2026-08-05T11:25:31Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "TypeScript"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "079c81a",
+          "message": "Merge pull request #14 from syunnjack/cursor/fix-gsc-patch-0004-0b8e",
+          "date": "2026-08-05T10:42:58Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/079c81a5c00daf9c57cc55e3ae318146b848cb7e"
+        },
+        {
+          "sha": "bafea2b",
+          "message": "Fix task-dashboard GSC patch for current index.html (0004)",
+          "date": "2026-08-05T10:42:49Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/bafea2bc9ecd52083acf285de96f2f56fa7c0a41"
+        },
+        {
+          "sha": "d6f748b",
+          "message": "Merge pull request #13 from syunnjack/cursor/rollout-step1-index-html-0b8e",
+          "date": "2026-08-05T10:38:36Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d6f748b37114e9b2db3174f2551e7d6fa72579c7"
+        },
+        {
+          "sha": "7e6dda3",
+          "message": "Step 1: add index.html GSC patch and run-rollout.ps1 guide",
+          "date": "2026-08-05T10:38:25Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/7e6dda3142c1ec01285d9be07284c3f095c20198"
+        },
+        {
+          "sha": "0552611",
+          "message": "Merge pull request #12 from syunnjack/cursor/site-rollout-continue-0b8e",
+          "date": "2026-08-05T07:58:03Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/05526111449815b211b05499063b9200c69e11a8"
+        },
+        {
+          "sha": "52defb2",
+          "message": "Continue site rollout: HTML file GSC, machi-list DNS guide, check script",
+          "date": "2026-08-05T07:57:52Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/52defb272a700660a2d149f39254184181b4bc41"
+        },
+        {
+          "sha": "17eb2bc",
+          "message": "Merge pull request #11 from syunnjack/cursor/site-rollout-step1-4-0b8e",
+          "date": "2026-08-04T16:48:09Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/17eb2bcb1074e34e4ffa0478cefebec431f803fe"
+        },
+        {
+          "sha": "82b9b6b",
+          "message": "Update sites.config.json with live status as of 2026-08-04",
+          "date": "2026-08-04T16:47:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/82b9b6be4046441ea24b81ec7f770c908113c31c"
+        },
+        {
+          "sha": "fb8b9ae",
+          "message": "Add rollout patches and docs for steps 1-4",
+          "date": "2026-08-04T16:47:51Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/fb8b9aed5f082a30a6da48b02af9f7da5aa14e98"
+        },
+        {
+          "sha": "c16b558",
+          "message": "Add Render custom-domain deploy path for machi-list.jp",
+          "date": "2026-08-02T02:21:23Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c16b55810f62d73fe8b41b34315ad947d7e47100"
+        },
+        {
+          "sha": "7a3cb57",
+          "message": "Merge pull request #9 from syunnjack/cursor/update-site-status-0b8e",
+          "date": "2026-08-02T02:12:32Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/7a3cb5774d30e84269b7b242173d8b1253b32ea3"
+        },
+        {
+          "sha": "e039552",
+          "message": "Fix darekore.jp target repo to task-dashboard and add patch",
+          "date": "2026-08-02T02:12:19Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/e039552e3b72351e2587ba9c211fb3e2dce71bec"
+        }
+      ],
+      "updatedAt": "2026-08-05T10:43:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -9221,6 +8391,119 @@
       "forks": 0
     },
     {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "data",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        },
+        {
+          "sha": "7cf15c8",
+          "message": "Automate official GTFS synchronization",
+          "date": "2026-07-27T23:27:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
+        },
+        {
+          "sha": "0e95a8e",
+          "message": "Connect highway bus search with multimodal onward transit",
+          "date": "2026-07-27T20:41:10Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
+        },
+        {
+          "sha": "da05ee7",
+          "message": "Add GTFS local bus data platform",
+          "date": "2026-07-27T18:43:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
+        },
+        {
+          "sha": "474aa06",
+          "message": "Add route insights and price history",
+          "date": "2026-07-27T17:39:43Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
+        },
+        {
+          "sha": "6a10859",
+          "message": "Add nationwide route and city SEO hubs",
+          "date": "2026-07-23T09:40:42Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
+        },
+        {
+          "sha": "8611130",
+          "message": "Add secure hourly feed scheduler",
+          "date": "2026-07-23T09:24:18Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
+        },
+        {
+          "sha": "daad918",
+          "message": "Add live operator API synchronization",
+          "date": "2026-07-23T09:11:07Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
+        },
+        {
+          "sha": "d472e4e",
+          "message": "Add feed source management and import history",
+          "date": "2026-07-23T09:01:24Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
+        },
+        {
+          "sha": "913b51b",
+          "message": "Add CSV service import and feed deduplication",
+          "date": "2026-07-23T08:46:51Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
+        },
+        {
+          "sha": "a9ba842",
+          "message": "Add operator inventory and affiliate URL management",
+          "date": "2026-07-23T07:04:23Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
+        },
+        {
+          "sha": "5a96100",
+          "message": "Add programmatic route SEO and AI discovery",
+          "date": "2026-07-23T06:47:31Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5a961000436e054859f0d5b4d9209dd66b504719"
+        }
+      ],
+      "updatedAt": "2026-07-27T23:36:20Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "dqwalk-mukatoshin",
       "name": "dqwalk-mukatoshin",
       "displayName": "Dqwalk Mukatoshin",
@@ -9817,6 +9100,404 @@
         }
       ],
       "updatedAt": "2026-07-20T06:59:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ranking-widget-hub",
+      "name": "ranking-widget-hub",
+      "displayName": "Ranking Widget Hub",
+      "description": "Ranking Widget Hubの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Ranking Widget Hubの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/ranking-widget-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "97bc935",
+          "message": "Initialize repository",
+          "date": "2026-07-20T06:30:26Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/97bc9359c9a25fa9ce225bd9d4ade01f2f84d1ea"
+        }
+      ],
+      "updatedAt": "2026-07-20T06:30:49Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "publish-flow",
+      "name": "publish-flow",
+      "displayName": "Publish Flow",
+      "description": "Publish Flowの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Publish Flowの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/publish-flow",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "6922686",
+          "message": "Initialize repository",
+          "date": "2026-07-20T06:12:24Z",
+          "url": "https://github.com/syunnjack/publish-flow/commit/6922686ad073001e233ffb1b9cb9cd65337855dc"
+        }
+      ],
+      "updatedAt": "2026-07-20T06:12:33Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "content-brief-engine",
+      "name": "content-brief-engine",
+      "displayName": "Content Brief Engine",
+      "description": "Content Brief Engineの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Content Brief Engineの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/content-brief-engine",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "a5f58cb",
+          "message": "Initialize repository",
+          "date": "2026-07-20T06:03:22Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/a5f58cb32ebaabd4aebce055c2dfc7ce90c5575a"
+        }
+      ],
+      "updatedAt": "2026-07-20T06:03:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sukima-insight",
+      "name": "sukima-insight",
+      "displayName": "Sukima Insight",
+      "description": "Sukima Insightの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Sukima Insightの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/sukima-insight",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "c2c24ed",
+          "message": "Initialize repository",
+          "date": "2026-07-19T19:59:24Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/c2c24ed8ca5c17231e775b3232b6fbb8e595d373"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:29Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "dart-portal",
+      "name": "dart-portal",
+      "displayName": "Dart Portal",
+      "description": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド",
+      "readmeExcerpt": "dart portal ダーツプロ総合アフィリエイトサイトの MVP バックエンド。 イベント情報の自動収集と、推しプロ × イベント × ギアのレコメンド API を提供します。 セットアップ イベント情報の更新 神戸六甲ボウルの来店イベントを取得し、 events.json に保存します。 API 起動 Swagger UI: http://127.0.0.1:8765/docs レコメンド API: POST /offers リクエスト例 設計書 全体設計・API・CMS・ロードマップは docs/DESIGN.md docs/DESIGN.md を参照してください。",
+      "url": "https://github.com/syunnjack/dart-portal",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [
+        "README.md",
+        "docs",
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py"
+      ],
+      "commits": [
+        {
+          "sha": "ccdd6b8",
+          "message": "Initial commit: MVP API, event scraper, and site design doc.",
+          "date": "2026-07-16T16:22:38Z",
+          "url": "https://github.com/syunnjack/dart-portal/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
+        }
+      ],
+      "updatedAt": "2026-07-16T16:25:21Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "hotpapi01",
+      "name": "hotpAPI01",
+      "displayName": "HotpAPI01",
+      "description": "HotpAPI01の設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "HotpAPI01の設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/hotpAPI01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#"
+      ],
+      "files": [
+        "hotpAPI01.sln",
+        "hotpAPI01"
+      ],
+      "commits": [
+        {
+          "sha": "ff19640",
+          "message": "Fix silently-broken budget filter codes (B004/B005/B006 no longer exist)",
+          "date": "2026-07-15T00:38:17Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/ff19640276f8813996086a8189d36cb2d1c18c1e"
+        },
+        {
+          "sha": "dac4ff2",
+          "message": "Move API key out of source, fix Shikoku prefecture labels",
+          "date": "2026-07-12T22:11:39Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/dac4ff2e4753aec6253d57907147f2b68c2959b5"
+        },
+        {
+          "sha": "a7cfe45",
+          "message": "プロジェクト ファイルを追加します。",
+          "date": "2026-03-25T02:02:10Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/a7cfe459cb811e98cc87a4dbfa26a956162be049"
+        },
+        {
+          "sha": "3341689",
+          "message": ".gitattributes と .gitignore を追加します。",
+          "date": "2026-03-25T02:02:08Z",
+          "url": "https://github.com/syunnjack/hotpAPI01/commit/33416898728e7b71555a4913012da21b2e085a3b"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:31Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-search",
+      "name": "local-search",
+      "displayName": "Local Search",
+      "description": "Local Searchの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Local Searchの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-search",
+      "defaultBranch": "master",
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "local-search"
+      ],
+      "commits": [
+        {
+          "sha": "6c2a676",
+          "message": "Build Aichi local search MVP",
+          "date": "2026-07-13T11:20:10Z",
+          "url": "https://github.com/syunnjack/local-search/commit/6c2a67661c7737c98b91e845e70bd17af789e381"
+        }
+      ],
+      "updatedAt": "2026-07-13T11:22:53Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "codespace-first",
+      "name": "codespace-first",
+      "displayName": "Codespace First",
+      "description": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Codespace Firstは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/codespace-first",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [
+        "README.md"
+      ],
+      "commits": [
+        {
+          "sha": "2e15139",
+          "message": "Initial commit",
+          "date": "2026-07-08T11:25:49Z",
+          "url": "https://github.com/syunnjack/codespace-first/commit/2e151395fc78c4dd5c9ba1b3e9b441e2f6b8df4b"
+        }
+      ],
+      "updatedAt": "2026-07-08T11:25:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "receipt-jp",
+      "name": "receipt-jp",
+      "displayName": "Receipt Jp",
+      "description": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
+      "readmeExcerpt": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです。 機能 レシート画像のアップロード → Claude APIによる自動読み取り 商品名・金額・日付の一覧表示 カテゴリ別（食費・日用品・外食など）の自動分類・集計 Chart.jsによるカテゴリ別円グラフ・月別棒グラフ 登録データはブラウザのlocalStorageに保存（リロードしても消えない） 構成 client/ — React Vite フロントエンド server/ — Node.js Express バックエンド。Claude APIの呼び出しはここでのみ行い、APIキーをブラウザに公開しない セットアップ 1. サーバー 2. クライアント ブラウザで http://localhost:5173 を開いてください。",
+      "url": "https://github.com/syunnjack/receipt-jp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "CLAUDE.md",
+        "README.md",
+        "client",
+        "server"
+      ],
+      "commits": [
+        {
+          "sha": "72aa65f",
+          "message": "Add live camera capture for receipts",
+          "date": "2026-07-04T13:41:16Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/72aa65f74fb3790b90e3bdeff38c328965992143"
+        },
+        {
+          "sha": "b198ab2",
+          "message": "Add validation for negative amounts and duplicate receipts",
+          "date": "2026-07-04T05:19:22Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/b198ab263d0acb36e1e8155cb5dac58a6026521d"
+        },
+        {
+          "sha": "8012e01",
+          "message": "Add receipt-reading household budget app",
+          "date": "2026-07-04T05:12:20Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/8012e013f112c26f96f256befe3363520e4965ff"
+        }
+      ],
+      "updatedAt": "2026-07-04T13:41:23Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "studylaw-app",
+      "name": "studylaw-app",
+      "displayName": "Studylaw App",
+      "description": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Studylaw Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/studylaw-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "fd398f5",
+          "message": "Initial commit studylaw-app",
+          "date": "2025-07-26T12:04:55Z",
+          "url": "https://github.com/syunnjack/studylaw-app/commit/fd398f513a4fe72489e87a8c2f2feec776ebfda0"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "quiz-app",
+      "name": "quiz-app",
+      "displayName": "Quiz App",
+      "description": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Quiz Appは、Blade、PHP、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/quiz-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "CSS",
+        "JavaScript",
+        "Procfile"
+      ],
+      "files": [
+        "Procfile",
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "c68b18e",
+          "message": "Add Procfile",
+          "date": "2025-06-26T08:11:53Z",
+          "url": "https://github.com/syunnjack/quiz-app/commit/c68b18e11c602edc652ffd90d3acc75f2d0dfaa2"
+        },
+        {
+          "sha": "f479979",
+          "message": "trigger redeploy",
+          "date": "2025-06-26T00:05:00Z",
+          "url": "https://github.com/syunnjack/quiz-app/commit/f47997941e860f302371d051bc3c27245cf75cc4"
+        },
+        {
+          "sha": "42010f6",
+          "message": "initial commit",
+          "date": "2025-06-25T13:50:22Z",
+          "url": "https://github.com/syunnjack/quiz-app/commit/42010f68f89601738df2d1af6f6bf780e25f4805"
+        }
+      ],
+      "updatedAt": "2026-07-14T15:20:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "desktop-tutorial",
+      "name": "desktop-tutorial",
+      "displayName": "Desktop Tutorial",
+      "description": "Desktop Tutorialは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Desktop Tutorialは、公開リポジトリの構成を中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/desktop-tutorial",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [
+        "README.md"
+      ],
+      "commits": [
+        {
+          "sha": "721106c",
+          "message": "Initial commit",
+          "date": "2025-05-24T17:45:30Z",
+          "url": "https://github.com/syunnjack/desktop-tutorial/commit/721106ca4b84f76e9dd621a4efbf8a321b978ced"
+        }
+      ],
+      "updatedAt": "2026-07-14T18:46:33Z",
       "stars": 0,
       "forks": 0
     }

@@ -13,7 +13,11 @@ const allowedRepositories = new Set(contentPolicy.allowedRepositories ?? [])
 const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
 const forbiddenTerms = [
   /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i,
-  /アダルト/, /成人向け/, /風俗/, /部外秘/, /社外秘/,
+  /sokmil/i, /\br18\b/i, /doujin/i, /gravure/i, /sexy/i,
+  /hey[-_ ]?douga/i, /mgs[-_ ]?video/i, /\bduga\b/i,
+  /(^|[-_\s])av([-_\s]|$)/i, /(^|[-_\s])bl([-_\s]|$)/i,
+  /(^|[-_\s])tl([-_\s]|$)/i,
+  /アダルト/, /成人向け/, /風俗/, /同人/, /グラビア/, /部外秘/, /社外秘/,
   /機密.*マニュアル/, /\bconfidential\b/i,
 ]
 
@@ -61,7 +65,7 @@ const repositories = gh([
   "list",
   owner,
   "--limit",
-  "200",
+  "1000",
   "--json",
   "name,description,isPrivate,isFork,isArchived,primaryLanguage,updatedAt,url,defaultBranchRef,stargazerCount,forkCount",
 ], [])
