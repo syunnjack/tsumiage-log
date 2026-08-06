@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T07:17:05.464Z",
+  "generatedAt": "2026-08-06T08:08:29.756Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,170 +51,6 @@
   ],
   "articles": [
     {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "fe8a1db",
-          "message": "Merge pull request #20 from syunnjack/cursor/busselect-patch-0002-f103",
-          "date": "2026-08-06T06:54:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/fe8a1db69f1238765cca5d5c7e7337d885c7cd35"
-        },
-        {
-          "sha": "aba4403",
-          "message": "Fix busselect patch for current layout (0002)",
-          "date": "2026-08-06T06:54:04Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/aba44034f2f62b2e568c63255b814ba4680cd31b"
-        },
-        {
-          "sha": "a62a988",
-          "message": "Merge pull request #19 from syunnjack/cursor/handoff-master-f103",
-          "date": "2026-08-06T06:50:06Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/a62a9886031925bbbd943878afc4abf3df563bf4"
-        },
-        {
-          "sha": "f48e778",
-          "message": "Add master handoff doc and refresh site rollout status",
-          "date": "2026-08-06T06:49:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/f48e778c3442a97695d9942003e00d6e5f5ba313"
-        },
-        {
-          "sha": "6662b96",
-          "message": "Merge pull request #18 from syunnjack/cursor/dti-status-docs-f103",
-          "date": "2026-08-06T06:38:21Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6662b9691456c2dad31494402cb473bd1b71b8b2"
-        },
-        {
-          "sha": "67f1218",
-          "message": "Add DTI project status tracker and merge/setup guides",
-          "date": "2026-08-06T06:38:11Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/67f12187c303899caedc3297e0068423bfdb1ee1"
-        },
-        {
-          "sha": "8d5b02f",
-          "message": "Merge pull request #17 from syunnjack/cursor/dti-deploy-docs-f103",
-          "date": "2026-08-06T06:37:49Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8d5b02fa8a3af4afc8935f79b537b01782b9f514"
-        },
-        {
-          "sha": "3905ddc",
-          "message": "Add Windows deploy guide, PowerShell patch script, and CI validation",
-          "date": "2026-08-06T06:21:10Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3905ddcb40ef3af70a4c9e78efd61d2d876b1299"
-        },
-        {
-          "sha": "fd96a4e",
-          "message": "Merge pull request #16 from syunnjack/cursor/hey-douga-guide-csv-import-f103",
-          "date": "2026-08-06T05:58:04Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/fd96a4eae8b616dd6089159e67658841bc764840"
-        },
-        {
-          "sha": "020ca29",
-          "message": "Merge pull request #15 from syunnjack/cursor/dti-movie-data-processing-f103",
-          "date": "2026-08-06T05:58:01Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/020ca293b4e3c082aa269ce762b49d5b4f1938e2"
-        },
-        {
-          "sha": "a07f97c",
-          "message": "Add free-sample-hub patch README",
-          "date": "2026-08-06T05:55:29Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/a07f97c367ea6c29e1197748feca976e852b9bad"
-        },
-        {
-          "sha": "d4f558d",
-          "message": "Add follow-up DTI patches: thumbnails and RSS enrichment",
-          "date": "2026-08-06T05:55:26Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/d4f558d6a0bde845a24050927dbef02dec1d6bfa"
-        }
-      ],
-      "updatedAt": "2026-08-06T06:55:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "dea1cf1",
-          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
-          "date": "2026-08-06T05:00:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
-        },
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-06T05:00:26Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -244,6 +80,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "463c7d3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T07:17:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/463c7d3a0619479f466bea4f4874a2d0eb3aec35"
+        },
         {
           "sha": "eb457c9",
           "message": "Update repository articles from GitHub activity",
@@ -309,15 +151,286 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T17:54:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/56b64eab7c15e80a90c976c92516d2ed39958c27"
-        },
-        {
-          "sha": "37b5278",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T16:54:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/37b52782f28bac71e8b1e2025eb95371301175b2"
         }
       ],
-      "updatedAt": "2026-08-06T05:28:59Z",
+      "updatedAt": "2026-08-06T07:18:08Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "7cb599b",
+          "message": "Merge pull request #22 from syunnjack/cursor/resume-handoff-f103",
+          "date": "2026-08-06T07:47:16Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/7cb599bd66250292cc77fc2ce2b056387f91f02d"
+        },
+        {
+          "sha": "063220d",
+          "message": "Add combined ONAMAE DNS guide and update handoff after PR #21 merge",
+          "date": "2026-08-06T07:47:01Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/063220d4d92509075c696e559d404282a28b98ec"
+        },
+        {
+          "sha": "68e02fa",
+          "message": "Merge pull request #21 from syunnjack/cursor/busselect-patch-0002-f103",
+          "date": "2026-08-06T07:46:37Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/68e02fae3ca86633fcfc1363e8a562368892c4a0"
+        },
+        {
+          "sha": "06c6417",
+          "message": "Document busselect post-patch steps: Site Creator env + DNS",
+          "date": "2026-08-06T07:34:20Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06c6417adbb75486cb4b765e53a9590aa9d7c615"
+        },
+        {
+          "sha": "8b56ef5",
+          "message": "Add busselect APPLY guide and fix scripts to use patch 0002",
+          "date": "2026-08-06T06:56:58Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8b56ef5ddab65a66891b8ef531203cc588bc4661"
+        },
+        {
+          "sha": "4b05758",
+          "message": "Fix busselect apply steps: abort rakuten02, clone to C:\\Users\\syunn",
+          "date": "2026-08-06T06:56:12Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/4b057580802e6c34b986b89888c7dd8b53e126bd"
+        },
+        {
+          "sha": "fe8a1db",
+          "message": "Merge pull request #20 from syunnjack/cursor/busselect-patch-0002-f103",
+          "date": "2026-08-06T06:54:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/fe8a1db69f1238765cca5d5c7e7337d885c7cd35"
+        },
+        {
+          "sha": "aba4403",
+          "message": "Fix busselect patch for current layout (0002)",
+          "date": "2026-08-06T06:54:04Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/aba44034f2f62b2e568c63255b814ba4680cd31b"
+        },
+        {
+          "sha": "a62a988",
+          "message": "Merge pull request #19 from syunnjack/cursor/handoff-master-f103",
+          "date": "2026-08-06T06:50:06Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/a62a9886031925bbbd943878afc4abf3df563bf4"
+        },
+        {
+          "sha": "f48e778",
+          "message": "Add master handoff doc and refresh site rollout status",
+          "date": "2026-08-06T06:49:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/f48e778c3442a97695d9942003e00d6e5f5ba313"
+        },
+        {
+          "sha": "6662b96",
+          "message": "Merge pull request #18 from syunnjack/cursor/dti-status-docs-f103",
+          "date": "2026-08-06T06:38:21Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6662b9691456c2dad31494402cb473bd1b71b8b2"
+        },
+        {
+          "sha": "67f1218",
+          "message": "Add DTI project status tracker and merge/setup guides",
+          "date": "2026-08-06T06:38:11Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/67f12187c303899caedc3297e0068423bfdb1ee1"
+        }
+      ],
+      "updatedAt": "2026-08-06T07:48:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "busselectindex2026.txt",
+        "data",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "8b53be4",
+          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
+          "date": "2026-08-06T06:53:52Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
+        },
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        },
+        {
+          "sha": "7cf15c8",
+          "message": "Automate official GTFS synchronization",
+          "date": "2026-07-27T23:27:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
+        },
+        {
+          "sha": "0e95a8e",
+          "message": "Connect highway bus search with multimodal onward transit",
+          "date": "2026-07-27T20:41:10Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
+        },
+        {
+          "sha": "da05ee7",
+          "message": "Add GTFS local bus data platform",
+          "date": "2026-07-27T18:43:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
+        },
+        {
+          "sha": "474aa06",
+          "message": "Add route insights and price history",
+          "date": "2026-07-27T17:39:43Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
+        },
+        {
+          "sha": "6a10859",
+          "message": "Add nationwide route and city SEO hubs",
+          "date": "2026-07-23T09:40:42Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
+        },
+        {
+          "sha": "8611130",
+          "message": "Add secure hourly feed scheduler",
+          "date": "2026-07-23T09:24:18Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
+        },
+        {
+          "sha": "daad918",
+          "message": "Add live operator API synchronization",
+          "date": "2026-07-23T09:11:07Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
+        },
+        {
+          "sha": "d472e4e",
+          "message": "Add feed source management and import history",
+          "date": "2026-07-23T09:01:24Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
+        },
+        {
+          "sha": "913b51b",
+          "message": "Add CSV service import and feed deduplication",
+          "date": "2026-07-23T08:46:51Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
+        },
+        {
+          "sha": "a9ba842",
+          "message": "Add operator inventory and affiliate URL management",
+          "date": "2026-07-23T07:04:23Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
+        }
+      ],
+      "updatedAt": "2026-08-06T07:29:43Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "hey-douga-guide",
+      "name": "hey-douga-guide",
+      "displayName": "Hey Douga Guide",
+      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/hey-douga-guide",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "dea1cf1",
+          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
+          "date": "2026-08-06T05:00:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
+        },
+        {
+          "sha": "f821b56",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:28:18Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
+        },
+        {
+          "sha": "b4115b4",
+          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
+          "date": "2026-08-05T18:24:40Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
+        }
+      ],
+      "updatedAt": "2026-08-06T05:00:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -9086,119 +9199,6 @@
         }
       ],
       "updatedAt": "2026-07-28T10:29:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "data",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
-        },
-        {
-          "sha": "7cf15c8",
-          "message": "Automate official GTFS synchronization",
-          "date": "2026-07-27T23:27:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
-        },
-        {
-          "sha": "0e95a8e",
-          "message": "Connect highway bus search with multimodal onward transit",
-          "date": "2026-07-27T20:41:10Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
-        },
-        {
-          "sha": "da05ee7",
-          "message": "Add GTFS local bus data platform",
-          "date": "2026-07-27T18:43:47Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
-        },
-        {
-          "sha": "474aa06",
-          "message": "Add route insights and price history",
-          "date": "2026-07-27T17:39:43Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
-        },
-        {
-          "sha": "6a10859",
-          "message": "Add nationwide route and city SEO hubs",
-          "date": "2026-07-23T09:40:42Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
-        },
-        {
-          "sha": "8611130",
-          "message": "Add secure hourly feed scheduler",
-          "date": "2026-07-23T09:24:18Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
-        },
-        {
-          "sha": "daad918",
-          "message": "Add live operator API synchronization",
-          "date": "2026-07-23T09:11:07Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
-        },
-        {
-          "sha": "d472e4e",
-          "message": "Add feed source management and import history",
-          "date": "2026-07-23T09:01:24Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
-        },
-        {
-          "sha": "913b51b",
-          "message": "Add CSV service import and feed deduplication",
-          "date": "2026-07-23T08:46:51Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
-        },
-        {
-          "sha": "a9ba842",
-          "message": "Add operator inventory and affiliate URL management",
-          "date": "2026-07-23T07:04:23Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
-        },
-        {
-          "sha": "5a96100",
-          "message": "Add programmatic route SEO and AI discovery",
-          "date": "2026-07-23T06:47:31Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/5a961000436e054859f0d5b4d9209dd66b504719"
-        }
-      ],
-      "updatedAt": "2026-07-27T23:36:20Z",
       "stars": 0,
       "forks": 0
     },
