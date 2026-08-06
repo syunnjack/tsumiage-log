@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T11:59:36.441Z",
+  "generatedAt": "2026-08-06T12:59:11.994Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -50,6 +50,226 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "busselectindex2026.txt",
+        "data",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "8e18bdd",
+          "message": "Add multimodal onward route planner",
+          "date": "2026-08-06T12:22:19Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8e18bdd5f6020150c64c0b8eaf1de611a75fa330"
+        },
+        {
+          "sha": "8b53be4",
+          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
+          "date": "2026-08-06T06:53:52Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
+        },
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        },
+        {
+          "sha": "7cf15c8",
+          "message": "Automate official GTFS synchronization",
+          "date": "2026-07-27T23:27:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
+        },
+        {
+          "sha": "0e95a8e",
+          "message": "Connect highway bus search with multimodal onward transit",
+          "date": "2026-07-27T20:41:10Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
+        },
+        {
+          "sha": "da05ee7",
+          "message": "Add GTFS local bus data platform",
+          "date": "2026-07-27T18:43:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
+        },
+        {
+          "sha": "474aa06",
+          "message": "Add route insights and price history",
+          "date": "2026-07-27T17:39:43Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
+        },
+        {
+          "sha": "6a10859",
+          "message": "Add nationwide route and city SEO hubs",
+          "date": "2026-07-23T09:40:42Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
+        },
+        {
+          "sha": "8611130",
+          "message": "Add secure hourly feed scheduler",
+          "date": "2026-07-23T09:24:18Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
+        },
+        {
+          "sha": "daad918",
+          "message": "Add live operator API synchronization",
+          "date": "2026-07-23T09:11:07Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
+        },
+        {
+          "sha": "d472e4e",
+          "message": "Add feed source management and import history",
+          "date": "2026-07-23T09:01:24Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
+        },
+        {
+          "sha": "913b51b",
+          "message": "Add CSV service import and feed deduplication",
+          "date": "2026-07-23T08:46:51Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
+        }
+      ],
+      "updatedAt": "2026-08-06T12:23:21Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "88b4b92",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T11:59:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/88b4b92afcaa78d6896fdd9b0cfb13025904b0ac"
+        },
+        {
+          "sha": "aa9c00e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T11:13:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa9c00e02eba3dc3fbadace068eb3b671a499318"
+        },
+        {
+          "sha": "88d4a04",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T10:17:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/88d4a0428bead19c7a8a1402794bf0b11a5637a8"
+        },
+        {
+          "sha": "167aaa8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T09:19:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/167aaa82f7d0d48e4ed2b6c7215d18a503ebe5b4"
+        },
+        {
+          "sha": "41fa312",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T08:08:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/41fa312ce2b5f198a540c8bff1d1a932509e5238"
+        },
+        {
+          "sha": "463c7d3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T07:17:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/463c7d3a0619479f466bea4f4874a2d0eb3aec35"
+        },
+        {
+          "sha": "eb457c9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T05:28:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb457c90e32eb7160f408d63e4fd57be220ef1b4"
+        },
+        {
+          "sha": "8a94908",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T03:26:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8a949081fb7d9a7cdadc1e85e6f621b7ff396cd2"
+        },
+        {
+          "sha": "7f5d32f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T02:00:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f5d32ffef6fa3036d935ce84d8789cfcd4fb84a"
+        },
+        {
+          "sha": "019534c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-06T00:50:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/019534c10d5c8f3ab9bbdf7deed9e7aa2a2800b2"
+        },
+        {
+          "sha": "8bbacf8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T23:37:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bbacf877333046119c01098a883d163893d3a14"
+        },
+        {
+          "sha": "55d6fa8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T22:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55d6fa8b48da293d879e71d012fbf65af64c24fe"
+        }
+      ],
+      "updatedAt": "2026-08-06T12:01:30Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "hey-douga-guide",
       "name": "hey-douga-guide",
@@ -229,226 +449,6 @@
         }
       ],
       "updatedAt": "2026-08-06T07:48:38Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "aa9c00e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T11:13:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa9c00e02eba3dc3fbadace068eb3b671a499318"
-        },
-        {
-          "sha": "88d4a04",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T10:17:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/88d4a0428bead19c7a8a1402794bf0b11a5637a8"
-        },
-        {
-          "sha": "167aaa8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T09:19:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/167aaa82f7d0d48e4ed2b6c7215d18a503ebe5b4"
-        },
-        {
-          "sha": "41fa312",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T08:08:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/41fa312ce2b5f198a540c8bff1d1a932509e5238"
-        },
-        {
-          "sha": "463c7d3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T07:17:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/463c7d3a0619479f466bea4f4874a2d0eb3aec35"
-        },
-        {
-          "sha": "eb457c9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T05:28:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb457c90e32eb7160f408d63e4fd57be220ef1b4"
-        },
-        {
-          "sha": "8a94908",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T03:26:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8a949081fb7d9a7cdadc1e85e6f621b7ff396cd2"
-        },
-        {
-          "sha": "7f5d32f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T02:00:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f5d32ffef6fa3036d935ce84d8789cfcd4fb84a"
-        },
-        {
-          "sha": "019534c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T00:50:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/019534c10d5c8f3ab9bbdf7deed9e7aa2a2800b2"
-        },
-        {
-          "sha": "8bbacf8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T23:37:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bbacf877333046119c01098a883d163893d3a14"
-        },
-        {
-          "sha": "55d6fa8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T22:40:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/55d6fa8b48da293d879e71d012fbf65af64c24fe"
-        },
-        {
-          "sha": "4342dfa",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T21:44:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4342dfa5698c6e1bff2ef738ae0db80a4c1dd3e9"
-        }
-      ],
-      "updatedAt": "2026-08-06T11:13:57Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "busselectindex2026.txt",
-        "data",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "8b53be4",
-          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
-          "date": "2026-08-06T06:53:52Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
-        },
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
-        },
-        {
-          "sha": "7cf15c8",
-          "message": "Automate official GTFS synchronization",
-          "date": "2026-07-27T23:27:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
-        },
-        {
-          "sha": "0e95a8e",
-          "message": "Connect highway bus search with multimodal onward transit",
-          "date": "2026-07-27T20:41:10Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
-        },
-        {
-          "sha": "da05ee7",
-          "message": "Add GTFS local bus data platform",
-          "date": "2026-07-27T18:43:47Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
-        },
-        {
-          "sha": "474aa06",
-          "message": "Add route insights and price history",
-          "date": "2026-07-27T17:39:43Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
-        },
-        {
-          "sha": "6a10859",
-          "message": "Add nationwide route and city SEO hubs",
-          "date": "2026-07-23T09:40:42Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
-        },
-        {
-          "sha": "8611130",
-          "message": "Add secure hourly feed scheduler",
-          "date": "2026-07-23T09:24:18Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
-        },
-        {
-          "sha": "daad918",
-          "message": "Add live operator API synchronization",
-          "date": "2026-07-23T09:11:07Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
-        },
-        {
-          "sha": "d472e4e",
-          "message": "Add feed source management and import history",
-          "date": "2026-07-23T09:01:24Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
-        },
-        {
-          "sha": "913b51b",
-          "message": "Add CSV service import and feed deduplication",
-          "date": "2026-07-23T08:46:51Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
-        },
-        {
-          "sha": "a9ba842",
-          "message": "Add operator inventory and affiliate URL management",
-          "date": "2026-07-23T07:04:23Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/a9ba842e82e04233a6ed5fb1567289b4680fa420"
-        }
-      ],
-      "updatedAt": "2026-08-06T07:29:43Z",
       "stars": 0,
       "forks": 0
     },
