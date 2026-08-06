@@ -3,6 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getManualArticle, manualArticles } from "../../../lib/manual-articles"
 import { formatDate } from "../../../lib/repository-articles"
+import Comments from "../../../components/Comments"
 
 export const dynamicParams = false
 export const generateStaticParams = () =>
@@ -44,9 +45,19 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     mainEntityOfPage: `https://syunnjack.dev/articles/manual/${article.slug}`,
     keywords: article.tags.join(", "),
   }
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
+      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles" },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://syunnjack.dev/articles/manual/${article.slug}` },
+    ],
+  }
 
   return <main className="tech-article-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <header className="article-site-header">
       <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link>
       <Link href="/articles">記事一覧へ</Link>
@@ -70,6 +81,7 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
             {section.code && <pre><code className={`language-${section.code.language}`}>{section.code.content}</code></pre>}
           </section>)}
           <aside className="source-note"><strong>この記事について</strong><p>本人が経験・検証・考察をもとに執筆したオリジナル記事です。</p></aside>
+          <Comments />
         </div>
       </div>
     </article>

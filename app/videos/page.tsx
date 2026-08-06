@@ -4,16 +4,60 @@ import { articles } from "../lib/repository-articles"
 import { resolveVideoAssetUrl } from "../lib/video-assets"
 import videoProduction from "../data/video-production.json"
 
+const pageTitle = "技術解説動画 | 積み上げログ"
+const pageDescription =
+  "積み上げログの技術記事を、設計図、コード、コミットの変化とともに学べる技術解説動画の一覧です。"
+
 export const metadata: Metadata = {
-  title: "技術解説動画 | 積み上げログ",
-  description:
-    "積み上げログの技術記事を、設計図、コード、コミットの変化とともに学べる技術解説動画の一覧です。",
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: "/videos" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/videos", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
 }
 
 export default function VideosPage() {
+  const publishedVideos = articles
+    .map((article) => ({
+      article,
+      videoUrl:
+        article.slug === "rakuten02"
+          ? "/videos/rakuten02-tech-preview.mp4"
+          : resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl),
+    }))
+    .filter((entry): entry is { article: (typeof articles)[number]; videoUrl: string } => Boolean(entry.videoUrl))
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "技術解説動画",
+    description: pageDescription,
+    url: "https://syunnjack.dev/videos",
+    isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev" },
+    numberOfItems: publishedVideos.length,
+    hasPart: publishedVideos.map(({ article, videoUrl }) => ({
+      "@type": "VideoObject",
+      name: `${article.displayName}の技術解説`,
+      description: article.description,
+      contentUrl: videoUrl,
+      thumbnailUrl: article.slug === "rakuten02" ? "https://syunnjack.dev/videos/rakuten02-tech-preview.png" : undefined,
+      uploadDate: article.updatedAt,
+      author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
+    })),
+  }
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
+      { "@type": "ListItem", position: 2, name: "動画", item: "https://syunnjack.dev/videos" },
+    ],
+  }
+
   return (
     <main className="videos-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <header className="article-site-header">
         <Link className="brand" href="/">
           <span className="brand-mark">つ</span>

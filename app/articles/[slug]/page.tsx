@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { articles, formatCommitMessage, formatDate, getArticle, inferArchitecture } from "../../lib/repository-articles"
 import { resolveVideoAssetUrl } from "../../lib/video-assets"
 import videoProduction from "../../data/video-production.json"
+import Comments from "../../components/Comments"
 
 export const generateStaticParams = () => articles.map(({ slug }) => ({ slug }))
 
@@ -35,10 +36,17 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
     mainEntityOfPage: `https://syunnjack.dev/articles/${article.slug}`, isBasedOn: article.url, about: article.languages }
   const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: faq.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }
+  const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
+      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles" },
+      { "@type": "ListItem", position: 3, name: article.name, item: `https://syunnjack.dev/articles/${article.slug}` },
+    ] }
 
   return <main className="tech-article-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(techArticle) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
     <article>
       {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>技術解説動画</p><h2>Rakuten02の技術解説</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></aside>}
@@ -70,6 +78,7 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
           <section id="learning"><p className="section-kicker">05 / 学び</p><h2>このプロジェクトから得られる学び</h2><ul className="learning-list"><li><strong>変更を小さく記録する</strong><p>コミット単位で目的を分けると、実装の意図を追跡しやすくなります。</p></li><li><strong>構成と技術選定を結び付ける</strong><p>{article.primaryLanguage}の採用理由と各ディレクトリの責務を説明できることが保守性につながります。</p></li><li><strong>READMEと実装を同時に育てる</strong><p>説明とコードを近い状態に保つことが、再利用と振り返りを助けます。</p></li></ul></section>
           <section id="faq"><p className="section-kicker">06 / よくある質問</p><h2>よくある質問</h2><div className="faq-list">{faq.map(({ q, a }) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div></section>
           <aside className="source-note"><strong>情報の透明性</strong><p>{formatDate(article.updatedAt)}時点の公開GitHub情報を基にしています。</p><a href={article.url}>GitHubリポジトリを見る ↗</a></aside>
+          <Comments />
         </div>
       </div>
     </article>

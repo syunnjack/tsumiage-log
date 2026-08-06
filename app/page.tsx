@@ -1,34 +1,25 @@
 import Link from "next/link"
+import { articles as repositoryArticles, formatDate } from "./lib/repository-articles"
+import { manualArticles } from "./lib/manual-articles"
 
-const articles = [
-  {
-    number: "01",
-    category: "はじめに",
-    title: "GoalPilotで学ぶ、続けられる目標管理の設計",
-    excerpt:
-      "挫折を前提にしたタスク設計、3分スタート、リカバリーモードの実装過程をコミットから振り返ります。",
-    date: "2026.07.25",
-    readTime: "8 min",
-  },
-  {
-    number: "02",
-    category: "React",
-    title: "地図検索サービスを再利用可能な構成にする",
-    excerpt:
-      "Leafletを使った地図と検索結果の連動、カテゴリ設計、ローカル検索の共通化を考えます。",
-    date: "公開コミット連動",
-    readTime: "—",
-  },
-  {
-    number: "03",
-    category: "Web",
-    title: "高速バス比較サービスのデータ同期設計",
-    excerpt:
-      "CSV取り込み、重複排除、運行会社API、定期同期へと拡張したコミットの流れを解説します。",
-    date: "公開コミット連動",
-    readTime: "—",
-  },
+const latestArticles = [
+  ...manualArticles.map((article) => ({
+    href: `/articles/manual/${article.slug}`,
+    category: article.category,
+    title: article.title,
+    excerpt: article.description,
+    updatedAt: article.updatedAt,
+  })),
+  ...repositoryArticles.map((article) => ({
+    href: `/articles/${article.slug}`,
+    category: article.primaryLanguage,
+    title: `${article.displayName}の設計と実装`,
+    excerpt: article.description,
+    updatedAt: article.updatedAt,
+  })),
 ]
+  .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
+  .slice(0, 3)
 
 const timeline = [
   {
@@ -145,14 +136,13 @@ export default function Home() {
           </p>
         </div>
         <div className="article-list">
-          {articles.map((article) => (
-            <article key={article.number} className="article-card">
-              <div className="article-number">{article.number}</div>
+          {latestArticles.map((article, index) => (
+            <Link href={article.href} key={article.href} className="article-card">
+              <div className="article-number">{String(index + 1).padStart(2, "0")}</div>
               <div className="article-body">
                 <div className="article-meta">
                   <span>{article.category}</span>
-                  <time>{article.date}</time>
-                  <span>{article.readTime}</span>
+                  <time>{formatDate(article.updatedAt)}</time>
                 </div>
                 <h3>{article.title}</h3>
                 <p>{article.excerpt}</p>
@@ -160,7 +150,7 @@ export default function Home() {
               <span className="article-arrow" aria-hidden="true">
                 ↗
               </span>
-            </article>
+            </Link>
           ))}
         </div>
         <p className="coming-note">

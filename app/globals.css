@@ -1270,6 +1270,17 @@ footer > a {
   font-weight: 800;
 }
 
+.comments-section {
+  margin-top: 55px;
+  padding-top: 45px;
+  border-top: 1px solid var(--line);
+}
+
+.comments-section > p:last-of-type {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 850px) {
   .repository-grid {
     grid-template-columns: 1fr 1fr;

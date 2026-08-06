@@ -3,14 +3,29 @@ import Link from "next/link"
 import { manualArticles } from "../lib/manual-articles"
 import { articles, articleStats, formatDate } from "../lib/repository-articles"
 
+const pageTitle = "技術記事一覧 | 積み上げログ"
+const pageDescription = "自主執筆した技術記事と、公開GitHubリポジトリの実装・コミット履歴に基づく技術解説を掲載します。"
+
 export const metadata: Metadata = {
-  title: "技術記事一覧 | 積み上げログ",
-  description: "自主執筆した技術記事と、公開GitHubリポジトリの実装・コミット履歴に基づく技術解説を掲載します。",
+  title: pageTitle,
+  description: pageDescription,
   alternates: { canonical: "/articles" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/articles", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
+}
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
+    { "@type": "ListItem", position: 2, name: "技術記事一覧", item: "https://syunnjack.dev/articles" },
+  ],
 }
 
 export default function ArticlesPage() {
   return <main className="archive-page">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <header className="article-site-header">
       <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link>
       <Link href="/">ホームへ戻る</Link>

@@ -11,6 +11,7 @@ const items = [
   ["サービス", "/services"],
   ["見積依頼", "/estimate"],
   ["お問い合わせ", "/contact"],
+  ["動画", "/videos"],
   ["お気に入り動画", "/videos/favorites"],
 ]
 
