@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-05T23:37:33.910Z",
+  "generatedAt": "2026-08-06T00:50:25.923Z",
   "owner": "syunnjack",
-  "totalRepositories": 192,
-  "publicRepositories": 190,
+  "totalRepositories": 201,
+  "publicRepositories": 199,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "shirouto-ranking",
+    "taimenzai-ranking",
+    "mesuiki-ranking",
+    "kyonyu-ranking",
+    "kosupure-ranking",
+    "chijo-ranking",
+    "ohogao-ranking",
+    "netorase-ranking",
+    "kijoi-ranking",
     "tachiback-ranking",
     "ahegao-ranking",
     "mature-genre-ranking",
@@ -50,6 +59,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "8bbacf8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-05T23:37:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bbacf877333046119c01098a883d163893d3a14"
+        },
         {
           "sha": "55d6fa8",
           "message": "Update repository articles from GitHub activity",
@@ -115,15 +130,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-05T12:58:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fc8f88e9328255fb3278025467f8fca58c162db6"
-        },
-        {
-          "sha": "224d4d2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-05T11:58:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/224d4d267ae8e9c499be430fb98f49d35aca64e8"
         }
       ],
-      "updatedAt": "2026-08-05T22:40:25Z",
+      "updatedAt": "2026-08-05T23:37:51Z",
       "stars": 0,
       "forks": 0
     },
