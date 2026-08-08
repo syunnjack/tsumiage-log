@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T17:30:07.283Z",
+  "generatedAt": "2026-08-08T18:29:03.791Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,75 @@
   ],
   "articles": [
     {
+      "slug": "juku-map",
+      "name": "juku-map",
+      "displayName": "Juku Map",
+      "description": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/juku-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "ace1b66",
+          "message": "Wire GA4 and Search Console verification into the shared layout",
+          "date": "2026-08-08T17:37:40Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/ace1b66c421d0b884ebbda2f169808681385d122"
+        },
+        {
+          "sha": "3f66c49",
+          "message": "Fix Xserver deployment directory creation (#1)",
+          "date": "2026-08-04T02:51:54Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/3f66c4950e2716f894968d7bbf03f336d015d5a1"
+        },
+        {
+          "sha": "c41ea23",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:09:39Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/c41ea23ea3d9e4664550804df5a512b193bcf27d"
+        },
+        {
+          "sha": "9c7698d",
+          "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
+          "date": "2026-07-15T15:37:00Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/9c7698d7738797b8b765ff89eed932b902ca94ee"
+        },
+        {
+          "sha": "cddb3ba",
+          "message": "学習塾マップ（地図×UGC×LINE通知・体験授業予約受付）を新規構築",
+          "date": "2026-07-15T08:13:50Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/cddb3ba31c1f92029b006cda0763f3a6d10c73eb"
+        }
+      ],
+      "updatedAt": "2026-08-08T17:37:45Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -85,6 +154,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "6b24187",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T17:30:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b241879da9a25d1a41e1ed2bc4906002ddc025f"
+        },
         {
           "sha": "bb934bc",
           "message": "Update repository articles from GitHub activity",
@@ -150,15 +225,121 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-06T11:59:52Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/88b4b92afcaa78d6896fdd9b0cfb13025904b0ac"
-        },
-        {
-          "sha": "aa9c00e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T11:13:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa9c00e02eba3dc3fbadace068eb3b671a499318"
         }
       ],
-      "updatedAt": "2026-08-08T16:29:32Z",
+      "updatedAt": "2026-08-08T17:30:27Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "41bdfdd",
+          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
+          "date": "2026-08-08T17:28:36Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
+        },
+        {
+          "sha": "1786e97",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-08T17:27:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
+        },
+        {
+          "sha": "3e361f5",
+          "message": "Document GA4_MEASUREMENT_ID in .env.example",
+          "date": "2026-08-08T17:27:51Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
+        },
+        {
+          "sha": "b6d51c1",
+          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
+          "date": "2026-08-07T12:00:46Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
+        },
+        {
+          "sha": "501c19c",
+          "message": "Add temporary PHP binary discovery step",
+          "date": "2026-08-07T11:59:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
+        },
+        {
+          "sha": "db21e87",
+          "message": "Add package-lock.json",
+          "date": "2026-08-07T11:56:54Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
+        },
+        {
+          "sha": "39bb85b",
+          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
+          "date": "2026-08-07T11:55:03Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
+        },
+        {
+          "sha": "a99924c",
+          "message": "Remove superseded incomplete Xserver deploy workflow",
+          "date": "2026-08-07T11:46:39Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/a99924cb09831d90f05499aaa127efa4345e4050"
+        },
+        {
+          "sha": "28c6e4e",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:39:34Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/28c6e4e669676360ed08eaa76e2b0f5b22671678"
+        },
+        {
+          "sha": "7c5eeee",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T18:00:22Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/7c5eeee5db21bba70d28ce3bc90ce9b9f6a33b31"
+        },
+        {
+          "sha": "79c9e51",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:09:24Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/79c9e514434277b902c7d59aa01a0809195fb06d"
+        },
+        {
+          "sha": "060c543",
+          "message": "$(cat <<'EOF'",
+          "date": "2026-07-14T21:59:45Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/060c54376658f98d82a7be908942e88bc1e9e400"
+        }
+      ],
+      "updatedAt": "2026-08-08T17:28:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -1667,112 +1848,6 @@
         }
       ],
       "updatedAt": "2026-08-07T15:29:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "golf-search",
-      "name": "golf-search",
-      "displayName": "Golf Search",
-      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "b6d51c1",
-          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
-          "date": "2026-08-07T12:00:46Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
-        },
-        {
-          "sha": "501c19c",
-          "message": "Add temporary PHP binary discovery step",
-          "date": "2026-08-07T11:59:06Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
-        },
-        {
-          "sha": "db21e87",
-          "message": "Add package-lock.json",
-          "date": "2026-08-07T11:56:54Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
-        },
-        {
-          "sha": "39bb85b",
-          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
-          "date": "2026-08-07T11:55:03Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
-        },
-        {
-          "sha": "a99924c",
-          "message": "Remove superseded incomplete Xserver deploy workflow",
-          "date": "2026-08-07T11:46:39Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/a99924cb09831d90f05499aaa127efa4345e4050"
-        },
-        {
-          "sha": "28c6e4e",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:39:34Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/28c6e4e669676360ed08eaa76e2b0f5b22671678"
-        },
-        {
-          "sha": "7c5eeee",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:22Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/7c5eeee5db21bba70d28ce3bc90ce9b9f6a33b31"
-        },
-        {
-          "sha": "79c9e51",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:24Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/79c9e514434277b902c7d59aa01a0809195fb06d"
-        },
-        {
-          "sha": "060c543",
-          "message": "$(cat <<'EOF'",
-          "date": "2026-07-14T21:59:45Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/060c54376658f98d82a7be908942e88bc1e9e400"
-        },
-        {
-          "sha": "21a73ac",
-          "message": "Fix broken search, migrate to 2026 Rakuten API, add SEO/AIO/LLMO and UGC",
-          "date": "2026-07-14T09:26:49Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/21a73acd7ec8f4201d71b9c1d1197eda68299006"
-        },
-        {
-          "sha": "979c7e8",
-          "message": "Initial commit golf-search",
-          "date": "2025-07-26T11:56:09Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/979c7e8f789d22d7ee70c89dd944194a7b57679b"
-        }
-      ],
-      "updatedAt": "2026-08-07T12:03:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -8492,69 +8567,6 @@
         }
       ],
       "updatedAt": "2026-08-04T03:28:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "juku-map",
-      "name": "juku-map",
-      "displayName": "Juku Map",
-      "description": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/juku-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "3f66c49",
-          "message": "Fix Xserver deployment directory creation (#1)",
-          "date": "2026-08-04T02:51:54Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/3f66c4950e2716f894968d7bbf03f336d015d5a1"
-        },
-        {
-          "sha": "c41ea23",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:39Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/c41ea23ea3d9e4664550804df5a512b193bcf27d"
-        },
-        {
-          "sha": "9c7698d",
-          "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
-          "date": "2026-07-15T15:37:00Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/9c7698d7738797b8b765ff89eed932b902ca94ee"
-        },
-        {
-          "sha": "cddb3ba",
-          "message": "学習塾マップ（地図×UGC×LINE通知・体験授業予約受付）を新規構築",
-          "date": "2026-07-15T08:13:50Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/cddb3ba31c1f92029b006cda0763f3a6d10c73eb"
-        }
-      ],
-      "updatedAt": "2026-08-04T02:52:01Z",
       "stars": 0,
       "forks": 0
     },
