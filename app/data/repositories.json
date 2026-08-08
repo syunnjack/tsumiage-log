@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T22:30:10.686Z",
+  "generatedAt": "2026-08-08T23:29:46.888Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,116 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "8578d37",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T22:30:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
+        },
+        {
+          "sha": "5e72ec4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T21:29:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e72ec478cce695035a48acea8dd257a151a4758"
+        },
+        {
+          "sha": "993ee51",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T20:28:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/993ee518e202f8d1a89f6433a80666bf48aeaec1"
+        },
+        {
+          "sha": "789b0e7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T19:29:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/789b0e71d35ea6244cd60a6ac724a6c97aa63b47"
+        },
+        {
+          "sha": "6590802",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T18:29:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6590802e1227e3dd68432b8eba93f2da373ab742"
+        },
+        {
+          "sha": "6b24187",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T17:30:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b241879da9a25d1a41e1ed2bc4906002ddc025f"
+        },
+        {
+          "sha": "bb934bc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T16:29:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bb934bce9113a56bae28067ef17fb65a097e98e0"
+        },
+        {
+          "sha": "5e02716",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T15:30:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e027164d73731ebb5397a5ef8b489d3e648d3fe"
+        },
+        {
+          "sha": "c9986d0",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T14:29:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c9986d07db8233cc0efb1ff0724b332ecd9dfda1"
+        },
+        {
+          "sha": "e6d959c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T13:37:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e6d959c36ddf651def798bc3598cc58b2e0ffdf6"
+        },
+        {
+          "sha": "86b4e78",
+          "message": "Fix copy-audit blocking every scheduled run + publish first manual article",
+          "date": "2026-08-08T13:12:30Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/86b4e78c178a99af0912d1104f65eec73e8ccd9a"
+        },
+        {
+          "sha": "3b3ab3d",
+          "message": "Add site-wide SEO/AIO/LLMO structured data and GitHub-backed comments",
+          "date": "2026-08-06T22:27:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b3ab3d48fc6d3fbe5c4e3bf5b14aca6b8ceef1d"
+        }
+      ],
+      "updatedAt": "2026-08-08T22:30:30Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "furusato-hikaku",
       "name": "furusato-hikaku",
@@ -354,116 +464,6 @@
         }
       ],
       "updatedAt": "2026-08-08T21:33:35Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "5e72ec4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T21:29:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e72ec478cce695035a48acea8dd257a151a4758"
-        },
-        {
-          "sha": "993ee51",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T20:28:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/993ee518e202f8d1a89f6433a80666bf48aeaec1"
-        },
-        {
-          "sha": "789b0e7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T19:29:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/789b0e71d35ea6244cd60a6ac724a6c97aa63b47"
-        },
-        {
-          "sha": "6590802",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T18:29:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6590802e1227e3dd68432b8eba93f2da373ab742"
-        },
-        {
-          "sha": "6b24187",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T17:30:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b241879da9a25d1a41e1ed2bc4906002ddc025f"
-        },
-        {
-          "sha": "bb934bc",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T16:29:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bb934bce9113a56bae28067ef17fb65a097e98e0"
-        },
-        {
-          "sha": "5e02716",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T15:30:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e027164d73731ebb5397a5ef8b489d3e648d3fe"
-        },
-        {
-          "sha": "c9986d0",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T14:29:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c9986d07db8233cc0efb1ff0724b332ecd9dfda1"
-        },
-        {
-          "sha": "e6d959c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T13:37:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e6d959c36ddf651def798bc3598cc58b2e0ffdf6"
-        },
-        {
-          "sha": "86b4e78",
-          "message": "Fix copy-audit blocking every scheduled run + publish first manual article",
-          "date": "2026-08-08T13:12:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/86b4e78c178a99af0912d1104f65eec73e8ccd9a"
-        },
-        {
-          "sha": "3b3ab3d",
-          "message": "Add site-wide SEO/AIO/LLMO structured data and GitHub-backed comments",
-          "date": "2026-08-06T22:27:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3b3ab3d48fc6d3fbe5c4e3bf5b14aca6b8ceef1d"
-        },
-        {
-          "sha": "491971e",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/tsumiage-log",
-          "date": "2026-08-06T22:20:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/491971ed9dffc478ac10ff4173a796cec64599af"
-        }
-      ],
-      "updatedAt": "2026-08-08T21:29:37Z",
       "stars": 0,
       "forks": 0
     },
