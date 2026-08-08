@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T20:28:04.095Z",
+  "generatedAt": "2026-08-08T21:29:17.276Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,79 @@
   ],
   "articles": [
     {
+      "slug": "reserve-serapi",
+      "name": "reserve-serapi",
+      "displayName": "Reserve Serapi",
+      "description": "Reserve Serapiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Reserve Serapiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/reserve-serapi",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "components",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "9d8b2ed",
+          "message": "Add GA4 tracking and Search Console verification support",
+          "date": "2026-08-08T20:46:59Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/9d8b2ed7ced39589dbbf7faee0b5087a225587ff"
+        },
+        {
+          "sha": "76bd6e7",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:24Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/76bd6e7c4bce881ff570de2bf3ae88281fc31d18"
+        },
+        {
+          "sha": "3403185",
+          "message": "Add host-based landing page variants for multi-domain rollout",
+          "date": "2026-07-29T08:05:56Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/3403185c2d5db3f2292753ebcd0bdffd314f5945"
+        },
+        {
+          "sha": "01a6863",
+          "message": "Adjust cron schedule to daily for Vercel Hobby plan compatibility",
+          "date": "2026-07-28T22:50:51Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/01a68633eb111b588712e5d09a946adc4d656745"
+        },
+        {
+          "sha": "5a833b8",
+          "message": "Initial reserve-serapi MVP: shift-aware therapist booking PWA",
+          "date": "2026-07-28T22:49:39Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/5a833b897c8ca61f97ff2135a7af3c69ef2028f7"
+        },
+        {
+          "sha": "3de261b",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-28T22:02:28Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
+        }
+      ],
+      "updatedAt": "2026-08-08T20:47:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "juku-map",
       "name": "juku-map",
       "displayName": "Juku Map",
@@ -86,6 +159,30 @@
         "vite.config.js"
       ],
       "commits": [
+        {
+          "sha": "7361f70",
+          "message": "Broaden wp-config.php search across home dir",
+          "date": "2026-08-08T20:35:40Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/7361f707e199ac3c9161eec337a17b3d7f1a3b90"
+        },
+        {
+          "sha": "eb37f3e",
+          "message": "Add read-only WordPress inspection job",
+          "date": "2026-08-08T20:33:41Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/eb37f3e3de470fcb7055e58966c23c297e600d4c"
+        },
+        {
+          "sha": "bb873fd",
+          "message": "Fix the real shared/.env and clear config cache",
+          "date": "2026-08-08T20:27:42Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/bb873fd53a23d3e9d87f2bb2c5dde798be5411a0"
+        },
+        {
+          "sha": "3d2aa2b",
+          "message": "Inspect juku-map-app Deployer-style structure",
+          "date": "2026-08-08T20:26:10Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/3d2aa2be305d9042c1aa69d528afff86b36e82df"
+        },
         {
           "sha": "fd912e8",
           "message": "Broaden search to locate the real serving app root",
@@ -133,15 +230,9 @@
           "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
           "date": "2026-07-15T15:37:00Z",
           "url": "https://github.com/syunnjack/juku-map/commit/9c7698d7738797b8b765ff89eed932b902ca94ee"
-        },
-        {
-          "sha": "cddb3ba",
-          "message": "学習塾マップ（地図×UGC×LINE通知・体験授業予約受付）を新規構築",
-          "date": "2026-07-15T08:13:50Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/cddb3ba31c1f92029b006cda0763f3a6d10c73eb"
         }
       ],
-      "updatedAt": "2026-08-08T20:24:40Z",
+      "updatedAt": "2026-08-08T20:35:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -178,6 +269,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "993ee51",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T20:28:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/993ee518e202f8d1a89f6433a80666bf48aeaec1"
+        },
         {
           "sha": "789b0e7",
           "message": "Update repository articles from GitHub activity",
@@ -243,15 +340,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-06T15:05:37Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6788e7503d23b082c7b44d99edba9a0c106bea78"
-        },
-        {
-          "sha": "f1177ac",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T14:01:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f1177ac4c420f8340bb0667ca8aae7ec894f9df2"
         }
       ],
-      "updatedAt": "2026-08-08T19:29:30Z",
+      "updatedAt": "2026-08-08T20:28:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -846,73 +937,6 @@
         }
       ],
       "updatedAt": "2026-08-08T09:09:02Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "reserve-serapi",
-      "name": "reserve-serapi",
-      "displayName": "Reserve Serapi",
-      "description": "Reserve Serapiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Reserve Serapiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/reserve-serapi",
-      "defaultBranch": "master",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "AGENTS.md",
-        "CLAUDE.md",
-        "README.md",
-        "app",
-        "components",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "proxy.ts",
-        "public",
-        "tsconfig.json",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "76bd6e7",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:24Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/76bd6e7c4bce881ff570de2bf3ae88281fc31d18"
-        },
-        {
-          "sha": "3403185",
-          "message": "Add host-based landing page variants for multi-domain rollout",
-          "date": "2026-07-29T08:05:56Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/3403185c2d5db3f2292753ebcd0bdffd314f5945"
-        },
-        {
-          "sha": "01a6863",
-          "message": "Adjust cron schedule to daily for Vercel Hobby plan compatibility",
-          "date": "2026-07-28T22:50:51Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/01a68633eb111b588712e5d09a946adc4d656745"
-        },
-        {
-          "sha": "5a833b8",
-          "message": "Initial reserve-serapi MVP: shift-aware therapist booking PWA",
-          "date": "2026-07-28T22:49:39Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/5a833b897c8ca61f97ff2135a7af3c69ef2028f7"
-        },
-        {
-          "sha": "3de261b",
-          "message": "Initial commit from Create Next App",
-          "date": "2026-07-28T22:02:28Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
-        }
-      ],
-      "updatedAt": "2026-08-08T02:02:27Z",
       "stars": 0,
       "forks": 0
     },
