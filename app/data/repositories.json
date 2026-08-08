@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:29:11.208Z",
+  "generatedAt": "2026-08-08T20:28:04.095Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,99 @@
   ],
   "articles": [
     {
+      "slug": "juku-map",
+      "name": "juku-map",
+      "displayName": "Juku Map",
+      "description": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/juku-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "fd912e8",
+          "message": "Broaden search to locate the real serving app root",
+          "date": "2026-08-08T20:24:35Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/fd912e8a5d9caf14a4f572951b2bf1a506a7d8dc"
+        },
+        {
+          "sha": "69b9374",
+          "message": "Make inspect job run regardless of patch outcome",
+          "date": "2026-08-08T20:23:08Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/69b9374be3c1893b80396bfe9e42cb632c7ec595"
+        },
+        {
+          "sha": "7a13347",
+          "message": "Add read-only inspect step to diagnose server/repo drift",
+          "date": "2026-08-08T20:22:16Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/7a1334764c6eed5c278d6f9bc55b8d153db26958"
+        },
+        {
+          "sha": "66b18e5",
+          "message": "Add one-off workflow to patch production .env with GA4/GSC values",
+          "date": "2026-08-08T20:20:29Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/66b18e5da3eef6d3250da1e5fe0948e51f2396b0"
+        },
+        {
+          "sha": "ace1b66",
+          "message": "Wire GA4 and Search Console verification into the shared layout",
+          "date": "2026-08-08T17:37:40Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/ace1b66c421d0b884ebbda2f169808681385d122"
+        },
+        {
+          "sha": "3f66c49",
+          "message": "Fix Xserver deployment directory creation (#1)",
+          "date": "2026-08-04T02:51:54Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/3f66c4950e2716f894968d7bbf03f336d015d5a1"
+        },
+        {
+          "sha": "c41ea23",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:09:39Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/c41ea23ea3d9e4664550804df5a512b193bcf27d"
+        },
+        {
+          "sha": "9c7698d",
+          "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
+          "date": "2026-07-15T15:37:00Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/9c7698d7738797b8b765ff89eed932b902ca94ee"
+        },
+        {
+          "sha": "cddb3ba",
+          "message": "学習塾マップ（地図×UGC×LINE通知・体験授業予約受付）を新規構築",
+          "date": "2026-07-15T08:13:50Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/cddb3ba31c1f92029b006cda0763f3a6d10c73eb"
+        }
+      ],
+      "updatedAt": "2026-08-08T20:24:40Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -85,6 +178,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "789b0e7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T19:29:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/789b0e71d35ea6244cd60a6ac724a6c97aa63b47"
+        },
         {
           "sha": "6590802",
           "message": "Update repository articles from GitHub activity",
@@ -150,84 +249,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-06T14:01:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f1177ac4c420f8340bb0667ca8aae7ec894f9df2"
-        },
-        {
-          "sha": "5d00e1a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T12:59:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5d00e1ab90bdf64def7bb7a70c7a84dd509fe511"
         }
       ],
-      "updatedAt": "2026-08-08T18:29:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "juku-map",
-      "name": "juku-map",
-      "displayName": "Juku Map",
-      "description": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/juku-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "ace1b66",
-          "message": "Wire GA4 and Search Console verification into the shared layout",
-          "date": "2026-08-08T17:37:40Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/ace1b66c421d0b884ebbda2f169808681385d122"
-        },
-        {
-          "sha": "3f66c49",
-          "message": "Fix Xserver deployment directory creation (#1)",
-          "date": "2026-08-04T02:51:54Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/3f66c4950e2716f894968d7bbf03f336d015d5a1"
-        },
-        {
-          "sha": "c41ea23",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:39Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/c41ea23ea3d9e4664550804df5a512b193bcf27d"
-        },
-        {
-          "sha": "9c7698d",
-          "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
-          "date": "2026-07-15T15:37:00Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/9c7698d7738797b8b765ff89eed932b902ca94ee"
-        },
-        {
-          "sha": "cddb3ba",
-          "message": "学習塾マップ（地図×UGC×LINE通知・体験授業予約受付）を新規構築",
-          "date": "2026-07-15T08:13:50Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/cddb3ba31c1f92029b006cda0763f3a6d10c73eb"
-        }
-      ],
-      "updatedAt": "2026-08-08T17:37:45Z",
+      "updatedAt": "2026-08-08T19:29:30Z",
       "stars": 0,
       "forks": 0
     },
