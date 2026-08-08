@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:36:51.373Z",
+  "generatedAt": "2026-08-08T14:29:26.259Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,113 @@
   ],
   "articles": [
     {
+      "slug": "goal-pilot-app",
+      "name": "goal-pilot-app",
+      "displayName": "Goal Pilot App",
+      "description": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/goal-pilot-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "PHP",
+        "Java"
+      ],
+      "files": [
+        "README.md",
+        "android",
+        "app",
+        "capacitor.config.ts",
+        "components",
+        "docs",
+        "next-env.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "d6ff8fe",
+          "message": "Fix site-wide 404s: static export pages were unreachable without .html",
+          "date": "2026-08-08T14:11:39Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/d6ff8fe926fa1e4b62810c7b783374f48ac1957b"
+        },
+        {
+          "sha": "554a074",
+          "message": "Add AI consultation page and expand template library to 20 domains",
+          "date": "2026-08-08T14:07:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/554a07426e08ae009aebd4406e43ecac05841205"
+        },
+        {
+          "sha": "475a9ad",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:11:46Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/475a9add329ef8edf53edde58c07e5cb21a5f8ef"
+        },
+        {
+          "sha": "f625bbb",
+          "message": "Fix Xserver deploy to use Next.js static export output dir",
+          "date": "2026-08-04T06:16:01Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/f625bbb3fb3760321b77b3b2b868d1edd0ddd5e7"
+        },
+        {
+          "sha": "abfbaa3",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:27:17Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/abfbaa30eef3a6aeeefcb48945bdb3d7c822f179"
+        },
+        {
+          "sha": "bcb88ad",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:18:17Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/bcb88ad2034d72668f674d083d8da39fbb4a2a07"
+        },
+        {
+          "sha": "527de87",
+          "message": "Add sitemap.xml and robots.txt for SEO crawlability",
+          "date": "2026-07-28T18:41:00Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
+        },
+        {
+          "sha": "6d4a1a4",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-07-26T08:18:47Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
+        },
+        {
+          "sha": "67efa88",
+          "message": "Add GoalPilot growth funnels",
+          "date": "2026-07-26T07:26:06Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
+        },
+        {
+          "sha": "c26bb69",
+          "message": "Add three-day quitting diagnosis funnel",
+          "date": "2026-07-26T07:17:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c26bb69d4f30d2810cce675e15489053b5ba606c"
+        },
+        {
+          "sha": "300294d",
+          "message": "Add GoalPilot templates and reminder flows",
+          "date": "2026-07-24T09:41:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
+        },
+        {
+          "sha": "b7b821c",
+          "message": "Initial GoalPilot app",
+          "date": "2026-07-22T11:11:55Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
+        }
+      ],
+      "updatedAt": "2026-08-08T14:12:03Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -85,6 +192,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "e6d959c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T13:37:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e6d959c36ddf651def798bc3598cc58b2e0ffdf6"
+        },
         {
           "sha": "86b4e78",
           "message": "Fix copy-audit blocking every scheduled run + publish first manual article",
@@ -150,15 +263,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-06T08:08:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/41fa312ce2b5f198a540c8bff1d1a932509e5238"
-        },
-        {
-          "sha": "463c7d3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-06T07:17:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/463c7d3a0619479f466bea4f4874a2d0eb3aec35"
         }
       ],
-      "updatedAt": "2026-08-08T13:12:52Z",
+      "updatedAt": "2026-08-08T13:37:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -5970,100 +6077,6 @@
         }
       ],
       "updatedAt": "2026-08-04T14:15:14Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "goal-pilot-app",
-      "name": "goal-pilot-app",
-      "displayName": "Goal Pilot App",
-      "description": "Goal Pilot Appは、TypeScript、CSS、Javaを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Goal Pilot Appは、TypeScript、CSS、Javaを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/goal-pilot-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "Java"
-      ],
-      "files": [
-        "README.md",
-        "android",
-        "app",
-        "capacitor.config.ts",
-        "components",
-        "docs",
-        "next-env.d.ts",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "475a9ad",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:46Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/475a9add329ef8edf53edde58c07e5cb21a5f8ef"
-        },
-        {
-          "sha": "f625bbb",
-          "message": "Fix Xserver deploy to use Next.js static export output dir",
-          "date": "2026-08-04T06:16:01Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/f625bbb3fb3760321b77b3b2b868d1edd0ddd5e7"
-        },
-        {
-          "sha": "abfbaa3",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:27:17Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/abfbaa30eef3a6aeeefcb48945bdb3d7c822f179"
-        },
-        {
-          "sha": "bcb88ad",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:18:17Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/bcb88ad2034d72668f674d083d8da39fbb4a2a07"
-        },
-        {
-          "sha": "527de87",
-          "message": "Add sitemap.xml and robots.txt for SEO crawlability",
-          "date": "2026-07-28T18:41:00Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
-        },
-        {
-          "sha": "6d4a1a4",
-          "message": "Add GitHub Pages deployment",
-          "date": "2026-07-26T08:18:47Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
-        },
-        {
-          "sha": "67efa88",
-          "message": "Add GoalPilot growth funnels",
-          "date": "2026-07-26T07:26:06Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
-        },
-        {
-          "sha": "c26bb69",
-          "message": "Add three-day quitting diagnosis funnel",
-          "date": "2026-07-26T07:17:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c26bb69d4f30d2810cce675e15489053b5ba606c"
-        },
-        {
-          "sha": "300294d",
-          "message": "Add GoalPilot templates and reminder flows",
-          "date": "2026-07-24T09:41:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/300294daa07e656e3599370df9d6f7c9dee9a8a8"
-        },
-        {
-          "sha": "b7b821c",
-          "message": "Initial GoalPilot app",
-          "date": "2026-07-22T11:11:55Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/b7b821c59cc7d783a81abf0ce007bf299baf4533"
-        }
-      ],
-      "updatedAt": "2026-08-04T14:13:33Z",
       "stars": 0,
       "forks": 0
     },
