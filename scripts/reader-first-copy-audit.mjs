@@ -3,10 +3,13 @@ import path from "node:path"
 import { hasJapaneseText, leadingEnglishLength } from "./repository-content-ja.mjs"
 
 const appDirectory = path.resolve("app")
+// repositories.json is excluded: its readmeExcerpt fields quote other repos'
+// own READMEs verbatim, so a phrase like "準備中" there describes that repo's
+// code, not lazy copy on this site. Checking it here blocked every scheduled
+// run whenever any collected README happened to contain a banned word.
 const publicDataFiles = [
   "app/data/favorite-videos.json",
   "app/data/manual-articles.json",
-  "app/data/repositories.json",
   "app/data/video-production.json",
 ]
 const prohibitedExpressions = [
