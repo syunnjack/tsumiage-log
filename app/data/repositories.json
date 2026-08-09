@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T00:37:11.835Z",
+  "generatedAt": "2026-08-09T01:59:07.462Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -86,6 +86,12 @@
       ],
       "commits": [
         {
+          "sha": "b84de67",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T00:37:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
+        },
+        {
           "sha": "f8e6ddb",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-08T23:30:02Z",
@@ -150,15 +156,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-08T13:37:07Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e6d959c36ddf651def798bc3598cc58b2e0ffdf6"
-        },
-        {
-          "sha": "86b4e78",
-          "message": "Fix copy-audit blocking every scheduled run + publish first manual article",
-          "date": "2026-08-08T13:12:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/86b4e78c178a99af0912d1104f65eec73e8ccd9a"
         }
       ],
-      "updatedAt": "2026-08-08T23:30:08Z",
+      "updatedAt": "2026-08-09T00:37:28Z",
       "stars": 0,
       "forks": 0
     },
