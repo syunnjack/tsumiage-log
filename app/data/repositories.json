@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T09:29:53.792Z",
+  "generatedAt": "2026-08-09T10:30:52.665Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -77,6 +77,18 @@
       ],
       "commits": [
         {
+          "sha": "7dd077a",
+          "message": "Rewrite internal/business-jargon copy into user-facing language",
+          "date": "2026-08-09T10:25:01Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/7dd077a1a28c650319f0616f066c81f840797a04"
+        },
+        {
+          "sha": "84de893",
+          "message": "Replace placeholder alert cards with real subsidy/grant program data",
+          "date": "2026-08-09T09:52:26Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/84de8937b61021920c48b119d2c453c473383d27"
+        },
+        {
           "sha": "1612709",
           "message": "Translate English UI text to Japanese, expand to 20 designated cities",
           "date": "2026-08-09T09:23:56Z",
@@ -125,7 +137,406 @@
           "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/38210b734d700507f53f64929070066b5fbca17d"
         }
       ],
-      "updatedAt": "2026-08-09T09:24:15Z",
+      "updatedAt": "2026-08-09T10:25:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "work-bar-navi",
+      "name": "work-bar-navi",
+      "displayName": "Work Bar Navi",
+      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/work-bar-navi",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "c795929",
+          "message": "Translate to Japanese, add real venue data via HotPepper API, hotel funnel, and affiliate links",
+          "date": "2026-08-09T10:16:15Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/c79592923231c770e1a03900bc8eeec283dfb602"
+        },
+        {
+          "sha": "1849d89",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:31Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/1849d89ecfa3585c82ec2bd52251028a78f6f3a1"
+        },
+        {
+          "sha": "5ba4f2c",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:24Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/5ba4f2c1c023103e1770eccfedef9b020fd0705b"
+        },
+        {
+          "sha": "46939fd",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:51Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/46939fd200632fa0761b8b18f361345c07be2560"
+        },
+        {
+          "sha": "6fe4667",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:24Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
+        },
+        {
+          "sha": "2e0dd5d",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
+        },
+        {
+          "sha": "74a3e6c",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:30Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:16:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "maportal",
+      "name": "maportal",
+      "displayName": "Maportal",
+      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/maportal",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "0a18d6e",
+          "message": "Fix empty search results and point deploy at the real server",
+          "date": "2026-08-09T09:45:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/0a18d6eef14e595e752ea62093094a66fce49954"
+        },
+        {
+          "sha": "6cf4379",
+          "message": "Fix Xserver remote directory creation (#1)",
+          "date": "2026-08-04T03:04:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
+        },
+        {
+          "sha": "a9a6678",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T18:03:36Z",
+          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
+        },
+        {
+          "sha": "6aa0e7d",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:10:18Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
+        },
+        {
+          "sha": "3a4a3dd",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:00:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
+        },
+        {
+          "sha": "7d456a4",
+          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
+          "date": "2026-07-14T10:22:33Z",
+          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
+        },
+        {
+          "sha": "55e634f",
+          "message": "Initial commit maportal",
+          "date": "2025-07-26T11:52:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:46:59Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "wait-time-alert",
+      "name": "wait-time-alert",
+      "displayName": "Wait Time Alert",
+      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+      "readmeExcerpt": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert.jp Other candidates: waittimealert.jp machijikan.jp queuealert.jp neconomeplus.jp Concept 病院、役所、民間施設、整理券、QR待ち時間を通知し、施設向けSaaSと広告へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 施設SaaS 予約送客 広告 法人契約 レポート Commands",
+      "url": "https://github.com/syunnjack/wait-time-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "b0cff1d",
+          "message": "Translate English UI text to Japanese",
+          "date": "2026-08-09T09:38:10Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/b0cff1d3e0b287793c1f21bad6006ef2d1a72455"
+        },
+        {
+          "sha": "a8bf816",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:21Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/a8bf81663b3c9e09e13a575ec91c389ffc1532ca"
+        },
+        {
+          "sha": "0179b55",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:15Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/0179b55e12e0626765717f32d275ac870b7e6502"
+        },
+        {
+          "sha": "4b24f8e",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:45Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/4b24f8ee0a15cb962f84e052e75ac0fdbb5d6647"
+        },
+        {
+          "sha": "ff6367a",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:10Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/ff6367a9fc693186319e5e71c8b5bbdf6dcc20d3"
+        },
+        {
+          "sha": "7350080",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:54Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/7350080ceae57459a4db4a5025e5b92ae8b1e16b"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:38:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "trip-route-stay",
+      "name": "trip-route-stay",
+      "displayName": "Trip Route Stay",
+      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/trip-route-stay",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f85652d",
+          "message": "Translate English UI text to Japanese",
+          "date": "2026-08-09T09:33:32Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/f85652dbec32bb1e612ddaaf8d4ee4c70cb33849"
+        },
+        {
+          "sha": "af9f0c1",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:15Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/af9f0c11987e57e786743aa35aaab56619b3ee3c"
+        },
+        {
+          "sha": "332cc8a",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:09Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/332cc8a82a68f05824d9c8e0b105af19a2bc3086"
+        },
+        {
+          "sha": "64bde06",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:43Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/64bde060b30e370181520b2bb91bbf2dd85af53e"
+        },
+        {
+          "sha": "ecbd2b9",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:36Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/ecbd2b9acb005d7f570007be94b8806e1110ad42"
+        },
+        {
+          "sha": "e17e784",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:36Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/e17e78470e225c47cd3d55bc0ea0c9c7bba894d0"
+        },
+        {
+          "sha": "efffa09",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:52Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/efffa09c5e2762be3694b88f194a6a9110669d8c"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:33:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "5441196",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T09:30:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/544119604f8acde3307b0c80d89b90a0c9b9ef6c"
+        },
+        {
+          "sha": "2ea7fa1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T08:31:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ea7fa138514d8a45427feecb6dedcb86b2251c3"
+        },
+        {
+          "sha": "30f5bb6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T07:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
+        },
+        {
+          "sha": "5b0d221",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T06:34:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
+        },
+        {
+          "sha": "805dc41",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T05:37:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
+        },
+        {
+          "sha": "119a9c1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T04:45:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
+        },
+        {
+          "sha": "a3e0880",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:55:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
+        },
+        {
+          "sha": "0d2b7a2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:00:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
+        },
+        {
+          "sha": "ce5ff8b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T01:59:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
+        },
+        {
+          "sha": "b84de67",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T00:37:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
+        },
+        {
+          "sha": "f8e6ddb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T23:30:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
+        },
+        {
+          "sha": "8578d37",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T22:30:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:30:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -426,116 +837,6 @@
         }
       ],
       "updatedAt": "2026-08-09T08:36:44Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "2ea7fa1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T08:31:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ea7fa138514d8a45427feecb6dedcb86b2251c3"
-        },
-        {
-          "sha": "30f5bb6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T07:40:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
-        },
-        {
-          "sha": "5b0d221",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T06:34:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
-        },
-        {
-          "sha": "805dc41",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T05:37:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
-        },
-        {
-          "sha": "119a9c1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T04:45:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
-        },
-        {
-          "sha": "a3e0880",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:55:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
-        },
-        {
-          "sha": "0d2b7a2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:00:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
-        },
-        {
-          "sha": "ce5ff8b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T01:59:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
-        },
-        {
-          "sha": "b84de67",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T00:37:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
-        },
-        {
-          "sha": "f8e6ddb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T23:30:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
-        },
-        {
-          "sha": "8578d37",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T22:30:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
-        },
-        {
-          "sha": "5e72ec4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T21:29:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e72ec478cce695035a48acea8dd257a151a4758"
-        }
-      ],
-      "updatedAt": "2026-08-09T08:32:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -7525,71 +7826,6 @@
       "forks": 0
     },
     {
-      "slug": "work-bar-navi",
-      "name": "work-bar-navi",
-      "displayName": "Work Bar Navi",
-      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/work-bar-navi",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "1849d89",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:31Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/1849d89ecfa3585c82ec2bd52251028a78f6f3a1"
-        },
-        {
-          "sha": "5ba4f2c",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/5ba4f2c1c023103e1770eccfedef9b020fd0705b"
-        },
-        {
-          "sha": "46939fd",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:51Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/46939fd200632fa0761b8b18f361345c07be2560"
-        },
-        {
-          "sha": "6fe4667",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
-        },
-        {
-          "sha": "2e0dd5d",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
-        },
-        {
-          "sha": "74a3e6c",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:30Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:30:10Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "welfare-job-alert",
       "name": "welfare-job-alert",
       "displayName": "Welfare Job Alert",
@@ -7645,130 +7881,6 @@
         }
       ],
       "updatedAt": "2026-08-04T05:29:47Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "wait-time-alert",
-      "name": "wait-time-alert",
-      "displayName": "Wait Time Alert",
-      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
-      "readmeExcerpt": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert.jp Other candidates: waittimealert.jp machijikan.jp queuealert.jp neconomeplus.jp Concept 病院、役所、民間施設、整理券、QR待ち時間を通知し、施設向けSaaSと広告へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 施設SaaS 予約送客 広告 法人契約 レポート Commands",
-      "url": "https://github.com/syunnjack/wait-time-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a8bf816",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:21Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/a8bf81663b3c9e09e13a575ec91c389ffc1532ca"
-        },
-        {
-          "sha": "0179b55",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:15Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/0179b55e12e0626765717f32d275ac870b7e6502"
-        },
-        {
-          "sha": "4b24f8e",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:45Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/4b24f8ee0a15cb962f84e052e75ac0fdbb5d6647"
-        },
-        {
-          "sha": "ff6367a",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:10Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/ff6367a9fc693186319e5e71c8b5bbdf6dcc20d3"
-        },
-        {
-          "sha": "7350080",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:54Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/7350080ceae57459a4db4a5025e5b92ae8b1e16b"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:29:40Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "trip-route-stay",
-      "name": "trip-route-stay",
-      "displayName": "Trip Route Stay",
-      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/trip-route-stay",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "af9f0c1",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:15Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/af9f0c11987e57e786743aa35aaab56619b3ee3c"
-        },
-        {
-          "sha": "332cc8a",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:09Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/332cc8a82a68f05824d9c8e0b105af19a2bc3086"
-        },
-        {
-          "sha": "64bde06",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:43Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/64bde060b30e370181520b2bb91bbf2dd85af53e"
-        },
-        {
-          "sha": "ecbd2b9",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:36Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/ecbd2b9acb005d7f570007be94b8806e1110ad42"
-        },
-        {
-          "sha": "e17e784",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:36Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/e17e78470e225c47cd3d55bc0ea0c9c7bba894d0"
-        },
-        {
-          "sha": "efffa09",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:52Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/efffa09c5e2762be3694b88f194a6a9110669d8c"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:29:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -8946,81 +9058,6 @@
         }
       ],
       "updatedAt": "2026-08-04T03:28:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "maportal",
-      "name": "maportal",
-      "displayName": "Maportal",
-      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/maportal",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6cf4379",
-          "message": "Fix Xserver remote directory creation (#1)",
-          "date": "2026-08-04T03:04:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
-        },
-        {
-          "sha": "a9a6678",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:03:36Z",
-          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
-        },
-        {
-          "sha": "6aa0e7d",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:18Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
-        },
-        {
-          "sha": "3a4a3dd",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:00:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
-        },
-        {
-          "sha": "7d456a4",
-          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
-          "date": "2026-07-14T10:22:33Z",
-          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
-        },
-        {
-          "sha": "55e634f",
-          "message": "Initial commit maportal",
-          "date": "2025-07-26T11:52:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
-        }
-      ],
-      "updatedAt": "2026-08-04T03:04:21Z",
       "stars": 0,
       "forks": 0
     },
