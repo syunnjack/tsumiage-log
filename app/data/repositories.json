@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T18:29:10.899Z",
+  "generatedAt": "2026-08-09T19:29:46.382Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,312 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "bowling-score-hub",
+      "name": "bowling-score-hub",
+      "displayName": "Bowling Score Hub",
+      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bowling-score-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "5f31cc3",
+          "message": "Translate site to Japanese and remove operator-facing jargon",
+          "date": "2026-08-09T18:51:30Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/5f31cc37a20da830e2b6bc7e1d76773abcbb08f7"
+        },
+        {
+          "sha": "5d7af9d",
+          "message": "Fix title/description: use Japanese copy matching actual content",
+          "date": "2026-08-04T15:17:21Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/5d7af9defa2a1c8a49c3453c669a94586eaf8a47"
+        },
+        {
+          "sha": "667fe8b",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:11:08Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/667fe8b624c4db47cd1617f969831d624f77feea"
+        },
+        {
+          "sha": "cd25576",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:26:50Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/cd2557619dff96bedb8fe36872db7236d4120892"
+        },
+        {
+          "sha": "c73ad91",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:17:41Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/c73ad918c12cd86b9fc751f56a9b5b9ccd891151"
+        },
+        {
+          "sha": "19209a1",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:55:58Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/19209a1937d063ec33781f19093116f5a4a5849f"
+        },
+        {
+          "sha": "aad6e10",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:14Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/aad6e10fb0a5ad9fd9d41aa26a481ba57e179051"
+        },
+        {
+          "sha": "f85f6f6",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/f85f6f6c4347fcff2c65bc0523f6b8f5d50512f8"
+        },
+        {
+          "sha": "d1e0ba8",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:29Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/d1e0ba83303d9362eb26aa9487f2218936b15f3b"
+        }
+      ],
+      "updatedAt": "2026-08-09T18:51:52Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "busselectindex2026.txt",
+        "data",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "cc13e72",
+          "message": "Point homepage onward-nav teaser at the real /onward planner",
+          "date": "2026-08-09T18:38:09Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/cc13e72e3c79e6117e74100a314a5f93b601acde"
+        },
+        {
+          "sha": "ccf6a77",
+          "message": "Replace hardcoded demo homepage with real D1-backed data",
+          "date": "2026-08-09T18:31:06Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/ccf6a77f67e9ebdb576694587a2e8fedea55d531"
+        },
+        {
+          "sha": "8e18bdd",
+          "message": "Add multimodal onward route planner",
+          "date": "2026-08-06T12:22:19Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8e18bdd5f6020150c64c0b8eaf1de611a75fa330"
+        },
+        {
+          "sha": "8b53be4",
+          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
+          "date": "2026-08-06T06:53:52Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
+        },
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        },
+        {
+          "sha": "7cf15c8",
+          "message": "Automate official GTFS synchronization",
+          "date": "2026-07-27T23:27:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
+        },
+        {
+          "sha": "0e95a8e",
+          "message": "Connect highway bus search with multimodal onward transit",
+          "date": "2026-07-27T20:41:10Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
+        },
+        {
+          "sha": "da05ee7",
+          "message": "Add GTFS local bus data platform",
+          "date": "2026-07-27T18:43:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
+        },
+        {
+          "sha": "474aa06",
+          "message": "Add route insights and price history",
+          "date": "2026-07-27T17:39:43Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
+        },
+        {
+          "sha": "6a10859",
+          "message": "Add nationwide route and city SEO hubs",
+          "date": "2026-07-23T09:40:42Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
+        },
+        {
+          "sha": "8611130",
+          "message": "Add secure hourly feed scheduler",
+          "date": "2026-07-23T09:24:18Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
+        },
+        {
+          "sha": "daad918",
+          "message": "Add live operator API synchronization",
+          "date": "2026-07-23T09:11:07Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
+        }
+      ],
+      "updatedAt": "2026-08-09T18:38:24Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "a58d2b6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T18:29:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
+        },
+        {
+          "sha": "3498cdd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T17:30:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
+        },
+        {
+          "sha": "75a27b1",
+          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
+          "date": "2026-08-09T16:36:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
+        },
+        {
+          "sha": "87cbceb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T16:28:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
+        },
+        {
+          "sha": "cf23677",
+          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
+          "date": "2026-08-09T15:29:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
+        },
+        {
+          "sha": "b35921e",
+          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
+          "date": "2026-08-09T15:18:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
+        },
+        {
+          "sha": "6489b68",
+          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
+          "date": "2026-08-09T14:40:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
+        },
+        {
+          "sha": "bed5517",
+          "message": "Fix reader-first-copy-audit violation on /store",
+          "date": "2026-08-09T14:35:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
+        },
+        {
+          "sha": "fd8a3e7",
+          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
+          "date": "2026-08-09T14:31:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
+        },
+        {
+          "sha": "68de911",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T14:30:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
+        },
+        {
+          "sha": "25f5d69",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T13:38:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
+        },
+        {
+          "sha": "9c55689",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T12:32:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c556892b01332e1deb42ef391b0ec013efb9ec9"
+        }
+      ],
+      "updatedAt": "2026-08-09T18:29:32Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "ai-quiz-study",
       "name": "ai-quiz-study",
@@ -238,116 +544,6 @@
         }
       ],
       "updatedAt": "2026-08-09T17:36:33Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "3498cdd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T17:30:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
-        },
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
-        },
-        {
-          "sha": "cf23677",
-          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
-          "date": "2026-08-09T15:29:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
-        },
-        {
-          "sha": "b35921e",
-          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
-          "date": "2026-08-09T15:18:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
-        },
-        {
-          "sha": "6489b68",
-          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
-          "date": "2026-08-09T14:40:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
-        },
-        {
-          "sha": "bed5517",
-          "message": "Fix reader-first-copy-audit violation on /store",
-          "date": "2026-08-09T14:35:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
-        },
-        {
-          "sha": "fd8a3e7",
-          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
-          "date": "2026-08-09T14:31:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
-        },
-        {
-          "sha": "68de911",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T14:30:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
-        },
-        {
-          "sha": "25f5d69",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T13:38:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
-        },
-        {
-          "sha": "9c55689",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T12:32:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c556892b01332e1deb42ef391b0ec013efb9ec9"
-        },
-        {
-          "sha": "4001e6c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T11:28:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4001e6cfb569da41ad123395685456e2827cba0a"
-        }
-      ],
-      "updatedAt": "2026-08-09T17:30:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -3271,119 +3467,6 @@
       "forks": 0
     },
     {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "busselectindex2026.txt",
-        "data",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "8e18bdd",
-          "message": "Add multimodal onward route planner",
-          "date": "2026-08-06T12:22:19Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8e18bdd5f6020150c64c0b8eaf1de611a75fa330"
-        },
-        {
-          "sha": "8b53be4",
-          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
-          "date": "2026-08-06T06:53:52Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
-        },
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
-        },
-        {
-          "sha": "7cf15c8",
-          "message": "Automate official GTFS synchronization",
-          "date": "2026-07-27T23:27:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
-        },
-        {
-          "sha": "0e95a8e",
-          "message": "Connect highway bus search with multimodal onward transit",
-          "date": "2026-07-27T20:41:10Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
-        },
-        {
-          "sha": "da05ee7",
-          "message": "Add GTFS local bus data platform",
-          "date": "2026-07-27T18:43:47Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
-        },
-        {
-          "sha": "474aa06",
-          "message": "Add route insights and price history",
-          "date": "2026-07-27T17:39:43Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/474aa061e32d5ee27f549411aecc209ce168588a"
-        },
-        {
-          "sha": "6a10859",
-          "message": "Add nationwide route and city SEO hubs",
-          "date": "2026-07-23T09:40:42Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/6a1085987d46bd3f7a3e333ec641215d562baafb"
-        },
-        {
-          "sha": "8611130",
-          "message": "Add secure hourly feed scheduler",
-          "date": "2026-07-23T09:24:18Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/861113079818930754ede3f5ec4851347f483fe1"
-        },
-        {
-          "sha": "daad918",
-          "message": "Add live operator API synchronization",
-          "date": "2026-07-23T09:11:07Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/daad918da660fa50fdea47957a9efcfd84940a63"
-        },
-        {
-          "sha": "d472e4e",
-          "message": "Add feed source management and import history",
-          "date": "2026-07-23T09:01:24Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/d472e4eef1b4433b079854f5cf77eefe530a7451"
-        },
-        {
-          "sha": "913b51b",
-          "message": "Add CSV service import and feed deduplication",
-          "date": "2026-07-23T08:46:51Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/913b51b6d65b9addf7a6ad5062bd2303748930fa"
-        }
-      ],
-      "updatedAt": "2026-08-06T12:23:21Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "hey-douga-guide",
       "name": "hey-douga-guide",
       "displayName": "Hey Douga Guide",
@@ -5937,83 +6020,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:20:15Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bowling-score-hub",
-      "name": "bowling-score-hub",
-      "displayName": "Bowling Score Hub",
-      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bowling-score-hub",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "5d7af9d",
-          "message": "Fix title/description: use Japanese copy matching actual content",
-          "date": "2026-08-04T15:17:21Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/5d7af9defa2a1c8a49c3453c669a94586eaf8a47"
-        },
-        {
-          "sha": "667fe8b",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:08Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/667fe8b624c4db47cd1617f969831d624f77feea"
-        },
-        {
-          "sha": "cd25576",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:50Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/cd2557619dff96bedb8fe36872db7236d4120892"
-        },
-        {
-          "sha": "c73ad91",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:41Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/c73ad918c12cd86b9fc751f56a9b5b9ccd891151"
-        },
-        {
-          "sha": "19209a1",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:55:58Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/19209a1937d063ec33781f19093116f5a4a5849f"
-        },
-        {
-          "sha": "aad6e10",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:14Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/aad6e10fb0a5ad9fd9d41aa26a481ba57e179051"
-        },
-        {
-          "sha": "f85f6f6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/f85f6f6c4347fcff2c65bc0523f6b8f5d50512f8"
-        },
-        {
-          "sha": "d1e0ba8",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:29Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/d1e0ba83303d9362eb26aa9487f2218936b15f3b"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:20:10Z",
       "stars": 0,
       "forks": 0
     },
