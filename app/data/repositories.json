@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T20:28:16.817Z",
+  "generatedAt": "2026-08-09T21:31:16.956Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -15,7 +15,6 @@
     "adult-figure-ranking",
     "adult-comic-ranking",
     "abeshi-mvp",
-    "rakuten02",
     "adult-shop-map",
     "play-with-stewardess-ranking",
     "play-with-racequeen-ranking",
@@ -52,6 +51,223 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "2edb779",
+          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
+          "date": "2026-08-09T21:17:24Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
+        },
+        {
+          "sha": "c42f4de",
+          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
+          "date": "2026-08-09T21:17:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
+        },
+        {
+          "sha": "3200bdd",
+          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
+          "date": "2026-08-08T12:37:07Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
+        },
+        {
+          "sha": "06f0568",
+          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
+          "date": "2026-08-08T00:22:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
+        },
+        {
+          "sha": "79692a4",
+          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
+          "date": "2026-08-07T23:04:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
+        },
+        {
+          "sha": "6bdb50c",
+          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
+          "date": "2026-08-07T20:36:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
+        },
+        {
+          "sha": "b3e7999",
+          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
+          "date": "2026-08-07T19:21:53Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
+        },
+        {
+          "sha": "02fea8c",
+          "message": "Update 30-site doc with actual purchased domains",
+          "date": "2026-08-07T19:14:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
+        },
+        {
+          "sha": "278ef23",
+          "message": "Document Shin Rental Server (WPX) account: 17 more ranking sites already deployed",
+          "date": "2026-08-07T15:58:42Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/278ef2394d68ee398702674ddb0f337aba4e7b0d"
+        },
+        {
+          "sha": "688a47f",
+          "message": "Plan: 30 new multi-ASP cross-comparison sites (7 ASPs, distinct genres)",
+          "date": "2026-08-07T15:53:11Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/688a47fad8533b38aa74efc717105c58cf4b2cd9"
+        },
+        {
+          "sha": "0b64ddc",
+          "message": "Document confirmed ColorfulBOX deployment mapping and .env incident",
+          "date": "2026-08-07T15:33:26Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/0b64ddc24b9f78385567af5ecf45d8a40b05959e"
+        },
+        {
+          "sha": "0b2b7f5",
+          "message": "Record ColorfulBOX cPanel account facts (boewaxno)",
+          "date": "2026-08-07T11:53:03Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/0b2b7f5b67c9268cab76aaa272e392ce14ae75f4"
+        }
+      ],
+      "updatedAt": "2026-08-09T21:17:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "cf1b96f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T20:28:30Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf1b96f9a6dfeebde2b459f92c491dbf811d7978"
+        },
+        {
+          "sha": "0baa9db",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T19:30:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
+        },
+        {
+          "sha": "a58d2b6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T18:29:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
+        },
+        {
+          "sha": "3498cdd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T17:30:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
+        },
+        {
+          "sha": "75a27b1",
+          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
+          "date": "2026-08-09T16:36:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
+        },
+        {
+          "sha": "87cbceb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T16:28:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
+        },
+        {
+          "sha": "cf23677",
+          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
+          "date": "2026-08-09T15:29:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
+        },
+        {
+          "sha": "b35921e",
+          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
+          "date": "2026-08-09T15:18:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
+        },
+        {
+          "sha": "6489b68",
+          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
+          "date": "2026-08-09T14:40:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
+        },
+        {
+          "sha": "bed5517",
+          "message": "Fix reader-first-copy-audit violation on /store",
+          "date": "2026-08-09T14:35:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
+        },
+        {
+          "sha": "fd8a3e7",
+          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
+          "date": "2026-08-09T14:31:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
+        },
+        {
+          "sha": "68de911",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T14:30:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
+        }
+      ],
+      "updatedAt": "2026-08-09T20:28:37Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "allbowl01",
       "name": "allbowl01",
@@ -156,116 +372,6 @@
         }
       ],
       "updatedAt": "2026-08-09T20:22:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "0baa9db",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T19:30:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
-        },
-        {
-          "sha": "a58d2b6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T18:29:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
-        },
-        {
-          "sha": "3498cdd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T17:30:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
-        },
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
-        },
-        {
-          "sha": "cf23677",
-          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
-          "date": "2026-08-09T15:29:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
-        },
-        {
-          "sha": "b35921e",
-          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
-          "date": "2026-08-09T15:18:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
-        },
-        {
-          "sha": "6489b68",
-          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
-          "date": "2026-08-09T14:40:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
-        },
-        {
-          "sha": "bed5517",
-          "message": "Fix reader-first-copy-audit violation on /store",
-          "date": "2026-08-09T14:35:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
-        },
-        {
-          "sha": "fd8a3e7",
-          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
-          "date": "2026-08-09T14:31:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
-        },
-        {
-          "sha": "68de911",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T14:30:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
-        },
-        {
-          "sha": "25f5d69",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T13:38:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
-        }
-      ],
-      "updatedAt": "2026-08-09T19:30:07Z",
       "stars": 0,
       "forks": 0
     },
