@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T10:30:52.848Z",
+  "generatedAt": "2026-08-09T11:28:30.239Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -10,128 +10,30 @@
   "queuedCount": 140,
   "videos": [
     {
-      "slug": "subsidy-alert-hub",
-      "repository": "subsidy-alert-hub",
-      "title": "Subsidy Alert Hubの技術解説｜設計と実装を75秒で紹介",
-      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
-      "language": "JavaScript・HTML・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/subsidy-alert-hub",
-      "repositoryUrl": "https://github.com/syunnjack/subsidy-alert-hub",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/subsidy-alert-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/subsidy-alert-hub\n\nSubsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert\n\n#技術解説 #個人開発 #JavaScript",
+      "slug": "cross-genre",
+      "repository": "cross-genre",
+      "title": "Cross Genreの技術解説｜設計と実装を75秒で紹介",
+      "description": "Cross Genreの設計と実装を記録したプロジェクト",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/cross-genre",
+      "repositoryUrl": "https://github.com/syunnjack/cross-genre",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cross-genre\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cross-genre\n\nCross Genreの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #TypeScript",
       "slides": [
         {
-          "title": "Subsidy Alert Hubの技術解説",
+          "title": "Cross Genreの技術解説",
           "body": "設計・実装・コミットから学ぶ短時間の技術解説"
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert"
+          "body": "Cross Genreの設計と実装を記録したプロジェクト"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：TypeScript・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/subsidy-alert-hub\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Subsidy Alert Hubの技術構成を短く解説します。",
-        "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
-        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "work-bar-navi",
-      "repository": "work-bar-navi",
-      "title": "Work Bar Naviの技術解説｜設計と実装を75秒で紹介",
-      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "JavaScript・HTML・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/work-bar-navi",
-      "repositoryUrl": "https://github.com/syunnjack/work-bar-navi",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/work-bar-navi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/work-bar-navi\n\nWork Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
-      "slides": [
-        {
-          "title": "Work Bar Naviの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/work-bar-navi\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Work Bar Naviの技術構成を短く解説します。",
-        "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "maportal",
-      "repository": "maportal",
-      "title": "Maportalの技術解説｜設計と実装を75秒で紹介",
-      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・CSS・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/maportal",
-      "repositoryUrl": "https://github.com/syunnjack/maportal",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/maportal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/maportal\n\nMaportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Maportalの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：app、data、next-env.d.ts"
         },
         {
           "title": "コミットから分かる改善",
@@ -139,48 +41,48 @@
         },
         {
           "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/maportal\n\n学び、作り、振り返る開発記録。"
+          "body": "記事： https://syunnjack.dev/articles/cross-genre\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-04T01:00:00.000Z",
+      "publishAt": "2026-08-02T01:00:00.000Z",
       "status": "rendered",
-      "localVideoUrl": "/videos/repositories/maportal/maportal-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/maportal/maportal-tech-preview.pptx",
+      "localVideoUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
-        "今回は、Maportalの技術構成を短く解説します。",
-        "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "今回は、Cross Genreの技術構成を短く解説します。",
+        "Cross Genreの設計と実装を記録したプロジェクト",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、app、data、next-env.d.tsを中心に実装を確認できます。",
         "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
     {
-      "slug": "wait-time-alert",
-      "repository": "wait-time-alert",
-      "title": "Wait Time Alertの技術解説｜設計と実装を75秒で紹介",
-      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
-      "language": "JavaScript・HTML・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/wait-time-alert",
-      "repositoryUrl": "https://github.com/syunnjack/wait-time-alert",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/wait-time-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/wait-time-alert\n\nWait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert\n\n#技術解説 #個人開発 #JavaScript",
+      "slug": "sexy-costume-compare",
+      "repository": "sexy-costume-compare",
+      "title": "Sexy Costume Compareの技術解説｜設計と実装を75秒で紹介",
+      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/sexy-costume-compare",
+      "repositoryUrl": "https://github.com/syunnjack/sexy-costume-compare",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sexy-costume-compare\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sexy-costume-compare\n\nSexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
       "slides": [
         {
-          "title": "Wait Time Alertの技術解説",
+          "title": "Sexy Costume Compareの技術解説",
           "body": "設計・実装・コミットから学ぶ短時間の技術解説"
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert"
+          "body": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
         },
         {
           "title": "コミットから分かる改善",
@@ -188,48 +90,48 @@
         },
         {
           "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/wait-time-alert\n\n学び、作り、振り返る開発記録。"
+          "body": "記事： https://syunnjack.dev/articles/sexy-costume-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-05T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.pptx",
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
       "youtubeUrl": null,
       "narration": [
-        "今回は、Wait Time Alertの技術構成を短く解説します。",
-        "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
-        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "今回は、Sexy Costume Compareの技術構成を短く解説します。",
+        "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
     {
-      "slug": "trip-route-stay",
-      "repository": "trip-route-stay",
-      "title": "Trip Route Stayの技術解説｜設計と実装を75秒で紹介",
-      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "JavaScript・HTML・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/trip-route-stay",
-      "repositoryUrl": "https://github.com/syunnjack/trip-route-stay",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/trip-route-stay\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/trip-route-stay\n\nTrip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
+      "slug": "sokmil-new-releases",
+      "repository": "sokmil-new-releases",
+      "title": "Sokmil New Releasesの技術解説｜設計と実装を75秒で紹介",
+      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/sokmil-new-releases",
+      "repositoryUrl": "https://github.com/syunnjack/sokmil-new-releases",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sokmil-new-releases\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sokmil-new-releases\n\nSokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
       "slides": [
         {
-          "title": "Trip Route Stayの技術解説",
+          "title": "Sokmil New Releasesの技術解説",
           "body": "設計・実装・コミットから学ぶ短時間の技術解説"
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
+          "body": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
         },
         {
           "title": "コミットから分かる改善",
@@ -237,19 +139,362 @@
         },
         {
           "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/trip-route-stay\n\n学び、作り、振り返る開発記録。"
+          "body": "記事： https://syunnjack.dev/articles/sokmil-new-releases\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-04T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Sokmil New Releasesの技術構成を短く解説します。",
+        "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "free-sample-hub",
+      "repository": "free-sample-hub",
+      "title": "Free Sample Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/free-sample-hub",
+      "repositoryUrl": "https://github.com/syunnjack/free-sample-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/free-sample-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/free-sample-hub\n\nFree Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Free Sample Hubの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/free-sample-hub\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-05T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Free Sample Hubの技術構成を短く解説します。",
+        "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "subscription-compare",
+      "repository": "subscription-compare",
+      "title": "Subscription Compareの技術解説｜設計と実装を75秒で紹介",
+      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/subscription-compare",
+      "repositoryUrl": "https://github.com/syunnjack/subscription-compare",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/subscription-compare\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/subscription-compare\n\nSubscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Subscription Compareの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/subscription-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
       "publishAt": "2026-08-06T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.pptx",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
       "youtubeUrl": null,
       "narration": [
-        "今回は、Trip Route Stayの技術構成を短く解説します。",
-        "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "今回は、Subscription Compareの技術構成を短く解説します。",
+        "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "r18-anime-ranking",
+      "repository": "r18-anime-ranking",
+      "title": "R18 Anime Rankingの技術解説｜設計と実装を75秒で紹介",
+      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/r18-anime-ranking",
+      "repositoryUrl": "https://github.com/syunnjack/r18-anime-ranking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/r18-anime-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/r18-anime-ranking\n\nR18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "R18 Anime Rankingの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/r18-anime-ranking\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-07T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、R18 Anime Rankingの技術構成を短く解説します。",
+        "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "gravure-photo-ranking",
+      "repository": "gravure-photo-ranking",
+      "title": "Gravure Photo Rankingの技術解説｜設計と実装を75秒で紹介",
+      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/gravure-photo-ranking",
+      "repositoryUrl": "https://github.com/syunnjack/gravure-photo-ranking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gravure-photo-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gravure-photo-ranking\n\nGravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Gravure Photo Rankingの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/gravure-photo-ranking\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-08T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Gravure Photo Rankingの技術構成を短く解説します。",
+        "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bl-tl-novel-ranking",
+      "repository": "bl-tl-novel-ranking",
+      "title": "Bl Tl Novel Rankingの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bl-tl-novel-ranking",
+      "repositoryUrl": "https://github.com/syunnjack/bl-tl-novel-ranking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bl-tl-novel-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bl-tl-novel-ranking\n\nBl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Bl Tl Novel Rankingの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/bl-tl-novel-ranking\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-09T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Bl Tl Novel Rankingの技術構成を短く解説します。",
+        "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "bl-tl-doujin-ranking",
+      "repository": "bl-tl-doujin-ranking",
+      "title": "Bl Tl Doujin Rankingの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bl-tl-doujin-ranking",
+      "repositoryUrl": "https://github.com/syunnjack/bl-tl-doujin-ranking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bl-tl-doujin-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bl-tl-doujin-ranking\n\nBl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Bl Tl Doujin Rankingの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/bl-tl-doujin-ranking\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-10T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Bl Tl Doujin Rankingの技術構成を短く解説します。",
+        "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "duga-video-ranking",
+      "repository": "duga-video-ranking",
+      "title": "Duga Video Rankingの技術解説｜設計と実装を75秒で紹介",
+      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/duga-video-ranking",
+      "repositoryUrl": "https://github.com/syunnjack/duga-video-ranking",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/duga-video-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/duga-video-ranking\n\nDuga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Duga Video Rankingの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/duga-video-ranking\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-11T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Duga Video Rankingの技術構成を短く解説します。",
+        "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
@@ -304,6 +549,300 @@
       ]
     },
     {
+      "slug": "unlimited-comic-hub",
+      "repository": "unlimited-comic-hub",
+      "title": "Unlimited Comic Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/unlimited-comic-hub",
+      "repositoryUrl": "https://github.com/syunnjack/unlimited-comic-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/unlimited-comic-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/unlimited-comic-hub\n\nUnlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Unlimited Comic Hubの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/unlimited-comic-hub\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-13T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Unlimited Comic Hubの技術構成を短く解説します。",
+        "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "work-bar-navi",
+      "repository": "work-bar-navi",
+      "title": "Work Bar Naviの技術解説｜設計と実装を75秒で紹介",
+      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/work-bar-navi",
+      "repositoryUrl": "https://github.com/syunnjack/work-bar-navi",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/work-bar-navi\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/work-bar-navi\n\nWork Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Work Bar Naviの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/work-bar-navi\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-14T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Work Bar Naviの技術構成を短く解説します。",
+        "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "subsidy-alert-hub",
+      "repository": "subsidy-alert-hub",
+      "title": "Subsidy Alert Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/subsidy-alert-hub",
+      "repositoryUrl": "https://github.com/syunnjack/subsidy-alert-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/subsidy-alert-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/subsidy-alert-hub\n\nSubsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Subsidy Alert Hubの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/subsidy-alert-hub\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-15T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Subsidy Alert Hubの技術構成を短く解説します。",
+        "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "maportal",
+      "repository": "maportal",
+      "title": "Maportalの技術解説｜設計と実装を75秒で紹介",
+      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/maportal",
+      "repositoryUrl": "https://github.com/syunnjack/maportal",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/maportal\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/maportal\n\nMaportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Maportalの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/maportal\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-16T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/maportal/maportal-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/maportal/maportal-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Maportalの技術構成を短く解説します。",
+        "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "wait-time-alert",
+      "repository": "wait-time-alert",
+      "title": "Wait Time Alertの技術解説｜設計と実装を75秒で紹介",
+      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/wait-time-alert",
+      "repositoryUrl": "https://github.com/syunnjack/wait-time-alert",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/wait-time-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/wait-time-alert\n\nWait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Wait Time Alertの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/wait-time-alert\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-17T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Wait Time Alertの技術構成を短く解説します。",
+        "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "trip-route-stay",
+      "repository": "trip-route-stay",
+      "title": "Trip Route Stayの技術解説｜設計と実装を75秒で紹介",
+      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/trip-route-stay",
+      "repositoryUrl": "https://github.com/syunnjack/trip-route-stay",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/trip-route-stay\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/trip-route-stay\n\nTrip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Trip Route Stayの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/trip-route-stay\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-18T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Trip Route Stayの技術構成を短く解説します。",
+        "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
       "slug": "golf-search",
       "repository": "golf-search",
       "title": "Golf Searchの技術解説｜設計と実装を75秒で紹介",
@@ -338,7 +877,7 @@
           "body": "記事： https://syunnjack.dev/articles/golf-search\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-08T01:00:00.000Z",
+      "publishAt": "2026-08-19T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/golf-search/golf-search-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/golf-search/golf-search-tech-preview.pptx",
@@ -387,7 +926,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-spot-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-09T01:00:00.000Z",
+      "publishAt": "2026-08-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.pptx",
@@ -436,7 +975,7 @@
           "body": "記事： https://syunnjack.dev/articles/vs-jt\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-10T01:00:00.000Z",
+      "publishAt": "2026-08-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.pptx",
@@ -485,7 +1024,7 @@
           "body": "記事： https://syunnjack.dev/articles/asia-trip-concierge\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-11T01:00:00.000Z",
+      "publishAt": "2026-08-22T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.pptx",
@@ -534,7 +1073,7 @@
           "body": "記事： https://syunnjack.dev/articles/cat-cafe-etc\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-12T01:00:00.000Z",
+      "publishAt": "2026-08-23T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.pptx",
@@ -583,7 +1122,7 @@
           "body": "記事： https://syunnjack.dev/articles/allbowl01\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-13T01:00:00.000Z",
+      "publishAt": "2026-08-24T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.pptx",
@@ -632,7 +1171,7 @@
           "body": "記事： https://syunnjack.dev/articles/furusato-hikaku\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-14T01:00:00.000Z",
+      "publishAt": "2026-08-25T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.pptx",
@@ -681,7 +1220,7 @@
           "body": "記事： https://syunnjack.dev/articles/kuruma-kaitori-kuchikomi\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-15T01:00:00.000Z",
+      "publishAt": "2026-08-26T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.pptx",
@@ -730,7 +1269,7 @@
           "body": "記事： https://syunnjack.dev/articles/juku-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-16T01:00:00.000Z",
+      "publishAt": "2026-08-27T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/juku-map/juku-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/juku-map/juku-map-tech-preview.pptx",
@@ -828,7 +1367,7 @@
           "body": "記事： https://syunnjack.dev/articles/mofumofu-tokai\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-18T01:00:00.000Z",
+      "publishAt": "2026-08-29T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -877,7 +1416,7 @@
           "body": "記事： https://syunnjack.dev/articles/municipacipality-car\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-19T01:00:00.000Z",
+      "publishAt": "2026-08-30T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.pptx",
@@ -926,7 +1465,7 @@
           "body": "記事： https://syunnjack.dev/articles/goal-pilot-app\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-20T01:00:00.000Z",
+      "publishAt": "2026-08-31T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/goal-pilot-app/goal-pilot-app-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/goal-pilot-app/goal-pilot-app-tech-preview.pptx",
@@ -936,153 +1475,6 @@
         "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。",
         "主な技術はTypeScript・CSS・PHP・Javaです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、android、appを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "bl-tl-doujin-ranking",
-      "repository": "bl-tl-doujin-ranking",
-      "title": "Bl Tl Doujin Rankingの技術解説｜設計と実装を75秒で紹介",
-      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/bl-tl-doujin-ranking",
-      "repositoryUrl": "https://github.com/syunnjack/bl-tl-doujin-ranking",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bl-tl-doujin-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bl-tl-doujin-ranking\n\nBl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Bl Tl Doujin Rankingの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/bl-tl-doujin-ranking\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-21T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Bl Tl Doujin Rankingの技術構成を短く解説します。",
-        "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "bl-tl-novel-ranking",
-      "repository": "bl-tl-novel-ranking",
-      "title": "Bl Tl Novel Rankingの技術解説｜設計と実装を75秒で紹介",
-      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/bl-tl-novel-ranking",
-      "repositoryUrl": "https://github.com/syunnjack/bl-tl-novel-ranking",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bl-tl-novel-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bl-tl-novel-ranking\n\nBl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Bl Tl Novel Rankingの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/bl-tl-novel-ranking\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-22T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Bl Tl Novel Rankingの技術構成を短く解説します。",
-        "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "r18-anime-ranking",
-      "repository": "r18-anime-ranking",
-      "title": "R18 Anime Rankingの技術解説｜設計と実装を75秒で紹介",
-      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/r18-anime-ranking",
-      "repositoryUrl": "https://github.com/syunnjack/r18-anime-ranking",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/r18-anime-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/r18-anime-ranking\n\nR18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "R18 Anime Rankingの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/r18-anime-ranking\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-23T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、R18 Anime Rankingの技術構成を短く解説します。",
-        "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
@@ -1122,7 +1514,7 @@
           "body": "記事： https://syunnjack.dev/articles/hotpapi-web\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-24T01:00:00.000Z",
+      "publishAt": "2026-09-01T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.pptx",
@@ -1171,7 +1563,7 @@
           "body": "記事： https://syunnjack.dev/articles/ai-tool-diagnoser\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-25T01:00:00.000Z",
+      "publishAt": "2026-09-02T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.pptx",
@@ -1220,7 +1612,7 @@
           "body": "記事： https://syunnjack.dev/articles/king-sys\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-26T01:00:00.000Z",
+      "publishAt": "2026-09-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/king-sys/king-sys-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/king-sys/king-sys-tech-preview.pptx",
@@ -1269,7 +1661,7 @@
           "body": "記事： https://syunnjack.dev/articles/reserve-sys\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-27T01:00:00.000Z",
+      "publishAt": "2026-09-04T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.pptx",
@@ -1279,55 +1671,6 @@
         "Reserve Sysは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
         "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "cross-genre",
-      "repository": "cross-genre",
-      "title": "Cross Genreの技術解説｜設計と実装を75秒で紹介",
-      "description": "Cross Genreの設計と実装を記録したプロジェクト",
-      "language": "TypeScript・CSS・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/cross-genre",
-      "repositoryUrl": "https://github.com/syunnjack/cross-genre",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cross-genre\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cross-genre\n\nCross Genreの設計と実装を記録したプロジェクト\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Cross Genreの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Cross Genreの設計と実装を記録したプロジェクト"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：app、components、data"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/cross-genre\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-28T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Cross Genreの技術構成を短く解説します。",
-        "Cross Genreの設計と実装を記録したプロジェクト",
-        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、app、components、dataを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
@@ -1367,7 +1710,7 @@
           "body": "記事： https://syunnjack.dev/articles/my-affiliate-site\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-29T01:00:00.000Z",
+      "publishAt": "2026-09-05T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/my-affiliate-site/my-affiliate-site-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/my-affiliate-site/my-affiliate-site-tech-preview.pptx",
@@ -1378,104 +1721,6 @@
         "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "gravure-photo-ranking",
-      "repository": "gravure-photo-ranking",
-      "title": "Gravure Photo Rankingの技術解説｜設計と実装を75秒で紹介",
-      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/gravure-photo-ranking",
-      "repositoryUrl": "https://github.com/syunnjack/gravure-photo-ranking",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/gravure-photo-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/gravure-photo-ranking\n\nGravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Gravure Photo Rankingの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/gravure-photo-ranking\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-30T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Gravure Photo Rankingの技術構成を短く解説します。",
-        "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "duga-video-ranking",
-      "repository": "duga-video-ranking",
-      "title": "Duga Video Rankingの技術解説｜設計と実装を75秒で紹介",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/duga-video-ranking",
-      "repositoryUrl": "https://github.com/syunnjack/duga-video-ranking",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/duga-video-ranking\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/duga-video-ranking\n\nDuga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Duga Video Rankingの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/duga-video-ranking\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-31T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Duga Video Rankingの技術構成を短く解説します。",
-        "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -1514,7 +1759,7 @@
           "body": "記事： https://syunnjack.dev/articles/sosolu-site\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-01T01:00:00.000Z",
+      "publishAt": "2026-09-06T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -1563,7 +1808,7 @@
           "body": "記事： https://syunnjack.dev/articles/koe-hiroba\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-02T01:00:00.000Z",
+      "publishAt": "2026-09-07T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -1612,7 +1857,7 @@
           "body": "記事： https://syunnjack.dev/articles/kousokubus-benri\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-03T01:00:00.000Z",
+      "publishAt": "2026-09-08T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.pptx",
@@ -1661,7 +1906,7 @@
           "body": "記事： https://syunnjack.dev/articles/hey-douga-guide\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-04T01:00:00.000Z",
+      "publishAt": "2026-09-09T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -1672,202 +1917,6 @@
         "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "sexy-costume-compare",
-      "repository": "sexy-costume-compare",
-      "title": "Sexy Costume Compareの技術解説｜設計と実装を75秒で紹介",
-      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/sexy-costume-compare",
-      "repositoryUrl": "https://github.com/syunnjack/sexy-costume-compare",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sexy-costume-compare\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sexy-costume-compare\n\nSexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Sexy Costume Compareの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/sexy-costume-compare\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-09-05T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Sexy Costume Compareの技術構成を短く解説します。",
-        "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "unlimited-comic-hub",
-      "repository": "unlimited-comic-hub",
-      "title": "Unlimited Comic Hubの技術解説｜設計と実装を75秒で紹介",
-      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/unlimited-comic-hub",
-      "repositoryUrl": "https://github.com/syunnjack/unlimited-comic-hub",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/unlimited-comic-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/unlimited-comic-hub\n\nUnlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Unlimited Comic Hubの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/unlimited-comic-hub\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-09-06T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Unlimited Comic Hubの技術構成を短く解説します。",
-        "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "sokmil-new-releases",
-      "repository": "sokmil-new-releases",
-      "title": "Sokmil New Releasesの技術解説｜設計と実装を75秒で紹介",
-      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/sokmil-new-releases",
-      "repositoryUrl": "https://github.com/syunnjack/sokmil-new-releases",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/sokmil-new-releases\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/sokmil-new-releases\n\nSokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Sokmil New Releasesの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/sokmil-new-releases\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-09-07T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Sokmil New Releasesの技術構成を短く解説します。",
-        "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "free-sample-hub",
-      "repository": "free-sample-hub",
-      "title": "Free Sample Hubの技術解説｜設計と実装を75秒で紹介",
-      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/free-sample-hub",
-      "repositoryUrl": "https://github.com/syunnjack/free-sample-hub",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/free-sample-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/free-sample-hub\n\nFree Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Free Sample Hubの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/free-sample-hub\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-09-08T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Free Sample Hubの技術構成を短く解説します。",
-        "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -1906,7 +1955,7 @@
           "body": "記事： https://syunnjack.dev/articles/mgs-video-guide\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-09-09T01:00:00.000Z",
+      "publishAt": "2026-09-10T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -1914,55 +1963,6 @@
       "narration": [
         "今回は、Mgs Video Guideの技術構成を短く解説します。",
         "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "subscription-compare",
-      "repository": "subscription-compare",
-      "title": "Subscription Compareの技術解説｜設計と実装を75秒で紹介",
-      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "PHP・Blade・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/subscription-compare",
-      "repositoryUrl": "https://github.com/syunnjack/subscription-compare",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/subscription-compare\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/subscription-compare\n\nSubscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
-      "slides": [
-        {
-          "title": "Subscription Compareの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/subscription-compare\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-09-10T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Subscription Compareの技術構成を短く解説します。",
-        "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",

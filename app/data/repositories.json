@@ -1,18 +1,22 @@
 {
-  "generatedAt": "2026-08-09T10:30:52.665Z",
+  "generatedAt": "2026-08-09T11:28:30.068Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "fanza-sale-watch",
+    "eroge-release-alert",
+    "adult-goods-compare",
+    "doujin-release-calendar",
+    "mature-genre-ranking",
+    "cross-asp-ranking",
+    "adult-novel-ranking",
+    "adult-figure-ranking",
+    "adult-comic-ranking",
     "abeshi-mvp",
     "rakuten02",
     "adult-shop-map",
-    "adult-figure-ranking",
-    "adult-novel-ranking",
-    "adult-comic-ranking",
-    "mature-genre-ranking",
-    "cross-asp-ranking",
     "play-with-stewardess-ranking",
     "play-with-racequeen-ranking",
     "play-withladies-ranking",
@@ -41,17 +45,1058 @@
     "netorare-ranking",
     "tachiback-ranking",
     "kosupure-ranking",
-    "adult-goods-compare",
-    "doujin-release-calendar",
     "shirouto-ranking",
     "taimenzai-ranking",
     "mesuiki-ranking",
     "kyonyu-ranking",
-    "eroge-release-alert",
-    "fanza-sale-watch",
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "cross-genre",
+      "name": "cross-genre",
+      "displayName": "Cross Genre",
+      "description": "Cross Genreの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Cross Genreの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/cross-genre",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "app",
+        "data",
+        "next-env.d.ts",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "e892ace",
+          "message": "Expand nationwide, fix broken affiliate links, add subsidy/business genres",
+          "date": "2026-08-09T11:19:09Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/e892aceda3214710bf63d6c2b7cc876d69a3591f"
+        },
+        {
+          "sha": "9b8cde4",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:06Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/9b8cde4eaa55ff92a82f13ee5fb7acb919a95d90"
+        },
+        {
+          "sha": "9306039",
+          "message": "Add sitemap.xml",
+          "date": "2026-08-05T11:37:58Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/9306039f86bcbc5fd08262696d5d4992e0f4f905"
+        },
+        {
+          "sha": "5e997e3",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:43Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/5e997e36c83d3b8a17ebf00c3d2fbfa0eeae3cdf"
+        },
+        {
+          "sha": "4b9b844",
+          "message": "Add missing page title/meta description",
+          "date": "2026-08-05T11:21:13Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/4b9b844d5da38d14dd7d113f0afd63bf026b09fa"
+        },
+        {
+          "sha": "d698e89",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:04:54Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d698e890d3f0749e2522808b5c556da4b6b81960"
+        },
+        {
+          "sha": "ef0701f",
+          "message": "Upgrade Next.js to fix critical security vulnerabilities",
+          "date": "2026-07-28T18:50:43Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/ef0701fba4cb09083a4f97bf0e686b7f2c3477a7"
+        },
+        {
+          "sha": "d083e1d",
+          "message": "fix: add 0413",
+          "date": "2026-04-13T11:10:44Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d083e1d0d3ce2e359ac88b0addccc80b882a22cb"
+        },
+        {
+          "sha": "a7324bc",
+          "message": "fix: add google maps types",
+          "date": "2026-04-12T15:54:29Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/a7324bc0e590e737d54e7097897cdee240eb5597"
+        },
+        {
+          "sha": "0220ff6",
+          "message": "fix: correct json syntax in package.json",
+          "date": "2026-04-12T15:49:47Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/0220ff633ccb959c9203aaf99ca2284ed73e0b46"
+        },
+        {
+          "sha": "d52a2ec",
+          "message": "fix: add missing google maps loader dependency",
+          "date": "2026-04-12T15:45:41Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d52a2ec357d9a24e41552fa128dc7bb927dbc735"
+        },
+        {
+          "sha": "54723c7",
+          "message": "fix: upgrade next.js to patch security vulnerability",
+          "date": "2026-04-12T15:40:16Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/54723c7edbbf7b8b485c195a14e8f0af8031057c"
+        }
+      ],
+      "updatedAt": "2026-08-09T11:19:18Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sexy-costume-compare",
+      "name": "sexy-costume-compare",
+      "displayName": "Sexy Costume Compare",
+      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/sexy-costume-compare",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f9a1551",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:48:11Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/f9a1551690fac1f77a0a21479114ab9332504cdb"
+        },
+        {
+          "sha": "40c0db2",
+          "message": "Add BannerBridge (Akiba.com fetish DVD store) banner",
+          "date": "2026-08-06T01:30:10Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/40c0db2df657651e81b1e1c5368ef6bdb4208671"
+        },
+        {
+          "sha": "3311e39",
+          "message": "Add Google Search Console verification; fix footer copy",
+          "date": "2026-08-05T17:09:35Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/3311e39d739e40c6a8cd45032e0d1520fa00a74d"
+        },
+        {
+          "sha": "64ef218",
+          "message": "Initial build: best-selling sexy costume ranking (Yahoo Shopping)",
+          "date": "2026-08-05T17:07:17Z",
+          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/64ef218ca7414b4c34a3435ae3b44c1ccc79dd2f"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:48:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "sokmil-new-releases",
+      "name": "sokmil-new-releases",
+      "displayName": "Sokmil New Releases",
+      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/sokmil-new-releases",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1a230d7",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:48:10Z",
+          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/1a230d7043335704189139eb16db90f87a52186c"
+        },
+        {
+          "sha": "4a26942",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:07:08Z",
+          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/4a2694257e419d4c8e553ffd6d5d59c1b6cb41a7"
+        },
+        {
+          "sha": "64cd9f0",
+          "message": "Initial build: SOKMIL new release feed",
+          "date": "2026-08-05T18:00:14Z",
+          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:49:06Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "free-sample-hub",
+      "name": "free-sample-hub",
+      "displayName": "Free Sample Hub",
+      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/free-sample-hub",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1e8b1c2",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:48:09Z",
+          "url": "https://github.com/syunnjack/free-sample-hub/commit/1e8b1c285d480227e96fa9e33ecaca0f0aa1feb5"
+        },
+        {
+          "sha": "fd7db7f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:09:36Z",
+          "url": "https://github.com/syunnjack/free-sample-hub/commit/fd7db7ffae866fb1a4ccb29b32b30e3c47ff2db5"
+        },
+        {
+          "sha": "ee08786",
+          "message": "Initial build: free sample video hub with inline player",
+          "date": "2026-08-05T19:06:38Z",
+          "url": "https://github.com/syunnjack/free-sample-hub/commit/ee0878672c063d07071a720027eb64a4b0eaef83"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:48:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "subscription-compare",
+      "name": "subscription-compare",
+      "displayName": "Subscription Compare",
+      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/subscription-compare",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "4999f0a",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:48:09Z",
+          "url": "https://github.com/syunnjack/subscription-compare/commit/4999f0a2bc65f327c6c53e5489d1af4903ab3e36"
+        },
+        {
+          "sha": "a656d70",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T14:41:38Z",
+          "url": "https://github.com/syunnjack/subscription-compare/commit/a656d70dd87f4e05ec4bb8f4732a160b5a3b7e82"
+        },
+        {
+          "sha": "1b89a3c",
+          "message": "Initial build: unlimited-viewing plan new arrivals watch",
+          "date": "2026-08-05T13:43:40Z",
+          "url": "https://github.com/syunnjack/subscription-compare/commit/1b89a3ccd750805a19ac8d99dffe89d823493b76"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:48:40Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "r18-anime-ranking",
+      "name": "r18-anime-ranking",
+      "displayName": "R18 Anime Ranking",
+      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/r18-anime-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a65a663",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:46:07Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/a65a663c671b6819d718321dc108e1bb539c59da"
+        },
+        {
+          "sha": "6c851fe",
+          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
+          "date": "2026-08-08T09:08:43Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/6c851fe07efa5ddbad3e92f701996b4cb888111c"
+        },
+        {
+          "sha": "f1d21bc",
+          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
+          "date": "2026-08-07T15:29:54Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/f1d21bc84b209647bd112d12cca3463535c96d44"
+        },
+        {
+          "sha": "400ecdd",
+          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
+          "date": "2026-08-07T12:28:41Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/400ecdd74178ed30bdec8399af4f9197193dd6d8"
+        },
+        {
+          "sha": "2fbf22a",
+          "message": "Switch deploy target from Xserver to ColorfulBOX",
+          "date": "2026-08-07T11:45:33Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/2fbf22a4e258b03dada4cffb1c79a32180240361"
+        },
+        {
+          "sha": "0c93cac",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:39:29Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/0c93cac6457cc4a2f97b20fcc838e55d3fd52b4c"
+        },
+        {
+          "sha": "4b068ea",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:56:31Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/4b068ea1b0104647f2ab697845be54067be956c5"
+        },
+        {
+          "sha": "c30c494",
+          "message": "Initial build: review-ranked R18 anime ranking",
+          "date": "2026-08-05T18:52:33Z",
+          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/c30c4940df93a136754dfbfdac08abc496bdcf0a"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:46:30Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "gravure-photo-ranking",
+      "name": "gravure-photo-ranking",
+      "displayName": "Gravure Photo Ranking",
+      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/gravure-photo-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "58729d6",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:46:03Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/58729d65086ac71b153ec824a4ca326ac947f287"
+        },
+        {
+          "sha": "01275b0",
+          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
+          "date": "2026-08-07T15:29:47Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/01275b0b031478761d455125e11401673d24bc45"
+        },
+        {
+          "sha": "d3ee0f5",
+          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
+          "date": "2026-08-07T12:28:33Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/d3ee0f5a06a1dd1848b6034b2453167d1ae8c57b"
+        },
+        {
+          "sha": "8de2eea",
+          "message": "Switch deploy target from Xserver to ColorfulBOX",
+          "date": "2026-08-07T11:45:25Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/8de2eeab2b3adf4d3de9db45f5638aa2b587e7f1"
+        },
+        {
+          "sha": "1f7d0f7",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:39:19Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/1f7d0f7c6b13bb82f3abb58e38b856d14d8b93f8"
+        },
+        {
+          "sha": "eb8aed4",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:22:58Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/eb8aed4885ef85741171d8b33a884ffc3be86450"
+        },
+        {
+          "sha": "6f88c46",
+          "message": "Initial build: review-ranked gravure photo book ranking",
+          "date": "2026-08-05T19:20:46Z",
+          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/6f88c46b66a3d890325e7fa0abbee3a4ac7c1fcf"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:46:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "bl-tl-novel-ranking",
+      "name": "bl-tl-novel-ranking",
+      "displayName": "Bl Tl Novel Ranking",
+      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bl-tl-novel-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "8eba864",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:45:58Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/8eba8646450b48c5a60b38de5c7f4e7c08c62ca2"
+        },
+        {
+          "sha": "96b4994",
+          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
+          "date": "2026-08-08T09:08:44Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/96b4994a00ec237ac7eb8d965f6942841221cc4f"
+        },
+        {
+          "sha": "3a92bfe",
+          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
+          "date": "2026-08-07T12:28:22Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/3a92bfef9bf0936fcbc71e41fe5a56278b0eca01"
+        },
+        {
+          "sha": "6fbd53a",
+          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
+          "date": "2026-08-07T12:23:55Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/6fbd53a5b8392f3a74dc6cc4b92eff62431fd3b4"
+        },
+        {
+          "sha": "b8aba31",
+          "message": "Add ColorfulBOX deploy workflow (replaces deleted Xserver one)",
+          "date": "2026-08-07T11:45:05Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/b8aba312807a5151c139d89fae0801192944dfe7"
+        },
+        {
+          "sha": "0da4206",
+          "message": "Switch deploy target from Xserver to ColorfulBOX",
+          "date": "2026-08-07T11:44:16Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/0da4206a7df5c811fa75f6f20ee0f58a43dc1e96"
+        },
+        {
+          "sha": "efd5167",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:16:54Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/efd5167d5604b311c28ae9d0fc57cd072bddddc1"
+        },
+        {
+          "sha": "4b97e16",
+          "message": "Add DLsite banner (related doujin service)",
+          "date": "2026-08-06T01:25:44Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/4b97e160aa71c51731017ec3a325fa7b0e89572a"
+        },
+        {
+          "sha": "35f91ef",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:02:12Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/35f91efa800a7dee1e1d886f4d2bee4bfedb4e4a"
+        },
+        {
+          "sha": "10f8a44",
+          "message": "Initial build: review-ranked BL/TL novel ranking",
+          "date": "2026-08-05T19:55:41Z",
+          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/10f8a449f2aa34a4b4cfe212e5e591109ae84bf4"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:46:26Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "bl-tl-doujin-ranking",
+      "name": "bl-tl-doujin-ranking",
+      "displayName": "Bl Tl Doujin Ranking",
+      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/bl-tl-doujin-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "3e29556",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:45:55Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/3e295564328daa3904b631372992bcc8725840b7"
+        },
+        {
+          "sha": "fe0d645",
+          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
+          "date": "2026-08-08T09:08:50Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fe0d64533739508885c4c0ee44fc4cb96d44a795"
+        },
+        {
+          "sha": "e6beaf9",
+          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
+          "date": "2026-08-07T12:28:18Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/e6beaf966cdcabb5d747389a11cc6c30f4d11437"
+        },
+        {
+          "sha": "46b6a66",
+          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
+          "date": "2026-08-07T12:23:51Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/46b6a660a1ae9d5e19622fb4613da96f5f62f22b"
+        },
+        {
+          "sha": "a000cbe",
+          "message": "Add ColorfulBOX deploy workflow (replaces deleted Xserver one)",
+          "date": "2026-08-07T11:45:02Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/a000cbe5b124182789b21314c2c9d353f58c6593"
+        },
+        {
+          "sha": "707cf59",
+          "message": "Switch deploy target from Xserver to ColorfulBOX",
+          "date": "2026-08-07T11:44:12Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/707cf59ebcb55535e894cd5e9450ae29bcf57891"
+        },
+        {
+          "sha": "ae779be",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:16:49Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/ae779be0675ca2dfc94d68f5803e411a7b8815b3"
+        },
+        {
+          "sha": "1e2f516",
+          "message": "Add DLsite banner (related doujin service)",
+          "date": "2026-08-06T01:25:42Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/1e2f516c6115a175d6c36c21c11b614c4d397259"
+        },
+        {
+          "sha": "f817525",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T19:38:14Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/f817525d2e5c96e5ca924e6bda0b5373b1d51a90"
+        },
+        {
+          "sha": "fa23122",
+          "message": "Initial build: BL/TL doujin new release feed",
+          "date": "2026-08-05T19:32:24Z",
+          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fa23122016e537283779a88b19eee4511033e876"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:47:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "duga-video-ranking",
+      "name": "duga-video-ranking",
+      "displayName": "Duga Video Ranking",
+      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/duga-video-ranking",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d5786d9",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:32:50Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/d5786d922c5a37366ae84d885b99f0c23df439a6"
+        },
+        {
+          "sha": "e66a514",
+          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
+          "date": "2026-08-07T15:29:43Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/e66a514783a1d2a9be0c6cbfad16b137e82b8ed6"
+        },
+        {
+          "sha": "0da598a",
+          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
+          "date": "2026-08-07T12:28:29Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/0da598a72e5563b745450fbef6f109aa75ecd823"
+        },
+        {
+          "sha": "13351b6",
+          "message": "Switch deploy target from Xserver to ColorfulBOX",
+          "date": "2026-08-07T11:45:21Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/13351b6051c708481d7211ab1db15324ea65060e"
+        },
+        {
+          "sha": "81d3a7c",
+          "message": "Add Xserver SSH deploy workflow",
+          "date": "2026-08-07T10:39:12Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/81d3a7c373e1be8821dda34b625357da5eb7eb4d"
+        },
+        {
+          "sha": "5c3e836",
+          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
+          "date": "2026-08-06T03:57:48Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
+        },
+        {
+          "sha": "1dc6e3f",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T17:32:51Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
+        },
+        {
+          "sha": "a531585",
+          "message": "Initial build: DUGA popular video ranking",
+          "date": "2026-08-05T17:25:55Z",
+          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:33:15Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "e094e6e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T10:31:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e094e6edecd45c56b2ae485ee468846180ddf9fe"
+        },
+        {
+          "sha": "5441196",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T09:30:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/544119604f8acde3307b0c80d89b90a0c9b9ef6c"
+        },
+        {
+          "sha": "2ea7fa1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T08:31:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ea7fa138514d8a45427feecb6dedcb86b2251c3"
+        },
+        {
+          "sha": "30f5bb6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T07:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
+        },
+        {
+          "sha": "5b0d221",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T06:34:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
+        },
+        {
+          "sha": "805dc41",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T05:37:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
+        },
+        {
+          "sha": "119a9c1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T04:45:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
+        },
+        {
+          "sha": "a3e0880",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:55:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
+        },
+        {
+          "sha": "0d2b7a2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:00:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
+        },
+        {
+          "sha": "ce5ff8b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T01:59:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
+        },
+        {
+          "sha": "b84de67",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T00:37:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
+        },
+        {
+          "sha": "f8e6ddb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T23:30:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:32:36Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "unlimited-comic-hub",
+      "name": "unlimited-comic-hub",
+      "displayName": "Unlimited Comic Hub",
+      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/unlimited-comic-hub",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "2490e38",
+          "message": "Rewrite hero/meta copy from data-pipeline description to user value",
+          "date": "2026-08-09T10:30:40Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/2490e38a6bfd6e9ff2160a1963ea14be335f38d8"
+        },
+        {
+          "sha": "8baf7fa",
+          "message": "Add DLsite banner (related doujin service)",
+          "date": "2026-08-06T01:25:46Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/8baf7fac6dd442fd69a09f044bf0c640c5504a73"
+        },
+        {
+          "sha": "126be68",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T20:33:01Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/126be682f209372f44c6b3a0545385b84c2c5ecf"
+        },
+        {
+          "sha": "5df6a50",
+          "message": "Initial build: unlimited comic reading plan hub",
+          "date": "2026-08-05T20:30:16Z",
+          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/5df6a507df8061eb06476e5e05cd402891c39b25"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:30:57Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "work-bar-navi",
+      "name": "work-bar-navi",
+      "displayName": "Work Bar Navi",
+      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/work-bar-navi",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "0625108",
+          "message": "Rewrite internal/business-jargon copy into user-facing language",
+          "date": "2026-08-09T10:27:11Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/0625108ae02573fe3f9813841431d1cd0d467c77"
+        },
+        {
+          "sha": "c795929",
+          "message": "Translate to Japanese, add real venue data via HotPepper API, hotel funnel, and affiliate links",
+          "date": "2026-08-09T10:16:15Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/c79592923231c770e1a03900bc8eeec283dfb602"
+        },
+        {
+          "sha": "1849d89",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:31Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/1849d89ecfa3585c82ec2bd52251028a78f6f3a1"
+        },
+        {
+          "sha": "5ba4f2c",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:24Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/5ba4f2c1c023103e1770eccfedef9b020fd0705b"
+        },
+        {
+          "sha": "46939fd",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:51Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/46939fd200632fa0761b8b18f361345c07be2560"
+        },
+        {
+          "sha": "6fe4667",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:24Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
+        },
+        {
+          "sha": "2e0dd5d",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:07:50Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
+        },
+        {
+          "sha": "74a3e6c",
+          "message": "Initial app scaffold",
+          "date": "2026-07-17T23:32:30Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
+        }
+      ],
+      "updatedAt": "2026-08-09T10:27:46Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "subsidy-alert-hub",
       "name": "subsidy-alert-hub",
@@ -138,78 +1183,6 @@
         }
       ],
       "updatedAt": "2026-08-09T10:25:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "work-bar-navi",
-      "name": "work-bar-navi",
-      "displayName": "Work Bar Navi",
-      "description": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Work Bar Naviは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/work-bar-navi",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "c795929",
-          "message": "Translate to Japanese, add real venue data via HotPepper API, hotel funnel, and affiliate links",
-          "date": "2026-08-09T10:16:15Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/c79592923231c770e1a03900bc8eeec283dfb602"
-        },
-        {
-          "sha": "1849d89",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:31Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/1849d89ecfa3585c82ec2bd52251028a78f6f3a1"
-        },
-        {
-          "sha": "5ba4f2c",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/5ba4f2c1c023103e1770eccfedef9b020fd0705b"
-        },
-        {
-          "sha": "46939fd",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:51Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/46939fd200632fa0761b8b18f361345c07be2560"
-        },
-        {
-          "sha": "6fe4667",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
-        },
-        {
-          "sha": "2e0dd5d",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/2e0dd5d45262bbe31deb0620f8708bff98c63eb3"
-        },
-        {
-          "sha": "74a3e6c",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:30Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/74a3e6c5de6761fa2069d26590e06e395841a4d5"
-        }
-      ],
-      "updatedAt": "2026-08-09T10:16:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -427,116 +1400,6 @@
         }
       ],
       "updatedAt": "2026-08-09T09:33:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "5441196",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T09:30:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/544119604f8acde3307b0c80d89b90a0c9b9ef6c"
-        },
-        {
-          "sha": "2ea7fa1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T08:31:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ea7fa138514d8a45427feecb6dedcb86b2251c3"
-        },
-        {
-          "sha": "30f5bb6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T07:40:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
-        },
-        {
-          "sha": "5b0d221",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T06:34:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
-        },
-        {
-          "sha": "805dc41",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T05:37:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
-        },
-        {
-          "sha": "119a9c1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T04:45:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
-        },
-        {
-          "sha": "a3e0880",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:55:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
-        },
-        {
-          "sha": "0d2b7a2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:00:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
-        },
-        {
-          "sha": "ce5ff8b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T01:59:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
-        },
-        {
-          "sha": "b84de67",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T00:37:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
-        },
-        {
-          "sha": "f8e6ddb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T23:30:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
-        },
-        {
-          "sha": "8578d37",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T22:30:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
-        }
-      ],
-      "updatedAt": "2026-08-09T09:30:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -1718,276 +2581,6 @@
       "forks": 0
     },
     {
-      "slug": "bl-tl-doujin-ranking",
-      "name": "bl-tl-doujin-ranking",
-      "displayName": "Bl Tl Doujin Ranking",
-      "description": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Doujin Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-doujin-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fe0d645",
-          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
-          "date": "2026-08-08T09:08:50Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fe0d64533739508885c4c0ee44fc4cb96d44a795"
-        },
-        {
-          "sha": "e6beaf9",
-          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
-          "date": "2026-08-07T12:28:18Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/e6beaf966cdcabb5d747389a11cc6c30f4d11437"
-        },
-        {
-          "sha": "46b6a66",
-          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
-          "date": "2026-08-07T12:23:51Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/46b6a660a1ae9d5e19622fb4613da96f5f62f22b"
-        },
-        {
-          "sha": "a000cbe",
-          "message": "Add ColorfulBOX deploy workflow (replaces deleted Xserver one)",
-          "date": "2026-08-07T11:45:02Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/a000cbe5b124182789b21314c2c9d353f58c6593"
-        },
-        {
-          "sha": "707cf59",
-          "message": "Switch deploy target from Xserver to ColorfulBOX",
-          "date": "2026-08-07T11:44:12Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/707cf59ebcb55535e894cd5e9450ae29bcf57891"
-        },
-        {
-          "sha": "ae779be",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:16:49Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/ae779be0675ca2dfc94d68f5803e411a7b8815b3"
-        },
-        {
-          "sha": "1e2f516",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:42Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/1e2f516c6115a175d6c36c21c11b614c4d397259"
-        },
-        {
-          "sha": "f817525",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:38:14Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/f817525d2e5c96e5ca924e6bda0b5373b1d51a90"
-        },
-        {
-          "sha": "fa23122",
-          "message": "Initial build: BL/TL doujin new release feed",
-          "date": "2026-08-05T19:32:24Z",
-          "url": "https://github.com/syunnjack/bl-tl-doujin-ranking/commit/fa23122016e537283779a88b19eee4511033e876"
-        }
-      ],
-      "updatedAt": "2026-08-08T09:08:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bl-tl-novel-ranking",
-      "name": "bl-tl-novel-ranking",
-      "displayName": "Bl Tl Novel Ranking",
-      "description": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bl Tl Novel Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/bl-tl-novel-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "96b4994",
-          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
-          "date": "2026-08-08T09:08:44Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/96b4994a00ec237ac7eb8d965f6942841221cc4f"
-        },
-        {
-          "sha": "3a92bfe",
-          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
-          "date": "2026-08-07T12:28:22Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/3a92bfef9bf0936fcbc71e41fe5a56278b0eca01"
-        },
-        {
-          "sha": "6fbd53a",
-          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
-          "date": "2026-08-07T12:23:55Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/6fbd53a5b8392f3a74dc6cc4b92eff62431fd3b4"
-        },
-        {
-          "sha": "b8aba31",
-          "message": "Add ColorfulBOX deploy workflow (replaces deleted Xserver one)",
-          "date": "2026-08-07T11:45:05Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/b8aba312807a5151c139d89fae0801192944dfe7"
-        },
-        {
-          "sha": "0da4206",
-          "message": "Switch deploy target from Xserver to ColorfulBOX",
-          "date": "2026-08-07T11:44:16Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/0da4206a7df5c811fa75f6f20ee0f58a43dc1e96"
-        },
-        {
-          "sha": "efd5167",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:16:54Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/efd5167d5604b311c28ae9d0fc57cd072bddddc1"
-        },
-        {
-          "sha": "4b97e16",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:44Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/4b97e160aa71c51731017ec3a325fa7b0e89572a"
-        },
-        {
-          "sha": "35f91ef",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:02:12Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/35f91efa800a7dee1e1d886f4d2bee4bfedb4e4a"
-        },
-        {
-          "sha": "10f8a44",
-          "message": "Initial build: review-ranked BL/TL novel ranking",
-          "date": "2026-08-05T19:55:41Z",
-          "url": "https://github.com/syunnjack/bl-tl-novel-ranking/commit/10f8a449f2aa34a4b4cfe212e5e591109ae84bf4"
-        }
-      ],
-      "updatedAt": "2026-08-08T09:08:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "r18-anime-ranking",
-      "name": "r18-anime-ranking",
-      "displayName": "R18 Anime Ranking",
-      "description": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "R18 Anime Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/r18-anime-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6c851fe",
-          "message": "Fix DmmClient: make constructor args nullable, avoid crash when API key unset",
-          "date": "2026-08-08T09:08:43Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/6c851fe07efa5ddbad3e92f701996b4cb888111c"
-        },
-        {
-          "sha": "f1d21bc",
-          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
-          "date": "2026-08-07T15:29:54Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/f1d21bc84b209647bd112d12cca3463535c96d44"
-        },
-        {
-          "sha": "400ecdd",
-          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
-          "date": "2026-08-07T12:28:41Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/400ecdd74178ed30bdec8399af4f9197193dd6d8"
-        },
-        {
-          "sha": "2fbf22a",
-          "message": "Switch deploy target from Xserver to ColorfulBOX",
-          "date": "2026-08-07T11:45:33Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/2fbf22a4e258b03dada4cffb1c79a32180240361"
-        },
-        {
-          "sha": "0c93cac",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:39:29Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/0c93cac6457cc4a2f97b20fcc838e55d3fd52b4c"
-        },
-        {
-          "sha": "4b068ea",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:56:31Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/4b068ea1b0104647f2ab697845be54067be956c5"
-        },
-        {
-          "sha": "c30c494",
-          "message": "Initial build: review-ranked R18 anime ranking",
-          "date": "2026-08-05T18:52:33Z",
-          "url": "https://github.com/syunnjack/r18-anime-ranking/commit/c30c4940df93a136754dfbfdac08abc496bdcf0a"
-        }
-      ],
-      "updatedAt": "2026-08-08T09:09:02Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "hotpapi-web",
       "name": "hotpapi-web",
       "displayName": "Hotpapi Web",
@@ -2307,109 +2900,6 @@
       "forks": 0
     },
     {
-      "slug": "cross-genre",
-      "name": "cross-genre",
-      "displayName": "Cross Genre",
-      "description": "Cross Genreの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Cross Genreの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/cross-genre",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "app",
-        "components",
-        "data",
-        "next-env.d.ts",
-        "next.config.mjs",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "9b8cde4",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:06Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/9b8cde4eaa55ff92a82f13ee5fb7acb919a95d90"
-        },
-        {
-          "sha": "9306039",
-          "message": "Add sitemap.xml",
-          "date": "2026-08-05T11:37:58Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/9306039f86bcbc5fd08262696d5d4992e0f4f905"
-        },
-        {
-          "sha": "5e997e3",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:43Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/5e997e36c83d3b8a17ebf00c3d2fbfa0eeae3cdf"
-        },
-        {
-          "sha": "4b9b844",
-          "message": "Add missing page title/meta description",
-          "date": "2026-08-05T11:21:13Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/4b9b844d5da38d14dd7d113f0afd63bf026b09fa"
-        },
-        {
-          "sha": "d698e89",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:54Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d698e890d3f0749e2522808b5c556da4b6b81960"
-        },
-        {
-          "sha": "ef0701f",
-          "message": "Upgrade Next.js to fix critical security vulnerabilities",
-          "date": "2026-07-28T18:50:43Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/ef0701fba4cb09083a4f97bf0e686b7f2c3477a7"
-        },
-        {
-          "sha": "d083e1d",
-          "message": "fix: add 0413",
-          "date": "2026-04-13T11:10:44Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d083e1d0d3ce2e359ac88b0addccc80b882a22cb"
-        },
-        {
-          "sha": "a7324bc",
-          "message": "fix: add google maps types",
-          "date": "2026-04-12T15:54:29Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/a7324bc0e590e737d54e7097897cdee240eb5597"
-        },
-        {
-          "sha": "0220ff6",
-          "message": "fix: correct json syntax in package.json",
-          "date": "2026-04-12T15:49:47Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/0220ff633ccb959c9203aaf99ca2284ed73e0b46"
-        },
-        {
-          "sha": "d52a2ec",
-          "message": "fix: add missing google maps loader dependency",
-          "date": "2026-04-12T15:45:41Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d52a2ec357d9a24e41552fa128dc7bb927dbc735"
-        },
-        {
-          "sha": "54723c7",
-          "message": "fix: upgrade next.js to patch security vulnerability",
-          "date": "2026-04-12T15:40:16Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/54723c7edbbf7b8b485c195a14e8f0af8031057c"
-        },
-        {
-          "sha": "4752760",
-          "message": "fix: restore json data to fix empty build error",
-          "date": "2026-04-12T14:19:10Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/47527600136295036fcdc565f96606cb61685eba"
-        }
-      ],
-      "updatedAt": "2026-08-08T02:02:09Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "my-affiliate-site",
       "name": "my-affiliate-site",
       "displayName": "My Affiliate Site",
@@ -2513,164 +3003,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:07Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "gravure-photo-ranking",
-      "name": "gravure-photo-ranking",
-      "displayName": "Gravure Photo Ranking",
-      "description": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gravure Photo Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/gravure-photo-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "01275b0",
-          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
-          "date": "2026-08-07T15:29:47Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/01275b0b031478761d455125e11401673d24bc45"
-        },
-        {
-          "sha": "d3ee0f5",
-          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
-          "date": "2026-08-07T12:28:33Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/d3ee0f5a06a1dd1848b6034b2453167d1ae8c57b"
-        },
-        {
-          "sha": "8de2eea",
-          "message": "Switch deploy target from Xserver to ColorfulBOX",
-          "date": "2026-08-07T11:45:25Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/8de2eeab2b3adf4d3de9db45f5638aa2b587e7f1"
-        },
-        {
-          "sha": "1f7d0f7",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:39:19Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/1f7d0f7c6b13bb82f3abb58e38b856d14d8b93f8"
-        },
-        {
-          "sha": "eb8aed4",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:22:58Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/eb8aed4885ef85741171d8b33a884ffc3be86450"
-        },
-        {
-          "sha": "6f88c46",
-          "message": "Initial build: review-ranked gravure photo book ranking",
-          "date": "2026-08-05T19:20:46Z",
-          "url": "https://github.com/syunnjack/gravure-photo-ranking/commit/6f88c46b66a3d890325e7fa0abbee3a4ac7c1fcf"
-        }
-      ],
-      "updatedAt": "2026-08-07T15:32:20Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "duga-video-ranking",
-      "name": "duga-video-ranking",
-      "displayName": "Duga Video Ranking",
-      "description": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Duga Video Rankingは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/duga-video-ranking",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e66a514",
-          "message": "Fix deploy workflow: don't delete live .env, use PHP 8.3 binary",
-          "date": "2026-08-07T15:29:43Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/e66a514783a1d2a9be0c6cbfad16b137e82b8ed6"
-        },
-        {
-          "sha": "0da598a",
-          "message": "Add package-lock.json (required by npm ci in deploy workflow)",
-          "date": "2026-08-07T12:28:29Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/0da598a72e5563b745450fbef6f109aa75ecd823"
-        },
-        {
-          "sha": "13351b6",
-          "message": "Switch deploy target from Xserver to ColorfulBOX",
-          "date": "2026-08-07T11:45:21Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/13351b6051c708481d7211ab1db15324ea65060e"
-        },
-        {
-          "sha": "81d3a7c",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:39:12Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/81d3a7c373e1be8821dda34b625357da5eb7eb4d"
-        },
-        {
-          "sha": "5c3e836",
-          "message": "Add genre-specific ranking pages (人妻/熟女/巨乳/コスプレ/痴女/素人) via DUGA keyword search",
-          "date": "2026-08-06T03:57:48Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/5c3e83655c0dd5d53933a3fd15208bc9296980a7"
-        },
-        {
-          "sha": "1dc6e3f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:32:51Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/1dc6e3fff40ea78e8cefe434c2b32569419e3e10"
-        },
-        {
-          "sha": "a531585",
-          "message": "Initial build: DUGA popular video ranking",
-          "date": "2026-08-05T17:25:55Z",
-          "url": "https://github.com/syunnjack/duga-video-ranking/commit/a53158515a6e42e4476ce6ef442eaa4e65dcfbd3"
-        }
-      ],
-      "updatedAt": "2026-08-07T15:29:50Z",
       "stars": 0,
       "forks": 0
     },
@@ -2951,222 +3283,6 @@
       "forks": 0
     },
     {
-      "slug": "sexy-costume-compare",
-      "name": "sexy-costume-compare",
-      "displayName": "Sexy Costume Compare",
-      "description": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sexy Costume Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sexy-costume-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "40c0db2",
-          "message": "Add BannerBridge (Akiba.com fetish DVD store) banner",
-          "date": "2026-08-06T01:30:10Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/40c0db2df657651e81b1e1c5368ef6bdb4208671"
-        },
-        {
-          "sha": "3311e39",
-          "message": "Add Google Search Console verification; fix footer copy",
-          "date": "2026-08-05T17:09:35Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/3311e39d739e40c6a8cd45032e0d1520fa00a74d"
-        },
-        {
-          "sha": "64ef218",
-          "message": "Initial build: best-selling sexy costume ranking (Yahoo Shopping)",
-          "date": "2026-08-05T17:07:17Z",
-          "url": "https://github.com/syunnjack/sexy-costume-compare/commit/64ef218ca7414b4c34a3435ae3b44c1ccc79dd2f"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:30:18Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "unlimited-comic-hub",
-      "name": "unlimited-comic-hub",
-      "displayName": "Unlimited Comic Hub",
-      "description": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Unlimited Comic Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/unlimited-comic-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8baf7fa",
-          "message": "Add DLsite banner (related doujin service)",
-          "date": "2026-08-06T01:25:46Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/8baf7fac6dd442fd69a09f044bf0c640c5504a73"
-        },
-        {
-          "sha": "126be68",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:33:01Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/126be682f209372f44c6b3a0545385b84c2c5ecf"
-        },
-        {
-          "sha": "5df6a50",
-          "message": "Initial build: unlimited comic reading plan hub",
-          "date": "2026-08-05T20:30:16Z",
-          "url": "https://github.com/syunnjack/unlimited-comic-hub/commit/5df6a507df8061eb06476e5e05cd402891c39b25"
-        }
-      ],
-      "updatedAt": "2026-08-06T01:25:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sokmil-new-releases",
-      "name": "sokmil-new-releases",
-      "displayName": "Sokmil New Releases",
-      "description": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Sokmil New Releasesは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/sokmil-new-releases",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4a26942",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T20:07:08Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/4a2694257e419d4c8e553ffd6d5d59c1b6cb41a7"
-        },
-        {
-          "sha": "64cd9f0",
-          "message": "Initial build: SOKMIL new release feed",
-          "date": "2026-08-05T18:00:14Z",
-          "url": "https://github.com/syunnjack/sokmil-new-releases/commit/64cd9f0b91db463e413834ede63285b60a7d3b4a"
-        }
-      ],
-      "updatedAt": "2026-08-05T20:08:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "free-sample-hub",
-      "name": "free-sample-hub",
-      "displayName": "Free Sample Hub",
-      "description": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Free Sample Hubは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/free-sample-hub",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fd7db7f",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T19:09:36Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/fd7db7ffae866fb1a4ccb29b32b30e3c47ff2db5"
-        },
-        {
-          "sha": "ee08786",
-          "message": "Initial build: free sample video hub with inline player",
-          "date": "2026-08-05T19:06:38Z",
-          "url": "https://github.com/syunnjack/free-sample-hub/commit/ee0878672c063d07071a720027eb64a4b0eaef83"
-        }
-      ],
-      "updatedAt": "2026-08-05T19:12:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "mgs-video-guide",
       "name": "mgs-video-guide",
       "displayName": "Mgs Video Guide",
@@ -3214,57 +3330,6 @@
         }
       ],
       "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "subscription-compare",
-      "name": "subscription-compare",
-      "displayName": "Subscription Compare",
-      "description": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Subscription Compareは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/subscription-compare",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a656d70",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:38Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/a656d70dd87f4e05ec4bb8f4732a160b5a3b7e82"
-        },
-        {
-          "sha": "1b89a3c",
-          "message": "Initial build: unlimited-viewing plan new arrivals watch",
-          "date": "2026-08-05T13:43:40Z",
-          "url": "https://github.com/syunnjack/subscription-compare/commit/1b89a3ccd750805a19ac8d99dffe89d823493b76"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:28Z",
       "stars": 0,
       "forks": 0
     },
