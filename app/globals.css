@@ -2116,3 +2116,12 @@ footer > a {
     grid-template-columns: 1fr;
   }
 }
+
+.store-demo-section {
+  padding-top: 24px;
+}
+
+.store-video-badge-free {
+  background: var(--amber);
+  color: var(--ink-deep);
+}

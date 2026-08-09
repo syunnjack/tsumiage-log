@@ -2,6 +2,7 @@
   "videos": [
     {
       "slug": "hobby-log-special",
+      "kind": "ppv",
       "title": "syunnjackの「推し活・趣味」記録【PPV特別版】",
       "description": "レトロスポット巡り、ボウリングのプロチャレンジ、推し活、猫カフェ通いなど、開発以外の一面を紹介する特別動画です。",
       "language": "個人の趣味・活動記録",
@@ -43,6 +44,466 @@
         "二つ目は、ボウリングのプロチャレンジです。プロボウラーに挑戦できるイベントに参加し、実際のプレーを通じてボウリングの奥深さを味わっています。",
         "三つ目は、推し活と猫カフェです。グラビアアイドルのイベントに足を運ぶ推し活や、猫カフェ通いも、日々の楽しみのひとつです。",
         "積み上げログでは、開発の記録に加えて、こうした個人的な活動もこれから発信していきます。続きは、この後の限定パートでお楽しみください。"
+      ]
+    },
+    {
+      "slug": "allbowl01-showcase",
+      "kind": "demo",
+      "title": "全国プロボウリングイベント情報【bowling-event.jp】",
+      "description": "全国のボウリング場で開催されるプロチャレンジ・プロアマ情報と、ボウリング用品・アミューズメントグッズをまとめて紹介するプロジェクトです。",
+      "language": "Astro / WordPress",
+      "repositoryUrl": "https://github.com/syunnjack/allbowl01",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場でボウリング用品を見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%259C%25E3%2582%25A6%25E3%2583%25AA%25E3%2582%25B0%2520%25E3%2583%259E%25E3%2582%25A4%25E3%2583%259C%25E3%2583%25BC%25E3%2583%25AB%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%259C%25E3%2582%25A6%25E3%2583%25AA%25E3%2582%25B0%2520%25E3%2583%259E%25E3%2582%25A4%25E3%2583%259C%25E3%2583%25BC%25E3%2583%25AB%2F",
+      "slides": [
+        {
+          "title": "全国プロボウリングイベント情報\n【bowling-event.jp】",
+          "body": "プロチャレンジやプロアマなど、全国のボウリング場で開催されるイベント情報をまとめて紹介します。"
+        },
+        {
+          "title": "掲載しているイベント情報",
+          "body": "各地のボウリング場で開催されるプロチャレンジ・プロアマ情報を、都道府県別に確認できます。"
+        },
+        {
+          "title": "ラウンドワンのイベントも網羅",
+          "body": "総合アミューズメント施設ラウンドワンで開催される、わかりにくい場所に掲載されがちなイベント情報も掲載しています。"
+        },
+        {
+          "title": "ボウリング用品もまとめてチェック",
+          "body": "マイボールやシューズ、リストサポーターなど、ボウリング用品を楽天市場・Amazonでまとめて探せます。"
+        },
+        {
+          "title": "クレーンゲームのプライズ情報も",
+          "body": "総合アミューズメント施設ならではの、UFOキャッチャーのプライズフィギュアなどのグッズも紹介しています。"
+        },
+        {
+          "title": "まとめ",
+          "body": "bowling-event.jpで、プレーする楽しさもグッズを選ぶ楽しさも、まとめてチェックできます。"
+        }
+      ],
+      "narration": [
+        "今回は、全国のプロボウリングイベント情報をまとめたプロジェクト、bowling-event.jpを紹介します。",
+        "各地のボウリング場で開催されるプロチャレンジやプロアマ情報を、都道府県別に確認できます。",
+        "総合アミューズメント施設のラウンドワンで開催される、わかりにくい場所に掲載されがちなイベント情報もあわせて掲載しています。",
+        "マイボールやシューズ、リストサポーターなど、ボウリング用品を楽天市場やAmazonでまとめて探すこともできます。",
+        "総合アミューズメント施設ならではの、UFOキャッチャーのプライズフィギュアなどのグッズも紹介しています。",
+        "bowling-event.jpで、プレーする楽しさもグッズを選ぶ楽しさも、まとめてチェックしてみてください。"
+      ]
+    },
+    {
+      "slug": "dvd-jan-scan-db-showcase",
+      "kind": "demo",
+      "title": "JANコードでDVD・Blu-rayを一括査定【dvdjan.jp】",
+      "description": "スマホでバーコードを読み取るだけで、DVD・Blu-rayの型番から楽天ブックスの実売価格を確認できるスキャンツールです。",
+      "language": "Next.js / TypeScript / Prisma",
+      "repositoryUrl": "https://github.com/syunnjack/dvd-jan-scan-db",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天ブックスでDVD・Blu-rayを探す",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fbooks.rakuten.co.jp%2F&m=https%3A%2F%2Fbooks.rakuten.co.jp%2F",
+      "slides": [
+        {
+          "title": "JANコードでDVD・Blu-rayを一括査定\n【dvdjan.jp】",
+          "body": "スマホのカメラでバーコードを読み取るだけで、作品情報と価格をすぐに確認できるスキャンツールです。"
+        },
+        {
+          "title": "使い方はシンプル",
+          "body": "スマホのカメラでDVD・Blu-rayのJANコード（バーコード）を読み取るだけで検索が始まります。"
+        },
+        {
+          "title": "楽天ブックスの実売価格を確認",
+          "body": "読み取った作品を楽天ブックスの実データと照合し、実際の価格を表示します。"
+        },
+        {
+          "title": "手放すか、買い足すかの判断に",
+          "body": "手元の作品を整理するときや、欲しい作品を探すときの価格チェックに活用できます。"
+        },
+        {
+          "title": "リアルタイムでデータ照合",
+          "body": "読み取った瞬間に楽天ブックスの公式データと照合し、最新の情報を確認できます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "dvdjan.jpで、手元の作品をスマホひとつでスキャン。整理にも、買い物にも活用できます。"
+        }
+      ],
+      "narration": [
+        "今回は、JANコードでDVD・Blu-rayを一括査定できるスキャンツール、dvdjan.jpを紹介します。",
+        "使い方はシンプルで、スマホのカメラでDVD・Blu-rayのバーコードを読み取るだけで検索が始まります。",
+        "読み取った作品を楽天ブックスの実データと照合し、実際の価格を表示します。",
+        "手元の作品を整理するときや、欲しい作品を探すときの価格チェックに活用できます。",
+        "読み取った瞬間に楽天ブックスの公式データと照合するので、最新の情報を確認できます。",
+        "dvdjan.jpで、手元の作品をスマホひとつでスキャン。整理にも、買い物にも活用してみてください。"
+      ]
+    },
+    {
+      "slug": "rakuten02-showcase",
+      "kind": "demo",
+      "title": "終電を逃した夜に、今夜泊まれるホテルを探す【shudenhotel.jp】",
+      "description": "終電を逃した方向けに、楽天トラベルのデータから今夜空室のあるホテルを検索できるツールです。",
+      "language": "ASP.NET Core / WinForms",
+      "repositoryUrl": "https://github.com/syunnjack/rakuten02",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天トラベルでホテルを探す",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2F",
+      "slides": [
+        {
+          "title": "終電を逃した夜に、\n今夜泊まれるホテルを探す\n【shudenhotel.jp】",
+          "body": "終電を逃した方向けに、今夜泊まれるホテルを探せるツールです。"
+        },
+        {
+          "title": "終電を逃した時の悩み",
+          "body": "深夜、急に宿泊先を探すのは大変です。近くで今すぐ泊まれる場所を知りたい場面は多くあります。"
+        },
+        {
+          "title": "楽天トラベルのデータを活用",
+          "body": "楽天トラベルのデータをもとに、今夜空室のあるホテルを検索できます。"
+        },
+        {
+          "title": "駅からの距離も確認",
+          "body": "終電を逃した駅の近くで、今すぐ向かえる宿泊先を確認できます。"
+        },
+        {
+          "title": "予約もそのまま楽天トラベルで",
+          "body": "気になるホテルが見つかったら、そのまま楽天トラベルで予約に進めます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "shudenhotel.jpで、終電を逃した夜も慌てずに、今夜の宿を見つけられます。"
+        }
+      ],
+      "narration": [
+        "終電を逃した方向けに、今夜泊まれるホテルを探せるツールです。",
+        "深夜、急に宿泊先を探すのは大変です。近くで今すぐ泊まれる場所を知りたい場面は多くあります。",
+        "楽天トラベルのデータをもとに、今夜空室のあるホテルを検索できます。",
+        "終電を逃した駅の近くで、今すぐ向かえる宿泊先を確認できます。",
+        "気になるホテルが見つかったら、そのまま楽天トラベルで予約に進めます。",
+        "shudenhotel.jpで、終電を逃した夜も慌てずに、今夜の宿を見つけられます。"
+      ]
+    },
+    {
+      "slug": "sedora-s-showcase",
+      "kind": "demo",
+      "title": "バーコードで一括査定【中古買取サポートツール】",
+      "description": "JAN・ISBNコードをスキャンして、本・DVD・ゲームの相場情報を確認できるツールです。",
+      "language": ".NET (WinForms)",
+      "repositoryUrl": "https://github.com/syunnjack/sedora-s",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場で中古DVD・ゲーム・本を見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E4%25B8%25AD%25E5%258F%25A4%2520DVD%2520%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%2520%25E6%259C%25AC%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E4%25B8%25AD%25E5%258F%25A4%2520DVD%2520%25E3%2582%25B2%25E3%2583%25BC%25E3%2583%25A0%2520%25E6%259C%25AC%2F",
+      "slides": [
+        {
+          "title": "バーコードで一括査定\n【中古買取サポートツール】",
+          "body": "JAN・ISBNコードをスキャンして、本・DVD・ゲームの相場情報を確認できるツールです。"
+        },
+        {
+          "title": "手元の作品を整理したいときに",
+          "body": "本棚やゲーム棚に眠っている作品、まとめて相場を確認したいときに役立ちます。"
+        },
+        {
+          "title": "バーコードをスキャンするだけ",
+          "body": "JANコードやISBNコードを読み取るだけで、該当する作品の情報を検索します。"
+        },
+        {
+          "title": "複数のショップの価格を比較",
+          "body": "楽天市場など複数のショップの実売価格を照らし合わせて確認できます。"
+        },
+        {
+          "title": "売る・買うの判断材料に",
+          "body": "手放す作品の目安価格や、欲しい作品の底値チェックに活用できます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "バーコード一つで、コレクションの整理も、掘り出し物探しもスムーズに。"
+        }
+      ],
+      "narration": [
+        "JAN・ISBNコードをスキャンして、本・DVD・ゲームの相場情報を確認できるツールです。",
+        "本棚やゲーム棚に眠っている作品、まとめて相場を確認したいときに役立ちます。",
+        "JANコードやISBNコードを読み取るだけで、該当する作品の情報を検索します。",
+        "楽天市場など複数のショップの実売価格を照らし合わせて確認できます。",
+        "手放す作品の目安価格や、欲しい作品の底値チェックに活用できます。",
+        "バーコード一つで、コレクションの整理も、掘り出し物探しもスムーズに。"
+      ]
+    },
+    {
+      "slug": "prize-stock-finder-showcase",
+      "kind": "demo",
+      "title": "クレーンゲームのプライズ在庫を探す【prizestock.jp】",
+      "description": "店舗の投稿やプレイヤーのレポートから、クレーンゲームのプライズ在庫状況をまとめるプロジェクトです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/prize-stock-finder",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場でプライズフィギュアを見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25BA%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25AE%25E3%2583%25A5%25E3%2582%25A2%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4%25E3%2582%25BA%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25AE%25E3%2583%25A5%25E3%2582%25A2%2F",
+      "slides": [
+        {
+          "title": "クレーンゲームのプライズ在庫を探す\n【prizestock.jp】",
+          "body": "店舗の投稿やプレイヤーのレポートから、プライズの在庫状況をまとめるプロジェクトです。"
+        },
+        {
+          "title": "欲しいプライズ、どこにある？",
+          "body": "狙っているキャラクターのプライズが、どの店舗にあるか探すのは大変です。"
+        },
+        {
+          "title": "店舗・プレイヤーの投稿を集約",
+          "body": "店舗からの入荷情報や、実際にプレイした方の目撃報告をまとめて確認できます。"
+        },
+        {
+          "title": "キャラクター別にチェック",
+          "body": "キャラクターページから、関連するプライズの在庫情報を追いやすくしています。"
+        },
+        {
+          "title": "似た商品は通販でも",
+          "body": "近くの店舗に無い場合は、似た商品を通販でまとめて探すこともできます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "prizestock.jpで、狙ったプライズとの出会いを効率よく探せます。"
+        }
+      ],
+      "narration": [
+        "店舗の投稿やプレイヤーのレポートから、プライズの在庫状況をまとめるプロジェクトです。",
+        "狙っているキャラクターのプライズが、どの店舗にあるか探すのは大変です。",
+        "店舗からの入荷情報や、実際にプレイした方の目撃報告をまとめて確認できます。",
+        "キャラクターページから、関連するプライズの在庫情報を追いやすくしています。",
+        "近くの店舗に無い場合は、似た商品を通販でまとめて探すこともできます。",
+        "prizestock.jpで、狙ったプライズとの出会いを効率よく探せます。"
+      ]
+    },
+    {
+      "slug": "hotel-price-watch-showcase",
+      "kind": "demo",
+      "title": "ホテルの空室・値下がりをまとめてチェック【hotelpricewatch.jp】",
+      "description": "宿泊予約の空室・価格変動を通知するアラートツールです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/hotel-price-watch",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天トラベルでホテルを探す",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2F",
+      "slides": [
+        {
+          "title": "ホテルの空室・値下がりを\nまとめてチェック\n【hotelpricewatch.jp】",
+          "body": "宿泊予約の空室状況や価格変動をまとめてチェックできるツールです。"
+        },
+        {
+          "title": "予約したいのに満室だった",
+          "body": "行きたい日程のホテルが満室で、予約できなかった経験は多くあります。"
+        },
+        {
+          "title": "空室・値下がりの動きを追う",
+          "body": "満室だった宿の空室発生や、気になる宿の値下がりの動きを追えます。"
+        },
+        {
+          "title": "条件を絞って比較",
+          "body": "エリアや日程などの条件で、複数の宿泊先をまとめて比較できます。"
+        },
+        {
+          "title": "予約は楽天トラベルで",
+          "body": "気になる宿が見つかったら、楽天トラベルでそのまま予約に進めます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "hotelpricewatch.jpで、満室・値上がりに振り回されない宿探しを。"
+        }
+      ],
+      "narration": [
+        "宿泊予約の空室状況や価格変動をまとめてチェックできるツールです。",
+        "行きたい日程のホテルが満室で、予約できなかった経験は多くあります。",
+        "満室だった宿の空室発生や、気になる宿の値下がりの動きを追えます。",
+        "エリアや日程などの条件で、複数の宿泊先をまとめて比較できます。",
+        "気になる宿が見つかったら、楽天トラベルでそのまま予約に進めます。",
+        "hotelpricewatch.jpで、満室・値上がりに振り回されない宿探しを。"
+      ]
+    },
+    {
+      "slug": "golf-course-booking-showcase",
+      "kind": "demo",
+      "title": "ゴルフ場を比較・予約【golfrsv.jp】",
+      "description": "料金や空き状況、口コミなどをもとにゴルフ場を比較できるサイトです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/golf-course-booking",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場でゴルフ用品を見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B4%25E3%2583%25AB%25E3%2583%2595%25E7%2594%25A8%25E5%2593%2581%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B4%25E3%2583%25AB%25E3%2583%2595%25E7%2594%25A8%25E5%2593%2581%2F",
+      "slides": [
+        {
+          "title": "ゴルフ場を比較・予約\n【golfrsv.jp】",
+          "body": "料金や空き状況、口コミなどをもとにゴルフ場を比較できるサイトです。"
+        },
+        {
+          "title": "どのゴルフ場を選ぶか迷う",
+          "body": "エリアによって多くのゴルフ場があり、比較検討には時間がかかります。"
+        },
+        {
+          "title": "料金・空き状況をまとめて確認",
+          "body": "気になるゴルフ場の料金や空き状況を、まとめて確認できます。"
+        },
+        {
+          "title": "口コミも参考に",
+          "body": "実際にプレーした方の口コミを、コース選びの参考にできます。"
+        },
+        {
+          "title": "用品もあわせてチェック",
+          "body": "ラウンド前に、ゴルフ用品を楽天市場でまとめて探すこともできます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "golfrsv.jpで、次のラウンドに向けたコース選びをスムーズに。"
+        }
+      ],
+      "narration": [
+        "料金や空き状況、口コミなどをもとにゴルフ場を比較できるサイトです。",
+        "エリアによって多くのゴルフ場があり、比較検討には時間がかかります。",
+        "気になるゴルフ場の料金や空き状況を、まとめて確認できます。",
+        "実際にプレーした方の口コミを、コース選びの参考にできます。",
+        "ラウンド前に、ゴルフ用品を楽天市場でまとめて探すこともできます。",
+        "golfrsv.jpで、次のラウンドに向けたコース選びをスムーズに。"
+      ]
+    },
+    {
+      "slug": "gyosei-quiz-one-showcase",
+      "kind": "demo",
+      "title": "行政書士試験を一問一答で学ぶ【gyosei-quiz-one】",
+      "description": "行政書士試験の対策を、一問ずつAI解説付きで学べるクイズアプリです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/gyosei-quiz-one",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場で行政書士の参考書を見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E8%25A1%258C%25E6%2594%25BF%25E6%259B%25B8%25E5%25A3%25AB%2520%25E5%258F%2582%25E8%2580%2583%25E6%259B%25B8%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E8%25A1%258C%25E6%2594%25BF%25E6%259B%25B8%25E5%25A3%25AB%2520%25E5%258F%2582%25E8%2580%2583%25E6%259B%25B8%2F",
+      "slides": [
+        {
+          "title": "行政書士試験を一問一答で学ぶ\n【gyosei-quiz-one】",
+          "body": "行政書士試験の対策を、一問ずつ解きながら学べるクイズアプリです。"
+        },
+        {
+          "title": "すきま時間で試験対策",
+          "body": "まとまった勉強時間が取れない中でも、一問ずつなら続けやすくなります。"
+        },
+        {
+          "title": "一問ずつ集中して解く",
+          "body": "一度に一問だけを表示し、集中して取り組める構成にしています。"
+        },
+        {
+          "title": "AIによる解説つき",
+          "body": "間違えた問題にはAIによる解説がつき、理解を深めながら復習できます。"
+        },
+        {
+          "title": "苦手分野を振り返る",
+          "body": "間違えた問題や苦手な分野を、あとから振り返って復習できます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "gyosei-quiz-oneで、すきま時間を行政書士試験の対策に変えられます。"
+        }
+      ],
+      "narration": [
+        "行政書士試験の対策を、一問ずつ解きながら学べるクイズアプリです。",
+        "まとまった勉強時間が取れない中でも、一問ずつなら続けやすくなります。",
+        "一度に一問だけを表示し、集中して取り組める構成にしています。",
+        "間違えた問題にはAIによる解説がつき、理解を深めながら復習できます。",
+        "間違えた問題や苦手な分野を、あとから振り返って復習できます。",
+        "gyosei-quiz-oneで、すきま時間を行政書士試験の対策に変えられます。"
+      ]
+    },
+    {
+      "slug": "hobby-stock-price-alert-showcase",
+      "kind": "demo",
+      "title": "フィギュア・カードの再入荷を通知【hobby-stock.jp】",
+      "description": "フィギュアやトレーディングカード、ゲームの再入荷・値下がりを通知するアラートサービスです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/hobby-stock-price-alert",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天市場でフィギュアを見る",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25AE%25E3%2583%25A5%25E3%2582%25A2%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2583%2595%25E3%2582%25A3%25E3%2582%25AE%25E3%2583%25A5%25E3%2582%25A2%2F",
+      "slides": [
+        {
+          "title": "フィギュア・カードの再入荷を通知\n【hobby-stock.jp】",
+          "body": "フィギュアやトレーディングカード、ゲームの再入荷・値下がりを通知するサービスです。"
+        },
+        {
+          "title": "気づいたら売り切れていた",
+          "body": "欲しかったフィギュアやカードが、気づいたときには売り切れていることがあります。"
+        },
+        {
+          "title": "再入荷・値下がりを見逃さない",
+          "body": "対象商品の再入荷や値下がりのタイミングを、通知で見逃さず確認できます。"
+        },
+        {
+          "title": "ジャンルを問わず対応",
+          "body": "フィギュア、トレーディングカード、ゲームなど、幅広いジャンルに対応します。"
+        },
+        {
+          "title": "気になる商品はすぐチェック",
+          "body": "通知を受け取ったら、そのまま商品ページへ進んで確認できます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "hobby-stock.jpで、欲しかった一品との再会のタイミングを逃しません。"
+        }
+      ],
+      "narration": [
+        "フィギュアやトレーディングカード、ゲームの再入荷・値下がりを通知するサービスです。",
+        "欲しかったフィギュアやカードが、気づいたときには売り切れていることがあります。",
+        "対象商品の再入荷や値下がりのタイミングを、通知で見逃さず確認できます。",
+        "フィギュア、トレーディングカード、ゲームなど、幅広いジャンルに対応します。",
+        "通知を受け取ったら、そのまま商品ページへ進んで確認できます。",
+        "hobby-stock.jpで、欲しかった一品との再会のタイミングを逃しません。"
+      ]
+    },
+    {
+      "slug": "bus-arrival-guide-showcase",
+      "kind": "demo",
+      "title": "高速バス到着後の宿探し【busstay.jp】",
+      "description": "高速バスの到着地から、喫煙可やバストイレ付きなど条件付きで宿泊先を探せるツールです。",
+      "language": "React / Vite",
+      "repositoryUrl": "https://github.com/syunnjack/bus-arrival-guide",
+      "articleUrl": "https://syunnjack.dev/store",
+      "freePreviewSlideCount": 6,
+      "ctaLabel": "楽天トラベルでホテルを探す",
+      "ctaUrl": "https://hb.afl.rakuten.co.jp/hgc/13078974.c074128c.13078975.03b0a557/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2F&m=https%3A%2F%2Ftravel.rakuten.co.jp%2F",
+      "slides": [
+        {
+          "title": "高速バス到着後の宿探し\n【busstay.jp】",
+          "body": "高速バスの到着地から、条件に合った宿泊先を探せるツールです。"
+        },
+        {
+          "title": "深夜到着後の宿探しは大変",
+          "body": "深夜に高速バスで到着したあと、慣れない土地で宿を探すのは大変です。"
+        },
+        {
+          "title": "到着地から近い宿を検索",
+          "body": "バスの到着地点から近い宿泊先を、まとめて検索できます。"
+        },
+        {
+          "title": "喫煙可・バストイレ付きで絞り込み",
+          "body": "喫煙可や、バス・トイレ付きなど、希望条件で宿を絞り込めます。"
+        },
+        {
+          "title": "予約は楽天トラベルで",
+          "body": "気になる宿が見つかったら、楽天トラベルでそのまま予約できます。"
+        },
+        {
+          "title": "まとめ",
+          "body": "busstay.jpで、深夜到着後の宿探しをスムーズに済ませられます。"
+        }
+      ],
+      "narration": [
+        "高速バスの到着地から、条件に合った宿泊先を探せるツールです。",
+        "深夜に高速バスで到着したあと、慣れない土地で宿を探すのは大変です。",
+        "バスの到着地点から近い宿泊先を、まとめて検索できます。",
+        "喫煙可や、バス・トイレ付きなど、希望条件で宿を絞り込めます。",
+        "気になる宿が見つかったら、楽天トラベルでそのまま予約できます。",
+        "busstay.jpで、深夜到着後の宿探しをスムーズに済ませられます。"
       ]
     }
   ]
