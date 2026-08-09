@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T17:29:50.162Z",
+  "generatedAt": "2026-08-09T18:29:10.899Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,305 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "ai-quiz-study",
+      "name": "ai-quiz-study",
+      "displayName": "Ai Quiz Study",
+      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
+      "url": "https://github.com/syunnjack/ai-quiz-study",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "97f3d19",
+          "message": "Remove operator-facing tech/revenue/growth jargon from user-facing UI",
+          "date": "2026-08-09T17:56:02Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/97f3d19bc4db1edcfcd722fb8d76ada55f0377c4"
+        },
+        {
+          "sha": "fd1cee9",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:10:57Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/fd1cee9fcde540912842ee0d9145b1857375a0a5"
+        },
+        {
+          "sha": "02cadf2",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:26:38Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
+        },
+        {
+          "sha": "ea10cbd",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:17:26Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/ea10cbdd7494724a0dcb5ca3039818a35a5099e9"
+        },
+        {
+          "sha": "0df3b41",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:55:49Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/0df3b41bcfe3fd9f83b198153637d46ba742700d"
+        },
+        {
+          "sha": "95e498c",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:04:57Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
+        },
+        {
+          "sha": "42dc506",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T00:34:38Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/42dc50607f23775b4cbfbbcd92b6202b10b1fed6"
+        },
+        {
+          "sha": "6d7bedd",
+          "message": "Initial priority app scaffold",
+          "date": "2026-07-18T00:28:55Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7bedd4c5239a05375d8e9babacab7a632307c9"
+        }
+      ],
+      "updatedAt": "2026-08-09T17:56:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "3e118a9",
+          "message": "Fix Rakuten Travel API version for May 2026 platform migration",
+          "date": "2026-08-09T17:36:19Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e118a9b7ddb6200db5acbee34935ec6b6af246d"
+        },
+        {
+          "sha": "7edfecb",
+          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
+          "date": "2026-08-09T09:02:32Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
+        },
+        {
+          "sha": "7875016",
+          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
+          "date": "2026-08-09T04:11:26Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
+        },
+        {
+          "sha": "e46a0be",
+          "message": "Read Rakuten credentials from config instead of env() in the controller",
+          "date": "2026-08-09T04:06:09Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
+        },
+        {
+          "sha": "b1fc362",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-09T04:00:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
+        },
+        {
+          "sha": "c6cc576",
+          "message": "Fix production Rakuten credentials and add real weather forecasts",
+          "date": "2026-08-09T03:59:25Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
+        },
+        {
+          "sha": "41bdfdd",
+          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
+          "date": "2026-08-08T17:28:36Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
+        },
+        {
+          "sha": "1786e97",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-08T17:27:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
+        },
+        {
+          "sha": "3e361f5",
+          "message": "Document GA4_MEASUREMENT_ID in .env.example",
+          "date": "2026-08-08T17:27:51Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
+        },
+        {
+          "sha": "b6d51c1",
+          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
+          "date": "2026-08-07T12:00:46Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
+        },
+        {
+          "sha": "501c19c",
+          "message": "Add temporary PHP binary discovery step",
+          "date": "2026-08-07T11:59:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
+        },
+        {
+          "sha": "db21e87",
+          "message": "Add package-lock.json",
+          "date": "2026-08-07T11:56:54Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
+        }
+      ],
+      "updatedAt": "2026-08-09T17:36:33Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "3498cdd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T17:30:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
+        },
+        {
+          "sha": "75a27b1",
+          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
+          "date": "2026-08-09T16:36:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
+        },
+        {
+          "sha": "87cbceb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T16:28:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
+        },
+        {
+          "sha": "cf23677",
+          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
+          "date": "2026-08-09T15:29:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
+        },
+        {
+          "sha": "b35921e",
+          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
+          "date": "2026-08-09T15:18:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
+        },
+        {
+          "sha": "6489b68",
+          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
+          "date": "2026-08-09T14:40:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
+        },
+        {
+          "sha": "bed5517",
+          "message": "Fix reader-first-copy-audit violation on /store",
+          "date": "2026-08-09T14:35:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
+        },
+        {
+          "sha": "fd8a3e7",
+          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
+          "date": "2026-08-09T14:31:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
+        },
+        {
+          "sha": "68de911",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T14:30:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
+        },
+        {
+          "sha": "25f5d69",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T13:38:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
+        },
+        {
+          "sha": "9c55689",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T12:32:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c556892b01332e1deb42ef391b0ec013efb9ec9"
+        },
+        {
+          "sha": "4001e6c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T11:28:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4001e6cfb569da41ad123395685456e2827cba0a"
+        }
+      ],
+      "updatedAt": "2026-08-09T17:30:54Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "cross-genre",
       "name": "cross-genre",
@@ -250,116 +549,6 @@
         }
       ],
       "updatedAt": "2026-08-09T17:18:44Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
-        },
-        {
-          "sha": "cf23677",
-          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
-          "date": "2026-08-09T15:29:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
-        },
-        {
-          "sha": "b35921e",
-          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
-          "date": "2026-08-09T15:18:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
-        },
-        {
-          "sha": "6489b68",
-          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
-          "date": "2026-08-09T14:40:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
-        },
-        {
-          "sha": "bed5517",
-          "message": "Fix reader-first-copy-audit violation on /store",
-          "date": "2026-08-09T14:35:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
-        },
-        {
-          "sha": "fd8a3e7",
-          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
-          "date": "2026-08-09T14:31:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
-        },
-        {
-          "sha": "68de911",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T14:30:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
-        },
-        {
-          "sha": "25f5d69",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T13:38:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
-        },
-        {
-          "sha": "9c55689",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T12:32:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c556892b01332e1deb42ef391b0ec013efb9ec9"
-        },
-        {
-          "sha": "4001e6c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T11:28:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4001e6cfb569da41ad123395685456e2827cba0a"
-        },
-        {
-          "sha": "e094e6e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T10:31:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e094e6edecd45c56b2ae485ee468846180ddf9fe"
-        }
-      ],
-      "updatedAt": "2026-08-09T16:36:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -1499,118 +1688,6 @@
         }
       ],
       "updatedAt": "2026-08-09T09:33:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "golf-search",
-      "name": "golf-search",
-      "displayName": "Golf Search",
-      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "7edfecb",
-          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
-          "date": "2026-08-09T09:02:32Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
-        },
-        {
-          "sha": "7875016",
-          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
-          "date": "2026-08-09T04:11:26Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
-        },
-        {
-          "sha": "e46a0be",
-          "message": "Read Rakuten credentials from config instead of env() in the controller",
-          "date": "2026-08-09T04:06:09Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
-        },
-        {
-          "sha": "b1fc362",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-09T04:00:31Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
-        },
-        {
-          "sha": "c6cc576",
-          "message": "Fix production Rakuten credentials and add real weather forecasts",
-          "date": "2026-08-09T03:59:25Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
-        },
-        {
-          "sha": "41bdfdd",
-          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
-          "date": "2026-08-08T17:28:36Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
-        },
-        {
-          "sha": "1786e97",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-08T17:27:59Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
-        },
-        {
-          "sha": "3e361f5",
-          "message": "Document GA4_MEASUREMENT_ID in .env.example",
-          "date": "2026-08-08T17:27:51Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
-        },
-        {
-          "sha": "b6d51c1",
-          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
-          "date": "2026-08-07T12:00:46Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
-        },
-        {
-          "sha": "501c19c",
-          "message": "Add temporary PHP binary discovery step",
-          "date": "2026-08-07T11:59:06Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
-        },
-        {
-          "sha": "db21e87",
-          "message": "Add package-lock.json",
-          "date": "2026-08-07T11:56:54Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
-        },
-        {
-          "sha": "39bb85b",
-          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
-          "date": "2026-08-07T11:55:03Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
-        }
-      ],
-      "updatedAt": "2026-08-09T09:03:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -7379,77 +7456,6 @@
         }
       ],
       "updatedAt": "2026-08-04T14:14:15Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "ai-quiz-study",
-      "name": "ai-quiz-study",
-      "displayName": "Ai Quiz Study",
-      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
-      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
-      "url": "https://github.com/syunnjack/ai-quiz-study",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fd1cee9",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:10:57Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/fd1cee9fcde540912842ee0d9145b1857375a0a5"
-        },
-        {
-          "sha": "02cadf2",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
-        },
-        {
-          "sha": "ea10cbd",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:26Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/ea10cbdd7494724a0dcb5ca3039818a35a5099e9"
-        },
-        {
-          "sha": "0df3b41",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:55:49Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/0df3b41bcfe3fd9f83b198153637d46ba742700d"
-        },
-        {
-          "sha": "95e498c",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:04:57Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
-        },
-        {
-          "sha": "42dc506",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/42dc50607f23775b4cbfbbcd92b6202b10b1fed6"
-        },
-        {
-          "sha": "6d7bedd",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:55Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7bedd4c5239a05375d8e9babacab7a632307c9"
-        }
-      ],
-      "updatedAt": "2026-08-04T14:15:10Z",
       "stars": 0,
       "forks": 0
     },
