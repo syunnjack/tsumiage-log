@@ -14,6 +14,7 @@ export const generateStaticParams = () =>
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const article = getManualArticle((await params).slug)
   if (!article) return {}
+  const image = article.thumbnail ?? "/og.png"
   return {
     title: `${article.title} | 積み上げログ`,
     description: article.description,
@@ -25,7 +26,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
       tags: article.tags,
-      images: ["/og.png"],
+      images: [image],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.description,
+      images: [image],
     },
   }
 }
@@ -44,6 +51,7 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev" },
     mainEntityOfPage: `https://syunnjack.dev/articles/manual/${article.slug}`,
     keywords: article.tags.join(", "),
+    ...(article.thumbnail ? { image: `https://syunnjack.dev${article.thumbnail}` } : {}),
   }
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -70,6 +78,10 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>{article.category}</span><span>公開: {formatDate(article.publishedAt)}</span><span>更新: {formatDate(article.updatedAt)}</span></div>
         <div className="manual-tags">{article.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+        {article.thumbnail && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img className="manual-article-thumbnail" src={article.thumbnail} alt={article.title} width={1200} height={630} />
+        )}
       </header>
       <div className="article-layout manual-article-layout">
         <aside className="article-toc"><strong>この記事の内容</strong>{article.sections.map((section, index) => <a href={`#section-${index + 1}`} key={section.heading}>{section.heading}</a>)}</aside>

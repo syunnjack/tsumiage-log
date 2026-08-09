@@ -15,6 +15,7 @@ export type ManualArticle = {
   publishedAt: string
   updatedAt: string
   published: boolean
+  thumbnail?: string
   sections: ManualArticleSection[]
 }
 
