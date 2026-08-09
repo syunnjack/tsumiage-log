@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T22:29:33.262Z",
+  "generatedAt": "2026-08-09T23:28:41.452Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -85,6 +85,12 @@
       ],
       "commits": [
         {
+          "sha": "34da7f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T22:29:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
+        },
+        {
           "sha": "084ea08",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-09T21:31:31Z",
@@ -149,15 +155,9 @@
           "message": "Fix reader-first-copy-audit violation on /store",
           "date": "2026-08-09T14:35:32Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
-        },
-        {
-          "sha": "fd8a3e7",
-          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
-          "date": "2026-08-09T14:31:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
         }
       ],
-      "updatedAt": "2026-08-09T21:31:37Z",
+      "updatedAt": "2026-08-09T22:29:54Z",
       "stars": 0,
       "forks": 0
     },
