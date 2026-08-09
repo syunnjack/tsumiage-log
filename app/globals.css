@@ -2073,22 +2073,6 @@ footer > a {
   margin-top: 8px;
 }
 
-.store-pending {
-  background: var(--paper);
-  border: 1px dashed var(--ink);
-  border-radius: 4px;
-  padding: 14px 16px;
-  margin-top: 8px;
-}
-
-.store-pending p {
-  margin: 0;
-  font-size: 13px;
-  color: var(--ink);
-  opacity: 0.75;
-  line-height: 1.7;
-}
-
 .store-price-note {
   margin: 0;
   font-size: 12px;

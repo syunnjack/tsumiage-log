@@ -113,16 +113,12 @@ export default function StorePage() {
               <h2>{video.title}</h2>
               <p>{video.description}</p>
 
-              {video.boothUrl ? (
+              {video.boothUrl && (
                 <a className="store-buy-button" href={video.boothUrl} target="_blank" rel="noopener noreferrer">
                   続きをBOOTHで購入する（PPV）
                 </a>
-              ) : (
-                <div className="store-pending">
-                  <p>続きの購入ページは現在準備中です。BOOTHでの販売開始まで、しばらくお待ちください。</p>
-                </div>
               )}
-              {video.priceNote && <p className="store-price-note">{video.priceNote}</p>}
+              {video.boothUrl && video.priceNote && <p className="store-price-note">{video.priceNote}</p>}
             </div>
           </article>
         ))}
