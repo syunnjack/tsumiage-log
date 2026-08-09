@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T03:55:24.816Z",
+  "generatedAt": "2026-08-09T04:45:18.211Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,225 @@
   ],
   "articles": [
     {
+      "slug": "allbowl01",
+      "name": "allbowl01",
+      "displayName": "Allbowl01",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
+      "url": "https://github.com/syunnjack/allbowl01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "Astro",
+        "HTML",
+        "TypeScript",
+        "Python",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "allbowl01.sln",
+        "allbowl01",
+        "cocoon-child-mankan",
+        "docs",
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py",
+        "web"
+      ],
+      "commits": [
+        {
+          "sha": "d306045",
+          "message": "Add nationwide bowling center count with cited source",
+          "date": "2026-08-09T04:39:55Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
+        },
+        {
+          "sha": "4f84c64",
+          "message": "Add scheduled bowling event data refresh",
+          "date": "2026-08-09T04:26:59Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4f84c643b5c4e5697604c99f5e3e9cfaeaa93278"
+        },
+        {
+          "sha": "bfb6a6e",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:07:13Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/bfb6a6e827d945141772d81b0727864f6490212a"
+        },
+        {
+          "sha": "c8ba389",
+          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
+          "date": "2026-07-27T23:09:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
+        },
+        {
+          "sha": "449d9e9",
+          "message": "Merge main: keep Astro and WordPress for performance comparison.",
+          "date": "2026-07-27T18:22:23Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
+        },
+        {
+          "sha": "8935106",
+          "message": "Add Cocoon child theme for Mankan top landing page.",
+          "date": "2026-07-27T17:05:01Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/89351063315894007b90a48bd8ebcac46183dd64"
+        },
+        {
+          "sha": "ccdd6b8",
+          "message": "Initial commit: MVP API, event scraper, and site design doc.",
+          "date": "2026-07-16T16:22:38Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
+        },
+        {
+          "sha": "6f2dca5",
+          "message": "Improve SEO and LLM metadata",
+          "date": "2026-07-12T23:09:45Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
+        },
+        {
+          "sha": "5a16670",
+          "message": "Add event search controls",
+          "date": "2026-07-12T22:34:36Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
+        },
+        {
+          "sha": "30827c8",
+          "message": "Improve homepage heading wrapping",
+          "date": "2026-07-12T22:22:51Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
+        },
+        {
+          "sha": "4f282d9",
+          "message": "Fix Windows app publish workflow",
+          "date": "2026-07-12T21:52:12Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
+        },
+        {
+          "sha": "5834225",
+          "message": "Configure bowling-event domain",
+          "date": "2026-07-12T21:41:46Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
+        }
+      ],
+      "updatedAt": "2026-08-09T04:40:01Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "7875016",
+          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
+          "date": "2026-08-09T04:11:26Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
+        },
+        {
+          "sha": "e46a0be",
+          "message": "Read Rakuten credentials from config instead of env() in the controller",
+          "date": "2026-08-09T04:06:09Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
+        },
+        {
+          "sha": "b1fc362",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-09T04:00:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
+        },
+        {
+          "sha": "c6cc576",
+          "message": "Fix production Rakuten credentials and add real weather forecasts",
+          "date": "2026-08-09T03:59:25Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
+        },
+        {
+          "sha": "41bdfdd",
+          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
+          "date": "2026-08-08T17:28:36Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
+        },
+        {
+          "sha": "1786e97",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-08T17:27:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
+        },
+        {
+          "sha": "3e361f5",
+          "message": "Document GA4_MEASUREMENT_ID in .env.example",
+          "date": "2026-08-08T17:27:51Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
+        },
+        {
+          "sha": "b6d51c1",
+          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
+          "date": "2026-08-07T12:00:46Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
+        },
+        {
+          "sha": "501c19c",
+          "message": "Add temporary PHP binary discovery step",
+          "date": "2026-08-07T11:59:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
+        },
+        {
+          "sha": "db21e87",
+          "message": "Add package-lock.json",
+          "date": "2026-08-07T11:56:54Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
+        },
+        {
+          "sha": "39bb85b",
+          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
+          "date": "2026-08-07T11:55:03Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
+        },
+        {
+          "sha": "a99924c",
+          "message": "Remove superseded incomplete Xserver deploy workflow",
+          "date": "2026-08-07T11:46:39Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/a99924cb09831d90f05499aaa127efa4345e4050"
+        }
+      ],
+      "updatedAt": "2026-08-09T04:11:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -85,6 +304,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "a3e0880",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:55:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
+        },
         {
           "sha": "0d2b7a2",
           "message": "Update repository articles from GitHub activity",
@@ -150,15 +375,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-08T16:29:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bb934bce9113a56bae28067ef17fb65a097e98e0"
-        },
-        {
-          "sha": "5e02716",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T15:30:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e027164d73731ebb5397a5ef8b489d3e648d3fe"
         }
       ],
-      "updatedAt": "2026-08-09T03:00:51Z",
+      "updatedAt": "2026-08-09T03:55:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -537,118 +756,6 @@
         }
       ],
       "updatedAt": "2026-08-08T20:47:04Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "golf-search",
-      "name": "golf-search",
-      "displayName": "Golf Search",
-      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "41bdfdd",
-          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
-          "date": "2026-08-08T17:28:36Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
-        },
-        {
-          "sha": "1786e97",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-08T17:27:59Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
-        },
-        {
-          "sha": "3e361f5",
-          "message": "Document GA4_MEASUREMENT_ID in .env.example",
-          "date": "2026-08-08T17:27:51Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
-        },
-        {
-          "sha": "b6d51c1",
-          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
-          "date": "2026-08-07T12:00:46Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
-        },
-        {
-          "sha": "501c19c",
-          "message": "Add temporary PHP binary discovery step",
-          "date": "2026-08-07T11:59:06Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
-        },
-        {
-          "sha": "db21e87",
-          "message": "Add package-lock.json",
-          "date": "2026-08-07T11:56:54Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
-        },
-        {
-          "sha": "39bb85b",
-          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
-          "date": "2026-08-07T11:55:03Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
-        },
-        {
-          "sha": "a99924c",
-          "message": "Remove superseded incomplete Xserver deploy workflow",
-          "date": "2026-08-07T11:46:39Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/a99924cb09831d90f05499aaa127efa4345e4050"
-        },
-        {
-          "sha": "28c6e4e",
-          "message": "Add Xserver SSH deploy workflow",
-          "date": "2026-08-07T10:39:34Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/28c6e4e669676360ed08eaa76e2b0f5b22671678"
-        },
-        {
-          "sha": "7c5eeee",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:22Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/7c5eeee5db21bba70d28ce3bc90ce9b9f6a33b31"
-        },
-        {
-          "sha": "79c9e51",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:24Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/79c9e514434277b902c7d59aa01a0809195fb06d"
-        },
-        {
-          "sha": "060c543",
-          "message": "$(cat <<'EOF'",
-          "date": "2026-07-14T21:59:45Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/060c54376658f98d82a7be908942e88bc1e9e400"
-        }
-      ],
-      "updatedAt": "2026-08-08T17:28:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -9345,113 +9452,6 @@
         }
       ],
       "updatedAt": "2026-08-02T01:15:51Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "allbowl01",
-      "name": "allbowl01",
-      "displayName": "Allbowl01",
-      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
-      "url": "https://github.com/syunnjack/allbowl01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "Python",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "cocoon-child-mankan",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py",
-        "web"
-      ],
-      "commits": [
-        {
-          "sha": "bfb6a6e",
-          "message": "Fix unregistered production domain (#1)",
-          "date": "2026-07-31T23:07:13Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/bfb6a6e827d945141772d81b0727864f6490212a"
-        },
-        {
-          "sha": "c8ba389",
-          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
-          "date": "2026-07-27T23:09:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
-        },
-        {
-          "sha": "449d9e9",
-          "message": "Merge main: keep Astro and WordPress for performance comparison.",
-          "date": "2026-07-27T18:22:23Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
-        },
-        {
-          "sha": "8935106",
-          "message": "Add Cocoon child theme for Mankan top landing page.",
-          "date": "2026-07-27T17:05:01Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/89351063315894007b90a48bd8ebcac46183dd64"
-        },
-        {
-          "sha": "ccdd6b8",
-          "message": "Initial commit: MVP API, event scraper, and site design doc.",
-          "date": "2026-07-16T16:22:38Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/ccdd6b8bd0391538015d544adadd66827bc5c70f"
-        },
-        {
-          "sha": "6f2dca5",
-          "message": "Improve SEO and LLM metadata",
-          "date": "2026-07-12T23:09:45Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/6f2dca53289e332dfe8e4f70c08418f00d2fb1be"
-        },
-        {
-          "sha": "5a16670",
-          "message": "Add event search controls",
-          "date": "2026-07-12T22:34:36Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5a16670906d806b997c6d5a43c29a41a613dbed3"
-        },
-        {
-          "sha": "30827c8",
-          "message": "Improve homepage heading wrapping",
-          "date": "2026-07-12T22:22:51Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/30827c8f6756b0bf67a7c451edf62b149892af1b"
-        },
-        {
-          "sha": "4f282d9",
-          "message": "Fix Windows app publish workflow",
-          "date": "2026-07-12T21:52:12Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4f282d939ddb22eb44adade7c2ec03d9017cf222"
-        },
-        {
-          "sha": "5834225",
-          "message": "Configure bowling-event domain",
-          "date": "2026-07-12T21:41:46Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/5834225ed23a3ae3be6d889c5b90d52b51694f10"
-        },
-        {
-          "sha": "2d1bcaf",
-          "message": "Reduce prefecture collection gaps",
-          "date": "2026-07-12T21:28:22Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2d1bcaf870567b64e11f6c5cc4bbda10a2d5c340"
-        },
-        {
-          "sha": "f2d470c",
-          "message": "Improve AI and SEO structured data",
-          "date": "2026-07-12T20:48:53Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/f2d470cd02d526c88437630623d661b2554c8782"
-        }
-      ],
-      "updatedAt": "2026-07-31T23:07:20Z",
       "stars": 0,
       "forks": 0
     },
