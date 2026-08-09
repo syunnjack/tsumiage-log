@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T06:34:14.055Z",
+  "generatedAt": "2026-08-09T07:40:04.797Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,102 @@
   ],
   "articles": [
     {
+      "slug": "cat-cafe-etc",
+      "name": "cat-cafe-etc",
+      "displayName": "Cat Cafe Etc",
+      "description": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/cat-cafe-etc",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "c802c7c",
+          "message": "Fix canonical/sitemap/robots pointing at a stale dev domain",
+          "date": "2026-08-09T07:33:03Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c802c7c7667b57a38f701f792a52dfde870202e7"
+        },
+        {
+          "sha": "bd4af74",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:14Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bd4af740e6bd21c576ca7cb808ff592512ec2974"
+        },
+        {
+          "sha": "bc81d70",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:37Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bc81d70f637f30d481d94b27e3c71194f067725d"
+        },
+        {
+          "sha": "f03b647",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:04:47Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/f03b6477859995777ca1488bcab4a851984a2a2a"
+        },
+        {
+          "sha": "24c5fc6",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T16:19:51Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/24c5fc6624b41942c4f25acc18e4d6b0b9d75c20"
+        },
+        {
+          "sha": "851d78b",
+          "message": "Add verified venues reviews and revenue paths",
+          "date": "2026-07-15T07:57:15Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
+        },
+        {
+          "sha": "5e39911",
+          "message": "Remove overlapping portal signature",
+          "date": "2026-07-15T07:47:38Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5e3991108adb35722fd2f2f65a67ba85adbe8905"
+        },
+        {
+          "sha": "c199a4d",
+          "message": "Fix overlapping portal footer",
+          "date": "2026-07-15T05:13:13Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c199a4d75e85527f4d7377d3776379c43e88b0f6"
+        },
+        {
+          "sha": "660f280",
+          "message": "Create indexable cat and dog cafe routes",
+          "date": "2026-07-15T05:02:50Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/660f2807a8a0b356539c1e6eaa7d5025eea906f2"
+        },
+        {
+          "sha": "96fb502",
+          "message": "Add cat and dog page switcher",
+          "date": "2026-07-15T04:42:59Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/96fb502a07503d6f2876fb1de52c48fe23803c68"
+        },
+        {
+          "sha": "09e370c",
+          "message": "Build Nekobiyori cat cafe guide",
+          "date": "2026-07-15T04:28:00Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/09e370cd09af08da1ebf50ba764938d48efc6c16"
+        }
+      ],
+      "updatedAt": "2026-08-09T07:33:17Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -85,6 +181,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "5b0d221",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T06:34:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
+        },
         {
           "sha": "805dc41",
           "message": "Update repository articles from GitHub activity",
@@ -150,15 +252,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-08T19:29:25Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/789b0e71d35ea6244cd60a6ac724a6c97aa63b47"
-        },
-        {
-          "sha": "6590802",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T18:29:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6590802e1227e3dd68432b8eba93f2da373ab742"
         }
       ],
-      "updatedAt": "2026-08-09T05:37:42Z",
+      "updatedAt": "2026-08-09T06:34:30Z",
       "stars": 0,
       "forks": 0
     },
@@ -1492,96 +1588,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:20Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "cat-cafe-etc",
-      "name": "cat-cafe-etc",
-      "displayName": "Cat Cafe Etc",
-      "description": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/cat-cafe-etc",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "bd4af74",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:14Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bd4af740e6bd21c576ca7cb808ff592512ec2974"
-        },
-        {
-          "sha": "bc81d70",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:37Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bc81d70f637f30d481d94b27e3c71194f067725d"
-        },
-        {
-          "sha": "f03b647",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:47Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/f03b6477859995777ca1488bcab4a851984a2a2a"
-        },
-        {
-          "sha": "24c5fc6",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T16:19:51Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/24c5fc6624b41942c4f25acc18e4d6b0b9d75c20"
-        },
-        {
-          "sha": "851d78b",
-          "message": "Add verified venues reviews and revenue paths",
-          "date": "2026-07-15T07:57:15Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
-        },
-        {
-          "sha": "5e39911",
-          "message": "Remove overlapping portal signature",
-          "date": "2026-07-15T07:47:38Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5e3991108adb35722fd2f2f65a67ba85adbe8905"
-        },
-        {
-          "sha": "c199a4d",
-          "message": "Fix overlapping portal footer",
-          "date": "2026-07-15T05:13:13Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c199a4d75e85527f4d7377d3776379c43e88b0f6"
-        },
-        {
-          "sha": "660f280",
-          "message": "Create indexable cat and dog cafe routes",
-          "date": "2026-07-15T05:02:50Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/660f2807a8a0b356539c1e6eaa7d5025eea906f2"
-        },
-        {
-          "sha": "96fb502",
-          "message": "Add cat and dog page switcher",
-          "date": "2026-07-15T04:42:59Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/96fb502a07503d6f2876fb1de52c48fe23803c68"
-        },
-        {
-          "sha": "09e370c",
-          "message": "Build Nekobiyori cat cafe guide",
-          "date": "2026-07-15T04:28:00Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/09e370cd09af08da1ebf50ba764938d48efc6c16"
-        }
-      ],
-      "updatedAt": "2026-08-08T02:02:18Z",
       "stars": 0,
       "forks": 0
     },
