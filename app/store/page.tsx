@@ -26,6 +26,21 @@ export default function StorePage() {
     url: "https://syunnjack.dev/store",
     isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev" },
     numberOfItems: videos.length,
+    hasPart: videos.map((video) => ({
+      "@type": "VideoObject",
+      name: video.title,
+      description: video.description,
+      contentUrl: resolveVideoAssetUrl(`/videos/store/${video.slug}/${video.slug}-preview.mp4`),
+      thumbnailUrl: resolveVideoAssetUrl(`/videos/store/${video.slug}/${video.slug}-preview.png`),
+      uploadDate: "2026-08-09",
+      author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
+      isAccessibleForFree: false,
+      hasPart: {
+        "@type": "Clip",
+        name: `${video.title}（無料プレビュー）`,
+        isAccessibleForFree: true,
+      },
+    })),
   }
   const breadcrumbSchema = {
     "@context": "https://schema.org",
