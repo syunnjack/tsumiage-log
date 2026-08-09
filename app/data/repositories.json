@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:31:36.293Z",
+  "generatedAt": "2026-08-09T09:29:53.792Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,493 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "subsidy-alert-hub",
+      "name": "subsidy-alert-hub",
+      "displayName": "Subsidy Alert Hub",
+      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+      "readmeExcerpt": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert.jp Other candidates: subsidyalert.jp hojokinwatch.jp joseikin.jp localgrant.jp Concept 補助金、助成金、公募、自治体募集の期限を通知し、士業相談、資料販売、申請支援へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 士業紹介 相談送客 資料販売 申請支援 法人プラン Commands",
+      "url": "https://github.com/syunnjack/subsidy-alert-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "1612709",
+          "message": "Translate English UI text to Japanese, expand to 20 designated cities",
+          "date": "2026-08-09T09:23:56Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/1612709655ef9f4110baa2b4557d89b6ad2a9d1f"
+        },
+        {
+          "sha": "fe08489",
+          "message": "Fix title/description: use Japanese copy matching actual content",
+          "date": "2026-08-04T15:18:52Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/fe084897f434610e1b14439f7ec132ec2d99f45b"
+        },
+        {
+          "sha": "8589e2a",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:13:49Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/8589e2acef7436552805fc62e284ceaff21ab67d"
+        },
+        {
+          "sha": "922148e",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:09Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/922148e5513658900f1859a477721e75dc8d5932"
+        },
+        {
+          "sha": "f1061a7",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:20:45Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/f1061a77e88e5921dd180a70aace991afe11fdd5"
+        },
+        {
+          "sha": "dccae82",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:37Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/dccae828806b8e5e23851a3ac231c597c5a54e2f"
+        },
+        {
+          "sha": "292612f",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:09Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/292612f2fd52acdb7a0c3bb91bf7067244aa0ac8"
+        },
+        {
+          "sha": "38210b7",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:53Z",
+          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/38210b734d700507f53f64929070066b5fbca17d"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:24:15Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "7edfecb",
+          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
+          "date": "2026-08-09T09:02:32Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
+        },
+        {
+          "sha": "7875016",
+          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
+          "date": "2026-08-09T04:11:26Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
+        },
+        {
+          "sha": "e46a0be",
+          "message": "Read Rakuten credentials from config instead of env() in the controller",
+          "date": "2026-08-09T04:06:09Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
+        },
+        {
+          "sha": "b1fc362",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-09T04:00:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
+        },
+        {
+          "sha": "c6cc576",
+          "message": "Fix production Rakuten credentials and add real weather forecasts",
+          "date": "2026-08-09T03:59:25Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
+        },
+        {
+          "sha": "41bdfdd",
+          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
+          "date": "2026-08-08T17:28:36Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
+        },
+        {
+          "sha": "1786e97",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-08T17:27:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
+        },
+        {
+          "sha": "3e361f5",
+          "message": "Document GA4_MEASUREMENT_ID in .env.example",
+          "date": "2026-08-08T17:27:51Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
+        },
+        {
+          "sha": "b6d51c1",
+          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
+          "date": "2026-08-07T12:00:46Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
+        },
+        {
+          "sha": "501c19c",
+          "message": "Add temporary PHP binary discovery step",
+          "date": "2026-08-07T11:59:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
+        },
+        {
+          "sha": "db21e87",
+          "message": "Add package-lock.json",
+          "date": "2026-08-07T11:56:54Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
+        },
+        {
+          "sha": "39bb85b",
+          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
+          "date": "2026-08-07T11:55:03Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
+        }
+      ],
+      "updatedAt": "2026-08-09T09:03:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "smoking-spot-finder",
+      "name": "smoking-spot-finder",
+      "displayName": "Smoking Spot Finder",
+      "description": "Smoking Spot Finderは、TypeScript、JavaScript、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "静岡駅 喫煙所検索プロトタイプ /smoking にアクセスすると、静岡駅周辺半径1000m以内のコンビニ・飲食店をGoogle Places APIで検索し、口コミをClaudeで解析して喫煙可否を地図上に表示します。ダミーデータは使用せず、毎回APIから直接取得します。 事前準備 1. .env.local.example を .env.local にコピーし、キーを設定する。 GOOGLE MAPS API KEY / NEXT PUBLIC GOOGLE MAPS API KEY : Google Cloud で Places API と Maps JavaScript API を有効化して取得。 NEXT PUBLIC はブラウザに露出するため、HTTPリファラー制限を設定すること。 ANTHROPIC API KEY : Anthropic Consoleで発行したAPIキー。 2. npm install （インストール済みであれば不要）。 3. npm run dev で起動し、 http://localhost:3000/smoking を開く。 実装箇所 app/api/smoking spots/route.ts : Nearby Search → Place Details（口コミ取得）→ Claude（口コミから喫煙可否をツール呼び出しで抽出）の順に処理し、結果をJSONで返すAPI Route。 app/smoking/page.tsx : Google Maps JS APIをスクリプトタグで読み込み、マーカー色分け（緑=紙タバコOK / 青=電子タバコ限定 / 黄=コンビニ店外灰皿あり）とサイドバー一覧を表示するクライアントコンポーネント。 便利マップ（ve",
+      "url": "https://github.com/syunnjack/smoking-spot-finder",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "2084194",
+          "message": "Add ISR revalidation to sitemap.xml so it picks up new venues",
+          "date": "2026-08-09T08:40:55Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/20841948f18f7283b7c0e40c0fd988fadfca6b8b"
+        },
+        {
+          "sha": "06837b8",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:11Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/06837b874d3d8270d784bb20b284d35ede43ed80"
+        },
+        {
+          "sha": "46bf58b",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:41Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/46bf58bdf861eeca87484c9ba35ef88caf885aa6"
+        },
+        {
+          "sha": "4711b18",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:05:13Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4711b180d79bb27a343f63cb95152408cfa3dbcf"
+        },
+        {
+          "sha": "d7f1e66",
+          "message": "Add Nagoya station MVP page",
+          "date": "2026-07-16T18:06:57Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/d7f1e66a197b82a1c79c1a957c22243d4f73d005"
+        },
+        {
+          "sha": "4cddaf7",
+          "message": "Add current-location marker, walking-route ETA, and search-this-area to venue maps",
+          "date": "2026-07-08T14:08:34Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4cddaf7345a6272d4da24430b57d55cc15ed25ca"
+        },
+        {
+          "sha": "1a8e654",
+          "message": "Add game center (arcade) as 6th genre for buzz/attention rather than revenue",
+          "date": "2026-07-08T13:38:55Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/1a8e65489354bd015616f19a50dd050b233ef7bf"
+        },
+        {
+          "sha": "e4da0f4",
+          "message": "Set Vercel function region to Tokyo (hnd1) instead of the US-East default",
+          "date": "2026-07-08T12:34:27Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/e4da0f404c676f5d8d381a0db8ad2252b49f2b6f"
+        },
+        {
+          "sha": "f188ce7",
+          "message": "Improve accuracy for gym/laundry by using Google's structured data over AI guesses",
+          "date": "2026-07-08T10:27:06Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/f188ce77f7bb7cd4146b5e39c286e8759eae773a"
+        },
+        {
+          "sha": "b846e3c",
+          "message": "Fix venue pages never being ISR-cached (root cause of slow transitions)",
+          "date": "2026-07-08T10:19:34Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/b846e3c8bfb39fc31f93c3b53ec1e946ca392b16"
+        },
+        {
+          "sha": "3771b02",
+          "message": "Add BROOKS/Loop Laundry/glamping affiliates for gym/laundry/sauna",
+          "date": "2026-07-08T10:11:07Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/3771b029cb9ba2d84f05a4ada1e08f2af1e91b2d"
+        },
+        {
+          "sha": "0988e7c",
+          "message": "Change default top-page genre from smoking to workspace",
+          "date": "2026-07-08T08:44:45Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/0988e7ced37303c5752e2188f97f30edf429d57c"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:41:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "vs-jt",
+      "name": "vs-jt",
+      "displayName": "Vs Jt",
+      "description": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
+      "readmeExcerpt": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです。正式ドメインは sugusuu.jp 、 sugusuu.com はメインドメインへ転送します。 ローカル起動 MVPに含むもの 現在地中心のスポットマップと絞り込み リスト表示、スポット詳細、ルート導線 ゲストによる1タップ混雑投稿とポイント QRチェックインのUIフロー 写真・口コミ閲覧導線 空き通知の許可フロー PWAマニフェスト / Service Worker Supabase + PostGIS用の初期スキーマ 本番接続時はMapboxまたはMapLibre、Supabase、Web Push送信API、画像Storageを環境変数経由で接続してください。",
+      "url": "https://github.com/syunnjack/vs-jt",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "PLpgSQL",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "supabase"
+      ],
+      "commits": [
+        {
+          "sha": "6d547fb",
+          "message": "Fix toast blocking taps on buttons underneath it",
+          "date": "2026-08-09T08:36:29Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/6d547fb0a28092b35bcc44b9575facaf57c1ae30"
+        },
+        {
+          "sha": "f9ea225",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T15:12:52Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/f9ea2254e6c449adb10e7448e677e63a125f414e"
+        },
+        {
+          "sha": "d0e163d",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:18Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/d0e163d2949a4775f1b7c8f3077e730c792d21f3"
+        },
+        {
+          "sha": "e6493e2",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:12Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/e6493e26bc459fd8ed247dc5eb158ffd0469ec02"
+        },
+        {
+          "sha": "7c375d5",
+          "message": "Configure GitHub Pages for sugusuu.jp",
+          "date": "2026-07-22T10:50:25Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/7c375d57f7b260a5e9c351eb9ba1669ad9a80b43"
+        },
+        {
+          "sha": "d5e2efa",
+          "message": "Rebrand site as Sugusuu",
+          "date": "2026-07-22T07:00:31Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/d5e2efa48401cb6ba41a6cc13812e1a81453d177"
+        },
+        {
+          "sha": "2a86c7c",
+          "message": "Add Sites worker entrypoint",
+          "date": "2026-07-22T06:19:19Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/2a86c7c0b306d0ac9d21f2d0d4b7093197a3dc6d"
+        },
+        {
+          "sha": "972d06c",
+          "message": "Build install-free mobile smoking spot MVP",
+          "date": "2026-07-22T05:31:14Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/972d06ca61dbfc02d689cd76647e8a9efd8a0c37"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:36:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "2ea7fa1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T08:31:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ea7fa138514d8a45427feecb6dedcb86b2251c3"
+        },
+        {
+          "sha": "30f5bb6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T07:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
+        },
+        {
+          "sha": "5b0d221",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T06:34:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
+        },
+        {
+          "sha": "805dc41",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T05:37:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
+        },
+        {
+          "sha": "119a9c1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T04:45:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
+        },
+        {
+          "sha": "a3e0880",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:55:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
+        },
+        {
+          "sha": "0d2b7a2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T03:00:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
+        },
+        {
+          "sha": "ce5ff8b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T01:59:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
+        },
+        {
+          "sha": "b84de67",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T00:37:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
+        },
+        {
+          "sha": "f8e6ddb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T23:30:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
+        },
+        {
+          "sha": "8578d37",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T22:30:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
+        },
+        {
+          "sha": "5e72ec4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-08T21:29:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e72ec478cce695035a48acea8dd257a151a4758"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:32:17Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "asia-trip-concierge",
       "name": "asia-trip-concierge",
@@ -233,116 +720,6 @@
       "forks": 0
     },
     {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "30f5bb6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T07:40:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
-        },
-        {
-          "sha": "5b0d221",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T06:34:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5b0d22123bd43f7f811da4ced88a9688e20c8480"
-        },
-        {
-          "sha": "805dc41",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T05:37:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/805dc418c6ea5f31298bec0f4cb128748dcf566a"
-        },
-        {
-          "sha": "119a9c1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T04:45:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/119a9c17fa876e7f14f6abab8e21223c7e913ab2"
-        },
-        {
-          "sha": "a3e0880",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:55:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3e08801ec3643997941cc7ee83331f275208a7d"
-        },
-        {
-          "sha": "0d2b7a2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T03:00:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d2b7a235b97571f2b50b7f3ba4b827b84d459b2"
-        },
-        {
-          "sha": "ce5ff8b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T01:59:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce5ff8b9060246b4b1b3affc79a6c0f96ae97e06"
-        },
-        {
-          "sha": "b84de67",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T00:37:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b84de67d94187fddbd899620cda7a640d17f132a"
-        },
-        {
-          "sha": "f8e6ddb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T23:30:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8e6ddb28f2f9fb43a3cdad1df98ce0b9b298e4a"
-        },
-        {
-          "sha": "8578d37",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T22:30:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8578d37f9e528cbaca971f536efbd5be8f7bf57b"
-        },
-        {
-          "sha": "5e72ec4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T21:29:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5e72ec478cce695035a48acea8dd257a151a4758"
-        },
-        {
-          "sha": "993ee51",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T20:28:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/993ee518e202f8d1a89f6433a80666bf48aeaec1"
-        }
-      ],
-      "updatedAt": "2026-08-09T07:40:46Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "allbowl01",
       "name": "allbowl01",
       "displayName": "Allbowl01",
@@ -446,118 +823,6 @@
         }
       ],
       "updatedAt": "2026-08-09T05:13:20Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "golf-search",
-      "name": "golf-search",
-      "displayName": "Golf Search",
-      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "7875016",
-          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
-          "date": "2026-08-09T04:11:26Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
-        },
-        {
-          "sha": "e46a0be",
-          "message": "Read Rakuten credentials from config instead of env() in the controller",
-          "date": "2026-08-09T04:06:09Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
-        },
-        {
-          "sha": "b1fc362",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-09T04:00:31Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
-        },
-        {
-          "sha": "c6cc576",
-          "message": "Fix production Rakuten credentials and add real weather forecasts",
-          "date": "2026-08-09T03:59:25Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
-        },
-        {
-          "sha": "41bdfdd",
-          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
-          "date": "2026-08-08T17:28:36Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
-        },
-        {
-          "sha": "1786e97",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-08T17:27:59Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
-        },
-        {
-          "sha": "3e361f5",
-          "message": "Document GA4_MEASUREMENT_ID in .env.example",
-          "date": "2026-08-08T17:27:51Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
-        },
-        {
-          "sha": "b6d51c1",
-          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
-          "date": "2026-08-07T12:00:46Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
-        },
-        {
-          "sha": "501c19c",
-          "message": "Add temporary PHP binary discovery step",
-          "date": "2026-08-07T11:59:06Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
-        },
-        {
-          "sha": "db21e87",
-          "message": "Add package-lock.json",
-          "date": "2026-08-07T11:56:54Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/db21e872d21fc511c4cea5a377b1ed7f4eddf9d4"
-        },
-        {
-          "sha": "39bb85b",
-          "message": "Reuse existing SSH_HOST/SSH_USERNAME/SSH_PRIVATE_KEY secrets",
-          "date": "2026-08-07T11:55:03Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/39bb85bce8988e5e3bb60b04975c28abe8c29dda"
-        },
-        {
-          "sha": "a99924c",
-          "message": "Remove superseded incomplete Xserver deploy workflow",
-          "date": "2026-08-07T11:46:39Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/a99924cb09831d90f05499aaa127efa4345e4050"
-        }
-      ],
-      "updatedAt": "2026-08-09T04:11:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -1737,116 +2002,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:16Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "smoking-spot-finder",
-      "name": "smoking-spot-finder",
-      "displayName": "Smoking Spot Finder",
-      "description": "Smoking Spot Finderは、TypeScript、JavaScript、HTMLを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "静岡駅 喫煙所検索プロトタイプ /smoking にアクセスすると、静岡駅周辺半径1000m以内のコンビニ・飲食店をGoogle Places APIで検索し、口コミをClaudeで解析して喫煙可否を地図上に表示します。ダミーデータは使用せず、毎回APIから直接取得します。 事前準備 1. .env.local.example を .env.local にコピーし、キーを設定する。 GOOGLE MAPS API KEY / NEXT PUBLIC GOOGLE MAPS API KEY : Google Cloud で Places API と Maps JavaScript API を有効化して取得。 NEXT PUBLIC はブラウザに露出するため、HTTPリファラー制限を設定すること。 ANTHROPIC API KEY : Anthropic Consoleで発行したAPIキー。 2. npm install （インストール済みであれば不要）。 3. npm run dev で起動し、 http://localhost:3000/smoking を開く。 実装箇所 app/api/smoking spots/route.ts : Nearby Search → Place Details（口コミ取得）→ Claude（口コミから喫煙可否をツール呼び出しで抽出）の順に処理し、結果をJSONで返すAPI Route。 app/smoking/page.tsx : Google Maps JS APIをスクリプトタグで読み込み、マーカー色分け（緑=紙タバコOK / 青=電子タバコ限定 / 黄=コンビニ店外灰皿あり）とサイドバー一覧を表示するクライアントコンポーネント。 便利マップ（ve",
-      "url": "https://github.com/syunnjack/smoking-spot-finder",
-      "defaultBranch": "master",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "AGENTS.md",
-        "CLAUDE.md",
-        "README.md",
-        "app",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "supabase",
-        "tsconfig.json",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "06837b8",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:11Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/06837b874d3d8270d784bb20b284d35ede43ed80"
-        },
-        {
-          "sha": "46bf58b",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:41Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/46bf58bdf861eeca87484c9ba35ef88caf885aa6"
-        },
-        {
-          "sha": "4711b18",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:05:13Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4711b180d79bb27a343f63cb95152408cfa3dbcf"
-        },
-        {
-          "sha": "d7f1e66",
-          "message": "Add Nagoya station MVP page",
-          "date": "2026-07-16T18:06:57Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/d7f1e66a197b82a1c79c1a957c22243d4f73d005"
-        },
-        {
-          "sha": "4cddaf7",
-          "message": "Add current-location marker, walking-route ETA, and search-this-area to venue maps",
-          "date": "2026-07-08T14:08:34Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4cddaf7345a6272d4da24430b57d55cc15ed25ca"
-        },
-        {
-          "sha": "1a8e654",
-          "message": "Add game center (arcade) as 6th genre for buzz/attention rather than revenue",
-          "date": "2026-07-08T13:38:55Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/1a8e65489354bd015616f19a50dd050b233ef7bf"
-        },
-        {
-          "sha": "e4da0f4",
-          "message": "Set Vercel function region to Tokyo (hnd1) instead of the US-East default",
-          "date": "2026-07-08T12:34:27Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/e4da0f404c676f5d8d381a0db8ad2252b49f2b6f"
-        },
-        {
-          "sha": "f188ce7",
-          "message": "Improve accuracy for gym/laundry by using Google's structured data over AI guesses",
-          "date": "2026-07-08T10:27:06Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/f188ce77f7bb7cd4146b5e39c286e8759eae773a"
-        },
-        {
-          "sha": "b846e3c",
-          "message": "Fix venue pages never being ISR-cached (root cause of slow transitions)",
-          "date": "2026-07-08T10:19:34Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/b846e3c8bfb39fc31f93c3b53ec1e946ca392b16"
-        },
-        {
-          "sha": "3771b02",
-          "message": "Add BROOKS/Loop Laundry/glamping affiliates for gym/laundry/sauna",
-          "date": "2026-07-08T10:11:07Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/3771b029cb9ba2d84f05a4ada1e08f2af1e91b2d"
-        },
-        {
-          "sha": "0988e7c",
-          "message": "Change default top-page genre from smoking to workspace",
-          "date": "2026-07-08T08:44:45Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/0988e7ced37303c5752e2188f97f30edf429d57c"
-        },
-        {
-          "sha": "61fd758",
-          "message": "Add 5th genre: sauna/temperature-bathing facilities (unified, not split)",
-          "date": "2026-07-08T08:15:25Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/61fd7588f3dc7f201760ba9af3ae356eceb71a87"
-        }
-      ],
-      "updatedAt": "2026-08-08T02:02:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -3689,77 +3844,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:20:06Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "subsidy-alert-hub",
-      "name": "subsidy-alert-hub",
-      "displayName": "Subsidy Alert Hub",
-      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
-      "readmeExcerpt": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert.jp Other candidates: subsidyalert.jp hojokinwatch.jp joseikin.jp localgrant.jp Concept 補助金、助成金、公募、自治体募集の期限を通知し、士業相談、資料販売、申請支援へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 士業紹介 相談送客 資料販売 申請支援 法人プラン Commands",
-      "url": "https://github.com/syunnjack/subsidy-alert-hub",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "fe08489",
-          "message": "Fix title/description: use Japanese copy matching actual content",
-          "date": "2026-08-04T15:18:52Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/fe084897f434610e1b14439f7ec132ec2d99f45b"
-        },
-        {
-          "sha": "8589e2a",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:13:49Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/8589e2acef7436552805fc62e284ceaff21ab67d"
-        },
-        {
-          "sha": "922148e",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:09Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/922148e5513658900f1859a477721e75dc8d5932"
-        },
-        {
-          "sha": "f1061a7",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:20:45Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/f1061a77e88e5921dd180a70aace991afe11fdd5"
-        },
-        {
-          "sha": "dccae82",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:37Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/dccae828806b8e5e23851a3ac231c597c5a54e2f"
-        },
-        {
-          "sha": "292612f",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:09Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/292612f2fd52acdb7a0c3bb91bf7067244aa0ac8"
-        },
-        {
-          "sha": "38210b7",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:53Z",
-          "url": "https://github.com/syunnjack/subsidy-alert-hub/commit/38210b734d700507f53f64929070066b5fbca17d"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:21:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -5607,78 +5691,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:18:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "vs-jt",
-      "name": "vs-jt",
-      "displayName": "Vs Jt",
-      "description": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
-      "readmeExcerpt": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです。正式ドメインは sugusuu.jp 、 sugusuu.com はメインドメインへ転送します。 ローカル起動 MVPに含むもの 現在地中心のスポットマップと絞り込み リスト表示、スポット詳細、ルート導線 ゲストによる1タップ混雑投稿とポイント QRチェックインのUIフロー 写真・口コミ閲覧導線 空き通知の許可フロー PWAマニフェスト / Service Worker Supabase + PostGIS用の初期スキーマ 本番接続時はMapboxまたはMapLibre、Supabase、Web Push送信API、画像Storageを環境変数経由で接続してください。",
-      "url": "https://github.com/syunnjack/vs-jt",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "PLpgSQL",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "supabase"
-      ],
-      "commits": [
-        {
-          "sha": "f9ea225",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T15:12:52Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/f9ea2254e6c449adb10e7448e677e63a125f414e"
-        },
-        {
-          "sha": "d0e163d",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:18Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/d0e163d2949a4775f1b7c8f3077e730c792d21f3"
-        },
-        {
-          "sha": "e6493e2",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:12Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/e6493e26bc459fd8ed247dc5eb158ffd0469ec02"
-        },
-        {
-          "sha": "7c375d5",
-          "message": "Configure GitHub Pages for sugusuu.jp",
-          "date": "2026-07-22T10:50:25Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/7c375d57f7b260a5e9c351eb9ba1669ad9a80b43"
-        },
-        {
-          "sha": "d5e2efa",
-          "message": "Rebrand site as Sugusuu",
-          "date": "2026-07-22T07:00:31Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/d5e2efa48401cb6ba41a6cc13812e1a81453d177"
-        },
-        {
-          "sha": "2a86c7c",
-          "message": "Add Sites worker entrypoint",
-          "date": "2026-07-22T06:19:19Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/2a86c7c0b306d0ac9d21f2d0d4b7093197a3dc6d"
-        },
-        {
-          "sha": "972d06c",
-          "message": "Build install-free mobile smoking spot MVP",
-          "date": "2026-07-22T05:31:14Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/972d06ca61dbfc02d689cd76647e8a9efd8a0c37"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:16:19Z",
       "stars": 0,
       "forks": 0
     },
