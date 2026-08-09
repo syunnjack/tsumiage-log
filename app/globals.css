@@ -1959,3 +1959,176 @@ footer > a {
     grid-template-columns: 1fr;
   }
 }
+
+/* 販売プラットフォーム (/store) */
+.store-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px 120px;
+}
+
+.store-hero {
+  padding: 64px 0 40px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.store-hero h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  line-height: 1.3;
+  margin: 12px 0 20px;
+  color: var(--ink);
+}
+
+.store-hero > p {
+  max-width: 640px;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+.store-payment-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  align-items: baseline;
+  margin-top: 28px;
+  font-family: "DM Mono", monospace;
+}
+
+.store-payment-note span {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+  opacity: 0.6;
+}
+
+.store-payment-note strong {
+  font-size: 20px;
+  color: var(--amber);
+  margin-right: 28px;
+}
+
+.store-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 32px;
+  padding: 56px 0;
+}
+
+.store-video-card {
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--paper-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.store-preview-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--ink);
+  display: block;
+}
+
+.store-video-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.store-video-badge {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.store-video-body h2 {
+  margin: 0;
+  font-size: 20px;
+  color: var(--ink);
+}
+
+.store-video-body > p {
+  margin: 0;
+  color: var(--ink);
+  opacity: 0.8;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.store-buy-button {
+  display: inline-block;
+  text-align: center;
+  background: var(--amber);
+  color: var(--ink-deep);
+  font-weight: 800;
+  padding: 14px 20px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.store-pending {
+  background: var(--paper);
+  border: 1px dashed var(--ink);
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin-top: 8px;
+}
+
+.store-pending p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--ink);
+  opacity: 0.75;
+  line-height: 1.7;
+}
+
+.store-price-note {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink);
+  opacity: 0.6;
+}
+
+.store-faq {
+  padding: 48px 0 80px;
+  border-top: 1px solid var(--ink);
+}
+
+.store-faq h2 {
+  font-size: 22px;
+  color: var(--ink);
+  margin: 0 0 24px;
+}
+
+.store-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.store-faq-grid article h3 {
+  font-size: 15px;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+
+.store-faq-grid article p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--ink);
+  opacity: 0.8;
+}
+
+@media (max-width: 560px) {
+  .store-video-grid {
+    grid-template-columns: 1fr;
+  }
+}

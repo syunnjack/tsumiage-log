@@ -13,6 +13,7 @@ const items = [
   ["お問い合わせ", "/contact"],
   ["動画", "/videos"],
   ["お気に入り動画", "/videos/favorites"],
+  ["販売プラットフォーム", "/store"],
 ]
 
 export default function GlobalNav() {
