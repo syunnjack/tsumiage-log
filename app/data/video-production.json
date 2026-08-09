@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T07:40:04.970Z",
+  "generatedAt": "2026-08-09T08:31:36.439Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,6 +9,55 @@
   ],
   "queuedCount": 140,
   "videos": [
+    {
+      "slug": "asia-trip-concierge",
+      "repository": "asia-trip-concierge",
+      "title": "Asia Trip Conciergeの技術解説｜設計と実装を75秒で紹介",
+      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/asia-trip-concierge",
+      "repositoryUrl": "https://github.com/syunnjack/asia-trip-concierge",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/asia-trip-concierge\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/asia-trip-concierge\n\nAsia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Asia Trip Conciergeの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、eslint.config.mjs"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/asia-trip-concierge\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-02T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Asia Trip Conciergeの技術構成を短く解説します。",
+        "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、eslint.config.mjsを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
     {
       "slug": "cat-cafe-etc",
       "repository": "cat-cafe-etc",
@@ -37,14 +86,14 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
           "body": "記事： https://syunnjack.dev/articles/cat-cafe-etc\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
+      "publishAt": "2026-08-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.pptx",
@@ -54,7 +103,7 @@
         "Cat Cafe Etcは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、eslint.config.mjsを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -142,7 +191,7 @@
           "body": "記事： https://syunnjack.dev/articles/allbowl01\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-04T01:00:00.000Z",
+      "publishAt": "2026-08-05T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.pptx",
@@ -191,7 +240,7 @@
           "body": "記事： https://syunnjack.dev/articles/golf-search\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-05T01:00:00.000Z",
+      "publishAt": "2026-08-06T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/golf-search/golf-search-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/golf-search/golf-search-tech-preview.pptx",
@@ -240,7 +289,7 @@
           "body": "記事： https://syunnjack.dev/articles/furusato-hikaku\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-06T01:00:00.000Z",
+      "publishAt": "2026-08-07T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/furusato-hikaku/furusato-hikaku-tech-preview.pptx",
@@ -289,7 +338,7 @@
           "body": "記事： https://syunnjack.dev/articles/kuruma-kaitori-kuchikomi\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-07T01:00:00.000Z",
+      "publishAt": "2026-08-08T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/kuruma-kaitori-kuchikomi/kuruma-kaitori-kuchikomi-tech-preview.pptx",
@@ -338,7 +387,7 @@
           "body": "記事： https://syunnjack.dev/articles/juku-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-08T01:00:00.000Z",
+      "publishAt": "2026-08-09T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/juku-map/juku-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/juku-map/juku-map-tech-preview.pptx",
@@ -436,7 +485,7 @@
           "body": "記事： https://syunnjack.dev/articles/mofumofu-tokai\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-10T01:00:00.000Z",
+      "publishAt": "2026-08-11T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -485,7 +534,7 @@
           "body": "記事： https://syunnjack.dev/articles/municipacipality-car\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-11T01:00:00.000Z",
+      "publishAt": "2026-08-12T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/municipacipality-car/municipacipality-car-tech-preview.pptx",
@@ -534,7 +583,7 @@
           "body": "記事： https://syunnjack.dev/articles/goal-pilot-app\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-12T01:00:00.000Z",
+      "publishAt": "2026-08-13T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/goal-pilot-app/goal-pilot-app-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/goal-pilot-app/goal-pilot-app-tech-preview.pptx",
@@ -583,7 +632,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-doujin-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-13T01:00:00.000Z",
+      "publishAt": "2026-08-14T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -632,7 +681,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-novel-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-14T01:00:00.000Z",
+      "publishAt": "2026-08-15T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -681,7 +730,7 @@
           "body": "記事： https://syunnjack.dev/articles/r18-anime-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-15T01:00:00.000Z",
+      "publishAt": "2026-08-16T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -730,7 +779,7 @@
           "body": "記事： https://syunnjack.dev/articles/hotpapi-web\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-16T01:00:00.000Z",
+      "publishAt": "2026-08-17T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/hotpapi-web/hotpapi-web-tech-preview.pptx",
@@ -779,7 +828,7 @@
           "body": "記事： https://syunnjack.dev/articles/ai-tool-diagnoser\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-17T01:00:00.000Z",
+      "publishAt": "2026-08-18T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ai-tool-diagnoser/ai-tool-diagnoser-tech-preview.pptx",
@@ -828,7 +877,7 @@
           "body": "記事： https://syunnjack.dev/articles/king-sys\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-18T01:00:00.000Z",
+      "publishAt": "2026-08-19T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/king-sys/king-sys-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/king-sys/king-sys-tech-preview.pptx",
@@ -877,7 +926,7 @@
           "body": "記事： https://syunnjack.dev/articles/reserve-sys\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-19T01:00:00.000Z",
+      "publishAt": "2026-08-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.pptx",
@@ -926,7 +975,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-spot-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-20T01:00:00.000Z",
+      "publishAt": "2026-08-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.pptx",
@@ -936,55 +985,6 @@
         "Smoking Spot Finderは、TypeScript、JavaScript、HTMLを中心に設計・実装したプロジェクトです。",
         "主な技術はTypeScript・JavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "asia-trip-concierge",
-      "repository": "asia-trip-concierge",
-      "title": "Asia Trip Conciergeの技術解説｜設計と実装を75秒で紹介",
-      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "TypeScript・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/asia-trip-concierge",
-      "repositoryUrl": "https://github.com/syunnjack/asia-trip-concierge",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/asia-trip-concierge\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/asia-trip-concierge\n\nAsia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Asia Trip Conciergeの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、eslint.config.mjs"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/asia-trip-concierge\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-21T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Asia Trip Conciergeの技術構成を短く解説します。",
-        "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、eslint.config.mjsを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]

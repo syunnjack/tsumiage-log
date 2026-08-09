@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T07:40:04.797Z",
+  "generatedAt": "2026-08-09T08:31:36.293Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,84 @@
   ],
   "articles": [
     {
+      "slug": "asia-trip-concierge",
+      "name": "asia-trip-concierge",
+      "displayName": "Asia Trip Concierge",
+      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/asia-trip-concierge",
+      "defaultBranch": "codex/asia-trip-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "ef52a8f",
+          "message": "Expand to Japan's top 10 outbound destinations, fix SEO, add UGC",
+          "date": "2026-08-09T08:15:00Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/ef52a8f0b3b3b2f1027d58525b11a9fdbdf2ec4b"
+        },
+        {
+          "sha": "12dd46b",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:08Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/12dd46baba06e8460a3e8cd429eb020962d65393"
+        },
+        {
+          "sha": "9eacfa6",
+          "message": "Add sitemap.xml",
+          "date": "2026-08-05T11:36:37Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9eacfa6e62dfe5f5b7059fdf7f7d1c4871681d34"
+        },
+        {
+          "sha": "21edccc",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:19Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/21edccc2d2877944e0d6f275657d5efc63054bcf"
+        },
+        {
+          "sha": "490b40f",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:04:51Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/490b40fd63766d5ae1e9fa01d5b2263e4c896d29"
+        },
+        {
+          "sha": "6e2ad3d",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T13:09:32Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
+        },
+        {
+          "sha": "774b1b1",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:56:36Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
+        },
+        {
+          "sha": "33d6c83",
+          "message": "Build Korea Taiwan trip concierge",
+          "date": "2026-07-20T22:55:53Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/33d6c8357abb0ad2f3b5e2fb33dad7447dcef45a"
+        }
+      ],
+      "updatedAt": "2026-08-09T08:15:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "cat-cafe-etc",
       "name": "cat-cafe-etc",
       "displayName": "Cat Cafe Etc",
@@ -77,6 +155,12 @@
         "tsconfig.json"
       ],
       "commits": [
+        {
+          "sha": "832f696",
+          "message": "Expand nationwide: add real cafes in 8 more prefectures",
+          "date": "2026-08-09T07:42:06Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/832f696b3d53a6213994fc958ffd455730526841"
+        },
         {
           "sha": "c802c7c",
           "message": "Fix canonical/sitemap/robots pointing at a stale dev domain",
@@ -144,7 +228,7 @@
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/09e370cd09af08da1ebf50ba764938d48efc6c16"
         }
       ],
-      "updatedAt": "2026-08-09T07:33:17Z",
+      "updatedAt": "2026-08-09T07:42:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -181,6 +265,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "30f5bb6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T07:40:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/30f5bb67940c4d52f7fc62481267f56afed49f8e"
+        },
         {
           "sha": "5b0d221",
           "message": "Update repository articles from GitHub activity",
@@ -246,15 +336,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-08T20:28:18Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/993ee518e202f8d1a89f6433a80666bf48aeaec1"
-        },
-        {
-          "sha": "789b0e7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-08T19:29:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/789b0e71d35ea6244cd60a6ac724a6c97aa63b47"
         }
       ],
-      "updatedAt": "2026-08-09T06:34:30Z",
+      "updatedAt": "2026-08-09T07:40:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -1763,78 +1847,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:14Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "asia-trip-concierge",
-      "name": "asia-trip-concierge",
-      "displayName": "Asia Trip Concierge",
-      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/asia-trip-concierge",
-      "defaultBranch": "codex/asia-trip-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "12dd46b",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:08Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/12dd46baba06e8460a3e8cd429eb020962d65393"
-        },
-        {
-          "sha": "9eacfa6",
-          "message": "Add sitemap.xml",
-          "date": "2026-08-05T11:36:37Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9eacfa6e62dfe5f5b7059fdf7f7d1c4871681d34"
-        },
-        {
-          "sha": "21edccc",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:19Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/21edccc2d2877944e0d6f275657d5efc63054bcf"
-        },
-        {
-          "sha": "490b40f",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:51Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/490b40fd63766d5ae1e9fa01d5b2263e4c896d29"
-        },
-        {
-          "sha": "6e2ad3d",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T13:09:32Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
-        },
-        {
-          "sha": "774b1b1",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:56:36Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
-        },
-        {
-          "sha": "33d6c83",
-          "message": "Build Korea Taiwan trip concierge",
-          "date": "2026-07-20T22:55:53Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/33d6c8357abb0ad2f3b5e2fb33dad7447dcef45a"
-        }
-      ],
-      "updatedAt": "2026-08-08T02:02:13Z",
       "stars": 0,
       "forks": 0
     },
