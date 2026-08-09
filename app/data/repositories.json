@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:29:46.382Z",
+  "generatedAt": "2026-08-09T20:28:16.817Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,223 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "allbowl01",
+      "name": "allbowl01",
+      "displayName": "Allbowl01",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
+      "url": "https://github.com/syunnjack/allbowl01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "Astro",
+        "HTML",
+        "TypeScript",
+        "Python",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "allbowl01.sln",
+        "allbowl01",
+        "cocoon-child-mankan",
+        "docs",
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py",
+        "web"
+      ],
+      "commits": [
+        {
+          "sha": "004c019",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T20:22:17Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/004c019672e4d8fd6477f8f5b4bcec43557da2be"
+        },
+        {
+          "sha": "fbe2dd1",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T05:13:15Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/fbe2dd1a1b32a44ec5306315c990ebcaddfbde2f"
+        },
+        {
+          "sha": "aec468a",
+          "message": "Point GitHub Pages at the intended custom domain bowling-event.jp",
+          "date": "2026-08-09T05:02:05Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/aec468a6b8001912820592530f7f92b601b4b9e8"
+        },
+        {
+          "sha": "96a455f",
+          "message": "Add real bowling-specific accessory terms (shammy, wear, arm sleeve)",
+          "date": "2026-08-09T04:59:27Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/96a455f22ecf70e77582c9c79efefb31f59da344"
+        },
+        {
+          "sha": "4bed141",
+          "message": "Highlight Round1's buried pro-challenge events, add affiliate goods",
+          "date": "2026-08-09T04:57:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4bed141bb64f6181ae881cd1f1eeaefe9363d307"
+        },
+        {
+          "sha": "78b1a80",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T04:54:27Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/78b1a80eacc75694e2f0425b1860ebaf3c39d554"
+        },
+        {
+          "sha": "2770998",
+          "message": "Expand to all 47 prefectures with real, verified venues",
+          "date": "2026-08-09T04:49:41Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
+        },
+        {
+          "sha": "9c8d2d0",
+          "message": "Rebase before push in refresh-events to survive concurrent commits",
+          "date": "2026-08-09T04:44:02Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
+        },
+        {
+          "sha": "d306045",
+          "message": "Add nationwide bowling center count with cited source",
+          "date": "2026-08-09T04:39:55Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
+        },
+        {
+          "sha": "4f84c64",
+          "message": "Add scheduled bowling event data refresh",
+          "date": "2026-08-09T04:26:59Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4f84c643b5c4e5697604c99f5e3e9cfaeaa93278"
+        },
+        {
+          "sha": "bfb6a6e",
+          "message": "Fix unregistered production domain (#1)",
+          "date": "2026-07-31T23:07:13Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/bfb6a6e827d945141772d81b0727864f6490212a"
+        },
+        {
+          "sha": "c8ba389",
+          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
+          "date": "2026-07-27T23:09:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
+        }
+      ],
+      "updatedAt": "2026-08-09T20:22:28Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "0baa9db",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T19:30:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
+        },
+        {
+          "sha": "a58d2b6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T18:29:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
+        },
+        {
+          "sha": "3498cdd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T17:30:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
+        },
+        {
+          "sha": "75a27b1",
+          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
+          "date": "2026-08-09T16:36:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
+        },
+        {
+          "sha": "87cbceb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T16:28:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
+        },
+        {
+          "sha": "cf23677",
+          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
+          "date": "2026-08-09T15:29:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
+        },
+        {
+          "sha": "b35921e",
+          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
+          "date": "2026-08-09T15:18:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
+        },
+        {
+          "sha": "6489b68",
+          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
+          "date": "2026-08-09T14:40:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
+        },
+        {
+          "sha": "bed5517",
+          "message": "Fix reader-first-copy-audit violation on /store",
+          "date": "2026-08-09T14:35:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
+        },
+        {
+          "sha": "fd8a3e7",
+          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
+          "date": "2026-08-09T14:31:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
+        },
+        {
+          "sha": "68de911",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T14:30:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
+        },
+        {
+          "sha": "25f5d69",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T13:38:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
+        }
+      ],
+      "updatedAt": "2026-08-09T19:30:07Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "bowling-score-hub",
       "name": "bowling-score-hub",
@@ -245,116 +462,6 @@
         }
       ],
       "updatedAt": "2026-08-09T18:38:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "a58d2b6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T18:29:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
-        },
-        {
-          "sha": "3498cdd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T17:30:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
-        },
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
-        },
-        {
-          "sha": "cf23677",
-          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
-          "date": "2026-08-09T15:29:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
-        },
-        {
-          "sha": "b35921e",
-          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
-          "date": "2026-08-09T15:18:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
-        },
-        {
-          "sha": "6489b68",
-          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
-          "date": "2026-08-09T14:40:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
-        },
-        {
-          "sha": "bed5517",
-          "message": "Fix reader-first-copy-audit violation on /store",
-          "date": "2026-08-09T14:35:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bed55174035565b9b522d65762222ebcbc029457"
-        },
-        {
-          "sha": "fd8a3e7",
-          "message": "Add sales platform (/store) with BOOTH PPV, global nav entry",
-          "date": "2026-08-09T14:31:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd8a3e753be8fc5f9eb5930e53ae4cff042517dc"
-        },
-        {
-          "sha": "68de911",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T14:30:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/68de911e43be218d2bcd6e332ead6c03dc4902b6"
-        },
-        {
-          "sha": "25f5d69",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T13:38:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/25f5d69e490eab4cf9d403e898e9509615b0c452"
-        },
-        {
-          "sha": "9c55689",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T12:32:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c556892b01332e1deb42ef391b0ec013efb9ec9"
-        }
-      ],
-      "updatedAt": "2026-08-09T18:29:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -2252,113 +2359,6 @@
         }
       ],
       "updatedAt": "2026-08-09T07:42:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "allbowl01",
-      "name": "allbowl01",
-      "displayName": "Allbowl01",
-      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
-      "url": "https://github.com/syunnjack/allbowl01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "Python",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "cocoon-child-mankan",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py",
-        "web"
-      ],
-      "commits": [
-        {
-          "sha": "fbe2dd1",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-09T05:13:15Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/fbe2dd1a1b32a44ec5306315c990ebcaddfbde2f"
-        },
-        {
-          "sha": "aec468a",
-          "message": "Point GitHub Pages at the intended custom domain bowling-event.jp",
-          "date": "2026-08-09T05:02:05Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/aec468a6b8001912820592530f7f92b601b4b9e8"
-        },
-        {
-          "sha": "96a455f",
-          "message": "Add real bowling-specific accessory terms (shammy, wear, arm sleeve)",
-          "date": "2026-08-09T04:59:27Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/96a455f22ecf70e77582c9c79efefb31f59da344"
-        },
-        {
-          "sha": "4bed141",
-          "message": "Highlight Round1's buried pro-challenge events, add affiliate goods",
-          "date": "2026-08-09T04:57:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4bed141bb64f6181ae881cd1f1eeaefe9363d307"
-        },
-        {
-          "sha": "78b1a80",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-09T04:54:27Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/78b1a80eacc75694e2f0425b1860ebaf3c39d554"
-        },
-        {
-          "sha": "2770998",
-          "message": "Expand to all 47 prefectures with real, verified venues",
-          "date": "2026-08-09T04:49:41Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
-        },
-        {
-          "sha": "9c8d2d0",
-          "message": "Rebase before push in refresh-events to survive concurrent commits",
-          "date": "2026-08-09T04:44:02Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
-        },
-        {
-          "sha": "d306045",
-          "message": "Add nationwide bowling center count with cited source",
-          "date": "2026-08-09T04:39:55Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
-        },
-        {
-          "sha": "4f84c64",
-          "message": "Add scheduled bowling event data refresh",
-          "date": "2026-08-09T04:26:59Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4f84c643b5c4e5697604c99f5e3e9cfaeaa93278"
-        },
-        {
-          "sha": "bfb6a6e",
-          "message": "Fix unregistered production domain (#1)",
-          "date": "2026-07-31T23:07:13Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/bfb6a6e827d945141772d81b0727864f6490212a"
-        },
-        {
-          "sha": "c8ba389",
-          "message": "Add SEO, LLMO, and UGC activation features for Astro and WordPress.",
-          "date": "2026-07-27T23:09:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/c8ba38941c08bac44f5edbe286e07cb9d2d45c42"
-        },
-        {
-          "sha": "449d9e9",
-          "message": "Merge main: keep Astro and WordPress for performance comparison.",
-          "date": "2026-07-27T18:22:23Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/449d9e91c9a5c12ae22a25296c94eb2a5c126b8e"
-        }
-      ],
-      "updatedAt": "2026-08-09T05:13:20Z",
       "stars": 0,
       "forks": 0
     },

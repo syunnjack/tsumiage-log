@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:29:46.554Z",
+  "generatedAt": "2026-08-09T20:28:16.992Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -10,30 +10,30 @@
   "queuedCount": 140,
   "videos": [
     {
-      "slug": "bowling-score-hub",
-      "repository": "bowling-score-hub",
-      "title": "Bowling Score Hubの技術解説｜設計と実装を75秒で紹介",
-      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "language": "JavaScript・HTML・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/bowling-score-hub",
-      "repositoryUrl": "https://github.com/syunnjack/bowling-score-hub",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bowling-score-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bowling-score-hub\n\nBowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
+      "slug": "allbowl01",
+      "repository": "allbowl01",
+      "title": "Allbowl01の技術解説｜設計と実装を75秒で紹介",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "language": "C#・Astro・HTML・TypeScript・Python・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/allbowl01",
+      "repositoryUrl": "https://github.com/syunnjack/allbowl01",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/allbowl01\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/allbowl01\n\nallbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル\n\n#技術解説 #個人開発 #C",
       "slides": [
         {
-          "title": "Bowling Score Hubの技術解説",
+          "title": "Allbowl01の技術解説",
           "body": "設計・実装・コミットから学ぶ短時間の技術解説"
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
+          "body": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：C#・Astro・HTML・TypeScript・Python・CSS\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、allbowl01.sln、allbowl01"
         },
         {
           "title": "コミットから分かる改善",
@@ -41,68 +41,19 @@
         },
         {
           "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/bowling-score-hub\n\n学び、作り、振り返る開発記録。"
+          "body": "記事： https://syunnjack.dev/articles/allbowl01\n\n学び、作り、振り返る開発記録。"
         }
       ],
       "publishAt": "2026-08-02T01:00:00.000Z",
       "status": "rendered",
-      "localVideoUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.pptx",
+      "localVideoUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
-        "今回は、Bowling Score Hubの技術構成を短く解説します。",
-        "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "kousokubus-benri",
-      "repository": "kousokubus-benri",
-      "title": "Kousokubus Benriの技術解説｜設計と実装を75秒で紹介",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "TypeScript・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/kousokubus-benri",
-      "repositoryUrl": "https://github.com/syunnjack/kousokubus-benri",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kousokubus-benri\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kousokubus-benri\n\nKousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Kousokubus Benriの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/kousokubus-benri\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Kousokubus Benriの技術構成を短く解説します。",
-        "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "今回は、Allbowl01の技術構成を短く解説します。",
+        "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+        "主な技術はC#・Astro・HTML・TypeScript・Python・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、allbowl01.sln、allbowl01を中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
@@ -157,6 +108,104 @@
       ]
     },
     {
+      "slug": "bowling-score-hub",
+      "repository": "bowling-score-hub",
+      "title": "Bowling Score Hubの技術解説｜設計と実装を75秒で紹介",
+      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "language": "JavaScript・HTML・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/bowling-score-hub",
+      "repositoryUrl": "https://github.com/syunnjack/bowling-score-hub",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/bowling-score-hub\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/bowling-score-hub\n\nBowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #JavaScript",
+      "slides": [
+        {
+          "title": "Bowling Score Hubの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript・HTML・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、index.html、package-lock.json"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/bowling-score-hub\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-04T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/bowling-score-hub/bowling-score-hub-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Bowling Score Hubの技術構成を短く解説します。",
+        "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+        "主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "kousokubus-benri",
+      "repository": "kousokubus-benri",
+      "title": "Kousokubus Benriの技術解説｜設計と実装を75秒で紹介",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "TypeScript・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/kousokubus-benri",
+      "repositoryUrl": "https://github.com/syunnjack/kousokubus-benri",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kousokubus-benri\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kousokubus-benri\n\nKousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Kousokubus Benriの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/kousokubus-benri\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-05T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Kousokubus Benriの技術構成を短く解説します。",
+        "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
       "slug": "ai-quiz-study",
       "repository": "ai-quiz-study",
       "title": "Ai Quiz Studyの技術解説｜設計と実装を75秒で紹介",
@@ -191,7 +240,7 @@
           "body": "記事： https://syunnjack.dev/articles/ai-quiz-study\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-05T01:00:00.000Z",
+      "publishAt": "2026-08-06T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ai-quiz-study/ai-quiz-study-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ai-quiz-study/ai-quiz-study-tech-preview.pptx",
@@ -240,7 +289,7 @@
           "body": "記事： https://syunnjack.dev/articles/golf-search\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-06T01:00:00.000Z",
+      "publishAt": "2026-08-07T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/golf-search/golf-search-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/golf-search/golf-search-tech-preview.pptx",
@@ -289,7 +338,7 @@
           "body": "記事： https://syunnjack.dev/articles/cross-genre\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-07T01:00:00.000Z",
+      "publishAt": "2026-08-08T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/cross-genre/cross-genre-tech-preview.pptx",
@@ -338,7 +387,7 @@
           "body": "記事： https://syunnjack.dev/articles/camp-hikaku\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-08T01:00:00.000Z",
+      "publishAt": "2026-08-09T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/camp-hikaku/camp-hikaku-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/camp-hikaku/camp-hikaku-tech-preview.pptx",
@@ -387,7 +436,7 @@
           "body": "記事： https://syunnjack.dev/articles/sexy-costume-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-09T01:00:00.000Z",
+      "publishAt": "2026-08-10T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -436,7 +485,7 @@
           "body": "記事： https://syunnjack.dev/articles/sokmil-new-releases\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-10T01:00:00.000Z",
+      "publishAt": "2026-08-11T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -485,7 +534,7 @@
           "body": "記事： https://syunnjack.dev/articles/free-sample-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-11T01:00:00.000Z",
+      "publishAt": "2026-08-12T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -534,7 +583,7 @@
           "body": "記事： https://syunnjack.dev/articles/subscription-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-12T01:00:00.000Z",
+      "publishAt": "2026-08-13T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -583,7 +632,7 @@
           "body": "記事： https://syunnjack.dev/articles/r18-anime-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-13T01:00:00.000Z",
+      "publishAt": "2026-08-14T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -632,7 +681,7 @@
           "body": "記事： https://syunnjack.dev/articles/gravure-photo-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-14T01:00:00.000Z",
+      "publishAt": "2026-08-15T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -681,7 +730,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-novel-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-15T01:00:00.000Z",
+      "publishAt": "2026-08-16T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -730,7 +779,7 @@
           "body": "記事： https://syunnjack.dev/articles/bl-tl-doujin-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-16T01:00:00.000Z",
+      "publishAt": "2026-08-17T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -779,7 +828,7 @@
           "body": "記事： https://syunnjack.dev/articles/duga-video-ranking\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-17T01:00:00.000Z",
+      "publishAt": "2026-08-18T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -828,7 +877,7 @@
           "body": "記事： https://syunnjack.dev/articles/unlimited-comic-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-18T01:00:00.000Z",
+      "publishAt": "2026-08-19T01:00:00.000Z",
       "status": "queued",
       "localVideoUrl": null,
       "localPptxUrl": null,
@@ -877,7 +926,7 @@
           "body": "記事： https://syunnjack.dev/articles/work-bar-navi\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-19T01:00:00.000Z",
+      "publishAt": "2026-08-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.pptx",
@@ -926,7 +975,7 @@
           "body": "記事： https://syunnjack.dev/articles/subsidy-alert-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-20T01:00:00.000Z",
+      "publishAt": "2026-08-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
@@ -975,7 +1024,7 @@
           "body": "記事： https://syunnjack.dev/articles/maportal\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-21T01:00:00.000Z",
+      "publishAt": "2026-08-22T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/maportal/maportal-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/maportal/maportal-tech-preview.pptx",
@@ -1024,7 +1073,7 @@
           "body": "記事： https://syunnjack.dev/articles/wait-time-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-22T01:00:00.000Z",
+      "publishAt": "2026-08-23T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.pptx",
@@ -1073,7 +1122,7 @@
           "body": "記事： https://syunnjack.dev/articles/trip-route-stay\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-23T01:00:00.000Z",
+      "publishAt": "2026-08-24T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.pptx",
@@ -1122,7 +1171,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-spot-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-24T01:00:00.000Z",
+      "publishAt": "2026-08-25T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.pptx",
@@ -1171,7 +1220,7 @@
           "body": "記事： https://syunnjack.dev/articles/vs-jt\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-25T01:00:00.000Z",
+      "publishAt": "2026-08-26T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.pptx",
@@ -1220,7 +1269,7 @@
           "body": "記事： https://syunnjack.dev/articles/asia-trip-concierge\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-26T01:00:00.000Z",
+      "publishAt": "2026-08-27T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/asia-trip-concierge/asia-trip-concierge-tech-preview.pptx",
@@ -1269,7 +1318,7 @@
           "body": "記事： https://syunnjack.dev/articles/cat-cafe-etc\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-27T01:00:00.000Z",
+      "publishAt": "2026-08-28T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/cat-cafe-etc/cat-cafe-etc-tech-preview.pptx",
@@ -1280,55 +1329,6 @@
         "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、eslint.config.mjsを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "allbowl01",
-      "repository": "allbowl01",
-      "title": "Allbowl01の技術解説｜設計と実装を75秒で紹介",
-      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-      "language": "C#・Astro・HTML・TypeScript・Python・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/allbowl01",
-      "repositoryUrl": "https://github.com/syunnjack/allbowl01",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/allbowl01\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/allbowl01\n\nallbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル\n\n#技術解説 #個人開発 #C",
-      "slides": [
-        {
-          "title": "Allbowl01の技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：C#・Astro・HTML・TypeScript・Python・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、allbowl01.sln、allbowl01"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/allbowl01\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-28T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/allbowl01/allbowl01-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Allbowl01の技術構成を短く解説します。",
-        "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-        "主な技術はC#・Astro・HTML・TypeScript・Python・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、allbowl01.sln、allbowl01を中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
