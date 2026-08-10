@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:49:00.864Z",
+  "generatedAt": "2026-08-10T07:57:54.065Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,304 @@
   ],
   "articles": [
     {
+      "slug": "buyback-price-alert",
+      "name": "buyback-price-alert",
+      "displayName": "Buyback Price Alert",
+      "description": "Buyback Price Alertは、JavaScript、CSS、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "buyback price alert — BuybackAlert（buybackalert.jp） 同じJANコードの商品を扱う店舗の販売価格を集計し、最安値と中央値の差が大きい順に並べるサイト。 本・DVD・CD・ゲーム・トレーディングカード・フィギュア・プレミアグッズを扱う。 この数字が何であって、何でないか 表示している「価格差」は、同じ商品を出している店舗間の販売価格の差。 買取価格でも、確定利益でもない。仕入れ候補を絞るための指標として扱うこと。 UI・静的ページ・構造化データのすべてにこの旨を明記している。 含まれるもの、含まれないものは以下のとおり。 モール 状態 理由 Yahoo ショッピング ○ 出品者ごとの実価格（新品・中古とも） JANコードで全出品を取得できる 楽天ブックス ○ 一部商品の価格 本・DVD・CD・ゲームのみ対応 Amazon × PA APIの資格情報が無い。アソシエイト審査と売上実績が必要 楽天市場 × 現在のアプリIDでは IchibaItem/Search が使えない。 新規アプリID登録で解決する メルカリ × 任意商品の相場を取得する公開APIが存在しない ヤフオク × 一般向けAPIの提供状況を確認できていない 実店舗の買取業者 × 公開APIが無い 中古価格は Yahoo ショッピングに出店している中古販売店の出品分。 駿河屋・ブックオフ等のYahoo店は含まれるが、実店舗のみの業者は含まれない。 なぜビルド時にデータを作るのか Yahoo ショッピングAPIは CORSヘッダを返さない ため、静的サイトのブラウザから直接呼べない。 楽天APIも Referer を登録URLで検証する。サーバを持たない構成では、ビルド時に取得して 静的JSONにするのが唯一の方法になる。 副次的な効果として、全商品ページが静的HTMLになり検索エンジンに中身が見えるようになった。 以前は全ページがJS描画で、配信HTMLが2KB弱の空の殻だった。 データの更新 ジャンルごとに実キーワードで検索してJANを集め、 JANごとに全出",
+      "url": "https://github.com/syunnjack/buyback-price-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "bc83208",
+          "message": "Replace placeholder seeds with real multi-seller price data",
+          "date": "2026-08-10T07:45:10Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/bc832088258c41052bdc48c5a12f52ff5267b27c"
+        },
+        {
+          "sha": "6a0e922",
+          "message": "Fix title/description: use Japanese copy matching actual content",
+          "date": "2026-08-04T15:18:55Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/6a0e92251dea0eec797ff3884bcf40fe6db7a1bf"
+        },
+        {
+          "sha": "7b94a5d",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:11:14Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/7b94a5df671b53002dbdf16e3395c001d583d6f2"
+        },
+        {
+          "sha": "bcf085c",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:26:56Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/bcf085c028e21e9a14f6b932682edb9c7eb047de"
+        },
+        {
+          "sha": "e2095a0",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:17:49Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e2095a061732600e036270b534df40ab534cd590"
+        },
+        {
+          "sha": "e395be6",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:56:00Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e395be6422cb47c98dbfdbf116d6bcbd4c746bf9"
+        },
+        {
+          "sha": "e27956c",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:08Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e27956c77f9db6856ea3cce495f6aa7589760298"
+        },
+        {
+          "sha": "147a635",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:50Z",
+          "url": "https://github.com/syunnjack/buyback-price-alert/commit/147a635ecf96d637970b619e1cd9918c87c94c8e"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:45:41Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "5f8c56c",
+          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
+          "date": "2026-08-10T07:34:39Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
+        },
+        {
+          "sha": "14ba6ec",
+          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
+          "date": "2026-08-10T07:34:27Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
+        },
+        {
+          "sha": "8ff3e54",
+          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
+          "date": "2026-08-10T07:29:36Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
+        },
+        {
+          "sha": "df2bcb4",
+          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
+          "date": "2026-08-10T07:29:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
+        },
+        {
+          "sha": "2edb779",
+          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
+          "date": "2026-08-09T21:17:24Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
+        },
+        {
+          "sha": "c42f4de",
+          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
+          "date": "2026-08-09T21:17:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
+        },
+        {
+          "sha": "3200bdd",
+          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
+          "date": "2026-08-08T12:37:07Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
+        },
+        {
+          "sha": "06f0568",
+          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
+          "date": "2026-08-08T00:22:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
+        },
+        {
+          "sha": "79692a4",
+          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
+          "date": "2026-08-07T23:04:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
+        },
+        {
+          "sha": "6bdb50c",
+          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
+          "date": "2026-08-07T20:36:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
+        },
+        {
+          "sha": "b3e7999",
+          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
+          "date": "2026-08-07T19:21:53Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
+        },
+        {
+          "sha": "02fea8c",
+          "message": "Update 30-site doc with actual purchased domains",
+          "date": "2026-08-07T19:14:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:35:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "kousokubus-benri",
+      "name": "kousokubus-benri",
+      "displayName": "Kousokubus Benri",
+      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/kousokubus-benri",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "data",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts"
+      ],
+      "commits": [
+        {
+          "sha": "bf0958a",
+          "message": "Add Leaflet map for onward route search results",
+          "date": "2026-08-09T21:17:04Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/bf0958a527214ee82b078fa62ab59577465b4878"
+        },
+        {
+          "sha": "0e7b486",
+          "message": "Send IndexNow payload from a file to avoid ARG_MAX",
+          "date": "2026-08-10T06:51:52Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e7b48620d03006f028c1dffde2ac26134caca3c"
+        },
+        {
+          "sha": "ee97ce0",
+          "message": "Submit every sitemap URL to IndexNow, not just two",
+          "date": "2026-08-10T06:50:44Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/ee97ce06899dfc53d01d5e1087131001e5c89657"
+        },
+        {
+          "sha": "9a479bd",
+          "message": "Make operator info configurable and widen outbound URL matching",
+          "date": "2026-08-10T00:12:17Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/9a479bd8d96ca6c6d6e20b8095b034535eac05de"
+        },
+        {
+          "sha": "c78195b",
+          "message": "Expand highway bus coverage from 1 to 21 GTFS sources",
+          "date": "2026-08-10T00:06:53Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c78195bd71819245cdda0d7086826cd269581208"
+        },
+        {
+          "sha": "9d1079b",
+          "message": "Serve the IndexNow key file from the site root",
+          "date": "2026-08-09T23:31:28Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/9d1079bb17a7c81641b6e185a6c198221dcd2721"
+        },
+        {
+          "sha": "c945a78",
+          "message": "Fix canonical domain, booking handoff, and search inputs",
+          "date": "2026-08-09T21:26:48Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c945a784729d2b7ea3cc69d7da50f6f6cc43a1f0"
+        },
+        {
+          "sha": "cc13e72",
+          "message": "Point homepage onward-nav teaser at the real /onward planner",
+          "date": "2026-08-09T18:38:09Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/cc13e72e3c79e6117e74100a314a5f93b601acde"
+        },
+        {
+          "sha": "ccf6a77",
+          "message": "Replace hardcoded demo homepage with real D1-backed data",
+          "date": "2026-08-09T18:31:06Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/ccf6a77f67e9ebdb576694587a2e8fedea55d531"
+        },
+        {
+          "sha": "8e18bdd",
+          "message": "Add multimodal onward route planner",
+          "date": "2026-08-06T12:22:19Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8e18bdd5f6020150c64c0b8eaf1de611a75fa330"
+        },
+        {
+          "sha": "8b53be4",
+          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
+          "date": "2026-08-06T06:53:52Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
+        },
+        {
+          "sha": "140741b",
+          "message": "Upgrade GTFS workflow to Node 24 actions",
+          "date": "2026-07-27T23:36:11Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:23:31Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -84,6 +382,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "f76c5f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T06:49:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
+        },
         {
           "sha": "6770208",
           "message": "Update repository articles from GitHub activity",
@@ -149,15 +453,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-09T20:28:30Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cf1b96f9a6dfeebde2b459f92c491dbf811d7978"
-        },
-        {
-          "sha": "0baa9db",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T19:30:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
         }
       ],
-      "updatedAt": "2026-08-10T05:50:15Z",
+      "updatedAt": "2026-08-10T06:49:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -200,226 +498,6 @@
         }
       ],
       "updatedAt": "2026-08-10T02:37:11Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kousokubus-benri",
-      "name": "kousokubus-benri",
-      "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kousokubus-benri",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "data",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "commits": [
-        {
-          "sha": "9a479bd",
-          "message": "Make operator info configurable and widen outbound URL matching",
-          "date": "2026-08-10T00:12:17Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/9a479bd8d96ca6c6d6e20b8095b034535eac05de"
-        },
-        {
-          "sha": "c78195b",
-          "message": "Expand highway bus coverage from 1 to 21 GTFS sources",
-          "date": "2026-08-10T00:06:53Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c78195bd71819245cdda0d7086826cd269581208"
-        },
-        {
-          "sha": "9d1079b",
-          "message": "Serve the IndexNow key file from the site root",
-          "date": "2026-08-09T23:31:28Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/9d1079bb17a7c81641b6e185a6c198221dcd2721"
-        },
-        {
-          "sha": "c945a78",
-          "message": "Fix canonical domain, booking handoff, and search inputs",
-          "date": "2026-08-09T21:26:48Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/c945a784729d2b7ea3cc69d7da50f6f6cc43a1f0"
-        },
-        {
-          "sha": "cc13e72",
-          "message": "Point homepage onward-nav teaser at the real /onward planner",
-          "date": "2026-08-09T18:38:09Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/cc13e72e3c79e6117e74100a314a5f93b601acde"
-        },
-        {
-          "sha": "ccf6a77",
-          "message": "Replace hardcoded demo homepage with real D1-backed data",
-          "date": "2026-08-09T18:31:06Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/ccf6a77f67e9ebdb576694587a2e8fedea55d531"
-        },
-        {
-          "sha": "8e18bdd",
-          "message": "Add multimodal onward route planner",
-          "date": "2026-08-06T12:22:19Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8e18bdd5f6020150c64c0b8eaf1de611a75fa330"
-        },
-        {
-          "sha": "8b53be4",
-          "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
-          "date": "2026-08-06T06:53:52Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
-        },
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
-        },
-        {
-          "sha": "7cf15c8",
-          "message": "Automate official GTFS synchronization",
-          "date": "2026-07-27T23:27:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/7cf15c8b5d781b0bce870c97e4b403192c340aa8"
-        },
-        {
-          "sha": "0e95a8e",
-          "message": "Connect highway bus search with multimodal onward transit",
-          "date": "2026-07-27T20:41:10Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/0e95a8e0ed779b3f572372a69cee8df09d588b9f"
-        },
-        {
-          "sha": "da05ee7",
-          "message": "Add GTFS local bus data platform",
-          "date": "2026-07-27T18:43:47Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/da05ee72fdc786fd438e869f70a445aaaa6adc92"
-        }
-      ],
-      "updatedAt": "2026-08-10T00:12:22Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "2edb779",
-          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
-          "date": "2026-08-09T21:17:24Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
-        },
-        {
-          "sha": "c42f4de",
-          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
-          "date": "2026-08-09T21:17:13Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
-        },
-        {
-          "sha": "3200bdd",
-          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
-          "date": "2026-08-08T12:37:07Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
-        },
-        {
-          "sha": "06f0568",
-          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
-          "date": "2026-08-08T00:22:30Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
-        },
-        {
-          "sha": "79692a4",
-          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
-          "date": "2026-08-07T23:04:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
-        },
-        {
-          "sha": "6bdb50c",
-          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
-          "date": "2026-08-07T20:36:29Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
-        },
-        {
-          "sha": "b3e7999",
-          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
-          "date": "2026-08-07T19:21:53Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
-        },
-        {
-          "sha": "02fea8c",
-          "message": "Update 30-site doc with actual purchased domains",
-          "date": "2026-08-07T19:14:48Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
-        },
-        {
-          "sha": "278ef23",
-          "message": "Document Shin Rental Server (WPX) account: 17 more ranking sites already deployed",
-          "date": "2026-08-07T15:58:42Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/278ef2394d68ee398702674ddb0f337aba4e7b0d"
-        },
-        {
-          "sha": "688a47f",
-          "message": "Plan: 30 new multi-ASP cross-comparison sites (7 ASPs, distinct genres)",
-          "date": "2026-08-07T15:53:11Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/688a47fad8533b38aa74efc717105c58cf4b2cd9"
-        },
-        {
-          "sha": "0b64ddc",
-          "message": "Document confirmed ColorfulBOX deployment mapping and .env incident",
-          "date": "2026-08-07T15:33:26Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/0b64ddc24b9f78385567af5ecf45d8a40b05959e"
-        },
-        {
-          "sha": "0b2b7f5",
-          "message": "Record ColorfulBOX cPanel account facts (boewaxno)",
-          "date": "2026-08-07T11:53:03Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/0b2b7f5b67c9268cab76aaa272e392ce14ae75f4"
-        }
-      ],
-      "updatedAt": "2026-08-09T21:17:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -4546,77 +4624,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:21:42Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "buyback-price-alert",
-      "name": "buyback-price-alert",
-      "displayName": "Buyback Price Alert",
-      "description": "Buyback Price Alert 中古品・買取価格アラート Repository Recommended repository name: buyback price alert Domain candidates Confirmed domain: buybackalert",
-      "readmeExcerpt": "Buyback Price Alert 中古品・買取価格アラート Repository Recommended repository name: buyback price alert Domain candidates Confirmed domain: buybackalert.jp Other candidates: buybackalert.jp kaitoriwatch.jp sellprice.jp sateialert.jp Concept スマホ、ゲーム、フィギュア、ブランド品の買取価格変動を通知し、査定リードと買取送客へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 買取送客 査定リード EC affiliate 有料ウォッチ 広告 Commands",
-      "url": "https://github.com/syunnjack/buyback-price-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6a0e922",
-          "message": "Fix title/description: use Japanese copy matching actual content",
-          "date": "2026-08-04T15:18:55Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/6a0e92251dea0eec797ff3884bcf40fe6db7a1bf"
-        },
-        {
-          "sha": "7b94a5d",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:14Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/7b94a5df671b53002dbdf16e3395c001d583d6f2"
-        },
-        {
-          "sha": "bcf085c",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:56Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/bcf085c028e21e9a14f6b932682edb9c7eb047de"
-        },
-        {
-          "sha": "e2095a0",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:49Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e2095a061732600e036270b534df40ab534cd590"
-        },
-        {
-          "sha": "e395be6",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:56:00Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e395be6422cb47c98dbfdbf116d6bcbd4c746bf9"
-        },
-        {
-          "sha": "e27956c",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:08Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/e27956c77f9db6856ea3cce495f6aa7589760298"
-        },
-        {
-          "sha": "147a635",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:50Z",
-          "url": "https://github.com/syunnjack/buyback-price-alert/commit/147a635ecf96d637970b619e1cd9918c87c94c8e"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:20:06Z",
       "stars": 0,
       "forks": 0
     },
