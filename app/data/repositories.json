@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T00:38:50.241Z",
+  "generatedAt": "2026-08-10T01:57:25.038Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,116 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "48c5ac6",
+          "message": "Fix store showcase videos returning 404",
+          "date": "2026-08-10T00:48:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/48c5ac6a084325e04214f566e373c63f9e2a3501"
+        },
+        {
+          "sha": "e9d9031",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T00:39:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9d90319fc045689ef8da4b96d6dad174c153024"
+        },
+        {
+          "sha": "cb36305",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T23:28:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
+        },
+        {
+          "sha": "34da7f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T22:29:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
+        },
+        {
+          "sha": "084ea08",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T21:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/084ea085cf9f420fed41da35e602f60c545b1d8c"
+        },
+        {
+          "sha": "cf1b96f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T20:28:30Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf1b96f9a6dfeebde2b459f92c491dbf811d7978"
+        },
+        {
+          "sha": "0baa9db",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T19:30:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
+        },
+        {
+          "sha": "a58d2b6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T18:29:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
+        },
+        {
+          "sha": "3498cdd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T17:30:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
+        },
+        {
+          "sha": "75a27b1",
+          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
+          "date": "2026-08-09T16:36:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
+        },
+        {
+          "sha": "87cbceb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T16:28:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
+        },
+        {
+          "sha": "cf23677",
+          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
+          "date": "2026-08-09T15:29:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
+        }
+      ],
+      "updatedAt": "2026-08-10T00:48:58Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "kousokubus-benri",
       "name": "kousokubus-benri",
@@ -161,116 +271,6 @@
         }
       ],
       "updatedAt": "2026-08-10T00:12:22Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "cb36305",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T23:28:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
-        },
-        {
-          "sha": "34da7f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T22:29:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
-        },
-        {
-          "sha": "084ea08",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T21:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/084ea085cf9f420fed41da35e602f60c545b1d8c"
-        },
-        {
-          "sha": "cf1b96f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T20:28:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf1b96f9a6dfeebde2b459f92c491dbf811d7978"
-        },
-        {
-          "sha": "0baa9db",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T19:30:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0baa9db1eb6b6279df5e6efe9af4c460b5f461d5"
-        },
-        {
-          "sha": "a58d2b6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T18:29:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a58d2b677a24c203899c6dff6e7e4d0474456905"
-        },
-        {
-          "sha": "3498cdd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T17:30:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
-        },
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
-        },
-        {
-          "sha": "cf23677",
-          "message": "Add original article: 行政書士試験、今年は「省エネ」でリベンジ",
-          "date": "2026-08-09T15:29:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf2367747f6510c9739fd44b1c3e0c1129d02075"
-        },
-        {
-          "sha": "b35921e",
-          "message": "Add 10 project showcase videos to /store, reusing real affiliate links",
-          "date": "2026-08-09T15:18:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b35921e26c3d9feb96545b1664e3a0a11e4d0021"
-        },
-        {
-          "sha": "6489b68",
-          "message": "SEO/AIO/LLMO: add /store to llms.txt, add VideoObject schema; UGC: activate Giscus comments",
-          "date": "2026-08-09T14:40:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6489b689ceb060b65c8b9a11239a6ea53b69ee97"
-        }
-      ],
-      "updatedAt": "2026-08-09T23:29:01Z",
       "stars": 0,
       "forks": 0
     },
@@ -10407,56 +10407,6 @@
         }
       ],
       "updatedAt": "2026-07-20T05:21:38Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "cosme-stock-alert",
-      "name": "cosme-stock-alert",
-      "displayName": "Cosme Stock Alert",
-      "description": "Cosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Cosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/cosme-stock-alert",
-      "defaultBranch": "codex/cosme-watch-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "1df4dcf",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T23:04:05Z",
-          "url": "https://github.com/syunnjack/cosme-stock-alert/commit/1df4dcf587925ad60ce846831700baf6f2a1aa31"
-        },
-        {
-          "sha": "1dca951",
-          "message": "Build cosmetic price and stock alerts",
-          "date": "2026-07-20T23:02:42Z",
-          "url": "https://github.com/syunnjack/cosme-stock-alert/commit/1dca95185e4ee2d7ed73b5807f6faec240a88ca4"
-        }
-      ],
-      "updatedAt": "2026-07-20T23:04:11Z",
       "stars": 0,
       "forks": 0
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T00:38:50.430Z",
+  "generatedAt": "2026-08-10T01:57:25.212Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -7,8 +7,57 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 140,
+  "queuedCount": 139,
   "videos": [
+    {
+      "slug": "tsumiage-log",
+      "repository": "tsumiage-log",
+      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "language": "TypeScript・JavaScript・CSS・Python・PowerShell",
+      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
+      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Tsumiage Logの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript・CSS・Python・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "scheduled",
+      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
+      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
+      "narration": [
+        "今回は、Tsumiage Logの技術構成を短く解説します。",
+        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+        "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
     {
       "slug": "kousokubus-benri",
       "repository": "kousokubus-benri",
@@ -44,7 +93,7 @@
           "body": "記事： https://syunnjack.dev/articles/kousokubus-benri\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
+      "publishAt": "2026-08-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/kousokubus-benri/kousokubus-benri-tech-preview.pptx",
@@ -55,55 +104,6 @@
         "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "tsumiage-log",
-      "repository": "tsumiage-log",
-      "title": "Tsumiage Logの技術解説｜設計と実装を75秒で紹介",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "language": "TypeScript・JavaScript・CSS・Python・PowerShell",
-      "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
-      "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/tsumiage-log\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/tsumiage-log\n\n積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Tsumiage Logの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript・CSS・Python・PowerShell\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、docs"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
-      "status": "scheduled",
-      "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
-      "youtubeUrl": "https://youtu.be/09pdiPJdeqw",
-      "narration": [
-        "今回は、Tsumiage Logの技術構成を短く解説します。",
-        "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-        "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6817,55 +6817,6 @@
         "主な技術は未分類です。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、プロジェクトの初期構成と開発基盤が整備されました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
-    {
-      "slug": "cosme-stock-alert",
-      "repository": "cosme-stock-alert",
-      "title": "Cosme Stock Alertの技術解説｜設計と実装を75秒で紹介",
-      "description": "Cosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "TypeScript・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/cosme-stock-alert",
-      "repositoryUrl": "https://github.com/syunnjack/cosme-stock-alert",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/cosme-stock-alert\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/cosme-stock-alert\n\nCosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Cosme Stock Alertの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "Cosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/cosme-stock-alert\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-12-19T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/cosme-stock-alert/cosme-stock-alert-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/cosme-stock-alert/cosme-stock-alert-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Cosme Stock Alertの技術構成を短く解説します。",
-        "Cosme Stock Alertは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     }
