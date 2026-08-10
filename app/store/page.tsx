@@ -85,17 +85,22 @@ export default function StorePage() {
       {
         "@type": "Question",
         name: "決済方法は何に対応していますか？",
-        acceptedAnswer: { "@type": "Answer", text: "限定動画（PPV）はBOOTHでの購入に対応します。BOOTHが対応する各種決済方法（クレジットカード、PayPal、キャリア決済など）がご利用いただけます。" },
+        acceptedAnswer: { "@type": "Answer", text: "動画コンテンツ・ソフトウェア製品ともにBOOTHでの購入に対応します。クレジットカード、PayPay、コンビニ払い、キャリア決済など、BOOTHが対応する各種決済方法がご利用いただけます。" },
       },
       {
         "@type": "Question",
         name: "購入形式はどのような形ですか？",
-        acceptedAnswer: { "@type": "Answer", text: "動画ごとの単品購入（PPV）です。サブスクリプションではなく、見たい動画だけを都度購入する形式です。" },
+        acceptedAnswer: { "@type": "Answer", text: "動画は単品PPV購入、ソフトウェア製品は買い切りです。サブスクリプション不要で、一度購入したソフトウェアは永続利用できます。" },
       },
       {
         "@type": "Question",
         name: "無料で見られる部分はありますか？",
-        acceptedAnswer: { "@type": "Answer", text: "はい。限定動画は導入部分を無料でご覧いただけます。プロジェクト紹介動画は全編無料で公開しています。" },
+        acceptedAnswer: { "@type": "Answer", text: "限定動画は導入部分を無料でご覧いただけます。時短レシピ支援アプリは /tools/recipe で無料お試し版を公開中です。" },
+      },
+      {
+        "@type": "Question",
+        name: "ソフトウェア製品の動作環境は？",
+        acceptedAnswer: { "@type": "Answer", text: "SEO管理ダッシュボード ProはGoogleアカウントとNext.js環境が必要です。時短レシピ支援アプリは楽天APIキーとNext.js環境（Vercelなど）が必要です。" },
       },
     ],
   }
@@ -209,6 +214,95 @@ export default function StorePage() {
           </div>
         </section>
       )}
+
+      {/* ソフトウェア製品セクション */}
+      <section className="store-demo-section">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">
+              <span />
+              ソフトウェア製品
+            </p>
+            <h2>使えるツールをBOOTHで販売中</h2>
+          </div>
+          <p>買い切りの開発ツール・Webアプリです。BOOTHにて購入後すぐにご利用いただけます。</p>
+        </div>
+        <div className="store-video-grid">
+
+          {/* SEO管理ダッシュボード Pro */}
+          <article className="store-video-card">
+            <div style={{ background: 'linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%)', minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px 12px 0 0' }}>
+              <div style={{ textAlign: 'center', color: 'white', padding: '24px' }}>
+                <div style={{ fontSize: '48px', marginBottom: '12px' }}>🔍</div>
+                <div style={{ fontSize: '18px', fontWeight: 'bold' }}>SEO管理ダッシュボード Pro</div>
+                <div style={{ fontSize: '13px', opacity: 0.85, marginTop: '6px' }}>Search Console + GA4 を一画面で</div>
+              </div>
+            </div>
+            <div className="store-video-body">
+              <span className="store-video-badge">ソフトウェア 買い切り</span>
+              <h2>SEO管理ダッシュボード Pro</h2>
+              <p>
+                GoogleアカウントでログインするだけでSearch ConsoleとGA4の全プロパティを一画面に表示。
+                サイトマップ送信・測定IDコピー・プロパティへの直接リンクが即座に行えます。
+                100サイト以上を管理する方の作業時間を大幅に削減します。
+              </p>
+              <ul style={{ fontSize: '13px', color: '#555', marginTop: '12px', lineHeight: '2', listStyle: 'none', padding: 0 }}>
+                <li>✅ 全SCプロパティを自動取得・一覧表示</li>
+                <li>✅ GA4測定IDをワンクリックでコピー</li>
+                <li>✅ サイトマップの確認・送信がその場で完結</li>
+                <li>✅ Google OAuthによる安全な認証</li>
+              </ul>
+              <a
+                className="store-buy-button"
+                href="https://chitamaru.booth.pm/items/seo-dashboard-pro"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BOOTHで購入する — ¥3,800
+              </a>
+              <p className="store-price-note">買い切り価格 ¥3,800（税込）| Google OAuthの設定が必要です</p>
+            </div>
+          </article>
+
+          {/* 時短レシピ支援アプリ */}
+          <article className="store-video-card">
+            <div style={{ background: 'linear-gradient(135deg, #f97316 0%, #ef4444 100%)', minHeight: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px 12px 0 0' }}>
+              <div style={{ textAlign: 'center', color: 'white', padding: '24px' }}>
+                <div style={{ fontSize: '48px', marginBottom: '12px' }}>🍳</div>
+                <div style={{ fontSize: '18px', fontWeight: 'bold' }}>時短レシピ支援アプリ</div>
+                <div style={{ fontSize: '13px', opacity: 0.85, marginTop: '6px' }}>楽天レシピ × 食材費概算</div>
+              </div>
+            </div>
+            <div className="store-video-body">
+              <span className="store-video-badge">Webアプリ 買い切り</span>
+              <h2>時短レシピ支援アプリ</h2>
+              <p>
+                楽天レシピから今日の料理を選ぶだけ。必要な食材リストと金額の概算がすぐに確認できます。
+                食材ごとのチェックボックスで買い物リストとしても使え、毎日の食費管理をサポートします。
+              </p>
+              <ul style={{ fontSize: '13px', color: '#555', marginTop: '12px', lineHeight: '2', listStyle: 'none', padding: 0 }}>
+                <li>✅ 楽天レシピ人気ランキングをカテゴリ別に表示</li>
+                <li>✅ 食材ごとの金額概算を自動表示（独自データベース）</li>
+                <li>✅ 買い物チェックリスト機能付き</li>
+                <li>✅ 調理時間・節約順にソート可能</li>
+              </ul>
+              <a
+                className="store-buy-button"
+                href="https://chitamaru.booth.pm/items/jitan-recipe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BOOTHで購入する — ¥580
+              </a>
+              <p className="store-price-note">
+                買い切り価格 ¥580（税込）|{" "}
+                <a href="/tools/recipe" style={{ color: '#f97316', textDecoration: 'underline' }}>無料で試す →</a>
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
 
       <section className="store-faq">
         <h2>よくある質問</h2>
