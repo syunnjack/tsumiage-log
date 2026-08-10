@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:51:39.253Z",
+  "generatedAt": "2026-08-10T14:44:15.145Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,55 +9,6 @@
   ],
   "queuedCount": 140,
   "videos": [
-    {
-      "slug": "local-service-finder",
-      "repository": "local-service-finder",
-      "title": "Local Service Finderの技術解説｜設計と実装を75秒で紹介",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "language": "TypeScript・JavaScript・CSS",
-      "articleUrl": "https://syunnjack.dev/articles/local-service-finder",
-      "repositoryUrl": "https://github.com/syunnjack/local-service-finder",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-service-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-service-finder\n\n市町村別の生活・美容・教育サービス比較基盤\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Local Service Finderの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "市町村別の生活・美容・教育サービス比較基盤"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/local-service-finder\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "rendered",
-      "localVideoUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.mp4",
-      "localPptxUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.pptx",
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Local Service Finderの技術構成を短く解説します。",
-        "市町村別の生活・美容・教育サービス比較基盤",
-        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
     {
       "slug": "tsumiage-log",
       "repository": "tsumiage-log",
@@ -104,6 +55,55 @@
         "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "local-service-finder",
+      "repository": "local-service-finder",
+      "title": "Local Service Finderの技術解説｜設計と実装を75秒で紹介",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "language": "TypeScript・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/local-service-finder",
+      "repositoryUrl": "https://github.com/syunnjack/local-service-finder",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/local-service-finder\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/local-service-finder\n\n市町村別の生活・美容・教育サービス比較基盤\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Local Service Finderの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "市町村別の生活・美容・教育サービス比較基盤"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/local-service-finder\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Local Service Finderの技術構成を短く解説します。",
+        "市町村別の生活・美容・教育サービス比較基盤",
+        "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
