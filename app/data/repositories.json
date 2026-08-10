@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T08:52:38.857Z",
+  "generatedAt": "2026-08-10T09:52:14.453Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,228 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        },
+        {
+          "sha": "7b35a98",
+          "message": "feat: add verified house cleaning providers",
+          "date": "2026-07-24T14:14:41Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/7b35a988a49c60077668585bf526d557a4478c97"
+        }
+      ],
+      "updatedAt": "2026-07-29T12:29:28Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "d42e646",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T08:52:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d42e6466bfac4e7202ed9beed2d700dcc1248e4b"
+        },
+        {
+          "sha": "20f17cc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T07:58:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/20f17cc81ad1dc6718a0b65a45e4763b14d4a3ef"
+        },
+        {
+          "sha": "f76c5f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T06:49:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
+        },
+        {
+          "sha": "6770208",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T05:49:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/677020815ea21dac8155d3e169dd28f7dcc5288e"
+        },
+        {
+          "sha": "8bb06d5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T04:53:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bb06d53326b1785bfa471a9c57a0e4731c05d32"
+        },
+        {
+          "sha": "3f032f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:57:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f032f58c3a7d83f760c7ffceaa561b2bc5b0515"
+        },
+        {
+          "sha": "005bf21",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:05:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/005bf21f55665d4cbd15bf6d46b14119d0ea7245"
+        },
+        {
+          "sha": "db69936",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T01:57:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/db6993630be78f43833886a90aa3f2fe6f70256e"
+        },
+        {
+          "sha": "48c5ac6",
+          "message": "Fix store showcase videos returning 404",
+          "date": "2026-08-10T00:48:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/48c5ac6a084325e04214f566e373c63f9e2a3501"
+        },
+        {
+          "sha": "e9d9031",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T00:39:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9d90319fc045689ef8da4b96d6dad174c153024"
+        },
+        {
+          "sha": "cb36305",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T23:28:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
+        },
+        {
+          "sha": "34da7f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T22:29:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
+        }
+      ],
+      "updatedAt": "2026-08-10T08:53:57Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "bus-arrival-guide",
       "name": "bus-arrival-guide",
@@ -121,116 +343,6 @@
         }
       ],
       "updatedAt": "2026-08-10T08:16:18Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "20f17cc",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T07:58:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/20f17cc81ad1dc6718a0b65a45e4763b14d4a3ef"
-        },
-        {
-          "sha": "f76c5f3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T06:49:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
-        },
-        {
-          "sha": "6770208",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T05:49:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/677020815ea21dac8155d3e169dd28f7dcc5288e"
-        },
-        {
-          "sha": "8bb06d5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T04:53:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bb06d53326b1785bfa471a9c57a0e4731c05d32"
-        },
-        {
-          "sha": "3f032f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T03:57:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f032f58c3a7d83f760c7ffceaa561b2bc5b0515"
-        },
-        {
-          "sha": "005bf21",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T03:05:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/005bf21f55665d4cbd15bf6d46b14119d0ea7245"
-        },
-        {
-          "sha": "db69936",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T01:57:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/db6993630be78f43833886a90aa3f2fe6f70256e"
-        },
-        {
-          "sha": "48c5ac6",
-          "message": "Fix store showcase videos returning 404",
-          "date": "2026-08-10T00:48:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/48c5ac6a084325e04214f566e373c63f9e2a3501"
-        },
-        {
-          "sha": "e9d9031",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T00:39:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9d90319fc045689ef8da4b96d6dad174c153024"
-        },
-        {
-          "sha": "cb36305",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T23:28:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
-        },
-        {
-          "sha": "34da7f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T22:29:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
-        },
-        {
-          "sha": "084ea08",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T21:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/084ea085cf9f420fed41da35e602f60c545b1d8c"
-        }
-      ],
-      "updatedAt": "2026-08-10T07:58:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -10007,118 +10119,6 @@
         }
       ],
       "updatedAt": "2026-07-25T00:01:13Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-service-finder",
-      "name": "local-service-finder",
-      "displayName": "Local Service Finder",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-service-finder",
-      "defaultBranch": "codex/house-cleaning-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "e3fcc9a",
-          "message": "feat: prioritize helpful discovery on home",
-          "date": "2026-07-24T16:50:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
-        },
-        {
-          "sha": "b0d4de1",
-          "message": "feat: add handyman and silver center comparisons",
-          "date": "2026-07-24T16:45:37Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
-        },
-        {
-          "sha": "106b505",
-          "message": "feat: add verified locksmith regional data",
-          "date": "2026-07-24T16:39:27Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
-        },
-        {
-          "sha": "7693641",
-          "message": "feat: add verified garden regional data",
-          "date": "2026-07-24T16:34:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
-        },
-        {
-          "sha": "c38200e",
-          "message": "feat: add verified regional care data",
-          "date": "2026-07-24T16:33:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
-        },
-        {
-          "sha": "adeda1d",
-          "message": "feat: add verified moving regional data",
-          "date": "2026-07-24T16:29:29Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
-        },
-        {
-          "sha": "409ea73",
-          "message": "feat: add verified regional service data",
-          "date": "2026-07-24T16:25:58Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
-        },
-        {
-          "sha": "e344dab",
-          "message": "fix: consolidate thin regional search pages",
-          "date": "2026-07-24T16:19:55Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
-        },
-        {
-          "sha": "8e6e757",
-          "message": "feat: distinguish verified review experiences",
-          "date": "2026-07-24T16:16:23Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
-        },
-        {
-          "sha": "9d5a3a9",
-          "message": "feat: strengthen search and AI discovery signals",
-          "date": "2026-07-24T16:12:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
-        },
-        {
-          "sha": "d9c89ba",
-          "message": "feat: connect related local service journeys",
-          "date": "2026-07-24T14:33:47Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
-        },
-        {
-          "sha": "7b35a98",
-          "message": "feat: add verified house cleaning providers",
-          "date": "2026-07-24T14:14:41Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/7b35a988a49c60077668585bf526d557a4478c97"
-        }
-      ],
-      "updatedAt": "2026-07-29T12:29:28Z",
       "stars": 0,
       "forks": 0
     },
