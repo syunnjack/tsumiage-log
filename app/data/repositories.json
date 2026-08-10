@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T09:52:14.453Z",
+  "generatedAt": "2026-08-10T10:44:11.438Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,93 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "maportal",
+      "name": "maportal",
+      "displayName": "Maportal",
+      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/maportal",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "cf475ed",
+          "message": "Hold Places results for 7 days instead of 1 hour",
+          "date": "2026-08-10T10:24:43Z",
+          "url": "https://github.com/syunnjack/maportal/commit/cf475ed9ad30cf2bb403edfa494f3bd3b4463c5b"
+        },
+        {
+          "sha": "0a18d6e",
+          "message": "Fix empty search results and point deploy at the real server",
+          "date": "2026-08-09T09:45:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/0a18d6eef14e595e752ea62093094a66fce49954"
+        },
+        {
+          "sha": "6cf4379",
+          "message": "Fix Xserver remote directory creation (#1)",
+          "date": "2026-08-04T03:04:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
+        },
+        {
+          "sha": "a9a6678",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T18:03:36Z",
+          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
+        },
+        {
+          "sha": "6aa0e7d",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:10:18Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
+        },
+        {
+          "sha": "3a4a3dd",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:00:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
+        },
+        {
+          "sha": "7d456a4",
+          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
+          "date": "2026-07-14T10:22:33Z",
+          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
+        },
+        {
+          "sha": "55e634f",
+          "message": "Initial commit maportal",
+          "date": "2025-07-26T11:52:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
+        }
+      ],
+      "updatedAt": "2026-08-10T10:25:11Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "local-service-finder",
       "name": "local-service-finder",
@@ -197,6 +284,12 @@
       ],
       "commits": [
         {
+          "sha": "af040ec",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T09:52:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/af040ec511d7dfc55250a95fae0e490ff1a95c43"
+        },
+        {
           "sha": "d42e646",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T08:52:53Z",
@@ -261,15 +354,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-09T23:28:56Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
-        },
-        {
-          "sha": "34da7f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T22:29:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
         }
       ],
-      "updatedAt": "2026-08-10T08:53:57Z",
+      "updatedAt": "2026-08-10T09:54:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -2185,87 +2272,6 @@
         }
       ],
       "updatedAt": "2026-08-09T10:25:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "maportal",
-      "name": "maportal",
-      "displayName": "Maportal",
-      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/maportal",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "0a18d6e",
-          "message": "Fix empty search results and point deploy at the real server",
-          "date": "2026-08-09T09:45:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/0a18d6eef14e595e752ea62093094a66fce49954"
-        },
-        {
-          "sha": "6cf4379",
-          "message": "Fix Xserver remote directory creation (#1)",
-          "date": "2026-08-04T03:04:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
-        },
-        {
-          "sha": "a9a6678",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:03:36Z",
-          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
-        },
-        {
-          "sha": "6aa0e7d",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:18Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
-        },
-        {
-          "sha": "3a4a3dd",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:00:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
-        },
-        {
-          "sha": "7d456a4",
-          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
-          "date": "2026-07-14T10:22:33Z",
-          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
-        },
-        {
-          "sha": "55e634f",
-          "message": "Initial commit maportal",
-          "date": "2025-07-26T11:52:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
-        }
-      ],
-      "updatedAt": "2026-08-09T09:46:59Z",
       "stars": 0,
       "forks": 0
     },
