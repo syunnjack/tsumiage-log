@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:57:38.125Z",
+  "generatedAt": "2026-08-10T04:53:14.496Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -85,6 +85,12 @@
       ],
       "commits": [
         {
+          "sha": "3f032f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:57:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f032f58c3a7d83f760c7ffceaa561b2bc5b0515"
+        },
+        {
           "sha": "005bf21",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T03:05:21Z",
@@ -149,15 +155,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-09T17:30:04Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/3498cdd57b58904c267ad04ba6f0ed1dc6b2a016"
-        },
-        {
-          "sha": "75a27b1",
-          "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
-          "date": "2026-08-09T16:36:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
         }
       ],
-      "updatedAt": "2026-08-10T03:05:29Z",
+      "updatedAt": "2026-08-10T03:57:59Z",
       "stars": 0,
       "forks": 0
     },
