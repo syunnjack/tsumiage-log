@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T07:57:54.065Z",
+  "generatedAt": "2026-08-10T08:52:38.857Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,189 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "bus-arrival-guide",
+      "name": "bus-arrival-guide",
+      "displayName": "Bus Arrival Guide",
+      "description": "Bus Arrival Guideは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "bus arrival guide — BusStay（busstay.jp） 全国のバスターミナルから徒歩圏にある宿を、料金・口コミ・徒歩分で比較するサイト。 高速バスの到着後にそのまま向かえる距離の宿だけを掲載する。 データ源 内容 出典 ライセンス バスターミナルの名称・座標 OpenStreetMap（ amenity=bus station ほか） ODbL 宿泊施設の名称・料金・口コミ・画像 楽天トラベル（楽天ウェブサービス） 各社規約 徒歩分 上記2つから計算 — 掲載しているのは実在の施設のみ。 徒歩分は直線距離を徒歩1分80mで換算した目安であり、 実際の経路とは異なる。料金は最低料金の目安で時期により変動する。 データの更新 data/terminals.json （到着地）を読み、各地点の周辺にある宿を楽天トラベルAPIで集め、 src/data/arrivals.json を生成する。 楽天API利用上の注意 golf search / camp hikaku での実績から判明している点。 踏むと原因が分かりにくいので必ず守ること。 1. バージョンは /20260731/ 。旧 /20170426/ は「endpoint retired」ではなく 一般的な 503 を返すため、認証エラーと誤認しやすい。 2. Referer / Origin は 資格情報の登録URL （ golf search.org ）に合わせる。 リクエスト元ドメインではない。一致しないと 403 HTTP REFERRER NOT ALLOWED 。 3. 緯度経度は度ではなく 秒 （JGD2000 arcseconds）で返る。3600で割る。 4. この資格情報で使えるのは KeywordHotelSearch のみ。緯度経度による周辺検索 （ SimpleHotelSearch ）は提供されていないため、キーワードで引いてから 座標で距離を絞り込んでいる。 ビルドとデプロイ npm run build は scripts/prerender.mjs を続けて実行し",
+      "url": "https://github.com/syunnjack/bus-arrival-guide",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "data",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "0457c1b",
+          "message": "Replace prototype with real nationwide accommodation data",
+          "date": "2026-08-10T08:15:25Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/0457c1be17f8146afe9f6ed64ffdb0b6e18ed33c"
+        },
+        {
+          "sha": "2bc9e99",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:11:11Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/2bc9e991adfdd72e8b8de80cff6c7fa5aff4f2fd"
+        },
+        {
+          "sha": "7b0911a",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:26:53Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/7b0911aa5b857235978e94e5338d9b6396819bad"
+        },
+        {
+          "sha": "f129831",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:17:45Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/f129831943044d9e5b65b4a89763934eeddb2450"
+        },
+        {
+          "sha": "a7db66b",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:05:03Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/a7db66bc98d85e7d26bdaa7c04a579f369ed5fe1"
+        },
+        {
+          "sha": "629a675",
+          "message": "Add SEO UGC and monetization strategy",
+          "date": "2026-07-17T20:07:26Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/629a675a00feff65ba171447c6d11ff420ddb822"
+        },
+        {
+          "sha": "c8f4c7b",
+          "message": "Initial Bus Arrival Guide app",
+          "date": "2026-07-17T18:58:29Z",
+          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/c8f4c7bd3c23f65ba7d66b14e3a1d00ea2471e3d"
+        }
+      ],
+      "updatedAt": "2026-08-10T08:16:18Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "20f17cc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T07:58:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/20f17cc81ad1dc6718a0b65a45e4763b14d4a3ef"
+        },
+        {
+          "sha": "f76c5f3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T06:49:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
+        },
+        {
+          "sha": "6770208",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T05:49:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/677020815ea21dac8155d3e169dd28f7dcc5288e"
+        },
+        {
+          "sha": "8bb06d5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T04:53:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bb06d53326b1785bfa471a9c57a0e4731c05d32"
+        },
+        {
+          "sha": "3f032f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:57:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f032f58c3a7d83f760c7ffceaa561b2bc5b0515"
+        },
+        {
+          "sha": "005bf21",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:05:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/005bf21f55665d4cbd15bf6d46b14119d0ea7245"
+        },
+        {
+          "sha": "db69936",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T01:57:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/db6993630be78f43833886a90aa3f2fe6f70256e"
+        },
+        {
+          "sha": "48c5ac6",
+          "message": "Fix store showcase videos returning 404",
+          "date": "2026-08-10T00:48:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/48c5ac6a084325e04214f566e373c63f9e2a3501"
+        },
+        {
+          "sha": "e9d9031",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T00:39:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9d90319fc045689ef8da4b96d6dad174c153024"
+        },
+        {
+          "sha": "cb36305",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T23:28:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
+        },
+        {
+          "sha": "34da7f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T22:29:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
+        },
+        {
+          "sha": "084ea08",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-09T21:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/084ea085cf9f420fed41da35e602f60c545b1d8c"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:58:13Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "buyback-price-alert",
       "name": "buyback-price-alert",
@@ -346,116 +529,6 @@
         }
       ],
       "updatedAt": "2026-08-10T07:23:31Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "f76c5f3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T06:49:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
-        },
-        {
-          "sha": "6770208",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T05:49:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/677020815ea21dac8155d3e169dd28f7dcc5288e"
-        },
-        {
-          "sha": "8bb06d5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T04:53:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8bb06d53326b1785bfa471a9c57a0e4731c05d32"
-        },
-        {
-          "sha": "3f032f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T03:57:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f032f58c3a7d83f760c7ffceaa561b2bc5b0515"
-        },
-        {
-          "sha": "005bf21",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T03:05:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/005bf21f55665d4cbd15bf6d46b14119d0ea7245"
-        },
-        {
-          "sha": "db69936",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T01:57:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/db6993630be78f43833886a90aa3f2fe6f70256e"
-        },
-        {
-          "sha": "48c5ac6",
-          "message": "Fix store showcase videos returning 404",
-          "date": "2026-08-10T00:48:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/48c5ac6a084325e04214f566e373c63f9e2a3501"
-        },
-        {
-          "sha": "e9d9031",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T00:39:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9d90319fc045689ef8da4b96d6dad174c153024"
-        },
-        {
-          "sha": "cb36305",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T23:28:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb36305e9a98f3c122c134fe877480a2fab2b3cb"
-        },
-        {
-          "sha": "34da7f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T22:29:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/34da7f5eac41d45885951b0683cc3cf6643c7c1c"
-        },
-        {
-          "sha": "084ea08",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T21:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/084ea085cf9f420fed41da35e602f60c545b1d8c"
-        },
-        {
-          "sha": "cf1b96f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T20:28:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cf1b96f9a6dfeebde2b459f92c491dbf811d7978"
-        }
-      ],
-      "updatedAt": "2026-08-10T06:49:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -7552,71 +7625,6 @@
         }
       ],
       "updatedAt": "2026-08-04T14:14:35Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "bus-arrival-guide",
-      "name": "bus-arrival-guide",
-      "displayName": "Bus Arrival Guide",
-      "description": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです",
-      "readmeExcerpt": "bus arrival guide Bus Arrival Guideは、高速バスの到着地から宿・喫煙可・バストイレ付・周辺スポットへ誘導する比較ナビのプロトタイプです。 Concept 名古屋から静岡など、高速バス到着後の行動をまとめて比較する 宿泊、喫煙可、バストイレ付、深夜営業、駅近などの条件で探せる 到着時間に合わせて、カフェ、漫画喫茶、ゲームセンター、飲食店を提案する 将来的に楽天トラベル、じゃらん、Google Maps、バス比較API等へ接続する Suggested Domain https://syunnjack.github.io/bus arrival guide/ arrivalstay.jp bus yado.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
-      "url": "https://github.com/syunnjack/bus-arrival-guide",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "2bc9e99",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:11Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/2bc9e991adfdd72e8b8de80cff6c7fa5aff4f2fd"
-        },
-        {
-          "sha": "7b0911a",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:53Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/7b0911aa5b857235978e94e5338d9b6396819bad"
-        },
-        {
-          "sha": "f129831",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:45Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/f129831943044d9e5b65b4a89763934eeddb2450"
-        },
-        {
-          "sha": "a7db66b",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:03Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/a7db66bc98d85e7d26bdaa7c04a579f369ed5fe1"
-        },
-        {
-          "sha": "629a675",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/629a675a00feff65ba171447c6d11ff420ddb822"
-        },
-        {
-          "sha": "c8f4c7b",
-          "message": "Initial Bus Arrival Guide app",
-          "date": "2026-07-17T18:58:29Z",
-          "url": "https://github.com/syunnjack/bus-arrival-guide/commit/c8f4c7bd3c23f65ba7d66b14e3a1d00ea2471e3d"
-        }
-      ],
-      "updatedAt": "2026-08-04T14:14:15Z",
       "stars": 0,
       "forks": 0
     },
