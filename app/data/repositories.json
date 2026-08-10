@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:05:06.918Z",
+  "generatedAt": "2026-08-10T03:57:38.125Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,48 +52,6 @@
   ],
   "articles": [
     {
-      "slug": "anpi-",
-      "name": "anpi-",
-      "displayName": "Anpi",
-      "description": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
-      "readmeExcerpt": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム。 できること 従業員（ / ） 受付中の安否確認に回答する（無事 / 軽傷 / 重傷 / 救助が必要） 業務の可否を別に回答する（出社できる / 在宅なら可能 / 業務不可 / まだ分からない） 現在地と連絡事項を任意で添える 送信後も内容を訂正できる 管理者（ /admin ） 安否確認を発報する（本番 / 訓練） 回答率、回答済み、未回答、要対応（重傷・救助が必要）の件数を把握する 未回答者を氏名・部署・電話つきで一覧表示 する（電話で追う前提） 回答一覧を、重傷・救助が必要な人から順に見る 受付を終了する 名簿（ /admin/members ） CSVで一括登録・更新（列は 氏名, メール, 部署, 電話, 権限） 同じメールは上書き。回答履歴は消えない 設計上の判断 安否と業務可否を分けている。 「無事だが出社できない」を潰さないため。 受付中の発報は常に1件だけ。 複数を同時受付にすると「未回答者」の意味が壊れる。 名簿にないアカウントは回答できない。 回答率の母数を保つため。 検索エンジンには一切載せない。 従業員の氏名・所在・連絡先を扱うため、 worker/index.ts で全応答に noindex, nofollow, noarchive を付けている。 技術構成 Next.js vinext + React 19 + Cloudflare Workers + D1 認証は ChatGPT アカウント（ oai authenticated user email ヘッダ） 管理権限は名簿の role=admin 、または環境変数 ANPI ADMIN EMAILS の許可リスト 環境変数 変数 用途 ANPI ADMIN EMAILS 管理者のメールアドレス（カンマ区切り）。名簿が空の初期状態でも管理画面に入るための逃げ道 セットアップ デプロイ Site Creator / Codex のセッションに依頼する。 git push では反映されない。 ",
-      "url": "https://github.com/syunnjack/anpi-",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "8389a9a",
-          "message": "Add employee safety confirmation system",
-          "date": "2026-08-10T02:37:01Z",
-          "url": "https://github.com/syunnjack/anpi-/commit/8389a9adda68db9d2bbaf94d953eccb81c674eb3"
-        }
-      ],
-      "updatedAt": "2026-08-10T02:37:11Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -126,6 +84,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "005bf21",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T03:05:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/005bf21f55665d4cbd15bf6d46b14119d0ea7245"
+        },
         {
           "sha": "db69936",
           "message": "Update repository articles from GitHub activity",
@@ -191,15 +155,51 @@
           "message": "Expand gyosei-shoshi article to ~3300 chars and add thumbnail",
           "date": "2026-08-09T16:36:34Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/75a27b1e6571a26c2ac89b861df5bbe2ce702c54"
-        },
-        {
-          "sha": "87cbceb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-09T16:28:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/87cbceba00885ed32295c1f66bba45b2fbfeab3d"
         }
       ],
-      "updatedAt": "2026-08-10T01:57:48Z",
+      "updatedAt": "2026-08-10T03:05:29Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "anpi-",
+      "name": "anpi-",
+      "displayName": "Anpi",
+      "description": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
+      "readmeExcerpt": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム。 できること 従業員（ / ） 受付中の安否確認に回答する（無事 / 軽傷 / 重傷 / 救助が必要） 業務の可否を別に回答する（出社できる / 在宅なら可能 / 業務不可 / まだ分からない） 現在地と連絡事項を任意で添える 送信後も内容を訂正できる 管理者（ /admin ） 安否確認を発報する（本番 / 訓練） 回答率、回答済み、未回答、要対応（重傷・救助が必要）の件数を把握する 未回答者を氏名・部署・電話つきで一覧表示 する（電話で追う前提） 回答一覧を、重傷・救助が必要な人から順に見る 受付を終了する 名簿（ /admin/members ） CSVで一括登録・更新（列は 氏名, メール, 部署, 電話, 権限） 同じメールは上書き。回答履歴は消えない 設計上の判断 安否と業務可否を分けている。 「無事だが出社できない」を潰さないため。 受付中の発報は常に1件だけ。 複数を同時受付にすると「未回答者」の意味が壊れる。 名簿にないアカウントは回答できない。 回答率の母数を保つため。 検索エンジンには一切載せない。 従業員の氏名・所在・連絡先を扱うため、 worker/index.ts で全応答に noindex, nofollow, noarchive を付けている。 技術構成 Next.js vinext + React 19 + Cloudflare Workers + D1 認証は ChatGPT アカウント（ oai authenticated user email ヘッダ） 管理権限は名簿の role=admin 、または環境変数 ANPI ADMIN EMAILS の許可リスト 環境変数 変数 用途 ANPI ADMIN EMAILS 管理者のメールアドレス（カンマ区切り）。名簿が空の初期状態でも管理画面に入るための逃げ道 セットアップ デプロイ Site Creator / Codex のセッションに依頼する。 git push では反映されない。 ",
+      "url": "https://github.com/syunnjack/anpi-",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "8389a9a",
+          "message": "Add employee safety confirmation system",
+          "date": "2026-08-10T02:37:01Z",
+          "url": "https://github.com/syunnjack/anpi-/commit/8389a9adda68db9d2bbaf94d953eccb81c674eb3"
+        }
+      ],
+      "updatedAt": "2026-08-10T02:37:11Z",
       "stars": 0,
       "forks": 0
     },

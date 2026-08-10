@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:05:07.091Z",
+  "generatedAt": "2026-08-10T03:57:38.303Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,55 +9,6 @@
   ],
   "queuedCount": 140,
   "videos": [
-    {
-      "slug": "anpi-",
-      "repository": "anpi-",
-      "title": "Anpiの技術解説｜設計と実装を75秒で紹介",
-      "description": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
-      "language": "TypeScript・CSS・JavaScript",
-      "articleUrl": "https://syunnjack.dev/articles/anpi-",
-      "repositoryUrl": "https://github.com/syunnjack/anpi-",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/anpi-\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/anpi-\n\nanpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム\n\n#技術解説 #個人開発 #TypeScript",
-      "slides": [
-        {
-          "title": "Anpiの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：TypeScript・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/anpi-\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Anpiの技術構成を短く解説します。",
-        "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
-        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
     {
       "slug": "tsumiage-log",
       "repository": "tsumiage-log",
@@ -104,6 +55,55 @@
         "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "anpi-",
+      "repository": "anpi-",
+      "title": "Anpiの技術解説｜設計と実装を75秒で紹介",
+      "description": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
+      "language": "TypeScript・CSS・JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/anpi-",
+      "repositoryUrl": "https://github.com/syunnjack/anpi-",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/anpi-\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/anpi-\n\nanpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム\n\n#技術解説 #個人開発 #TypeScript",
+      "slides": [
+        {
+          "title": "Anpiの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：TypeScript・CSS・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/anpi-\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-03T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Anpiの技術構成を短く解説します。",
+        "anpi — 社内安否確認システム 災害時に従業員の安否と出社可否を集めて集計する社内向けシステム",
+        "主な技術はTypeScript・CSS・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
