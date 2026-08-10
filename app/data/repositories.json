@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:36:58.448Z",
+  "generatedAt": "2026-08-10T19:40:29.087Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,82 +51,6 @@
     "yuniba"
   ],
   "articles": [
-    {
-      "slug": "ryoiki-samurai",
-      "name": "ryoiki-samurai",
-      "displayName": "Ryoiki Samurai",
-      "description": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
-      "readmeExcerpt": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです。 入力は外部送信・保存されず、ブラウザ内で処理されます。本サービスは法律相談や個別案件への法的助言を提供するものではありません。",
-      "url": "https://github.com/syunnjack/ryoiki-samurai",
-      "defaultBranch": "main",
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML"
-      ],
-      "files": [
-        "README.md",
-        "app.js",
-        "index.html",
-        "package.json",
-        "robots.txt",
-        "sitemap.xml",
-        "styles.css",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "ff8f1f5",
-          "message": "Add responsive site styles",
-          "date": "2026-08-10T18:04:09Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/ff8f1f5a9bf16427444bea75150b1f179b7cca71"
-        },
-        {
-          "sha": "c152c43",
-          "message": "Add production site markup",
-          "date": "2026-08-10T18:04:08Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/c152c43f423a51726c2a290e51c56e05be9a6f2f"
-        },
-        {
-          "sha": "9671a81",
-          "message": "Add app.js",
-          "date": "2026-08-10T18:03:24Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/9671a819b9ce4d34a93258a2b6bc123b4daffde7"
-        },
-        {
-          "sha": "6ea60af",
-          "message": "Add sitemap.xml",
-          "date": "2026-08-10T18:03:23Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/6ea60af9720833a71e5bf98032dceb7bf9cadbcd"
-        },
-        {
-          "sha": "d9dd102",
-          "message": "Add robots.txt",
-          "date": "2026-08-10T18:03:21Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/d9dd10270381919eb1ee815ca9e17a33ce0a7eaa"
-        },
-        {
-          "sha": "ef27ebd",
-          "message": "Add package.json",
-          "date": "2026-08-10T18:03:20Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/ef27ebd439caa26819359fda1d3f0d64e1c22598"
-        },
-        {
-          "sha": "fc2bea8",
-          "message": "Add vercel.json",
-          "date": "2026-08-10T18:03:19Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/fc2bea8e45fc09cea61e39a9986551e32762513f"
-        },
-        {
-          "sha": "2b7c750",
-          "message": "Initial commit: add project README",
-          "date": "2026-08-10T18:03:01Z",
-          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/2b7c750fb90a884b0cc465b324c255cdede9b3c2"
-        }
-      ],
-      "updatedAt": "2026-08-10T18:06:58Z",
-      "stars": 0,
-      "forks": 0
-    },
     {
       "slug": "local-service-finder",
       "name": "local-service-finder",
@@ -273,6 +197,12 @@
       ],
       "commits": [
         {
+          "sha": "5512b60",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T18:37:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5512b605ac85e6328a90864327139be3f19c0dd8"
+        },
+        {
           "sha": "9826b28",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T17:39:22Z",
@@ -337,15 +267,85 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T07:58:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/20f17cc81ad1dc6718a0b65a45e4763b14d4a3ef"
-        },
-        {
-          "sha": "f76c5f3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T06:49:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f76c5f34904dd4b697c871594f117c349b960102"
         }
       ],
-      "updatedAt": "2026-08-10T17:42:00Z",
+      "updatedAt": "2026-08-10T18:37:39Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ryoiki-samurai",
+      "name": "ryoiki-samurai",
+      "displayName": "Ryoiki Samurai",
+      "description": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
+      "readmeExcerpt": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです。 入力は外部送信・保存されず、ブラウザ内で処理されます。本サービスは法律相談や個別案件への法的助言を提供するものではありません。",
+      "url": "https://github.com/syunnjack/ryoiki-samurai",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "app.js",
+        "index.html",
+        "package.json",
+        "robots.txt",
+        "sitemap.xml",
+        "styles.css",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "ff8f1f5",
+          "message": "Add responsive site styles",
+          "date": "2026-08-10T18:04:09Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/ff8f1f5a9bf16427444bea75150b1f179b7cca71"
+        },
+        {
+          "sha": "c152c43",
+          "message": "Add production site markup",
+          "date": "2026-08-10T18:04:08Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/c152c43f423a51726c2a290e51c56e05be9a6f2f"
+        },
+        {
+          "sha": "9671a81",
+          "message": "Add app.js",
+          "date": "2026-08-10T18:03:24Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/9671a819b9ce4d34a93258a2b6bc123b4daffde7"
+        },
+        {
+          "sha": "6ea60af",
+          "message": "Add sitemap.xml",
+          "date": "2026-08-10T18:03:23Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/6ea60af9720833a71e5bf98032dceb7bf9cadbcd"
+        },
+        {
+          "sha": "d9dd102",
+          "message": "Add robots.txt",
+          "date": "2026-08-10T18:03:21Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/d9dd10270381919eb1ee815ca9e17a33ce0a7eaa"
+        },
+        {
+          "sha": "ef27ebd",
+          "message": "Add package.json",
+          "date": "2026-08-10T18:03:20Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/ef27ebd439caa26819359fda1d3f0d64e1c22598"
+        },
+        {
+          "sha": "fc2bea8",
+          "message": "Add vercel.json",
+          "date": "2026-08-10T18:03:19Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/fc2bea8e45fc09cea61e39a9986551e32762513f"
+        },
+        {
+          "sha": "2b7c750",
+          "message": "Initial commit: add project README",
+          "date": "2026-08-10T18:03:01Z",
+          "url": "https://github.com/syunnjack/ryoiki-samurai/commit/2b7c750fb90a884b0cc465b324c255cdede9b3c2"
+        }
+      ],
+      "updatedAt": "2026-08-10T18:06:58Z",
       "stars": 0,
       "forks": 0
     },

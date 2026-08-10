@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:36:58.626Z",
+  "generatedAt": "2026-08-10T19:40:29.229Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -9,55 +9,6 @@
   ],
   "queuedCount": 141,
   "videos": [
-    {
-      "slug": "ryoiki-samurai",
-      "repository": "ryoiki-samurai",
-      "title": "Ryoiki Samuraiの技術解説｜設計と実装を75秒で紹介",
-      "description": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
-      "language": "HTML",
-      "articleUrl": "https://syunnjack.dev/articles/ryoiki-samurai",
-      "repositoryUrl": "https://github.com/syunnjack/ryoiki-samurai",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ryoiki-samurai\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ryoiki-samurai\n\n士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです\n\n#技術解説 #個人開発 #HTML",
-      "slides": [
-        {
-          "title": "Ryoiki Samuraiの技術解説",
-          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
-        },
-        {
-          "title": "このプロジェクトは何を解決する？",
-          "body": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです"
-        },
-        {
-          "title": "技術スタック",
-          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
-        },
-        {
-          "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app.js、index.html"
-        },
-        {
-          "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
-        },
-        {
-          "title": "詳しくは積み上げログへ",
-          "body": "記事： https://syunnjack.dev/articles/ryoiki-samurai\n\n学び、作り、振り返る開発記録。"
-        }
-      ],
-      "publishAt": "2026-08-02T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
-      "youtubeUrl": null,
-      "narration": [
-        "今回は、Ryoiki Samuraiの技術構成を短く解説します。",
-        "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
-        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app.js、index.htmlを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
-        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
-      ]
-    },
     {
       "slug": "local-service-finder",
       "repository": "local-service-finder",
@@ -93,7 +44,7 @@
           "body": "記事： https://syunnjack.dev/articles/local-service-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-08-03T01:00:00.000Z",
+      "publishAt": "2026-08-02T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/local-service-finder/local-service-finder-tech-preview.pptx",
@@ -153,6 +104,55 @@
         "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
         "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "ryoiki-samurai",
+      "repository": "ryoiki-samurai",
+      "title": "Ryoiki Samuraiの技術解説｜設計と実装を75秒で紹介",
+      "description": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
+      "language": "HTML",
+      "articleUrl": "https://syunnjack.dev/articles/ryoiki-samurai",
+      "repositoryUrl": "https://github.com/syunnjack/ryoiki-samurai",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/ryoiki-samurai\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/ryoiki-samurai\n\n士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです\n\n#技術解説 #個人開発 #HTML",
+      "slides": [
+        {
+          "title": "Ryoiki Samuraiの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app.js、index.html"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/ryoiki-samurai\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-08-04T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Ryoiki Samuraiの技術構成を短く解説します。",
+        "士業領域ナビ 依頼内容を「行政書士領域」「弁護士領域」「境界／要確認」に一次判定する、依存関係なしの静的Webアプリです",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app.js、index.htmlを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
