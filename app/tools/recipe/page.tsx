@@ -5,6 +5,7 @@ import { fetchCategories } from '@/lib/rakuten-recipe';
 export const metadata: Metadata = {
   title: '時短レシピ支援 | 積み上げログ',
   description: '楽天レシピから時短料理を選んで、必要材料・金額概算をすぐに確認。今日の夕飯を素早く決めよう。',
+  alternates: { canonical: '/tools/recipe' },
 };
 
 // カテゴリの説明・アイコン

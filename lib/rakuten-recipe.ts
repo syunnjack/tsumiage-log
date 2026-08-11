@@ -21,6 +21,8 @@ export type RakutenRecipe = {
   rank: string;
 };
 
+export const RECIPE_CATEGORY_IDS = ['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '30'];
+
 const RAKUTEN_APP_ID = process.env.RAKUTEN_APP_ID || '';
 const BASE = 'https://app.rakuten.co.jp/services/api';
 
