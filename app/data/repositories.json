@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T15:35:15.330Z",
+  "generatedAt": "2026-08-11T16:35:00.641Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,118 @@
     "kyonyu-ranking"
   ],
   "articles": [
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "sitemap.xml",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "b28e5cb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T15:35:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b28e5cb149a66ee0ab9015efd856efa2e8b3b1f1"
+        },
+        {
+          "sha": "6939714",
+          "message": "Merge pull request #34 from syunnjack/codex/automated-video-20260811-2320",
+          "date": "2026-08-11T15:04:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/69397140bcd15beac9b0f0eaa7de65310e30493c"
+        },
+        {
+          "sha": "693575d",
+          "message": "Update repository articles and video assets",
+          "date": "2026-08-11T15:03:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/693575dd77820df82dd29598509c0ff2207446eb"
+        },
+        {
+          "sha": "d506237",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T14:39:30Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d506237c28eadf25ba188d2c7ff1779a94011163"
+        },
+        {
+          "sha": "94d6dcb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T13:46:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
+        },
+        {
+          "sha": "2b8b6be",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T12:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
+        },
+        {
+          "sha": "d067378",
+          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
+          "date": "2026-08-11T12:17:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
+        },
+        {
+          "sha": "cb66ea8",
+          "message": "Automate complete repository video publication",
+          "date": "2026-08-11T12:17:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
+        },
+        {
+          "sha": "1d746d7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T11:36:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
+        },
+        {
+          "sha": "fd431dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T10:37:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
+        },
+        {
+          "sha": "3522113",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T09:40:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
+        },
+        {
+          "sha": "3e17896",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T08:38:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
+        }
+      ],
+      "updatedAt": "2026-08-11T15:37:32Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "maportal",
       "name": "maportal",
@@ -532,118 +644,6 @@
         }
       ],
       "updatedAt": "2026-08-11T15:11:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "sitemap.xml",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "6939714",
-          "message": "Merge pull request #34 from syunnjack/codex/automated-video-20260811-2320",
-          "date": "2026-08-11T15:04:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/69397140bcd15beac9b0f0eaa7de65310e30493c"
-        },
-        {
-          "sha": "693575d",
-          "message": "Update repository articles and video assets",
-          "date": "2026-08-11T15:03:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/693575dd77820df82dd29598509c0ff2207446eb"
-        },
-        {
-          "sha": "d506237",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T14:39:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d506237c28eadf25ba188d2c7ff1779a94011163"
-        },
-        {
-          "sha": "94d6dcb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T13:46:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
-        },
-        {
-          "sha": "2b8b6be",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T12:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
-        },
-        {
-          "sha": "d067378",
-          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
-          "date": "2026-08-11T12:17:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
-        },
-        {
-          "sha": "cb66ea8",
-          "message": "Automate complete repository video publication",
-          "date": "2026-08-11T12:17:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
-        },
-        {
-          "sha": "1d746d7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T11:36:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
-        },
-        {
-          "sha": "fd431dd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T10:37:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
-        },
-        {
-          "sha": "3522113",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T09:40:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        },
-        {
-          "sha": "3e17896",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T08:38:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
-        },
-        {
-          "sha": "03a6757",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T07:49:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
-        }
-      ],
-      "updatedAt": "2026-08-11T15:08:06Z",
       "stars": 0,
       "forks": 0
     },
