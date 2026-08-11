@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T22:29:22.035Z",
+  "generatedAt": "2026-08-11T05:41:09.625Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -72,6 +72,7 @@
         "app",
         "docs",
         "eslint.config.mjs",
+        "lib",
         "next.config.ts",
         "output",
         "package-lock.json",
@@ -85,6 +86,54 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "538c8d5",
+          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
+          "date": "2026-08-11T05:09:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
+        },
+        {
+          "sha": "47e1fbb",
+          "message": "Fix GitHub Pages deployment",
+          "date": "2026-08-11T05:08:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
+        },
+        {
+          "sha": "ad16d6d",
+          "message": "Merge pull request #30 from syunnjack/codex/add-adsense-account",
+          "date": "2026-08-11T05:03:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ad16d6dc1cb8da630b30f0fa8e5adeefb5359372"
+        },
+        {
+          "sha": "2b56537",
+          "message": "Add AdSense account metadata",
+          "date": "2026-08-11T05:02:12Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b5653767c26242e14ca942af540a24abe49593d"
+        },
+        {
+          "sha": "18f7b1d",
+          "message": "feat: add YouTube upload script (upload-to-youtube.mjs)",
+          "date": "2026-08-11T04:44:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/18f7b1d34a6fc60cec5fc03bea4268be43a9e15a"
+        },
+        {
+          "sha": "2c5ab3d",
+          "message": "行政書士模試おすすめ5選の記事を公開",
+          "date": "2026-08-11T00:11:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c5ab3dab0d4dba681aea7dee436509e214537e0"
+        },
+        {
+          "sha": "a663712",
+          "message": "feat: 時短レシピ支援アプリ + ストアにSEO・レシピ製品を追加",
+          "date": "2026-08-10T23:27:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a6637122da6687a4036b3b0033b88bc5800cc6eb"
+        },
+        {
+          "sha": "09bcefa",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-10T22:29:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/09bcefae392da808509c65594c22d5083e4989b2"
+        },
         {
           "sha": "2e4c1f1",
           "message": "Update repository articles from GitHub activity",
@@ -108,57 +157,448 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T18:37:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/5512b605ac85e6328a90864327139be3f19c0dd8"
-        },
-        {
-          "sha": "9826b28",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T17:39:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9826b2868c75ef7bb0032999d4fe6cc733408f37"
-        },
-        {
-          "sha": "727c220",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T16:38:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/727c2206c14ca6cd21104bcccfc8b86d1868f133"
-        },
-        {
-          "sha": "b6857f0",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T15:38:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b6857f0eafaccde62a9fed6a81e82b52ec23e12e"
-        },
-        {
-          "sha": "27cde69",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T14:44:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/27cde6913682e4ae62c80882fcb17879f19a6519"
-        },
-        {
-          "sha": "960778f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T13:51:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/960778f3df612ddc331cb9b9bd992cf71d5cc7d5"
-        },
-        {
-          "sha": "20d80cd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T12:35:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/20d80cd7ae83b0cd5da663f8b1f545c88c4ad064"
-        },
-        {
-          "sha": "1a458ae",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T11:38:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1a458ae6035f6f60d44dd633e63d9056c2008958"
-        },
-        {
-          "sha": "293747c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T10:44:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/293747c83b6fc17c5da87e9250c18dc353ff6d72"
         }
       ],
-      "updatedAt": "2026-08-10T21:33:01Z",
+      "updatedAt": "2026-08-11T05:09:12Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "job-match-alert",
+      "name": "job-match-alert",
+      "displayName": "Job Match Alert",
+      "description": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
+      "readmeExcerpt": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert.jp Other candidates: jobmatchalert.jp jobping.jp kyujinalert.jp workmatch.jp Concept 条件一致求人、新着、締切、面接枠を通知し、採用成果報酬と掲載課金へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 採用成果報酬 掲載課金 面接予約 スカウト課金 広告 Commands",
+      "url": "https://github.com/syunnjack/job-match-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "11837d6",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:07:43Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/11837d62e841099b5f49bb7c7915740846fb0693"
+        },
+        {
+          "sha": "f9912f9",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:03:52Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/f9912f9ef82005270c32e3b6d60fe5b6129697df"
+        },
+        {
+          "sha": "13a45a8",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:00:17Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/13a45a87c5c8c29693898313a19a0bbb6e65b4d8"
+        },
+        {
+          "sha": "28a3092",
+          "message": "Fix title/description: use Japanese copy matching actual content",
+          "date": "2026-08-04T15:17:38Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/28a30928d3044d943c422268642185d45ce2ed52"
+        },
+        {
+          "sha": "6f12fa6",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:12:09Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/6f12fa65ecfb550e187be70b3ec524dd3e736e4a"
+        },
+        {
+          "sha": "8415eb2",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:27:35Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/8415eb28b1896c1d0a252ce1e8ced52e01a5206b"
+        },
+        {
+          "sha": "99756c7",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:18:44Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/99756c7d42c9edfb74e8df143367bebd34e94185"
+        },
+        {
+          "sha": "6ebf492",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:56:32Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/6ebf492d94a10d58a72415cdb3f5782a20e63738"
+        },
+        {
+          "sha": "e37dc2f",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:08Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/e37dc2f9b87e8f123d0ab0c992bf2295cb09d2f2"
+        },
+        {
+          "sha": "a5eae09",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:51Z",
+          "url": "https://github.com/syunnjack/job-match-alert/commit/a5eae097632b64cd197bf661e40eaefb38a4a0b8"
+        }
+      ],
+      "updatedAt": "2026-08-10T21:07:59Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "togo-kanri-tool",
+      "name": "togo-kanri-tool",
+      "displayName": "Togo Kanri Tool",
+      "description": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext",
+      "readmeExcerpt": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext.jsアプリです。 デプロイし忘れ（完成済み） 未完成 サイトではないツール・SDK・API 重複・統合候補 主な機能 84件の既存棚卸しデータを初期表示 リポジトリ名・所見の検索と分類フィルター GitHub APIとVercel APIによる自動棚卸し 毎日06:00（日本時間）のVercel Cron Supabaseへの最新スナップショット保存 PWA対応（PC・スマートフォンへインストール可能） 既存のGSC・GA4サイト分析機能を保持 セットアップ 1. npm install 2. .env.example を参考に環境変数を設定 3. Supabase SQL Editorで supabase/schema.sql と supabase/schema inventory.sql を実行 4. npm run dev 本番では CRON SECRET を必ず設定してください。自動棚卸しAPIは Authorization: Bearer 以外を拒否します。 確認",
+      "url": "https://github.com/syunnjack/togo-kanri-tool",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "components",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "scripts",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "a7d04cd",
+          "message": "Build RepoKura daily inventory MVP",
+          "date": "2026-08-11T04:31:34Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/a7d04cde3bccf2fbc85682c379340ae005dc6305"
+        },
+        {
+          "sha": "3bea4bd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:35Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/3bea4bdff83ef0757e04766d958539d8439b0fbb"
+        },
+        {
+          "sha": "95e446a",
+          "message": "Add GA4 integration alongside Search Console",
+          "date": "2026-07-31T19:11:50Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/95e446a35703aebf4c917516f58870a7a3b05529"
+        },
+        {
+          "sha": "48a92c3",
+          "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
+          "date": "2026-07-29T14:58:04Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
+        }
+      ],
+      "updatedAt": "2026-08-11T04:31:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "ca97afd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:19Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
+        },
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:29:47Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "dqwalk-mukatoshin",
+      "name": "dqwalk-mukatoshin",
+      "displayName": "Dqwalk Mukatoshin",
+      "description": "Dqwalk Mukatoshinは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Dqwalk Mukatoshinは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/dqwalk-mukatoshin",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "data",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "b8cf899",
+          "message": "feat: update API base URL to dqwapi.dev",
+          "date": "2026-08-10T23:07:56Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/b8cf8994c9a7605b35480efab61c0aabb48d7968"
+        },
+        {
+          "sha": "d19f6c4",
+          "message": "feat: add PokéAPI-style DQW REST API v2",
+          "date": "2026-08-10T22:46:00Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/d19f6c447a48ecd94a691a648d0d18c3768251ee"
+        },
+        {
+          "sha": "8f80efa",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:08:30Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/8f80efa39aa7a17b65636e2294f791b0a371e74a"
+        },
+        {
+          "sha": "172322a",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:04:34Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/172322a2446433fb7cabb8484be20c0d456338cc"
+        },
+        {
+          "sha": "faf9f25",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:01:02Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/faf9f25e66bed4e2b57c457387db71c2fc868c52"
+        },
+        {
+          "sha": "299ee4d",
+          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
+          "date": "2026-07-26T18:02:09Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
+        },
+        {
+          "sha": "48e7a13",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T17:52:39Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/48e7a13763f1e7aec36b91d37be280296b752240"
+        }
+      ],
+      "updatedAt": "2026-08-10T23:09:13Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ai-quiz-study",
+      "name": "ai-quiz-study",
+      "displayName": "Ai Quiz Study",
+      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
+      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
+      "url": "https://github.com/syunnjack/ai-quiz-study",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "9c98c85",
+          "message": "Turn landing page into a working quiz app with 402 questions",
+          "date": "2026-08-10T22:32:38Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/9c98c85954dc59cbb9bc820197d79845b495e3bf"
+        },
+        {
+          "sha": "db586d3",
+          "message": "seo: add IndexNow key file",
+          "date": "2026-08-10T21:08:36Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/db586d395944a555643199f595eaac4c0e6c7400"
+        },
+        {
+          "sha": "f324076",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:06:13Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/f3240763a2932f2e5da72c04d122a58ceeeb09eb"
+        },
+        {
+          "sha": "6d7c5d5",
+          "message": "seo: add IndexNow key file",
+          "date": "2026-08-10T21:04:41Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7c5d507f452de285f2b8128ccd1f9357e75d96"
+        },
+        {
+          "sha": "f0c83f4",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:02:24Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/f0c83f4d31ed5f7d18f98b92cc72450efd1fda13"
+        },
+        {
+          "sha": "95eca5e",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T20:58:40Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95eca5e2e6a954d7f77a4cd77c297be830e5f520"
+        },
+        {
+          "sha": "97f3d19",
+          "message": "Remove operator-facing tech/revenue/growth jargon from user-facing UI",
+          "date": "2026-08-09T17:56:02Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/97f3d19bc4db1edcfcd722fb8d76ada55f0377c4"
+        },
+        {
+          "sha": "fd1cee9",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:10:57Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/fd1cee9fcde540912842ee0d9145b1857375a0a5"
+        },
+        {
+          "sha": "02cadf2",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:26:38Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
+        },
+        {
+          "sha": "ea10cbd",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:17:26Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/ea10cbdd7494724a0dcb5ca3039818a35a5099e9"
+        },
+        {
+          "sha": "0df3b41",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:55:49Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/0df3b41bcfe3fd9f83b198153637d46ba742700d"
+        },
+        {
+          "sha": "95e498c",
+          "message": "Fix production URL in README (#1)",
+          "date": "2026-07-31T23:04:57Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
+        }
+      ],
+      "updatedAt": "2026-08-10T22:33:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -774,107 +1214,6 @@
       "forks": 0
     },
     {
-      "slug": "ai-quiz-study",
-      "name": "ai-quiz-study",
-      "displayName": "Ai Quiz Study",
-      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
-      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
-      "url": "https://github.com/syunnjack/ai-quiz-study",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "db586d3",
-          "message": "seo: add IndexNow key file",
-          "date": "2026-08-10T21:08:36Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/db586d395944a555643199f595eaac4c0e6c7400"
-        },
-        {
-          "sha": "f324076",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:06:13Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/f3240763a2932f2e5da72c04d122a58ceeeb09eb"
-        },
-        {
-          "sha": "6d7c5d5",
-          "message": "seo: add IndexNow key file",
-          "date": "2026-08-10T21:04:41Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/6d7c5d507f452de285f2b8128ccd1f9357e75d96"
-        },
-        {
-          "sha": "f0c83f4",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:02:24Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/f0c83f4d31ed5f7d18f98b92cc72450efd1fda13"
-        },
-        {
-          "sha": "95eca5e",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:58:40Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95eca5e2e6a954d7f77a4cd77c297be830e5f520"
-        },
-        {
-          "sha": "97f3d19",
-          "message": "Remove operator-facing tech/revenue/growth jargon from user-facing UI",
-          "date": "2026-08-09T17:56:02Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/97f3d19bc4db1edcfcd722fb8d76ada55f0377c4"
-        },
-        {
-          "sha": "fd1cee9",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:10:57Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/fd1cee9fcde540912842ee0d9145b1857375a0a5"
-        },
-        {
-          "sha": "02cadf2",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
-        },
-        {
-          "sha": "ea10cbd",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:26Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/ea10cbdd7494724a0dcb5ca3039818a35a5099e9"
-        },
-        {
-          "sha": "0df3b41",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:55:49Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/0df3b41bcfe3fd9f83b198153637d46ba742700d"
-        },
-        {
-          "sha": "95e498c",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:04:57Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
-        },
-        {
-          "sha": "42dc506",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:34:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/42dc50607f23775b4cbfbbcd92b6202b10b1fed6"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:09:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "bowling-score-hub",
       "name": "bowling-score-hub",
       "displayName": "Bowling Score Hub",
@@ -1177,71 +1516,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:08:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "dqwalk-mukatoshin",
-      "name": "dqwalk-mukatoshin",
-      "displayName": "Dqwalk Mukatoshin",
-      "description": "Dqwalk Mukatoshinは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Dqwalk Mukatoshinは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/dqwalk-mukatoshin",
-      "defaultBranch": "master",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "AGENTS.md",
-        "CLAUDE.md",
-        "README.md",
-        "app",
-        "data",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "8f80efa",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:08:30Z",
-          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/8f80efa39aa7a17b65636e2294f791b0a371e74a"
-        },
-        {
-          "sha": "172322a",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:04:34Z",
-          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/172322a2446433fb7cabb8484be20c0d456338cc"
-        },
-        {
-          "sha": "faf9f25",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:01:02Z",
-          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/faf9f25e66bed4e2b57c457387db71c2fc868c52"
-        },
-        {
-          "sha": "299ee4d",
-          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
-          "date": "2026-07-26T18:02:09Z",
-          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
-        },
-        {
-          "sha": "48e7a13",
-          "message": "Initial commit from Create Next App",
-          "date": "2026-07-26T17:52:39Z",
-          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/48e7a13763f1e7aec36b91d37be280296b752240"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:08:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -3730,95 +4004,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:07:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "job-match-alert",
-      "name": "job-match-alert",
-      "displayName": "Job Match Alert",
-      "description": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
-      "readmeExcerpt": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert.jp Other candidates: jobmatchalert.jp jobping.jp kyujinalert.jp workmatch.jp Concept 条件一致求人、新着、締切、面接枠を通知し、採用成果報酬と掲載課金へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 採用成果報酬 掲載課金 面接予約 スカウト課金 広告 Commands",
-      "url": "https://github.com/syunnjack/job-match-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "11837d6",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:07:43Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/11837d62e841099b5f49bb7c7915740846fb0693"
-        },
-        {
-          "sha": "f9912f9",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:03:52Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/f9912f9ef82005270c32e3b6d60fe5b6129697df"
-        },
-        {
-          "sha": "13a45a8",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:00:17Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/13a45a87c5c8c29693898313a19a0bbb6e65b4d8"
-        },
-        {
-          "sha": "28a3092",
-          "message": "Fix title/description: use Japanese copy matching actual content",
-          "date": "2026-08-04T15:17:38Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/28a30928d3044d943c422268642185d45ce2ed52"
-        },
-        {
-          "sha": "6f12fa6",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:12:09Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/6f12fa65ecfb550e187be70b3ec524dd3e736e4a"
-        },
-        {
-          "sha": "8415eb2",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:27:35Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/8415eb28b1896c1d0a252ce1e8ced52e01a5206b"
-        },
-        {
-          "sha": "99756c7",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:18:44Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/99756c7d42c9edfb74e8df143367bebd34e94185"
-        },
-        {
-          "sha": "6ebf492",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:56:32Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/6ebf492d94a10d58a72415cdb3f5782a20e63738"
-        },
-        {
-          "sha": "e37dc2f",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:08Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/e37dc2f9b87e8f123d0ab0c992bf2295cb09d2f2"
-        },
-        {
-          "sha": "a5eae09",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:51Z",
-          "url": "https://github.com/syunnjack/job-match-alert/commit/a5eae097632b64cd197bf661e40eaefb38a4a0b8"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:07:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -7247,118 +7432,6 @@
       "forks": 0
     },
     {
-      "slug": "local-service-finder",
-      "name": "local-service-finder",
-      "displayName": "Local Service Finder",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-service-finder",
-      "defaultBranch": "codex/house-cleaning-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "ca97afd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:19Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
-        },
-        {
-          "sha": "e3fcc9a",
-          "message": "feat: prioritize helpful discovery on home",
-          "date": "2026-07-24T16:50:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
-        },
-        {
-          "sha": "b0d4de1",
-          "message": "feat: add handyman and silver center comparisons",
-          "date": "2026-07-24T16:45:37Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
-        },
-        {
-          "sha": "106b505",
-          "message": "feat: add verified locksmith regional data",
-          "date": "2026-07-24T16:39:27Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
-        },
-        {
-          "sha": "7693641",
-          "message": "feat: add verified garden regional data",
-          "date": "2026-07-24T16:34:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
-        },
-        {
-          "sha": "c38200e",
-          "message": "feat: add verified regional care data",
-          "date": "2026-07-24T16:33:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
-        },
-        {
-          "sha": "adeda1d",
-          "message": "feat: add verified moving regional data",
-          "date": "2026-07-24T16:29:29Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
-        },
-        {
-          "sha": "409ea73",
-          "message": "feat: add verified regional service data",
-          "date": "2026-07-24T16:25:58Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
-        },
-        {
-          "sha": "e344dab",
-          "message": "fix: consolidate thin regional search pages",
-          "date": "2026-07-24T16:19:55Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
-        },
-        {
-          "sha": "8e6e757",
-          "message": "feat: distinguish verified review experiences",
-          "date": "2026-07-24T16:16:23Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
-        },
-        {
-          "sha": "9d5a3a9",
-          "message": "feat: strengthen search and AI discovery signals",
-          "date": "2026-07-24T16:12:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
-        },
-        {
-          "sha": "d9c89ba",
-          "message": "feat: connect related local service journeys",
-          "date": "2026-07-24T14:33:47Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:29:47Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "allbowl01",
       "name": "allbowl01",
       "displayName": "Allbowl01",
@@ -7779,58 +7852,6 @@
         }
       ],
       "updatedAt": "2026-08-10T20:29:44Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "togo-kanri-tool",
-      "name": "togo-kanri-tool",
-      "displayName": "Togo Kanri Tool",
-      "description": "Togo Kanri Toolの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Togo Kanri Toolの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/togo-kanri-tool",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "app",
-        "eslint.config.mjs",
-        "lib",
-        "middleware.ts",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "scripts",
-        "supabase",
-        "tsconfig.json",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "3bea4bd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:35Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/3bea4bdff83ef0757e04766d958539d8439b0fbb"
-        },
-        {
-          "sha": "95e446a",
-          "message": "Add GA4 integration alongside Search Console",
-          "date": "2026-07-31T19:11:50Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/95e446a35703aebf4c917516f58870a7a3b05529"
-        },
-        {
-          "sha": "48a92c3",
-          "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
-          "date": "2026-07-29T14:58:04Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:29:42Z",
       "stars": 0,
       "forks": 0
     },
