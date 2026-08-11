@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T10:36:58.376Z",
+  "generatedAt": "2026-08-11T11:36:14.025Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,755 @@
     "kyonyu-ranking"
   ],
   "articles": [
+    {
+      "slug": "tourism-crowd-parking-alert",
+      "name": "tourism-crowd-parking-alert",
+      "displayName": "Tourism Crowd Parking Alert",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光地の混雑、駐車場空き、周辺飲食、チケットを通知し、観光予約、駐車場、飲食へ送客する。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場送客 観光予約 飲食送客 チケット affiliate 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory I",
+      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "c146efa",
+          "message": "Scale alerts to 360 and add incremental list rendering",
+          "date": "2026-08-11T11:26:18Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/c146efaa1bd4d39d4619e31eff715f75dd263c97"
+        },
+        {
+          "sha": "a90a6f8",
+          "message": "Add large tourism dataset and GitHub Pages deploy workflow",
+          "date": "2026-08-11T11:24:39Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/a90a6f857ad246f9b96759f0c65aaad4dd3c2743"
+        },
+        {
+          "sha": "8882cdb",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:08:23Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8882cdbc9f5e06901a1645ecc57ada9c368c63c6"
+        },
+        {
+          "sha": "e0ebb2b",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:04:28Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e0ebb2ba329184a8984281f1944bee056fceb525"
+        },
+        {
+          "sha": "813ffb5",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:00:56Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/813ffb569204659ee1f2e275b56c87b2f317c410"
+        },
+        {
+          "sha": "6c56c0e",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:12Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/6c56c0e1942317709581486d4b2bbfbc1bd24998"
+        },
+        {
+          "sha": "8897129",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:06Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/889712919464b28a4144bebf739eee53183dbd28"
+        },
+        {
+          "sha": "58665f6",
+          "message": "Add GitHub Pages deploy workflow",
+          "date": "2026-08-03T18:57:40Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/58665f62e1d6f09f3b6f69d35f0b9867d112d5e0"
+        },
+        {
+          "sha": "788142d",
+          "message": "Set confirmed custom domain",
+          "date": "2026-07-18T15:53:10Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/788142d5a2769eadd3682370535fb84eef83c097"
+        },
+        {
+          "sha": "aef9814",
+          "message": "Initial notification app scaffold",
+          "date": "2026-07-18T00:46:54Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/aef981419a84c3501962bb284e3673df6917881a"
+        }
+      ],
+      "updatedAt": "2026-08-11T11:26:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "juku-map",
+      "name": "juku-map",
+      "displayName": "Juku Map",
+      "description": "Juku Mapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Juku Mapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/juku-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f5cfe45",
+          "message": "feat: 静的sitemap.xml追加・デプロイ後にGoogle/Bingへ自動送信",
+          "date": "2026-08-11T11:31:53Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/f5cfe453dea49e8fbca04fbd1be3c6caa8aae447"
+        },
+        {
+          "sha": "6b9a422",
+          "message": "fix: db:seed失敗時もデプロイを継続するよう変更",
+          "date": "2026-08-11T11:25:01Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/6b9a422a4a21825064bac604222c38b491464c56"
+        },
+        {
+          "sha": "cd46795",
+          "message": "fix: VenueSeeder重複クラス定義を解消",
+          "date": "2026-08-11T11:22:03Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/cd467952a74a40f1b646bc017722813c14542c6b"
+        },
+        {
+          "sha": "8b96b48",
+          "message": "feat: 実在の塾・予備校データ75件追加（東京/神奈川/埼玉/千葉/大阪/京都/兵庫/愛知/福岡/宮城/北海道/広島/全国オンライン）",
+          "date": "2026-08-11T11:17:05Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/8b96b48b7b849d53fcf530fb5c70630022307499"
+        },
+        {
+          "sha": "4b428d6",
+          "message": "feat: 全学年対応の塾データ20件シーダー追加・デプロイ時に自動投入",
+          "date": "2026-08-11T10:37:32Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/4b428d692578a884bac521e0814262eec4a2ee96"
+        },
+        {
+          "sha": "0c1ba85",
+          "message": "feat: 対象学年（小学生〜大学受験）・授業形式フィルター追加",
+          "date": "2026-08-11T10:30:50Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/0c1ba85c8fd4c450515418bd52ceed6908414fe3"
+        },
+        {
+          "sha": "7176505",
+          "message": "Use npm install instead of npm ci (no package-lock.json committed)",
+          "date": "2026-08-08T21:33:30Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/717650507fe475a1d4d8f969bf4923bb84f702fd"
+        },
+        {
+          "sha": "f7419ee",
+          "message": "Fix deploy workflow to ship the full Laravel app, not just built assets",
+          "date": "2026-08-08T21:32:22Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/f7419ee2c40250fd6e44e14a7d029af3a3b31a42"
+        },
+        {
+          "sha": "7361f70",
+          "message": "Broaden wp-config.php search across home dir",
+          "date": "2026-08-08T20:35:40Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/7361f707e199ac3c9161eec337a17b3d7f1a3b90"
+        },
+        {
+          "sha": "eb37f3e",
+          "message": "Add read-only WordPress inspection job",
+          "date": "2026-08-08T20:33:41Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/eb37f3e3de470fcb7055e58966c23c297e600d4c"
+        },
+        {
+          "sha": "bb873fd",
+          "message": "Fix the real shared/.env and clear config cache",
+          "date": "2026-08-08T20:27:42Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/bb873fd53a23d3e9d87f2bb2c5dde798be5411a0"
+        },
+        {
+          "sha": "3d2aa2b",
+          "message": "Inspect juku-map-app Deployer-style structure",
+          "date": "2026-08-08T20:26:10Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/3d2aa2be305d9042c1aa69d528afff86b36e82df"
+        }
+      ],
+      "updatedAt": "2026-08-11T11:25:20Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "jitan-recipe",
+      "name": "jitan-recipe",
+      "displayName": "Jitan Recipe",
+      "description": "10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せるレシピ集（Next.js App Router / 全ページSSR・SSG）",
+      "readmeExcerpt": "時短レシピ手帳（jitan recipe） 10分前後で作れる時短レシピを、 調理時間・調理器具・洗い物の少なさ から探せるレシピ集。 本番: https://jitan recipe.vercel.app Vercel: https://vercel.com/chitamaru/jitan recipe 技術構成 フレームワーク Next.js 16（App Router） スタイル Tailwind CSS データ lib/recipes.ts の静的データ（DB なし） ホスティング Vercel（ main への push で自動デプロイ） 開発 ルート構成 パス 生成方式 内容 / Static 時間・器具・カテゴリ・タグの各導線 /recipe/ id SSG レシピ詳細（全件を generateStaticParams で事前生成） /search Dynamic 絞り込み検索 /api/recipes Dynamic レシピ一覧の JSON /sitemap.xml , /robots.txt Static — 設計上の判断 全ページをサーバーレンダリングする。 クライアントサイドルーティングは使わない。検索の絞り込みも リンクと だけで組んであり、JS 無効でも動作する。SEO/LLM クローラに対して HTML がそのまま届くことを優先した結果。 /search は noindex, follow 。 絞り込みの組み合わせが無限に増えるため。ただし robots.txt では 塞いでいない — 塞ぐと noindex 自体がクロールされず読まれないため。sitemap からも除外している。 構造化データ。 レシピ詳細に Recipe （ recipeIngredient / HowToStep / NutritionInformation ）と BreadcrumbList 、全ページに WebSite + SearchAction を出力。 放置時間（ handsOff ）を持たせている。 時短を「工程を雑にすること」ではなく「火加減の監視から解放",
+      "url": "https://github.com/syunnjack/jitan-recipe",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "components",
+        "lib",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "tailwind.config.js",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "880152c",
+          "message": "docs: README を追加",
+          "date": "2026-08-11T11:24:57Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/880152cda9c192de1a0e671d380e66ae7c8889a4"
+        },
+        {
+          "sha": "1aefd23",
+          "message": "feat: Google Search Console のサイト所有権確認タグを追加",
+          "date": "2026-08-11T11:15:39Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/1aefd23e6069700ddf73fb36d6e96cb6cb40b65f"
+        },
+        {
+          "sha": "c1f1170",
+          "message": "chore: .gitignore に Vercel CLI 生成ファイルを追記",
+          "date": "2026-08-11T10:30:33Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/c1f117075bfa535ebae16aac05772475d662d449"
+        },
+        {
+          "sha": "af9b716",
+          "message": "feat: 時短レシピサイトの初期実装",
+          "date": "2026-08-11T10:05:35Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/af9b716574ed40f49e7482d268f8f550f7c34749"
+        }
+      ],
+      "updatedAt": "2026-08-11T11:25:18Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "hey-douga-guide",
+      "name": "hey-douga-guide",
+      "displayName": "Hey Douga Guide",
+      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/hey-douga-guide",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "34cb2c7",
+          "message": "Merge pull request #1 from syunnjack/cursor/dti-csv-import-f103",
+          "date": "2026-08-06T11:49:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/34cb2c7f3f614316450bddc39cbda615b571f1e8"
+        },
+        {
+          "sha": "713a915",
+          "message": "Enrich RSS sync with page URL, thumbnails, and sample MP4",
+          "date": "2026-08-06T05:55:13Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/713a915b1c194b9fd1b565c759957e80e7dbdecb"
+        },
+        {
+          "sha": "cd895a5",
+          "message": "Add DTI CSV import, sample MP4 playback, and thumbnail derivation",
+          "date": "2026-08-06T05:53:35Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/cd895a5cb4f3ba1f672ba0188c9add6574d351e0"
+        },
+        {
+          "sha": "dea1cf1",
+          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
+          "date": "2026-08-06T05:00:08Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
+        },
+        {
+          "sha": "f821b56",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T18:28:18Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
+        },
+        {
+          "sha": "b4115b4",
+          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
+          "date": "2026-08-05T18:24:40Z",
+          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
+        }
+      ],
+      "updatedAt": "2026-08-06T11:49:14Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "goal-pilot-app",
+      "name": "goal-pilot-app",
+      "displayName": "Goal Pilot App",
+      "description": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/goal-pilot-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "PHP",
+        "Java"
+      ],
+      "files": [
+        "README.md",
+        "android",
+        "app",
+        "capacitor.config.ts",
+        "components",
+        "docs",
+        "next-env.d.ts",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "90d8ddb",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:06:30Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/90d8ddbcb365793d63836a02c617ee110964947f"
+        },
+        {
+          "sha": "67facfb",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:02:43Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67facfbbfadaa818fc392cb4cbbe7eb60214b16f"
+        },
+        {
+          "sha": "1f7038e",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T20:58:59Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/1f7038e63e1070c3f4177c8ef2d6e46e16f52b2a"
+        },
+        {
+          "sha": "d6ff8fe",
+          "message": "Fix site-wide 404s: static export pages were unreachable without .html",
+          "date": "2026-08-08T14:11:39Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/d6ff8fe926fa1e4b62810c7b783374f48ac1957b"
+        },
+        {
+          "sha": "554a074",
+          "message": "Add AI consultation page and expand template library to 20 domains",
+          "date": "2026-08-08T14:07:22Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/554a07426e08ae009aebd4406e43ecac05841205"
+        },
+        {
+          "sha": "475a9ad",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T14:11:46Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/475a9add329ef8edf53edde58c07e5cb21a5f8ef"
+        },
+        {
+          "sha": "f625bbb",
+          "message": "Fix Xserver deploy to use Next.js static export output dir",
+          "date": "2026-08-04T06:16:01Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/f625bbb3fb3760321b77b3b2b868d1edd0ddd5e7"
+        },
+        {
+          "sha": "abfbaa3",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:27:17Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/abfbaa30eef3a6aeeefcb48945bdb3d7c822f179"
+        },
+        {
+          "sha": "bcb88ad",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:18:17Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/bcb88ad2034d72668f674d083d8da39fbb4a2a07"
+        },
+        {
+          "sha": "527de87",
+          "message": "Add sitemap.xml and robots.txt for SEO crawlability",
+          "date": "2026-07-28T18:41:00Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
+        },
+        {
+          "sha": "6d4a1a4",
+          "message": "Add GitHub Pages deployment",
+          "date": "2026-07-26T08:18:47Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
+        },
+        {
+          "sha": "67efa88",
+          "message": "Add GoalPilot growth funnels",
+          "date": "2026-07-26T07:26:06Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
+        }
+      ],
+      "updatedAt": "2026-08-10T21:09:32Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "maportal",
+      "name": "maportal",
+      "displayName": "Maportal",
+      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/maportal",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "cf475ed",
+          "message": "Hold Places results for 7 days instead of 1 hour",
+          "date": "2026-08-10T10:24:43Z",
+          "url": "https://github.com/syunnjack/maportal/commit/cf475ed9ad30cf2bb403edfa494f3bd3b4463c5b"
+        },
+        {
+          "sha": "0a18d6e",
+          "message": "Fix empty search results and point deploy at the real server",
+          "date": "2026-08-09T09:45:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/0a18d6eef14e595e752ea62093094a66fce49954"
+        },
+        {
+          "sha": "6cf4379",
+          "message": "Fix Xserver remote directory creation (#1)",
+          "date": "2026-08-04T03:04:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
+        },
+        {
+          "sha": "a9a6678",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T18:03:36Z",
+          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
+        },
+        {
+          "sha": "6aa0e7d",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:10:18Z",
+          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
+        },
+        {
+          "sha": "3a4a3dd",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:00:44Z",
+          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
+        },
+        {
+          "sha": "7d456a4",
+          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
+          "date": "2026-07-14T10:22:33Z",
+          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
+        },
+        {
+          "sha": "55e634f",
+          "message": "Initial commit maportal",
+          "date": "2025-07-26T11:52:10Z",
+          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
+        }
+      ],
+      "updatedAt": "2026-08-10T10:25:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "golf-search",
+      "name": "golf-search",
+      "displayName": "Golf Search",
+      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/golf-search",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d025d48",
+          "message": "feat: add sitemap.xml for SEO",
+          "date": "2026-08-10T20:29:20Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/d025d48d9a9659e3b9077228076166e4fdb5796b"
+        },
+        {
+          "sha": "3e118a9",
+          "message": "Fix Rakuten Travel API version for May 2026 platform migration",
+          "date": "2026-08-09T17:36:19Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e118a9b7ddb6200db5acbee34935ec6b6af246d"
+        },
+        {
+          "sha": "7edfecb",
+          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
+          "date": "2026-08-09T09:02:32Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
+        },
+        {
+          "sha": "7875016",
+          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
+          "date": "2026-08-09T04:11:26Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
+        },
+        {
+          "sha": "e46a0be",
+          "message": "Read Rakuten credentials from config instead of env() in the controller",
+          "date": "2026-08-09T04:06:09Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
+        },
+        {
+          "sha": "b1fc362",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-09T04:00:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
+        },
+        {
+          "sha": "c6cc576",
+          "message": "Fix production Rakuten credentials and add real weather forecasts",
+          "date": "2026-08-09T03:59:25Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
+        },
+        {
+          "sha": "41bdfdd",
+          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
+          "date": "2026-08-08T17:28:36Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
+        },
+        {
+          "sha": "1786e97",
+          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
+          "date": "2026-08-08T17:27:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
+        },
+        {
+          "sha": "3e361f5",
+          "message": "Document GA4_MEASUREMENT_ID in .env.example",
+          "date": "2026-08-08T17:27:51Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
+        },
+        {
+          "sha": "b6d51c1",
+          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
+          "date": "2026-08-07T12:00:46Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
+        },
+        {
+          "sha": "501c19c",
+          "message": "Add temporary PHP binary discovery step",
+          "date": "2026-08-07T11:59:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:30:01Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "sitemap.xml",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "fd431dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T10:37:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
+        },
+        {
+          "sha": "3522113",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T09:40:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
+        },
+        {
+          "sha": "3e17896",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T08:38:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
+        },
+        {
+          "sha": "03a6757",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T07:49:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
+        },
+        {
+          "sha": "a0b718f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T06:37:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
+        },
+        {
+          "sha": "85893ac",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T05:41:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
+        },
+        {
+          "sha": "538c8d5",
+          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
+          "date": "2026-08-11T05:09:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
+        },
+        {
+          "sha": "47e1fbb",
+          "message": "Fix GitHub Pages deployment",
+          "date": "2026-08-11T05:08:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
+        },
+        {
+          "sha": "ad16d6d",
+          "message": "Merge pull request #30 from syunnjack/codex/add-adsense-account",
+          "date": "2026-08-11T05:03:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ad16d6dc1cb8da630b30f0fa8e5adeefb5359372"
+        },
+        {
+          "sha": "2b56537",
+          "message": "Add AdSense account metadata",
+          "date": "2026-08-11T05:02:12Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b5653767c26242e14ca942af540a24abe49593d"
+        },
+        {
+          "sha": "18f7b1d",
+          "message": "feat: add YouTube upload script (upload-to-youtube.mjs)",
+          "date": "2026-08-11T04:44:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/18f7b1d34a6fc60cec5fc03bea4268be43a9e15a"
+        },
+        {
+          "sha": "2c5ab3d",
+          "message": "行政書士模試おすすめ5選の記事を公開",
+          "date": "2026-08-11T00:11:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c5ab3dab0d4dba681aea7dee436509e214537e0"
+        }
+      ],
+      "updatedAt": "2026-08-11T10:37:30Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "municipacipality-car",
       "name": "municipacipality-car",
@@ -138,160 +887,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:06:49Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "juku-map",
-      "name": "juku-map",
-      "displayName": "Juku Map",
-      "description": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Juku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/juku-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "0c1ba85",
-          "message": "feat: 対象学年（小学生〜大学受験）・授業形式フィルター追加",
-          "date": "2026-08-11T10:30:50Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/0c1ba85c8fd4c450515418bd52ceed6908414fe3"
-        },
-        {
-          "sha": "7176505",
-          "message": "Use npm install instead of npm ci (no package-lock.json committed)",
-          "date": "2026-08-08T21:33:30Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/717650507fe475a1d4d8f969bf4923bb84f702fd"
-        },
-        {
-          "sha": "f7419ee",
-          "message": "Fix deploy workflow to ship the full Laravel app, not just built assets",
-          "date": "2026-08-08T21:32:22Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/f7419ee2c40250fd6e44e14a7d029af3a3b31a42"
-        },
-        {
-          "sha": "7361f70",
-          "message": "Broaden wp-config.php search across home dir",
-          "date": "2026-08-08T20:35:40Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/7361f707e199ac3c9161eec337a17b3d7f1a3b90"
-        },
-        {
-          "sha": "eb37f3e",
-          "message": "Add read-only WordPress inspection job",
-          "date": "2026-08-08T20:33:41Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/eb37f3e3de470fcb7055e58966c23c297e600d4c"
-        },
-        {
-          "sha": "bb873fd",
-          "message": "Fix the real shared/.env and clear config cache",
-          "date": "2026-08-08T20:27:42Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/bb873fd53a23d3e9d87f2bb2c5dde798be5411a0"
-        },
-        {
-          "sha": "3d2aa2b",
-          "message": "Inspect juku-map-app Deployer-style structure",
-          "date": "2026-08-08T20:26:10Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/3d2aa2be305d9042c1aa69d528afff86b36e82df"
-        },
-        {
-          "sha": "fd912e8",
-          "message": "Broaden search to locate the real serving app root",
-          "date": "2026-08-08T20:24:35Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/fd912e8a5d9caf14a4f572951b2bf1a506a7d8dc"
-        },
-        {
-          "sha": "69b9374",
-          "message": "Make inspect job run regardless of patch outcome",
-          "date": "2026-08-08T20:23:08Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/69b9374be3c1893b80396bfe9e42cb632c7ec595"
-        },
-        {
-          "sha": "7a13347",
-          "message": "Add read-only inspect step to diagnose server/repo drift",
-          "date": "2026-08-08T20:22:16Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/7a1334764c6eed5c278d6f9bc55b8d153db26958"
-        },
-        {
-          "sha": "66b18e5",
-          "message": "Add one-off workflow to patch production .env with GA4/GSC values",
-          "date": "2026-08-08T20:20:29Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/66b18e5da3eef6d3250da1e5fe0948e51f2396b0"
-        },
-        {
-          "sha": "ace1b66",
-          "message": "Wire GA4 and Search Console verification into the shared layout",
-          "date": "2026-08-08T17:37:40Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/ace1b66c421d0b884ebbda2f169808681385d122"
-        }
-      ],
-      "updatedAt": "2026-08-11T10:31:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "jitan-recipe",
-      "name": "jitan-recipe",
-      "displayName": "Jitan Recipe",
-      "description": "10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せるレシピ集（Next.js App Router / 全ページSSR・SSG）",
-      "readmeExcerpt": "10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せるレシピ集（Next.js App Router / 全ページSSR・SSG） 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/jitan-recipe",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "app",
-        "components",
-        "lib",
-        "next.config.mjs",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.js",
-        "tailwind.config.js",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "c1f1170",
-          "message": "chore: .gitignore に Vercel CLI 生成ファイルを追記",
-          "date": "2026-08-11T10:30:33Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/c1f117075bfa535ebae16aac05772475d662d449"
-        },
-        {
-          "sha": "af9b716",
-          "message": "feat: 時短レシピサイトの初期実装",
-          "date": "2026-08-11T10:05:35Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/af9b716574ed40f49e7482d268f8f550f7c34749"
-        }
-      ],
-      "updatedAt": "2026-08-11T10:30:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -487,118 +1082,6 @@
         }
       ],
       "updatedAt": "2026-08-08T22:24:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "sitemap.xml",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "3522113",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T09:40:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        },
-        {
-          "sha": "3e17896",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T08:38:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
-        },
-        {
-          "sha": "03a6757",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T07:49:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
-        },
-        {
-          "sha": "a0b718f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T06:37:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
-        },
-        {
-          "sha": "85893ac",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T05:41:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
-        },
-        {
-          "sha": "538c8d5",
-          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
-          "date": "2026-08-11T05:09:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
-        },
-        {
-          "sha": "47e1fbb",
-          "message": "Fix GitHub Pages deployment",
-          "date": "2026-08-11T05:08:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
-        },
-        {
-          "sha": "ad16d6d",
-          "message": "Merge pull request #30 from syunnjack/codex/add-adsense-account",
-          "date": "2026-08-11T05:03:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ad16d6dc1cb8da630b30f0fa8e5adeefb5359372"
-        },
-        {
-          "sha": "2b56537",
-          "message": "Add AdSense account metadata",
-          "date": "2026-08-11T05:02:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b5653767c26242e14ca942af540a24abe49593d"
-        },
-        {
-          "sha": "18f7b1d",
-          "message": "feat: add YouTube upload script (upload-to-youtube.mjs)",
-          "date": "2026-08-11T04:44:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/18f7b1d34a6fc60cec5fc03bea4268be43a9e15a"
-        },
-        {
-          "sha": "2c5ab3d",
-          "message": "行政書士模試おすすめ5選の記事を公開",
-          "date": "2026-08-11T00:11:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2c5ab3dab0d4dba681aea7dee436509e214537e0"
-        },
-        {
-          "sha": "a663712",
-          "message": "feat: 時短レシピ支援アプリ + ストアにSEO・レシピ製品を追加",
-          "date": "2026-08-10T23:27:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a6637122da6687a4036b3b0033b88bc5800cc6eb"
-        }
-      ],
-      "updatedAt": "2026-08-11T09:41:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -2326,83 +2809,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:08:51Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tourism-crowd-parking-alert",
-      "name": "tourism-crowd-parking-alert",
-      "displayName": "Tourism Crowd Parking Alert",
-      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
-      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光地の混雑、駐車場空き、周辺飲食、チケットを通知し、観光予約、駐車場、飲食へ送客する。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場送客 観光予約 飲食送客 チケット affiliate 地域広告 Commands",
-      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8882cdb",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:08:23Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8882cdbc9f5e06901a1645ecc57ada9c368c63c6"
-        },
-        {
-          "sha": "e0ebb2b",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:04:28Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e0ebb2ba329184a8984281f1944bee056fceb525"
-        },
-        {
-          "sha": "813ffb5",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:00:56Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/813ffb569204659ee1f2e275b56c87b2f317c410"
-        },
-        {
-          "sha": "6c56c0e",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:12Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/6c56c0e1942317709581486d4b2bbfbc1bd24998"
-        },
-        {
-          "sha": "8897129",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:06Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/889712919464b28a4144bebf739eee53183dbd28"
-        },
-        {
-          "sha": "58665f6",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:40Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/58665f62e1d6f09f3b6f69d35f0b9867d112d5e0"
-        },
-        {
-          "sha": "788142d",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:10Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/788142d5a2769eadd3682370535fb84eef83c097"
-        },
-        {
-          "sha": "aef9814",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:54Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/aef981419a84c3501962bb284e3673df6917881a"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:08:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -7144,113 +7550,6 @@
       "forks": 0
     },
     {
-      "slug": "goal-pilot-app",
-      "name": "goal-pilot-app",
-      "displayName": "Goal Pilot App",
-      "description": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Goal Pilot Appは、TypeScript、CSS、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/goal-pilot-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "PHP",
-        "Java"
-      ],
-      "files": [
-        "README.md",
-        "android",
-        "app",
-        "capacitor.config.ts",
-        "components",
-        "docs",
-        "next-env.d.ts",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "90d8ddb",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:06:30Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/90d8ddbcb365793d63836a02c617ee110964947f"
-        },
-        {
-          "sha": "67facfb",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:02:43Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67facfbbfadaa818fc392cb4cbbe7eb60214b16f"
-        },
-        {
-          "sha": "1f7038e",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:58:59Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/1f7038e63e1070c3f4177c8ef2d6e46e16f52b2a"
-        },
-        {
-          "sha": "d6ff8fe",
-          "message": "Fix site-wide 404s: static export pages were unreachable without .html",
-          "date": "2026-08-08T14:11:39Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/d6ff8fe926fa1e4b62810c7b783374f48ac1957b"
-        },
-        {
-          "sha": "554a074",
-          "message": "Add AI consultation page and expand template library to 20 domains",
-          "date": "2026-08-08T14:07:22Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/554a07426e08ae009aebd4406e43ecac05841205"
-        },
-        {
-          "sha": "475a9ad",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:46Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/475a9add329ef8edf53edde58c07e5cb21a5f8ef"
-        },
-        {
-          "sha": "f625bbb",
-          "message": "Fix Xserver deploy to use Next.js static export output dir",
-          "date": "2026-08-04T06:16:01Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/f625bbb3fb3760321b77b3b2b868d1edd0ddd5e7"
-        },
-        {
-          "sha": "abfbaa3",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:27:17Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/abfbaa30eef3a6aeeefcb48945bdb3d7c822f179"
-        },
-        {
-          "sha": "bcb88ad",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:18:17Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/bcb88ad2034d72668f674d083d8da39fbb4a2a07"
-        },
-        {
-          "sha": "527de87",
-          "message": "Add sitemap.xml and robots.txt for SEO crawlability",
-          "date": "2026-07-28T18:41:00Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
-        },
-        {
-          "sha": "6d4a1a4",
-          "message": "Add GitHub Pages deployment",
-          "date": "2026-07-26T08:18:47Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
-        },
-        {
-          "sha": "67efa88",
-          "message": "Add GoalPilot growth funnels",
-          "date": "2026-07-26T07:26:06Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/67efa88237e454e479ff003a32bad46e60077872"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:09:32Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "reserve-serapi",
       "name": "reserve-serapi",
       "displayName": "Reserve Serapi",
@@ -8750,118 +9049,6 @@
       "forks": 0
     },
     {
-      "slug": "golf-search",
-      "name": "golf-search",
-      "displayName": "Golf Search",
-      "description": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Golf Searchは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/golf-search",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "d025d48",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:20Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/d025d48d9a9659e3b9077228076166e4fdb5796b"
-        },
-        {
-          "sha": "3e118a9",
-          "message": "Fix Rakuten Travel API version for May 2026 platform migration",
-          "date": "2026-08-09T17:36:19Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e118a9b7ddb6200db5acbee34935ec6b6af246d"
-        },
-        {
-          "sha": "7edfecb",
-          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
-          "date": "2026-08-09T09:02:32Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
-        },
-        {
-          "sha": "7875016",
-          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
-          "date": "2026-08-09T04:11:26Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
-        },
-        {
-          "sha": "e46a0be",
-          "message": "Read Rakuten credentials from config instead of env() in the controller",
-          "date": "2026-08-09T04:06:09Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
-        },
-        {
-          "sha": "b1fc362",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-09T04:00:31Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
-        },
-        {
-          "sha": "c6cc576",
-          "message": "Fix production Rakuten credentials and add real weather forecasts",
-          "date": "2026-08-09T03:59:25Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
-        },
-        {
-          "sha": "41bdfdd",
-          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
-          "date": "2026-08-08T17:28:36Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
-        },
-        {
-          "sha": "1786e97",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-08T17:27:59Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
-        },
-        {
-          "sha": "3e361f5",
-          "message": "Document GA4_MEASUREMENT_ID in .env.example",
-          "date": "2026-08-08T17:27:51Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e361f54ce7d04a55d5f66526d37152c70b6dd00"
-        },
-        {
-          "sha": "b6d51c1",
-          "message": "Use PHP 8.3 explicitly for artisan commands on the server",
-          "date": "2026-08-07T12:00:46Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b6d51c13899d575c6ebbd16caf7520c0dc832bb5"
-        },
-        {
-          "sha": "501c19c",
-          "message": "Add temporary PHP binary discovery step",
-          "date": "2026-08-07T11:59:06Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/501c19c3372e5e392bade00d2216c153d505851f"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:30:01Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "mofumofu-tokai",
       "name": "mofumofu-tokai",
       "displayName": "Mofumofu Tokai",
@@ -8905,93 +9092,6 @@
         }
       ],
       "updatedAt": "2026-08-10T11:17:29Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "maportal",
-      "name": "maportal",
-      "displayName": "Maportal",
-      "description": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Maportalは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/maportal",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "cf475ed",
-          "message": "Hold Places results for 7 days instead of 1 hour",
-          "date": "2026-08-10T10:24:43Z",
-          "url": "https://github.com/syunnjack/maportal/commit/cf475ed9ad30cf2bb403edfa494f3bd3b4463c5b"
-        },
-        {
-          "sha": "0a18d6e",
-          "message": "Fix empty search results and point deploy at the real server",
-          "date": "2026-08-09T09:45:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/0a18d6eef14e595e752ea62093094a66fce49954"
-        },
-        {
-          "sha": "6cf4379",
-          "message": "Fix Xserver remote directory creation (#1)",
-          "date": "2026-08-04T03:04:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6cf43790d745564efb68a1bd6d3aa17795b2471e"
-        },
-        {
-          "sha": "a9a6678",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:03:36Z",
-          "url": "https://github.com/syunnjack/maportal/commit/a9a6678e0088d485a7c5276a4f652f06569d9c9b"
-        },
-        {
-          "sha": "6aa0e7d",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:18Z",
-          "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
-        },
-        {
-          "sha": "3a4a3dd",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:00:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
-        },
-        {
-          "sha": "7d456a4",
-          "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
-          "date": "2026-07-14T10:22:33Z",
-          "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
-        },
-        {
-          "sha": "55e634f",
-          "message": "Initial commit maportal",
-          "date": "2025-07-26T11:52:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
-        }
-      ],
-      "updatedAt": "2026-08-10T10:25:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -10217,81 +10317,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:16Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hey-douga-guide",
-      "name": "hey-douga-guide",
-      "displayName": "Hey Douga Guide",
-      "description": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hey Douga Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hey-douga-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "34cb2c7",
-          "message": "Merge pull request #1 from syunnjack/cursor/dti-csv-import-f103",
-          "date": "2026-08-06T11:49:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/34cb2c7f3f614316450bddc39cbda615b571f1e8"
-        },
-        {
-          "sha": "713a915",
-          "message": "Enrich RSS sync with page URL, thumbnails, and sample MP4",
-          "date": "2026-08-06T05:55:13Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/713a915b1c194b9fd1b565c759957e80e7dbdecb"
-        },
-        {
-          "sha": "cd895a5",
-          "message": "Add DTI CSV import, sample MP4 playback, and thumbnail derivation",
-          "date": "2026-08-06T05:53:35Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/cd895a5cb4f3ba1f672ba0188c9add6574d351e0"
-        },
-        {
-          "sha": "dea1cf1",
-          "message": "Add dynamic new-release section powered by DTI CASH RSS feed",
-          "date": "2026-08-06T05:00:08Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/dea1cf17ea0a3a326e3942eaab2c814abd52dc78"
-        },
-        {
-          "sha": "f821b56",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T18:28:18Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/f821b5630a5da127bf14fcfc5c0eeabf8f7d9d7d"
-        },
-        {
-          "sha": "b4115b4",
-          "message": "Initial build: Hey Douga (DTI CASH) guide page with widget embed",
-          "date": "2026-08-05T18:24:40Z",
-          "url": "https://github.com/syunnjack/hey-douga-guide/commit/b4115b4bd1a82218746672ac84d1d607482efc72"
-        }
-      ],
-      "updatedAt": "2026-08-06T11:49:14Z",
       "stars": 0,
       "forks": 0
     },
