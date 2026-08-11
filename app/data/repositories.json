@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:38:43.697Z",
+  "generatedAt": "2026-08-11T20:29:59.435Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -54,6 +54,226 @@
   ],
   "articles": [
     {
+      "slug": "allbowl01",
+      "name": "allbowl01",
+      "displayName": "Allbowl01",
+      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
+      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
+      "url": "https://github.com/syunnjack/allbowl01",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "Astro",
+        "HTML",
+        "TypeScript",
+        "Python",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "allbowl01.sln",
+        "allbowl01",
+        "cocoon-child-mankan",
+        "docs",
+        "events.json",
+        "main.py",
+        "requirements.txt",
+        "scrape_events.py",
+        "sitemap.xml",
+        "web"
+      ],
+      "commits": [
+        {
+          "sha": "ef35b2a",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-11T20:25:20Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/ef35b2a207d24aaa11fd348d93b7d28cceb6b965"
+        },
+        {
+          "sha": "9e798c7",
+          "message": "feat: add sitemap.xml for SEO",
+          "date": "2026-08-10T20:29:51Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/9e798c714aec52f1b8ea35ac458667abe55e8fbf"
+        },
+        {
+          "sha": "257d5bc",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-10T20:26:47Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/257d5bc376449de2e7f14da8a354744e2d44952d"
+        },
+        {
+          "sha": "004c019",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T20:22:17Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/004c019672e4d8fd6477f8f5b4bcec43557da2be"
+        },
+        {
+          "sha": "fbe2dd1",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T05:13:15Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/fbe2dd1a1b32a44ec5306315c990ebcaddfbde2f"
+        },
+        {
+          "sha": "aec468a",
+          "message": "Point GitHub Pages at the intended custom domain bowling-event.jp",
+          "date": "2026-08-09T05:02:05Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/aec468a6b8001912820592530f7f92b601b4b9e8"
+        },
+        {
+          "sha": "96a455f",
+          "message": "Add real bowling-specific accessory terms (shammy, wear, arm sleeve)",
+          "date": "2026-08-09T04:59:27Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/96a455f22ecf70e77582c9c79efefb31f59da344"
+        },
+        {
+          "sha": "4bed141",
+          "message": "Highlight Round1's buried pro-challenge events, add affiliate goods",
+          "date": "2026-08-09T04:57:07Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4bed141bb64f6181ae881cd1f1eeaefe9363d307"
+        },
+        {
+          "sha": "78b1a80",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-09T04:54:27Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/78b1a80eacc75694e2f0425b1860ebaf3c39d554"
+        },
+        {
+          "sha": "2770998",
+          "message": "Expand to all 47 prefectures with real, verified venues",
+          "date": "2026-08-09T04:49:41Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
+        },
+        {
+          "sha": "9c8d2d0",
+          "message": "Rebase before push in refresh-events to survive concurrent commits",
+          "date": "2026-08-09T04:44:02Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
+        },
+        {
+          "sha": "d306045",
+          "message": "Add nationwide bowling center count with cited source",
+          "date": "2026-08-09T04:39:55Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
+        }
+      ],
+      "updatedAt": "2026-08-11T20:25:39Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "ca97afd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:19Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
+        },
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:29:47Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -88,6 +308,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "be584bc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T19:39:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/be584bc6097e1ee87dc7c6986d0f46a460fbd307"
+        },
         {
           "sha": "0ad51ae",
           "message": "Merge pull request #36 from syunnjack/codex/automated-video-complete-20260812-040455",
@@ -153,15 +379,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-11T14:39:30Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d506237c28eadf25ba188d2c7ff1779a94011163"
-        },
-        {
-          "sha": "94d6dcb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T13:46:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
         }
       ],
-      "updatedAt": "2026-08-11T19:09:20Z",
+      "updatedAt": "2026-08-11T19:39:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -386,118 +606,6 @@
         }
       ],
       "updatedAt": "2026-08-11T18:14:46Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-service-finder",
-      "name": "local-service-finder",
-      "displayName": "Local Service Finder",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-service-finder",
-      "defaultBranch": "codex/house-cleaning-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "ca97afd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:19Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
-        },
-        {
-          "sha": "e3fcc9a",
-          "message": "feat: prioritize helpful discovery on home",
-          "date": "2026-07-24T16:50:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
-        },
-        {
-          "sha": "b0d4de1",
-          "message": "feat: add handyman and silver center comparisons",
-          "date": "2026-07-24T16:45:37Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
-        },
-        {
-          "sha": "106b505",
-          "message": "feat: add verified locksmith regional data",
-          "date": "2026-07-24T16:39:27Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
-        },
-        {
-          "sha": "7693641",
-          "message": "feat: add verified garden regional data",
-          "date": "2026-07-24T16:34:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
-        },
-        {
-          "sha": "c38200e",
-          "message": "feat: add verified regional care data",
-          "date": "2026-07-24T16:33:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
-        },
-        {
-          "sha": "adeda1d",
-          "message": "feat: add verified moving regional data",
-          "date": "2026-07-24T16:29:29Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
-        },
-        {
-          "sha": "409ea73",
-          "message": "feat: add verified regional service data",
-          "date": "2026-07-24T16:25:58Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
-        },
-        {
-          "sha": "e344dab",
-          "message": "fix: consolidate thin regional search pages",
-          "date": "2026-07-24T16:19:55Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
-        },
-        {
-          "sha": "8e6e757",
-          "message": "feat: distinguish verified review experiences",
-          "date": "2026-07-24T16:16:23Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
-        },
-        {
-          "sha": "9d5a3a9",
-          "message": "feat: strengthen search and AI discovery signals",
-          "date": "2026-07-24T16:12:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
-        },
-        {
-          "sha": "d9c89ba",
-          "message": "feat: connect related local service journeys",
-          "date": "2026-07-24T14:33:47Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:29:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -9739,114 +9847,6 @@
         }
       ],
       "updatedAt": "2026-08-10T20:30:09Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "allbowl01",
-      "name": "allbowl01",
-      "displayName": "Allbowl01",
-      "description": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル",
-      "readmeExcerpt": "allbowl01 / Bowling Event 日本のプロボウリング来店イベントを集約するポータル。 公開面は Astro 静的サイト と WordPress（Cocoon 子テーマ） の2系統を並行保持し、パフォーマンス比較ができる構成です。 Production Domain GitHub Pages カスタムドメイン: web/public/CNAME Repository Structure パス 用途 web/ Astro 静的サイト（本番: https://syunnjack.github.io/allbowl01/） cocoon child mankan/ WordPress Cocoon 子テーマ（Mankan トップ LP） allbowl01/ Windows アプリ（C / スクレイピング・データ出力） main.py 他 Python MVP API（ダーツレコメンド・六甲ボウルスクレイパー） docs/DESIGN.md ダーツポータル全体設計書 Astro（静的サイト） SEO / AIO / LLMO 向けの公開サイト。 主なページ: /events/ , /prefectures/ , /venues/ , /pros/ , /chains/ デプロイ: .github/workflows/deploy web.yml → GitHub Pages WordPress（Cocoon 子テーマ） cocoon child mankan/ を WordPress の wp content/themes/ に配置して有効化。 テンプレート: page mankan top.php （固定ページ「Mankan Top」用） スタイル: assets/css/mankan style.css ローカル確認: preview.html をブラウザで開く Astro 版と同等コンテンツの WP 実装として、表示速度・Core Web Vitals を比較できます。 Windows App スクレイプ → SQLite → web/src/data",
-      "url": "https://github.com/syunnjack/allbowl01",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "Python",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "cocoon-child-mankan",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py",
-        "sitemap.xml",
-        "web"
-      ],
-      "commits": [
-        {
-          "sha": "9e798c7",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:51Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/9e798c714aec52f1b8ea35ac458667abe55e8fbf"
-        },
-        {
-          "sha": "257d5bc",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-10T20:26:47Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/257d5bc376449de2e7f14da8a354744e2d44952d"
-        },
-        {
-          "sha": "004c019",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-09T20:22:17Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/004c019672e4d8fd6477f8f5b4bcec43557da2be"
-        },
-        {
-          "sha": "fbe2dd1",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-09T05:13:15Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/fbe2dd1a1b32a44ec5306315c990ebcaddfbde2f"
-        },
-        {
-          "sha": "aec468a",
-          "message": "Point GitHub Pages at the intended custom domain bowling-event.jp",
-          "date": "2026-08-09T05:02:05Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/aec468a6b8001912820592530f7f92b601b4b9e8"
-        },
-        {
-          "sha": "96a455f",
-          "message": "Add real bowling-specific accessory terms (shammy, wear, arm sleeve)",
-          "date": "2026-08-09T04:59:27Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/96a455f22ecf70e77582c9c79efefb31f59da344"
-        },
-        {
-          "sha": "4bed141",
-          "message": "Highlight Round1's buried pro-challenge events, add affiliate goods",
-          "date": "2026-08-09T04:57:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4bed141bb64f6181ae881cd1f1eeaefe9363d307"
-        },
-        {
-          "sha": "78b1a80",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-09T04:54:27Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/78b1a80eacc75694e2f0425b1860ebaf3c39d554"
-        },
-        {
-          "sha": "2770998",
-          "message": "Expand to all 47 prefectures with real, verified venues",
-          "date": "2026-08-09T04:49:41Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
-        },
-        {
-          "sha": "9c8d2d0",
-          "message": "Rebase before push in refresh-events to survive concurrent commits",
-          "date": "2026-08-09T04:44:02Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
-        },
-        {
-          "sha": "d306045",
-          "message": "Add nationwide bowling center count with cited source",
-          "date": "2026-08-09T04:39:55Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
-        },
-        {
-          "sha": "4f84c64",
-          "message": "Add scheduled bowling event data refresh",
-          "date": "2026-08-09T04:26:59Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4f84c643b5c4e5697604c99f5e3e9cfaeaa93278"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:30:39Z",
       "stars": 0,
       "forks": 0
     },
