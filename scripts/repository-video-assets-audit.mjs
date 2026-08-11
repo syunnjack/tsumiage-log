@@ -9,7 +9,7 @@ const errors = []
 const requireComplete = process.argv.includes("--require-complete")
 const japanese = /[ぁ-んァ-ヶ一-龠々]/
 const excluded = new Set((policy.excludedRepositories ?? []).map((name) => name.toLowerCase()))
-const expectedCount = repositories.articles.filter((article) => article.slug !== "rakuten02").length
+const expectedCount = repositories.articles.length
 
 if (queue.videos.length !== expectedCount) {
   errors.push(`動画キューは${expectedCount}件必要ですが、${queue.videos.length}件です`)

@@ -34,7 +34,6 @@ function summarizeCommit(message) {
 }
 
 const videos = repositoryData.articles
-  .filter((article) => article.slug !== "rakuten02")
   .filter((article) => !excluded.has(article.name))
   .filter((article) => allowed.has(article.name) || !forbidden.some((term) => term.test(`${article.name} ${article.description} ${article.readmeExcerpt ?? ""}`)))
   .map((article, index) => {
