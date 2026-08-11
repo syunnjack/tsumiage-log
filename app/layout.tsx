@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "積み上げログ", description: "学び、作り、振り返る開発記録", images: ["/og.png"] },
   icons: { icon: "/favicon.svg" },
   verification: googleSiteVerification ? { google: googleSiteVerification } : undefined,
+  other: { "google-adsense-account": "ca-pub-1144781774561249" },
 }
 
 const organizationSchema = {
