@@ -1,10 +1,16 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { fetchCategoryRanking, fetchCategories } from '@/lib/rakuten-recipe';
+import { fetchCategoryRanking, fetchCategories, type RakutenRecipe } from '@/lib/rakuten-recipe';
 import { estimateTotalCost } from '@/lib/ingredient-prices';
 import RecipeCard from '../RecipeCard';
 
 type Props = { params: Promise<{ categoryId: string }> };
+
+const CATEGORY_IDS = ['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '30'];
+
+export function generateStaticParams() {
+  return CATEGORY_IDS.map((categoryId) => ({ categoryId }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { categoryId } = await params;
@@ -14,15 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const SORT_LABELS: Record<string, string> = {
-  rank: '人気順',
-  time: '時短順',
-  cost: '節約順',
-};
-
 export default async function CategoryPage({ params }: Props) {
   const { categoryId } = await params;
-  let recipes: any[] = [];
+  let recipes: RakutenRecipe[] = [];
   let categoryName = 'レシピ一覧';
   let error = '';
 
@@ -36,8 +36,8 @@ export default async function CategoryPage({ params }: Props) {
       c => c.categoryId === categoryId
     );
     if (cat) categoryName = cat.categoryName;
-  } catch (e: any) {
-    error = e.message;
+  } catch (caughtError: unknown) {
+    error = caughtError instanceof Error ? caughtError.message : 'レシピ取得に失敗しました';
   }
 
   // 時短・節約でソート済みバリアントも計算

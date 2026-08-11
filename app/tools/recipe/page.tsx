@@ -16,13 +16,13 @@ const CATEGORY_ICONS: Record<string, string> = {
 };
 
 export default async function RecipePage() {
-  let categories = { large: [] as any[], medium: [] as any[], small: [] as any[] };
+  let categories: Awaited<ReturnType<typeof fetchCategories>> = { large: [], medium: [], small: [] };
   let error = '';
 
   try {
     categories = await fetchCategories();
-  } catch (e: any) {
-    error = e.message;
+  } catch (caughtError: unknown) {
+    error = caughtError instanceof Error ? caughtError.message : 'カテゴリ取得に失敗しました';
   }
 
   // 時短・節約系カテゴリを優先表示
