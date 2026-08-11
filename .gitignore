@@ -31,6 +31,11 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# YouTube API credentials & tokens
+client_secret.json
+.youtube-token.json
+video-assets/store/youtube-upload-state.json
+
 # vercel
 .vercel
 
