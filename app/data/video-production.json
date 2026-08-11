@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:02:47.123Z",
+  "generatedAt": "2026-08-11T22:28:23.678Z",
   "policy": "アダルトコンテンツ、成人向けアフィリエイト、機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 126,
+  "queuedCount": 134,
   "videos": [
     {
       "slug": "tsumiage-log",
@@ -37,7 +37,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -54,7 +54,7 @@
         "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
         "主な技術はTypeScript・JavaScript・CSS・Python・PowerShellです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、README.md、app、docsを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6179,6 +6179,398 @@
         "Reserve Sysは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
         "主な技術はTypeScript・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、AGENTS.md、CLAUDE.md、README.mdを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "mgs-video-guide",
+      "repository": "mgs-video-guide",
+      "title": "Mgs Video Guideの技術解説｜設計と実装を75秒で紹介",
+      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/mgs-video-guide",
+      "repositoryUrl": "https://github.com/syunnjack/mgs-video-guide",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/mgs-video-guide\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/mgs-video-guide\n\nMgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Mgs Video Guideの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/mgs-video-guide\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-06T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Mgs Video Guideの技術構成を短く解説します。",
+        "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "av-debut-tracker",
+      "repository": "av-debut-tracker",
+      "title": "Av Debut Trackerの技術解説｜設計と実装を75秒で紹介",
+      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/av-debut-tracker",
+      "repositoryUrl": "https://github.com/syunnjack/av-debut-tracker",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/av-debut-tracker\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/av-debut-tracker\n\nAv Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Av Debut Trackerの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/av-debut-tracker\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-07T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Av Debut Trackerの技術構成を短く解説します。",
+        "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "akira-special",
+      "repository": "akira-special",
+      "title": "Akira Specialの技術解説｜設計と実装を75秒で紹介",
+      "description": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "PHP・Blade・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/akira-special",
+      "repositoryUrl": "https://github.com/syunnjack/akira-special",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/akira-special\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/akira-special\n\nAkira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #PHP",
+      "slides": [
+        {
+          "title": "Akira Specialの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：PHP・Blade・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/akira-special\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-08T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/akira-special/akira-special-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/akira-special/akira-special-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Akira Specialの技術構成を短く解説します。",
+        "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はPHP・Blade・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "kaden-hikaku",
+      "repository": "kaden-hikaku",
+      "title": "Kaden Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "Kaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/kaden-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/kaden-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kaden-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kaden-hikaku\n\nKaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
+      "slides": [
+        {
+          "title": "Kaden Hikakuの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Kaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：Blade・PHP・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/kaden-hikaku\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-09T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/kaden-hikaku/kaden-hikaku-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/kaden-hikaku/kaden-hikaku-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Kaden Hikakuの技術構成を短く解説します。",
+        "Kaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "foodtruck-map",
+      "repository": "foodtruck-map",
+      "title": "Foodtruck Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "Foodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/foodtruck-map",
+      "repositoryUrl": "https://github.com/syunnjack/foodtruck-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/foodtruck-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/foodtruck-map\n\nFoodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
+      "slides": [
+        {
+          "title": "Foodtruck Mapの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Foodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：Blade・PHP・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/foodtruck-map\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-10T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/foodtruck-map/foodtruck-map-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/foodtruck-map/foodtruck-map-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Foodtruck Mapの技術構成を短く解説します。",
+        "Foodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "smoking-area-where",
+      "repository": "smoking-area-where",
+      "title": "Smoking Area Whereの技術解説｜設計と実装を75秒で紹介",
+      "description": "Smoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "Blade・PHP・JavaScript・CSS・Procfile",
+      "articleUrl": "https://syunnjack.dev/articles/smoking-area-where",
+      "repositoryUrl": "https://github.com/syunnjack/smoking-area-where",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/smoking-area-where\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/smoking-area-where\n\nSmoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
+      "slides": [
+        {
+          "title": "Smoking Area Whereの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Smoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：Blade・PHP・JavaScript・CSS・Procfile\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：Procfile、README.md、app"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/smoking-area-where\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-11T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Smoking Area Whereの技術構成を短く解説します。",
+        "Smoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はBlade・PHP・JavaScript・CSS・Procfileです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、Procfile、README.md、appを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hikkoshi-hikaku",
+      "repository": "hikkoshi-hikaku",
+      "title": "Hikkoshi Hikakuの技術解説｜設計と実装を75秒で紹介",
+      "description": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hikkoshi-hikaku",
+      "repositoryUrl": "https://github.com/syunnjack/hikkoshi-hikaku",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hikkoshi-hikaku\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hikkoshi-hikaku\n\nHikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
+      "slides": [
+        {
+          "title": "Hikkoshi Hikakuの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：Blade・PHP・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/hikkoshi-hikaku\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-12T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/hikkoshi-hikaku/hikkoshi-hikaku-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/hikkoshi-hikaku/hikkoshi-hikaku-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Hikkoshi Hikakuの技術構成を短く解説します。",
+        "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
+        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
+      "slug": "hoiku-map",
+      "repository": "hoiku-map",
+      "title": "Hoiku Mapの技術解説｜設計と実装を75秒で紹介",
+      "description": "Hoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "language": "Blade・PHP・JavaScript・CSS",
+      "articleUrl": "https://syunnjack.dev/articles/hoiku-map",
+      "repositoryUrl": "https://github.com/syunnjack/hoiku-map",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/hoiku-map\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/hoiku-map\n\nHoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #Blade",
+      "slides": [
+        {
+          "title": "Hoiku Mapの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "Hoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：Blade・PHP・JavaScript・CSS\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、artisan"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/hoiku-map\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-12-13T01:00:00.000Z",
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/hoiku-map/hoiku-map-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/hoiku-map/hoiku-map-tech-preview.pptx",
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Hoiku Mapの技術構成を短く解説します。",
+        "Hoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はBlade・PHP・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、README.md、app、artisanを中心に実装を確認できます。",
         "直近のコミットでは、新機能の追加と実装強化が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
