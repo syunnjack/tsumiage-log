@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:35:00.641Z",
+  "generatedAt": "2026-08-11T17:36:20.265Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -53,6 +53,112 @@
   ],
   "articles": [
     {
+      "slug": "reservation-waiting-time-v1",
+      "name": "reservation-waiting-time-v1",
+      "displayName": "Reservation Waiting Time V1",
+      "description": "NearQueue 店舗の近くからスマートフォンで受付番号を取得し、待ち時間を自由に使える順番待ちシステムです",
+      "readmeExcerpt": "NearQueue 店舗の近くからスマートフォンで受付番号を取得し、待ち時間を自由に使える順番待ちシステムです。 本番URL: https://reservation waiting time v1.syunnjack.workers.dev 主な機能 店舗から半径5km以内だけ受付可能な位置情報判定 受付番号、待ち組数、目安時間の自動更新 同じ端末からの重複受付防止 受付の取り消し スタッフコードで保護された店舗受付ボード 呼び出し、案内済み、取り消しの状態管理 受付完了後のクーポン・提携サービス掲載枠 D1による永続データ保存 位置情報は距離判定にだけ使用し、緯度・経度はデータベースへ保存しません。端末識別子もSHA 256でハッシュ化して保存します。 開発 本番ビルドと確認: 店舗設定 店舗の緯度・経度、受付半径、1組あたりの目安時間は lib/queue.ts で設定します。店舗受付ボードは、ホスティング環境の STAFF PIN を設定すると利用できます。 Cloudflareへデプロイ 1. 初回のみD1を作成 2. npm run build 後、 dist/server/wrangler.json の d1 databases 0 を実DBに合わせる database name : reservation waiting time v1 db database id : 作成時に表示されたUUID 3. スキーマ適用 4. デプロイ 注意 ブラウザから送信される位置情報は改ざんされる可能性があります。高額商品の確保や本人確認が必要な用途では、SMS認証、不正検知、レート制限などを追加してください。",
+      "url": "https://github.com/syunnjack/reservation-waiting-time-v1",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "3f7aaf1",
+          "message": "docs: add production URL and Cloudflare deploy steps",
+          "date": "2026-08-11T17:34:27Z",
+          "url": "https://github.com/syunnjack/reservation-waiting-time-v1/commit/3f7aaf10c45c56a0cbca82f8940184c2e14f9490"
+        },
+        {
+          "sha": "a931acc",
+          "message": "Configure hosted NearQueue release",
+          "date": "2026-07-21T09:39:47Z",
+          "url": "https://github.com/syunnjack/reservation-waiting-time-v1/commit/a931acc1ec2a0a4212ce2f3f958ccf7fade9c843"
+        },
+        {
+          "sha": "9f63d7b",
+          "message": "Build nearby mobile queue MVP",
+          "date": "2026-07-21T09:38:13Z",
+          "url": "https://github.com/syunnjack/reservation-waiting-time-v1/commit/9f63d7bae24703d74feefc14c22562cbaa24e103"
+        }
+      ],
+      "updatedAt": "2026-08-11T17:34:49Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "receipt-jp",
+      "name": "receipt-jp",
+      "displayName": "Receipt Jp",
+      "description": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです",
+      "readmeExcerpt": "レシート家計簿 レシート画像をアップロードすると、Claude API（Claude Haiku）が商品名・金額・日付を自動で読み取り、カテゴリ別に分類・集計する家計簿Webアプリです。 機能 レシート画像のアップロード → Claude APIによる自動読み取り 商品名・金額・日付の一覧表示 カテゴリ別（食費・日用品・外食など）の自動分類・集計 Chart.jsによるカテゴリ別円グラフ・月別棒グラフ 登録データはブラウザのlocalStorageに保存（リロードしても消えない） 構成 client/ — React Vite フロントエンド server/ — Node.js Express バックエンド。Claude APIの呼び出しはここでのみ行い、APIキーをブラウザに公開しない セットアップ 1. サーバー 2. クライアント ブラウザで http://localhost:5173 を開いてください。",
+      "url": "https://github.com/syunnjack/receipt-jp",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "CLAUDE.md",
+        "README.md",
+        "client",
+        "server"
+      ],
+      "commits": [
+        {
+          "sha": "6c61e89",
+          "message": "feat: 月次サマリー・予算管理パネル・CSV書き出し・カテゴリ/月フィルター・サンプルデータ読み込み追加",
+          "date": "2026-08-11T17:26:35Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/6c61e89320d859c7fb3c045e6c2cc99274e7d9a1"
+        },
+        {
+          "sha": "72aa65f",
+          "message": "Add live camera capture for receipts",
+          "date": "2026-07-04T13:41:16Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/72aa65f74fb3790b90e3bdeff38c328965992143"
+        },
+        {
+          "sha": "b198ab2",
+          "message": "Add validation for negative amounts and duplicate receipts",
+          "date": "2026-07-04T05:19:22Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/b198ab263d0acb36e1e8155cb5dac58a6026521d"
+        },
+        {
+          "sha": "8012e01",
+          "message": "Add receipt-reading household budget app",
+          "date": "2026-07-04T05:12:20Z",
+          "url": "https://github.com/syunnjack/receipt-jp/commit/8012e013f112c26f96f256befe3363520e4965ff"
+        }
+      ],
+      "updatedAt": "2026-08-11T17:26:52Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -87,6 +193,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "fe81cae",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T16:35:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe81caef19011ab3b2d161d9d699be2625d90e36"
+        },
         {
           "sha": "b28e5cb",
           "message": "Update repository articles from GitHub activity",
@@ -152,15 +264,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-11T09:40:21Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        },
-        {
-          "sha": "3e17896",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T08:38:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
         }
       ],
-      "updatedAt": "2026-08-11T15:37:32Z",
+      "updatedAt": "2026-08-11T16:36:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -11517,81 +11623,6 @@
         }
       ],
       "updatedAt": "2026-08-03T03:55:24Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "inid-comunity",
-      "name": "iniD-comunity",
-      "displayName": "IniD Comunity",
-      "description": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです",
-      "readmeExcerpt": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです。 主な機能 最初の10プレイ向けロードマップ 初心者向けコース・車種ガイド localStorageへ保存する走行ログ 投稿、検索、カテゴリ絞り込み、いいね FAQ構造化データ、サイトマップ、robots.txt、llms.txt 開発 本サイトはファンによる非公式サイトで、ゲームメーカーおよび権利者各社とは関係ありません。",
-      "url": "https://github.com/syunnjack/iniD-comunity",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "d4b6103",
-          "message": "Add transparent revenue pathways",
-          "date": "2026-08-02T04:02:38Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/d4b61031cb7d7841a9864324c2b12633a0b44493"
-        },
-        {
-          "sha": "9c444b2",
-          "message": "Add community voting and rankings",
-          "date": "2026-08-02T03:42:34Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/9c444b295586463e1aea34a4c89b709276a68577"
-        },
-        {
-          "sha": "f249f7b",
-          "message": "Add UGC engagement loops",
-          "date": "2026-08-02T03:38:33Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/f249f7b2ec4f562188daab6e2f07cbcbe070cba6"
-        },
-        {
-          "sha": "a469ab9",
-          "message": "Prepare domain launch operations",
-          "date": "2026-08-02T03:13:20Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/a469ab9c3f83fdf10c752cd907fba5f3e269e5af"
-        },
-        {
-          "sha": "72980aa",
-          "message": "Configure touge-start.jp domain",
-          "date": "2026-08-02T02:36:28Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/72980aad39e4244277b69336847269c675bd3149"
-        },
-        {
-          "sha": "4817e13",
-          "message": "Build Initial D beginner community site",
-          "date": "2026-08-02T02:26:15Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
-        }
-      ],
-      "updatedAt": "2026-08-02T04:02:54Z",
       "stars": 0,
       "forks": 0
     }
