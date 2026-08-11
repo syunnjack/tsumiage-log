@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T08:38:30.845Z",
+  "generatedAt": "2026-08-11T09:39:58.713Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -52,6 +52,78 @@
   ],
   "articles": [
     {
+      "slug": "togo-kanri-tool",
+      "name": "togo-kanri-tool",
+      "displayName": "Togo Kanri Tool",
+      "description": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext",
+      "readmeExcerpt": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext.jsアプリです。 デプロイし忘れ（完成済み） 未完成 サイトではないツール・SDK・API 重複・統合候補 主な機能 84件の既存棚卸しデータを初期表示 リポジトリ名・所見の検索と分類フィルター GitHub APIとVercel APIによる自動棚卸し 毎日06:00（日本時間）のVercel Cron Supabaseへの最新スナップショット保存 PWA対応（PC・スマートフォンへインストール可能） 既存のGSC・GA4サイト分析機能を保持 セットアップ 1. npm install 2. .env.example を参考に環境変数を設定 3. Supabase SQL Editorで supabase/schema.sql と supabase/schema inventory.sql を実行 4. npm run dev 本番では CRON SECRET を必ず設定してください。自動棚卸しAPIは Authorization: Bearer 以外を拒否します。 確認",
+      "url": "https://github.com/syunnjack/togo-kanri-tool",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "components",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "proxy.ts",
+        "public",
+        "scripts",
+        "supabase",
+        "tsconfig.json",
+        "vercel.json"
+      ],
+      "commits": [
+        {
+          "sha": "4e64ffa",
+          "message": "Avoid false undeployed results without Vercel token",
+          "date": "2026-08-11T08:47:39Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/4e64ffa72f46412b43892ec55556051567250b60"
+        },
+        {
+          "sha": "f98fed0",
+          "message": "Fix inventory snapshot persistence fallback",
+          "date": "2026-08-11T08:45:36Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/f98fed0c69be9b93dd50ecd72881a11a6614d196"
+        },
+        {
+          "sha": "a7d04cd",
+          "message": "Build RepoKura daily inventory MVP",
+          "date": "2026-08-11T04:31:34Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/a7d04cde3bccf2fbc85682c379340ae005dc6305"
+        },
+        {
+          "sha": "3bea4bd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:35Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/3bea4bdff83ef0757e04766d958539d8439b0fbb"
+        },
+        {
+          "sha": "95e446a",
+          "message": "Add GA4 integration alongside Search Console",
+          "date": "2026-07-31T19:11:50Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/95e446a35703aebf4c917516f58870a7a3b05529"
+        },
+        {
+          "sha": "48a92c3",
+          "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
+          "date": "2026-07-29T14:58:04Z",
+          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
+        }
+      ],
+      "updatedAt": "2026-08-11T08:47:51Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -86,6 +158,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "3e17896",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T08:38:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
+        },
         {
           "sha": "03a6757",
           "message": "Update repository articles from GitHub activity",
@@ -151,15 +229,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-10T22:29:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/09bcefae392da808509c65594c22d5083e4989b2"
-        },
-        {
-          "sha": "2e4c1f1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-10T21:32:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2e4c1f1877f14de04571b0415abb60ef6020980d"
         }
       ],
-      "updatedAt": "2026-08-11T07:49:11Z",
+      "updatedAt": "2026-08-11T08:39:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -249,66 +321,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:07:59Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "togo-kanri-tool",
-      "name": "togo-kanri-tool",
-      "displayName": "Togo Kanri Tool",
-      "description": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext",
-      "readmeExcerpt": "RepoKura（レポクラ） GitHubリポジトリと公開先を毎日照合し、未デプロイのプロジェクトを次の4種類へ分類するNext.jsアプリです。 デプロイし忘れ（完成済み） 未完成 サイトではないツール・SDK・API 重複・統合候補 主な機能 84件の既存棚卸しデータを初期表示 リポジトリ名・所見の検索と分類フィルター GitHub APIとVercel APIによる自動棚卸し 毎日06:00（日本時間）のVercel Cron Supabaseへの最新スナップショット保存 PWA対応（PC・スマートフォンへインストール可能） 既存のGSC・GA4サイト分析機能を保持 セットアップ 1. npm install 2. .env.example を参考に環境変数を設定 3. Supabase SQL Editorで supabase/schema.sql と supabase/schema inventory.sql を実行 4. npm run dev 本番では CRON SECRET を必ず設定してください。自動棚卸しAPIは Authorization: Bearer 以外を拒否します。 確認",
-      "url": "https://github.com/syunnjack/togo-kanri-tool",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "components",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "proxy.ts",
-        "public",
-        "scripts",
-        "supabase",
-        "tsconfig.json",
-        "vercel.json"
-      ],
-      "commits": [
-        {
-          "sha": "a7d04cd",
-          "message": "Build RepoKura daily inventory MVP",
-          "date": "2026-08-11T04:31:34Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/a7d04cde3bccf2fbc85682c379340ae005dc6305"
-        },
-        {
-          "sha": "3bea4bd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:35Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/3bea4bdff83ef0757e04766d958539d8439b0fbb"
-        },
-        {
-          "sha": "95e446a",
-          "message": "Add GA4 integration alongside Search Console",
-          "date": "2026-07-31T19:11:50Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/95e446a35703aebf4c917516f58870a7a3b05529"
-        },
-        {
-          "sha": "48a92c3",
-          "message": "Scaffold togo-kanri-tool: cross-site GSC dashboard with rule-based suggestions",
-          "date": "2026-07-29T14:58:04Z",
-          "url": "https://github.com/syunnjack/togo-kanri-tool/commit/48a92c330773058164def64cd3a81e45a1724c88"
-        }
-      ],
-      "updatedAt": "2026-08-11T04:31:38Z",
       "stars": 0,
       "forks": 0
     },
