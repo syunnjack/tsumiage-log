@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-08-11T17:36:20.265Z",
+  "generatedAt": "2026-08-11T18:34:43.298Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "darenano",
     "vr-content-gear-guide",
     "kijoi-ranking",
     "gyaru-ranking",
@@ -52,6 +53,619 @@
     "kyonyu-ranking"
   ],
   "articles": [
+    {
+      "slug": "coin-laundring",
+      "name": "coin-laundring",
+      "displayName": "Coin Laundring",
+      "description": "coin laundring コインランドリーの空き状況を素早く比較するためのフロントエンドアプリです",
+      "readmeExcerpt": "coin laundring コインランドリーの空き状況を素早く比較するためのフロントエンドアプリです。 機能 混雑ステータスフィルター（空きあり / やや混雑 / 混雑） 距離・徒歩時間の並び替え 店舗詳細（料金、設備、営業時間） 洗濯物量に応じた乾燥見込み時間の簡易シミュレーター ローカル起動 検証 デプロイ（GitHub Actions） main への push で .github/workflows/deploy.yml .github/workflows/deploy.yml が実行されます。 事前に以下の Repository Secrets を設定してください。 SSH HOST SSH USERNAME SSH PRIVATE KEY DEPLOY PATH DEPLOY PATH には公開ディレクトリ（例: /home/xxx/example.jp/public html/ ）を設定します。",
+      "url": "https://github.com/syunnjack/coin-laundring",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "5de806d",
+          "message": "feat: initialize coin-laundring app and deploy workflow",
+          "date": "2026-08-11T18:14:19Z",
+          "url": "https://github.com/syunnjack/coin-laundring/commit/5de806d21cdd691a7ccb88027a747390f0d24560"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:14:46Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "ca97afd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:19Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
+        },
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:29:47Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "wedding-hall-map",
+      "name": "wedding-hall-map",
+      "displayName": "Wedding Hall Map",
+      "description": "Wedding Hall Mapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Wedding Hall Mapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/wedding-hall-map",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "9291415",
+          "message": "feat: 結婚式場データを138件に拡充（北海道〜沖縄・離島まで全都道府県カバー）",
+          "date": "2026-08-11T18:07:46Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/9291415cd974d295f18b1a083d3d1367decd8b19"
+        },
+        {
+          "sha": "df0d585",
+          "message": "feat: 全国60件の結婚式場データ追加・デプロイワークフロー改善（rsync+SSH+seeding）",
+          "date": "2026-08-11T18:03:14Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/df0d585dba03e59b27d5d64086553adf91053e2c"
+        },
+        {
+          "sha": "187ec6a",
+          "message": "Add permanent Search Console verification meta tag",
+          "date": "2026-08-04T05:05:56Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/187ec6ab95006d71d0020ef960a9455e36373bb2"
+        },
+        {
+          "sha": "b70d2f0",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T18:00:25Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/b70d2f05941b9e4b3bc21e64ec1cd5a938437c27"
+        },
+        {
+          "sha": "a6c6e53",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:10:15Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/a6c6e53fc56348d699dfd3fbfdfa1e8529cbbdb9"
+        },
+        {
+          "sha": "7de3665",
+          "message": "結婚式場マップ（地図×UGC×LINE通知・資料請求）を新規構築",
+          "date": "2026-07-15T05:09:02Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:08:36Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "vs-jt",
+      "name": "vs-jt",
+      "displayName": "Vs Jt",
+      "description": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
+      "readmeExcerpt": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです。正式ドメインは sugusuu.jp 、 sugusuu.com はメインドメインへ転送します。 ローカル起動 MVPに含むもの 現在地中心のスポットマップと絞り込み リスト表示、スポット詳細、ルート導線 ゲストによる1タップ混雑投稿とポイント QRチェックインのUIフロー 写真・口コミ閲覧導線 空き通知の許可フロー PWAマニフェスト / Service Worker Supabase + PostGIS用の初期スキーマ 本番接続時はMapboxまたはMapLibre、Supabase、Web Push送信API、画像Storageを環境変数経由で接続してください。 ビルドとLint GitHub Actionsデプロイ main / master への push で .github/workflows/deploy.yml .github/workflows/deploy.yml が実行されます。 事前に以下の Repository Secrets を設定してください。 SSH HOST SSH USERNAME SSH PRIVATE KEY デプロイ先は sugusuu.jp/public html を想定しています。",
+      "url": "https://github.com/syunnjack/vs-jt",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "PLpgSQL",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "src",
+        "supabase"
+      ],
+      "commits": [
+        {
+          "sha": "2290819",
+          "message": "docs: finalize vs-jt deployment and verification guide",
+          "date": "2026-08-11T18:03:08Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/229081997a9c5b5491668941843ebc2664616b04"
+        },
+        {
+          "sha": "8e29d2f",
+          "message": "feat: add sitemap.xml for SEO",
+          "date": "2026-08-10T20:29:24Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/8e29d2f0c0d77e0f945ee6053e77b7a5553d349f"
+        },
+        {
+          "sha": "6d547fb",
+          "message": "Fix toast blocking taps on buttons underneath it",
+          "date": "2026-08-09T08:36:29Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/6d547fb0a28092b35bcc44b9575facaf57c1ae30"
+        },
+        {
+          "sha": "f9ea225",
+          "message": "Add Search Console verification meta tag",
+          "date": "2026-08-04T15:12:52Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/f9ea2254e6c449adb10e7448e677e63a125f414e"
+        },
+        {
+          "sha": "d0e163d",
+          "message": "Switch deployment to Xserver",
+          "date": "2026-08-04T05:29:18Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/d0e163d2949a4775f1b7c8f3077e730c792d21f3"
+        },
+        {
+          "sha": "e6493e2",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T19:21:12Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/e6493e26bc459fd8ed247dc5eb158ffd0469ec02"
+        },
+        {
+          "sha": "7c375d5",
+          "message": "Configure GitHub Pages for sugusuu.jp",
+          "date": "2026-07-22T10:50:25Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/7c375d57f7b260a5e9c351eb9ba1669ad9a80b43"
+        },
+        {
+          "sha": "d5e2efa",
+          "message": "Rebrand site as Sugusuu",
+          "date": "2026-07-22T07:00:31Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/d5e2efa48401cb6ba41a6cc13812e1a81453d177"
+        },
+        {
+          "sha": "2a86c7c",
+          "message": "Add Sites worker entrypoint",
+          "date": "2026-07-22T06:19:19Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/2a86c7c0b306d0ac9d21f2d0d4b7093197a3dc6d"
+        },
+        {
+          "sha": "972d06c",
+          "message": "Build install-free mobile smoking spot MVP",
+          "date": "2026-07-22T05:31:14Z",
+          "url": "https://github.com/syunnjack/vs-jt/commit/972d06ca61dbfc02d689cd76647e8a9efd8a0c37"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:05:01Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "walkmap",
+      "name": "walkmap",
+      "displayName": "Walkmap",
+      "description": "WalkMap 現在地や駅周辺のスポットを地図で探し、ユーザー投稿による混雑度レポートを確認できる Laravel アプリです",
+      "readmeExcerpt": "WalkMap 現在地や駅周辺のスポットを地図で探し、ユーザー投稿による混雑度レポートを確認できる Laravel アプリです。 主な機能 地図ベースで周辺スポットを検索 カテゴリ別クイック検索（食べる、飲む、泊まる、遊ぶ、EV 充電、電源カフェ、ペット可、コインランドリー） 徒歩/車ルート検索 新規スポット投稿 混雑度レポート投稿（5段階） ハニーポットと NG ワードによるスパム対策 LINE ログインとお気に入り登録 お気に入りスポットの混雑度変化を LINE 通知 sitemap.xml と robots.txt 対応 技術スタック Laravel 12 Blade + Bootstrap SQLite（開発時デフォルト） Vite LINE Login / LINE Messaging API セットアップ SQLite を利用する場合: 開発起動 テストとビルド LINE 連携に必要な環境変数 LINE LOGIN CHANNEL ID LINE LOGIN CHANNEL SECRET LINE LOGIN REDIRECT URI LINE MESSAGING CHANNEL ACCESS TOKEN LINE MESSAGING CHANNEL SECRET GitHub Actions デプロイ ワークフローは .github/workflows/deploy.yml .github/workflows/deploy.yml です。 事前に以下の Repository Secrets を設定してください。 SSH HOST SSH USERNAME SSH PRIVATE KEY",
+      "url": "https://github.com/syunnjack/walkmap",
+      "defaultBranch": "master",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "a112eaf",
+          "message": "docs: finalize walkmap setup and harden deploy workflow",
+          "date": "2026-08-11T17:59:05Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/a112eafde9b2b690d6fa18c4c7f70c2db5deffe0"
+        },
+        {
+          "sha": "a954061",
+          "message": "Add permanent Search Console verification meta tag",
+          "date": "2026-08-04T05:05:36Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/a954061177472473282fc3fc9d62f2bb70ded92c"
+        },
+        {
+          "sha": "4eabeae",
+          "message": "Add GA4 tracking snippet",
+          "date": "2026-08-03T17:59:54Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/4eabeaef85bb4448ed450b3a8c4bc05df3f57235"
+        },
+        {
+          "sha": "88c3806",
+          "message": "Add GitHub Actions deployment workflow",
+          "date": "2026-08-01T19:10:11Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/88c380642ce019db910808e9860839da9dddd0cf"
+        },
+        {
+          "sha": "ff4ca20",
+          "message": "LINE混雑度通知を追加(住宅展示場など予約サイトにない情報の差別化)",
+          "date": "2026-07-14T23:59:41Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/ff4ca2077d924b129387c9c6dd1723c1562f0269"
+        },
+        {
+          "sha": "f978943",
+          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
+          "date": "2026-07-14T22:01:10Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/f978943ee5cdb75d4c9d06b9b1599d69f251b7d6"
+        },
+        {
+          "sha": "c989a8a",
+          "message": "EV充電・電源/Wi-Fiカフェ・ペット可施設・コインランドリー検索を追加",
+          "date": "2026-07-14T19:18:00Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/c989a8a86048e20c641f9bb32713e1c3097d0d7f"
+        },
+        {
+          "sha": "f6c44e4",
+          "message": "Consolidate walkmap onto free-only stack, add UGC congestion reports",
+          "date": "2026-07-14T11:41:09Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/f6c44e44d315d66085474eb329f75dc40987854d"
+        },
+        {
+          "sha": "4519e91",
+          "message": "first commit",
+          "date": "2025-07-24T08:02:20Z",
+          "url": "https://github.com/syunnjack/walkmap/commit/4519e91a2dc48af0141f8acd476a8277daf3b2ff"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:00:43Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "storage-locker-near",
+      "name": "storage-locker-near",
+      "displayName": "Storage Locker Near",
+      "description": "Storage Locker Near 駅周辺のコインロッカーを、地図・口コミ・空き状況で探せるLaravelアプリです",
+      "readmeExcerpt": "Storage Locker Near 駅周辺のコインロッカーを、地図・口コミ・空き状況で探せるLaravelアプリです。 主な機能 ロッカー投稿（駅名、場所、サイズ別料金、徒歩時間） 駅・現在地ベースの検索 S/M/L別の空き状況レポート投稿 ロッカー詳細ページでの口コミ投稿 LINEログイン連携によるお気に入り登録 お気に入りロッカーに「空きあり」報告が出た際のLINE通知 sitemap.xml / robots.txt / OGP / JSON LD対応 技術スタック Laravel 12 Blade + Bootstrap 5 SQLite（開発時デフォルト） Vite LINE Login / LINE Messaging API セットアップ SQLiteファイルを使う場合: 開発起動 テスト・ビルド 本番デプロイ（GitHub Actions） main への push で .github/workflows/deploy.yml .github/workflows/deploy.yml が実行されます。 事前に以下の Repository Secrets を設定してください。 APP KEY SSH HOST SSH USERNAME SSH PRIVATE KEY DEPLOY PATH LINE通知の設定 必要な環境変数: LINE LOGIN CHANNEL ID LINE LOGIN CHANNEL SECRET LINE LOGIN REDIRECT URI LINE MESSAGING CHANNEL ACCESS TOKEN LINE MESSAGING CHANNEL SECRET 詳細は LINE SETUP.md を参照してください。 定期通知コマンド 空きあり報告の通知は、以下のコマンドで実行します。 サーバーではcronで定期実行してください。",
+      "url": "https://github.com/syunnjack/storage-locker-near",
+      "defaultBranch": "main",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "LINE_SETUP.md",
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "6155b2b",
+          "message": "ci: validate deploy secrets and use npm ci",
+          "date": "2026-08-11T17:47:50Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/6155b2b72c71bfee91137225cba4ba310af0ac40"
+        },
+        {
+          "sha": "c454b36",
+          "message": "feat: コインロッカーデータを全国規模に拡充（47都道府県・160件超、北海道〜沖縄）",
+          "date": "2026-08-11T17:47:31Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/c454b36fe62b24c8c90a4a970f7f7ac08c6aad6c"
+        },
+        {
+          "sha": "57e4b6e",
+          "message": "docs: finalize locker setup and fix test database migration",
+          "date": "2026-08-11T17:41:42Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/57e4b6e52b39fd53752facbab2bfd5e831c0e305"
+        },
+        {
+          "sha": "120d691",
+          "message": "feat: 全国主要駅コインロッカー50件追加（東京・新宿・渋谷・大阪・京都・名古屋・博多・仙台・札幌・空港等）・GitHub Actionsデプロイ設定追加",
+          "date": "2026-08-11T17:36:58Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/120d6910bbf8bd0b150c8a5596f7dae6640ae086"
+        },
+        {
+          "sha": "a46bb04",
+          "message": "Add Google Search Console verification meta tag",
+          "date": "2026-08-05T10:07:27Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/a46bb04351ff5026290a6d0298ad5980d3539245"
+        },
+        {
+          "sha": "b9b7146",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T15:03:44Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/b9b71468e397e636ec59aa6c3904fbefb48b7fba"
+        },
+        {
+          "sha": "b7604f8",
+          "message": "Rebuild as Laravel app: lockers, reviews, favorites, LINE login/webhook",
+          "date": "2026-07-30T12:58:54Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/b7604f8c951d0629466a582fac09cc567f136c9d"
+        },
+        {
+          "sha": "d61f05e",
+          "message": "Add LINE webhook setup for user ID capture",
+          "date": "2026-07-15T00:03:42Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
+        },
+        {
+          "sha": "8b39ab6",
+          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
+          "date": "2026-07-14T23:52:04Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
+        }
+      ],
+      "updatedAt": "2026-08-11T17:48:39Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "sitemap.xml",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "8635250",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T17:36:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8635250cafbc76be52a98b3dfe64d7f1ed358c9e"
+        },
+        {
+          "sha": "fe81cae",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T16:35:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe81caef19011ab3b2d161d9d699be2625d90e36"
+        },
+        {
+          "sha": "b28e5cb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T15:35:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b28e5cb149a66ee0ab9015efd856efa2e8b3b1f1"
+        },
+        {
+          "sha": "6939714",
+          "message": "Merge pull request #34 from syunnjack/codex/automated-video-20260811-2320",
+          "date": "2026-08-11T15:04:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/69397140bcd15beac9b0f0eaa7de65310e30493c"
+        },
+        {
+          "sha": "693575d",
+          "message": "Update repository articles and video assets",
+          "date": "2026-08-11T15:03:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/693575dd77820df82dd29598509c0ff2207446eb"
+        },
+        {
+          "sha": "d506237",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T14:39:30Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d506237c28eadf25ba188d2c7ff1779a94011163"
+        },
+        {
+          "sha": "94d6dcb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T13:46:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
+        },
+        {
+          "sha": "2b8b6be",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T12:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
+        },
+        {
+          "sha": "d067378",
+          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
+          "date": "2026-08-11T12:17:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
+        },
+        {
+          "sha": "cb66ea8",
+          "message": "Automate complete repository video publication",
+          "date": "2026-08-11T12:17:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
+        },
+        {
+          "sha": "1d746d7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T11:36:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
+        },
+        {
+          "sha": "fd431dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T10:37:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
+        }
+      ],
+      "updatedAt": "2026-08-11T17:36:59Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "reservation-waiting-time-v1",
       "name": "reservation-waiting-time-v1",
@@ -155,118 +769,6 @@
         }
       ],
       "updatedAt": "2026-08-11T17:26:52Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "sitemap.xml",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "fe81cae",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T16:35:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe81caef19011ab3b2d161d9d699be2625d90e36"
-        },
-        {
-          "sha": "b28e5cb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T15:35:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b28e5cb149a66ee0ab9015efd856efa2e8b3b1f1"
-        },
-        {
-          "sha": "6939714",
-          "message": "Merge pull request #34 from syunnjack/codex/automated-video-20260811-2320",
-          "date": "2026-08-11T15:04:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/69397140bcd15beac9b0f0eaa7de65310e30493c"
-        },
-        {
-          "sha": "693575d",
-          "message": "Update repository articles and video assets",
-          "date": "2026-08-11T15:03:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/693575dd77820df82dd29598509c0ff2207446eb"
-        },
-        {
-          "sha": "d506237",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T14:39:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d506237c28eadf25ba188d2c7ff1779a94011163"
-        },
-        {
-          "sha": "94d6dcb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T13:46:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
-        },
-        {
-          "sha": "2b8b6be",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T12:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
-        },
-        {
-          "sha": "d067378",
-          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
-          "date": "2026-08-11T12:17:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
-        },
-        {
-          "sha": "cb66ea8",
-          "message": "Automate complete repository video publication",
-          "date": "2026-08-11T12:17:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
-        },
-        {
-          "sha": "1d746d7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T11:36:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
-        },
-        {
-          "sha": "fd431dd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T10:37:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
-        },
-        {
-          "sha": "3522113",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T09:40:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        }
-      ],
-      "updatedAt": "2026-08-11T16:36:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -430,118 +932,6 @@
         }
       ],
       "updatedAt": "2026-08-11T15:20:25Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "local-service-finder",
-      "name": "local-service-finder",
-      "displayName": "Local Service Finder",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-service-finder",
-      "defaultBranch": "codex/house-cleaning-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "ca97afd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:19Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
-        },
-        {
-          "sha": "e3fcc9a",
-          "message": "feat: prioritize helpful discovery on home",
-          "date": "2026-07-24T16:50:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
-        },
-        {
-          "sha": "b0d4de1",
-          "message": "feat: add handyman and silver center comparisons",
-          "date": "2026-07-24T16:45:37Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
-        },
-        {
-          "sha": "106b505",
-          "message": "feat: add verified locksmith regional data",
-          "date": "2026-07-24T16:39:27Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
-        },
-        {
-          "sha": "7693641",
-          "message": "feat: add verified garden regional data",
-          "date": "2026-07-24T16:34:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
-        },
-        {
-          "sha": "c38200e",
-          "message": "feat: add verified regional care data",
-          "date": "2026-07-24T16:33:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
-        },
-        {
-          "sha": "adeda1d",
-          "message": "feat: add verified moving regional data",
-          "date": "2026-07-24T16:29:29Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
-        },
-        {
-          "sha": "409ea73",
-          "message": "feat: add verified regional service data",
-          "date": "2026-07-24T16:25:58Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
-        },
-        {
-          "sha": "e344dab",
-          "message": "fix: consolidate thin regional search pages",
-          "date": "2026-07-24T16:19:55Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
-        },
-        {
-          "sha": "8e6e757",
-          "message": "feat: distinguish verified review experiences",
-          "date": "2026-07-24T16:16:23Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
-        },
-        {
-          "sha": "9d5a3a9",
-          "message": "feat: strengthen search and AI discovery signals",
-          "date": "2026-07-24T16:12:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
-        },
-        {
-          "sha": "d9c89ba",
-          "message": "feat: connect related local service journeys",
-          "date": "2026-07-24T14:33:47Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:29:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -9875,90 +10265,6 @@
       "forks": 0
     },
     {
-      "slug": "vs-jt",
-      "name": "vs-jt",
-      "displayName": "Vs Jt",
-      "description": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです",
-      "readmeExcerpt": "vs jt / スグスウ 登録・アプリ不要で近くの喫煙スポット、直近の混雑状況、口コミを確認できるスマホ特化サイトです。正式ドメインは sugusuu.jp 、 sugusuu.com はメインドメインへ転送します。 ローカル起動 MVPに含むもの 現在地中心のスポットマップと絞り込み リスト表示、スポット詳細、ルート導線 ゲストによる1タップ混雑投稿とポイント QRチェックインのUIフロー 写真・口コミ閲覧導線 空き通知の許可フロー PWAマニフェスト / Service Worker Supabase + PostGIS用の初期スキーマ 本番接続時はMapboxまたはMapLibre、Supabase、Web Push送信API、画像Storageを環境変数経由で接続してください。",
-      "url": "https://github.com/syunnjack/vs-jt",
-      "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript",
-        "PLpgSQL",
-        "HTML",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "supabase"
-      ],
-      "commits": [
-        {
-          "sha": "8e29d2f",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:24Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/8e29d2f0c0d77e0f945ee6053e77b7a5553d349f"
-        },
-        {
-          "sha": "6d547fb",
-          "message": "Fix toast blocking taps on buttons underneath it",
-          "date": "2026-08-09T08:36:29Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/6d547fb0a28092b35bcc44b9575facaf57c1ae30"
-        },
-        {
-          "sha": "f9ea225",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T15:12:52Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/f9ea2254e6c449adb10e7448e677e63a125f414e"
-        },
-        {
-          "sha": "d0e163d",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:18Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/d0e163d2949a4775f1b7c8f3077e730c792d21f3"
-        },
-        {
-          "sha": "e6493e2",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:12Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/e6493e26bc459fd8ed247dc5eb158ffd0469ec02"
-        },
-        {
-          "sha": "7c375d5",
-          "message": "Configure GitHub Pages for sugusuu.jp",
-          "date": "2026-07-22T10:50:25Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/7c375d57f7b260a5e9c351eb9ba1669ad9a80b43"
-        },
-        {
-          "sha": "d5e2efa",
-          "message": "Rebrand site as Sugusuu",
-          "date": "2026-07-22T07:00:31Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/d5e2efa48401cb6ba41a6cc13812e1a81453d177"
-        },
-        {
-          "sha": "2a86c7c",
-          "message": "Add Sites worker entrypoint",
-          "date": "2026-07-22T06:19:19Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/2a86c7c0b306d0ac9d21f2d0d4b7093197a3dc6d"
-        },
-        {
-          "sha": "972d06c",
-          "message": "Build install-free mobile smoking spot MVP",
-          "date": "2026-07-22T05:31:14Z",
-          "url": "https://github.com/syunnjack/vs-jt/commit/972d06ca61dbfc02d689cd76647e8a9efd8a0c37"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:30:08Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "subscription-compare",
       "name": "subscription-compare",
       "displayName": "Subscription Compare",
@@ -10543,76 +10849,6 @@
       "forks": 0
     },
     {
-      "slug": "storage-locker-near",
-      "name": "storage-locker-near",
-      "displayName": "Storage Locker Near",
-      "description": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Storage Locker Nearは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/storage-locker-near",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "LINE_SETUP.md",
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a46bb04",
-          "message": "Add Google Search Console verification meta tag",
-          "date": "2026-08-05T10:07:27Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/a46bb04351ff5026290a6d0298ad5980d3539245"
-        },
-        {
-          "sha": "b9b7146",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T15:03:44Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/b9b71468e397e636ec59aa6c3904fbefb48b7fba"
-        },
-        {
-          "sha": "b7604f8",
-          "message": "Rebuild as Laravel app: lockers, reviews, favorites, LINE login/webhook",
-          "date": "2026-07-30T12:58:54Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/b7604f8c951d0629466a582fac09cc567f136c9d"
-        },
-        {
-          "sha": "d61f05e",
-          "message": "Add LINE webhook setup for user ID capture",
-          "date": "2026-07-15T00:03:42Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/d61f05e3f5573d494f567df20d0e1f64283cd2d6"
-        },
-        {
-          "sha": "8b39ab6",
-          "message": "Add LockerLoop CashPoint prototype with LINE notifications",
-          "date": "2026-07-14T23:52:04Z",
-          "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
-        }
-      ],
-      "updatedAt": "2026-08-05T10:08:19Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "akira-special",
       "name": "akira-special",
       "displayName": "Akira Special",
@@ -10720,93 +10956,6 @@
         }
       ],
       "updatedAt": "2026-08-04T15:03:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "walkmap",
-      "name": "walkmap",
-      "displayName": "Walkmap",
-      "description": "Walkmapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Walkmapは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/walkmap",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "a954061",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:36Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/a954061177472473282fc3fc9d62f2bb70ded92c"
-        },
-        {
-          "sha": "4eabeae",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:59:54Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/4eabeaef85bb4448ed450b3a8c4bc05df3f57235"
-        },
-        {
-          "sha": "88c3806",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:11Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/88c380642ce019db910808e9860839da9dddd0cf"
-        },
-        {
-          "sha": "ff4ca20",
-          "message": "LINE混雑度通知を追加(住宅展示場など予約サイトにない情報の差別化)",
-          "date": "2026-07-14T23:59:41Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/ff4ca2077d924b129387c9c6dd1723c1562f0269"
-        },
-        {
-          "sha": "f978943",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:01:10Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/f978943ee5cdb75d4c9d06b9b1599d69f251b7d6"
-        },
-        {
-          "sha": "c989a8a",
-          "message": "EV充電・電源/Wi-Fiカフェ・ペット可施設・コインランドリー検索を追加",
-          "date": "2026-07-14T19:18:00Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/c989a8a86048e20c641f9bb32713e1c3097d0d7f"
-        },
-        {
-          "sha": "f6c44e4",
-          "message": "Consolidate walkmap onto free-only stack, add UGC congestion reports",
-          "date": "2026-07-14T11:41:09Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/f6c44e44d315d66085474eb329f75dc40987854d"
-        },
-        {
-          "sha": "4519e91",
-          "message": "first commit",
-          "date": "2025-07-24T08:02:20Z",
-          "url": "https://github.com/syunnjack/walkmap/commit/4519e91a2dc48af0141f8acd476a8277daf3b2ff"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -10945,69 +11094,6 @@
         }
       ],
       "updatedAt": "2026-08-04T05:06:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "wedding-hall-map",
-      "name": "wedding-hall-map",
-      "displayName": "Wedding Hall Map",
-      "description": "Wedding Hall Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Wedding Hall Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/wedding-hall-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "187ec6a",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:56Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/187ec6ab95006d71d0020ef960a9455e36373bb2"
-        },
-        {
-          "sha": "b70d2f0",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:25Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/b70d2f05941b9e4b3bc21e64ec1cd5a938437c27"
-        },
-        {
-          "sha": "a6c6e53",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:15Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/a6c6e53fc56348d699dfd3fbfdfa1e8529cbbdb9"
-        },
-        {
-          "sha": "7de3665",
-          "message": "結婚式場マップ（地図×UGC×LINE通知・資料請求）を新規構築",
-          "date": "2026-07-15T05:09:02Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -11385,244 +11471,6 @@
         }
       ],
       "updatedAt": "2026-08-04T03:28:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "raku-toolv2",
-      "name": "raku-toolv2",
-      "displayName": "Raku Toolv2",
-      "description": "Raku Atlas / raku toolv2 楽天Web Serviceの公式APIを横断して、紹介候補を検索・保存するアフィリエイト検証ツールです",
-      "readmeExcerpt": "Raku Atlas / raku toolv2 楽天Web Serviceの公式APIを横断して、紹介候補を検索・保存するアフィリエイト検証ツールです。 対応範囲 API検索: 楽天市場、楽天トラベル、楽天ブックス、楽天Kobo、楽天GORA コンテンツ企画支援: 楽天レシピ（API自体はアフィリエイト非対応） サービスカタログ: 楽天公式のアフィリエイト対象サービスをカテゴリ別に表示 編集支援: 候補保存、広告表記・確認事項付き投稿メモ UGC: Supabase接続時のレビュー投稿、審査待ち保存、公開済みレビュー一覧 SEO/AIO/LLMO: JSON LD、canonical、OG、robots、sitemap、llms.txt、一次情報へのcitation 「楽天アフィリエイト対象」と「楽天Web Serviceでアフィリエイト対応APIが提供されている」は同じではありません。公開APIがないサービスを取得済みとは表現せず、公式リンク作成画面へ案内します。 認証情報 楽天Web Serviceで発行されたApplication IDとAccess Keyが必要です。Affiliate IDはAPIが返すアフィリエイトURLへ反映するために使用します。入力値は永続保存しません。ただしブラウザからAPIへ直接送信する構成のため、公開端末では入力しないでください。本番運用でAccess Keyを秘匿する場合は、許可Origin・レート制限を備えたバックエンドプロキシが必要です。 コマンド UGCバックエンド supabase/schema.sql を実行し、次をビルド環境に設定します。匿名投稿は必ず pending となり、RLSで published だけを公開取得します。 大量アクセスに備えるには、CAPTCHA、IP/ユーザー単位のレート制限、管理者モデレーション画面、通報・削除窓口、CDNキャッシュが追加で必要です。現時点ではこれらを実装済みとは扱いません。 public/robots.txt 、 public/sitemap.xml 、 index.ht",
-      "url": "https://github.com/syunnjack/raku-toolv2",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [
-        "README.md"
-      ],
-      "commits": [
-        {
-          "sha": "7431548",
-          "message": "Initialize raku-toolv2",
-          "date": "2026-08-04T02:16:23Z",
-          "url": "https://github.com/syunnjack/raku-toolv2/commit/743154823535c3785150e3b55ea723993a3fd199"
-        }
-      ],
-      "updatedAt": "2026-08-04T02:16:33Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "itshikaku-shindan",
-      "name": "itshikaku-shindan",
-      "displayName": "Itshikaku Shindan",
-      "description": "Itshikaku Shindanは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Itshikaku Shindanは、PHP、Blade、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/itshikaku-shindan",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "CSS",
-        "JavaScript",
-        "Procfile"
-      ],
-      "files": [
-        "Procfile",
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "b4f82e2",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:59:51Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b4f82e2e3e439e9fdadd46642e46ddfe3c87c965"
-        },
-        {
-          "sha": "9d9d1be",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:35Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/9d9d1be20afa20b7561dd346a672440c767171d8"
-        },
-        {
-          "sha": "87a24db",
-          "message": "Enrich paid question explanations",
-          "date": "2026-07-14T23:17:03Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/87a24db588b8633a18e9725eb7d2fe532b746d24"
-        },
-        {
-          "sha": "3e88abc",
-          "message": "Enhance free trial exam questions",
-          "date": "2026-07-14T23:09:16Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/3e88abc43c147ced644c804c28a9182da15cb911"
-        },
-        {
-          "sha": "526d126",
-          "message": "Add scheduled review tracking",
-          "date": "2026-07-14T22:28:12Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/526d1268cb88b0b9e7b710243c26c4fe4a8f876b"
-        },
-        {
-          "sha": "7aa16bf",
-          "message": "Add learning dashboard and question admin",
-          "date": "2026-07-14T22:06:54Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/7aa16bfc2c68ffa357ab29e4645fa4a170e963af"
-        },
-        {
-          "sha": "551110d",
-          "message": "Add billing history and SEO pages",
-          "date": "2026-07-14T21:57:14Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/551110d60f928256996df7911e8515dc1ab3e041"
-        },
-        {
-          "sha": "b2f8ca2",
-          "message": "Add account based free question limit",
-          "date": "2026-07-14T21:36:13Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b2f8ca216403051afc03df5549d2dbd1a4abb33d"
-        },
-        {
-          "sha": "866593e",
-          "message": "Add free question membership gate",
-          "date": "2026-07-14T21:24:48Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/866593e3cfa78154fe53f10094b9adf5da368df4"
-        },
-        {
-          "sha": "c9ac0d7",
-          "message": "Add certification practice questions",
-          "date": "2026-07-14T21:15:14Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/c9ac0d7c40bb3ca3c0d48469884ab45ff8acee6d"
-        },
-        {
-          "sha": "652c66f",
-          "message": "Optimize IT certification quiz SEO",
-          "date": "2026-07-14T19:12:47Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/652c66ff97b3115c020ed2d1de8ece7ff3c105e9"
-        },
-        {
-          "sha": "c68b18e",
-          "message": "Add Procfile",
-          "date": "2025-06-26T08:11:53Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/c68b18e11c602edc652ffd90d3acc75f2d0dfaa2"
-        }
-      ],
-      "updatedAt": "2026-08-03T18:02:53Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "sedora-s",
-      "name": "sedora-s",
-      "displayName": "Sedora S",
-      "description": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます",
-      "readmeExcerpt": "JAN・ISBN・DVD/Blu ray 作品情報検索 USBバーコードリーダーが数字とEnterを送信する一般的な「キーボード入力型」で利用できます。 対応対象 ISBN 10 / ISBN 13: 書籍 JAN: DVD、Blu ray、ゲーム、フィギュア、トレーディングカード、一般商品 仕入額、販売予定額、手数料率、送料による見込み利益計算 楽天市場の出品価格とAmazon（Keepa）の新品・中古価格を集計し、最安値・中央値・推奨販売価格を自動判定 駿河屋・アニメイトへJAN/ISBNを引き継いで公式検索（提携API提供後は自動相場集計へ移行可能） ブックオフ、ハードオフ、ネットオフ、バリューブックスを含む中古市場の利用可否・API・提携方針は MARKET PROVIDERS.md に整理 起動 bin/Release/net10.0 windows/JAN ISBN DVD作品検索.exe を実行します。Microsoft Edge WebView2 Runtimeが必要です。 API設定 ISBNはGoogle Booksから検索します。JANおよび楽天Books検索には、楽天ウェブサービスの「アプリID」と「アクセスキー」を画面下部に入力して保存してください。アクセスキーは楽天ウェブサービスの管理画面で取得します。 Amazonの新品・中古相場を自動取得する場合はKeepa APIキーも入力します。キーがない場合でも楽天市場相場の自動集計は動作します。Amazon公式API、Keepa、他市場のデータは、それぞれ正規の契約・認証情報が必要です。 Yahoo ショッピングのClient ID、PriceCharting APIトークン、eBay Application access tokenを登録すると、それぞれの相場も自動集計します。eBay価格は通貨を明示し、現段階では為替換算せず表示します。 API設定はWindows DPAPIで暗号化し、WindowsユーザーのLocalApplicationData内へ保存します。設定ファイルやAPIキーをG",
-      "url": "https://github.com/syunnjack/sedora-s",
-      "defaultBranch": "main",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#"
-      ],
-      "files": [
-        "BarcodeWorkInfoComplete.csproj",
-        "DOMAIN_CANDIDATES.md",
-        "MARKET_PROVIDERS.md",
-        "MainForm.cs",
-        "Program.cs",
-        "README.md",
-        "TEST_REPORT.md",
-        "収益ロードマップ.md"
-      ],
-      "commits": [
-        {
-          "sha": "45911e1",
-          "message": "Add Windows release build verification",
-          "date": "2026-08-03T03:55:02Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/45911e1fd92c10cd8a35da6fe8c2f3d54095625c"
-        },
-        {
-          "sha": "585a17c",
-          "message": "Prevent build outputs and secrets from being committed",
-          "date": "2026-08-03T03:55:00Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/585a17c9038d3f0fdfe5ac5c011b03f5cc914286"
-        },
-        {
-          "sha": "8ffb1c5",
-          "message": "Document encrypted API settings storage",
-          "date": "2026-08-03T03:54:59Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/8ffb1c54457391a92bc0c11c5e2bdc5afcc0ddd4"
-        },
-        {
-          "sha": "541bd39",
-          "message": "Encrypt saved API credentials with Windows DPAPI",
-          "date": "2026-08-03T03:54:57Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/541bd3920548e3180284af774c133abcdd467fe3"
-        },
-        {
-          "sha": "a34e945",
-          "message": "Record domain registrations",
-          "date": "2026-08-03T03:47:18Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/a34e94552f68e74fb317aad9f097aeab26cf96d2"
-        },
-        {
-          "sha": "be86fa8",
-          "message": "Link test report and domain candidates",
-          "date": "2026-08-03T03:28:03Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/be86fa83771e18d50828512aeaa95d45c493ac91"
-        },
-        {
-          "sha": "8807249",
-          "message": "Add DOMAIN_CANDIDATES.md",
-          "date": "2026-08-03T03:28:00Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/8807249cb6fcc350b66869058b81c57468bcc807"
-        },
-        {
-          "sha": "c720b5f",
-          "message": "Add TEST_REPORT.md",
-          "date": "2026-08-03T03:27:57Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/c720b5fee9558bb7c25e8a657b91a5b52e740a0c"
-        },
-        {
-          "sha": "af37fa9",
-          "message": "Add individual market APIs to README.md",
-          "date": "2026-08-03T03:19:47Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/af37fa9cdcb519ef51bf1aed020ce8e1b0af7432"
-        },
-        {
-          "sha": "25e528c",
-          "message": "Add individual market APIs to MainForm.cs",
-          "date": "2026-08-03T03:19:44Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/25e528c4cfe1b08547ea109023dbd6bb4d7914b7"
-        },
-        {
-          "sha": "a639220",
-          "message": "Document individual-access 収益ロードマップ.md",
-          "date": "2026-08-03T03:16:48Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/a639220ba7b00c67393d3df191189dbdf6bf53ab"
-        },
-        {
-          "sha": "e216e0d",
-          "message": "Document individual-access MARKET_PROVIDERS.md",
-          "date": "2026-08-03T03:16:45Z",
-          "url": "https://github.com/syunnjack/sedora-s/commit/e216e0d9233abe14358d3cf751f0414766b71d6a"
-        }
-      ],
-      "updatedAt": "2026-08-03T03:55:24Z",
       "stars": 0,
       "forks": 0
     }
