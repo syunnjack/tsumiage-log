@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:31:11.886Z",
+  "generatedAt": "2026-08-11T13:46:20.928Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -51,6 +51,541 @@
     "kyonyu-ranking"
   ],
   "articles": [
+    {
+      "slug": "sukima-insight",
+      "name": "sukima-insight",
+      "displayName": "Sukima Insight",
+      "description": "SUKIMA INSIGHT GitHub上の全リポジトリと、公開済みWeb・PWA・iOS・Androidのアクセス、CTR、CVR、売上、改善施策を横断管理する分析SaaSです",
+      "readmeExcerpt": "SUKIMA INSIGHT GitHub上の全リポジトリと、公開済みWeb・PWA・iOS・Androidのアクセス、CTR、CVR、売上、改善施策を横断管理する分析SaaSです。 構成 apps/dashboard : KPI・ファネル・リポジトリ比較・販売画面 services/collector : マルチテナント収集・集計API services/collector/github sync.mjs : GitHub全リポジトリ同期 packages/analytics web : 同意ベースのWeb計測SDK docs/SYSTEM DESIGN.md : 販売を前提にしたシステム設計 開発 初期開発キーは dev change me です。本番では必ず環境変数を変更してください。",
+      "url": "https://github.com/syunnjack/sukima-insight",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "files": [
+        "README.md",
+        "apps",
+        "docs",
+        "package-lock.json",
+        "package.json",
+        "packages",
+        "services"
+      ],
+      "commits": [
+        {
+          "sha": "d6c3537",
+          "message": "feat: 25プロジェクト・11段階ファネル・15件レコメンド・流入チャネル・週次トレンド・デバイス比率・前週比カラム追加",
+          "date": "2026-08-11T13:42:21Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/d6c353773e198cc04f4cae42419ddae3b4212b6f"
+        },
+        {
+          "sha": "a4d72f0",
+          "message": "feat: 20プロジェクト・9段階ファネル・10件レコメンド・トップページ分析・具体的プライシング追加",
+          "date": "2026-08-11T13:06:33Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/a4d72f06c70ecbee235b19c5d8e9228efe953722"
+        },
+        {
+          "sha": "bdbcc2e",
+          "message": "Add GitHub onboarding dashboard",
+          "date": "2026-07-19T22:32:52Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/bdbcc2eb22c8d2cad131a3f97a299131a7a05094"
+        },
+        {
+          "sha": "11f8e93",
+          "message": "Add secure GitHub App repository sync",
+          "date": "2026-07-19T21:36:49Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/11f8e930745e9154d3f01320e8b31de5d47c0bd4"
+        },
+        {
+          "sha": "05220ad",
+          "message": "Build initial analytics platform",
+          "date": "2026-07-19T20:00:07Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/05220ad39d63c2f236dda80631014f109dcbeaf9"
+        },
+        {
+          "sha": "c2c24ed",
+          "message": "Initialize repository",
+          "date": "2026-07-19T19:59:24Z",
+          "url": "https://github.com/syunnjack/sukima-insight/commit/c2c24ed8ca5c17231e775b3232b6fbb8e595d373"
+        }
+      ],
+      "updatedAt": "2026-08-11T13:44:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ranking-widget-hub",
+      "name": "ranking-widget-hub",
+      "displayName": "Ranking Widget Hub",
+      "description": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・プレビューできる RankKit のデモアプリです",
+      "readmeExcerpt": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・プレビューできる RankKit のデモアプリです。 主な機能 40 以上のジャンルを切り替えてランキングを表示 市区町村や駅名を入れ替えてローカル向けの見せ方を確認 テーマカラーを変更してウィジェット見た目を即時プレビュー 埋め込みコードをコピーして外部サイト掲載を想定した導線を確認 表示回数、CTR、通知登録率、推定報酬のダッシュボード表示 セットアップ 前提: Node.js =22.13.0 手順: ビルド確認: 技術構成 Next.js 16 React 19 Vinext Tailwind CSS 4 Cloudflare Workers 想定の worker エントリ 補足 app/page.tsx にウィジェットビルダー本体があります app/globals.css にページ全体のスタイルがあります worker/index.ts は Cloudflare Workers 向けエントリです コマンド npm run dev : ローカル起動 npm run build : 本番ビルド npm run start : ビルド済みアプリ起動 npm run lint : ESLint 実行 npm test : ビルド + HTML レンダリング確認 npm run db:generate : Drizzle migration 生成",
+      "url": "https://github.com/syunnjack/ranking-widget-hub",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "776bafd",
+          "message": "Complete ranking widget hub baseline",
+          "date": "2026-08-11T13:25:20Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/776bafd24d04805e804f9290d5140a1ea6b7ee1a"
+        },
+        {
+          "sha": "6f44f17",
+          "message": "feat: ジャンル40種以上・計520件に大幅拡充（釣り/自転車/スキー/マリン/ゴルフ/テニス/ヨガ/ランニング/音楽/カメラ/手芸/美術/PC/スマホ/電気工事/塾/保険/転職/家事代行/防災/ペット病院 等追加）",
+          "date": "2026-08-11T12:48:48Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/6f44f179e698f6ee93bd19bad951b147f4cb058f"
+        },
+        {
+          "sha": "5677aab",
+          "message": "feat: 22ジャンル×12件に拡充（計264件・ブライダル・医療・農業追加）",
+          "date": "2026-08-11T12:44:20Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/5677aab4faa778172c03909903bcf1f9a84d7abf"
+        },
+        {
+          "sha": "37f5db2",
+          "message": "feat: 20ジャンル×5件・6色テーマ・クイックプリセット・埋め込みコードプレビュー追加",
+          "date": "2026-08-11T12:37:18Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/37f5db2c01c20db8c9ba1ada816dc4ddde361145"
+        },
+        {
+          "sha": "81e15ee",
+          "message": "Build regional ranking widget studio",
+          "date": "2026-07-20T06:30:30Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/81e15eea9ff6622bea99afd9cd7d9dde78322207"
+        },
+        {
+          "sha": "97bc935",
+          "message": "Initialize repository",
+          "date": "2026-07-20T06:30:26Z",
+          "url": "https://github.com/syunnjack/ranking-widget-hub/commit/97bc9359c9a25fa9ce225bd9d4ade01f2f84d1ea"
+        }
+      ],
+      "updatedAt": "2026-08-11T13:28:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "5f8c56c",
+          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
+          "date": "2026-08-10T07:34:39Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
+        },
+        {
+          "sha": "14ba6ec",
+          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
+          "date": "2026-08-10T07:34:27Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
+        },
+        {
+          "sha": "8ff3e54",
+          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
+          "date": "2026-08-10T07:29:36Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
+        },
+        {
+          "sha": "df2bcb4",
+          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
+          "date": "2026-08-10T07:29:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
+        },
+        {
+          "sha": "2edb779",
+          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
+          "date": "2026-08-09T21:17:24Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
+        },
+        {
+          "sha": "c42f4de",
+          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
+          "date": "2026-08-09T21:17:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
+        },
+        {
+          "sha": "3200bdd",
+          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
+          "date": "2026-08-08T12:37:07Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
+        },
+        {
+          "sha": "06f0568",
+          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
+          "date": "2026-08-08T00:22:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
+        },
+        {
+          "sha": "79692a4",
+          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
+          "date": "2026-08-07T23:04:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
+        },
+        {
+          "sha": "6bdb50c",
+          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
+          "date": "2026-08-07T20:36:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
+        },
+        {
+          "sha": "b3e7999",
+          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
+          "date": "2026-08-07T19:21:53Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
+        },
+        {
+          "sha": "02fea8c",
+          "message": "Update 30-site doc with actual purchased domains",
+          "date": "2026-08-07T19:14:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:35:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tourism-crowd-parking-alert",
+      "name": "tourism-crowd-parking-alert",
+      "displayName": "Tourism Crowd Parking Alert",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光前に、混雑状況や駐車場の空き、近くの飲食店やチケット情報をまとめて確認できるサービスです。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場情報 観光予約 周辺グルメ チケット情報 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory If Gi",
+      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d5241ca",
+          "message": "Polish generated area page copy",
+          "date": "2026-08-11T12:42:19Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/d5241cacedef64457da54b854e39d7f0a1477d1f"
+        },
+        {
+          "sha": "eae68d6",
+          "message": "Tighten homepage labels and CTAs",
+          "date": "2026-08-11T12:40:37Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/eae68d6475493df380257f58aff430629deede68"
+        },
+        {
+          "sha": "0e656b3",
+          "message": "Polish user-facing tourism wording",
+          "date": "2026-08-11T12:38:26Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0e656b31ad2ac2354c5889a6f78bba157aacbde0"
+        },
+        {
+          "sha": "81e5b0d",
+          "message": "Refine user-facing tourism copy",
+          "date": "2026-08-11T12:35:49Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/81e5b0dcf5f7f10c571137468f4ead0ab942e491"
+        },
+        {
+          "sha": "df61931",
+          "message": "Add area CTA flow and split sitemaps",
+          "date": "2026-08-11T12:33:07Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/df619310dc32c97913ea579c61b8469d00331996"
+        },
+        {
+          "sha": "8b42d97",
+          "message": "Add nearby area rankings and FAQ schema",
+          "date": "2026-08-11T12:28:31Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8b42d97b1216952e6951b5486490d82bb9404c3a"
+        },
+        {
+          "sha": "0001cd0",
+          "message": "Update Xserver deploy workflow runtime",
+          "date": "2026-08-11T12:20:58Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0001cd03f06ab4d79ed765873babe900dfecc32c"
+        },
+        {
+          "sha": "e42037a",
+          "message": "Enhance area pages and prefecture heatmap",
+          "date": "2026-08-11T12:08:49Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e42037a4a81a8b1bc6929beeaff51b126b6632fa"
+        },
+        {
+          "sha": "73d6a97",
+          "message": "Generate area pages and add heatmap",
+          "date": "2026-08-11T12:04:58Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
+        },
+        {
+          "sha": "f0de71a",
+          "message": "Enhance search UI and add area summaries",
+          "date": "2026-08-11T11:57:32Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f0de71a3aac1ef9642fe4af61186c524a9acec6a"
+        },
+        {
+          "sha": "8787e2b",
+          "message": "Fix GitHub Pages asset base path",
+          "date": "2026-08-11T11:50:59Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8787e2be46ed97d07c19127929b00d5bd85c6333"
+        },
+        {
+          "sha": "8727de3",
+          "message": "Trigger GitHub Pages deploy after enabling Pages",
+          "date": "2026-08-11T11:47:09Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8727de32dd69a51151ab1cd020ba77b65f296430"
+        }
+      ],
+      "updatedAt": "2026-08-11T12:42:48Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "jitan-recipe",
+      "name": "jitan-recipe",
+      "displayName": "Jitan Recipe",
+      "description": "10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せるレシピ集（Next.js App Router / 全ページSSR・SSG）",
+      "readmeExcerpt": "時短レシピ手帳（jitan recipe） 10分前後で作れる時短レシピを、 調理時間・調理器具・洗い物の少なさ から探せるレシピ集。 本番: https://jitan recipe.vercel.app Vercel: https://vercel.com/chitamaru/jitan recipe 技術構成 フレームワーク Next.js 16（App Router） スタイル Tailwind CSS データ lib/recipes.ts の静的データ（DB なし） ホスティング Vercel（ main への push で自動デプロイ） 開発 ルート構成 パス 生成方式 内容 / Static 時間・器具・カテゴリ・タグの各導線 /recipe/ id SSG レシピ詳細（全件を generateStaticParams で事前生成） /search Dynamic 絞り込み検索 /api/recipes Dynamic レシピ一覧の JSON /sitemap.xml , /robots.txt Static — 設計上の判断 全ページをサーバーレンダリングする。 クライアントサイドルーティングは使わない。検索の絞り込みも リンクと だけで組んであり、JS 無効でも動作する。SEO/LLM クローラに対して HTML がそのまま届くことを優先した結果。 /search は noindex, follow 。 絞り込みの組み合わせが無限に増えるため。ただし robots.txt では 塞いでいない — 塞ぐと noindex 自体がクロールされず読まれないため。sitemap からも除外している。 構造化データ。 レシピ詳細に Recipe （ recipeIngredient / HowToStep / NutritionInformation ）と BreadcrumbList 、全ページに WebSite + SearchAction を出力。 放置時間（ handsOff ）を持たせている。 時短を「工程を雑にすること」ではなく「火加減の監視から解放",
+      "url": "https://github.com/syunnjack/jitan-recipe",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "components",
+        "lib",
+        "next.config.mjs",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.js",
+        "public",
+        "tailwind.config.js",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "343fd6c",
+          "message": "feat: レシピに完成写真を載せられるようにする",
+          "date": "2026-08-11T12:41:41Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/343fd6c25b238b42e4e9459a63483fe562845796"
+        },
+        {
+          "sha": "261c513",
+          "message": "feat: レシピを12品追加し、カテゴリ・調理器具の偏りを解消",
+          "date": "2026-08-11T12:10:20Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/261c5133bca113bd19cb4f34903bca6eccba2d69"
+        },
+        {
+          "sha": "48586d6",
+          "message": "fix: Recipe 構造化データの必須項目 image を追加",
+          "date": "2026-08-11T11:49:20Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/48586d63fec334efa94b423408f0af10f2b4e559"
+        },
+        {
+          "sha": "880152c",
+          "message": "docs: README を追加",
+          "date": "2026-08-11T11:24:57Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/880152cda9c192de1a0e671d380e66ae7c8889a4"
+        },
+        {
+          "sha": "1aefd23",
+          "message": "feat: Google Search Console のサイト所有権確認タグを追加",
+          "date": "2026-08-11T11:15:39Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/1aefd23e6069700ddf73fb36d6e96cb6cb40b65f"
+        },
+        {
+          "sha": "c1f1170",
+          "message": "chore: .gitignore に Vercel CLI 生成ファイルを追記",
+          "date": "2026-08-11T10:30:33Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/c1f117075bfa535ebae16aac05772475d662d449"
+        },
+        {
+          "sha": "af9b716",
+          "message": "feat: 時短レシピサイトの初期実装",
+          "date": "2026-08-11T10:05:35Z",
+          "url": "https://github.com/syunnjack/jitan-recipe/commit/af9b716574ed40f49e7482d268f8f550f7c34749"
+        }
+      ],
+      "updatedAt": "2026-08-11T12:41:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "sitemap.xml",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "2b8b6be",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T12:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
+        },
+        {
+          "sha": "d067378",
+          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
+          "date": "2026-08-11T12:17:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
+        },
+        {
+          "sha": "cb66ea8",
+          "message": "Automate complete repository video publication",
+          "date": "2026-08-11T12:17:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
+        },
+        {
+          "sha": "1d746d7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T11:36:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
+        },
+        {
+          "sha": "fd431dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T10:37:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
+        },
+        {
+          "sha": "3522113",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T09:40:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
+        },
+        {
+          "sha": "3e17896",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T08:38:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
+        },
+        {
+          "sha": "03a6757",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T07:49:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
+        },
+        {
+          "sha": "a0b718f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T06:37:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
+        },
+        {
+          "sha": "85893ac",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T05:41:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
+        },
+        {
+          "sha": "538c8d5",
+          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
+          "date": "2026-08-11T05:09:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
+        },
+        {
+          "sha": "47e1fbb",
+          "message": "Fix GitHub Pages deployment",
+          "date": "2026-08-11T05:08:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
+        }
+      ],
+      "updatedAt": "2026-08-11T12:32:06Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "kousokubus-benri",
       "name": "kousokubus-benri",
@@ -165,327 +700,6 @@
       "forks": 0
     },
     {
-      "slug": "tourism-crowd-parking-alert",
-      "name": "tourism-crowd-parking-alert",
-      "displayName": "Tourism Crowd Parking Alert",
-      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
-      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光地の混雑、駐車場空き、周辺飲食、チケットを通知し、観光予約、駐車場、飲食へ送客する。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場送客 観光予約 飲食送客 チケット affiliate 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory I",
-      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "8b42d97",
-          "message": "Add nearby area rankings and FAQ schema",
-          "date": "2026-08-11T12:28:31Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8b42d97b1216952e6951b5486490d82bb9404c3a"
-        },
-        {
-          "sha": "0001cd0",
-          "message": "Update Xserver deploy workflow runtime",
-          "date": "2026-08-11T12:20:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0001cd03f06ab4d79ed765873babe900dfecc32c"
-        },
-        {
-          "sha": "e42037a",
-          "message": "Enhance area pages and prefecture heatmap",
-          "date": "2026-08-11T12:08:49Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e42037a4a81a8b1bc6929beeaff51b126b6632fa"
-        },
-        {
-          "sha": "73d6a97",
-          "message": "Generate area pages and add heatmap",
-          "date": "2026-08-11T12:04:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
-        },
-        {
-          "sha": "f0de71a",
-          "message": "Enhance search UI and add area summaries",
-          "date": "2026-08-11T11:57:32Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f0de71a3aac1ef9642fe4af61186c524a9acec6a"
-        },
-        {
-          "sha": "8787e2b",
-          "message": "Fix GitHub Pages asset base path",
-          "date": "2026-08-11T11:50:59Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8787e2be46ed97d07c19127929b00d5bd85c6333"
-        },
-        {
-          "sha": "8727de3",
-          "message": "Trigger GitHub Pages deploy after enabling Pages",
-          "date": "2026-08-11T11:47:09Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8727de32dd69a51151ab1cd020ba77b65f296430"
-        },
-        {
-          "sha": "297421c",
-          "message": "Expand tourism alerts to 702 records",
-          "date": "2026-08-11T11:43:03Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/297421c2b20164985c0eb845f035cec28c180dc5"
-        },
-        {
-          "sha": "89251b1",
-          "message": "Expand tourism alerts to 531 records",
-          "date": "2026-08-11T11:36:14Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/89251b12e70144efffa4883790ceade4745f23b5"
-        },
-        {
-          "sha": "8d455b5",
-          "message": "Fix GitHub Pages workflow enablement",
-          "date": "2026-08-11T11:32:46Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8d455b51df241d2a44aa32a94dbe395812ef2c83"
-        },
-        {
-          "sha": "c146efa",
-          "message": "Scale alerts to 360 and add incremental list rendering",
-          "date": "2026-08-11T11:26:18Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/c146efaa1bd4d39d4619e31eff715f75dd263c97"
-        },
-        {
-          "sha": "a90a6f8",
-          "message": "Add large tourism dataset and GitHub Pages deploy workflow",
-          "date": "2026-08-11T11:24:39Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/a90a6f857ad246f9b96759f0c65aaad4dd3c2743"
-        }
-      ],
-      "updatedAt": "2026-08-11T12:28:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "5f8c56c",
-          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
-          "date": "2026-08-10T07:34:39Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
-        },
-        {
-          "sha": "14ba6ec",
-          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
-          "date": "2026-08-10T07:34:27Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
-        },
-        {
-          "sha": "8ff3e54",
-          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
-          "date": "2026-08-10T07:29:36Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
-        },
-        {
-          "sha": "df2bcb4",
-          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
-          "date": "2026-08-10T07:29:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
-        },
-        {
-          "sha": "2edb779",
-          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
-          "date": "2026-08-09T21:17:24Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
-        },
-        {
-          "sha": "c42f4de",
-          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
-          "date": "2026-08-09T21:17:13Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
-        },
-        {
-          "sha": "3200bdd",
-          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
-          "date": "2026-08-08T12:37:07Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
-        },
-        {
-          "sha": "06f0568",
-          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
-          "date": "2026-08-08T00:22:30Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
-        },
-        {
-          "sha": "79692a4",
-          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
-          "date": "2026-08-07T23:04:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
-        },
-        {
-          "sha": "6bdb50c",
-          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
-          "date": "2026-08-07T20:36:29Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
-        },
-        {
-          "sha": "b3e7999",
-          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
-          "date": "2026-08-07T19:21:53Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
-        },
-        {
-          "sha": "02fea8c",
-          "message": "Update 30-site doc with actual purchased domains",
-          "date": "2026-08-07T19:14:48Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
-        }
-      ],
-      "updatedAt": "2026-08-10T07:35:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "sitemap.xml",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "d067378",
-          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
-          "date": "2026-08-11T12:17:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
-        },
-        {
-          "sha": "cb66ea8",
-          "message": "Automate complete repository video publication",
-          "date": "2026-08-11T12:17:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
-        },
-        {
-          "sha": "1d746d7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T11:36:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
-        },
-        {
-          "sha": "fd431dd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T10:37:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
-        },
-        {
-          "sha": "3522113",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T09:40:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        },
-        {
-          "sha": "3e17896",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T08:38:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
-        },
-        {
-          "sha": "03a6757",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T07:49:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
-        },
-        {
-          "sha": "a0b718f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T06:37:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
-        },
-        {
-          "sha": "85893ac",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T05:41:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
-        },
-        {
-          "sha": "538c8d5",
-          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
-          "date": "2026-08-11T05:09:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
-        },
-        {
-          "sha": "47e1fbb",
-          "message": "Fix GitHub Pages deployment",
-          "date": "2026-08-11T05:08:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
-        },
-        {
-          "sha": "ad16d6d",
-          "message": "Merge pull request #30 from syunnjack/codex/add-adsense-account",
-          "date": "2026-08-11T05:03:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ad16d6dc1cb8da630b30f0fa8e5adeefb5359372"
-        }
-      ],
-      "updatedAt": "2026-08-11T12:18:07Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "furusato-hikaku",
       "name": "furusato-hikaku",
       "displayName": "Furusato Hikaku",
@@ -576,74 +790,6 @@
         }
       ],
       "updatedAt": "2026-08-11T12:13:04Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "jitan-recipe",
-      "name": "jitan-recipe",
-      "displayName": "Jitan Recipe",
-      "description": "10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せるレシピ集（Next.js App Router / 全ページSSR・SSG）",
-      "readmeExcerpt": "時短レシピ手帳（jitan recipe） 10分前後で作れる時短レシピを、 調理時間・調理器具・洗い物の少なさ から探せるレシピ集。 本番: https://jitan recipe.vercel.app Vercel: https://vercel.com/chitamaru/jitan recipe 技術構成 フレームワーク Next.js 16（App Router） スタイル Tailwind CSS データ lib/recipes.ts の静的データ（DB なし） ホスティング Vercel（ main への push で自動デプロイ） 開発 ルート構成 パス 生成方式 内容 / Static 時間・器具・カテゴリ・タグの各導線 /recipe/ id SSG レシピ詳細（全件を generateStaticParams で事前生成） /search Dynamic 絞り込み検索 /api/recipes Dynamic レシピ一覧の JSON /sitemap.xml , /robots.txt Static — 設計上の判断 全ページをサーバーレンダリングする。 クライアントサイドルーティングは使わない。検索の絞り込みも リンクと だけで組んであり、JS 無効でも動作する。SEO/LLM クローラに対して HTML がそのまま届くことを優先した結果。 /search は noindex, follow 。 絞り込みの組み合わせが無限に増えるため。ただし robots.txt では 塞いでいない — 塞ぐと noindex 自体がクロールされず読まれないため。sitemap からも除外している。 構造化データ。 レシピ詳細に Recipe （ recipeIngredient / HowToStep / NutritionInformation ）と BreadcrumbList 、全ページに WebSite + SearchAction を出力。 放置時間（ handsOff ）を持たせている。 時短を「工程を雑にすること」ではなく「火加減の監視から解放",
-      "url": "https://github.com/syunnjack/jitan-recipe",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "components",
-        "lib",
-        "next.config.mjs",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.js",
-        "tailwind.config.js",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "261c513",
-          "message": "feat: レシピを12品追加し、カテゴリ・調理器具の偏りを解消",
-          "date": "2026-08-11T12:10:20Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/261c5133bca113bd19cb4f34903bca6eccba2d69"
-        },
-        {
-          "sha": "48586d6",
-          "message": "fix: Recipe 構造化データの必須項目 image を追加",
-          "date": "2026-08-11T11:49:20Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/48586d63fec334efa94b423408f0af10f2b4e559"
-        },
-        {
-          "sha": "880152c",
-          "message": "docs: README を追加",
-          "date": "2026-08-11T11:24:57Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/880152cda9c192de1a0e671d380e66ae7c8889a4"
-        },
-        {
-          "sha": "1aefd23",
-          "message": "feat: Google Search Console のサイト所有権確認タグを追加",
-          "date": "2026-08-11T11:15:39Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/1aefd23e6069700ddf73fb36d6e96cb6cb40b65f"
-        },
-        {
-          "sha": "c1f1170",
-          "message": "chore: .gitignore に Vercel CLI 生成ファイルを追記",
-          "date": "2026-08-11T10:30:33Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/c1f117075bfa535ebae16aac05772475d662d449"
-        },
-        {
-          "sha": "af9b716",
-          "message": "feat: 時短レシピサイトの初期実装",
-          "date": "2026-08-11T10:05:35Z",
-          "url": "https://github.com/syunnjack/jitan-recipe/commit/af9b716574ed40f49e7482d268f8f550f7c34749"
-        }
-      ],
-      "updatedAt": "2026-08-11T12:10:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -11200,47 +11346,6 @@
         }
       ],
       "updatedAt": "2026-07-25T00:01:13Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "leaflet-app1",
-      "name": "leaflet-app1",
-      "displayName": "Leaflet App1",
-      "description": "SPOTPALETTE App Leaflet地図をアプリ内WebViewで動かす、iOS・Android共通の地域検索MVPです",
-      "readmeExcerpt": "SPOTPALETTE App Leaflet地図をアプリ内WebViewで動かす、iOS・Android共通の地域検索MVPです。10業種を共通データモデルで展開できます。正式サイトは https://spotpalette.jp 、アプリサイトは https://spotpalette.app です。 画面 地図・カテゴリ検索・スポット詳細カード 保存一覧 スポット・口コミ投稿 アカウント・事業者導線 Web版の詳細設計は leaflet web1/docs/MVP DESIGN.md を参照してください。",
-      "url": "https://github.com/syunnjack/leaflet-app1",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript"
-      ],
-      "files": [
-        "README.md",
-        "app.json",
-        "app",
-        "components",
-        "data",
-        "docs",
-        "package-lock.json",
-        "package.json",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "c26c654",
-          "message": "Rebrand mobile app as SPOTPALETTE",
-          "date": "2026-07-22T11:37:31Z",
-          "url": "https://github.com/syunnjack/leaflet-app1/commit/c26c654a3b401ebcaa7d99b461a04bd08d09ab8c"
-        },
-        {
-          "sha": "1a8a047",
-          "message": "Build reusable Leaflet mobile MVP",
-          "date": "2026-07-22T00:41:12Z",
-          "url": "https://github.com/syunnjack/leaflet-app1/commit/1a8a0478027651c10b5818666b98bfee9748d1ef"
-        }
-      ],
-      "updatedAt": "2026-07-22T11:37:58Z",
       "stars": 0,
       "forks": 0
     }
