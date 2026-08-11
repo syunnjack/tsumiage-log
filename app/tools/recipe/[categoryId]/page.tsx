@@ -1,22 +1,42 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { fetchCategoryRanking, fetchCategories, type RakutenRecipe } from '@/lib/rakuten-recipe';
+import {
+  fetchCategoryRanking,
+  fetchCategories,
+  RECIPE_CATEGORY_IDS,
+  type RakutenRecipe,
+} from '@/lib/rakuten-recipe';
 import { estimateTotalCost } from '@/lib/ingredient-prices';
 import RecipeCard from '../RecipeCard';
 
 type Props = { params: Promise<{ categoryId: string }> };
 
-const CATEGORY_IDS = ['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '30'];
-
 export function generateStaticParams() {
-  return CATEGORY_IDS.map((categoryId) => ({ categoryId }));
+  return RECIPE_CATEGORY_IDS.map((categoryId) => ({ categoryId }));
+}
+
+async function resolveCategoryName(categoryId: string): Promise<string> {
+  try {
+    const cats = await fetchCategories();
+    const cat = [...cats.large, ...cats.medium, ...cats.small].find((c) => c.categoryId === categoryId);
+    return cat?.categoryName ?? '';
+  } catch {
+    return '';
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { categoryId } = await params;
+  const categoryName = await resolveCategoryName(categoryId);
+  const label = categoryName || `カテゴリ${categoryId}`;
+  const title = `${label}の時短レシピランキング | 積み上げログ`;
+  const description = `${label}の楽天レシピ人気ランキング。調理時間と必要材料、材料費の概算を一覧で確認できます。`;
+  const url = `/tools/recipe/${categoryId}`;
   return {
-    title: `レシピ一覧 (カテゴリ:${categoryId}) | 時短レシピ支援`,
-    description: '楽天レシピの人気ランキング。材料と金額概算をすぐ確認。',
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, type: 'website', url },
   };
 }
 
