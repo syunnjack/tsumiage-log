@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-08-11T13:46:20.928Z",
+  "generatedAt": "2026-08-11T14:39:06.648Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
   "privateRepositories": 2,
   "skippedRepositories": [
+    "vr-content-gear-guide",
     "kijoi-ranking",
     "gyaru-ranking",
     "onsen-ranking",
@@ -51,6 +52,727 @@
     "kyonyu-ranking"
   ],
   "articles": [
+    {
+      "slug": "content-brief-engine",
+      "name": "content-brief-engine",
+      "displayName": "Content Brief Engine",
+      "description": "content brief engine content brief engine は、テーマ・読者・検索意図・CTA を入力すると、コンテンツ制作チーム向けのブリーフ草案を生成する静的Webアプリです",
+      "readmeExcerpt": "content brief engine content brief engine は、テーマ・読者・検索意図・CTA を入力すると、コンテンツ制作チーム向けのブリーフ草案を生成する静的Webアプリです。 機能 テーマ、読者、目的、チャネル、検索意図、CTA の入力 ブリーフ本文の自動生成 生成結果のワンクリックコピー Vite によるローカル開発と本番ビルド 開発 品質確認 公開URL 本番URLが決まっている場合は、ビルド前に VITE PUBLIC SITE URL を設定すると public/robots.txt と public/sitemap.xml がそのURLで生成されます。 Vercel デプロイ vercel.json で Vite の出力先を dist に固定しています。Vercel 側では次の1点だけ設定すれば公開できます。 Environment Variable: VITE PUBLIC SITE URL=https:// ローカルでは .env.example をコピーして .env.local を作っても運用できます。 公開後の最終確認 1. トップページが表示される 2. 入力フォームからブリーフ本文が生成される 3. 「コピー」ボタンで生成結果をクリップボードへコピーできる 4. https:// /robots.txt が本番ドメインを返す 5. https:// /sitemap.xml が本番ドメインを返す 6. title と meta description が意図どおりに出ている Vercel 側の設定メモ Framework Preset: Vite Build Command: npm run build Output Directory: dist Environment Variable: VITE PUBLIC SITE URL",
+      "url": "https://github.com/syunnjack/content-brief-engine",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "eslint.config.mjs",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vercel.json",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "f1c2876",
+          "message": "Document Vercel launch checklist",
+          "date": "2026-08-11T14:30:07Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/f1c287643d2a99dc58a90b03e4e9b0af2dd5e4ea"
+        },
+        {
+          "sha": "346b78b",
+          "message": "Add Vercel deployment configuration",
+          "date": "2026-08-11T14:28:56Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/346b78b032de32217cebad2ae9bb45e18dde1f7c"
+        },
+        {
+          "sha": "2a9fb55",
+          "message": "Generate SEO files from public site URL",
+          "date": "2026-08-11T14:27:20Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/2a9fb55a858a8762a1c5d3d03f798c2b0c2e9fff"
+        },
+        {
+          "sha": "b4ac42a",
+          "message": "Build content brief generator app",
+          "date": "2026-08-11T14:26:05Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/b4ac42aae477b8ae7ca9abe25fec83641d70fb92"
+        },
+        {
+          "sha": "a5f58cb",
+          "message": "Initialize repository",
+          "date": "2026-07-20T06:03:22Z",
+          "url": "https://github.com/syunnjack/content-brief-engine/commit/a5f58cb32ebaabd4aebce055c2dfc7ce90c5575a"
+        }
+      ],
+      "updatedAt": "2026-08-11T14:34:10Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "chutonavi",
+      "name": "chutonavi",
+      "displayName": "Chutonavi",
+      "description": "chutonavi chutonavi は、駐屯地イベント来場者向けに、駅アクセス・周辺施設・混雑回避のコツを整理した非公式ナビサイトです",
+      "readmeExcerpt": "chutonavi chutonavi は、駐屯地イベント来場者向けに、駅アクセス・周辺施設・混雑回避のコツを整理した非公式ナビサイトです。 機能 スポット一覧ページ スポット詳細ページ（アクセス、駐車、周辺営業時間、混雑回避のコツ） SEO対応（metadata、robots.txt、sitemap.xml、JSON LD、llms.txt） 技術スタック Next.js 16 App Router React 19 TypeScript ESLint 開発 品質確認 データ更新 data/spots.json を編集すると掲載内容を更新できます。",
+      "url": "https://github.com/syunnjack/chutonavi",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "data",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "5bc2cfb",
+          "message": "Complete chutonavi baseline app",
+          "date": "2026-08-11T14:21:17Z",
+          "url": "https://github.com/syunnjack/chutonavi/commit/5bc2cfb566e2cdd9aa34b54b7383a8c37fbae747"
+        },
+        {
+          "sha": "2f4bdf8",
+          "message": "chore: initialize repository",
+          "date": "2026-07-25T00:01:06Z",
+          "url": "https://github.com/syunnjack/chutonavi/commit/2f4bdf8373cdff5197baefadd86bb14a4b4313ca"
+        }
+      ],
+      "updatedAt": "2026-08-11T14:25:54Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "choice-compass",
+      "name": "choice-compass",
+      "displayName": "Choice Compass",
+      "description": "Choice Compassは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Choice Compassは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/choice-compass",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "32e0e25",
+          "message": "feat: 15カテゴリ各10〜11項目・ルート6つ追加（旅行・コスメ・転職・保険・投資・ネット回線等）",
+          "date": "2026-08-11T14:14:54Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/32e0e25a7540105f7679c23313cb3812d5f4188f"
+        },
+        {
+          "sha": "1a6ff80",
+          "message": "Add preference diagnosis and smart checklists",
+          "date": "2026-07-20T23:43:16Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/1a6ff8045203ff69eeca693c0aaf99b3c2aad41d"
+        },
+        {
+          "sha": "3ef1d1f",
+          "message": "Add secure email notification delivery",
+          "date": "2026-07-20T07:50:18Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/3ef1d1fb4dfe549a8a3e63fc5077e4edc2bfb055"
+        },
+        {
+          "sha": "0c40531",
+          "message": "Persist and manage alert subscriptions",
+          "date": "2026-07-20T07:40:24Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/0c405311a48ba3487cbb384943d07bb0615121ea"
+        },
+        {
+          "sha": "d926d3a",
+          "message": "Add configurable product alerts",
+          "date": "2026-07-20T07:34:39Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/d926d3a47a47eedbc4446c51ec3c8a6cb381c47f"
+        },
+        {
+          "sha": "c600760",
+          "message": "Connect Choice Compass to shared catalog",
+          "date": "2026-07-20T07:28:49Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/c600760480a613fa65734bb15cca328508a0a8ae"
+        },
+        {
+          "sha": "7fd3dc1",
+          "message": "Configure Sites hosting",
+          "date": "2026-07-20T05:23:45Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/7fd3dc184407579abb5dd3affc755c4c9cf50781"
+        },
+        {
+          "sha": "a820f8b",
+          "message": "Build regional product search MVP",
+          "date": "2026-07-20T05:21:29Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/a820f8b3d29a16d6e56c7cf9b330dc11c7f930c7"
+        },
+        {
+          "sha": "185d536",
+          "message": "Initialize repository",
+          "date": "2026-07-20T05:21:25Z",
+          "url": "https://github.com/syunnjack/choice-compass/commit/185d536a23c4d32ea3231b37191e52b17a1a956f"
+        }
+      ],
+      "updatedAt": "2026-08-11T14:20:50Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "autohensei",
+      "name": "autohensei",
+      "displayName": "Autohensei",
+      "description": "Autohensei Autohensei は、無課金で遊ぶ「ドラゴンクエストウォーク」向けに、オート戦闘で安定しやすい編成と装備情報をまとめた Next",
+      "readmeExcerpt": "Autohensei Autohensei は、無課金で遊ぶ「ドラゴンクエストウォーク」向けに、オート戦闘で安定しやすい編成と装備情報をまとめた Next.js サイトです。 主な機能 編成ランキング一覧 編成詳細ページ（役割、推奨武器、運用メモ） 無課金装備一覧 SEO対応（metadata、sitemap、robots、JSON LD、llms.txt） 技術スタック Next.js 16 App Router React 19 TypeScript Tailwind CSS 開発手順 ブラウザで http://localhost:3000 を開いて確認できます。 品質確認 データ編集 編成データ: data/compositions.json 装備データ: data/equipment.json データ更新後は npm run build で静的生成を確認してください。",
+      "url": "https://github.com/syunnjack/autohensei",
+      "defaultBranch": "master",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "README.md",
+        "app",
+        "data",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "6816785",
+          "message": "Polish autohensei project baseline",
+          "date": "2026-08-11T14:03:23Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/681678577672ccbe610b0bb4c7f05fb1b1815485"
+        },
+        {
+          "sha": "bdf7bc1",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:07:06Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/bdf7bc19c009c1d2de5fd9c4bc310aa3297819cc"
+        },
+        {
+          "sha": "0d75500",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:03:17Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/0d75500ec934d68703ab8efb1b1ac455a0ce8dde"
+        },
+        {
+          "sha": "0856303",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T20:59:40Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/08563035ddad8333caa4ec1f4571efcc79cd9e3d"
+        },
+        {
+          "sha": "272a60b",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:24Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/272a60bd66054f0b1d1fa51eb76fe3c5df3f38ae"
+        },
+        {
+          "sha": "2416e25",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:05:09Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/2416e25491ae4461cce4a4be035c801744c9e533"
+        },
+        {
+          "sha": "299ee4d",
+          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
+          "date": "2026-07-26T18:02:09Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
+        },
+        {
+          "sha": "48e7a13",
+          "message": "Initial commit from Create Next App",
+          "date": "2026-07-26T17:52:39Z",
+          "url": "https://github.com/syunnjack/autohensei/commit/48e7a13763f1e7aec36b91d37be280296b752240"
+        }
+      ],
+      "updatedAt": "2026-08-11T14:05:50Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "asia-trip-concierge",
+      "name": "asia-trip-concierge",
+      "displayName": "Asia Trip Concierge",
+      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/asia-trip-concierge",
+      "defaultBranch": "codex/asia-trip-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "eslint.config.mjs",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tsconfig.json"
+      ],
+      "commits": [
+        {
+          "sha": "9aca602",
+          "message": "seo: add IndexNow key file",
+          "date": "2026-08-10T21:08:46Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9aca602b694c3294571fb9434d0034e39ae7cbe1"
+        },
+        {
+          "sha": "600e96c",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:06:22Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/600e96c67a39bea634c05ce56c8bf5b9ce5d2873"
+        },
+        {
+          "sha": "bcc221b",
+          "message": "seo: add IndexNow key file",
+          "date": "2026-08-10T21:04:50Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/bcc221bdd1edb43bb18ce1ef0ef51b6d25385352"
+        },
+        {
+          "sha": "b91c303",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T21:02:34Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/b91c303be574725d1545c01cb9272a1e61cd8df6"
+        },
+        {
+          "sha": "ef77f43",
+          "message": "seo: add Sitemap to robots.txt",
+          "date": "2026-08-10T20:58:49Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/ef77f436c6bf98310e058cf4da21411543ed53c9"
+        },
+        {
+          "sha": "ef52a8f",
+          "message": "Expand to Japan's top 10 outbound destinations, fix SEO, add UGC",
+          "date": "2026-08-09T08:15:00Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/ef52a8f0b3b3b2f1027d58525b11a9fdbdf2ec4b"
+        },
+        {
+          "sha": "12dd46b",
+          "message": "Add IndexNow key file",
+          "date": "2026-08-08T02:02:08Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/12dd46baba06e8460a3e8cd429eb020962d65393"
+        },
+        {
+          "sha": "9eacfa6",
+          "message": "Add sitemap.xml",
+          "date": "2026-08-05T11:36:37Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9eacfa6e62dfe5f5b7059fdf7f7d1c4871681d34"
+        },
+        {
+          "sha": "21edccc",
+          "message": "Add Google Search Console verification",
+          "date": "2026-08-05T11:25:19Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/21edccc2d2877944e0d6f275657d5efc63054bcf"
+        },
+        {
+          "sha": "490b40f",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:04:51Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/490b40fd63766d5ae1e9fa01d5b2263e4c896d29"
+        },
+        {
+          "sha": "6e2ad3d",
+          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
+          "date": "2026-07-30T13:09:32Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
+        },
+        {
+          "sha": "774b1b1",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:56:36Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
+        }
+      ],
+      "updatedAt": "2026-08-10T21:08:53Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "oshi-trip-alert",
+      "name": "oshi-trip-alert",
+      "displayName": "Oshi Trip Alert",
+      "description": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/oshi-trip-alert",
+      "defaultBranch": "codex/oshi-trip-launch",
+      "primaryLanguage": "PHP",
+      "languages": [
+        "PHP",
+        "Blade",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "d5c5371",
+          "message": "Add Google Search Console verification meta tag",
+          "date": "2026-08-05T10:07:21Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d5c5371244eda781212675fc3afe5cc3ea6ab7ed"
+        },
+        {
+          "sha": "64c7f2b",
+          "message": "Fix Blade parse error: escape literal @ in JSON-LD",
+          "date": "2026-08-05T10:02:30Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/64c7f2ba9f19d31d215370ac6d6010da103bcafe"
+        },
+        {
+          "sha": "e6ecf04",
+          "message": "Rebuild as Laravel app: travel prep guide with subscription notifications",
+          "date": "2026-08-04T08:45:02Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/e6ecf04fec146babf35d7d31fb41987f9b5441d6"
+        },
+        {
+          "sha": "0812e97",
+          "message": "Configure private site hosting",
+          "date": "2026-07-20T22:39:21Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
+        },
+        {
+          "sha": "d6667e2",
+          "message": "Exclude local development logs",
+          "date": "2026-07-20T22:37:35Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
+        },
+        {
+          "sha": "87dfeac",
+          "message": "Build Korea Taiwan oshi trip alerts",
+          "date": "2026-07-20T22:36:27Z",
+          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
+        }
+      ],
+      "updatedAt": "2026-08-05T10:10:23Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tourism-crowd-parking-alert",
+      "name": "tourism-crowd-parking-alert",
+      "displayName": "Tourism Crowd Parking Alert",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光前に、混雑状況や駐車場の空き、近くの飲食店やチケット情報をまとめて確認できるサービスです。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場情報 観光予約 周辺グルメ チケット情報 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory If Gi",
+      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "fdb5865",
+          "message": "Add gitattributes for LF normalization",
+          "date": "2026-08-11T13:49:00Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/fdb5865224255c4dd9f3b7cffddb814cd3636ae9"
+        },
+        {
+          "sha": "d5241ca",
+          "message": "Polish generated area page copy",
+          "date": "2026-08-11T12:42:19Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/d5241cacedef64457da54b854e39d7f0a1477d1f"
+        },
+        {
+          "sha": "eae68d6",
+          "message": "Tighten homepage labels and CTAs",
+          "date": "2026-08-11T12:40:37Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/eae68d6475493df380257f58aff430629deede68"
+        },
+        {
+          "sha": "0e656b3",
+          "message": "Polish user-facing tourism wording",
+          "date": "2026-08-11T12:38:26Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0e656b31ad2ac2354c5889a6f78bba157aacbde0"
+        },
+        {
+          "sha": "81e5b0d",
+          "message": "Refine user-facing tourism copy",
+          "date": "2026-08-11T12:35:49Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/81e5b0dcf5f7f10c571137468f4ead0ab942e491"
+        },
+        {
+          "sha": "df61931",
+          "message": "Add area CTA flow and split sitemaps",
+          "date": "2026-08-11T12:33:07Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/df619310dc32c97913ea579c61b8469d00331996"
+        },
+        {
+          "sha": "8b42d97",
+          "message": "Add nearby area rankings and FAQ schema",
+          "date": "2026-08-11T12:28:31Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8b42d97b1216952e6951b5486490d82bb9404c3a"
+        },
+        {
+          "sha": "0001cd0",
+          "message": "Update Xserver deploy workflow runtime",
+          "date": "2026-08-11T12:20:58Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0001cd03f06ab4d79ed765873babe900dfecc32c"
+        },
+        {
+          "sha": "e42037a",
+          "message": "Enhance area pages and prefecture heatmap",
+          "date": "2026-08-11T12:08:49Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e42037a4a81a8b1bc6929beeaff51b126b6632fa"
+        },
+        {
+          "sha": "73d6a97",
+          "message": "Generate area pages and add heatmap",
+          "date": "2026-08-11T12:04:58Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
+        },
+        {
+          "sha": "f0de71a",
+          "message": "Enhance search UI and add area summaries",
+          "date": "2026-08-11T11:57:32Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f0de71a3aac1ef9642fe4af61186c524a9acec6a"
+        },
+        {
+          "sha": "8787e2b",
+          "message": "Fix GitHub Pages asset base path",
+          "date": "2026-08-11T11:50:59Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8787e2be46ed97d07c19127929b00d5bd85c6333"
+        }
+      ],
+      "updatedAt": "2026-08-11T13:51:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "studylaw-app",
+      "name": "studylaw-app",
+      "displayName": "Studylaw App",
+      "description": "StudyLaw App StudyLaw App は、法律分野をカテゴリごとに学べる Laravel 製の四択クイズアプリです",
+      "readmeExcerpt": "StudyLaw App StudyLaw App は、法律分野をカテゴリごとに学べる Laravel 製の四択クイズアプリです。 機能 カテゴリ一覧表示（問題数つき） カテゴリ別の四択クイズ 回答後の正誤判定と解説表示 カテゴリ内スコア表示 技術スタック Laravel 12 PHP 8.2+ SQLite / MySQL（Laravel標準設定） Vite + Tailwind CSS セットアップ 1. 依存をインストール 2. 環境変数ファイルを作成 3. DB作成と初期データ投入 4. 開発サーバー起動 テスト 主要ルート GET / カテゴリ一覧 GET /category/{category} カテゴリ開始（最初の問題表示） GET /question/{question} 問題表示 POST /question/{question}/answer 回答採点",
+      "url": "https://github.com/syunnjack/studylaw-app",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "artisan",
+        "bootstrap",
+        "composer.json",
+        "composer.lock",
+        "config",
+        "database",
+        "package-lock.json",
+        "package.json",
+        "phpunit.xml",
+        "public",
+        "resources",
+        "routes",
+        "storage",
+        "tests",
+        "vite.config.js"
+      ],
+      "commits": [
+        {
+          "sha": "b00201f",
+          "message": "Complete StudyLaw quiz MVP",
+          "date": "2026-08-11T13:48:54Z",
+          "url": "https://github.com/syunnjack/studylaw-app/commit/b00201f014d662d225a38e4d2c70bbdf99c265ce"
+        },
+        {
+          "sha": "fd398f5",
+          "message": "Initial commit studylaw-app",
+          "date": "2025-07-26T12:04:55Z",
+          "url": "https://github.com/syunnjack/studylaw-app/commit/fd398f513a4fe72489e87a8c2f2feec776ebfda0"
+        }
+      ],
+      "updatedAt": "2026-08-11T13:51:07Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "tsumiage-log",
+      "name": "tsumiage-log",
+      "displayName": "Tsumiage Log",
+      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
+      "url": "https://github.com/syunnjack/tsumiage-log",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Python",
+        "PowerShell"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "docs",
+        "eslint.config.mjs",
+        "lib",
+        "next.config.ts",
+        "output",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "scripts",
+        "sitemap.xml",
+        "tmp",
+        "tsconfig.json",
+        "video-assets"
+      ],
+      "commits": [
+        {
+          "sha": "94d6dcb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T13:46:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/94d6dcbfa6f935fc7b3918de6c3ea6041515be88"
+        },
+        {
+          "sha": "2b8b6be",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T12:31:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
+        },
+        {
+          "sha": "d067378",
+          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
+          "date": "2026-08-11T12:17:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
+        },
+        {
+          "sha": "cb66ea8",
+          "message": "Automate complete repository video publication",
+          "date": "2026-08-11T12:17:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
+        },
+        {
+          "sha": "1d746d7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T11:36:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
+        },
+        {
+          "sha": "fd431dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T10:37:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
+        },
+        {
+          "sha": "3522113",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T09:40:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
+        },
+        {
+          "sha": "3e17896",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T08:38:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
+        },
+        {
+          "sha": "03a6757",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T07:49:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
+        },
+        {
+          "sha": "a0b718f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T06:37:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
+        },
+        {
+          "sha": "85893ac",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T05:41:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
+        },
+        {
+          "sha": "538c8d5",
+          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
+          "date": "2026-08-11T05:09:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
+        }
+      ],
+      "updatedAt": "2026-08-11T13:48:42Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "sukima-insight",
       "name": "sukima-insight",
@@ -298,108 +1020,6 @@
       "forks": 0
     },
     {
-      "slug": "tourism-crowd-parking-alert",
-      "name": "tourism-crowd-parking-alert",
-      "displayName": "Tourism Crowd Parking Alert",
-      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
-      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光前に、混雑状況や駐車場の空き、近くの飲食店やチケット情報をまとめて確認できるサービスです。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場情報 観光予約 周辺グルメ チケット情報 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory If Gi",
-      "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "scripts",
-        "src",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "d5241ca",
-          "message": "Polish generated area page copy",
-          "date": "2026-08-11T12:42:19Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/d5241cacedef64457da54b854e39d7f0a1477d1f"
-        },
-        {
-          "sha": "eae68d6",
-          "message": "Tighten homepage labels and CTAs",
-          "date": "2026-08-11T12:40:37Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/eae68d6475493df380257f58aff430629deede68"
-        },
-        {
-          "sha": "0e656b3",
-          "message": "Polish user-facing tourism wording",
-          "date": "2026-08-11T12:38:26Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0e656b31ad2ac2354c5889a6f78bba157aacbde0"
-        },
-        {
-          "sha": "81e5b0d",
-          "message": "Refine user-facing tourism copy",
-          "date": "2026-08-11T12:35:49Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/81e5b0dcf5f7f10c571137468f4ead0ab942e491"
-        },
-        {
-          "sha": "df61931",
-          "message": "Add area CTA flow and split sitemaps",
-          "date": "2026-08-11T12:33:07Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/df619310dc32c97913ea579c61b8469d00331996"
-        },
-        {
-          "sha": "8b42d97",
-          "message": "Add nearby area rankings and FAQ schema",
-          "date": "2026-08-11T12:28:31Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8b42d97b1216952e6951b5486490d82bb9404c3a"
-        },
-        {
-          "sha": "0001cd0",
-          "message": "Update Xserver deploy workflow runtime",
-          "date": "2026-08-11T12:20:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0001cd03f06ab4d79ed765873babe900dfecc32c"
-        },
-        {
-          "sha": "e42037a",
-          "message": "Enhance area pages and prefecture heatmap",
-          "date": "2026-08-11T12:08:49Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e42037a4a81a8b1bc6929beeaff51b126b6632fa"
-        },
-        {
-          "sha": "73d6a97",
-          "message": "Generate area pages and add heatmap",
-          "date": "2026-08-11T12:04:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
-        },
-        {
-          "sha": "f0de71a",
-          "message": "Enhance search UI and add area summaries",
-          "date": "2026-08-11T11:57:32Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f0de71a3aac1ef9642fe4af61186c524a9acec6a"
-        },
-        {
-          "sha": "8787e2b",
-          "message": "Fix GitHub Pages asset base path",
-          "date": "2026-08-11T11:50:59Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8787e2be46ed97d07c19127929b00d5bd85c6333"
-        },
-        {
-          "sha": "8727de3",
-          "message": "Trigger GitHub Pages deploy after enabling Pages",
-          "date": "2026-08-11T11:47:09Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8727de32dd69a51151ab1cd020ba77b65f296430"
-        }
-      ],
-      "updatedAt": "2026-08-11T12:42:48Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "jitan-recipe",
       "name": "jitan-recipe",
       "displayName": "Jitan Recipe",
@@ -471,118 +1091,6 @@
         }
       ],
       "updatedAt": "2026-08-11T12:41:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "tsumiage-log",
-      "name": "tsumiage-log",
-      "displayName": "Tsumiage Log",
-      "description": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "readmeExcerpt": "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
-      "url": "https://github.com/syunnjack/tsumiage-log",
-      "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "Python",
-        "PowerShell"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "docs",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "output",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "sitemap.xml",
-        "tmp",
-        "tsconfig.json",
-        "video-assets"
-      ],
-      "commits": [
-        {
-          "sha": "2b8b6be",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T12:31:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8b6be50f1e201a5558737ebe36901cc0bbf468"
-        },
-        {
-          "sha": "d067378",
-          "message": "Merge pull request #33 from syunnjack/codex/automated-video-20260811-205454",
-          "date": "2026-08-11T12:17:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0673789258125fb692e88274778a3ca9862623b"
-        },
-        {
-          "sha": "cb66ea8",
-          "message": "Automate complete repository video publication",
-          "date": "2026-08-11T12:17:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb66ea80cef08fd6f26f3503911e4609449b8d7e"
-        },
-        {
-          "sha": "1d746d7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T11:36:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d746d796a038766e6f9e04a519f3589db004e5b"
-        },
-        {
-          "sha": "fd431dd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T10:37:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd431dd46f48267c8fbd8c75659a187e0712ef4c"
-        },
-        {
-          "sha": "3522113",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T09:40:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/352211303fd4c196882a1b9f4c3d48d3549417bd"
-        },
-        {
-          "sha": "3e17896",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T08:38:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e17896d40a94847795e24bcb3b754cc84a9c526"
-        },
-        {
-          "sha": "03a6757",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T07:49:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/03a67575eb8396a204d277c7bbdb81f3af974b09"
-        },
-        {
-          "sha": "a0b718f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T06:37:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0b718fd4a205c78fc0806f3a692c8ae7d7f2e81"
-        },
-        {
-          "sha": "85893ac",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T05:41:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/85893acf575228339aa5696d30558066085b5653"
-        },
-        {
-          "sha": "538c8d5",
-          "message": "Merge pull request #31 from syunnjack/codex/fix-adsense-deploy",
-          "date": "2026-08-11T05:09:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/538c8d50ce552c7c60be6b2aed977bbac2828f8a"
-        },
-        {
-          "sha": "47e1fbb",
-          "message": "Fix GitHub Pages deployment",
-          "date": "2026-08-11T05:08:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/47e1fbbe196887319428a80851327ffa9e0401df"
-        }
-      ],
-      "updatedAt": "2026-08-11T12:32:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -2007,108 +2515,6 @@
         }
       ],
       "updatedAt": "2026-08-10T22:33:37Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "asia-trip-concierge",
-      "name": "asia-trip-concierge",
-      "displayName": "Asia Trip Concierge",
-      "description": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Asia Trip Conciergeは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/asia-trip-concierge",
-      "defaultBranch": "codex/asia-trip-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "eslint.config.mjs",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "9aca602",
-          "message": "seo: add IndexNow key file",
-          "date": "2026-08-10T21:08:46Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9aca602b694c3294571fb9434d0034e39ae7cbe1"
-        },
-        {
-          "sha": "600e96c",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:06:22Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/600e96c67a39bea634c05ce56c8bf5b9ce5d2873"
-        },
-        {
-          "sha": "bcc221b",
-          "message": "seo: add IndexNow key file",
-          "date": "2026-08-10T21:04:50Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/bcc221bdd1edb43bb18ce1ef0ef51b6d25385352"
-        },
-        {
-          "sha": "b91c303",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:02:34Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/b91c303be574725d1545c01cb9272a1e61cd8df6"
-        },
-        {
-          "sha": "ef77f43",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:58:49Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/ef77f436c6bf98310e058cf4da21411543ed53c9"
-        },
-        {
-          "sha": "ef52a8f",
-          "message": "Expand to Japan's top 10 outbound destinations, fix SEO, add UGC",
-          "date": "2026-08-09T08:15:00Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/ef52a8f0b3b3b2f1027d58525b11a9fdbdf2ec4b"
-        },
-        {
-          "sha": "12dd46b",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:08Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/12dd46baba06e8460a3e8cd429eb020962d65393"
-        },
-        {
-          "sha": "9eacfa6",
-          "message": "Add sitemap.xml",
-          "date": "2026-08-05T11:36:37Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/9eacfa6e62dfe5f5b7059fdf7f7d1c4871681d34"
-        },
-        {
-          "sha": "21edccc",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:19Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/21edccc2d2877944e0d6f275657d5efc63054bcf"
-        },
-        {
-          "sha": "490b40f",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:51Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/490b40fd63766d5ae1e9fa01d5b2263e4c896d29"
-        },
-        {
-          "sha": "6e2ad3d",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T13:09:32Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
-        },
-        {
-          "sha": "774b1b1",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:56:36Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/774b1b15ae19c8a53e4d4084865e8b64ce29b875"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:08:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -7155,83 +7561,6 @@
       "forks": 0
     },
     {
-      "slug": "autohensei",
-      "name": "autohensei",
-      "displayName": "Autohensei",
-      "description": "Autohenseiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Autohenseiは、TypeScript、JavaScript、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/autohensei",
-      "defaultBranch": "master",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "AGENTS.md",
-        "CLAUDE.md",
-        "README.md",
-        "app",
-        "data",
-        "eslint.config.mjs",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tsconfig.json"
-      ],
-      "commits": [
-        {
-          "sha": "bdf7bc1",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:07:06Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/bdf7bc19c009c1d2de5fd9c4bc310aa3297819cc"
-        },
-        {
-          "sha": "0d75500",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:03:17Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/0d75500ec934d68703ab8efb1b1ac455a0ce8dde"
-        },
-        {
-          "sha": "0856303",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:59:40Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/08563035ddad8333caa4ec1f4571efcc79cd9e3d"
-        },
-        {
-          "sha": "272a60b",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:24Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/272a60bd66054f0b1d1fa51eb76fe3c5df3f38ae"
-        },
-        {
-          "sha": "2416e25",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:05:09Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/2416e25491ae4461cce4a4be035c801744c9e533"
-        },
-        {
-          "sha": "299ee4d",
-          "message": "Initial DQ Walk free-to-play / auto-battle composition guide",
-          "date": "2026-07-26T18:02:09Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/299ee4dd014379e3a770dee264dfb039b58b4c3d"
-        },
-        {
-          "sha": "48e7a13",
-          "message": "Initial commit from Create Next App",
-          "date": "2026-07-26T17:52:39Z",
-          "url": "https://github.com/syunnjack/autohensei/commit/48e7a13763f1e7aec36b91d37be280296b752240"
-        }
-      ],
-      "updatedAt": "2026-08-10T21:07:16Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "gemecard-portal",
       "name": "gemecard-portal",
       "displayName": "Gemecard Portal",
@@ -8655,37 +8984,6 @@
       "forks": 0
     },
     {
-      "slug": "choice-compass",
-      "name": "choice-compass",
-      "displayName": "Choice Compass",
-      "description": "Choice Compassの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Choice Compassの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/choice-compass",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [
-        "public"
-      ],
-      "commits": [
-        {
-          "sha": "d7a4e62",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:40Z",
-          "url": "https://github.com/syunnjack/choice-compass/commit/d7a4e62e95c1c56074670cb495dcf60cd95a56a3"
-        },
-        {
-          "sha": "185d536",
-          "message": "Initialize repository",
-          "date": "2026-07-20T05:21:25Z",
-          "url": "https://github.com/syunnjack/choice-compass/commit/185d536a23c4d32ea3231b37191e52b17a1a956f"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:32:21Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "map-search",
       "name": "map-search",
       "displayName": "Map Search",
@@ -9852,142 +10150,6 @@
         }
       ],
       "updatedAt": "2026-08-05T10:08:19Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "vr-content-gear-guide",
-      "name": "vr-content-gear-guide",
-      "displayName": "Vr Content Gear Guide",
-      "description": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Vr Content Gear Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/vr-content-gear-guide",
-      "defaultBranch": "codex/vrchoice-launch",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "1499b1f",
-          "message": "Add Google Search Console verification meta tag",
-          "date": "2026-08-05T10:07:24Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/1499b1fb5af2159cce55476d4d4943b577c99f8a"
-        },
-        {
-          "sha": "6fcefbf",
-          "message": "Rebuild as Laravel app: VR device guide with gear alert notifications",
-          "date": "2026-08-04T08:48:11Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/6fcefbfa4bdd628dfd7f7b4a401e882f69aad1f3"
-        },
-        {
-          "sha": "0c2bbf2",
-          "message": "Configure Sites project",
-          "date": "2026-07-20T23:36:52Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/0c2bbf2cf2972921ad114ca4a2dc1eda11dd9b92"
-        },
-        {
-          "sha": "e033450",
-          "message": "Build VR content and gear comparison MVP",
-          "date": "2026-07-20T23:36:02Z",
-          "url": "https://github.com/syunnjack/vr-content-gear-guide/commit/e0334508f575cb657e1924582e4a39bd27121808"
-        }
-      ],
-      "updatedAt": "2026-08-05T10:08:43Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "oshi-trip-alert",
-      "name": "oshi-trip-alert",
-      "displayName": "Oshi Trip Alert",
-      "description": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Oshi Trip Alertは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/oshi-trip-alert",
-      "defaultBranch": "codex/oshi-trip-launch",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "d5c5371",
-          "message": "Add Google Search Console verification meta tag",
-          "date": "2026-08-05T10:07:21Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d5c5371244eda781212675fc3afe5cc3ea6ab7ed"
-        },
-        {
-          "sha": "64c7f2b",
-          "message": "Fix Blade parse error: escape literal @ in JSON-LD",
-          "date": "2026-08-05T10:02:30Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/64c7f2ba9f19d31d215370ac6d6010da103bcafe"
-        },
-        {
-          "sha": "e6ecf04",
-          "message": "Rebuild as Laravel app: travel prep guide with subscription notifications",
-          "date": "2026-08-04T08:45:02Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/e6ecf04fec146babf35d7d31fb41987f9b5441d6"
-        },
-        {
-          "sha": "0812e97",
-          "message": "Configure private site hosting",
-          "date": "2026-07-20T22:39:21Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/0812e973b3a10c7bc33b18d55e305d2cb94901f0"
-        },
-        {
-          "sha": "d6667e2",
-          "message": "Exclude local development logs",
-          "date": "2026-07-20T22:37:35Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/d6667e2d482a39f4ee5db3021a9788651f9dc7a3"
-        },
-        {
-          "sha": "87dfeac",
-          "message": "Build Korea Taiwan oshi trip alerts",
-          "date": "2026-07-20T22:36:27Z",
-          "url": "https://github.com/syunnjack/oshi-trip-alert/commit/87dfeacfba4a271c3787a6faed831d5d557d7766"
-        }
-      ],
-      "updatedAt": "2026-08-05T10:10:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -11323,29 +11485,6 @@
         }
       ],
       "updatedAt": "2026-08-02T04:02:54Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "chutonavi",
-      "name": "chutonavi",
-      "displayName": "Chutonavi",
-      "description": "Chutonaviの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Chutonaviの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/chutonavi",
-      "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
-      "files": [],
-      "commits": [
-        {
-          "sha": "2f4bdf8",
-          "message": "chore: initialize repository",
-          "date": "2026-07-25T00:01:06Z",
-          "url": "https://github.com/syunnjack/chutonavi/commit/2f4bdf8373cdff5197baefadd86bb14a4b4313ca"
-        }
-      ],
-      "updatedAt": "2026-07-25T00:01:13Z",
       "stars": 0,
       "forks": 0
     }
