@@ -296,7 +296,7 @@ export default function StorePage() {
               </a>
               <p className="store-price-note">
                 買い切り価格 ¥580（税込）|{" "}
-                <a href="/tools/recipe" style={{ color: '#f97316', textDecoration: 'underline' }}>無料で試す →</a>
+                <Link href="/tools/recipe" style={{ color: '#f97316', textDecoration: 'underline' }}>無料で試す →</Link>
               </p>
             </div>
           </article>
