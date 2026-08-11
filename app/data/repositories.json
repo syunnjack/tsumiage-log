@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:28:23.498Z",
+  "generatedAt": "2026-08-11T23:28:02.706Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -89,6 +89,12 @@
       ],
       "commits": [
         {
+          "sha": "6e57c48",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-11T22:28:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6e57c4852a66e09377f113858b84f1ae53e59ffd"
+        },
+        {
           "sha": "3002c1b",
           "message": "行政書士記事に受験歴を追記し、事実関係を訂正",
           "date": "2026-08-11T22:18:39Z",
@@ -153,15 +159,9 @@
           "message": "Publish repository articles and video assets",
           "date": "2026-08-11T19:01:04Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/869178cfcfe5e2c6f614ce5171a2e0109fdc7aaa"
-        },
-        {
-          "sha": "f7eda3b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T18:35:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f7eda3b8619d39e851a6a215ab6f9bbf7470127a"
         }
       ],
-      "updatedAt": "2026-08-11T22:18:47Z",
+      "updatedAt": "2026-08-11T22:28:53Z",
       "stars": 0,
       "forks": 0
     },
