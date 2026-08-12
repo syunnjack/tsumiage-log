@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:01:20.314Z",
+  "generatedAt": "2026-08-12T16:34:29.917Z",
   "owner": "syunnjack",
   "totalRepositories": 231,
   "publicRepositories": 229,
@@ -11198,6 +11198,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "7e579a9",
+          "message": "Merge pull request #44 from syunnjack/codex/automated-video-20260813-0010",
+          "date": "2026-08-12T16:04:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e579a9327946bb22a369016a77798054cbe6de5"
+        },
+        {
+          "sha": "471d913",
+          "message": "Regenerate repository publication queue",
+          "date": "2026-08-12T16:03:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/471d913507ae44bd7f5d2006f1910a74bb51182c"
+        },
+        {
+          "sha": "52020fc",
+          "message": "Automate complete repository video publication",
+          "date": "2026-08-12T15:55:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/52020fcf09659c3fbf877cb9296ac10baef5a850"
+        },
+        {
           "sha": "d5f6789",
           "message": "GA4計測状況の調査記事を公開",
           "date": "2026-08-12T15:45:41Z",
@@ -11250,27 +11268,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-12T10:41:42Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0d0f7de33bfc87f7a69599c36857768136fdae53"
-        },
-        {
-          "sha": "251aa97",
-          "message": "Merge pull request #42 from syunnjack/codex/automated-video-202608121904",
-          "date": "2026-08-12T10:05:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/251aa970317117b77e1e18671e5079003399910b"
-        },
-        {
-          "sha": "9753656",
-          "message": "公開記事と動画キューを自動更新",
-          "date": "2026-08-12T10:04:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/97536566ed82240c271f2def65cecb1e0f230958"
-        },
-        {
-          "sha": "de02d0c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-12T09:45:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/de02d0c4cda406bb64ccca40df20e64134438ab3"
         }
       ],
-      "updatedAt": "2026-08-12T15:46:39Z",
+      "updatedAt": "2026-08-12T16:05:02Z",
       "stars": 0,
       "forks": 0
     },
