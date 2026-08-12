@@ -4,7 +4,6 @@ import { resolve } from "node:path"
 const repositoryData = JSON.parse(readFileSync(resolve("app/data/repositories.json"), "utf8"))
 const policy = JSON.parse(readFileSync(resolve("app/data/content-policy.json"), "utf8"))
 const excluded = new Set(policy.excludedRepositories)
-const allowed = new Set(policy.allowedRepositories ?? [])
 const forbidden = [/fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i, /sexy/i, /gravure/i, /\bbl[- ]tl\b/i, /duga/i, /sokmil/i, /アダルト/, /成人向け/, /部外秘/, /社外秘/, /機密/]
 const start = new Date("2026-08-02T10:00:00+09:00")
 const outputPath = resolve("app/data/video-production.json")
@@ -35,7 +34,7 @@ function summarizeCommit(message) {
 
 const videos = repositoryData.articles
   .filter((article) => !excluded.has(article.name))
-  .filter((article) => allowed.has(article.name) || !forbidden.some((term) => term.test(`${article.name} ${article.description} ${article.readmeExcerpt ?? ""}`)))
+  .filter((article) => !forbidden.some((term) => term.test(`${article.name} ${article.description} ${article.readmeExcerpt ?? ""}`)))
   .map((article, index) => {
     const publishAt = new Date(start.getTime() + index * 24 * 60 * 60 * 1000)
     const languages = article.languages.length ? article.languages.join("・") : article.primaryLanguage
@@ -48,7 +47,10 @@ const videos = repositoryData.articles
       : publishAt.toISOString()
     const localVideoUrl = `/videos/repositories/${article.slug}/${article.slug}-tech-preview.mp4`
     const localPptxUrl = `/videos/repositories/${article.slug}/${article.slug}-tech-preview.pptx`
-    const rendered = existsSync(resolve("video-assets", "repositories", article.slug, `${article.slug}-tech-preview.mp4`))
+    const assetDirectory = resolve("video-assets", "repositories", article.slug)
+    const rendered = ["mp4", "pptx"].every((extension) =>
+      existsSync(resolve(assetDirectory, `${article.slug}-tech-preview.${extension}`)),
+    )
     return {
       slug: article.slug,
       repository: article.name,
@@ -80,8 +82,8 @@ const videos = repositoryData.articles
       status: ["scheduled", "published"].includes(prior.status)
         ? prior.status
         : (rendered ? "rendered" : (prior.status ?? "queued")),
-      localVideoUrl: rendered ? localVideoUrl : (prior.localVideoUrl ?? null),
-      localPptxUrl: rendered ? localPptxUrl : (prior.localPptxUrl ?? null),
+      localVideoUrl: rendered ? localVideoUrl : null,
+      localPptxUrl: rendered ? localPptxUrl : null,
       youtubeUrl: prior.youtubeUrl ?? null,
       narration: [
         `今回は、${article.displayName}の技術構成を短く解説します。`,
