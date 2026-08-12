@@ -212,9 +212,9 @@
         "Node.js",
         "GitHub Actions"
       ],
-      "publishedAt": "2026-08-12T09:00:00+09:00",
-      "updatedAt": "2026-08-12T09:00:00+09:00",
-      "published": false,
+      "publishedAt": "2026-08-13T10:00:00+09:00",
+      "updatedAt": "2026-08-13T10:00:00+09:00",
+      "published": true,
       "sections": [
         {
           "heading": "結論：コードを検索してもGA4の稼働状況は分からない",
