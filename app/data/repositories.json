@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T15:47:35.484Z",
+  "generatedAt": "2026-08-12T16:01:20.314Z",
   "owner": "syunnjack",
   "totalRepositories": 231,
   "publicRepositories": 229,
@@ -11641,104 +11641,89 @@
       "name": "wangan-base",
       "displayName": "Wangan Base",
       "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
-      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
+      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 全国の湾岸ミッドナイト マキシマムチューン 6RR PLUS公式設置店への地域別導線 BOOTHショップ、運営支援、店舗PR掲載への収益導線 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 収益導線の設定 BOOTHショップを公開したら、デプロイ環境に次の公開環境変数を設定します。 未設定時も https://wan gan base.booth.pm/ へ移動します。月額支援と店舗掲載の問い合わせ先は、それぞれ NEXT PUBLIC SUPPORT URL と NEXT PUBLIC PARTNER URL で差し替えられます。 NEXT PUBLIC BOOTH ITEM 01 URL は「WANGAN BASE 運営支援パック 01」の商品ページURLです。BOOTHで商品を登録すると https://wan gan base.booth.pm/items/ が発行されるので、その値を設定してください。未設定の場合はショップトップへ移動します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
       "url": "https://github.com/syunnjack/wangan-base",
       "defaultBranch": "codex/initial-community-site",
       "primaryLanguage": "TypeScript",
       "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
+        "TypeScript"
       ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "sitemap.xml",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
+      "files": [],
       "commits": [
         {
-          "sha": "26762ab",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:30:03Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/26762abc78adcf54cdb86f421a4fbfa404e226bf"
+          "sha": "bd1da61",
+          "message": "Merge pull request #5 from syunnjack/codex/add-national-arcade-directory",
+          "date": "2026-08-12T15:54:46Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/bd1da61e535bd25cbe6de13283d42e96d0255d28"
         },
         {
-          "sha": "4262f51",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:45:15Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/4262f51985fc8ba27f9dc636770510ad9707e772"
+          "sha": "d0e7f92",
+          "message": "BOOTH商品「運営支援パック 01」を支援セクションに掲載する",
+          "date": "2026-08-12T15:53:10Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/d0e7f92b177c8461d1ec826700a4ad13a61c9851"
         },
         {
-          "sha": "476ee08",
-          "message": "Merge pull request #4 from syunnjack/agent/add-revenue-paths",
-          "date": "2026-08-02T04:04:09Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/476ee080b35eb994014c612cff9ae69548fdae5e"
+          "sha": "d2eac2f",
+          "message": "Document updated BOOTH URL",
+          "date": "2026-08-12T08:45:19Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/d2eac2f0720fdd0476bdc61721145bfcbd976f64"
         },
         {
-          "sha": "ba165dd",
-          "message": "Add supporter, affiliate, and sponsor revenue paths",
-          "date": "2026-08-02T04:02:43Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/ba165ddf9d8b7723c974e27895bde3183fd1bfd5"
+          "sha": "aa8bcd4",
+          "message": "Update BOOTH shop URL",
+          "date": "2026-08-12T08:45:18Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/aa8bcd49ecd35494bec01b91ed83d96095cd074d"
         },
         {
-          "sha": "7d43678",
-          "message": "Merge pull request #3 from syunnjack/agent/activate-ugc",
-          "date": "2026-08-02T03:47:31Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/7d43678a5d3ab135d5479ef4e0c343621c09ee26"
+          "sha": "a1be4f7",
+          "message": "Document live BOOTH shop URL",
+          "date": "2026-08-12T07:51:58Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/a1be4f70d55b99ef004a6c5c5bd549f55a4e9eee"
         },
         {
-          "sha": "720ebf3",
-          "message": "Add UGC engagement, voting, and rankings",
-          "date": "2026-08-02T03:44:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/720ebf3194daad113298c7f1a3af77f70a27e5fe"
+          "sha": "8fed044",
+          "message": "Connect WANGAN BASE BOOTH shop",
+          "date": "2026-08-12T07:51:57Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/8fed044dcb5a41db1b693c6960881765eb7d7559"
         },
         {
-          "sha": "3be923f",
-          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
-          "date": "2026-08-02T02:25:00Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
+          "sha": "c3009bd",
+          "message": "Document BOOTH URL configuration",
+          "date": "2026-08-12T07:39:43Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/c3009bd97a2792b1b1d3b405a871052ef3c505b8"
         },
         {
-          "sha": "42973d3",
-          "message": "Enable GitHub Pages during deployment",
-          "date": "2026-08-02T02:23:51Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
+          "sha": "ba807aa",
+          "message": "Prepare BOOTH storefront integration",
+          "date": "2026-08-12T07:39:34Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/ba807aadc99093fc2161044d42df237e4581e21d"
         },
         {
-          "sha": "5be9895",
-          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
-          "date": "2026-08-02T02:18:06Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
+          "sha": "3b7b174",
+          "message": "Style revenue conversion panels",
+          "date": "2026-08-12T07:25:47Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/3b7b174f8b2525ae382169a096bc81f14d2e9888"
         },
         {
-          "sha": "6bdb691",
-          "message": "Configure midnightpit.jp GitHub Pages deployment",
-          "date": "2026-08-02T02:12:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
+          "sha": "6f062cf",
+          "message": "Add monetization paths to arcade directory",
+          "date": "2026-08-12T07:25:34Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6f062cfa938ae80004ae87fdc1094cff5d8e73a0"
         },
         {
-          "sha": "6f5fe39",
-          "message": "Build initial WANGAN BASE community site",
-          "date": "2026-08-02T01:25:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
+          "sha": "a27674c",
+          "message": "Correct Tokyo outer-area official link",
+          "date": "2026-08-12T04:36:05Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/a27674c2aea51b44ce53223ec02648be7f6c9a66"
+        },
+        {
+          "sha": "e74eadd",
+          "message": "Style national arcade directory",
+          "date": "2026-08-12T04:35:46Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/e74eadd342dd762475c57e9d0bc5df73b4e6276a"
         }
       ],
-      "updatedAt": "2026-08-10T20:30:34Z",
+      "updatedAt": "2026-08-12T15:54:53Z",
       "stars": 0,
       "forks": 0
     },
