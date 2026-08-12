@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T08:48:00.491Z",
+  "generatedAt": "2026-08-12T09:08:38.957Z",
   "owner": "syunnjack",
-  "totalRepositories": 202,
-  "publicRepositories": 200,
+  "totalRepositories": 177,
+  "publicRepositories": 175,
   "privateRepositories": 2,
   "skippedRepositories": [
     "tsumiage-log",
@@ -39,138 +39,9 @@
     "adult-novel-ranking",
     "adult-figure-ranking",
     "adult-comic-ranking",
-    "duga-video-ranking",
-    "play-with-roundgirl-ranking",
-    "play-with-promotionalgirl-ranking",
-    "playincar-ranking",
-    "play-inplane-ranking",
-    "play-inbus-ranking",
-    "neback-ranking",
-    "mesuochi-ranking",
-    "hard-piston-ranking",
-    "back-piston-ranking",
-    "shibari-ranking",
-    "netorare-ranking",
-    "tachiback-ranking",
-    "kosupure-ranking",
-    "shirouto-ranking",
-    "taimenzai-ranking",
-    "mesuiki-ranking",
-    "kyonyu-ranking"
+    "duga-video-ranking"
   ],
   "articles": [
-    {
-      "slug": "local-service-finder",
-      "name": "local-service-finder",
-      "displayName": "Local Service Finder",
-      "description": "市町村別の生活・美容・教育サービス比較基盤",
-      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/local-service-finder",
-      "defaultBranch": "codex/house-cleaning-launch",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "ca97afd",
-          "message": "feat: add sitemap for SEO",
-          "date": "2026-08-10T20:29:19Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
-        },
-        {
-          "sha": "e3fcc9a",
-          "message": "feat: prioritize helpful discovery on home",
-          "date": "2026-07-24T16:50:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
-        },
-        {
-          "sha": "b0d4de1",
-          "message": "feat: add handyman and silver center comparisons",
-          "date": "2026-07-24T16:45:37Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
-        },
-        {
-          "sha": "106b505",
-          "message": "feat: add verified locksmith regional data",
-          "date": "2026-07-24T16:39:27Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
-        },
-        {
-          "sha": "7693641",
-          "message": "feat: add verified garden regional data",
-          "date": "2026-07-24T16:34:21Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
-        },
-        {
-          "sha": "c38200e",
-          "message": "feat: add verified regional care data",
-          "date": "2026-07-24T16:33:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
-        },
-        {
-          "sha": "adeda1d",
-          "message": "feat: add verified moving regional data",
-          "date": "2026-07-24T16:29:29Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
-        },
-        {
-          "sha": "409ea73",
-          "message": "feat: add verified regional service data",
-          "date": "2026-07-24T16:25:58Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
-        },
-        {
-          "sha": "e344dab",
-          "message": "fix: consolidate thin regional search pages",
-          "date": "2026-07-24T16:19:55Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
-        },
-        {
-          "sha": "8e6e757",
-          "message": "feat: distinguish verified review experiences",
-          "date": "2026-07-24T16:16:23Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
-        },
-        {
-          "sha": "9d5a3a9",
-          "message": "feat: strengthen search and AI discovery signals",
-          "date": "2026-07-24T16:12:01Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
-        },
-        {
-          "sha": "d9c89ba",
-          "message": "feat: connect related local service journeys",
-          "date": "2026-07-24T14:33:47Z",
-          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:29:47Z",
-      "stars": 0,
-      "forks": 0
-    },
     {
       "slug": "rakuten02",
       "name": "rakuten02",
@@ -381,6 +252,118 @@
         }
       ],
       "updatedAt": "2026-08-10T20:30:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "local-service-finder",
+      "name": "local-service-finder",
+      "displayName": "Local Service Finder",
+      "description": "市町村別の生活・美容・教育サービス比較基盤",
+      "readmeExcerpt": "市町村別の生活・美容・教育サービス比較基盤 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/local-service-finder",
+      "defaultBranch": "codex/house-cleaning-launch",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "CSS"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "docs",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "ca97afd",
+          "message": "feat: add sitemap for SEO",
+          "date": "2026-08-10T20:29:19Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/ca97afd0a0e2ad76b21aab86b63c438b19c0d009"
+        },
+        {
+          "sha": "e3fcc9a",
+          "message": "feat: prioritize helpful discovery on home",
+          "date": "2026-07-24T16:50:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e3fcc9ae3ebbcf92abdf2e88647b6ba877405135"
+        },
+        {
+          "sha": "b0d4de1",
+          "message": "feat: add handyman and silver center comparisons",
+          "date": "2026-07-24T16:45:37Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/b0d4de1ad3d4f1614b64c4e429d3be005350d02a"
+        },
+        {
+          "sha": "106b505",
+          "message": "feat: add verified locksmith regional data",
+          "date": "2026-07-24T16:39:27Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/106b505ad7aa14bfcd2e9b034440bdd62ffe2fe2"
+        },
+        {
+          "sha": "7693641",
+          "message": "feat: add verified garden regional data",
+          "date": "2026-07-24T16:34:21Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/76936412ec01424cbd073e58a10986d76960d9fa"
+        },
+        {
+          "sha": "c38200e",
+          "message": "feat: add verified regional care data",
+          "date": "2026-07-24T16:33:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/c38200e0579c07138ee7b384e210c80c6a801512"
+        },
+        {
+          "sha": "adeda1d",
+          "message": "feat: add verified moving regional data",
+          "date": "2026-07-24T16:29:29Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/adeda1d86f3fb4dd7242f541a1f9e2018a5262f6"
+        },
+        {
+          "sha": "409ea73",
+          "message": "feat: add verified regional service data",
+          "date": "2026-07-24T16:25:58Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/409ea73996e94d5b3d9a548d3294b154a5213ff1"
+        },
+        {
+          "sha": "e344dab",
+          "message": "fix: consolidate thin regional search pages",
+          "date": "2026-07-24T16:19:55Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/e344dab3259c8ba47a24c66828ca5bd9952a6be6"
+        },
+        {
+          "sha": "8e6e757",
+          "message": "feat: distinguish verified review experiences",
+          "date": "2026-07-24T16:16:23Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/8e6e757f1c9f2fde36b68f9b611e15f0a406cc7c"
+        },
+        {
+          "sha": "9d5a3a9",
+          "message": "feat: strengthen search and AI discovery signals",
+          "date": "2026-07-24T16:12:01Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/9d5a3a96a1b23c62a1a1c489987d899e09f7995d"
+        },
+        {
+          "sha": "d9c89ba",
+          "message": "feat: connect related local service journeys",
+          "date": "2026-07-24T14:33:47Z",
+          "url": "https://github.com/syunnjack/local-service-finder/commit/d9c89baf55846ea116401efa04a1235a39d7ecb4"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:29:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -10787,518 +10770,6 @@
         }
       ],
       "updatedAt": "2026-08-08T02:02:16Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "mgs-video-guide",
-      "name": "mgs-video-guide",
-      "displayName": "Mgs Video Guide",
-      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/mgs-video-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e74f3a1",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:49:43Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/e74f3a1c851bf0d9077d7a350643c6e9df5ec5af"
-        },
-        {
-          "sha": "0772a42",
-          "message": "Initial build: MGS video guide landing page with widget embeds",
-          "date": "2026-08-05T17:44:20Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/0772a428ab29f6dbbdd94b1bb01e464837db3653"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "av-debut-tracker",
-      "name": "av-debut-tracker",
-      "displayName": "Av Debut Tracker",
-      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/av-debut-tracker",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6f93de7",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:28Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/6f93de72faa7d1929f87fe213a3f9d26f96fa7a4"
-        },
-        {
-          "sha": "c731cad",
-          "message": "Initial build: AV debut release tracker",
-          "date": "2026-08-05T12:54:03Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:02Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "akira-special",
-      "name": "akira-special",
-      "displayName": "Akira Special",
-      "description": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/akira-special",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e9cc105",
-          "message": "Fix Blade parse error: escape literal @ in CSS @media and JSON-LD",
-          "date": "2026-08-04T15:02:00Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/e9cc105f38a7aa6fafe303ab41c332f09e77dba4"
-        },
-        {
-          "sha": "cf27a23",
-          "message": "Set confirmed domain (1frame-training.jp) and GA4",
-          "date": "2026-08-04T14:57:33Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/cf27a23b59203aab2e88e5efb62a4de4ad3a34a9"
-        },
-        {
-          "sha": "490f491",
-          "message": "Rebuild as Laravel app: 1-frame release input trainer (no DB needed)",
-          "date": "2026-08-04T08:24:10Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/490f4914abad524080931f909713310c2d452cb0"
-        },
-        {
-          "sha": "9abbc49",
-          "message": "Improve beginner arcade-stick UX in app/globals.css",
-          "date": "2026-07-29T10:30:58Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/9abbc491977503d36c53a182d85457c2035c571f"
-        },
-        {
-          "sha": "6561921",
-          "message": "Improve beginner arcade-stick UX in app/layout.tsx",
-          "date": "2026-07-29T10:30:55Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/6561921a431c15116c4520ce15d4935d66b70b62"
-        },
-        {
-          "sha": "85629ba",
-          "message": "Improve beginner arcade-stick UX in app/page.tsx",
-          "date": "2026-07-29T10:30:51Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/85629ba119486a62d6b010e9ce7085178f8cd80c"
-        },
-        {
-          "sha": "13fb9f4",
-          "message": "Add public/favicon.svg",
-          "date": "2026-07-29T08:23:36Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/13fb9f4582eae6538ae1003409cda6f502aca23d"
-        },
-        {
-          "sha": "a3422c7",
-          "message": "Add tests/rendered-html.test.mjs",
-          "date": "2026-07-29T08:23:34Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/a3422c7c6beaafe5104138617f304414d233af05"
-        },
-        {
-          "sha": "c4109ea",
-          "message": "Add drizzle/meta/_journal.json",
-          "date": "2026-07-29T08:23:32Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/c4109ea392b03a720a0127937936595cb0d83225"
-        },
-        {
-          "sha": "dafeddc",
-          "message": "Add db/schema.ts",
-          "date": "2026-07-29T08:23:30Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/dafeddcd91ac8aab1e7c7aa0675fb834e6d11bd6"
-        },
-        {
-          "sha": "14f3695",
-          "message": "Add db/index.ts",
-          "date": "2026-07-29T08:23:28Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/14f369572cb42c2b42438987dd937eccdbb6ca88"
-        },
-        {
-          "sha": "03ae0d2",
-          "message": "Add worker/index.ts",
-          "date": "2026-07-29T08:23:26Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/03ae0d2d84dba85f4d8470b972bbca1e7e2bc564"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:03:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "kaden-hikaku",
-      "name": "kaden-hikaku",
-      "displayName": "Kaden Hikaku",
-      "description": "Kaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kaden Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/kaden-hikaku",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "ac4a3b7",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:06:02Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/ac4a3b77cbbd5abe3fd4b772cbf7c6df9226f75b"
-        },
-        {
-          "sha": "f35e472",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:34Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/f35e47268fc4bc8e6b26f561d840f763ace76c38"
-        },
-        {
-          "sha": "1752e63",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:43Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/1752e631e71c07f09a2735638bb473d46ee90813"
-        },
-        {
-          "sha": "f23ab5d",
-          "message": "LINE価格ウォッチ通知を追加(値下がり検知)",
-          "date": "2026-07-14T23:42:42Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/f23ab5d523757aeb8bc7124f57121af2484e143c"
-        },
-        {
-          "sha": "e285a19",
-          "message": "楽天API連携の不具合修正とドメイン設定",
-          "date": "2026-07-14T22:04:16Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/e285a1914b9df65edcfbaecaa127d59f2b435118"
-        },
-        {
-          "sha": "dc44eb6",
-          "message": "家電・ガジェット比較サイトを新規構築",
-          "date": "2026-07-14T21:34:21Z",
-          "url": "https://github.com/syunnjack/kaden-hikaku/commit/dc44eb6df6c0306a5ffa7623169b030cd08f86c9"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:17Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "foodtruck-map",
-      "name": "foodtruck-map",
-      "displayName": "Foodtruck Map",
-      "description": "Foodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Foodtruck Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/foodtruck-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "b7bb96e",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:59Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/b7bb96e7d5fdbd432aa1e1e70d95e3cb4c061d3c"
-        },
-        {
-          "sha": "e159248",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:29Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/e1592489553066788fe8404a3f8e24b471151090"
-        },
-        {
-          "sha": "05d7f66",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:08:40Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/05d7f66accf01d8be78112ed7c5b93dcf828b73f"
-        },
-        {
-          "sha": "4c35b2e",
-          "message": "フードトラックマップ（出店情報UGC×LINE通知）を新規構築",
-          "date": "2026-07-15T21:00:22Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:12Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "smoking-area-where",
-      "name": "smoking-area-where",
-      "displayName": "Smoking Area Where",
-      "description": "Smoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Smoking Area Whereは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/smoking-area-where",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS",
-        "Procfile"
-      ],
-      "files": [
-        "Procfile",
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package-lock.json",
-        "package.json",
-        "phpunit.xml",
-        "postcss.config.js",
-        "public",
-        "resources",
-        "routes",
-        "scraper",
-        "storage",
-        "tailwind.config.js",
-        "tests"
-      ],
-      "commits": [
-        {
-          "sha": "17b9cfa",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:50Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/17b9cfafc1b7eb80e9dd22b71335164fbdd33dc6"
-        },
-        {
-          "sha": "fdf3042",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:15Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/fdf3042463001833be5eaae9e011bf33822eccb7"
-        },
-        {
-          "sha": "df5df11",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:03Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/df5df11c9062a1ee6abd9d8ec2ac2d91ccc18010"
-        },
-        {
-          "sha": "629dc17",
-          "message": "LINEプッシュ通知連携を追加(お気に入りスポットの混雑度変化)",
-          "date": "2026-07-14T23:17:06Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/629dc17c3e55bc7f6b98b599c623a66e27c86ddd"
-        },
-        {
-          "sha": "e9c71a9",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:01:31Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/e9c71a9d692b97bd9550b52a1dfa3617fe3b2515"
-        },
-        {
-          "sha": "3e4f951",
-          "message": "本番ドメインをkitsuenjo-map.jpに設定",
-          "date": "2026-07-14T15:56:14Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/3e4f9517b421d965d69cddc00a3fa97fd49507d3"
-        },
-        {
-          "sha": "c587a4d",
-          "message": "重大バグ修正・UGC不正対策・SEO/AIO/LLMO最適化を実施",
-          "date": "2026-07-14T15:50:20Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/c587a4d31fdf801d0b523aed0c374220cd1df3f4"
-        },
-        {
-          "sha": "c4633b2",
-          "message": "最低限の機能プロトタイプ",
-          "date": "2025-07-11T05:43:55Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/c4633b2b715138ab3a9cd7d00672c7cd2291c5f2"
-        },
-        {
-          "sha": "d5d90dd",
-          "message": "first commit",
-          "date": "2025-07-04T23:46:01Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/d5d90ddf39fbfda81fb368a63372d640c31c44f2"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:10Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hikkoshi-hikaku",
-      "name": "hikkoshi-hikaku",
-      "displayName": "Hikkoshi Hikaku",
-      "description": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hikkoshi-hikaku",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "80622ff",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:47Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/80622ff769ed0b64e2cf09b7604ffcec40213bde"
-        },
-        {
-          "sha": "20aa242",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:11Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/20aa242f202e8b2f0e898bc8ac4f5f1e8ab808c0"
-        },
-        {
-          "sha": "80b1208",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:27Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/80b1208ef04542aa8f1029322c640bc35c2d200c"
-        },
-        {
-          "sha": "34aafe0",
-          "message": "引越し業者相見積もり口コミサイト＋LINE通知を新規構築",
-          "date": "2026-07-15T19:48:54Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/34aafe0930e29b20a6716544643d55a8e190c7d7"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:09Z",
       "stars": 0,
       "forks": 0
     }
