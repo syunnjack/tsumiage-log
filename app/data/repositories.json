@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:28:27.275Z",
+  "generatedAt": "2026-08-12T20:55:40.938Z",
   "owner": "syunnjack",
   "totalRepositories": 231,
   "publicRepositories": 229,
@@ -462,27 +462,16 @@
       "defaultBranch": "master",
       "primaryLanguage": "C#",
       "languages": [
-        "C#",
-        "Astro",
-        "HTML",
-        "TypeScript",
-        "Python",
-        "CSS"
+        "C#"
       ],
-      "files": [
-        "README.md",
-        "allbowl01.sln",
-        "allbowl01",
-        "cocoon-child-mankan",
-        "docs",
-        "events.json",
-        "main.py",
-        "requirements.txt",
-        "scrape_events.py",
-        "sitemap.xml",
-        "web"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "e2a8278",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-12T20:31:34Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/e2a8278c83917d8f8b4ef8ac0cd7d3e4db720b49"
+        },
         {
           "sha": "ef35b2a",
           "message": "Refresh bowling event data",
@@ -548,15 +537,9 @@
           "message": "Rebase before push in refresh-events to survive concurrent commits",
           "date": "2026-08-09T04:44:02Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
-        },
-        {
-          "sha": "d306045",
-          "message": "Add nationwide bowling center count with cited source",
-          "date": "2026-08-09T04:39:55Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/d306045f4dfaa4b67aa2d6ec166cb3175c07caf6"
         }
       ],
-      "updatedAt": "2026-08-11T20:25:39Z",
+      "updatedAt": "2026-08-12T20:31:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -11198,6 +11181,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b2b0db6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-12T20:28:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b2b0db6d3a8eb1173d562be16eca0a66058d2a96"
+        },
+        {
           "sha": "c642f9a",
           "message": "Merge pull request #47 from syunnjack/codex/automated-video-20260813-050533",
           "date": "2026-08-12T20:05:44Z",
@@ -11262,15 +11251,9 @@
           "message": "Merge pull request #44 from syunnjack/codex/automated-video-20260813-0010",
           "date": "2026-08-12T16:04:25Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7e579a9327946bb22a369016a77798054cbe6de5"
-        },
-        {
-          "sha": "471d913",
-          "message": "Regenerate repository publication queue",
-          "date": "2026-08-12T16:03:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/471d913507ae44bd7f5d2006f1910a74bb51182c"
         }
       ],
-      "updatedAt": "2026-08-12T20:05:49Z",
+      "updatedAt": "2026-08-12T20:29:45Z",
       "stars": 0,
       "forks": 0
     },
