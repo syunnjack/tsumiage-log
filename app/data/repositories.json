@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T21:31:00.420Z",
+  "generatedAt": "2026-08-12T22:27:45.928Z",
   "owner": "syunnjack",
-  "totalRepositories": 231,
-  "publicRepositories": 229,
+  "totalRepositories": 232,
+  "publicRepositories": 230,
   "privateRepositories": 2,
   "skippedRepositories": [
     "finder-lady",
@@ -12,6 +12,7 @@
     "laravel-sdk",
     "premium-collectible-scan-db",
     "sepro001",
+    "sitemap-auto",
     "sites-kanri",
     "toge-base",
     "tokai-marine",
@@ -11181,6 +11182,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "39bf811",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-12T21:31:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/39bf811bd82141c5b81eb7f2cb510bf5ced1f3a7"
+        },
+        {
           "sha": "ae43392",
           "message": "Merge pull request #48 from syunnjack/codex/automated-video-20260813-055446",
           "date": "2026-08-12T21:02:05Z",
@@ -11245,15 +11252,9 @@
           "message": "chore: refresh published repository content",
           "date": "2026-08-12T17:56:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/62e678c2fce341c59e1fc16d8536152d61016a9b"
-        },
-        {
-          "sha": "3580303",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-12T17:36:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/35803035c3a8962bbc132e5cf59dff1dd979b115"
         }
       ],
-      "updatedAt": "2026-08-12T21:02:17Z",
+      "updatedAt": "2026-08-12T21:31:31Z",
       "stars": 0,
       "forks": 0
     },
