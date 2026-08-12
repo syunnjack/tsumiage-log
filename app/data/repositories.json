@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:36:23.308Z",
+  "generatedAt": "2026-08-12T13:52:41.223Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -96,6 +96,12 @@
       ],
       "commits": [
         {
+          "sha": "5f6ec3b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-12T12:36:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5f6ec3b3722e2d37421db64cf1ed141268e9f3ae"
+        },
+        {
           "sha": "a4ff813",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-12T11:36:37Z",
@@ -160,15 +166,9 @@
           "message": "Merge pull request #40 from syunnjack/codex/automated-video-20260812-1725",
           "date": "2026-08-12T08:26:17Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2ae21e84143def001be8cbed1837072c7d3231f0"
-        },
-        {
-          "sha": "60a5485",
-          "message": "自動公開の動画資産と公開ポリシーを更新",
-          "date": "2026-08-12T08:25:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/60a5485519570ac86e91f3ec06830a11d8c34f6a"
         }
       ],
-      "updatedAt": "2026-08-12T11:36:42Z",
+      "updatedAt": "2026-08-12T12:36:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -11349,69 +11349,6 @@
         }
       ],
       "updatedAt": "2026-08-04T05:06:10Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hikkoshi-hikaku",
-      "name": "hikkoshi-hikaku",
-      "displayName": "Hikkoshi Hikaku",
-      "description": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hikkoshi Hikakuは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hikkoshi-hikaku",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "80622ff",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:47Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/80622ff769ed0b64e2cf09b7604ffcec40213bde"
-        },
-        {
-          "sha": "20aa242",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:11Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/20aa242f202e8b2f0e898bc8ac4f5f1e8ab808c0"
-        },
-        {
-          "sha": "80b1208",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:27Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/80b1208ef04542aa8f1029322c640bc35c2d200c"
-        },
-        {
-          "sha": "34aafe0",
-          "message": "引越し業者相見積もり口コミサイト＋LINE通知を新規構築",
-          "date": "2026-07-15T19:48:54Z",
-          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/34aafe0930e29b20a6716544643d55a8e190c7d7"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:09Z",
       "stars": 0,
       "forks": 0
     }
