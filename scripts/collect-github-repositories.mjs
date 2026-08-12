@@ -10,6 +10,15 @@ const contentPolicy = JSON.parse(
 )
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
 const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
+const previousArticlesByName = new Map()
+try {
+  const previousData = JSON.parse(readFileSync(outputPath, "utf8"))
+  for (const article of previousData.articles ?? []) {
+    previousArticlesByName.set(article.name, article)
+  }
+} catch {
+  // 初回収集ではキャッシュを利用しません。
+}
 // 公開対象から除外する成人向け・機密性の高い可能性があるキーワード
 const forbiddenTerms = [
   /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i,
@@ -58,15 +67,29 @@ function humanize(name) {
     .join(" ")
 }
 
-const repositories = gh([
-  "repo",
-  "list",
-  owner,
-  "--limit",
-  "200",
-  "--json",
-  "name,description,isPrivate,isFork,isArchived,primaryLanguage,updatedAt,url,defaultBranchRef,stargazerCount,forkCount",
+// `gh repo list` can silently return only a partial owner inventory.  Read every
+// public owner-repository page directly instead, so a transient CLI listing does
+// not remove already published articles and their video assets.
+const repositoryPages = gh([
+  "api",
+  `users/${owner}/repos?type=owner&per_page=100`,
+  "--paginate",
+  "--slurp",
 ], [])
+const repositories = (Array.isArray(repositoryPages) ? repositoryPages.flat() : []).map(
+  (repo) => ({
+    ...repo,
+    isPrivate: repo.private,
+    isFork: repo.fork,
+    isArchived: repo.archived,
+    primaryLanguage: repo.language ? { name: repo.language } : null,
+    updatedAt: repo.updated_at,
+    url: repo.html_url,
+    defaultBranchRef: repo.default_branch ? { name: repo.default_branch } : null,
+    stargazerCount: repo.stargazers_count,
+    forkCount: repo.forks_count,
+  }),
+)
 const publicRepositoryCount = repositories.filter((repo) => !repo.isPrivate).length
 
 const publishable = repositories.filter(
@@ -78,46 +101,51 @@ const publishable = repositories.filter(
     !excludedRepositories.has(repo.name),
 )
 
+const skippedRepositories = []
 const candidates = publishable.map((repo, index) => {
+  const previousArticle = previousArticlesByName.get(repo.name)
+  const previousUpdatedAt = Date.parse(previousArticle?.updatedAt ?? "")
+  const repositoryUpdatedAt = Date.parse(repo.updatedAt ?? "")
+  if (
+    previousArticle &&
+    previousArticle.commits?.length > 0 &&
+    Number.isFinite(previousUpdatedAt) &&
+    Number.isFinite(repositoryUpdatedAt) &&
+    previousUpdatedAt >= repositoryUpdatedAt
+  ) {
+    return previousArticle
+  }
+
   process.stdout.write(
     `[${String(index + 1).padStart(3, "0")}/${publishable.length}] ${repo.name}\n`,
   )
 
+  // The owner index already supplies the current language and metadata.  Only
+  // read the README for a newly changed repository: it is the policy-relevant
+  // content and avoids hundreds of redundant API calls on every hourly run.
+  const readme = gh(["api", `repos/${owner}/${repo.name}/readme`], null)
   const commits = gh(
     [
       "api",
-      `repos/${owner}/${repo.name}/commits`,
-      "-f",
-      "per_page=12",
-      "-f",
-      `sha=${repo.defaultBranchRef.name}`,
-      "--method",
-      "GET",
+      `repos/${owner}/${repo.name}/commits?per_page=12&sha=${repo.defaultBranchRef.name}`,
     ],
     [],
   )
-  const languages = gh(["api", `repos/${owner}/${repo.name}/languages`], {})
-  const contents = gh(["api", `repos/${owner}/${repo.name}/contents`], [])
-  const readme = gh(["api", `repos/${owner}/${repo.name}/readme`], null)
 
-  const languageList = Object.entries(languages)
-    .sort((a, b) => b[1] - a[1])
-    .map(([name]) => name)
-    .slice(0, 6)
-
+  const languageList = repo.primaryLanguage?.name ? [repo.primaryLanguage.name] : []
   const commitList = commits.slice(0, 12).map((entry) => ({
     sha: entry.sha.slice(0, 7),
     message: entry.commit.message.split("\n")[0].slice(0, 180),
     date: entry.commit.author?.date ?? entry.commit.committer?.date ?? null,
     url: entry.html_url,
   }))
+  const files = []
 
-  const files = Array.isArray(contents)
-    ? contents
-        .map((entry) => entry.name)
-        .filter((name) => !name.startsWith("."))
-        .slice(0, 20)
-    : []
+  if (commitList.length === 0) {
+    skippedRepositories.push(repo.name)
+    process.stdout.write(`[SKIP] ${repo.name}: empty repository\n`)
+    return null
+  }
 
   const summary =
     repo.description ||
@@ -144,8 +172,8 @@ const candidates = publishable.map((repo, index) => {
   })
 })
 
-const skippedRepositories = []
 const collected = candidates.filter((article) => {
+  if (!article) return false
   const forbidden = containsForbiddenContent(
     article.name,
     article.description,
