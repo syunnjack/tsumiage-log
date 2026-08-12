@@ -9,13 +9,13 @@ const contentPolicy = JSON.parse(
   readFileSync(resolve("app/data/content-policy.json"), "utf8"),
 )
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
-const allowedRepositories = new Set(contentPolicy.allowedRepositories ?? [])
 const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
-// 実際のアダルトビジネスに直接関連するキーワードのみを禁止
+// 公開対象から除外する成人向け・機密性の高い可能性があるキーワード
 const forbiddenTerms = [
-  /fanza/i, /\bdmm\b/i, /風俗/, /部外秘/, /社外秘/,
-  /機密.*マニュアル/, /\bconfidential\b/i,
-  /アダルトショップ/, /アダルト動画/, /アダルトサイト/,
+  /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i,
+  /sexy/i, /gravure/i, /\bbl[- ]tl\b/i, /duga/i, /sokmil/i,
+  /風俗/, /アダルト/, /成人向け/, /部外秘/, /社外秘/,
+  /機密/, /\bconfidential\b/i,
 ]
 
 // より厳密なチェック：説明やREADMEに明確なアダルトキーワードがある場合のみスキップ
@@ -146,7 +146,6 @@ const candidates = publishable.map((repo, index) => {
 
 const skippedRepositories = []
 const collected = candidates.filter((article) => {
-  if (allowedRepositories.has(article.name)) return true
   const forbidden = containsForbiddenContent(
     article.name,
     article.description,
