@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap");
+
+:root {
+  --ink: #0f1720;
+  --paper: #f6f4ef;
+  --sand: #eadfc9;
+  --accent: #d84a2f;
+  --accent-soft: #f5b282;
+  --panel: #fffdf9;
+  --muted: #637083;
+  --ok: #1f8f54;
+  --ng: #8e2727;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 20% 10%, #ffe8cf 0, transparent 35%),
+    radial-gradient(circle at 85% 12%, #ffd4b8 0, transparent 30%),
+    linear-gradient(180deg, var(--paper) 0%, #f3efe8 100%);
+}
+
+.app-shell {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 2rem 1rem 2.5rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1f2a33, #2f3f49 55%, #3a4d56);
+  border-radius: 24px;
+  color: #fff8ec;
+  padding: 1.4rem 1.4rem 1.6rem;
+  box-shadow: 0 16px 32px rgba(11, 15, 18, 0.2);
+  animation: slideIn 0.6s ease-out both;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #ffd8b8;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.hero h1 {
+  margin: 0.4rem 0 0.5rem;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+.hero-copy {
+  margin: 0;
+  color: #efe7dd;
+  max-width: 68ch;
+  line-height: 1.5;
+}
+
+.source-badge {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  font-family: "IBM Plex Mono", monospace;
+  color: #ffe1c9;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.stats-row article {
+  border-radius: 16px;
+  padding: 0.8rem;
+  background: linear-gradient(140deg, rgba(255, 218, 188, 0.22), rgba(233, 167, 117, 0.28));
+}
+
+.stats-row span {
+  display: block;
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.stats-row strong {
+  font-size: 1.5rem;
+}
+
+.layout-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 300px 1fr 360px;
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.panel {
+  border: 1px solid #dccfb8;
+  border-radius: 18px;
+  background: var(--panel);
+  padding: 1rem;
+  box-shadow: 0 12px 22px rgba(41, 47, 51, 0.08);
+  animation: fadeUp 0.55s ease both;
+}
+
+.panel h2 {
+  margin: 0 0 0.9rem;
+  font-size: 1.06rem;
+}
+
+.filters-panel {
+  display: grid;
+  gap: 0.8rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.86rem;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  border: 1px solid #c9baa1;
+  border-radius: 10px;
+  padding: 0.58rem 0.65rem;
+  font: inherit;
+  background: #fffdf8;
+}
+
+button {
+  border: 0;
+  background: linear-gradient(125deg, var(--accent), #bf3118);
+  color: #fff7ef;
+  cursor: pointer;
+}
+
+.checkbox-line {
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox-line input {
+  width: auto;
+}
+
+.map-panel {
+  padding-bottom: 0.7rem;
+}
+
+.map-canvas {
+  height: min(72vh, 660px);
+  border-radius: 14px;
+}
+
+.results-panel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  max-height: min(72vh, 660px);
+  overflow: auto;
+}
+
+.results-panel li {
+  border: 1px solid #e3d8c6;
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: #fff;
+}
+
+.results-panel header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.8rem;
+}
+
+.results-panel p {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.results-panel a {
+  color: #0f4f89;
+  font-size: 0.84rem;
+}
+
+.open,
+.closed {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.open {
+  color: var(--ok);
+}
+
+.closed {
+  color: var(--ng);
+}
+
+@media (max-width: 1180px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-canvas,
+  .results-panel ul {
+    max-height: none;
+    height: 56vh;
+  }
+
+  .stats-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    border-radius: 18px;
+  }
+
+  .stats-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

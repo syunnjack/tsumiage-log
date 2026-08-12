@@ -1,0 +1,128 @@
+name: Sync foodtruck CSV from Sheets
+
+on:
+  schedule:
+    # 03:15 JST every day (18:15 UTC)
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+    inputs:
+      source_csv_url:
+        description: "Override CSV URL for this run"
+        required: false
+        type: string
+      require_47:
+        description: "Require 47-prefecture coverage"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: foodtruck-sheet-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    defaults:
+      run:
+        working-directory: foodtruck-map
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: foodtruck-map/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate sync secrets
+        env:
+          FOODTRUCK_SHEET_CSV_URL: ${{ github.event.inputs.source_csv_url || secrets['FOODTRUCK_SHEET_CSV_URL'] }}
+          FOODTRUCK_SHEET_ID: ${{ secrets['FOODTRUCK_SHEET_ID'] }}
+        run: |
+          if [ -z "$FOODTRUCK_SHEET_CSV_URL" ] && [ -z "$FOODTRUCK_SHEET_ID" ]; then
+            echo "::error::Set FOODTRUCK_SHEET_CSV_URL or FOODTRUCK_SHEET_ID in repository secrets."
+            exit 1
+          fi
+
+      - name: Sync CSV from Sheets
+        env:
+          FOODTRUCK_SHEET_CSV_URL: ${{ github.event.inputs.source_csv_url || secrets['FOODTRUCK_SHEET_CSV_URL'] }}
+          FOODTRUCK_SHEET_ID: ${{ secrets['FOODTRUCK_SHEET_ID'] }}
+          FOODTRUCK_SHEET_GID: ${{ secrets['FOODTRUCK_SHEET_GID'] }}
+          FOODTRUCK_REQUIRE_47: ${{ github.event.inputs.require_47 || secrets['FOODTRUCK_REQUIRE_47'] }}
+        run: npm run data:sync-sheet
+
+      - name: Build validation
+        run: npm run build
+
+      - name: Detect CSV changes
+        id: changes
+        run: |
+          if git diff --quiet -- public/data/foodtrucks.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push updated CSV
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/foodtrucks.csv
+          git commit -m "chore: sync foodtruck CSV from sheet"
+          git push
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.changes.outputs.changed }}" = "true" ]; then
+            echo "CSV was updated and pushed." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No CSV changes detected." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Close resolved sync failure issue
+        if: success()
+        run: |
+          title="foodtruck-map sheet sync failed"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "同期が成功したため自動的にクローズします。\nRun: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+
+      - name: Create or update sync failure issue
+        if: failure()
+        run: |
+          title="foodtruck-map sheet sync failed"
+          body="foodtruck-map の日次シート同期が失敗しました。
+
+          - Workflow: ${GITHUB_WORKFLOW}
+          - Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+          - Ref: ${GITHUB_REF_NAME}
+
+          ログを確認して同期設定またはCSV形式を修正してください。"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh label create foodtruck-sync --color b42318 --description "foodtruck-map sync notifications" --force
+            gh issue create --title "$title" --body "$body" --label foodtruck-sync
+          fi

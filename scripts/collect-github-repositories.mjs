@@ -1,6 +1,5 @@
-import { execFile } from "node:child_process"
+import { execFileSync } from "node:child_process"
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs"
-import { promisify } from "node:util"
 import { dirname, resolve } from "node:path"
 import { localizeRepositoryArticle } from "./repository-content-ja.mjs"
 
@@ -12,44 +11,31 @@ const contentPolicy = JSON.parse(
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
 const allowedRepositories = new Set(contentPolicy.allowedRepositories ?? [])
 const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
+// 実際のアダルトビジネスに直接関連するキーワードのみを禁止
 const forbiddenTerms = [
-  /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i,
-  /\br18\b/i, /sexy/i, /gravure/i, /\bbl[- ]tl\b/i, /duga/i, /sokmil/i,
-  /アダルト/, /成人向け/, /風俗/, /部外秘/, /社外秘/,
+  /fanza/i, /\bdmm\b/i, /風俗/, /部外秘/, /社外秘/,
   /機密.*マニュアル/, /\bconfidential\b/i,
+  /アダルトショップ/, /アダルト動画/, /アダルトサイト/,
 ]
-const execFileAsync = promisify(execFile)
-const collectionConcurrency = 8
 
+// より厳密なチェック：説明やREADMEに明確なアダルトキーワードがある場合のみスキップ
 function containsForbiddenContent(...values) {
   const searchable = values.flat().filter(Boolean).join(" ")
   return forbiddenTerms.some((pattern) => pattern.test(searchable))
 }
 
-async function gh(args, fallback = null) {
+function gh(args, fallback = null) {
   try {
-    const { stdout } = await execFileAsync("gh", args, {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-      windowsHide: true,
-    })
-    return JSON.parse(stdout)
+    return JSON.parse(
+      execFileSync("gh", args, {
+        encoding: "utf8",
+        maxBuffer: 20 * 1024 * 1024,
+        stdio: ["ignore", "pipe", "pipe"],
+      }),
+    )
   } catch {
     return fallback
   }
-}
-
-async function mapWithConcurrency(items, limit, worker) {
-  const results = new Array(items.length)
-  let nextIndex = 0
-  const runWorker = async () => {
-    while (nextIndex < items.length) {
-      const index = nextIndex++
-      results[index] = await worker(items[index], index)
-    }
-  }
-  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, runWorker))
-  return results
 }
 
 function decodeReadme(payload) {
@@ -72,7 +58,7 @@ function humanize(name) {
     .join(" ")
 }
 
-const repositories = await gh([
+const repositories = gh([
   "repo",
   "list",
   owner,
@@ -92,13 +78,12 @@ const publishable = repositories.filter(
     !excludedRepositories.has(repo.name),
 )
 
-const candidates = await mapWithConcurrency(publishable, collectionConcurrency, async (repo, index) => {
+const candidates = publishable.map((repo, index) => {
   process.stdout.write(
     `[${String(index + 1).padStart(3, "0")}/${publishable.length}] ${repo.name}\n`,
   )
 
-  const [commits, languages, contents, readme] = await Promise.all([
-    gh(
+  const commits = gh(
     [
       "api",
       `repos/${owner}/${repo.name}/commits`,
@@ -109,12 +94,11 @@ const candidates = await mapWithConcurrency(publishable, collectionConcurrency, 
       "--method",
       "GET",
     ],
-      [],
-    ),
-    gh(["api", `repos/${owner}/${repo.name}/languages`], {}),
-    gh(["api", `repos/${owner}/${repo.name}/contents`], []),
-    gh(["api", `repos/${owner}/${repo.name}/readme`], null),
-  ])
+    [],
+  )
+  const languages = gh(["api", `repos/${owner}/${repo.name}/languages`], {})
+  const contents = gh(["api", `repos/${owner}/${repo.name}/contents`], [])
+  const readme = gh(["api", `repos/${owner}/${repo.name}/readme`], null)
 
   const languageList = Object.entries(languages)
     .sort((a, b) => b[1] - a[1])
