@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:57:07.477Z",
+  "generatedAt": "2026-08-12T04:54:01.850Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 200,
@@ -54,6 +54,219 @@
   ],
   "articles": [
     {
+      "slug": "rakuten02",
+      "name": "rakuten02",
+      "displayName": "Rakuten02",
+      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
+      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
+      "url": "https://github.com/syunnjack/rakuten02",
+      "defaultBranch": "master",
+      "primaryLanguage": "C#",
+      "languages": [
+        "C#",
+        "PowerShell",
+        "CSS",
+        "Python",
+        "JavaScript",
+        "Shell"
+      ],
+      "files": [
+        "Dockerfile",
+        "README.md",
+        "docs",
+        "patches",
+        "rakuten02.Core",
+        "rakuten02.Web",
+        "rakuten02.sln",
+        "rakuten02",
+        "render.yaml",
+        "scripts"
+      ],
+      "commits": [
+        {
+          "sha": "5f8c56c",
+          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
+          "date": "2026-08-10T07:34:39Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
+        },
+        {
+          "sha": "14ba6ec",
+          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
+          "date": "2026-08-10T07:34:27Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
+        },
+        {
+          "sha": "8ff3e54",
+          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
+          "date": "2026-08-10T07:29:36Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
+        },
+        {
+          "sha": "df2bcb4",
+          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
+          "date": "2026-08-10T07:29:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
+        },
+        {
+          "sha": "2edb779",
+          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
+          "date": "2026-08-09T21:17:24Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
+        },
+        {
+          "sha": "c42f4de",
+          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
+          "date": "2026-08-09T21:17:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
+        },
+        {
+          "sha": "3200bdd",
+          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
+          "date": "2026-08-08T12:37:07Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
+        },
+        {
+          "sha": "06f0568",
+          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
+          "date": "2026-08-08T00:22:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
+        },
+        {
+          "sha": "79692a4",
+          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
+          "date": "2026-08-07T23:04:55Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
+        },
+        {
+          "sha": "6bdb50c",
+          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
+          "date": "2026-08-07T20:36:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
+        },
+        {
+          "sha": "b3e7999",
+          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
+          "date": "2026-08-07T19:21:53Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
+        },
+        {
+          "sha": "02fea8c",
+          "message": "Update 30-site doc with actual purchased domains",
+          "date": "2026-08-07T19:14:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
+        }
+      ],
+      "updatedAt": "2026-08-10T07:35:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "wangan-base",
+      "name": "wangan-base",
+      "displayName": "Wangan Base",
+      "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
+      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
+      "url": "https://github.com/syunnjack/wangan-base",
+      "defaultBranch": "codex/initial-community-site",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript"
+      ],
+      "files": [
+        "README.md",
+        "app",
+        "build",
+        "db",
+        "drizzle.config.ts",
+        "drizzle",
+        "eslint.config.mjs",
+        "examples",
+        "next.config.ts",
+        "package-lock.json",
+        "package.json",
+        "postcss.config.mjs",
+        "public",
+        "sitemap.xml",
+        "tests",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker"
+      ],
+      "commits": [
+        {
+          "sha": "26762ab",
+          "message": "feat: add sitemap.xml for SEO",
+          "date": "2026-08-10T20:30:03Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/26762abc78adcf54cdb86f421a4fbfa404e226bf"
+        },
+        {
+          "sha": "4262f51",
+          "message": "Add GA4 tracking",
+          "date": "2026-08-04T06:45:15Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/4262f51985fc8ba27f9dc636770510ad9707e772"
+        },
+        {
+          "sha": "476ee08",
+          "message": "Merge pull request #4 from syunnjack/agent/add-revenue-paths",
+          "date": "2026-08-02T04:04:09Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/476ee080b35eb994014c612cff9ae69548fdae5e"
+        },
+        {
+          "sha": "ba165dd",
+          "message": "Add supporter, affiliate, and sponsor revenue paths",
+          "date": "2026-08-02T04:02:43Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/ba165ddf9d8b7723c974e27895bde3183fd1bfd5"
+        },
+        {
+          "sha": "7d43678",
+          "message": "Merge pull request #3 from syunnjack/agent/activate-ugc",
+          "date": "2026-08-02T03:47:31Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/7d43678a5d3ab135d5479ef4e0c343621c09ee26"
+        },
+        {
+          "sha": "720ebf3",
+          "message": "Add UGC engagement, voting, and rankings",
+          "date": "2026-08-02T03:44:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/720ebf3194daad113298c7f1a3af77f70a27e5fe"
+        },
+        {
+          "sha": "3be923f",
+          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
+          "date": "2026-08-02T02:25:00Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
+        },
+        {
+          "sha": "42973d3",
+          "message": "Enable GitHub Pages during deployment",
+          "date": "2026-08-02T02:23:51Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
+        },
+        {
+          "sha": "5be9895",
+          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
+          "date": "2026-08-02T02:18:06Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
+        },
+        {
+          "sha": "6bdb691",
+          "message": "Configure midnightpit.jp GitHub Pages deployment",
+          "date": "2026-08-02T02:12:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
+        },
+        {
+          "sha": "6f5fe39",
+          "message": "Build initial WANGAN BASE community site",
+          "date": "2026-08-02T01:25:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
+        }
+      ],
+      "updatedAt": "2026-08-10T20:30:34Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "tsumiage-log",
       "name": "tsumiage-log",
       "displayName": "Tsumiage Log",
@@ -88,6 +301,12 @@
         "video-assets"
       ],
       "commits": [
+        {
+          "sha": "76ec0cc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-12T03:57:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/76ec0cc67dd3371a2e25be9154529d25816579d5"
+        },
         {
           "sha": "327674d",
           "message": "Update repository articles from GitHub activity",
@@ -153,15 +372,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-11T20:30:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/989d4a0dad44c9a891fdd6a69d131f3b100852c9"
-        },
-        {
-          "sha": "be584bc",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-11T19:39:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/be584bc6097e1ee87dc7c6986d0f46a460fbd307"
         }
       ],
-      "updatedAt": "2026-08-12T03:08:18Z",
+      "updatedAt": "2026-08-12T03:57:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -2428,113 +2641,6 @@
         }
       ],
       "updatedAt": "2026-08-11T13:28:04Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "rakuten02",
-      "name": "rakuten02",
-      "displayName": "Rakuten02",
-      "description": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです",
-      "readmeExcerpt": "終電ホテル 終電後、飲み会後、ライブ後、急な出張延長などで「今夜近くに泊まれるホテル」を探すための楽天トラベル空室検索アプリです。 本番ドメインは https://shudenhotel.jp/ です。 構成 rakuten02 : Windows Formsアプリ版 rakuten02.Core : 楽天トラベル検索とジオコーディングの共通ロジック rakuten02.Web : ASP.NET Core Web版 Web版の起動 楽天APIの applicationId 、 accessKey 、任意の affiliateId 、本番URLを環境変数で設定します。 PUBLIC BASE URL はcanonical、OGP URL、sitemap、llms.txtに使われます。 GOOGLE ANALYTICS MEASUREMENT ID はGoogle Analytics 4の測定ID（ G で始まる文字列）です。未設定の場合は計測タグを出力しません。 アプリ版の起動 Windowsアプリ版も楽天APIキーを環境変数から読み込みます。 既に公開リポジトリへ古い applicationId をpushしている場合は、楽天ウェブサービス側で新しいアプリIDを発行し、古いIDを使わない運用に切り替えることをおすすめします。 楽天アフィリエイト対応 Web版では楽天APIリクエストに affiliateId を渡します。予約リンクは次の優先順位で出力します。 1. affiliateUrl 2. reserveUrl 3. hotelAffiliateUrl 4. hotelInformationUrl 5. planListUrl リンクには rel=\"nofollow sponsored noopener\" を付け、広告・アフィリエイトリンクとして扱われるようにしています。 キャッシュ 外部APIへの負荷を抑えるため、Web版はアプリ内メモリに短時間キャッシュします。 地名・駅名の緯度経度: 14日 楽天トラベル空室検索結果: 10分 空室情報は変動するため、予約",
-      "url": "https://github.com/syunnjack/rakuten02",
-      "defaultBranch": "master",
-      "primaryLanguage": "C#",
-      "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
-      ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
-      "commits": [
-        {
-          "sha": "5f8c56c",
-          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
-          "date": "2026-08-10T07:34:39Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
-        },
-        {
-          "sha": "14ba6ec",
-          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
-          "date": "2026-08-10T07:34:27Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
-        },
-        {
-          "sha": "8ff3e54",
-          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
-          "date": "2026-08-10T07:29:36Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
-        },
-        {
-          "sha": "df2bcb4",
-          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
-          "date": "2026-08-10T07:29:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
-        },
-        {
-          "sha": "2edb779",
-          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
-          "date": "2026-08-09T21:17:24Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
-        },
-        {
-          "sha": "c42f4de",
-          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
-          "date": "2026-08-09T21:17:13Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
-        },
-        {
-          "sha": "3200bdd",
-          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
-          "date": "2026-08-08T12:37:07Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
-        },
-        {
-          "sha": "06f0568",
-          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
-          "date": "2026-08-08T00:22:30Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
-        },
-        {
-          "sha": "79692a4",
-          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
-          "date": "2026-08-07T23:04:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
-        },
-        {
-          "sha": "6bdb50c",
-          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
-          "date": "2026-08-07T20:36:29Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
-        },
-        {
-          "sha": "b3e7999",
-          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
-          "date": "2026-08-07T19:21:53Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
-        },
-        {
-          "sha": "02fea8c",
-          "message": "Update 30-site doc with actual purchased domains",
-          "date": "2026-08-07T19:14:48Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
-        }
-      ],
-      "updatedAt": "2026-08-10T07:35:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -9584,112 +9690,6 @@
       "forks": 0
     },
     {
-      "slug": "wangan-base",
-      "name": "wangan-base",
-      "displayName": "Wangan Base",
-      "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
-      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
-      "url": "https://github.com/syunnjack/wangan-base",
-      "defaultBranch": "codex/initial-community-site",
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript",
-        "CSS",
-        "JavaScript"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "db",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "sitemap.xml",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts",
-        "worker"
-      ],
-      "commits": [
-        {
-          "sha": "26762ab",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:30:03Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/26762abc78adcf54cdb86f421a4fbfa404e226bf"
-        },
-        {
-          "sha": "4262f51",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:45:15Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/4262f51985fc8ba27f9dc636770510ad9707e772"
-        },
-        {
-          "sha": "476ee08",
-          "message": "Merge pull request #4 from syunnjack/agent/add-revenue-paths",
-          "date": "2026-08-02T04:04:09Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/476ee080b35eb994014c612cff9ae69548fdae5e"
-        },
-        {
-          "sha": "ba165dd",
-          "message": "Add supporter, affiliate, and sponsor revenue paths",
-          "date": "2026-08-02T04:02:43Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/ba165ddf9d8b7723c974e27895bde3183fd1bfd5"
-        },
-        {
-          "sha": "7d43678",
-          "message": "Merge pull request #3 from syunnjack/agent/activate-ugc",
-          "date": "2026-08-02T03:47:31Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/7d43678a5d3ab135d5479ef4e0c343621c09ee26"
-        },
-        {
-          "sha": "720ebf3",
-          "message": "Add UGC engagement, voting, and rankings",
-          "date": "2026-08-02T03:44:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/720ebf3194daad113298c7f1a3af77f70a27e5fe"
-        },
-        {
-          "sha": "3be923f",
-          "message": "Merge pull request #2 from syunnjack/agent/enable-github-pages",
-          "date": "2026-08-02T02:25:00Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/3be923f46321e3c5bd92aa74d4f2d0c273e68eb7"
-        },
-        {
-          "sha": "42973d3",
-          "message": "Enable GitHub Pages during deployment",
-          "date": "2026-08-02T02:23:51Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/42973d39d1ddaf992a2d50c52e41359868152015"
-        },
-        {
-          "sha": "5be9895",
-          "message": "Merge pull request #1 from syunnjack/agent/configure-midnightpit-domain",
-          "date": "2026-08-02T02:18:06Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/5be989559371e2d7504c9821d2a6f2685dd50e7e"
-        },
-        {
-          "sha": "6bdb691",
-          "message": "Configure midnightpit.jp GitHub Pages deployment",
-          "date": "2026-08-02T02:12:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6bdb6916a6ef65d77ed4c5860d5d0359dc0528ef"
-        },
-        {
-          "sha": "6f5fe39",
-          "message": "Build initial WANGAN BASE community site",
-          "date": "2026-08-02T01:25:41Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/6f5fe39089960cffa7bdb99be3f46d5d1011b2ef"
-        }
-      ],
-      "updatedAt": "2026-08-10T20:30:34Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "game-ense-",
       "name": "game-ense-",
       "displayName": "Game Ense",
@@ -11405,69 +11405,6 @@
         }
       ],
       "updatedAt": "2026-08-04T05:06:09Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "hoiku-map",
-      "name": "hoiku-map",
-      "displayName": "Hoiku Map",
-      "description": "Hoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Hoiku Mapは、Blade、PHP、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/hoiku-map",
-      "defaultBranch": "main",
-      "primaryLanguage": "Blade",
-      "languages": [
-        "Blade",
-        "PHP",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "4f413e4",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:44Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/4f413e48cc8ae745241f3ccd80ee90312a11c5da"
-        },
-        {
-          "sha": "ccb83b1",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:07Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/ccb83b1f21a49c4ea737bab3d56754d1edfa9794"
-        },
-        {
-          "sha": "5483d55",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:31Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/5483d553793b04e7627e032db3b8f730c198c9e1"
-        },
-        {
-          "sha": "0dc2f64",
-          "message": "保育園マップ（地図×UGC×空きあり通知・見学入園相談受付）を新規構築",
-          "date": "2026-07-15T09:15:10Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
-        }
-      ],
-      "updatedAt": "2026-08-04T05:06:03Z",
       "stars": 0,
       "forks": 0
     }
