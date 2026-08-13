@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:59:20.698Z",
+  "generatedAt": "2026-08-13T19:38:25.198Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10975,6 +10975,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "dbe3d82",
+          "message": "Add crowdsourcing work inquiry page (#74)",
+          "date": "2026-08-13T19:24:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/dbe3d828e5796d2f2af9134ba11469b11f3fcdf6"
+        },
+        {
+          "sha": "2160b27",
+          "message": "Restructure store for personal and business customers (#73)",
+          "date": "2026-08-13T19:15:16Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2160b2734fe1324be74597eda361d33582b91cd5"
+        },
+        {
+          "sha": "af535cb",
+          "message": "Merge pull request #72 from syunnjack/codex/automated-video-20260814-0400",
+          "date": "2026-08-13T19:01:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/af535cb2c78f878d4cdcf1bb4c56299533adc44d"
+        },
+        {
+          "sha": "1a78b5d",
+          "message": "Update automated repository articles and videos",
+          "date": "2026-08-13T19:01:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1a78b5d573fd9bf83008e06ddacb1a31303bfef3"
+        },
+        {
           "sha": "0ddd740",
           "message": "Add note and Zenn links to store (#71)",
           "date": "2026-08-13T18:58:05Z",
@@ -11021,33 +11045,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T17:36:54Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ead24257cd01cc7bd77adf585c00a9f29fdf4f0f"
-        },
-        {
-          "sha": "2b80b84",
-          "message": "Merge pull request #65 from syunnjack/codex/automated-video-20260814-013926",
-          "date": "2026-08-13T17:10:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b80b8413e6f330f21d2d51b0ba001865b7e0a24"
-        },
-        {
-          "sha": "2d22c5f",
-          "message": "chore: refresh repository articles and videos",
-          "date": "2026-08-13T17:09:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2d22c5fd2840733174f9ff63afb645f1b03afb7a"
-        },
-        {
-          "sha": "9c586f5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T16:34:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c586f51ac96bbbf984f3649e09f6078f83f184e"
-        },
-        {
-          "sha": "3811f57",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T15:36:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3811f57f1d4fa5e9af7d5fe1f55239c31df24e37"
         }
       ],
-      "updatedAt": "2026-08-13T18:58:10Z",
+      "updatedAt": "2026-08-13T19:34:47Z",
       "stars": 0,
       "forks": 0
     },
