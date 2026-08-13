@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T15:35:35.504Z",
+  "generatedAt": "2026-08-13T16:34:27.616Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10969,6 +10969,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3811f57",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T15:36:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3811f57f1d4fa5e9af7d5fe1f55239c31df24e37"
+        },
+        {
           "sha": "49588bb",
           "message": "Merge pull request #64 from syunnjack/codex/automated-video-20260814-0012",
           "date": "2026-08-13T15:12:07Z",
@@ -11033,15 +11039,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T13:48:38Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2d6c586d0b6dc1166f857ca5f086ad256201c822"
-        },
-        {
-          "sha": "3e6457a",
-          "message": "feat: add recipe fallback cards when Rakuten API is unavailable",
-          "date": "2026-08-13T13:10:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e6457ad7d5af77de01a8e6db3601a503c1c6575"
         }
       ],
-      "updatedAt": "2026-08-13T15:14:30Z",
+      "updatedAt": "2026-08-13T15:36:06Z",
       "stars": 0,
       "forks": 0
     },
