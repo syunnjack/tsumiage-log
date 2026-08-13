@@ -11,6 +11,51 @@ const CATEGORY_IDS = [
   '20', '21', '22', '30', '31', '32', '33', '34', '35',
 ];
 
+function buildFallbackRecipes(categoryId: string): RakutenRecipe[] {
+  const base: RakutenRecipe[] = [
+    {
+      recipeId: Number(`${categoryId}001`),
+      recipeTitle: '10分で作る たまごチャーハン',
+      recipeUrl: 'https://recipe.rakuten.co.jp/',
+      foodImageUrl: 'https://dummyimage.com/640x360/fde68a/78350f&text=Quick+Recipe',
+      mediumImageUrl: 'https://dummyimage.com/320x180/fde68a/78350f&text=Quick+Recipe',
+      smallImageUrl: 'https://dummyimage.com/160x90/fde68a/78350f&text=Quick+Recipe',
+      recipeIndication: '約10分',
+      recipeCost: '100〜300円',
+      recipeDescription: '短時間で作れる定番レシピです。',
+      recipeMaterial: ['ご飯', '卵', '長ねぎ', 'しょうゆ', '油'],
+      rank: '1',
+    },
+    {
+      recipeId: Number(`${categoryId}002`),
+      recipeTitle: '節約 豚こま野菜炒め',
+      recipeUrl: 'https://recipe.rakuten.co.jp/',
+      foodImageUrl: 'https://dummyimage.com/640x360/fecaca/7f1d1d&text=Saving+Recipe',
+      mediumImageUrl: 'https://dummyimage.com/320x180/fecaca/7f1d1d&text=Saving+Recipe',
+      smallImageUrl: 'https://dummyimage.com/160x90/fecaca/7f1d1d&text=Saving+Recipe',
+      recipeIndication: '約15分',
+      recipeCost: '300〜500円',
+      recipeDescription: '家計にやさしいボリュームおかず。',
+      recipeMaterial: ['豚こま肉', 'キャベツ', 'もやし', 'にんじん', '焼肉のたれ'],
+      rank: '2',
+    },
+    {
+      recipeId: Number(`${categoryId}003`),
+      recipeTitle: '包丁いらず うどんアレンジ',
+      recipeUrl: 'https://recipe.rakuten.co.jp/',
+      foodImageUrl: 'https://dummyimage.com/640x360/bbf7d0/14532d&text=Easy+Udon',
+      mediumImageUrl: 'https://dummyimage.com/320x180/bbf7d0/14532d&text=Easy+Udon',
+      smallImageUrl: 'https://dummyimage.com/160x90/bbf7d0/14532d&text=Easy+Udon',
+      recipeIndication: '約8分',
+      recipeCost: '100円以下',
+      recipeDescription: '火を使う時間が短く、洗い物も少なめです。',
+      recipeMaterial: ['冷凍うどん', '卵', 'めんつゆ', 'ごま油', 'きざみ海苔'],
+      rank: '3',
+    },
+  ];
+  return base;
+}
+
 export function generateStaticParams() {
   return CATEGORY_IDS.map((categoryId) => ({ categoryId }));
 }
@@ -28,6 +73,7 @@ export default async function CategoryPage({ params }: Props) {
   let recipes: RakutenRecipe[] = [];
   let categoryName = 'レシピ一覧';
   let error = '';
+  let isFallback = false;
 
   try {
     const [ranking, cats] = await Promise.all([
@@ -41,6 +87,8 @@ export default async function CategoryPage({ params }: Props) {
     if (cat) categoryName = cat.categoryName;
   } catch (caughtError: unknown) {
     error = caughtError instanceof Error ? caughtError.message : 'レシピ取得に失敗しました';
+    recipes = buildFallbackRecipes(categoryId);
+    isFallback = true;
   }
 
   // 時短・節約でソート済みバリアントも計算
@@ -70,9 +118,15 @@ export default async function CategoryPage({ params }: Props) {
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         {error && (
-          <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-6 text-red-700 text-sm">
-            ⚠️ {error}
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 text-amber-800 text-sm">
+            ⚠️ 楽天APIが一時的に利用できないため、サンプルレシピを表示しています。({error})
           </div>
+        )}
+
+        {isFallback && (
+          <p className="text-xs text-amber-700 mb-4">
+            本データを表示するには有効な RAKUTEN_APP_ID の設定が必要です。
+          </p>
         )}
 
         {/* 統計バー */}
