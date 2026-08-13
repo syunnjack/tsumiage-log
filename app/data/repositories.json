@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:58:11.701Z",
+  "generatedAt": "2026-08-13T13:48:07.775Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -11176,6 +11176,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "3e6457a",
+          "message": "feat: add recipe fallback cards when Rakuten API is unavailable",
+          "date": "2026-08-13T13:10:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3e6457ad7d5af77de01a8e6db3601a503c1c6575"
+        },
+        {
+          "sha": "2f6bac1",
+          "message": "Merge pull request #59 from syunnjack/codex/automated-video-20260813-220218",
+          "date": "2026-08-13T13:02:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2f6bac154fc51b623facdda46d336d8ad3765878"
+        },
+        {
+          "sha": "f0eba4c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T13:02:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f0eba4c77dae2d00dbf0a9b13a94de033258906c"
+        },
+        {
           "sha": "f8777cc",
           "message": "Fix recipe category page merge break and support Rakuten env aliases",
           "date": "2026-08-13T12:47:04Z",
@@ -11228,27 +11246,9 @@
           "message": "Merge pull request #56 from syunnjack/codex/automated-video-20260813-185000",
           "date": "2026-08-13T10:03:21Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d958ecff9957768d2d5b18748be18c6fe9f39d52"
-        },
-        {
-          "sha": "2bde9ee",
-          "message": "chore: refresh repository articles and video metadata",
-          "date": "2026-08-13T10:02:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2bde9ee50309b89e6aee7ad82e634f7e9d66e873"
-        },
-        {
-          "sha": "878297f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T09:41:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/878297fa439e757bf0a26d065928ff5ab400025d"
-        },
-        {
-          "sha": "05e4612",
-          "message": "Merge pull request #55 from syunnjack/codex/automated-video-20260813-180421",
-          "date": "2026-08-13T09:06:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/05e46125e395a3cd190f9e6c113f50cc3087d519"
         }
       ],
-      "updatedAt": "2026-08-13T12:56:49Z",
+      "updatedAt": "2026-08-13T13:15:56Z",
       "stars": 0,
       "forks": 0
     },
