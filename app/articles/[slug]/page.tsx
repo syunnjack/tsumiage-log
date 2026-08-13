@@ -52,7 +52,6 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
       {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>技術解説動画</p><h2>Rakuten02の技術解説</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></aside>}
       {repositoryVideoUrl && <aside className="article-video-published"><div><p>技術解説動画</p><h2>{article.displayName}の技術解説</h2><span>公開コード、README、コミット履歴から設計と改善の流れを紹介します。</span></div><video controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={repositoryVideoUrl} type="video/mp4" /></video>{repositoryVideo?.youtubeUrl ? <a href={repositoryVideo.youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside>}
       <header className="article-hero">
-        <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">技術記事</Link><span>/</span><span>{article.name}</span></nav>
         <p className="eyebrow"><span />リポジトリ技術解説</p>
         <h1>{article.displayName}の設計・技術選定・コミット履歴を解説</h1>
         <p className="article-summary">{article.description}</p>

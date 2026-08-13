@@ -3,7 +3,7 @@ import Link from "next/link"
 import storeData from "../data/store-videos.json"
 import { resolveVideoAssetUrl } from "../lib/video-assets"
 
-const pageTitle = "販売プラットフォーム | 積み上げログ"
+const pageTitle = "ストア | 積み上げログ"
 const pageDescription =
   "積み上げログの限定動画コンテンツ（BOOTHでの単品PPV購入）と、公開プロジェクトの紹介動画をまとめた販売・紹介プラットフォームです。"
 
@@ -54,7 +54,7 @@ export default function StorePage() {
   const collectionSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "販売プラットフォーム",
+    name: "ストア",
     description: pageDescription,
     url: "https://syunnjack.dev/store",
     isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev" },
@@ -75,7 +75,7 @@ export default function StorePage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "販売プラットフォーム", item: "https://syunnjack.dev/store" },
+      { "@type": "ListItem", position: 2, name: "ストア", item: "https://syunnjack.dev/store" },
     ],
   }
   const faqSchema = {
@@ -125,7 +125,7 @@ export default function StorePage() {
       <section className="archive-hero store-hero">
         <p className="eyebrow">
           <span />
-          販売プラットフォーム
+          ストア
         </p>
         <h1>
           導入は無料。

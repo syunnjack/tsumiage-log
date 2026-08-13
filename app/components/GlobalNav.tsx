@@ -1,19 +1,18 @@
 import Link from "next/link"
 
 const items = [
-  ["トップ・ホーム画面", "/"],
+  ["ストア", "/store"],
+  ["サービス", "/services"],
+  ["見積依頼", "/estimate"],
+  ["お問い合わせ", "/contact"],
   ["このブログについて", "/#about"],
   ["スマホ・パソコンの操作・設定でお困りの方へ", "/beginner"],
   ["記事", "/articles"],
   ["ポートフォリオ", "/portfolio"],
   ["プロフィール", "/profile"],
   ["キャリア・学習", "/career-support"],
-  ["サービス", "/services"],
-  ["見積依頼", "/estimate"],
-  ["お問い合わせ", "/contact"],
   ["動画", "/videos"],
   ["お気に入り動画", "/videos/favorites"],
-  ["販売プラットフォーム", "/store"],
 ]
 
 export default function GlobalNav() {
