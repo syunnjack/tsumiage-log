@@ -2,6 +2,7 @@ import Link from "next/link"
 
 const items = [
   ["ストア", "/store"],
+  ["クラウドソーシング", "/crowdsourcing"],
   ["サービス", "/services"],
   ["見積依頼", "/estimate"],
   ["お問い合わせ", "/contact"],

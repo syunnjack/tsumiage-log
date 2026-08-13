@@ -17,6 +17,7 @@ export function GET() {
     "- [Videos](https://syunnjack.dev/videos): 設計、コード、コミット履歴をプロジェクト別に学べる技術解説動画",
     "- [Favorite videos](https://syunnjack.dev/videos/favorites): 技術、F1、お笑い、犬猫、音楽など実際に見て気に入った動画の選定理由付きコレクション",
     "- [ストア](https://syunnjack.dev/store): 限定動画コンテンツを単品PPV（BOOTH決済）で購入できる購入ページ。導入部分は無料視聴可能",
+    "- [クラウドソーシング](https://syunnjack.dev/crowdsourcing): ココナラ、ランサーズ、クラウドワークスを含む仕事依頼・見積もり窓口",
     "",
     "## Repository articles",
     "- [Portfolio](https://syunnjack.dev/portfolio): 公開プロジェクトに基づく開発実績",
