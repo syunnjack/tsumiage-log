@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:28:36.893Z",
+  "generatedAt": "2026-08-13T14:39:34.964Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -6880,6 +6880,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b8b2102",
+          "message": "スポット一覧を都道府県×種類の階層に分割する",
+          "date": "2026-08-13T14:27:17Z",
+          "url": "https://github.com/syunnjack/Nostalgia-s/commit/b8b2102533b7fc8d02473cb12e2a30a848f3fe6e"
+        },
+        {
           "sha": "3012e5a",
           "message": "都道府県ページに絞り込みを足す",
           "date": "2026-08-13T12:19:04Z",
@@ -6892,7 +6898,7 @@
           "url": "https://github.com/syunnjack/Nostalgia-s/commit/bab3c27d31d03e3c179b0994ed91f0e6a4757f6f"
         }
       ],
-      "updatedAt": "2026-08-13T12:19:47Z",
+      "updatedAt": "2026-08-13T14:28:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -10963,6 +10969,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "233f4a7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T14:29:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/233f4a76b2884efd1c01f0381096a0402852bd24"
+        },
+        {
           "sha": "647df78",
           "message": "Merge pull request #62 from syunnjack/codex/fix-automation-report",
           "date": "2026-08-13T14:27:28Z",
@@ -11027,15 +11039,9 @@
           "message": "Fix recipe category page merge break and support Rakuten env aliases",
           "date": "2026-08-13T12:47:04Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f8777cceda7a416decf04beca7071b128791c0ec"
-        },
-        {
-          "sha": "890d246",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T12:33:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/890d2468b4196ae39d878223f92c0a77cf2205e4"
         }
       ],
-      "updatedAt": "2026-08-13T14:26:25Z",
+      "updatedAt": "2026-08-13T14:31:28Z",
       "stars": 0,
       "forks": 0
     },
