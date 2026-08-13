@@ -30,6 +30,8 @@ $ffmpegPath = & node -e "process.stdout.write(require('ffmpeg-static'))"
 if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $ffmpegPath)) {
   throw 'ffmpeg-static executable was not found. Run npm install first.'
 }
+$edgeTts = Get-Command edge-tts -ErrorAction SilentlyContinue
+$edgeVoice = 'ja-JP-NanamiNeural'
 
 $slides = @($item.slides)
 if ($slides.Count -ne 6 -or @($item.narration).Count -ne 6) {
@@ -40,21 +42,29 @@ $segments = @()
 for ($i = 0; $i -lt $slides.Count; $i++) {
   $number = '{0:D2}' -f ($i + 1)
   $pngPath = Join-Path $renderDir "slide-$number.png"
-  $wavPath = Join-Path $audioDir "slide-$number.wav"
   $segmentPath = Join-Path $segmentDir "slide-$number.mp4"
 
-  $speaker = [System.Speech.Synthesis.SpeechSynthesizer]::new()
-  try {
-    try { $speaker.SelectVoice('Microsoft Haruka Desktop') } catch { Write-Warning 'Microsoft Haruka Desktop was not found; using the default Japanese-capable voice.' }
-    $speaker.Rate = 0
-    $speaker.Volume = 100
-    $speaker.SetOutputToWaveFile($wavPath)
-    $speaker.Speak([string]$item.narration[$i])
-  } finally {
-    $speaker.Dispose()
+  if ($edgeTts) {
+    $audioPath = Join-Path $audioDir "slide-$number.mp3"
+    & $edgeTts.Source --voice $edgeVoice --text ([string]$item.narration[$i]) --write-media $audioPath
+    if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $audioPath) -or (Get-Item $audioPath).Length -eq 0) {
+      throw "Japanese Edge TTS generation failed: $number"
+    }
+  } else {
+    $audioPath = Join-Path $audioDir "slide-$number.wav"
+    $speaker = [System.Speech.Synthesis.SpeechSynthesizer]::new()
+    try {
+      try { $speaker.SelectVoice('Microsoft Haruka Desktop') } catch { Write-Warning 'Microsoft Haruka Desktop was not found; using the default Japanese-capable voice.' }
+      $speaker.Rate = 0
+      $speaker.Volume = 100
+      $speaker.SetOutputToWaveFile($audioPath)
+      $speaker.Speak([string]$item.narration[$i])
+    } finally {
+      $speaker.Dispose()
+    }
   }
 
-  & $ffmpegPath -y -hide_banner -loglevel error -loop 1 -framerate 30 -i $pngPath -i $wavPath -filter_complex '[1:a]apad=pad_dur=1[a]' -map '0:v' -map '[a]' -c:v libx264 -preset medium -tune stillimage -c:a aac -b:a 160k -pix_fmt yuv420p -shortest -movflags +faststart $segmentPath
+  & $ffmpegPath -y -hide_banner -loglevel error -loop 1 -framerate 30 -i $pngPath -i $audioPath -filter_complex '[1:a]apad=pad_dur=1[a]' -map '0:v' -map '[a]' -c:v libx264 -preset medium -tune stillimage -c:a aac -b:a 160k -pix_fmt yuv420p -shortest -movflags +faststart $segmentPath
   if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $segmentPath) -or (Get-Item $segmentPath).Length -eq 0) {
     throw "Video segment rendering failed: $number"
   }

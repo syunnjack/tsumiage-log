@@ -4,7 +4,7 @@ import { resolve } from "node:path"
 const repositoryData = JSON.parse(readFileSync(resolve("app/data/repositories.json"), "utf8"))
 const policy = JSON.parse(readFileSync(resolve("app/data/content-policy.json"), "utf8"))
 const excluded = new Set(policy.excludedRepositories)
-const forbidden = [/fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i, /sexy/i, /gravure/i, /\bbl[- ]tl\b/i, /duga/i, /sokmil/i, /アダルト/, /成人向け/, /部外秘/, /社外秘/, /機密/]
+const forbidden = [/fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i, /sexy/i, /gravure/i, /doujin/i, /\bbl[-_ ]?tl\b/i, /duga/i, /sokmil/i, /hey[-_ ]?douga/i, /mgs[-_ ]?video/i, /(^|[-_\s])av([-_\s]|$)/i, /アダルト/, /成人向け/, /同人/, /グラビア/, /部外秘/, /社外秘/, /機密/]
 const start = new Date("2026-08-02T10:00:00+09:00")
 const outputPath = resolve("app/data/video-production.json")
 const previous = existsSync(outputPath) ? JSON.parse(readFileSync(outputPath, "utf8")) : { videos: [] }

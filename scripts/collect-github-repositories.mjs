@@ -22,8 +22,10 @@ try {
 // 公開対象から除外する成人向け・機密性の高い可能性があるキーワード
 const forbiddenTerms = [
   /fanza/i, /\bdmm\b/i, /\badult\b/i, /\bmature\b/i, /\br18\b/i,
-  /sexy/i, /gravure/i, /\bbl[- ]tl\b/i, /duga/i, /sokmil/i,
-  /風俗/, /アダルト/, /成人向け/, /部外秘/, /社外秘/,
+  /sexy/i, /gravure/i, /doujin/i, /\bbl[-_ ]?tl\b/i, /duga/i, /sokmil/i,
+  /hey[-_ ]?douga/i, /mgs[-_ ]?video/i,
+  /(^|[-_\s])av([-_\s]|$)/i,
+  /風俗/, /アダルト/, /成人向け/, /同人/, /グラビア/, /部外秘/, /社外秘/,
   /機密/, /\bconfidential\b/i,
 ]
 

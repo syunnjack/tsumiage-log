@@ -19,6 +19,9 @@ jobs:
   update-articles:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      articles_changed: ${{ steps.changes.outputs.changed }}
+      queued_count: ${{ steps.queue.outputs.count }}
     env:
       GH_TOKEN: ${{ github.token }}
 
@@ -46,6 +49,10 @@ jobs:
 
       - name: Refresh video production queue
         run: npm run video:queue
+
+      - name: Count queued videos
+        id: queue
+        run: echo "count=$(node -p 'require("./app/data/video-production.json").videos.filter((video) => video.status === "queued").length')" >> "$GITHUB_OUTPUT"
 
       - name: Report policy exclusions
         run: |
@@ -140,3 +147,118 @@ jobs:
             gh label create content-automation --color b42318 --description "記事自動化からの通知" --force
             gh issue create --title "$title" --body "$body" --label content-automation
           fi
+
+  render-videos:
+    name: Render queued Japanese videos
+    needs: update-articles
+    if: needs.update-articles.outputs.queued_count != '0'
+    runs-on: windows-latest
+    timeout-minutes: 180
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
+      rendered_count: ${{ steps.summary.outputs.rendered_count }}
+      queued_count: ${{ steps.summary.outputs.queued_count }}
+
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install video dependencies
+        shell: pwsh
+        run: |
+          npm ci --no-audit --no-fund
+          python -m pip install --disable-pip-version-check edge-tts
+          $voice = edge-tts --list-voices | Select-String "ja-JP-NanamiNeural"
+          if (-not $voice) { throw "ja-JP-NanamiNeural is unavailable." }
+
+      - name: Render all queued videos and run complete audit
+        shell: pwsh
+        run: .\scripts\prepare-video-publication.ps1 -SkipCollection
+
+      - name: Summarize video state
+        id: summary
+        shell: pwsh
+        run: |
+          $data = Get-Content app/data/video-production.json -Raw -Encoding UTF8 | ConvertFrom-Json
+          $rendered = @($data.videos | Where-Object status -eq 'rendered').Count
+          $queued = @($data.videos | Where-Object status -eq 'queued').Count
+          "rendered_count=$rendered" >> $env:GITHUB_OUTPUT
+          "queued_count=$queued" >> $env:GITHUB_OUTPUT
+          "### 日本語技術解説動画" >> $env:GITHUB_STEP_SUMMARY
+          "- 生成済み: $rendered 本" >> $env:GITHUB_STEP_SUMMARY
+          "- 制作待ち: $queued 本" >> $env:GITHUB_STEP_SUMMARY
+          if ($queued -ne 0) { throw "制作待ち動画が $queued 本残っています。" }
+
+      - name: Detect generated assets
+        id: changes
+        shell: pwsh
+        run: |
+          $status = git status --porcelain -- app/data/video-production.json video-assets/repositories
+          $changed = -not [string]::IsNullOrWhiteSpace(($status -join "`n"))
+          "changed=$($changed.ToString().ToLowerInvariant())" >> $env:GITHUB_OUTPUT
+
+      - name: Commit and push generated videos
+        if: steps.changes.outputs.changed == 'true'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/video-production.json video-assets/repositories
+          git commit -m "Publish queued repository videos"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+  report-automation:
+    name: Report automation result
+    needs: [update-articles, render-videos]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ARTICLE_RESULT: ${{ needs.update-articles.result }}
+      VIDEO_RESULT: ${{ needs.render-videos.result }}
+      ARTICLE_CHANGED: ${{ needs.update-articles.outputs.articles_changed }}
+      RENDERED_COUNT: ${{ needs.render-videos.outputs.rendered_count }}
+      QUEUED_COUNT: ${{ needs.render-videos.outputs.queued_count }}
+
+    steps:
+      - name: Create hourly success or failure notification
+        run: |
+          title="積み上げログ自動化稼働報告"
+          if [ "$ARTICLE_RESULT" = "success" ] && { [ "$VIDEO_RESULT" = "success" ] || [ "$VIDEO_RESULT" = "skipped" ]; }; then
+            result="成功"
+          else
+            result="失敗"
+          fi
+          body="積み上げログの自動更新を実行しました。
+
+          - 結果: ${result}
+          - 記事更新: ${ARTICLE_RESULT}
+          - 記事差分: ${ARTICLE_CHANGED:-false}
+          - 動画生成: ${VIDEO_RESULT}
+          - 生成済み動画: ${RENDERED_COUNT:-変更なし}
+          - 制作待ち動画: ${QUEUED_COUNT:-変更なし}
+          - 実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh label create automation-report --color 1f6f55 --description "自動更新の定期報告" --force
+            gh issue create --title "$title" --body "$body" --label automation-report
+          fi
+          if [ "$result" = "失敗" ]; then exit 1; fi
