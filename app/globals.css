@@ -781,6 +781,36 @@ h1 em {
   margin-top: 24px;
 }
 
+.about-profile-grid {
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 38px;
+  padding-top: 34px;
+}
+
+.about-profile-grid h3 {
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.04em;
+  margin: 8px 0 24px;
+}
+
+.about-profile-grid .career-list {
+  margin: 0;
+}
+
+.about-profile-grid .career-list li {
+  padding-bottom: 1.3rem;
+}
+
+.about-profile-grid .career-list p,
+.about-profile-grid .skill-list,
+.about-profile-grid .profile-proof {
+  color: #607269;
+  font-size: 12px;
+}
+
 .about-copy > a {
   border-bottom: 1px solid var(--ink);
   display: inline-block;
@@ -855,6 +885,10 @@ footer > a {
   .about-symbol {
     max-width: 400px;
     width: 100%;
+  }
+
+  .about-profile-grid {
+    grid-template-columns: 1fr;
   }
 }
 

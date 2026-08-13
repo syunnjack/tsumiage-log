@@ -62,7 +62,7 @@ export default function Home() {
           <Link href="/videos">動画</Link>
           <a href="#timeline">学習年表</a>
           <a href="#project">プロジェクト</a>
-          <a href="#about">プロフィール</a>
+          <a href="#about">このブログについて</a>
         </nav>
         <a className="github-link" href="https://github.com/syunnjack">
           GitHub <span aria-hidden="true">↗</span>
@@ -262,6 +262,30 @@ export default function Home() {
           <p>
             このブログでは、きれいな成功談だけではなく、分からなかったこと、判断に迷ったこと、今なら変えたいことまで言葉にします。
           </p>
+          <div className="about-profile-grid">
+            <section>
+              <p className="section-kicker">EXPERIENCE</p>
+              <h3>経歴</h3>
+              <ol className="career-list">
+                <li><strong>学生時代</strong><p>身近な不便を自分の手で変えることに興味を持ち、技術との接点を作る。</p></li>
+                <li><strong>Web開発学習</strong><p>JavaScript、Reactを中心に、読むだけでなく小さく動かして確かめる学習を継続。</p></li>
+                <li><strong>個人開発</strong><p>タスク管理、地図検索、情報整理、コンテンツ自動化など、実用を意識したシステムを制作。</p></li>
+                <li><strong>現在</strong><p>公開リポジトリとコミットを技術記事へつなぎ、設計判断と改善過程を継続的に発信。</p></li>
+              </ol>
+            </section>
+            <section>
+              <p className="section-kicker">SKILLS</p>
+              <h3>得意分野</h3>
+              <ul className="skill-list">
+                <li>React / Next.js / ViteによるWeb UI開発</li>
+                <li>GitHub Actionsを使った運用自動化</li>
+                <li>公開データ・APIを活用した検索や可視化</li>
+                <li>SEO・AI検索を意識した情報設計</li>
+                <li>要件を小さく分け、実装と検証を積み重ねる進め方</li>
+              </ul>
+              <p className="profile-proof">公開実績はGitHubで、実装根拠は各技術記事で確認できます。</p>
+            </section>
+          </div>
           <a href="https://github.com/syunnjack">
             GitHubで活動を見る <span aria-hidden="true">↗</span>
           </a>
