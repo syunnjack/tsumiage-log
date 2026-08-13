@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:31:43.673Z",
+  "generatedAt": "2026-08-13T12:05:57.445Z",
   "owner": "syunnjack",
   "totalRepositories": 233,
   "publicRepositories": 231,
@@ -10,7 +10,6 @@
     "gym-lightning",
     "jimotomeshi",
     "laravel-sdk",
-    "Nostalgia-s",
     "premium-collectible-scan-db",
     "sepro001",
     "sitemap-auto",
@@ -2348,7 +2347,7 @@
       "name": "dqwv2",
       "displayName": "Dqwv2",
       "description": "dqwv2 — 無課金ウォーカーの手引き 無課金でドラクエウォークを続けるプレイヤー向けの支援サイト",
-      "readmeExcerpt": "dqwv2 — 無課金ウォーカーの手引き 無課金でドラクエウォークを続けるプレイヤー向けの支援サイト。日課チェックリスト、 イベント情報ボード、オートバトル安定重視のパーティ編成・装備ガイドをまとめています。 デプロイ先: https://dqw navi.com/ セットアップ 主なコマンド npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run preview : ビルド結果のプレビュー npm run lint : oxlintによる静的解析 データについて 日課・イベント情報・パーティ編成ガイドは、いずれも自動取得ではなく手動入力です。 ゲームの実際の仕様・確率・日程は公式情報で確認のうえ、自分の言葉で記録してください。 データはブラウザのlocalStorageに保存されます サーバーには送信されません 。 収益導線を有効にする アフィリエイトリンク 歩行関連グッズ 「歩き続けるためのおすすめグッズ」セクションの各カードにある入力欄に、実際の商品ページの アフィリエイトURLを貼り付けてください。空欄の間はリンクが無効表示になります。 Google AdSense 1. AdSenseで発行された タグを index.html の に追加する。 2. src/App.jsx の .ad slot の中身を、AdSenseが発行する タグに 置き換える。",
+      "readmeExcerpt": "dqwv2 — 無課金ウォーカーの手引き 無課金でドラクエウォークを続けるプレイヤー向けの支援サイト。日課チェックリスト、 イベント情報ボード、オートバトル安定重視のパーティ編成・装備ガイドをまとめています。 デプロイ先: https://dqw navi.com/ セットアップ 主なコマンド npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run preview : ビルド結果の確認 npm run lint : oxlintによる静的解析 データについて 日課・イベント情報・パーティ編成ガイドは、いずれも自動取得ではなく手動入力です。 ゲームの実際の仕様・確率・日程は公式情報で確認のうえ、自分の言葉で記録してください。 データはブラウザのlocalStorageに保存されます サーバーには送信されません 。 収益導線を有効にする アフィリエイトリンク 歩行関連グッズ 「歩き続けるためのおすすめグッズ」セクションの各カードにある入力欄に、実際の商品ページの アフィリエイトURLを貼り付けてください。空欄の間はリンクが無効表示になります。 Google AdSense 1. AdSenseで発行された タグを index.html の に追加する。 2. src/App.jsx の .ad slot の中身を、AdSenseが発行する タグに 置き換える。",
       "url": "https://github.com/syunnjack/dqwv2",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -5398,7 +5397,7 @@
       "commits": [
         {
           "sha": "6ddca9e",
-          "message": "feat: UX改善 - >>N引用・URL自動リンク・名前記憶・sage・プレビュー・Ctrl+Enter・板内検索・NEWバッジ・j/kキーナビ・URLコピーボタン",
+          "message": "feat: UX改善 - >>N引用・URL自動リンク・名前記憶・sage・確認・Ctrl+Enter・板内検索・NEWバッジ・j/kキーナビ・URLコピーボタン",
           "date": "2026-08-11T15:12:05Z",
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/6ddca9e4326b3bc582e76831bbe1b65b140a9204"
         },
@@ -7101,6 +7100,31 @@
       "forks": 0
     },
     {
+      "slug": "nostalgia-s",
+      "name": "Nostalgia-s",
+      "displayName": "Nostalgia S",
+      "description": "昭和ノスタルジア 昭和の暮らしの手ざわりを書き留め、その名残がいまも残る全国のレトロスポットをたどる静的サイトです",
+      "readmeExcerpt": "昭和ノスタルジア 昭和の暮らしの手ざわりを書き留め、その名残がいまも残る全国のレトロスポットをたどる静的サイトです。 読み物：暮らし・遊び・味・街・音の5つの入口から、書き下ろしの記録 全国のレトロスポット：銭湯、純喫茶、ゲームセンター、駄菓子屋、商店街、横丁、市場、レトロ資料館、映画館を都道府県別・種類別に収録 昭和年表：昭和元年（1926年）から昭和64年（1989年）まで 構成 Astro による静的生成サイトです。全ページがビルド時にHTMLとして組み上がるため、 検索エンジンにも読み上げ環境にも本文がそのまま届きます。 閲覧時に動くJavaScriptは、画面の時間帯（昼／夕暮れ）を切り替える処理だけです。 開発 astro.config.mjs の site と base は環境変数で差し替えられます。 GitHub Pages のプロジェクトページ以外に置く場合は次のように指定します。 スポットデータの更新 都道府県ごとに Overpass API へ問い合わせ、 src/data/spots.json を書き出します。 取得結果は .cache/overpass/ に県別・パート別で残るため、 途中で失敗しても再実行すれば不足分だけを取り直します。 Overpass 側の負荷制限が厳しく、1回の実行に数時間かかることがあります。 User Agent を送らないと 406 で弾かれる点、名前の正規表現だけで走査するクエリは 504 になりやすい点に注意してください（どちらも対処済みです）。 データの出典 スポットの名称・所在地・座標は OpenStreetMap https://www.openstreetmap.org/ を出典としています。 著作権表示：© OpenStreetMap contributors ライセンス： Open Database License ODbL 1.0 https://opendatacommons.org/licenses/odbl/1 0/ 機械的な抽出のため、閉業した店が残っていたり、現役の店が漏れていたりします",
+      "url": "https://github.com/syunnjack/Nostalgia-s",
+      "defaultBranch": "main",
+      "primaryLanguage": "Astro",
+      "languages": [
+        "Astro"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "bab3c27",
+          "message": "昭和ノスタルジーのサイトを立ち上げる",
+          "date": "2026-08-13T11:44:42Z",
+          "url": "https://github.com/syunnjack/Nostalgia-s/commit/bab3c27d31d03e3c179b0994ed91f0e6a4757f6f"
+        }
+      ],
+      "updatedAt": "2026-08-13T11:45:38Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "onsen-list",
       "name": "onsen-list",
       "displayName": "Onsen List",
@@ -8220,8 +8244,8 @@
       "slug": "ranking-widget-hub",
       "name": "ranking-widget-hub",
       "displayName": "Ranking Widget Hub",
-      "description": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・プレビューできる RankKit のデモアプリです",
-      "readmeExcerpt": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・プレビューできる RankKit のデモアプリです。 主な機能 40 以上のジャンルを切り替えてランキングを表示 市区町村や駅名を入れ替えてローカル向けの見せ方を確認 テーマカラーを変更してウィジェット見た目を即時プレビュー 埋め込みコードをコピーして外部サイト掲載を想定した導線を確認 表示回数、CTR、通知登録率、推定報酬のダッシュボード表示 セットアップ 前提: Node.js =22.13.0 手順: ビルド確認: 技術構成 Next.js 16 React 19 Vinext Tailwind CSS 4 Cloudflare Workers 想定の worker エントリ 補足 app/page.tsx にウィジェットビルダー本体があります app/globals.css にページ全体のスタイルがあります worker/index.ts は Cloudflare Workers 向けエントリです コマンド npm run dev : ローカル起動 npm run build : 本番ビルド npm run start : ビルド済みアプリ起動 npm run lint : ESLint 実行 npm test : ビルド + HTML レンダリング確認 npm run db:generate : Drizzle migration 生成",
+      "description": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・確認できる RankKit のデモアプリです",
+      "readmeExcerpt": "ranking widget hub 地域サイト向けのランキング表示ウィジェットを、ジャンルごとに切り替えながら作成・確認できる RankKit のデモアプリです。 主な機能 40 以上のジャンルを切り替えてランキングを表示 市区町村や駅名を入れ替えてローカル向けの見せ方を確認 テーマカラーを変更してウィジェット見た目を即時確認 埋め込みコードをコピーして外部サイト掲載を想定した導線を確認 表示回数、CTR、通知登録率、推定報酬のダッシュボード表示 セットアップ 前提: Node.js =22.13.0 手順: ビルド確認: 技術構成 Next.js 16 React 19 Vinext Tailwind CSS 4 Cloudflare Workers 想定の worker エントリ 補足 app/page.tsx にウィジェットビルダー本体があります app/globals.css にページ全体のスタイルがあります worker/index.ts は Cloudflare Workers 向けエントリです コマンド npm run dev : ローカル起動 npm run build : 本番ビルド npm run start : ビルド済みアプリ起動 npm run lint : ESLint 実行 npm test : ビルド + HTML レンダリング確認 npm run db:generate : Drizzle migration 生成",
       "url": "https://github.com/syunnjack/ranking-widget-hub",
       "defaultBranch": "main",
       "primaryLanguage": "TypeScript",
@@ -8269,7 +8293,7 @@
         },
         {
           "sha": "37f5db2",
-          "message": "feat: 20ジャンル×5件・6色テーマ・クイックプリセット・埋め込みコードプレビュー追加",
+          "message": "feat: 20ジャンル×5件・6色テーマ・クイックプリセット・埋め込みコード確認追加",
           "date": "2026-08-11T12:37:18Z",
           "url": "https://github.com/syunnjack/ranking-widget-hub/commit/37f5db2c01c20db8c9ba1ada816dc4ddde361145"
         },
@@ -8824,7 +8848,7 @@
       "name": "retro-game-map",
       "displayName": "Retro Game Map",
       "description": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
-      "readmeExcerpt": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです。 Concept 現存、閉店、要確認の施設ステータスを分けて表示する レトロ筐体、格ゲー、音ゲー、自販機、プライズなどで探せる 遠征者向けに宿、喫煙所、飲食、最寄駅メモを併記する ユーザー投稿と管理者確認で、古い情報やリンク切れを減らす Suggested Domain https://syunnjack.github.io/retro game map/ gesen navi.jp arcade log.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "readmeExcerpt": "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです。 Concept 現存、閉店、要確認の施設ステータスを分けて表示する レトロ筐体、格ゲー、音ゲー、自販機、プライズなどで探せる 遠征者向けに宿、喫煙所、飲食、最寄駅メモを併記する ユーザー投稿と管理者確認で、古い情報やリンク切れを減らす Suggested Domain https://syunnjack.github.io/retro game map/ gesen navi.jp arcade log.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/retro-game-map",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -9279,7 +9303,7 @@
       "name": "route-spot-navi",
       "displayName": "Route Spot Navi",
       "description": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです",
-      "readmeExcerpt": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです。 Concept 経路検索の到着地から、周辺スポット、宿、喫煙場所、カフェ、ゲーム施設などへ誘導する 待ち時間、徒歩分数、料金、評価、ユーザー投票で比較できる 掲載候補をメモし、カテゴリ別の検索条件に反映できる 将来的に地図、口コミ、閉店情報、ランキング、API連携へ拡張する Production Domain: https://syunnjack.github.io/route spot navi/ Build command: npm run build Build output: dist GitHub Pagesで公開する場合は、 public/CNAME に https://syunnjack.github.io/route spot navi/ を設定済みです。 Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "readmeExcerpt": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです。 Concept 経路検索の到着地から、周辺スポット、宿、喫煙場所、カフェ、ゲーム施設などへ誘導する 待ち時間、徒歩分数、料金、評価、ユーザー投票で比較できる 掲載候補をメモし、カテゴリ別の検索条件に反映できる 将来的に地図、口コミ、閉店情報、ランキング、API連携へ拡張する Production Domain: https://syunnjack.github.io/route spot navi/ Build command: npm run build Build output: dist GitHub Pagesで公開する場合は、 public/CNAME に https://syunnjack.github.io/route spot navi/ を設定済みです。 Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/route-spot-navi",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -10210,7 +10234,7 @@
       "name": "solo-spot-map",
       "displayName": "Solo Spot Map",
       "description": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
-      "readmeExcerpt": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです。 Concept 一人利用歓迎、喫煙可、電源あり、深夜営業などの条件で探せる 「2名様から」「シングルチャージあり」など、一人利用で困る条件を見える化する 待ち時間、バス到着後、仕事前後の短時間利用に向く場所を提案する 将来的に口コミ、地図、投稿、閉店確認、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/solo spot map/ hitori map.jp smoke cafe.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "readmeExcerpt": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです。 Concept 一人利用歓迎、喫煙可、電源あり、深夜営業などの条件で探せる 「2名様から」「シングルチャージあり」など、一人利用で困る条件を見える化する 待ち時間、バス到着後、仕事前後の短時間利用に向く場所を提案する 将来的に口コミ、地図、投稿、閉店確認、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/solo spot map/ hitori map.jp smoke cafe.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/solo-spot-map",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -11167,6 +11191,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a2a62a5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T11:32:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a62a55434b788497c1d1983efb0a40538d5c13"
+        },
+        {
           "sha": "f79c950",
           "message": "Merge pull request #57 from syunnjack/codex/automated-video-20260813-195507",
           "date": "2026-08-13T11:00:50Z",
@@ -11231,15 +11261,9 @@
           "message": "Merge pull request #54 from syunnjack/codex/automated-video-20260813-174417-r1",
           "date": "2026-08-13T09:02:14Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/43085c934af3ed3690d4eaa4d6eb6e0783f54b30"
-        },
-        {
-          "sha": "8c01bb6",
-          "message": "merge: sync latest main before publication",
-          "date": "2026-08-13T09:01:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8c01bb63147967ec293adade8f95ec386a474d31"
         }
       ],
-      "updatedAt": "2026-08-13T11:02:17Z",
+      "updatedAt": "2026-08-13T11:32:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -11433,7 +11457,7 @@
       "name": "wait-time-guide",
       "displayName": "Wait Time Guide",
       "description": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
-      "readmeExcerpt": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです。 Concept 施設の現在待ち時間、受付状況、呼び出し目安を比較する 待ち時間に合わせてカフェ、喫煙所、漫画喫茶、買い物、食事を提案する QRコードや整理券番号から、自分の順番を見失わない導線を想定する 将来的に猫の目コム風の混雑表示、民間施設の案内、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/wait time guide/ waitplus.jp junban navi.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果のプレビュー",
+      "readmeExcerpt": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです。 Concept 施設の現在待ち時間、受付状況、呼び出し目安を比較する 待ち時間に合わせてカフェ、喫煙所、漫画喫茶、買い物、食事を提案する QRコードや整理券番号から、自分の順番を見失わない導線を想定する 将来的に猫の目コム風の混雑表示、民間施設の案内、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/wait time guide/ waitplus.jp junban navi.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/wait-time-guide",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
