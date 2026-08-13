@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:39:34.964Z",
+  "generatedAt": "2026-08-13T15:06:46.022Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10969,6 +10969,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a30ea21",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T14:40:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a30ea2123bd754b0a6306f114a4705fab0662c94"
+        },
+        {
           "sha": "233f4a7",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T14:29:02Z",
@@ -11033,15 +11039,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T13:02:18Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f0eba4c77dae2d00dbf0a9b13a94de033258906c"
-        },
-        {
-          "sha": "f8777cc",
-          "message": "Fix recipe category page merge break and support Rakuten env aliases",
-          "date": "2026-08-13T12:47:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8777cceda7a416decf04beca7071b128791c0ec"
         }
       ],
-      "updatedAt": "2026-08-13T14:31:28Z",
+      "updatedAt": "2026-08-13T14:41:29Z",
       "stars": 0,
       "forks": 0
     },
