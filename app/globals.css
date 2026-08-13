@@ -2015,6 +2015,195 @@ footer > a {
   margin-right: 28px;
 }
 
+.store-audience-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.store-audience-links a,
+.store-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.store-audience-section {
+  padding: 64px 0;
+}
+
+.store-personal-section {
+  border-bottom: 1px solid rgba(23, 33, 29, 0.18);
+}
+
+.store-channel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.store-channel-card {
+  padding: clamp(24px, 3vw, 32px);
+  border: 1px solid rgba(23, 33, 29, 0.18);
+  border-top-width: 4px;
+  border-radius: 8px;
+  background: var(--paper-light);
+}
+
+.store-channel-booth { border-top-color: #fc4d50; }
+.store-channel-note { border-top-color: #41c9b4; }
+.store-channel-zenn { border-top-color: #3ea8ff; }
+
+.store-channel-card h3 {
+  margin: 16px 0 10px;
+  color: var(--ink);
+  font-size: 20px;
+}
+
+.store-channel-card p {
+  min-height: 88px;
+  margin: 0 0 18px;
+  color: var(--ink);
+  opacity: 0.78;
+  line-height: 1.75;
+}
+
+.store-channel-card a {
+  color: #155b43;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.store-channel-card a:hover { text-decoration: underline; }
+
+.store-subsection-heading {
+  padding-top: 56px;
+}
+
+.store-subsection-heading h2 {
+  margin: 10px 0;
+  color: var(--ink);
+  font-size: clamp(26px, 4vw, 38px);
+}
+
+.store-subsection-heading > p:last-child {
+  color: var(--ink);
+  opacity: 0.76;
+}
+
+.store-business-section {
+  margin-top: 32px;
+  padding: clamp(40px, 6vw, 72px);
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--paper-light);
+}
+
+.store-business-section .section-heading h2,
+.store-business-section .section-heading p,
+.store-business-section .eyebrow {
+  color: var(--paper-light);
+}
+
+.store-business-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.store-business-grid article {
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+}
+
+.store-business-grid article > span {
+  color: var(--amber);
+  font-family: "DM Mono", monospace;
+  font-weight: 800;
+}
+
+.store-business-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.store-business-card-heading > span {
+  color: var(--amber);
+  font-family: "DM Mono", monospace;
+  font-weight: 800;
+}
+
+.store-business-card-heading small {
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.store-business-grid h3 { margin: 14px 0 10px; }
+.store-business-grid p { margin: 0; line-height: 1.75; opacity: 0.8; }
+
+.store-business-grid ul {
+  margin: 18px 0 22px;
+  padding-left: 18px;
+  line-height: 1.8;
+  font-size: 13px;
+  opacity: 0.84;
+}
+
+.store-business-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.store-business-grid article {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-business-card-actions a {
+  color: var(--paper-light);
+  font-weight: 800;
+  text-underline-offset: 3px;
+}
+
+.store-business-card-actions .store-business-purchase {
+  display: block;
+  padding: 11px 14px;
+  border-radius: 4px;
+  background: var(--amber);
+  color: var(--ink-deep);
+  text-align: center;
+  text-decoration: none;
+}
+
+.store-business-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.store-business-cta p { margin: 8px 0 0; opacity: 0.78; }
+.store-business-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.store-business-actions .store-buy-button { margin-top: 0; white-space: nowrap; }
+.store-business-actions .store-secondary-button { border-color: var(--paper-light); color: var(--paper-light); white-space: nowrap; }
+
 .store-video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -2196,6 +2385,15 @@ footer > a {
   .store-media-grid {
     grid-template-columns: 1fr;
   }
+
+  .store-channel-grid,
+  .store-business-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .store-channel-card p { min-height: 0; }
+  .store-business-section { padding: 32px 20px; }
+  .store-business-cta { align-items: flex-start; flex-direction: column; }
 }
 
 .store-demo-section {
