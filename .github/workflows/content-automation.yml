@@ -230,6 +230,7 @@ jobs:
     timeout-minutes: 10
     env:
       GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
       ARTICLE_RESULT: ${{ needs.update-articles.result }}
       VIDEO_RESULT: ${{ needs.render-videos.result }}
       ARTICLE_CHANGED: ${{ needs.update-articles.outputs.articles_changed }}
