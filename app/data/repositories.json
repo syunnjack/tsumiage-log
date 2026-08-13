@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:56:05.221Z",
+  "generatedAt": "2026-08-13T14:20:47.567Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -340,117 +340,6 @@
         }
       ],
       "updatedAt": "2026-08-10T21:08:39Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "akira-special",
-      "name": "akira-special",
-      "displayName": "Akira Special",
-      "description": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Akira Specialは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/akira-special",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e9cc105",
-          "message": "Fix Blade parse error: escape literal @ in CSS @media and JSON-LD",
-          "date": "2026-08-04T15:02:00Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/e9cc105f38a7aa6fafe303ab41c332f09e77dba4"
-        },
-        {
-          "sha": "cf27a23",
-          "message": "Set confirmed domain (1frame-training.jp) and GA4",
-          "date": "2026-08-04T14:57:33Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/cf27a23b59203aab2e88e5efb62a4de4ad3a34a9"
-        },
-        {
-          "sha": "490f491",
-          "message": "Rebuild as Laravel app: 1-frame release input trainer (no DB needed)",
-          "date": "2026-08-04T08:24:10Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/490f4914abad524080931f909713310c2d452cb0"
-        },
-        {
-          "sha": "9abbc49",
-          "message": "Improve beginner arcade-stick UX in app/globals.css",
-          "date": "2026-07-29T10:30:58Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/9abbc491977503d36c53a182d85457c2035c571f"
-        },
-        {
-          "sha": "6561921",
-          "message": "Improve beginner arcade-stick UX in app/layout.tsx",
-          "date": "2026-07-29T10:30:55Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/6561921a431c15116c4520ce15d4935d66b70b62"
-        },
-        {
-          "sha": "85629ba",
-          "message": "Improve beginner arcade-stick UX in app/page.tsx",
-          "date": "2026-07-29T10:30:51Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/85629ba119486a62d6b010e9ce7085178f8cd80c"
-        },
-        {
-          "sha": "13fb9f4",
-          "message": "Add public/favicon.svg",
-          "date": "2026-07-29T08:23:36Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/13fb9f4582eae6538ae1003409cda6f502aca23d"
-        },
-        {
-          "sha": "a3422c7",
-          "message": "Add tests/rendered-html.test.mjs",
-          "date": "2026-07-29T08:23:34Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/a3422c7c6beaafe5104138617f304414d233af05"
-        },
-        {
-          "sha": "c4109ea",
-          "message": "Add drizzle/meta/_journal.json",
-          "date": "2026-07-29T08:23:32Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/c4109ea392b03a720a0127937936595cb0d83225"
-        },
-        {
-          "sha": "dafeddc",
-          "message": "Add db/schema.ts",
-          "date": "2026-07-29T08:23:30Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/dafeddcd91ac8aab1e7c7aa0675fb834e6d11bd6"
-        },
-        {
-          "sha": "14f3695",
-          "message": "Add db/index.ts",
-          "date": "2026-07-29T08:23:28Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/14f369572cb42c2b42438987dd937eccdbb6ca88"
-        },
-        {
-          "sha": "03ae0d2",
-          "message": "Add worker/index.ts",
-          "date": "2026-07-29T08:23:26Z",
-          "url": "https://github.com/syunnjack/akira-special/commit/03ae0d2d84dba85f4d8470b972bbca1e7e2bc564"
-        }
-      ],
-      "updatedAt": "2026-08-04T15:03:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -822,57 +711,6 @@
         }
       ],
       "updatedAt": "2026-08-11T14:05:50Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "av-debut-tracker",
-      "name": "av-debut-tracker",
-      "displayName": "Av Debut Tracker",
-      "description": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Av Debut Trackerは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/av-debut-tracker",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "6f93de7",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T14:41:28Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/6f93de72faa7d1929f87fe213a3f9d26f96fa7a4"
-        },
-        {
-          "sha": "c731cad",
-          "message": "Initial build: AV debut release tracker",
-          "date": "2026-08-05T12:54:03Z",
-          "url": "https://github.com/syunnjack/av-debut-tracker/commit/c731cad33b6b8f83875215ad8c26d84df092c1e9"
-        }
-      ],
-      "updatedAt": "2026-08-05T14:44:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -6340,57 +6178,6 @@
       "forks": 0
     },
     {
-      "slug": "mgs-video-guide",
-      "name": "mgs-video-guide",
-      "displayName": "Mgs Video Guide",
-      "description": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Mgs Video Guideは、PHP、Blade、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/mgs-video-guide",
-      "defaultBranch": "master",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP",
-        "Blade",
-        "JavaScript",
-        "CSS"
-      ],
-      "files": [
-        "README.md",
-        "app",
-        "artisan",
-        "bootstrap",
-        "composer.json",
-        "composer.lock",
-        "config",
-        "database",
-        "package.json",
-        "phpunit.xml",
-        "public",
-        "resources",
-        "routes",
-        "storage",
-        "tests",
-        "vite.config.js"
-      ],
-      "commits": [
-        {
-          "sha": "e74f3a1",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T17:49:43Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/e74f3a1c851bf0d9077d7a350643c6e9df5ec5af"
-        },
-        {
-          "sha": "0772a42",
-          "message": "Initial build: MGS video guide landing page with widget embeds",
-          "date": "2026-08-05T17:44:20Z",
-          "url": "https://github.com/syunnjack/mgs-video-guide/commit/0772a428ab29f6dbbdd94b1bb01e464837db3653"
-        }
-      ],
-      "updatedAt": "2026-08-05T17:50:28Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
       "slug": "midnight-spot-alert",
       "name": "midnight-spot-alert",
       "displayName": "Midnight Spot Alert",
@@ -11176,6 +10963,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "55c7b87",
+          "message": "Merge pull request #60 from syunnjack/codex/automated-video-20260813-225526",
+          "date": "2026-08-13T14:02:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55c7b87b16818139164974b06bead515e2064e40"
+        },
+        {
+          "sha": "84a9b73",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-13T14:01:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/84a9b73613333bd9efcd238e9e6e9cea14014338"
+        },
+        {
           "sha": "2d6c586",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T13:48:38Z",
@@ -11234,21 +11033,9 @@
           "message": "Merge pull request #57 from syunnjack/codex/automated-video-20260813-195507",
           "date": "2026-08-13T11:00:50Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f79c950f8b6e8a0fd72c84bb367428292e1374aa"
-        },
-        {
-          "sha": "5bc3ddc",
-          "message": "chore: refresh repository articles and video metadata",
-          "date": "2026-08-13T11:00:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5bc3ddc9dacc1c5432c60b55b9cda294c935f9a8"
-        },
-        {
-          "sha": "c5b77d0",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T10:39:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c5b77d07ca3af37128645d11ee83e8ba62b0e8b0"
         }
       ],
-      "updatedAt": "2026-08-13T13:50:29Z",
+      "updatedAt": "2026-08-13T14:04:17Z",
       "stars": 0,
       "forks": 0
     },
