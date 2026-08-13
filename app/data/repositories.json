@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T21:55:40.953Z",
+  "generatedAt": "2026-08-13T22:28:03.842Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10999,6 +10999,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "ecab2fa",
+          "message": "Merge pull request #78 from syunnjack/codex/automated-video-20260814-0655",
+          "date": "2026-08-13T22:00:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ecab2fa69f72ea6e85c4c79fee668994b2b53767"
+        },
+        {
+          "sha": "c842fcc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T22:00:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c842fcc544bcc03349b4b3299cda9e6b777ae85e"
+        },
+        {
           "sha": "fdc4fcd",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T21:31:43Z",
@@ -11057,21 +11069,9 @@
           "message": "Update automated repository articles and videos",
           "date": "2026-08-13T19:01:31Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1a78b5d573fd9bf83008e06ddacb1a31303bfef3"
-        },
-        {
-          "sha": "0ddd740",
-          "message": "Add note and Zenn links to store (#71)",
-          "date": "2026-08-13T18:58:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0ddd74027e9ee861cb014e963fa049523854995f"
-        },
-        {
-          "sha": "129f62c",
-          "message": "Merge pull request #69 from syunnjack/codex/add-booth-products",
-          "date": "2026-08-13T18:34:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/129f62c3c3bb34d9c54aaa7c0d83d55a4d062b34"
         }
       ],
-      "updatedAt": "2026-08-13T21:31:48Z",
+      "updatedAt": "2026-08-13T22:01:08Z",
       "stars": 0,
       "forks": 0
     },
