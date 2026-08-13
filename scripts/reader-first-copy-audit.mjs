@@ -14,6 +14,7 @@ const publicDataFiles = [
 ]
 const prohibitedExpressions = [
   "試作版",
+  "プレビュー",
   "公開準備中",
   "公開予定",
   "企画中",
@@ -49,6 +50,7 @@ const prohibitedExpressions = [
   "FEATURED PROJECT",
   "ABOUT THIS LOG",
 ]
+const unfinishedReaderLabels = /試作版|公開予定|プレビュー/
 
 async function collectSourceFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true })
@@ -105,6 +107,9 @@ for (const article of repositoryData.articles) {
   }
   if (leadingEnglishLength(article.readmeExcerpt) > 120) {
     violations.push(`app/data/repositories.json ${article.name}: 本文概要が長い英語から始まっています`)
+  }
+  if (unfinishedReaderLabels.test(`${article.description}\n${article.readmeExcerpt}`)) {
+    violations.push(`app/data/repositories.json ${article.name}: 未完成に見える読者向け表現があります`)
   }
 }
 

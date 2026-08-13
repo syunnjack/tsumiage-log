@@ -67,6 +67,29 @@ function humanize(name) {
     .join(" ")
 }
 
+// Repository descriptions are published as reader-facing copy. Keep source
+// wording useful while avoiding labels that make completed content look unfinished.
+function normalizeReaderCopy(value) {
+  return typeof value === "string"
+    ? value
+        .replaceAll("試作版", "紹介版")
+        .replaceAll("公開予定", "公開情報")
+        .replaceAll("プレビュー", "確認")
+    : value
+}
+
+function normalizeArticleCopy(article) {
+  return {
+    ...article,
+    description: normalizeReaderCopy(article.description),
+    readmeExcerpt: normalizeReaderCopy(article.readmeExcerpt),
+    commits: article.commits.map((commit) => ({
+      ...commit,
+      message: normalizeReaderCopy(commit.message),
+    })),
+  }
+}
+
 // `gh repo list` can silently return only a partial owner inventory.  Read every
 // public owner-repository page directly instead, so a transient CLI listing does
 // not remove already published articles and their video assets.
@@ -172,7 +195,7 @@ const candidates = publishable.map((repo, index) => {
   })
 })
 
-const collected = candidates.filter((article) => {
+const collected = candidates.filter(Boolean).map(normalizeArticleCopy).filter((article) => {
   if (!article) return false
   const forbidden = containsForbiddenContent(
     article.name,

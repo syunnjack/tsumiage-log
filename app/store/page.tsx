@@ -153,12 +153,12 @@ export default function StorePage() {
                 controls
                 preload="none"
                 poster={resolveVideoAssetUrl(`/videos/store/${video.slug}/${video.slug}-preview.png`)}
-                aria-label={`${video.title}の無料プレビュー`}
+                aria-label={`${video.title}の無料紹介動画`}
               >
                 <source src={resolveVideoAssetUrl(`/videos/store/${video.slug}/${video.slug}-preview.mp4`)} type="video/mp4" />
               </video>
               <div className="store-video-body">
-                <span className="store-video-badge">無料プレビュー公開中</span>
+                <span className="store-video-badge">無料紹介動画を公開中</span>
                 <h2>{video.title}</h2>
                 <p>{video.description}</p>
 
