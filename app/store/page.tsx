@@ -254,7 +254,7 @@ export default function StorePage() {
               </ul>
               <a
                 className="store-buy-button"
-                href="https://chitamaru.booth.pm/items/seo-dashboard-pro"
+                href="https://wangan-base.booth.pm/items/8713795"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -270,25 +270,25 @@ export default function StorePage() {
               <div style={{ textAlign: 'center', color: 'white', padding: '24px' }}>
                 <div style={{ fontSize: '48px', marginBottom: '12px' }}>🍳</div>
                 <div style={{ fontSize: '18px', fontWeight: 'bold' }}>時短レシピ支援アプリ</div>
-                <div style={{ fontSize: '13px', opacity: 0.85, marginTop: '6px' }}>楽天レシピ × 食材費概算</div>
+                <div style={{ fontSize: '13px', opacity: 0.85, marginTop: '6px' }}>30件の時短レシピ × 条件検索</div>
               </div>
             </div>
             <div className="store-video-body">
               <span className="store-video-badge">Webアプリ 買い切り</span>
               <h2>時短レシピ支援アプリ</h2>
               <p>
-                楽天レシピから今日の料理を選ぶだけ。必要な食材リストと金額の概算がすぐに確認できます。
-                食材ごとのチェックボックスで買い物リストとしても使え、毎日の食費管理をサポートします。
+                10分前後で作れる時短レシピを、調理時間・調理器具・洗い物の少なさから探せます。
+                材料、手順、カロリー、費用目安をまとめて確認できます。
               </p>
               <ul style={{ fontSize: '13px', color: '#555', marginTop: '12px', lineHeight: '2', listStyle: 'none', padding: 0 }}>
-                <li>✅ 楽天レシピ人気ランキングをカテゴリ別に表示</li>
-                <li>✅ 食材ごとの金額概算を自動表示（独自データベース）</li>
-                <li>✅ 買い物チェックリスト機能付き</li>
-                <li>✅ 調理時間・節約順にソート可能</li>
+                <li>✅ 30件の時短レシピを収録</li>
+                <li>✅ 時間・器具・カテゴリ・タグで検索</li>
+                <li>✅ 材料・手順・カロリー・費用目安を表示</li>
+                <li>✅ Recipe構造化データ・サイトマップ対応</li>
               </ul>
               <a
                 className="store-buy-button"
-                href="https://chitamaru.booth.pm/items/jitan-recipe"
+                href="https://wangan-base.booth.pm/items/8713799"
                 target="_blank"
                 rel="noopener noreferrer"
               >
