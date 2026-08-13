@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:34:27.616Z",
+  "generatedAt": "2026-08-13T17:15:47.321Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -6880,6 +6880,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2399f6b",
+          "message": "全国47都道府県のレトロスポット14,026件を収録する",
+          "date": "2026-08-13T16:54:51Z",
+          "url": "https://github.com/syunnjack/Nostalgia-s/commit/2399f6be4bd52e8c58f3d2600d0e444232bbf94e"
+        },
+        {
           "sha": "b8b2102",
           "message": "スポット一覧を都道府県×種類の階層に分割する",
           "date": "2026-08-13T14:27:17Z",
@@ -6898,7 +6904,7 @@
           "url": "https://github.com/syunnjack/Nostalgia-s/commit/bab3c27d31d03e3c179b0994ed91f0e6a4757f6f"
         }
       ],
-      "updatedAt": "2026-08-13T14:28:53Z",
+      "updatedAt": "2026-08-13T16:57:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -10969,6 +10975,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "2b80b84",
+          "message": "Merge pull request #65 from syunnjack/codex/automated-video-20260814-013926",
+          "date": "2026-08-13T17:10:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b80b8413e6f330f21d2d51b0ba001865b7e0a24"
+        },
+        {
+          "sha": "2d22c5f",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-13T17:09:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2d22c5fd2840733174f9ff63afb645f1b03afb7a"
+        },
+        {
+          "sha": "9c586f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T16:34:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c586f51ac96bbbf984f3649e09f6078f83f184e"
+        },
+        {
           "sha": "3811f57",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T15:36:00Z",
@@ -11021,27 +11045,9 @@
           "message": "Fix complete article and video automation",
           "date": "2026-08-13T14:22:54Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d5a38703f995cff18fd3bb6dfe4ee23b5410ba4b"
-        },
-        {
-          "sha": "55c7b87",
-          "message": "Merge pull request #60 from syunnjack/codex/automated-video-20260813-225526",
-          "date": "2026-08-13T14:02:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/55c7b87b16818139164974b06bead515e2064e40"
-        },
-        {
-          "sha": "84a9b73",
-          "message": "chore: refresh repository articles and videos",
-          "date": "2026-08-13T14:01:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/84a9b73613333bd9efcd238e9e6e9cea14014338"
-        },
-        {
-          "sha": "2d6c586",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T13:48:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2d6c586d0b6dc1166f857ca5f086ad256201c822"
         }
       ],
-      "updatedAt": "2026-08-13T15:36:06Z",
+      "updatedAt": "2026-08-13T17:10:48Z",
       "stars": 0,
       "forks": 0
     },
