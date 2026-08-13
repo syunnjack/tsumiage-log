@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:36:26.983Z",
+  "generatedAt": "2026-08-13T17:55:33.169Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10975,6 +10975,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ead2425",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T17:36:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ead24257cd01cc7bd77adf585c00a9f29fdf4f0f"
+        },
+        {
           "sha": "2b80b84",
           "message": "Merge pull request #65 from syunnjack/codex/automated-video-20260814-013926",
           "date": "2026-08-13T17:10:06Z",
@@ -11039,15 +11045,9 @@
           "message": "Merge pull request #61 from syunnjack/codex/fix-complete-blog-automation",
           "date": "2026-08-13T14:23:46Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7440a25d2957f1fca7081d8151b5496a5bcb61f4"
-        },
-        {
-          "sha": "d5a3870",
-          "message": "Fix complete article and video automation",
-          "date": "2026-08-13T14:22:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d5a38703f995cff18fd3bb6dfe4ee23b5410ba4b"
         }
       ],
-      "updatedAt": "2026-08-13T17:10:48Z",
+      "updatedAt": "2026-08-13T17:37:00Z",
       "stars": 0,
       "forks": 0
     },
