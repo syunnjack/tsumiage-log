@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T23:09:42.456Z",
+  "generatedAt": "2026-08-13T23:28:05.780Z",
   "owner": "syunnjack",
-  "totalRepositories": 297,
+  "totalRepositories": 163,
   "publicRepositories": 163,
-  "privateRepositories": 134,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -10986,6 +10986,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c1c5aea",
+          "message": "Update repository counts after privacy review (#82)",
+          "date": "2026-08-13T23:10:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c1c5aea5923ee7b482c7838ba6cd4259c1b1de2c"
+        },
+        {
           "sha": "a0e03ac",
           "message": "Merge pull request #81 from syunnjack/codex/automated-video-20260814-0805",
           "date": "2026-08-13T23:05:07Z",
@@ -11050,15 +11056,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T20:28:09Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6af0a11a7cdf69511d3b7a5365235930868f21a8"
-        },
-        {
-          "sha": "04f2219",
-          "message": "Link crowdsourcing cards to public profiles (#75)",
-          "date": "2026-08-13T19:56:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/04f22192f61826b5a3cf3b196ae0cd8d0adf0746"
         }
       ],
-      "updatedAt": "2026-08-13T23:05:15Z",
+      "updatedAt": "2026-08-13T23:10:58Z",
       "stars": 0,
       "forks": 0
     },
