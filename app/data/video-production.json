@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:05:57.934Z",
+  "generatedAt": "2026-08-13T12:33:13.526Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -3149,11 +3149,11 @@
       "slug": "kousokubus-benri",
       "repository": "kousokubus-benri",
       "title": "Kousokubus Benriの技術解説｜設計と実装を75秒で紹介",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "TypeScript・JavaScript",
+      "description": "Kousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。",
+      "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/kousokubus-benri",
       "repositoryUrl": "https://github.com/syunnjack/kousokubus-benri",
-      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kousokubus-benri\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kousokubus-benri\n\nKousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
+      "youtubeDescription": "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。\n\nこの記事を読む： https://syunnjack.dev/articles/kousokubus-benri\nブログトップ： https://syunnjack.dev/\nGitHub： https://github.com/syunnjack/kousokubus-benri\n\nKousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。\n\n#技術解説 #個人開発 #TypeScript",
       "slides": [
         {
           "title": "Kousokubus Benriの技術解説",
@@ -3161,19 +3161,19 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。"
+          "body": "Kousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：TypeScript・JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：TypeScript\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
-          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：README.md、app、build"
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、新機能の追加と実装強化が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -3187,10 +3187,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Kousokubus Benriの技術構成を短く解説します。",
-        "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はTypeScript・JavaScriptです。役割を分け、保守しやすい構成を目指しています。",
-        "リポジトリでは、README.md、app、buildを中心に実装を確認できます。",
-        "直近のコミットでは、新機能の追加と実装強化が行われました。",
+        "Kousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。",
+        "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6848,7 +6848,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -6865,7 +6865,7 @@
         "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
         "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },

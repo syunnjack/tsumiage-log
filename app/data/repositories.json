@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T12:05:57.445Z",
+  "generatedAt": "2026-08-13T12:33:13.338Z",
   "owner": "syunnjack",
-  "totalRepositories": 233,
-  "publicRepositories": 231,
+  "totalRepositories": 234,
+  "publicRepositories": 232,
   "privateRepositories": 2,
   "skippedRepositories": [
     "finder-lady",
@@ -10,6 +10,7 @@
     "gym-lightning",
     "jimotomeshi",
     "laravel-sdk",
+    "mari-car",
     "premium-collectible-scan-db",
     "sepro001",
     "sitemap-auto",
@@ -5143,38 +5144,22 @@
       "slug": "kousokubus-benri",
       "name": "kousokubus-benri",
       "displayName": "Kousokubus Benri",
-      "description": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Kousokubus Benriは、TypeScript、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Kousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Kousokubus Benriは、TypeScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/kousokubus-benri",
       "defaultBranch": "main",
       "primaryLanguage": "TypeScript",
       "languages": [
-        "TypeScript",
-        "JavaScript"
+        "TypeScript"
       ],
-      "files": [
-        "README.md",
-        "app",
-        "build",
-        "data",
-        "db",
-        "docs",
-        "drizzle.config.ts",
-        "drizzle",
-        "eslint.config.mjs",
-        "examples",
-        "lib",
-        "next.config.ts",
-        "package-lock.json",
-        "package.json",
-        "postcss.config.mjs",
-        "public",
-        "scripts",
-        "tests",
-        "tsconfig.json",
-        "vite.config.ts"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "9cf41ea",
+          "message": "Fix Search Console verification token",
+          "date": "2026-08-13T12:09:47Z",
+          "url": "https://github.com/syunnjack/kousokubus-benri/commit/9cf41ea16f22fe9bf170d9062ca7d3dc72324d7b"
+        },
         {
           "sha": "bf0958a",
           "message": "Add Leaflet map for onward route search results",
@@ -5240,15 +5225,9 @@
           "message": "Add GA4, Search Console, and IndexNow for busselect.jp",
           "date": "2026-08-06T06:53:52Z",
           "url": "https://github.com/syunnjack/kousokubus-benri/commit/8b53be464e50db980a7d003f282deef41cfa7edb"
-        },
-        {
-          "sha": "140741b",
-          "message": "Upgrade GTFS workflow to Node 24 actions",
-          "date": "2026-07-27T23:36:11Z",
-          "url": "https://github.com/syunnjack/kousokubus-benri/commit/140741b4aa382fa1d37153c3ad58f82c8d5b8188"
         }
       ],
-      "updatedAt": "2026-08-10T07:23:31Z",
+      "updatedAt": "2026-08-13T12:10:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -7114,13 +7093,19 @@
       "files": [],
       "commits": [
         {
+          "sha": "3012e5a",
+          "message": "都道府県ページに絞り込みを足す",
+          "date": "2026-08-13T12:19:04Z",
+          "url": "https://github.com/syunnjack/Nostalgia-s/commit/3012e5ab77bfe57909d33a8a1f32682849d4fe70"
+        },
+        {
           "sha": "bab3c27",
           "message": "昭和ノスタルジーのサイトを立ち上げる",
           "date": "2026-08-13T11:44:42Z",
           "url": "https://github.com/syunnjack/Nostalgia-s/commit/bab3c27d31d03e3c179b0994ed91f0e6a4757f6f"
         }
       ],
-      "updatedAt": "2026-08-13T11:45:38Z",
+      "updatedAt": "2026-08-13T12:19:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -11191,6 +11176,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "fd9d96a",
+          "message": "Merge pull request #58 from syunnjack/codex/automated-video-20260813-205550",
+          "date": "2026-08-13T12:09:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd9d96aa8d7c25f5cde70acc502c2d0115e829c1"
+        },
+        {
+          "sha": "e9948b9",
+          "message": "publish repository video updates",
+          "date": "2026-08-13T12:09:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9948b90a70ffaa4d777c1cbda5084244712aab0"
+        },
+        {
           "sha": "a2a62a5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T11:32:05Z",
@@ -11249,21 +11246,9 @@
           "message": "chore: merge latest main before publication",
           "date": "2026-08-13T09:05:01Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a16aa4847c86b91dcfbb1d98cd8c1a15123bfb84"
-        },
-        {
-          "sha": "d27025e",
-          "message": "chore: refresh repository articles and video metadata",
-          "date": "2026-08-13T09:04:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d27025e291f832fa9827e547be4005daddac7124"
-        },
-        {
-          "sha": "43085c9",
-          "message": "Merge pull request #54 from syunnjack/codex/automated-video-20260813-174417-r1",
-          "date": "2026-08-13T09:02:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/43085c934af3ed3690d4eaa4d6eb6e0783f54b30"
         }
       ],
-      "updatedAt": "2026-08-13T11:32:17Z",
+      "updatedAt": "2026-08-13T12:10:09Z",
       "stars": 0,
       "forks": 0
     },
