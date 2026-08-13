@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:20:47.567Z",
+  "generatedAt": "2026-08-13T14:28:36.893Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10963,6 +10963,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "647df78",
+          "message": "Merge pull request #62 from syunnjack/codex/fix-automation-report",
+          "date": "2026-08-13T14:27:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/647df78c20f85970cc9790f7ed908d1e977f3d34"
+        },
+        {
+          "sha": "9af0aa8",
+          "message": "Fix automation report repository context",
+          "date": "2026-08-13T14:26:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9af0aa8ebc6e68b532b56a47ffbdf816b053fde2"
+        },
+        {
+          "sha": "7440a25",
+          "message": "Merge pull request #61 from syunnjack/codex/fix-complete-blog-automation",
+          "date": "2026-08-13T14:23:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7440a25d2957f1fca7081d8151b5496a5bcb61f4"
+        },
+        {
+          "sha": "d5a3870",
+          "message": "Fix complete article and video automation",
+          "date": "2026-08-13T14:22:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d5a38703f995cff18fd3bb6dfe4ee23b5410ba4b"
+        },
+        {
           "sha": "55c7b87",
           "message": "Merge pull request #60 from syunnjack/codex/automated-video-20260813-225526",
           "date": "2026-08-13T14:02:13Z",
@@ -11009,33 +11033,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T12:33:38Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/890d2468b4196ae39d878223f92c0a77cf2205e4"
-        },
-        {
-          "sha": "fd9d96a",
-          "message": "Merge pull request #58 from syunnjack/codex/automated-video-20260813-205550",
-          "date": "2026-08-13T12:09:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd9d96aa8d7c25f5cde70acc502c2d0115e829c1"
-        },
-        {
-          "sha": "e9948b9",
-          "message": "publish repository video updates",
-          "date": "2026-08-13T12:09:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9948b90a70ffaa4d777c1cbda5084244712aab0"
-        },
-        {
-          "sha": "a2a62a5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T11:32:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2a62a55434b788497c1d1983efb0a40538d5c13"
-        },
-        {
-          "sha": "f79c950",
-          "message": "Merge pull request #57 from syunnjack/codex/automated-video-20260813-195507",
-          "date": "2026-08-13T11:00:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f79c950f8b6e8a0fd72c84bb367428292e1374aa"
         }
       ],
-      "updatedAt": "2026-08-13T14:04:17Z",
+      "updatedAt": "2026-08-13T14:26:25Z",
       "stars": 0,
       "forks": 0
     },
