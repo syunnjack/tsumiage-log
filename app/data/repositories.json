@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:33:13.338Z",
+  "generatedAt": "2026-08-13T12:58:11.701Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -11176,6 +11176,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "f8777cc",
+          "message": "Fix recipe category page merge break and support Rakuten env aliases",
+          "date": "2026-08-13T12:47:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8777cceda7a416decf04beca7071b128791c0ec"
+        },
+        {
+          "sha": "890d246",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T12:33:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/890d2468b4196ae39d878223f92c0a77cf2205e4"
+        },
+        {
           "sha": "fd9d96a",
           "message": "Merge pull request #58 from syunnjack/codex/automated-video-20260813-205550",
           "date": "2026-08-13T12:09:34Z",
@@ -11234,21 +11246,9 @@
           "message": "Merge pull request #55 from syunnjack/codex/automated-video-20260813-180421",
           "date": "2026-08-13T09:06:53Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/05e46125e395a3cd190f9e6c113f50cc3087d519"
-        },
-        {
-          "sha": "04ac1f5",
-          "message": "chore: regenerate repository content after main merge",
-          "date": "2026-08-13T09:06:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/04ac1f57957997266c2ffb2613f70d486394c600"
-        },
-        {
-          "sha": "a16aa48",
-          "message": "chore: merge latest main before publication",
-          "date": "2026-08-13T09:05:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a16aa4847c86b91dcfbb1d98cd8c1a15123bfb84"
         }
       ],
-      "updatedAt": "2026-08-13T12:10:09Z",
+      "updatedAt": "2026-08-13T12:56:49Z",
       "stars": 0,
       "forks": 0
     },
