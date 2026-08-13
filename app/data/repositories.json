@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:38:25.198Z",
+  "generatedAt": "2026-08-13T19:57:33.474Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10975,6 +10975,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "04f2219",
+          "message": "Link crowdsourcing cards to public profiles (#75)",
+          "date": "2026-08-13T19:56:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/04f22192f61826b5a3cf3b196ae0cd8d0adf0746"
+        },
+        {
+          "sha": "9f5df0c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T19:38:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f5df0c1b28f087f3856837ec4ae4bc384a3a592"
+        },
+        {
           "sha": "dbe3d82",
           "message": "Add crowdsourcing work inquiry page (#74)",
           "date": "2026-08-13T19:24:47Z",
@@ -11033,21 +11045,9 @@
           "message": "Merge pull request #67 from syunnjack/codex/automated-video-20260814-030114",
           "date": "2026-08-13T18:02:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/eeb66af9f25751ce551bffc0184861ab2e5d7498"
-        },
-        {
-          "sha": "fb2e4e2",
-          "message": "Update repository articles and video metadata",
-          "date": "2026-08-13T18:01:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fb2e4e2ce6cfe7b6f0f5fc3aa883dd429b17740a"
-        },
-        {
-          "sha": "ead2425",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T17:36:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ead24257cd01cc7bd77adf585c00a9f29fdf4f0f"
         }
       ],
-      "updatedAt": "2026-08-13T19:34:47Z",
+      "updatedAt": "2026-08-13T19:56:08Z",
       "stars": 0,
       "forks": 0
     },
