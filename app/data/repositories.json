@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:56:06.768Z",
+  "generatedAt": "2026-08-13T21:31:15.354Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10999,6 +10999,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "8cc46d9",
+          "message": "Merge pull request #77 from syunnjack/codex/automated-video-20260814-0610",
+          "date": "2026-08-13T21:09:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8cc46d9a8070f098d010a25ab45b07f20ef211b4"
+        },
+        {
+          "sha": "deced99",
+          "message": "Publish mari-car repository video",
+          "date": "2026-08-13T21:08:37Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/deced995f5b91b45e18e11c310fd51f2e116f91a"
+        },
+        {
           "sha": "6af0a11",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T20:28:09Z",
@@ -11057,21 +11069,9 @@
           "message": "Connect store to published BOOTH products",
           "date": "2026-08-13T18:34:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/752499fcd9461e6dec1402ed3af572ea71156016"
-        },
-        {
-          "sha": "5cbf3c7",
-          "message": "Merge pull request #68 from syunnjack/codex/reorder-nav-breadcrumbs",
-          "date": "2026-08-13T18:05:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5cbf3c753a489502abe11b375cb4fc7718f1046b"
-        },
-        {
-          "sha": "801a66f",
-          "message": "Reorder navigation and add breadcrumbs",
-          "date": "2026-08-13T18:04:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/801a66f7c3210662d40d9457e87fe967ccfb22ef"
         }
       ],
-      "updatedAt": "2026-08-13T20:28:14Z",
+      "updatedAt": "2026-08-13T21:09:13Z",
       "stars": 0,
       "forks": 0
     },
