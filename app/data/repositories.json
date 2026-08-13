@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T21:31:15.354Z",
+  "generatedAt": "2026-08-13T21:55:40.953Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10999,6 +10999,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fdc4fcd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T21:31:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fdc4fcded62aca23f6aa443e77d827461bee7b43"
+        },
+        {
           "sha": "8cc46d9",
           "message": "Merge pull request #77 from syunnjack/codex/automated-video-20260814-0610",
           "date": "2026-08-13T21:09:08Z",
@@ -11063,15 +11069,9 @@
           "message": "Merge pull request #69 from syunnjack/codex/add-booth-products",
           "date": "2026-08-13T18:34:23Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/129f62c3c3bb34d9c54aaa7c0d83d55a4d062b34"
-        },
-        {
-          "sha": "752499f",
-          "message": "Connect store to published BOOTH products",
-          "date": "2026-08-13T18:34:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/752499fcd9461e6dec1402ed3af572ea71156016"
         }
       ],
-      "updatedAt": "2026-08-13T21:09:13Z",
+      "updatedAt": "2026-08-13T21:31:48Z",
       "stars": 0,
       "forks": 0
     },
