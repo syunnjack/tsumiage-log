@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T22:28:04.018Z",
+  "generatedAt": "2026-08-13T22:45:07.405Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 146,
+  "queuedCount": 0,
   "videos": [
     {
       "slug": "ai-quiz-study",

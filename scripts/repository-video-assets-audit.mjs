@@ -46,6 +46,9 @@ for (const video of queue.videos) {
 }
 
 const queued = queue.videos.filter((video) => video.status === "queued").length
+if (queue.queuedCount !== queued) {
+  errors.push(`制作待ち件数が不一致です: queuedCount=${queue.queuedCount}, 実数=${queued}`)
+}
 if (requireComplete && queued > 0) {
   const slugs = queue.videos
     .filter((video) => video.status === "queued")

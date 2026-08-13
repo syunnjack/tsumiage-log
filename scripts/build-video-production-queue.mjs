@@ -99,7 +99,7 @@ const videos = repositoryData.articles
 const payload = {
   policy: policy.policy,
   completed: [{ slug: "rakuten02", youtubeUrl: "https://youtu.be/mQ8Nl4Qk_io" }],
-  queuedCount: videos.length,
+  queuedCount: videos.filter((video) => video.status === "queued").length,
   videos,
 }
 const previousPayload = { ...previous }
@@ -111,4 +111,4 @@ const output = {
 }
 
 writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8")
-console.log(`Video production queue: ${videos.length} repositories`)
+console.log(`Video production queue: ${videos.length} repositories / ${payload.queuedCount} queued`)
