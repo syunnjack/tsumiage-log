@@ -21,7 +21,11 @@ export type RakutenRecipe = {
   rank: string;
 };
 
-const RAKUTEN_APP_ID = process.env.RAKUTEN_APP_ID || '';
+const RAKUTEN_APP_ID =
+  process.env.RAKUTEN_APP_ID ||
+  process.env.RAKUTEN_APPLICATION_ID ||
+  process.env.NEXT_PUBLIC_RAKUTEN_APP_ID ||
+  '';
 const BASE = 'https://app.rakuten.co.jp/services/api';
 
 export async function fetchCategories(): Promise<{ large: RakutenCategory[]; medium: RakutenCategory[]; small: RakutenCategory[] }> {

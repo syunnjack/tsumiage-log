@@ -6,7 +6,10 @@ import RecipeCard from '../RecipeCard';
 
 type Props = { params: Promise<{ categoryId: string }> };
 
-const CATEGORY_IDS = ['10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '30'];
+const CATEGORY_IDS = [
+  '10', '11', '12', '13', '14', '15', '16', '17', '18', '19',
+  '20', '21', '22', '30', '31', '32', '33', '34', '35',
+];
 
 export function generateStaticParams() {
   return CATEGORY_IDS.map((categoryId) => ({ categoryId }));
