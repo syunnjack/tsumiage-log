@@ -9,7 +9,7 @@ const contentPolicy = JSON.parse(
   readFileSync(resolve("app/data/content-policy.json"), "utf8"),
 )
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
-const privateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
+const fallbackPrivateRepositoryCount = Number(contentPolicy.privateRepositoryCount ?? 0)
 const previousArticlesByName = new Map()
 try {
   const previousData = JSON.parse(readFileSync(outputPath, "utf8"))
@@ -47,6 +47,19 @@ function gh(args, fallback = null) {
   } catch {
     return fallback
   }
+}
+
+function getPrivateRepositoryCount() {
+  const result = gh([
+    "api",
+    "graphql",
+    "-f",
+    "query=query($login:String!){repositoryOwner(login:$login){repositories(first:1,ownerAffiliations:OWNER,privacy:PRIVATE){totalCount}}}",
+    "-F",
+    `login=${owner}`,
+  ])
+  const count = result?.data?.repositoryOwner?.repositories?.totalCount
+  return Number.isInteger(count) ? count : fallbackPrivateRepositoryCount
 }
 
 function decodeReadme(payload) {
@@ -116,6 +129,7 @@ const repositories = (Array.isArray(repositoryPages) ? repositoryPages.flat() : 
   }),
 )
 const publicRepositoryCount = repositories.filter((repo) => !repo.isPrivate).length
+const privateRepositoryCount = getPrivateRepositoryCount()
 
 const publishable = repositories.filter(
   (repo) =>
