@@ -57,6 +57,16 @@ export default function StorePage() {
     name: "ストア",
     description: pageDescription,
     url: "https://syunnjack.dev/store",
+    author: {
+      "@type": "Person",
+      name: "知多丸",
+      url: "https://syunnjack.dev/profile",
+      sameAs: [
+        "https://github.com/syunnjack",
+        "https://note.com/chitamaru",
+        "https://zenn.dev/chitamaru",
+      ],
+    },
     isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev" },
     numberOfItems: allVideos.length,
     hasPart: allVideos.map((video) => ({
@@ -301,6 +311,39 @@ export default function StorePage() {
             </div>
           </article>
 
+        </div>
+      </section>
+
+      <section className="store-media-section" aria-labelledby="store-media-heading">
+        <div className="section-heading">
+          <p className="eyebrow">
+            <span />
+            外部メディア
+          </p>
+          <h2 id="store-media-heading">note・Zennでも発信しています</h2>
+          <p>商品を選ぶ前の情報収集や、技術・開発の背景を知りたい方に向けた記事を公開しています。</p>
+        </div>
+        <div className="store-media-grid">
+          <article className="store-media-card store-media-card-note">
+            <span className="store-media-label">note</span>
+            <h3>開発の経験や発信の試行錯誤を読む</h3>
+            <p>
+              個人開発や学習を続ける中で得た気づき、取り組みの背景、試行錯誤を読みやすく紹介しています。
+            </p>
+            <a href="https://note.com/chitamaru" target="_blank" rel="noopener noreferrer me">
+              noteで記事を読む <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+          <article className="store-media-card store-media-card-zenn">
+            <span className="store-media-label">Zenn</span>
+            <h3>実装に役立つ技術記事を読む</h3>
+            <p>
+              開発で使った技術、実装時の判断、つまずきと解決方法など、エンジニア向けの知見をまとめています。
+            </p>
+            <a href="https://zenn.dev/chitamaru" target="_blank" rel="noopener noreferrer me">
+              Zennで技術記事を読む <span aria-hidden="true">↗</span>
+            </a>
+          </article>
         </div>
       </section>
 
