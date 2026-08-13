@@ -18,23 +18,26 @@ const platforms = [
   {
     name: "ココナラ",
     label: "スキル・サービス相談",
-    url: "https://coconala.com/",
+    url: "https://coconala.com/users/1015960",
     color: "#f29b38",
     text: "サービス内容を比較しながら、Web制作、システム開発、業務改善について相談したい方の窓口です。",
+    direct: true,
   },
   {
     name: "ランサーズ",
     label: "プロジェクト・継続依頼",
-    url: "https://www.lancers.jp/",
+    url: "https://www.lancers.jp/profile/Chitamaru",
     color: "#1769aa",
     text: "要件を整理した開発案件や、継続的な改善・運用支援をプロジェクトとして相談したい方の窓口です。",
+    direct: true,
   },
   {
     name: "クラウドワークス",
     label: "開発・業務支援の依頼",
-    url: "https://crowdworks.jp/",
+    url: "https://crowdworks.jp/public/employees/7149303",
     color: "#00a0e9",
     text: "システム開発、データ整理、更新作業の自動化など、具体的な業務課題を相談したい方の窓口です。",
+    direct: true,
   },
 ] as const
 
@@ -86,12 +89,25 @@ export default function CrowdsourcingPage() {
                 <li>自動化・既存サイト改善</li>
               </ul>
               <div className="crowdsourcing-card-actions">
-                <Link href={`/estimate?service=${encodeURIComponent(`${platform.name}経由の仕事依頼`)}`}>
-                  この窓口で見積りを相談する <span aria-hidden="true">→</span>
-                </Link>
-                <a href={platform.url} target="_blank" rel="noopener noreferrer">
-                  {platform.name}を開く <span aria-hidden="true">↗</span>
-                </a>
+                {platform.direct ? (
+                  <>
+                    <a href={platform.url} target="_blank" rel="noopener noreferrer me">
+                      {platform.name}で直接相談する <span aria-hidden="true">↗</span>
+                    </a>
+                    <Link href={`/estimate?service=${encodeURIComponent(`${platform.name}経由の仕事依頼`)}`}>
+                      積み上げログから見積りを相談 <span aria-hidden="true">→</span>
+                    </Link>
+                  </>
+                ) : (
+                  <>
+                    <Link href={`/estimate?service=${encodeURIComponent(`${platform.name}経由の仕事依頼`)}`}>
+                      この窓口で見積りを相談する <span aria-hidden="true">→</span>
+                    </Link>
+                    <a href={platform.url} target="_blank" rel="noopener noreferrer">
+                      {platform.name}を開く <span aria-hidden="true">↗</span>
+                    </a>
+                  </>
+                )}
               </div>
             </article>
           ))}
