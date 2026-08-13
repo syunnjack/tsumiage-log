@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:38:25.198Z",
+  "generatedAt": "2026-08-13T20:27:42.572Z",
   "owner": "syunnjack",
   "totalRepositories": 234,
   "publicRepositories": 232,
@@ -10,7 +10,6 @@
     "gym-lightning",
     "jimotomeshi",
     "laravel-sdk",
-    "mari-car",
     "premium-collectible-scan-db",
     "sepro001",
     "sitemap-auto",
@@ -358,6 +357,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1d329f8",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-13T20:25:01Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/1d329f82035c103793d329679244ac303b19ba6d"
+        },
+        {
           "sha": "e2a8278",
           "message": "Refresh bowling event data",
           "date": "2026-08-12T20:31:34Z",
@@ -422,15 +427,9 @@
           "message": "Expand to all 47 prefectures with real, verified venues",
           "date": "2026-08-09T04:49:41Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
-        },
-        {
-          "sha": "9c8d2d0",
-          "message": "Rebase before push in refresh-events to survive concurrent commits",
-          "date": "2026-08-09T04:44:02Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/9c8d2d0bef940b723850023ad9b15bd830191984"
         }
       ],
-      "updatedAt": "2026-08-12T20:31:42Z",
+      "updatedAt": "2026-08-13T20:25:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -6178,6 +6177,31 @@
       "forks": 0
     },
     {
+      "slug": "mari-car",
+      "name": "mari-car",
+      "displayName": "Mari Car",
+      "description": "マリカーロケ図鑑（リポジトリ名: mari car） ゲームセンターで遊べる アーケード版マリオカート （ マリオカート アーケードグランプリ シリーズ）の 全国47都道府県の筐体設置・稼働状況 を、プレイヤーからの報告で共有するコミュニティポータル",
+      "readmeExcerpt": "マリカーロケ図鑑（リポジトリ名: mari car） ゲームセンターで遊べる アーケード版マリオカート （ マリオカート アーケードグランプリ シリーズ）の 全国47都道府県の筐体設置・稼働状況 を、プレイヤーからの報告で共有するコミュニティポータル。 SEO・AIO/LLMO・UGC を一体で設計しています。 フレームワーク: Next.js 16（App Router / output: \"export\" による静的サイト生成） スタイル: Tailwind CSS v4 ホスティング想定: GitHub Pages（ .github/workflows/deploy.yml ） 生成ページ数: 約100ページ（都道府県47 + 地方8 + 作品4 + コース6 + テクニック10 + キャラ13 + アイテム12 + チェーン6 + 固定ページ） 非公式のファンサイトです。 任天堂株式会社および株式会社バンダイナムコアミューズメントとは一切関係がありません。 「マリオカート」「マリオカート アーケードグランプリ」は任天堂株式会社の登録商標または商標です。 このサイトが解こうとしている問題 アーケードゲームの設置店舗には、公式の網羅的な一覧がありません。 設置も撤去も各店舗の判断で行われ、入れ替わりも頻繁なため、メーカー側が常時最新の一覧を出すのは現実的に困難です。 結果としてプレイヤー側には「行ってみたら撤去されていた」「連結台数が減っていて対戦できなかった」という空振りが生まれます。 稼働から年数が経ったタイトルほど深刻で、アーケードグランプリDX（2013年稼働）はまさにその状況にあります。 この空振りは、 実際に訪れた人が結果を共有するだけで大きく減らせます 。本サイトはその受け皿です。 セットアップ 検証・ビルド ディレクトリ構成 SEO 施策 実装場所 ページ別のtitle/description/canonical/OGP 各 page.tsx の generateMetadata JSON LD: WebSite + SearchAction lib",
+      "url": "https://github.com/syunnjack/mari-car",
+      "defaultBranch": "main",
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "d1ae2fd",
+          "message": "feat: アーケード版マリオカートの全国設置状況ポータル",
+          "date": "2026-08-13T20:01:12Z",
+          "url": "https://github.com/syunnjack/mari-car/commit/d1ae2fd5597d53b8ef827dfb171fd42ad2c8dc45"
+        }
+      ],
+      "updatedAt": "2026-08-13T20:04:56Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "midnight-spot-alert",
       "name": "midnight-spot-alert",
       "displayName": "Midnight Spot Alert",
@@ -10975,6 +10999,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "04f2219",
+          "message": "Link crowdsourcing cards to public profiles (#75)",
+          "date": "2026-08-13T19:56:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/04f22192f61826b5a3cf3b196ae0cd8d0adf0746"
+        },
+        {
+          "sha": "9f5df0c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T19:38:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f5df0c1b28f087f3856837ec4ae4bc384a3a592"
+        },
+        {
           "sha": "dbe3d82",
           "message": "Add crowdsourcing work inquiry page (#74)",
           "date": "2026-08-13T19:24:47Z",
@@ -11033,21 +11069,9 @@
           "message": "Merge pull request #67 from syunnjack/codex/automated-video-20260814-030114",
           "date": "2026-08-13T18:02:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/eeb66af9f25751ce551bffc0184861ab2e5d7498"
-        },
-        {
-          "sha": "fb2e4e2",
-          "message": "Update repository articles and video metadata",
-          "date": "2026-08-13T18:01:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fb2e4e2ce6cfe7b6f0f5fc3aa883dd429b17740a"
-        },
-        {
-          "sha": "ead2425",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T17:36:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ead24257cd01cc7bd77adf585c00a9f29fdf4f0f"
         }
       ],
-      "updatedAt": "2026-08-13T19:34:47Z",
+      "updatedAt": "2026-08-13T19:56:08Z",
       "stars": 0,
       "forks": 0
     },
