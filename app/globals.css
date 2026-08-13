@@ -63,6 +63,13 @@
 .global-header nav a { flex: 0 0 auto; white-space: nowrap; }
 .global-header nav a:hover { color: #1f6f55; }
 .global-github { margin-left: auto; border: 1px solid currentColor; padding: .55rem .8rem; }
+.site-breadcrumbs { padding: .65rem clamp(1rem,4vw,4rem); background: #fffdf7; border-bottom: 1px solid rgba(23,33,29,.1); color: #52605a; font-size: .76rem; }
+.site-breadcrumbs ol { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem; max-width: 1440px; margin: 0 auto; padding: 0; list-style: none; }
+.site-breadcrumbs li { display: flex; align-items: center; gap: .35rem; }
+.site-breadcrumbs li + li::before { content: ">"; color: #8d9893; }
+.site-breadcrumbs a { color: #1f6f55; font-weight: 700; text-decoration: none; }
+.site-breadcrumbs a:hover { text-decoration: underline; }
+.site-breadcrumbs [aria-current="page"] { color: #2d3934; }
 .site-header, .article-site-header { display: none; }
 .business-page { color: #17211d; background: #f7f4eb; min-height: 100vh; }
 .business-hero { padding: clamp(5rem,10vw,9rem) clamp(1.25rem,8vw,9rem); background: #17211d; color: #f7f4eb; }

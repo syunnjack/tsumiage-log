@@ -72,7 +72,6 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     </header>
     <article>
       <header className="article-hero">
-        <nav aria-label="パンくず"><Link href="/">ホーム</Link><span>/</span><Link href="/articles">記事</Link><span>/</span><span>自主執筆</span></nav>
         <p className="eyebrow"><span />自主執筆記事</p>
         <h1>{article.title}</h1>
         <p className="article-summary">{article.description}</p>

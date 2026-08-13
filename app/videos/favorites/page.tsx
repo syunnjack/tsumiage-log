@@ -63,11 +63,6 @@ export default function FavoriteVideosPage() {
       </header>
 
       <section className="favorite-video-hero">
-        <nav aria-label="パンくずリスト">
-          <Link href="/">ホーム</Link><span>/</span>
-          <Link href="/videos">動画</Link><span>/</span>
-          <span>気に入った動画</span>
-        </nav>
         <p className="eyebrow"><span />おすすめ動画</p>
         <h1>気に入った<br />動画</h1>
         <p>

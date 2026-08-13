@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Script from "next/script"
+import Breadcrumbs from "./components/Breadcrumbs"
 import GlobalNav from "./components/GlobalNav"
 import "./globals.css"
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
         <GlobalNav />
+        <Breadcrumbs />
         {children}
         {googleAnalyticsId ? (
           <>
