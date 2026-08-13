@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T00:40:41.232Z",
+  "generatedAt": "2026-08-13T01:55:35.719Z",
   "owner": "syunnjack",
   "totalRepositories": 233,
   "publicRepositories": 231,
@@ -8046,100 +8046,84 @@
       "defaultBranch": "master",
       "primaryLanguage": "C#",
       "languages": [
-        "C#",
-        "PowerShell",
-        "CSS",
-        "Python",
-        "JavaScript",
-        "Shell"
+        "C#"
       ],
-      "files": [
-        "Dockerfile",
-        "README.md",
-        "docs",
-        "patches",
-        "rakuten02.Core",
-        "rakuten02.Web",
-        "rakuten02.sln",
-        "rakuten02",
-        "render.yaml",
-        "scripts"
-      ],
+      "files": [],
       "commits": [
         {
-          "sha": "5f8c56c",
-          "message": "Merge pull request #26 from syunnjack/cursor/remaining-work-f103",
-          "date": "2026-08-10T07:34:39Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/5f8c56ccc92f9746b696f9b304b4eaceddd6f80f"
+          "sha": "d166e7e",
+          "message": "Merge pull request #36 from syunnjack/cursor/gsc-final-completer-86e1",
+          "date": "2026-08-13T00:56:35Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/d166e7edb12ca21f645a9722c694e44a99ffd918"
         },
         {
-          "sha": "14ba6ec",
-          "message": "Update rollout status for Aug 10: busselect live, machi-list GA4 pending",
-          "date": "2026-08-10T07:34:27Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/14ba6ec5a7485d9d3c8dbe478ec15191fbc7c6e6"
+          "sha": "ec0f340",
+          "message": "Merge pull request #33 from syunnjack/cursor/sitemap-auto-tool-708b",
+          "date": "2026-08-13T00:56:22Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/ec0f340c8415352701bd8bc585935c46286487f8"
         },
         {
-          "sha": "8ff3e54",
-          "message": "Merge pull request #25 from syunnjack/cursor/kousokubus-win-dev-f103",
-          "date": "2026-08-10T07:29:36Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/8ff3e54726b1db8b4ef664bf576665491fce0390"
+          "sha": "3ad14a7",
+          "message": "Point handoff at GSC-FINISH and complete-gsc-rollout.ps1",
+          "date": "2026-08-13T00:56:19Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3ad14a73030a44493b4a6178363cda5797f3181c"
         },
         {
-          "sha": "df2bcb4",
-          "message": "Add kousokubus-benri patch 0004: cross-env for Windows npm scripts",
-          "date": "2026-08-10T07:29:14Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/df2bcb4b66c120cd860aba1d57333cf97812f038"
+          "sha": "edc6f4e",
+          "message": "Merge master into sitemap-auto branch; resolve handoff conflicts",
+          "date": "2026-08-13T00:56:13Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/edc6f4e6d5a03610662d1c4f7c224c307c58c8ad"
         },
         {
-          "sha": "2edb779",
-          "message": "Merge pull request #24 from syunnjack/cursor/leaflet-route-map-f103",
-          "date": "2026-08-09T21:17:24Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/2edb779a34c3ca22065f26ca4797e4e0c0074e6f"
+          "sha": "6f44942",
+          "message": "Add one-shot GSC completer script and finish checklist",
+          "date": "2026-08-13T00:55:57Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/6f449423b677de377053211d4793ab610beac42e"
         },
         {
-          "sha": "c42f4de",
-          "message": "Add kousokubus-benri patch 0003: Leaflet route map for onward search",
-          "date": "2026-08-09T21:17:13Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/c42f4de4d63fe0ec19a58bd7cee9cf47fafa2353"
+          "sha": "afbf27a",
+          "message": "Merge pull request #35 from syunnjack/cursor/gsc-rollout-followup-86e1",
+          "date": "2026-08-13T00:51:05Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/afbf27a84e0c7d1ff656af314fb26cf4c2ae601f"
         },
         {
-          "sha": "3200bdd",
-          "message": "Add keep-alive ping to prevent Render free-tier cold starts (was causing Googlebot crawl timeouts)",
-          "date": "2026-08-08T12:37:07Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/3200bdd05d33ff6d48f49d946046c1bc1377a7a6"
+          "sha": "9e36643",
+          "message": "Mark shudenhotel GSC rollout complete in handoff and sites.config",
+          "date": "2026-08-13T00:46:59Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/9e3664312085355a43af99bd10a75dba102e8255"
         },
         {
-          "sha": "06f0568",
-          "message": "AI 30 sites: code deployed to both hosts, awaiting domain NS + wiring",
-          "date": "2026-08-08T00:22:30Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/06f05681cd10458e65bbc2fdffeb4345766abede"
+          "sha": "42e6ce3",
+          "message": "Follow up GSC rollout: cross-repo apply workflow and live status",
+          "date": "2026-08-13T00:46:50Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/42e6ce340b84665acbfbda3d25a0832214181ede"
         },
         {
-          "sha": "79692a4",
-          "message": "Add 30 generative-AI affiliate sites (4 templates + portal)",
-          "date": "2026-08-07T23:04:55Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/79692a4544242529c718268141f9e79605beb024"
+          "sha": "ee57e6b",
+          "message": "Merge pull request #34 from syunnjack/cursor/gsc-site-performance-86e1",
+          "date": "2026-08-13T00:44:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/ee57e6b5939167cc9710a7b21d2beb52ba7d3e15"
         },
         {
-          "sha": "6bdb50c",
-          "message": "All 30 cross-ASP sites deployed (15 ColorfulBOX auto, 15 WPX manual)",
-          "date": "2026-08-07T20:36:29Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6bdb50c24b2688ce1e9c981c8ff56d94c44d927d"
+          "sha": "ff8b134",
+          "message": "Refresh GSC docs after IndexNow pings and health-check tooling",
+          "date": "2026-08-13T00:33:40Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/ff8b1343d8e1b4a58f21c082ee5dcf2dc5b12315"
         },
         {
-          "sha": "b3e7999",
-          "message": "gansha-cross domain confirmed (gansha.jp), all 30/30 APP_URL secrets set",
-          "date": "2026-08-07T19:21:53Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/b3e79990cc6adaad88041166065ae981fb6a6344"
+          "sha": "0627999",
+          "message": "Continue GSC rollout: FAQ, env fallbacks, health checks, IndexNow",
+          "date": "2026-08-13T00:33:30Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/06279996b7828caef9d43622ee83a5253d0d548e"
         },
         {
-          "sha": "02fea8c",
-          "message": "Update 30-site doc with actual purchased domains",
-          "date": "2026-08-07T19:14:48Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/02fea8c655b43de743ac37d803676b623f8f5ac4"
+          "sha": "f79a28a",
+          "message": "Point apply-patches.ps1 at the 2026-08-12 GSC patch set",
+          "date": "2026-08-12T23:47:57Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/f79a28a12ac5cfc641618bf75bb029f84d6811af"
         }
       ],
-      "updatedAt": "2026-08-10T07:35:58Z",
+      "updatedAt": "2026-08-13T00:56:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -11183,6 +11167,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4b3c3ca",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T00:41:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4b3c3cad3c326a166b7da5c9b8fe427a23842e82"
+        },
+        {
           "sha": "d27e6cd",
           "message": "Merge pull request #51 from syunnjack/codex/automated-video-20260813-0910",
           "date": "2026-08-12T23:59:54Z",
@@ -11247,15 +11237,9 @@
           "message": "Merge pull request #47 from syunnjack/codex/automated-video-20260813-050533",
           "date": "2026-08-12T20:05:44Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c642f9af2be67220d17fae262a21056dbd346d8e"
-        },
-        {
-          "sha": "d09c8eb",
-          "message": "Update repository articles and video metadata",
-          "date": "2026-08-12T20:05:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d09c8ebe1661708289581f0a45bf2a2b4e7b651e"
         }
       ],
-      "updatedAt": "2026-08-12T23:59:59Z",
+      "updatedAt": "2026-08-13T00:41:08Z",
       "stars": 0,
       "forks": 0
     },
