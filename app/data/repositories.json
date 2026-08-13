@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:58:06.510Z",
+  "generatedAt": "2026-08-13T10:39:31.918Z",
   "owner": "syunnjack",
   "totalRepositories": 233,
   "publicRepositories": 231,
@@ -8051,6 +8051,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "46ae2bc",
+          "message": "Merge pull request #38 from syunnjack/cursor/gsc-continue-finish-86e1",
+          "date": "2026-08-13T10:06:14Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/46ae2bc666789e2032e208d9a98d2f6815b55f13"
+        },
+        {
+          "sha": "e98238a",
+          "message": "Add Kansai/Nagoya landings, DTI completer, and crawl-budget robots",
+          "date": "2026-08-13T09:48:29Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/e98238ae27d0bfbf0b0d2e7295963c1e2471f8fa"
+        },
+        {
+          "sha": "3f92a94",
+          "message": "Harden IndexNow delivery and finish GSC completer tooling",
+          "date": "2026-08-13T09:27:48Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3f92a94491ffd1e425d1597d8c43c03eb6591850"
+        },
+        {
           "sha": "b27fb49",
           "message": "Merge pull request #37 from syunnjack/cursor/gsc-indexnow-and-finish-86e1",
           "date": "2026-08-13T08:56:46Z",
@@ -8103,27 +8121,9 @@
           "message": "Mark shudenhotel GSC rollout complete in handoff and sites.config",
           "date": "2026-08-13T00:46:59Z",
           "url": "https://github.com/syunnjack/rakuten02/commit/9e3664312085355a43af99bd10a75dba102e8255"
-        },
-        {
-          "sha": "42e6ce3",
-          "message": "Follow up GSC rollout: cross-repo apply workflow and live status",
-          "date": "2026-08-13T00:46:50Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/42e6ce340b84665acbfbda3d25a0832214181ede"
-        },
-        {
-          "sha": "ee57e6b",
-          "message": "Merge pull request #34 from syunnjack/cursor/gsc-site-performance-86e1",
-          "date": "2026-08-13T00:44:30Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/ee57e6b5939167cc9710a7b21d2beb52ba7d3e15"
-        },
-        {
-          "sha": "ff8b134",
-          "message": "Refresh GSC docs after IndexNow pings and health-check tooling",
-          "date": "2026-08-13T00:33:40Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/ff8b1343d8e1b4a58f21c082ee5dcf2dc5b12315"
         }
       ],
-      "updatedAt": "2026-08-13T08:57:23Z",
+      "updatedAt": "2026-08-13T10:08:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -11167,6 +11167,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "d958ecf",
+          "message": "Merge pull request #56 from syunnjack/codex/automated-video-20260813-185000",
+          "date": "2026-08-13T10:03:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d958ecff9957768d2d5b18748be18c6fe9f39d52"
+        },
+        {
+          "sha": "2bde9ee",
+          "message": "chore: refresh repository articles and video metadata",
+          "date": "2026-08-13T10:02:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2bde9ee50309b89e6aee7ad82e634f7e9d66e873"
+        },
+        {
           "sha": "878297f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T09:41:26Z",
@@ -11225,21 +11237,9 @@
           "message": "chore: refresh repository articles and video metadata",
           "date": "2026-08-13T08:56:41Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7ac6edbd4bec623071aa06681d27b5cc3190ca01"
-        },
-        {
-          "sha": "6dc907a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T08:46:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6dc907a73e689ebc34a50bfa718032f76d5b247b"
-        },
-        {
-          "sha": "68c24b8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T07:50:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/68c24b846eb7a6574518441852584ec41f51f5dc"
         }
       ],
-      "updatedAt": "2026-08-13T09:41:44Z",
+      "updatedAt": "2026-08-13T10:04:52Z",
       "stars": 0,
       "forks": 0
     },
