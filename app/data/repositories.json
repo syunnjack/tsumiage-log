@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T23:02:56.583Z",
+  "generatedAt": "2026-08-13T23:09:42.456Z",
   "owner": "syunnjack",
   "totalRepositories": 297,
-  "publicRepositories": 232,
-  "privateRepositories": 65,
+  "publicRepositories": 163,
+  "privateRepositories": 134,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -18,21 +18,8 @@
     "tokai-marine",
     "wificafe-billing",
     "abeshi-mvp",
-    "adult-comic-ranking",
-    "adult-figure-ranking",
-    "adult-goods-compare",
-    "adult-novel-ranking",
-    "bl-tl-doujin-ranking",
-    "bl-tl-novel-ranking",
     "darenano",
-    "duga-video-ranking",
-    "gravure-photo-ranking",
-    "kosupure-ranking",
-    "mature-genre-ranking",
     "onsen-ranking",
-    "r18-anime-ranking",
-    "sexy-costume-compare",
-    "sokmil-new-releases",
     "vr-content-gear-guide",
     "yuniba"
   ],
@@ -10999,6 +10986,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "a0e03ac",
+          "message": "Merge pull request #81 from syunnjack/codex/automated-video-20260814-0805",
+          "date": "2026-08-13T23:05:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0e03ac797f9dc8726edeaef03e3b7d77830f1bc"
+        },
+        {
+          "sha": "5611fa6",
+          "message": "Update automated repository articles and videos",
+          "date": "2026-08-13T23:04:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5611fa66cd1a84edc8faaa0d0b0fe82305f94273"
+        },
+        {
           "sha": "fcf4d9c",
           "message": "Correct repository totals and simplify navigation (#80)",
           "date": "2026-08-13T22:59:36Z",
@@ -11057,21 +11056,9 @@
           "message": "Link crowdsourcing cards to public profiles (#75)",
           "date": "2026-08-13T19:56:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/04f22192f61826b5a3cf3b196ae0cd8d0adf0746"
-        },
-        {
-          "sha": "9f5df0c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T19:38:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f5df0c1b28f087f3856837ec4ae4bc384a3a592"
-        },
-        {
-          "sha": "dbe3d82",
-          "message": "Add crowdsourcing work inquiry page (#74)",
-          "date": "2026-08-13T19:24:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/dbe3d828e5796d2f2af9134ba11469b11f3fcdf6"
         }
       ],
-      "updatedAt": "2026-08-13T22:59:40Z",
+      "updatedAt": "2026-08-13T23:05:15Z",
       "stars": 0,
       "forks": 0
     },
