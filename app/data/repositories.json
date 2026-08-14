@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T04:56:39.434Z",
+  "generatedAt": "2026-08-14T05:47:47.554Z",
   "owner": "syunnjack",
-  "totalRepositories": 299,
+  "totalRepositories": 164,
   "publicRepositories": 164,
-  "privateRepositories": 135,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -2261,6 +2261,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "538a892",
+          "message": "README: Zenn記事の公開URLを反映",
+          "date": "2026-08-14T05:14:08Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/538a892dee6579e41d1dc89c7dce86a13debdf4d"
+        },
+        {
           "sha": "bcd2214",
           "message": "Excelレポートの列幅計算を全角対応し、見出しを日本語化",
           "date": "2026-08-14T03:55:06Z",
@@ -2279,7 +2285,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
         }
       ],
-      "updatedAt": "2026-08-14T03:55:17Z",
+      "updatedAt": "2026-08-14T05:14:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -11029,6 +11035,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "ebb772f",
+          "message": "Merge pull request #87 from syunnjack/codex/automated-video-20260814-1355",
+          "date": "2026-08-14T05:09:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ebb772fc5865956d1fe965eca87f112b38aa06ee"
+        },
+        {
+          "sha": "1df0fb4",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-14T05:09:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1df0fb40011d984a21b3409cec5c1c36a3f91e25"
+        },
+        {
           "sha": "9ff5e7e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T04:54:20Z",
@@ -11087,21 +11105,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T01:56:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/69b83c6f34f2b54edc73f170ae3821603950f307"
-        },
-        {
-          "sha": "2b8cb5a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T00:40:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2b8cb5a5be3be1d0d03861c16c0ce02b4c3f0140"
-        },
-        {
-          "sha": "512c937",
-          "message": "Merge pull request #84 from syunnjack/codex/automated-video-20260814-0856",
-          "date": "2026-08-14T00:07:19Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/512c937235ecdedb202281580528820ae49a3018"
         }
       ],
-      "updatedAt": "2026-08-14T04:54:28Z",
+      "updatedAt": "2026-08-14T05:09:50Z",
       "stars": 0,
       "forks": 0
     },
