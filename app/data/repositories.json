@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T13:46:43.110Z",
+  "generatedAt": "2026-08-14T14:36:16.622Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 164,
@@ -34,20 +34,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "4fd99d7",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:25Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/4fd99d7c675d8c8a611f3a91c8c57d09782accf5"
+        },
         {
           "sha": "9c98c85",
           "message": "Turn landing page into a working quiz app with 402 questions",
@@ -113,15 +109,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:55:49Z",
           "url": "https://github.com/syunnjack/ai-quiz-study/commit/0df3b41bcfe3fd9f83b198153637d46ba742700d"
-        },
-        {
-          "sha": "95e498c",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:04:57Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/95e498c69159c8c87866125255084542e8220cbf"
         }
       ],
-      "updatedAt": "2026-08-10T22:33:37Z",
+      "updatedAt": "2026-08-14T13:59:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -424,26 +414,22 @@
       "slug": "anchor-suggest-search",
       "name": "anchor-suggest-search",
       "displayName": "Anchor Suggest Search",
-      "description": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Anchor Suggest Searchは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Anchor Suggest Searchは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Anchor Suggest Searchは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/anchor-suggest-search",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "2c8a0e2",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:33Z",
+          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/2c8a0e2058a3c9077b2f9155163a5418c72dfd18"
+        },
         {
           "sha": "cd1b7a2",
           "message": "seo: add Sitemap to robots.txt",
@@ -511,7 +497,7 @@
           "url": "https://github.com/syunnjack/anchor-suggest-search/commit/b984102d1c0578b4e73a5030a89f03546d1e0169"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:00Z",
+      "updatedAt": "2026-08-14T13:59:51Z",
       "stars": 0,
       "forks": 0
     },
@@ -799,20 +785,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "2e8e36f",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:37Z",
+          "url": "https://github.com/syunnjack/bowling-lane-alert/commit/2e8e36f84eb4f49a3ef22ba26dbb18a95d0509de"
+        },
         {
           "sha": "c03f2a0",
           "message": "seo: add Sitemap to robots.txt",
@@ -868,7 +850,7 @@
           "url": "https://github.com/syunnjack/bowling-lane-alert/commit/08e565a0597a50e1dd140a1a0a108e1031cf8d5a"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:33Z",
+      "updatedAt": "2026-08-14T14:00:04Z",
       "stars": 0,
       "forks": 0
     },
@@ -876,26 +858,22 @@
       "slug": "bowling-score-hub",
       "name": "bowling-score-hub",
       "displayName": "Bowling Score Hub",
-      "description": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Bowling Score Hubは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Bowling Score Hubは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Bowling Score Hubは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/bowling-score-hub",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "e76fcf0",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:32Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/e76fcf0da8825270c1d6cd2bc18437696c9f3615"
+        },
         {
           "sha": "f380853",
           "message": "seo: add IndexNow key file",
@@ -961,15 +939,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:55:58Z",
           "url": "https://github.com/syunnjack/bowling-score-hub/commit/19209a1937d063ec33781f19093116f5a4a5849f"
-        },
-        {
-          "sha": "aad6e10",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:14Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/aad6e10fb0a5ad9fd9d41aa26a481ba57e179051"
         }
       ],
-      "updatedAt": "2026-08-10T21:10:50Z",
+      "updatedAt": "2026-08-14T13:59:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -2068,11 +2040,14 @@
       "languages": [
         "HTML"
       ],
-      "files": [
-        "index.html",
-        "robots.txt"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "986f896",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:24Z",
+          "url": "https://github.com/syunnjack/domain-safety-checker/commit/986f896d40254fa811f2cb8f5018ab4c1753c253"
+        },
         {
           "sha": "5f0f95e",
           "message": "feat: ドメイン安全チェッカー完全実装（DNS/RDAP/SSL/ブラックリスト/年齢/SEO・スコア表示）",
@@ -2086,7 +2061,7 @@
           "url": "https://github.com/syunnjack/domain-safety-checker/commit/831ebb432872630b9daf17443ed878dc615c43d7"
         }
       ],
-      "updatedAt": "2026-08-11T18:46:59Z",
+      "updatedAt": "2026-08-14T13:59:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -3572,20 +3547,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "7f15681",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:43Z",
+          "url": "https://github.com/syunnjack/golf-slot-watch/commit/7f156814f8f9cbdac73eec6365f381c00e96a70e"
+        },
         {
           "sha": "8c7e592",
           "message": "seo: add Sitemap to robots.txt",
@@ -3647,7 +3618,7 @@
           "url": "https://github.com/syunnjack/golf-slot-watch/commit/edf88ed9fefc65ebd854b05de1a61aa6d9d31e46"
         }
       ],
-      "updatedAt": "2026-08-10T21:07:54Z",
+      "updatedAt": "2026-08-14T14:00:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -3655,27 +3626,22 @@
       "slug": "gyosei-quiz-one",
       "name": "gyosei-quiz-one",
       "displayName": "Gyosei Quiz One",
-      "description": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gyosei Quiz Oneは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/gyosei-quiz-one",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "robots.txt",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "1f004ab",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:30Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/1f004ab517ee3c11cf4338e4447161ce5f02df88"
+        },
         {
           "sha": "89472bc",
           "message": "seo: add Sitemap to robots.txt",
@@ -3725,7 +3691,7 @@
           "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/473dc9beadf4dda743f53a6d32f3470c626bb525"
         }
       ],
-      "updatedAt": "2026-08-10T21:10:30Z",
+      "updatedAt": "2026-08-14T13:59:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -4077,20 +4043,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "22242c6",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:45Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/22242c6a7e13acf6d772b309014f531504cb7266"
+        },
         {
           "sha": "77b7ebd",
           "message": "feat: add sitemap.xml for SEO",
@@ -4146,7 +4108,7 @@
           "url": "https://github.com/syunnjack/hotel-price-watch/commit/7ffdd82dd6be09e6dbd700f97e201f7b59106f61"
         }
       ],
-      "updatedAt": "2026-08-10T20:30:00Z",
+      "updatedAt": "2026-08-14T13:59:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -5700,20 +5662,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "2d99ca8",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:28Z",
+          "url": "https://github.com/syunnjack/local-board-plus/commit/2d99ca88140eef3e773ad48043acf46252ac8eb9"
+        },
         {
           "sha": "1a10881",
           "message": "seo: add Sitemap to robots.txt",
@@ -5775,7 +5733,7 @@
           "url": "https://github.com/syunnjack/local-board-plus/commit/9539cd0fda48b6066cb8744a02ea94d4f835bc3a"
         }
       ],
-      "updatedAt": "2026-08-10T21:11:31Z",
+      "updatedAt": "2026-08-14T13:59:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -6686,20 +6644,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "40dc88d",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:34Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/40dc88dc724f2f4d351021f6f5a9682de74e5bf1"
+        },
         {
           "sha": "644a4df",
           "message": "seo: add Sitemap to robots.txt",
@@ -6761,7 +6715,7 @@
           "url": "https://github.com/syunnjack/my-dartslive/commit/40fdd5260717831fbccf7e32df795ca8fa21f871"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:57Z",
+      "updatedAt": "2026-08-14T13:59:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -6864,20 +6818,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "0b16baa",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:27Z",
+          "url": "https://github.com/syunnjack/niche-compare-hub/commit/0b16baa22ae1691fe228422b08535e4627c86d99"
+        },
         {
           "sha": "03fa24b",
           "message": "seo: add Sitemap to robots.txt",
@@ -6939,7 +6889,7 @@
           "url": "https://github.com/syunnjack/niche-compare-hub/commit/fc40532a796c1ac74b7fd2f6d3dfabe19af342b5"
         }
       ],
-      "updatedAt": "2026-08-10T21:07:46Z",
+      "updatedAt": "2026-08-14T13:59:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -7113,20 +7063,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "b1d32dd",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:38Z",
+          "url": "https://github.com/syunnjack/open-close-radar/commit/b1d32ddb78f3fc5bc807c307cb151166444ebb29"
+        },
         {
           "sha": "8963120",
           "message": "seo: add Sitemap to robots.txt",
@@ -7182,7 +7128,7 @@
           "url": "https://github.com/syunnjack/open-close-radar/commit/aff3fd6649f5f5dd51f28a2492439051c5058bc9"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:20Z",
+      "updatedAt": "2026-08-14T13:59:01Z",
       "stars": 0,
       "forks": 0
     },
@@ -8721,20 +8667,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "CSS",
-        "HTML"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "af38f7e",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:42Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/af38f7ea136ee9517e5da534aa447720961f53aa"
+        },
         {
           "sha": "40724c3",
           "message": "seo: add Sitemap to robots.txt",
@@ -8802,7 +8744,7 @@
           "url": "https://github.com/syunnjack/retro-game-map/commit/a3e44cf330b4d9e1de65717d49a6d838873da0d3"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:23Z",
+      "updatedAt": "2026-08-14T14:00:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -9081,20 +9023,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "bd8f2d9",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:47Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/bd8f2d998da1f07227fbf51cbecf055cb7f9d543"
+        },
         {
           "sha": "88b8dea",
           "message": "seo: add Sitemap to robots.txt",
@@ -9162,7 +9100,7 @@
           "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/9c42c69e5fb2e514b952b002111c7ba86d47ad42"
         }
       ],
-      "updatedAt": "2026-08-10T21:07:33Z",
+      "updatedAt": "2026-08-14T14:00:01Z",
       "stars": 0,
       "forks": 0
     },
@@ -9353,20 +9291,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "8af4f04",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:35Z",
+          "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/8af4f04695753acf529eda62edb13db274b0582a"
+        },
         {
           "sha": "1a42199",
           "message": "seo: add Sitemap to robots.txt",
@@ -9434,7 +9368,7 @@
           "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/e86bf3228aa47465aafb07bed1259e00249669fb"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:59Z",
+      "updatedAt": "2026-08-14T13:59:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -10107,20 +10041,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "8cf5e00",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:44Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/8cf5e00ef5d2c529ba0a787afab73009d2be3a5e"
+        },
         {
           "sha": "275b7a3",
           "message": "seo: add Sitemap to robots.txt",
@@ -10176,7 +10106,7 @@
           "url": "https://github.com/syunnjack/solo-spot-map/commit/d9dca68bebae4ffbbd240bfc8846b8aac01987e3"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:03Z",
+      "updatedAt": "2026-08-14T13:59:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -10409,20 +10339,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "54f18b1",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:41Z",
+          "url": "https://github.com/syunnjack/study-reminder-ai/commit/54f18b1ac186642529868622695e01e5de82ec5d"
+        },
         {
           "sha": "c77c6bd",
           "message": "seo: add Sitemap to robots.txt",
@@ -10484,7 +10410,7 @@
           "url": "https://github.com/syunnjack/study-reminder-ai/commit/69888a0999ba2f860eb9e4436811583c7574aaa3"
         }
       ],
-      "updatedAt": "2026-08-10T21:09:04Z",
+      "updatedAt": "2026-08-14T13:59:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -10947,26 +10873,22 @@
       "slug": "trip-route-stay",
       "name": "trip-route-stay",
       "displayName": "Trip Route Stay",
-      "description": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Trip Route Stayは、JavaScript、HTML、CSSを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Trip Route Stayは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Trip Route Stayは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/trip-route-stay",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "42d98d9",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:26Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/42d98d91c7649e922feed97d7f941ec2fa856366"
+        },
         {
           "sha": "99dc4d9",
           "message": "seo: add IndexNow key file",
@@ -11032,15 +10954,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T00:34:36Z",
           "url": "https://github.com/syunnjack/trip-route-stay/commit/e17e78470e225c47cd3d55bc0ea0c9c7bba894d0"
-        },
-        {
-          "sha": "efffa09",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:52Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/efffa09c5e2762be3694b88f194a6a9110669d8c"
         }
       ],
-      "updatedAt": "2026-08-10T21:12:06Z",
+      "updatedAt": "2026-08-14T13:59:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -11058,6 +10974,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "166c2ff",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T13:47:16Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/166c2ff38ec501a78c5b90757e1a3376af864db0"
+        },
         {
           "sha": "3ddf518",
           "message": "Update repository articles from GitHub activity",
@@ -11123,15 +11045,9 @@
           "message": "Merge pull request #89 from syunnjack/codex/automated-video-20260814-1859",
           "date": "2026-08-14T10:00:31Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/64f9c3a75687cf89885ee997d5719ac8556d00a9"
-        },
-        {
-          "sha": "8d78be3",
-          "message": "Refresh repository publication data",
-          "date": "2026-08-14T09:59:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8d78be33d2e7470a1c43e6754d94742d5626ec7c"
         }
       ],
-      "updatedAt": "2026-08-14T12:32:06Z",
+      "updatedAt": "2026-08-14T13:48:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -11330,20 +11246,16 @@
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
       "languages": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "JavaScript"
       ],
-      "files": [
-        "README.md",
-        "index.html",
-        "package-lock.json",
-        "package.json",
-        "public",
-        "src",
-        "vite.config.js"
-      ],
+      "files": [],
       "commits": [
+        {
+          "sha": "0b103f0",
+          "message": "Add MIT license",
+          "date": "2026-08-14T13:58:29Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/0b103f0cf4629ac008134a496ac1b044b6563cd2"
+        },
         {
           "sha": "9f20ffb",
           "message": "seo: add Sitemap to robots.txt",
@@ -11399,7 +11311,7 @@
           "url": "https://github.com/syunnjack/wait-time-guide/commit/9ea52155d96149ba52b910977aa9e9a8a2c307a2"
         }
       ],
-      "updatedAt": "2026-08-10T21:08:22Z",
+      "updatedAt": "2026-08-14T13:59:58Z",
       "stars": 0,
       "forks": 0
     },
