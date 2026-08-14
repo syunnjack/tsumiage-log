@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs"
 import { resolve } from "node:path"
+import { buildVideoMetadata } from "./video-metadata.mjs"
 
 const repositoryData = JSON.parse(readFileSync(resolve("app/data/repositories.json"), "utf8"))
 const policy = JSON.parse(readFileSync(resolve("app/data/content-policy.json"), "utf8"))
@@ -51,25 +52,20 @@ const videos = repositoryData.articles
     const rendered = ["mp4", "pptx"].every((extension) =>
       existsSync(resolve(assetDirectory, `${article.slug}-tech-preview.${extension}`)),
     )
+    // タイトル・説明文・タグは video-metadata.mjs にまとめている。
+    // 検索されるのはリポジトリ名ではなく技術名なので、そちらを前に出す
+    const meta = buildVideoMetadata(article, index)
     return {
       slug: article.slug,
       repository: article.name,
-      title: `${article.displayName}の技術解説｜設計と実装を75秒で紹介`,
+      title: meta.title,
       description: projectSummary,
       language: languages,
       articleUrl: `https://syunnjack.dev/articles/${article.slug}`,
       repositoryUrl: article.url,
-      youtubeDescription: [
-        "技術ブログ『積み上げログ』は、学び、作り、振り返る開発記録です。GitHubリポジトリの設計、使用技術、コミット履歴から得られた知見を、記事と動画で分かりやすく紹介します。",
-        "",
-        `この記事を読む： https://syunnjack.dev/articles/${article.slug}`,
-        "ブログトップ： https://syunnjack.dev/",
-        `GitHub： ${article.url}`,
-        "",
-        projectSummary,
-        "",
-        `#技術解説 #個人開発 #${article.primaryLanguage.replace(/[^\p{L}\p{N}]/gu, "")}`,
-      ].join("\n"),
+      youtubeDescription: meta.youtubeDescription,
+      tags: meta.tags,
+      playlist: meta.playlist,
       slides: [
         { title: `${article.displayName}の技術解説`, body: "設計・実装・コミットから学ぶ短時間の技術解説" },
         { title: "このプロジェクトは何を解決する？", body: projectSummary },
