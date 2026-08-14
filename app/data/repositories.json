@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T23:28:05.780Z",
+  "generatedAt": "2026-08-13T23:57:26.711Z",
   "owner": "syunnjack",
-  "totalRepositories": 163,
+  "totalRepositories": 297,
   "publicRepositories": 163,
-  "privateRepositories": 0,
+  "privateRepositories": 134,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -6881,7 +6881,7 @@
       "name": "Nostalgia-s",
       "displayName": "Nostalgia S",
       "description": "昭和ノスタルジア 昭和の暮らしの手ざわりを書き留め、その名残がいまも残る全国のレトロスポットをたどる静的サイトです",
-      "readmeExcerpt": "昭和ノスタルジア 昭和の暮らしの手ざわりを書き留め、その名残がいまも残る全国のレトロスポットをたどる静的サイトです。 読み物：暮らし・遊び・味・街・音の5つの入口から、書き下ろしの記録 全国のレトロスポット：銭湯、純喫茶、ゲームセンター、駄菓子屋、商店街、横丁、市場、レトロ資料館、映画館を都道府県別・種類別に収録 昭和年表：昭和元年（1926年）から昭和64年（1989年）まで 構成 Astro による静的生成サイトです。全ページがビルド時にHTMLとして組み上がるため、 検索エンジンにも読み上げ環境にも本文がそのまま届きます。 閲覧時に動くJavaScriptは、画面の時間帯（昼／夕暮れ）を切り替える処理だけです。 開発 astro.config.mjs の site と base は環境変数で差し替えられます。 GitHub Pages のプロジェクトページ以外に置く場合は次のように指定します。 スポットデータの更新 都道府県ごとに Overpass API へ問い合わせ、 src/data/spots.json を書き出します。 取得結果は .cache/overpass/ に県別・パート別で残るため、 途中で失敗しても再実行すれば不足分だけを取り直します。 Overpass 側の負荷制限が厳しく、1回の実行に数時間かかることがあります。 User Agent を送らないと 406 で弾かれる点、名前の正規表現だけで走査するクエリは 504 になりやすい点に注意してください（どちらも対処済みです）。 データの出典 スポットの名称・所在地・座標は OpenStreetMap https://www.openstreetmap.org/ を出典としています。 著作権表示：© OpenStreetMap contributors ライセンス： Open Database License ODbL 1.0 https://opendatacommons.org/licenses/odbl/1 0/ 機械的な抽出のため、閉業した店が残っていたり、現役の店が漏れていたりします",
+      "readmeExcerpt": "昭和ノスタルジア 昭和の暮らしの手ざわりを書き留め、その名残がいまも残る全国のレトロスポットをたどる静的サイトです。 読み物：暮らし・遊び・味・街・音の5つの入口から、書き下ろしの記録 全国のレトロスポット：銭湯、純喫茶、ゲームセンター、駄菓子屋、商店街、横丁、市場、レトロ資料館、映画館を都道府県別・種類別に収録 昭和年表：昭和元年（1926年）から昭和64年（1989年）まで 構成 Astro による静的生成サイトです。全ページがビルド時にHTMLとして組み上がるため、 検索エンジンにも読み上げ環境にも本文がそのまま届きます。 閲覧時に動くJavaScriptは、画面の時間帯（昼／夕暮れ）を切り替える処理だけです。 開発 npm run build の前に scripts/build og.mjs が走り、 public/ogp.png を生成します。 生成物なのでリポジトリには含めていません。 日本語グリフはCI環境にフォントがある保証がないため、この画像の文字は ラテン文字だけに絞り、和の要素は図形（煙突・湯気・朱の縦罫）で表しています。 astro.config.mjs の site と base は環境変数で差し替えられます。 GitHub Pages のプロジェクトページ以外に置く場合は次のように指定します。 スポットデータの更新 都道府県ごとに Overpass API へ問い合わせ、 src/data/spots.json を書き出します。 取得結果は .cache/overpass/ に県別・パート別で残るため、 途中で失敗しても再実行すれば不足分だけを取り直します。 Overpass 側の負荷制限が厳しく、1回の実行に数時間かかることがあります。 User Agent を送らないと 406 で弾かれる点、名前の正規表現だけで走査するクエリは 504 になりやすい点に注意してください（どちらも対処済みです）。 取得と組み立ては分かれています。 fetch osm spots.mjs は .cache/overpass/ に 貯めるだけで、 build ",
       "url": "https://github.com/syunnjack/Nostalgia-s",
       "defaultBranch": "main",
       "primaryLanguage": "Astro",
@@ -6890,6 +6890,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "23bf117",
+          "message": "OGP画像を生成し、スポットデータの月次更新を自動化する",
+          "date": "2026-08-13T23:34:12Z",
+          "url": "https://github.com/syunnjack/Nostalgia-s/commit/23bf117cedae38bdebed8df9d542a4ccfc6ffae9"
+        },
         {
           "sha": "2399f6b",
           "message": "全国47都道府県のレトロスポット14,026件を収録する",
@@ -6915,7 +6921,7 @@
           "url": "https://github.com/syunnjack/Nostalgia-s/commit/bab3c27d31d03e3c179b0994ed91f0e6a4757f6f"
         }
       ],
-      "updatedAt": "2026-08-13T16:57:09Z",
+      "updatedAt": "2026-08-13T23:34:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -10986,6 +10992,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "0a04ae9",
+          "message": "Merge profile content into about section (#83)",
+          "date": "2026-08-13T23:41:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0a04ae9ec706b62b0ed19a06a9fed036d7251776"
+        },
+        {
+          "sha": "cac4f12",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-13T23:28:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cac4f1298598c9563d8933daeab11f0dd1e7d75d"
+        },
+        {
           "sha": "c1c5aea",
           "message": "Update repository counts after privacy review (#82)",
           "date": "2026-08-13T23:10:48Z",
@@ -11044,21 +11062,9 @@
           "message": "Merge pull request #77 from syunnjack/codex/automated-video-20260814-0610",
           "date": "2026-08-13T21:09:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8cc46d9a8070f098d010a25ab45b07f20ef211b4"
-        },
-        {
-          "sha": "deced99",
-          "message": "Publish mari-car repository video",
-          "date": "2026-08-13T21:08:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/deced995f5b91b45e18e11c310fd51f2e116f91a"
-        },
-        {
-          "sha": "6af0a11",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T20:28:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6af0a11a7cdf69511d3b7a5365235930868f21a8"
         }
       ],
-      "updatedAt": "2026-08-13T23:10:58Z",
+      "updatedAt": "2026-08-13T23:41:05Z",
       "stars": 0,
       "forks": 0
     },
