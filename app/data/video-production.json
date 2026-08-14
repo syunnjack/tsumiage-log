@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T01:55:30.238Z",
+  "generatedAt": "2026-08-14T04:28:42.978Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 1,
+  "queuedCount": 0,
   "videos": [
     {
       "slug": "ai-quiz-study",
@@ -1417,9 +1417,9 @@
         }
       ],
       "publishAt": "2026-08-30T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/ec-price-tracker-lite-/ec-price-tracker-lite--tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/ec-price-tracker-lite-/ec-price-tracker-lite--tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Ec Price Tracker Liteの技術構成を短く解説します。",
