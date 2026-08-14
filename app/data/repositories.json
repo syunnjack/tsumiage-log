@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T03:09:12.908Z",
+  "generatedAt": "2026-08-14T03:57:01.714Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 164,
@@ -2261,6 +2261,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "bcd2214",
+          "message": "Excelレポートの列幅計算を全角対応し、見出しを日本語化",
+          "date": "2026-08-14T03:55:06Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/bcd2214db7a8967bba08f6d355c40f6ea4d065d6"
+        },
+        {
           "sha": "0c85f0e",
           "message": "リポジトリURLを実際のものに更新",
           "date": "2026-08-14T00:39:09Z",
@@ -2273,7 +2279,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
         }
       ],
-      "updatedAt": "2026-08-14T00:39:14Z",
+      "updatedAt": "2026-08-14T03:55:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -11023,6 +11029,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3bcc5f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T03:09:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3bcc5f5680315975ae80d3448994efe318a5b411"
+        },
+        {
           "sha": "69b83c6",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T01:56:00Z",
@@ -11087,15 +11099,9 @@
           "message": "Fix automated video queue count (#79)",
           "date": "2026-08-13T22:47:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b167afc680949bb84fe864400ce82e243f0617af"
-        },
-        {
-          "sha": "317c300",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T22:28:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/317c30007050503e2f0f5ba0b217c05ae2cabc5a"
         }
       ],
-      "updatedAt": "2026-08-14T01:56:05Z",
+      "updatedAt": "2026-08-14T03:09:41Z",
       "stars": 0,
       "forks": 0
     },
