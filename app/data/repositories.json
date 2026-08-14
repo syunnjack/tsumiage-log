@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:45:44.262Z",
+  "generatedAt": "2026-08-14T10:13:28.267Z",
   "owner": "syunnjack",
   "totalRepositories": 300,
   "publicRepositories": 164,
@@ -2261,6 +2261,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c0f3168",
+          "message": "README: ココナラのカスタマイズ開発窓口を追加",
+          "date": "2026-08-14T10:00:39Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/c0f3168f413979decdca4354801eb92120b83118"
+        },
+        {
           "sha": "9d05d90",
           "message": "README: BOOTH配布パッケージのURLを反映",
           "date": "2026-08-14T05:57:35Z",
@@ -2291,7 +2297,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
         }
       ],
-      "updatedAt": "2026-08-14T05:57:46Z",
+      "updatedAt": "2026-08-14T10:00:55Z",
       "stars": 0,
       "forks": 0
     },
@@ -11041,6 +11047,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "64f9c3a",
+          "message": "Merge pull request #89 from syunnjack/codex/automated-video-20260814-1859",
+          "date": "2026-08-14T10:00:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/64f9c3a75687cf89885ee997d5719ac8556d00a9"
+        },
+        {
+          "sha": "8d78be3",
+          "message": "Refresh repository publication data",
+          "date": "2026-08-14T09:59:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8d78be33d2e7470a1c43e6754d94742d5626ec7c"
+        },
+        {
           "sha": "a4c2514",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T09:38:55Z",
@@ -11099,21 +11117,9 @@
           "message": "chore: refresh repository articles and videos",
           "date": "2026-08-14T05:09:23Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1df0fb40011d984a21b3409cec5c1c36a3f91e25"
-        },
-        {
-          "sha": "9ff5e7e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T04:54:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ff5e7e79850261e7fccce101320fe4f4af23672"
-        },
-        {
-          "sha": "ed16e94",
-          "message": "Merge pull request #86 from syunnjack/codex/automated-video-20260814-1015",
-          "date": "2026-08-14T04:38:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ed16e9427c6884154c5e03b3bf9087d795f48117"
         }
       ],
-      "updatedAt": "2026-08-14T09:39:20Z",
+      "updatedAt": "2026-08-14T10:00:58Z",
       "stars": 0,
       "forks": 0
     },
