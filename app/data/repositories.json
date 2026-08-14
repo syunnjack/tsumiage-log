@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:35:16.965Z",
+  "generatedAt": "2026-08-14T20:26:27.753Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 164,
@@ -334,6 +334,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "09eadf9",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-14T20:22:17Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/09eadf9dbb039f18e1adc0c9b6fbab1273353170"
+        },
+        {
           "sha": "1d329f8",
           "message": "Refresh bowling event data",
           "date": "2026-08-13T20:25:01Z",
@@ -398,15 +404,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-09T04:54:27Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/78b1a80eacc75694e2f0425b1860ebaf3c39d554"
-        },
-        {
-          "sha": "2770998",
-          "message": "Expand to all 47 prefectures with real, verified venues",
-          "date": "2026-08-09T04:49:41Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/2770998d181d7206e278292561e3bee123dbee3c"
         }
       ],
-      "updatedAt": "2026-08-13T20:25:07Z",
+      "updatedAt": "2026-08-14T20:22:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -10975,6 +10975,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fd63451",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T19:35:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fd63451933208ef60cebdeacb70d9fb44dbbf772"
+        },
+        {
           "sha": "7a77cb6",
           "message": "Merge pull request #93 from syunnjack/codex/automated-video-20260815-040016",
           "date": "2026-08-14T19:00:40Z",
@@ -11039,15 +11045,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T12:31:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/3ddf5180db66fc261830c73317dadbc888f4cb34"
-        },
-        {
-          "sha": "8ae027a",
-          "message": "毎日4本ずつ投稿するワークフローを追加する",
-          "date": "2026-08-14T12:28:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8ae027a6c15e2c4f993f78955d581d06bf095b75"
         }
       ],
-      "updatedAt": "2026-08-14T19:01:03Z",
+      "updatedAt": "2026-08-14T19:36:00Z",
       "stars": 0,
       "forks": 0
     },
