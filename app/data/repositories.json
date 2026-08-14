@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T06:01:19.539Z",
+  "generatedAt": "2026-08-14T06:46:20.752Z",
   "owner": "syunnjack",
-  "totalRepositories": 300,
+  "totalRepositories": 164,
   "publicRepositories": 164,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -11041,6 +11041,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "782b82a",
+          "message": "Merge pull request #88 from syunnjack/codex/automated-video-20260814-1456",
+          "date": "2026-08-14T06:06:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/782b82a6c5a54eddc672507dd13a1a7dec91864d"
+        },
+        {
+          "sha": "0a18bd3",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-14T06:06:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0a18bd31b360c007228b1cee07619d0cb49b73b9"
+        },
+        {
           "sha": "927c37a",
           "message": "動画のタイトルと説明文を検索と要約に耐える内容に作り直す",
           "date": "2026-08-14T05:51:55Z",
@@ -11099,21 +11111,9 @@
           "message": "Merge pull request #85 from syunnjack/codex/automated-video-20260814-0930",
           "date": "2026-08-14T04:34:07Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c9575363ce816c696855dd1a4058739e6f3fa4ab"
-        },
-        {
-          "sha": "3ef39b2",
-          "message": "publish ec-price-tracker-lite video",
-          "date": "2026-08-14T04:33:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3ef39b2a583121f8ed4cf1c9b4324936d090a533"
-        },
-        {
-          "sha": "c5d9444",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T03:57:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c5d94443b8e4e6c002cb399de50150492ba02b63"
         }
       ],
-      "updatedAt": "2026-08-14T05:52:21Z",
+      "updatedAt": "2026-08-14T06:06:42Z",
       "stars": 0,
       "forks": 0
     },
