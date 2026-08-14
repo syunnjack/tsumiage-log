@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T22:56:02.865Z",
+  "generatedAt": "2026-08-14T23:24:34.521Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 0,
+  "queuedCount": 1,
   "videos": [
     {
       "slug": "ai-quiz-study",
@@ -6216,6 +6216,67 @@
       ]
     },
     {
+      "slug": "rakuten-blogtool",
+      "repository": "rakuten-blogtool",
+      "title": "JavaScriptで作ったRakuten Blogtool｜構成とコミット履歴を75秒で解説",
+      "description": "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです",
+      "language": "JavaScript",
+      "articleUrl": "https://syunnjack.dev/articles/rakuten-blogtool",
+      "repositoryUrl": "https://github.com/syunnjack/rakuten-blogtool",
+      "youtubeDescription": "Rakuten Blogtoolは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rakuten Blogtoolがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rakuten-blogtool\nソースコード（GitHub）： https://github.com/syunnjack/rakuten-blogtool\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "tags": [
+        "個人開発",
+        "技術解説",
+        "プログラミング",
+        "ソースコード",
+        "GitHub",
+        "開発記録",
+        "JavaScript",
+        "Rakuten Blogtool",
+        "JavaScript 個人開発"
+      ],
+      "playlist": "JavaScriptの個人開発",
+      "slides": [
+        {
+          "title": "Rakuten Blogtoolの技術解説",
+          "body": "設計・実装・コミットから学ぶ短時間の技術解説"
+        },
+        {
+          "title": "このプロジェクトは何を解決する？",
+          "body": "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです"
+        },
+        {
+          "title": "技術スタック",
+          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+        },
+        {
+          "title": "リポジトリの読みどころ",
+          "body": "公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：主要なソースファイル"
+        },
+        {
+          "title": "コミットから分かる改善",
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+        },
+        {
+          "title": "詳しくは積み上げログへ",
+          "body": "記事： https://syunnjack.dev/articles/rakuten-blogtool\n\n学び、作り、振り返る開発記録。"
+        }
+      ],
+      "publishAt": "2026-11-09T01:00:00.000Z",
+      "status": "queued",
+      "localVideoUrl": null,
+      "localPptxUrl": null,
+      "youtubeUrl": null,
+      "narration": [
+        "今回は、Rakuten Blogtoolの技術構成を短く解説します。",
+        "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです",
+        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
+      ]
+    },
+    {
       "slug": "rakuten02",
       "repository": "rakuten02",
       "title": "C#で作ったRakuten02｜構成とコミット履歴を75秒で解説",
@@ -6223,7 +6284,7 @@
       "language": "C#",
       "articleUrl": "https://syunnjack.dev/articles/rakuten02",
       "repositoryUrl": "https://github.com/syunnjack/rakuten02",
-      "youtubeDescription": "Rakuten02は、C#で作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rakuten02がどんな技術で組まれているか（C#）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rakuten02\nソースコード（GitHub）： https://github.com/syunnjack/rakuten02\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #C #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Rakuten02は、C#で作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rakuten02がどんな技術で組まれているか（C#）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rakuten02\nソースコード（GitHub）： https://github.com/syunnjack/rakuten02\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #C #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6262,7 +6323,7 @@
           "body": "記事： https://syunnjack.dev/articles/rakuten02\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-09T01:00:00.000Z",
+      "publishAt": "2026-11-10T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/rakuten02/rakuten02-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/rakuten02/rakuten02-tech-preview.pptx",
@@ -6284,7 +6345,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/ranking-vote-hub",
       "repositoryUrl": "https://github.com/syunnjack/ranking-vote-hub",
-      "youtubeDescription": "Ranking Vote Hubは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ranking Vote Hubがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ranking-vote-hub\nソースコード（GitHub）： https://github.com/syunnjack/ranking-vote-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Ranking Vote Hubは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ranking Vote Hubがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ranking-vote-hub\nソースコード（GitHub）： https://github.com/syunnjack/ranking-vote-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6325,7 +6386,7 @@
           "body": "記事： https://syunnjack.dev/articles/ranking-vote-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-10T01:00:00.000Z",
+      "publishAt": "2026-11-11T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ranking-vote-hub/ranking-vote-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ranking-vote-hub/ranking-vote-hub-tech-preview.pptx",
@@ -6347,7 +6408,7 @@
       "language": "TypeScript・JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/ranking-widget-hub",
       "repositoryUrl": "https://github.com/syunnjack/ranking-widget-hub",
-      "youtubeDescription": "Ranking Widget Hubは、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ranking Widget Hubがどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、build）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ranking-widget-hub\nソースコード（GitHub）： https://github.com/syunnjack/ranking-widget-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Ranking Widget Hubは、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ranking Widget Hubがどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、build）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ranking-widget-hub\nソースコード（GitHub）： https://github.com/syunnjack/ranking-widget-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6387,7 +6448,7 @@
           "body": "記事： https://syunnjack.dev/articles/ranking-widget-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-11T01:00:00.000Z",
+      "publishAt": "2026-11-12T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ranking-widget-hub/ranking-widget-hub-tech-preview.pptx",
@@ -6409,7 +6470,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/rc-course-alert",
       "repositoryUrl": "https://github.com/syunnjack/rc-course-alert",
-      "youtubeDescription": "Rc Course Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rc Course Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rc-course-alert\nソースコード（GitHub）： https://github.com/syunnjack/rc-course-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Rc Course Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rc Course Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rc-course-alert\nソースコード（GitHub）： https://github.com/syunnjack/rc-course-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6450,7 +6511,7 @@
           "body": "記事： https://syunnjack.dev/articles/rc-course-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-12T01:00:00.000Z",
+      "publishAt": "2026-11-13T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/rc-course-alert/rc-course-alert-tech-preview.pptx",
@@ -6472,7 +6533,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/rc-course-finder",
       "repositoryUrl": "https://github.com/syunnjack/rc-course-finder",
-      "youtubeDescription": "Rc Course Finderは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rc Course Finderがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rc-course-finder\nソースコード（GitHub）： https://github.com/syunnjack/rc-course-finder\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Rc Course Finderは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Rc Course Finderがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/rc-course-finder\nソースコード（GitHub）： https://github.com/syunnjack/rc-course-finder\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6513,7 +6574,7 @@
           "body": "記事： https://syunnjack.dev/articles/rc-course-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-13T01:00:00.000Z",
+      "publishAt": "2026-11-14T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/rc-course-finder/rc-course-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/rc-course-finder/rc-course-finder-tech-preview.pptx",
@@ -6535,7 +6596,7 @@
       "language": "JavaScript・CSS・HTML",
       "articleUrl": "https://syunnjack.dev/articles/receipt-jp",
       "repositoryUrl": "https://github.com/syunnjack/receipt-jp",
-      "youtubeDescription": "Receipt Jpは、JavaScript・CSS・HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Receipt Jpがどんな技術で組まれているか（JavaScript・CSS・HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、client、server）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/receipt-jp\nソースコード（GitHub）： https://github.com/syunnjack/receipt-jp\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Receipt Jpは、JavaScript・CSS・HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Receipt Jpがどんな技術で組まれているか（JavaScript・CSS・HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、client、server）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/receipt-jp\nソースコード（GitHub）： https://github.com/syunnjack/receipt-jp\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6576,7 +6637,7 @@
           "body": "記事： https://syunnjack.dev/articles/receipt-jp\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-14T01:00:00.000Z",
+      "publishAt": "2026-11-15T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/receipt-jp/receipt-jp-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/receipt-jp/receipt-jp-tech-preview.pptx",
@@ -6598,7 +6659,7 @@
       "language": "TypeScript・JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/reservation-waiting-time-v1",
       "repositoryUrl": "https://github.com/syunnjack/reservation-waiting-time-v1",
-      "youtubeDescription": "Reservation Waiting Time V1は、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reservation Waiting Time V1がどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、build）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reservation-waiting-time-v1\nソースコード（GitHub）： https://github.com/syunnjack/reservation-waiting-time-v1\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Reservation Waiting Time V1は、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reservation Waiting Time V1がどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、build）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reservation-waiting-time-v1\nソースコード（GitHub）： https://github.com/syunnjack/reservation-waiting-time-v1\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6638,7 +6699,7 @@
           "body": "記事： https://syunnjack.dev/articles/reservation-waiting-time-v1\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-15T01:00:00.000Z",
+      "publishAt": "2026-11-16T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/reservation-waiting-time-v1/reservation-waiting-time-v1-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/reservation-waiting-time-v1/reservation-waiting-time-v1-tech-preview.pptx",
@@ -6660,7 +6721,7 @@
       "language": "TypeScript・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/reserve-serapi",
       "repositoryUrl": "https://github.com/syunnjack/reserve-serapi",
-      "youtubeDescription": "Reserve Serapiは、TypeScript・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reserve Serapiがどんな技術で組まれているか（TypeScript・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、components）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reserve-serapi\nソースコード（GitHub）： https://github.com/syunnjack/reserve-serapi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Reserve Serapiは、TypeScript・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reserve Serapiがどんな技術で組まれているか（TypeScript・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、components）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reserve-serapi\nソースコード（GitHub）： https://github.com/syunnjack/reserve-serapi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6723,7 +6784,7 @@
       "language": "TypeScript・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/reserve-sys",
       "repositoryUrl": "https://github.com/syunnjack/reserve-sys",
-      "youtubeDescription": "Reserve Sysは、TypeScript・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reserve Sysがどんな技術で組まれているか（TypeScript・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、eslint.config.mjs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reserve-sys\nソースコード（GitHub）： https://github.com/syunnjack/reserve-sys\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Reserve Sysは、TypeScript・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Reserve Sysがどんな技術で組まれているか（TypeScript・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、eslint.config.mjs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/reserve-sys\nソースコード（GitHub）： https://github.com/syunnjack/reserve-sys\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6764,7 +6825,7 @@
           "body": "記事： https://syunnjack.dev/articles/reserve-sys\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-17T01:00:00.000Z",
+      "publishAt": "2026-11-18T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/reserve-sys/reserve-sys-tech-preview.pptx",
@@ -6786,7 +6847,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/restaurant-seat-alert",
       "repositoryUrl": "https://github.com/syunnjack/restaurant-seat-alert",
-      "youtubeDescription": "Restaurant Seat Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Restaurant Seat Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/restaurant-seat-alert\nソースコード（GitHub）： https://github.com/syunnjack/restaurant-seat-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Restaurant Seat Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Restaurant Seat Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/restaurant-seat-alert\nソースコード（GitHub）： https://github.com/syunnjack/restaurant-seat-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6827,7 +6888,7 @@
           "body": "記事： https://syunnjack.dev/articles/restaurant-seat-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-18T01:00:00.000Z",
+      "publishAt": "2026-11-19T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/restaurant-seat-alert/restaurant-seat-alert-tech-preview.pptx",
@@ -6849,7 +6910,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-game-map",
       "repositoryUrl": "https://github.com/syunnjack/retro-game-map",
-      "youtubeDescription": "Retro Game Mapは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Game Mapがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-game-map\nソースコード（GitHub）： https://github.com/syunnjack/retro-game-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro Game Mapは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Game Mapがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-game-map\nソースコード（GitHub）： https://github.com/syunnjack/retro-game-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6888,7 +6949,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-game-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-19T01:00:00.000Z",
+      "publishAt": "2026-11-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-game-map/retro-game-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-game-map/retro-game-map-tech-preview.pptx",
@@ -6910,7 +6971,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/retro-game-watch",
       "repositoryUrl": "https://github.com/syunnjack/retro-game-watch",
-      "youtubeDescription": "Retro Game Watchは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Game Watchがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-game-watch\nソースコード（GitHub）： https://github.com/syunnjack/retro-game-watch\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro Game Watchは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Game Watchがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-game-watch\nソースコード（GitHub）： https://github.com/syunnjack/retro-game-watch\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -6951,7 +7012,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-game-watch\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-20T01:00:00.000Z",
+      "publishAt": "2026-11-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-game-watch/retro-game-watch-tech-preview.pptx",
@@ -6973,7 +7034,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/retro-jihanki-live",
       "repositoryUrl": "https://github.com/syunnjack/retro-jihanki-live",
-      "youtubeDescription": "Retro Jihanki Liveは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Jihanki Liveがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-jihanki-live\nソースコード（GitHub）： https://github.com/syunnjack/retro-jihanki-live\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro Jihanki Liveは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro Jihanki Liveがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-jihanki-live\nソースコード（GitHub）： https://github.com/syunnjack/retro-jihanki-live\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7014,7 +7075,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-jihanki-live\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-21T01:00:00.000Z",
+      "publishAt": "2026-11-22T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-jihanki-live/retro-jihanki-live-tech-preview.pptx",
@@ -7036,7 +7097,7 @@
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-new-games",
       "repositoryUrl": "https://github.com/syunnjack/retro-new-games",
-      "youtubeDescription": "Retro New Gamesは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Gamesがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro New Gamesは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Gamesがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7075,7 +7136,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-new-games\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-22T01:00:00.000Z",
+      "publishAt": "2026-11-23T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-new-games/retro-new-games-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-new-games/retro-new-games-tech-preview.pptx",
@@ -7097,7 +7158,7 @@
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-new-games-api",
       "repositoryUrl": "https://github.com/syunnjack/retro-new-games-api",
-      "youtubeDescription": "Retro New Games Apiは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Games Apiがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games-api\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games-api\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro New Games Apiは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Games Apiがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games-api\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games-api\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7136,7 +7197,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-new-games-api\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-23T01:00:00.000Z",
+      "publishAt": "2026-11-24T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-new-games-api/retro-new-games-api-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-new-games-api/retro-new-games-api-tech-preview.pptx",
@@ -7158,7 +7219,7 @@
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-new-games-app",
       "repositoryUrl": "https://github.com/syunnjack/retro-new-games-app",
-      "youtubeDescription": "Retro New Games Appは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Games Appがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games-app\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games-app\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Retro New Games Appは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Retro New Games Appがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/retro-new-games-app\nソースコード（GitHub）： https://github.com/syunnjack/retro-new-games-app\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7197,7 +7258,7 @@
           "body": "記事： https://syunnjack.dev/articles/retro-new-games-app\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-24T01:00:00.000Z",
+      "publishAt": "2026-11-25T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/retro-new-games-app/retro-new-games-app-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/retro-new-games-app/retro-new-games-app-tech-preview.pptx",
@@ -7219,7 +7280,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/route-delay-stay-alert",
       "repositoryUrl": "https://github.com/syunnjack/route-delay-stay-alert",
-      "youtubeDescription": "Route Delay Stay Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Route Delay Stay Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/route-delay-stay-alert\nソースコード（GitHub）： https://github.com/syunnjack/route-delay-stay-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Route Delay Stay Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Route Delay Stay Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/route-delay-stay-alert\nソースコード（GitHub）： https://github.com/syunnjack/route-delay-stay-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7258,7 +7319,7 @@
           "body": "記事： https://syunnjack.dev/articles/route-delay-stay-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-25T01:00:00.000Z",
+      "publishAt": "2026-11-26T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/route-delay-stay-alert/route-delay-stay-alert-tech-preview.pptx",
@@ -7280,7 +7341,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/route-spot-navi",
       "repositoryUrl": "https://github.com/syunnjack/route-spot-navi",
-      "youtubeDescription": "Route Spot Naviは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Route Spot Naviがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/route-spot-navi\nソースコード（GitHub）： https://github.com/syunnjack/route-spot-navi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Route Spot Naviは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Route Spot Naviがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/route-spot-navi\nソースコード（GitHub）： https://github.com/syunnjack/route-spot-navi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7321,7 +7382,7 @@
           "body": "記事： https://syunnjack.dev/articles/route-spot-navi\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-26T01:00:00.000Z",
+      "publishAt": "2026-11-27T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/route-spot-navi/route-spot-navi-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/route-spot-navi/route-spot-navi-tech-preview.pptx",
@@ -7343,7 +7404,7 @@
       "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/ryoiki-samurai",
       "repositoryUrl": "https://github.com/syunnjack/ryoiki-samurai",
-      "youtubeDescription": "Ryoiki Samuraiは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ryoiki Samuraiがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、app.js、index.html）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ryoiki-samurai\nソースコード（GitHub）： https://github.com/syunnjack/ryoiki-samurai\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Ryoiki Samuraiは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Ryoiki Samuraiがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、app.js、index.html）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/ryoiki-samurai\nソースコード（GitHub）： https://github.com/syunnjack/ryoiki-samurai\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7382,7 +7443,7 @@
           "body": "記事： https://syunnjack.dev/articles/ryoiki-samurai\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-27T01:00:00.000Z",
+      "publishAt": "2026-11-28T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/ryoiki-samurai/ryoiki-samurai-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/ryoiki-samurai/ryoiki-samurai-tech-preview.pptx",
@@ -7404,7 +7465,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/sauna-crowd-alert",
       "repositoryUrl": "https://github.com/syunnjack/sauna-crowd-alert",
-      "youtubeDescription": "Sauna Crowd Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sauna Crowd Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sauna-crowd-alert\nソースコード（GitHub）： https://github.com/syunnjack/sauna-crowd-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Sauna Crowd Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sauna Crowd Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sauna-crowd-alert\nソースコード（GitHub）： https://github.com/syunnjack/sauna-crowd-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7443,7 +7504,7 @@
           "body": "記事： https://syunnjack.dev/articles/sauna-crowd-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-28T01:00:00.000Z",
+      "publishAt": "2026-11-29T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sauna-crowd-alert/sauna-crowd-alert-tech-preview.pptx",
@@ -7465,7 +7526,7 @@
       "language": "Blade・PHP・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/sauna-map",
       "repositoryUrl": "https://github.com/syunnjack/sauna-map",
-      "youtubeDescription": "Sauna Mapは、Blade・PHP・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sauna Mapがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sauna-map\nソースコード（GitHub）： https://github.com/syunnjack/sauna-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Sauna Mapは、Blade・PHP・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sauna Mapがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sauna-map\nソースコード（GitHub）： https://github.com/syunnjack/sauna-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7508,7 +7569,7 @@
           "body": "記事： https://syunnjack.dev/articles/sauna-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-29T01:00:00.000Z",
+      "publishAt": "2026-11-30T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sauna-map/sauna-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sauna-map/sauna-map-tech-preview.pptx",
@@ -7530,7 +7591,7 @@
       "language": "C#",
       "articleUrl": "https://syunnjack.dev/articles/sedora-s",
       "repositoryUrl": "https://github.com/syunnjack/sedora-s",
-      "youtubeDescription": "Sedora Sは、C#で作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sedora Sがどんな技術で組まれているか（C#）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sedora-s\nソースコード（GitHub）： https://github.com/syunnjack/sedora-s\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #C #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Sedora Sは、C#で作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sedora Sがどんな技術で組まれているか（C#）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sedora-s\nソースコード（GitHub）： https://github.com/syunnjack/sedora-s\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #C #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7569,7 +7630,7 @@
           "body": "記事： https://syunnjack.dev/articles/sedora-s\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-11-30T01:00:00.000Z",
+      "publishAt": "2026-12-01T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sedora-s/sedora-s-tech-preview.pptx",
@@ -7591,7 +7652,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/showa-retro-route",
       "repositoryUrl": "https://github.com/syunnjack/showa-retro-route",
-      "youtubeDescription": "Showa Retro Routeは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Showa Retro Routeがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/showa-retro-route\nソースコード（GitHub）： https://github.com/syunnjack/showa-retro-route\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Showa Retro Routeは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Showa Retro Routeがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/showa-retro-route\nソースコード（GitHub）： https://github.com/syunnjack/showa-retro-route\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7632,7 +7693,7 @@
           "body": "記事： https://syunnjack.dev/articles/showa-retro-route\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-01T01:00:00.000Z",
+      "publishAt": "2026-12-02T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/showa-retro-route/showa-retro-route-tech-preview.pptx",
@@ -7654,7 +7715,7 @@
       "language": "Blade・PHP・JavaScript・CSS・Procfile",
       "articleUrl": "https://syunnjack.dev/articles/smoking-area-where",
       "repositoryUrl": "https://github.com/syunnjack/smoking-area-where",
-      "youtubeDescription": "Smoking Area Whereは、Blade・PHP・JavaScript・CSS・Procfileで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Area Whereがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS・Procfile）\n・リポジトリのどこを読むと設計が分かるか（Procfile、README.md、app）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-area-where\nソースコード（GitHub）： https://github.com/syunnjack/smoking-area-where\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Smoking Area Whereは、Blade・PHP・JavaScript・CSS・Procfileで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Area Whereがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS・Procfile）\n・リポジトリのどこを読むと設計が分かるか（Procfile、README.md、app）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-area-where\nソースコード（GitHub）： https://github.com/syunnjack/smoking-area-where\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7698,7 +7759,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-area-where\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-02T01:00:00.000Z",
+      "publishAt": "2026-12-03T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-area-where/smoking-area-where-tech-preview.pptx",
@@ -7720,7 +7781,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/smoking-map-alert",
       "repositoryUrl": "https://github.com/syunnjack/smoking-map-alert",
-      "youtubeDescription": "Smoking Map Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Map Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-map-alert\nソースコード（GitHub）： https://github.com/syunnjack/smoking-map-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Smoking Map Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Map Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-map-alert\nソースコード（GitHub）： https://github.com/syunnjack/smoking-map-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7761,7 +7822,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-map-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-03T01:00:00.000Z",
+      "publishAt": "2026-12-04T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-map-alert/smoking-map-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-map-alert/smoking-map-alert-tech-preview.pptx",
@@ -7783,7 +7844,7 @@
       "language": "TypeScript・JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/smoking-spot-finder",
       "repositoryUrl": "https://github.com/syunnjack/smoking-spot-finder",
-      "youtubeDescription": "Smoking Spot Finderは、TypeScript・JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Spot Finderがどんな技術で組まれているか（TypeScript・JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、eslint.config.mjs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-spot-finder\nソースコード（GitHub）： https://github.com/syunnjack/smoking-spot-finder\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Smoking Spot Finderは、TypeScript・JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Spot Finderがどんな技術で組まれているか（TypeScript・JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、eslint.config.mjs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-spot-finder\nソースコード（GitHub）： https://github.com/syunnjack/smoking-spot-finder\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7825,7 +7886,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-spot-finder\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-04T01:00:00.000Z",
+      "publishAt": "2026-12-05T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-spot-finder/smoking-spot-finder-tech-preview.pptx",
@@ -7847,7 +7908,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/smoking-stay-alert",
       "repositoryUrl": "https://github.com/syunnjack/smoking-stay-alert",
-      "youtubeDescription": "Smoking Stay Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Stay Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-stay-alert\nソースコード（GitHub）： https://github.com/syunnjack/smoking-stay-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Smoking Stay Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Smoking Stay Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/smoking-stay-alert\nソースコード（GitHub）： https://github.com/syunnjack/smoking-stay-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7888,7 +7949,7 @@
           "body": "記事： https://syunnjack.dev/articles/smoking-stay-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-05T01:00:00.000Z",
+      "publishAt": "2026-12-06T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/smoking-stay-alert/smoking-stay-alert-tech-preview.pptx",
@@ -7910,7 +7971,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/solo-spot-map",
       "repositoryUrl": "https://github.com/syunnjack/solo-spot-map",
-      "youtubeDescription": "Solo Spot Mapは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Solo Spot Mapがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/solo-spot-map\nソースコード（GitHub）： https://github.com/syunnjack/solo-spot-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Solo Spot Mapは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Solo Spot Mapがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/solo-spot-map\nソースコード（GitHub）： https://github.com/syunnjack/solo-spot-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -7949,7 +8010,7 @@
           "body": "記事： https://syunnjack.dev/articles/solo-spot-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-06T01:00:00.000Z",
+      "publishAt": "2026-12-07T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/solo-spot-map/solo-spot-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/solo-spot-map/solo-spot-map-tech-preview.pptx",
@@ -7971,7 +8032,7 @@
       "language": "TypeScript・Astro・JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/sosolu-site",
       "repositoryUrl": "https://github.com/syunnjack/sosolu-site",
-      "youtubeDescription": "Sosolu Siteは、TypeScript・Astro・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sosolu Siteがどんな技術で組まれているか（TypeScript・Astro・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、astro.config.mjs、db）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sosolu-site\nソースコード（GitHub）： https://github.com/syunnjack/sosolu-site\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Sosolu Siteは、TypeScript・Astro・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sosolu Siteがどんな技術で組まれているか（TypeScript・Astro・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、astro.config.mjs、db）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sosolu-site\nソースコード（GitHub）： https://github.com/syunnjack/sosolu-site\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8012,7 +8073,7 @@
           "body": "記事： https://syunnjack.dev/articles/sosolu-site\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-07T01:00:00.000Z",
+      "publishAt": "2026-12-08T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sosolu-site/sosolu-site-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sosolu-site/sosolu-site-tech-preview.pptx",
@@ -8034,7 +8095,7 @@
       "language": "Blade・PHP・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/space-map",
       "repositoryUrl": "https://github.com/syunnjack/space-map",
-      "youtubeDescription": "Space Mapは、Blade・PHP・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Space Mapがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/space-map\nソースコード（GitHub）： https://github.com/syunnjack/space-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Space Mapは、Blade・PHP・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Space Mapがどんな技術で組まれているか（Blade・PHP・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/space-map\nソースコード（GitHub）： https://github.com/syunnjack/space-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8077,7 +8138,7 @@
           "body": "記事： https://syunnjack.dev/articles/space-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-08T01:00:00.000Z",
+      "publishAt": "2026-12-09T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/space-map/space-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/space-map/space-map-tech-preview.pptx",
@@ -8099,7 +8160,7 @@
       "language": "PHP・Blade・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/storage-locker-near",
       "repositoryUrl": "https://github.com/syunnjack/storage-locker-near",
-      "youtubeDescription": "Storage Locker Nearは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Storage Locker Nearがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（LINE_SETUP.md、README.md、app）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/storage-locker-near\nソースコード（GitHub）： https://github.com/syunnjack/storage-locker-near\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Storage Locker Nearは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Storage Locker Nearがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（LINE_SETUP.md、README.md、app）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/storage-locker-near\nソースコード（GitHub）： https://github.com/syunnjack/storage-locker-near\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8142,7 +8203,7 @@
           "body": "記事： https://syunnjack.dev/articles/storage-locker-near\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-09T01:00:00.000Z",
+      "publishAt": "2026-12-10T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/storage-locker-near/storage-locker-near-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/storage-locker-near/storage-locker-near-tech-preview.pptx",
@@ -8164,7 +8225,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/study-reminder-ai",
       "repositoryUrl": "https://github.com/syunnjack/study-reminder-ai",
-      "youtubeDescription": "Study Reminder Aiは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Study Reminder Aiがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/study-reminder-ai\nソースコード（GitHub）： https://github.com/syunnjack/study-reminder-ai\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Study Reminder Aiは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Study Reminder Aiがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/study-reminder-ai\nソースコード（GitHub）： https://github.com/syunnjack/study-reminder-ai\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8203,7 +8264,7 @@
           "body": "記事： https://syunnjack.dev/articles/study-reminder-ai\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-10T01:00:00.000Z",
+      "publishAt": "2026-12-11T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/study-reminder-ai/study-reminder-ai-tech-preview.pptx",
@@ -8225,7 +8286,7 @@
       "language": "Blade・PHP・CSS・JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/studylaw-app",
       "repositoryUrl": "https://github.com/syunnjack/studylaw-app",
-      "youtubeDescription": "Studylaw Appは、Blade・PHP・CSS・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Studylaw Appがどんな技術で組まれているか（Blade・PHP・CSS・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/studylaw-app\nソースコード（GitHub）： https://github.com/syunnjack/studylaw-app\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Studylaw Appは、Blade・PHP・CSS・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Studylaw Appがどんな技術で組まれているか（Blade・PHP・CSS・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/studylaw-app\nソースコード（GitHub）： https://github.com/syunnjack/studylaw-app\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8268,7 +8329,7 @@
           "body": "記事： https://syunnjack.dev/articles/studylaw-app\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-11T01:00:00.000Z",
+      "publishAt": "2026-12-12T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/studylaw-app/studylaw-app-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/studylaw-app/studylaw-app-tech-preview.pptx",
@@ -8290,7 +8351,7 @@
       "language": "PHP・Blade・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/subscription-compare",
       "repositoryUrl": "https://github.com/syunnjack/subscription-compare",
-      "youtubeDescription": "Subscription Compareは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Subscription Compareがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/subscription-compare\nソースコード（GitHub）： https://github.com/syunnjack/subscription-compare\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Subscription Compareは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Subscription Compareがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/subscription-compare\nソースコード（GitHub）： https://github.com/syunnjack/subscription-compare\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8333,7 +8394,7 @@
           "body": "記事： https://syunnjack.dev/articles/subscription-compare\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-12T01:00:00.000Z",
+      "publishAt": "2026-12-13T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/subscription-compare/subscription-compare-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/subscription-compare/subscription-compare-tech-preview.pptx",
@@ -8355,7 +8416,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/subsidy-alert-hub",
       "repositoryUrl": "https://github.com/syunnjack/subsidy-alert-hub",
-      "youtubeDescription": "Subsidy Alert Hubは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Subsidy Alert Hubがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/subsidy-alert-hub\nソースコード（GitHub）： https://github.com/syunnjack/subsidy-alert-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Subsidy Alert Hubは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Subsidy Alert Hubがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/subsidy-alert-hub\nソースコード（GitHub）： https://github.com/syunnjack/subsidy-alert-hub\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8396,7 +8457,7 @@
           "body": "記事： https://syunnjack.dev/articles/subsidy-alert-hub\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-13T01:00:00.000Z",
+      "publishAt": "2026-12-14T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/subsidy-alert-hub/subsidy-alert-hub-tech-preview.pptx",
@@ -8418,7 +8479,7 @@
       "language": "JavaScript・CSS・HTML",
       "articleUrl": "https://syunnjack.dev/articles/sukima-insight",
       "repositoryUrl": "https://github.com/syunnjack/sukima-insight",
-      "youtubeDescription": "Sukima Insightは、JavaScript・CSS・HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sukima Insightがどんな技術で組まれているか（JavaScript・CSS・HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、apps、docs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sukima-insight\nソースコード（GitHub）： https://github.com/syunnjack/sukima-insight\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Sukima Insightは、JavaScript・CSS・HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Sukima Insightがどんな技術で組まれているか（JavaScript・CSS・HTML）\n・リポジトリのどこを読むと設計が分かるか（README.md、apps、docs）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/sukima-insight\nソースコード（GitHub）： https://github.com/syunnjack/sukima-insight\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8459,7 +8520,7 @@
           "body": "記事： https://syunnjack.dev/articles/sukima-insight\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-14T01:00:00.000Z",
+      "publishAt": "2026-12-15T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/sukima-insight/sukima-insight-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/sukima-insight/sukima-insight-tech-preview.pptx",
@@ -8481,7 +8542,7 @@
       "language": "TypeScript・JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/togo-kanri-tool",
       "repositoryUrl": "https://github.com/syunnjack/togo-kanri-tool",
-      "youtubeDescription": "Togo Kanri Toolは、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Togo Kanri Toolがどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、components）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/togo-kanri-tool\nソースコード（GitHub）： https://github.com/syunnjack/togo-kanri-tool\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Togo Kanri Toolは、TypeScript・JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Togo Kanri Toolがどんな技術で組まれているか（TypeScript・JavaScript）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、components）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/togo-kanri-tool\nソースコード（GitHub）： https://github.com/syunnjack/togo-kanri-tool\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8521,7 +8582,7 @@
           "body": "記事： https://syunnjack.dev/articles/togo-kanri-tool\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-15T01:00:00.000Z",
+      "publishAt": "2026-12-16T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/togo-kanri-tool/togo-kanri-tool-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/togo-kanri-tool/togo-kanri-tool-tech-preview.pptx",
@@ -8543,7 +8604,7 @@
       "language": "HTML・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/tourism-crowd-parking-alert",
       "repositoryUrl": "https://github.com/syunnjack/tourism-crowd-parking-alert",
-      "youtubeDescription": "Tourism Crowd Parking Alertは、HTML・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Tourism Crowd Parking Alertがどんな技術で組まれているか（HTML・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/tourism-crowd-parking-alert\nソースコード（GitHub）： https://github.com/syunnjack/tourism-crowd-parking-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Tourism Crowd Parking Alertは、HTML・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Tourism Crowd Parking Alertがどんな技術で組まれているか（HTML・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/tourism-crowd-parking-alert\nソースコード（GitHub）： https://github.com/syunnjack/tourism-crowd-parking-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8584,7 +8645,7 @@
           "body": "記事： https://syunnjack.dev/articles/tourism-crowd-parking-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-16T01:00:00.000Z",
+      "publishAt": "2026-12-17T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/tourism-crowd-parking-alert/tourism-crowd-parking-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/tourism-crowd-parking-alert/tourism-crowd-parking-alert-tech-preview.pptx",
@@ -8606,7 +8667,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/trip-route-stay",
       "repositoryUrl": "https://github.com/syunnjack/trip-route-stay",
-      "youtubeDescription": "Trip Route Stayは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Trip Route Stayがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/trip-route-stay\nソースコード（GitHub）： https://github.com/syunnjack/trip-route-stay\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Trip Route Stayは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Trip Route Stayがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/trip-route-stay\nソースコード（GitHub）： https://github.com/syunnjack/trip-route-stay\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8645,7 +8706,7 @@
           "body": "記事： https://syunnjack.dev/articles/trip-route-stay\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-17T01:00:00.000Z",
+      "publishAt": "2026-12-18T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/trip-route-stay/trip-route-stay-tech-preview.pptx",
@@ -8667,7 +8728,7 @@
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/tsumiage-log",
       "repositoryUrl": "https://github.com/syunnjack/tsumiage-log",
-      "youtubeDescription": "Tsumiage Logは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Tsumiage Logがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/tsumiage-log\nソースコード（GitHub）： https://github.com/syunnjack/tsumiage-log\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Tsumiage Logは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Tsumiage Logがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/tsumiage-log\nソースコード（GitHub）： https://github.com/syunnjack/tsumiage-log\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8706,7 +8767,7 @@
           "body": "記事： https://syunnjack.dev/articles/tsumiage-log\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-18T01:00:00.000Z",
+      "publishAt": "2026-12-19T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/tsumiage-log/tsumiage-log-tech-preview.pptx",
@@ -8728,7 +8789,7 @@
       "language": "JavaScript・PLpgSQL・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/vs-jt",
       "repositoryUrl": "https://github.com/syunnjack/vs-jt",
-      "youtubeDescription": "Vs Jtは、JavaScript・PLpgSQL・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Vs Jtがどんな技術で組まれているか（JavaScript・PLpgSQL・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/vs-jt\nソースコード（GitHub）： https://github.com/syunnjack/vs-jt\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Vs Jtは、JavaScript・PLpgSQL・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Vs Jtがどんな技術で組まれているか（JavaScript・PLpgSQL・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/vs-jt\nソースコード（GitHub）： https://github.com/syunnjack/vs-jt\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8770,7 +8831,7 @@
           "body": "記事： https://syunnjack.dev/articles/vs-jt\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-19T01:00:00.000Z",
+      "publishAt": "2026-12-20T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/vs-jt/vs-jt-tech-preview.pptx",
@@ -8792,7 +8853,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/wait-time-alert",
       "repositoryUrl": "https://github.com/syunnjack/wait-time-alert",
-      "youtubeDescription": "Wait Time Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wait Time Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wait-time-alert\nソースコード（GitHub）： https://github.com/syunnjack/wait-time-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Wait Time Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wait Time Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wait-time-alert\nソースコード（GitHub）： https://github.com/syunnjack/wait-time-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8833,7 +8894,7 @@
           "body": "記事： https://syunnjack.dev/articles/wait-time-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-20T01:00:00.000Z",
+      "publishAt": "2026-12-21T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/wait-time-alert/wait-time-alert-tech-preview.pptx",
@@ -8855,7 +8916,7 @@
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/wait-time-guide",
       "repositoryUrl": "https://github.com/syunnjack/wait-time-guide",
-      "youtubeDescription": "Wait Time Guideは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wait Time Guideがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wait-time-guide\nソースコード（GitHub）： https://github.com/syunnjack/wait-time-guide\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Wait Time Guideは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wait Time Guideがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wait-time-guide\nソースコード（GitHub）： https://github.com/syunnjack/wait-time-guide\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8894,7 +8955,7 @@
           "body": "記事： https://syunnjack.dev/articles/wait-time-guide\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-21T01:00:00.000Z",
+      "publishAt": "2026-12-22T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/wait-time-guide/wait-time-guide-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/wait-time-guide/wait-time-guide-tech-preview.pptx",
@@ -8916,7 +8977,7 @@
       "language": "PHP・Blade・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/walkmap",
       "repositoryUrl": "https://github.com/syunnjack/walkmap",
-      "youtubeDescription": "Walkmapは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Walkmapがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/walkmap\nソースコード（GitHub）： https://github.com/syunnjack/walkmap\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Walkmapは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Walkmapがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/walkmap\nソースコード（GitHub）： https://github.com/syunnjack/walkmap\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -8959,7 +9020,7 @@
           "body": "記事： https://syunnjack.dev/articles/walkmap\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-22T01:00:00.000Z",
+      "publishAt": "2026-12-23T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/walkmap/walkmap-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/walkmap/walkmap-tech-preview.pptx",
@@ -8981,7 +9042,7 @@
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/wangan-base",
       "repositoryUrl": "https://github.com/syunnjack/wangan-base",
-      "youtubeDescription": "Wangan Baseは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wangan Baseがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wangan-base\nソースコード（GitHub）： https://github.com/syunnjack/wangan-base\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Wangan Baseは、TypeScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wangan Baseがどんな技術で組まれているか（TypeScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wangan-base\nソースコード（GitHub）： https://github.com/syunnjack/wangan-base\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #TypeScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -9020,7 +9081,7 @@
           "body": "記事： https://syunnjack.dev/articles/wangan-base\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-23T01:00:00.000Z",
+      "publishAt": "2026-12-24T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/wangan-base/wangan-base-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/wangan-base/wangan-base-tech-preview.pptx",
@@ -9042,7 +9103,7 @@
       "language": "PHP・Blade・JavaScript・CSS",
       "articleUrl": "https://syunnjack.dev/articles/wedding-hall-map",
       "repositoryUrl": "https://github.com/syunnjack/wedding-hall-map",
-      "youtubeDescription": "Wedding Hall Mapは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wedding Hall Mapがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wedding-hall-map\nソースコード（GitHub）： https://github.com/syunnjack/wedding-hall-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n同じ構成で作るとしたら、どの部分から手をつけますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Wedding Hall Mapは、PHP・Blade・JavaScript・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Wedding Hall Mapがどんな技術で組まれているか（PHP・Blade・JavaScript・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、app、artisan）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/wedding-hall-map\nソースコード（GitHub）： https://github.com/syunnjack/wedding-hall-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #PHP #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -9085,7 +9146,7 @@
           "body": "記事： https://syunnjack.dev/articles/wedding-hall-map\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-24T01:00:00.000Z",
+      "publishAt": "2026-12-25T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/wedding-hall-map/wedding-hall-map-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/wedding-hall-map/wedding-hall-map-tech-preview.pptx",
@@ -9107,7 +9168,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/welfare-job-alert",
       "repositoryUrl": "https://github.com/syunnjack/welfare-job-alert",
-      "youtubeDescription": "Welfare Job Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Welfare Job Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/welfare-job-alert\nソースコード（GitHub）： https://github.com/syunnjack/welfare-job-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Welfare Job Alertは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Welfare Job Alertがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/welfare-job-alert\nソースコード（GitHub）： https://github.com/syunnjack/welfare-job-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -9148,7 +9209,7 @@
           "body": "記事： https://syunnjack.dev/articles/welfare-job-alert\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-25T01:00:00.000Z",
+      "publishAt": "2026-12-26T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/welfare-job-alert/welfare-job-alert-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/welfare-job-alert/welfare-job-alert-tech-preview.pptx",
@@ -9170,7 +9231,7 @@
       "language": "JavaScript・HTML・CSS",
       "articleUrl": "https://syunnjack.dev/articles/work-bar-navi",
       "repositoryUrl": "https://github.com/syunnjack/work-bar-navi",
-      "youtubeDescription": "Work Bar Naviは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Work Bar Naviがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/work-bar-navi\nソースコード（GitHub）： https://github.com/syunnjack/work-bar-navi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Work Bar Naviは、JavaScript・HTML・CSSで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Work Bar Naviがどんな技術で組まれているか（JavaScript・HTML・CSS）\n・リポジトリのどこを読むと設計が分かるか（README.md、index.html、package-lock.json）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/work-bar-navi\nソースコード（GitHub）： https://github.com/syunnjack/work-bar-navi\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -9211,7 +9272,7 @@
           "body": "記事： https://syunnjack.dev/articles/work-bar-navi\n\n学び、作り、振り返る開発記録。"
         }
       ],
-      "publishAt": "2026-12-26T01:00:00.000Z",
+      "publishAt": "2026-12-27T01:00:00.000Z",
       "status": "rendered",
       "localVideoUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.mp4",
       "localPptxUrl": "/videos/repositories/work-bar-navi/work-bar-navi-tech-preview.pptx",

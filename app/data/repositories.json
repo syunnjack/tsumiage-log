@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T22:56:02.123Z",
+  "generatedAt": "2026-08-14T23:24:34.352Z",
   "owner": "syunnjack",
-  "totalRepositories": 300,
-  "publicRepositories": 165,
-  "privateRepositories": 135,
+  "totalRepositories": 166,
+  "publicRepositories": 166,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -7881,6 +7881,37 @@
       "forks": 0
     },
     {
+      "slug": "rakuten-blogtool",
+      "name": "rakuten-blogtool",
+      "displayName": "Rakuten Blogtool",
+      "description": "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです",
+      "readmeExcerpt": "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです。GitHub Actionsのcronは毎週火・金曜日の日本時間8:17に動きます。 セットアップ 1. 楽天Web ServiceでアプリID・アクセスキーを、楽天アフィリエイトでアフィリエイトIDを取得します。 2. GitHubリポジトリの Settings Secrets and variables Actions に次を登録します。 Secrets: OPENAI API KEY , RAKUTEN APPLICATION ID , RAKUTEN ACCESS KEY , RAKUTEN AFFILIATE ID Variables: SITE URL , ARTICLE KEYWORDS , BLOG NAME , BLOG DESCRIPTION , OPENAI MODEL （任意） 3. Settings Pages Source を GitHub Actions にします。 4. Actionsの Generate and publish article を手動実行し、初回記事を確認します。 ARTICLE KEYWORDS はカンマ区切りです。最も記事数が少ないテーマが選ばれ、同じテーマへの偏りを抑えます。 ローカル確認 .env.example を参考に環境変数を設定してから実行します。 品質・コンプライアンス 楽天APIの商品データ以外の性能や使用体験を創作しないプロンプト JSON Schema、参照商品ID、slug、meta descriptionの自動検証 1回1記事・週2回の公開制限、重複slug防止 rel=\"sponsored nofollow\" 、広告表示、価格変動表示、AI利用開示 Article構造化データ、canonical、sitemap、robots、意味的HTML 自動生成は最終的な正確性を保証しません。公開後の記事とリンク先情報を定期的に人が監査してください。",
+      "url": "https://github.com/syunnjack/rakuten-blogtool",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "a3bf939",
+          "message": "fix-page-canonical-urls",
+          "date": "2026-08-14T22:59:57Z",
+          "url": "https://github.com/syunnjack/rakuten-blogtool/commit/a3bf93997d059c4ed2e2b32e9c21afddeaf227d3"
+        },
+        {
+          "sha": "711f8bc",
+          "message": "feat-rakuten-affiliate-blog",
+          "date": "2026-08-14T22:59:21Z",
+          "url": "https://github.com/syunnjack/rakuten-blogtool/commit/711f8bc6c9773ee82b46e83a8d8c7ffb58ee38b3"
+        }
+      ],
+      "updatedAt": "2026-08-14T23:16:00Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "rakuten02",
       "name": "rakuten02",
       "displayName": "Rakuten02",
@@ -10981,6 +11012,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "ca0f776",
+          "message": "Merge pull request #95 from syunnjack/codex/automated-video-20260815-075628",
+          "date": "2026-08-14T22:56:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ca0f776ff42539463d07f454731c92821be0c73f"
+        },
+        {
+          "sha": "986cf24",
+          "message": "chore: refresh automated article and video metadata",
+          "date": "2026-08-14T22:56:28Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/986cf24ab62d3ff46cddfee367f71b47d9daeda1"
+        },
+        {
           "sha": "e7f733c",
           "message": "Merge pull request #94 from syunnjack/codex/automated-video-20260815-072931",
           "date": "2026-08-14T22:40:04Z",
@@ -11039,21 +11082,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T17:36:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7f76927ba3d689b418fd2953fced91a713f8be88"
-        },
-        {
-          "sha": "f3ec6b8",
-          "message": "Merge pull request #92 from syunnjack/codex/automated-video-20260815-015445",
-          "date": "2026-08-14T17:04:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f3ec6b822c2b6e9a7d57dde0a97f7181fdf8b0ea"
-        },
-        {
-          "sha": "e88615e",
-          "message": "Update repository articles and video catalog",
-          "date": "2026-08-14T17:02:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e88615ec3cd010b2d45d5fcc092cf7e8e13b2620"
         }
       ],
-      "updatedAt": "2026-08-14T22:40:22Z",
+      "updatedAt": "2026-08-14T22:56:55Z",
       "stars": 0,
       "forks": 0
     },
