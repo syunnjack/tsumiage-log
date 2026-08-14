@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T18:33:21.606Z",
+  "generatedAt": "2026-08-14T18:55:03.365Z",
   "owner": "syunnjack",
-  "totalRepositories": 164,
+  "totalRepositories": 300,
   "publicRepositories": 164,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -10975,6 +10975,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d63e0ff",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T18:33:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d63e0ff839d63f4d9183b688a4a37bbb8f284884"
+        },
+        {
           "sha": "7f76927",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T17:36:22Z",
@@ -11039,15 +11045,9 @@
           "message": "Merge pull request #91 from syunnjack/codex/automated-video-20260814-2100",
           "date": "2026-08-14T12:07:15Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bb1cf53d5cb79011b441ac6c3673ab6cf78da21d"
-        },
-        {
-          "sha": "4d1232c",
-          "message": "chore: refresh repository articles and videos",
-          "date": "2026-08-14T12:06:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d1232cf49b4d07729e175a7b0e476d6c248af04"
         }
       ],
-      "updatedAt": "2026-08-14T17:36:28Z",
+      "updatedAt": "2026-08-14T18:33:57Z",
       "stars": 0,
       "forks": 0
     },
