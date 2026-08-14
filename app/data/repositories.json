@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T22:30:10.973Z",
+  "generatedAt": "2026-08-14T22:56:02.123Z",
   "owner": "syunnjack",
   "totalRepositories": 300,
-  "publicRepositories": 164,
-  "privateRepositories": 136,
+  "publicRepositories": 165,
+  "privateRepositories": 135,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -2236,6 +2236,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8f6241a",
+          "message": "docs: add Gumroad listing link",
+          "date": "2026-08-14T22:49:05Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/8f6241a2a15a7bbe57247ce137e12787aed6f6ee"
+        },
+        {
           "sha": "ee377db",
           "message": "docs: add itch.io listing link",
           "date": "2026-08-14T13:25:34Z",
@@ -2284,7 +2290,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
         }
       ],
-      "updatedAt": "2026-08-14T13:26:46Z",
+      "updatedAt": "2026-08-14T22:49:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -10975,6 +10981,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "e7f733c",
+          "message": "Merge pull request #94 from syunnjack/codex/automated-video-20260815-072931",
+          "date": "2026-08-14T22:40:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e7f733cd3bee49a6b737e10982aa533ad60da4b5"
+        },
+        {
+          "sha": "95624e4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T22:39:39Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/95624e480eb016b8962838a8371c3c259952b0eb"
+        },
+        {
           "sha": "fb0b437",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T22:25:25Z",
@@ -11033,21 +11051,9 @@
           "message": "Update repository articles and video catalog",
           "date": "2026-08-14T17:02:56Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e88615ec3cd010b2d45d5fcc092cf7e8e13b2620"
-        },
-        {
-          "sha": "b67a5e1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T16:33:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b67a5e1fac6b82c45403d8967e199286a1343beb"
-        },
-        {
-          "sha": "31b994d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T15:33:16Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/31b994d39e3f1782ae9bb37bbd10279f8ab7cd2b"
         }
       ],
-      "updatedAt": "2026-08-14T22:25:47Z",
+      "updatedAt": "2026-08-14T22:40:22Z",
       "stars": 0,
       "forks": 0
     },
