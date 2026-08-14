@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:35:52.272Z",
+  "generatedAt": "2026-08-14T18:33:21.606Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 164,
@@ -10975,6 +10975,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7f76927",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T17:36:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f76927ba3d689b418fd2953fced91a713f8be88"
+        },
+        {
           "sha": "f3ec6b8",
           "message": "Merge pull request #92 from syunnjack/codex/automated-video-20260815-015445",
           "date": "2026-08-14T17:04:08Z",
@@ -11039,15 +11045,9 @@
           "message": "chore: refresh repository articles and videos",
           "date": "2026-08-14T12:06:37Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4d1232cf49b4d07729e175a7b0e476d6c248af04"
-        },
-        {
-          "sha": "5144f1f",
-          "message": "動画に字幕ファイルを付ける",
-          "date": "2026-08-14T11:45:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5144f1f24084ae568c2aa7c922b355e5614dddda"
         }
       ],
-      "updatedAt": "2026-08-14T17:04:39Z",
+      "updatedAt": "2026-08-14T17:36:28Z",
       "stars": 0,
       "forks": 0
     },
