@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:37:00.248Z",
+  "generatedAt": "2026-08-14T11:31:12.853Z",
   "owner": "syunnjack",
   "totalRepositories": 164,
   "publicRepositories": 164,
@@ -11047,6 +11047,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4587e09",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-14T10:37:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4587e090c60e0396418be1731f0c7841d093bae0"
+        },
+        {
           "sha": "d331235",
           "message": "Merge pull request #90 from syunnjack/codex/automated-video-20260814-1855",
           "date": "2026-08-14T10:16:54Z",
@@ -11111,15 +11117,9 @@
           "message": "動画のタイトルと説明文を検索と要約に耐える内容に作り直す",
           "date": "2026-08-14T05:51:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/927c37a5d3bedbedba19d67e451a9be4b2245088"
-        },
-        {
-          "sha": "76b176d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T05:48:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/76b176d8b36b062e533a891666e978e957d774d9"
         }
       ],
-      "updatedAt": "2026-08-14T10:17:29Z",
+      "updatedAt": "2026-08-14T10:37:40Z",
       "stars": 0,
       "forks": 0
     },
