@@ -1,0 +1,98 @@
+name: Upload repository videos
+
+# YouTube Data API の既定クォータは1日10,000単位で、1本あたり2,050単位
+# （videos.insert 1,600 + captions.insert 400 + playlistItems.insert 50）
+# かかる。つまり1日4本が上限なので、毎日その本数だけ投稿して少しずつ
+# 消化する。投稿できたぶんは video-production.json に書き戻して
+# コミットするため、翌日の実行は自動で続きから始まる。
+on:
+  schedule:
+    - cron: "0 18 * * *" # 毎日 03:00 JST
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "投稿する本数（既定4本。クォータ上限は1日4本）"
+        required: false
+        default: "4"
+      privacy:
+        description: "公開設定（public / unlisted / private）"
+        required: false
+        default: "public"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upload-repository-videos
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: 認証情報が設定されているか確認
+        env:
+          CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+        run: |
+          if [ -z "$CLIENT_ID" ]; then
+            echo "::error::YOUTUBE_CLIENT_ID / YOUTUBE_CLIENT_SECRET / YOUTUBE_REFRESH_TOKEN をリポジトリのSecretsに設定してください。"
+            exit 1
+          fi
+
+      # 動画ファイル本体がリポジトリに入っているため、チェックアウトは重い。
+      # 履歴は不要なので浅くする
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 投稿する
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          node scripts/upload-repository-videos.mjs \
+            --max "${{ github.event.inputs.max || '4' }}" \
+            --privacy "${{ github.event.inputs.privacy || 'public' }}"
+
+      - name: 投稿結果を記録する
+        run: |
+          if git diff --quiet -- app/data/video-production.json; then
+            echo "投稿できたものはありませんでした。"
+            exit 0
+          fi
+          remaining=$(node -p "require('./app/data/video-production.json').videos.filter(v => !v.youtubeUrl).length")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/video-production.json
+          git commit -m "動画を投稿し、残り${remaining}本になった
+
+          scripts/upload-repository-videos.mjs による自動投稿の記録。
+          投稿したものは youtubeUrl に書き戻してあるので、次回の実行は
+          続きから始まる。"
+          # 自動生成のコミットが同時に走ることがあるため、取り込んでから押し込む
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; break; }
+            git push origin HEAD:main && break
+            sleep 10
+          done
+
+      - name: 残りを表示する
+        if: always()
+        run: |
+          node -e "
+            const q = require('./app/data/video-production.json');
+            const done = q.videos.filter(v => v.youtubeUrl).length;
+            const left = q.videos.length - done;
+            console.log(\`投稿済み \${done} 本 / 残り \${left} 本\`);
+            if (left > 0) console.log(\`1日4本ペースで、あと約 \${Math.ceil(left / 4)} 日かかります。\`);
+          "

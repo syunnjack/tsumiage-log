@@ -71,11 +71,28 @@ function assetPaths(slug) {
   };
 }
 
+/**
+ * 認証を用意する。
+ *
+ * GitHub Actions ではファイルを置けないため、環境変数を先に見る。
+ * 手元では従来どおり client_secret.json と .youtube-token.json を使う。
+ */
 async function loadAuth() {
   const { google } = await import("googleapis");
+
+  const envId = process.env.YOUTUBE_CLIENT_ID;
+  const envSecret = process.env.YOUTUBE_CLIENT_SECRET;
+  const envRefresh = process.env.YOUTUBE_REFRESH_TOKEN;
+
+  if (envId && envSecret && envRefresh) {
+    const client = new google.auth.OAuth2(envId, envSecret, "http://localhost:8080");
+    client.setCredentials({ refresh_token: envRefresh });
+    return google.youtube({ version: "v3", auth: client });
+  }
+
   if (!existsSync(CLIENT_SECRET_PATH)) {
     throw new Error(
-      `client_secret.json がありません。Google Cloud Console で OAuth クライアント（デスクトップアプリ）を作り、${CLIENT_SECRET_PATH} に置いてください。`,
+      `認証情報がありません。環境変数 YOUTUBE_CLIENT_ID / YOUTUBE_CLIENT_SECRET / YOUTUBE_REFRESH_TOKEN を設定するか、Google Cloud Console で OAuth クライアント（デスクトップアプリ）を作り ${CLIENT_SECRET_PATH} に置いてください。`,
     );
   }
   const credentials = JSON.parse(await readFile(CLIENT_SECRET_PATH, "utf8"));
