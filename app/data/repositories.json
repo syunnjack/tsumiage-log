@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T18:55:03.365Z",
+  "generatedAt": "2026-08-14T19:35:16.965Z",
   "owner": "syunnjack",
-  "totalRepositories": 300,
+  "totalRepositories": 164,
   "publicRepositories": 164,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -10975,6 +10975,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "7a77cb6",
+          "message": "Merge pull request #93 from syunnjack/codex/automated-video-20260815-040016",
+          "date": "2026-08-14T19:00:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7a77cb642f1f273912c627ce3376b5f6c5b1fe8a"
+        },
+        {
+          "sha": "1a396e1",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-14T19:00:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1a396e101121749dc46562ee2c45da463afb71a5"
+        },
+        {
           "sha": "d63e0ff",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T18:33:51Z",
@@ -11033,21 +11045,9 @@
           "message": "毎日4本ずつ投稿するワークフローを追加する",
           "date": "2026-08-14T12:28:31Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8ae027a6c15e2c4f993f78955d581d06bf095b75"
-        },
-        {
-          "sha": "5965aec",
-          "message": "リポジトリ動画147本を投稿するスクリプトを追加する",
-          "date": "2026-08-14T12:18:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5965aeccd4ddb62fe07bb3621868dda02d6786c2"
-        },
-        {
-          "sha": "bb1cf53",
-          "message": "Merge pull request #91 from syunnjack/codex/automated-video-20260814-2100",
-          "date": "2026-08-14T12:07:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bb1cf53d5cb79011b441ac6c3673ab6cf78da21d"
         }
       ],
-      "updatedAt": "2026-08-14T18:33:57Z",
+      "updatedAt": "2026-08-14T19:01:03Z",
       "stars": 0,
       "forks": 0
     },
