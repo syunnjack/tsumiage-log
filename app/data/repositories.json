@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T10:13:28.267Z",
+  "generatedAt": "2026-08-14T10:37:00.248Z",
   "owner": "syunnjack",
-  "totalRepositories": 300,
+  "totalRepositories": 164,
   "publicRepositories": 164,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -11047,6 +11047,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "d331235",
+          "message": "Merge pull request #90 from syunnjack/codex/automated-video-20260814-1855",
+          "date": "2026-08-14T10:16:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d331235bbb72796ca9e714a36b2482b4f7573c01"
+        },
+        {
+          "sha": "c65a8fc",
+          "message": "chore: refresh repository articles and videos",
+          "date": "2026-08-14T10:16:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c65a8fcc44a814441e5fdf70c9b96193e7f1469e"
+        },
+        {
           "sha": "64f9c3a",
           "message": "Merge pull request #89 from syunnjack/codex/automated-video-20260814-1859",
           "date": "2026-08-14T10:00:31Z",
@@ -11105,21 +11117,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T05:48:11Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/76b176d8b36b062e533a891666e978e957d774d9"
-        },
-        {
-          "sha": "ebb772f",
-          "message": "Merge pull request #87 from syunnjack/codex/automated-video-20260814-1355",
-          "date": "2026-08-14T05:09:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ebb772fc5865956d1fe965eca87f112b38aa06ee"
-        },
-        {
-          "sha": "1df0fb4",
-          "message": "chore: refresh repository articles and videos",
-          "date": "2026-08-14T05:09:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1df0fb40011d984a21b3409cec5c1c36a3f91e25"
         }
       ],
-      "updatedAt": "2026-08-14T10:00:58Z",
+      "updatedAt": "2026-08-14T10:17:29Z",
       "stars": 0,
       "forks": 0
     },
