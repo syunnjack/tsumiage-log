@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:04,146
+今回は、Ai Quiz Studyの技術構成を短く解説します。
+
+2
+00:00:05,146 --> 00:00:22,804
+AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack
+
+3
+00:00:23,804 --> 00:00:30,714
+主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。
+
+4
+00:00:31,714 --> 00:00:40,313
+リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。
+
+5
+00:00:41,313 --> 00:00:45,766
+直近のコミットでは、実装の見直しと継続的な改善が行われました。
+
+6
+00:00:46,766 --> 00:00:52,140
+詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。

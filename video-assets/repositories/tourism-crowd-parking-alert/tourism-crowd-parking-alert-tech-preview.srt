@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,880
+今回は、Tourism Crowd Parking Alertの技術構成を短く解説します。
+
+2
+00:00:06,880 --> 00:00:28,197
+Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking
+
+3
+00:00:29,197 --> 00:00:35,813
+主な技術はHTML・JavaScript・CSSです。役割を分け、保守しやすい構成を目指しています。
+
+4
+00:00:36,813 --> 00:00:45,045
+リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。
+
+5
+00:00:46,045 --> 00:00:50,015
+直近のコミットでは、新機能の追加と実装強化が行われました。
+
+6
+00:00:51,015 --> 00:00:56,160
+詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。

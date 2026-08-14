@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:04,792
+今回は、Smoking Map Alertの技術構成を短く解説します。
+
+2
+00:00:05,792 --> 00:00:24,962
+Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap
+
+3
+00:00:25,962 --> 00:00:32,918
+主な技術はJavaScript・HTML・CSSです。役割を分け、保守しやすい構成を目指しています。
+
+4
+00:00:33,918 --> 00:00:42,575
+リポジトリでは、README.md、index.html、package-lock.jsonを中心に実装を確認できます。
+
+5
+00:00:43,575 --> 00:00:47,749
+直近のコミットでは、新機能の追加と実装強化が行われました。
+
+6
+00:00:48,749 --> 00:00:54,160
+詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。
