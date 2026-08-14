@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-13T23:57:26.711Z",
+  "generatedAt": "2026-08-14T00:40:03.146Z",
   "owner": "syunnjack",
-  "totalRepositories": 297,
-  "publicRepositories": 163,
-  "privateRepositories": 134,
+  "totalRepositories": 164,
+  "publicRepositories": 164,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -2243,6 +2243,37 @@
         }
       ],
       "updatedAt": "2026-08-10T20:30:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ec-price-tracker-lite-",
+      "name": "ec-price-tracker-lite-",
+      "displayName": "Ec Price Tracker Lite",
+      "description": "ec price tracker lite EC サイトの商品価格を定期的に取得し、履歴を蓄積して グラフ付き Excel レポート を自動生成する Python ツールの簡易版です",
+      "readmeExcerpt": "ec price tracker lite EC サイトの商品価格を定期的に取得し、履歴を蓄積して グラフ付き Excel レポート を自動生成する Python ツールの簡易版です。 毎朝の「価格チェック → Excel へ転記」という手作業（1 日 30 分）を、ボタン 1 回・1 分に置き換えることを目的にしています。 特徴 取得 → 保存 → 集計 → 出力 の 4 層に分離。壊れるのは取得層だけなので改修が局所的 1 件の失敗で全体が止まらない 。失敗も記録としてレポートに残る 同日に何度実行してもデータが重複しない （ url, checked で一意・上書き更新） GUI 付き （tkinter）。進捗バーと処理中の商品名を表示 Excel は 3 シート構成 （サマリー / 価格推移 / 生データ）。書式・色付け・折れ線グラフまで設定済み 動作環境 Python 3.10 以降 Windows / macOS / Linux（GUI は tkinter が有効な環境） セットアップ 使い方 GUI で実行 監視対象 CSV を選び、「価格を取得してレポート作成」を押すと、同じフォルダに price report YYYYMMDD HHMMSS.xlsx が生成されます。 CLI で実行 監視対象 CSV の書き方 列 内容 name レポートに表示される名前 url 商品ページの URL selector 価格が書かれている要素の CSS セレクタ セレクタを設定ファイル（CSV）側に出しているため、サイト構造が変わっても Python の修正は不要です。 出力される Excel シート 内容 サマリー 最新価格 / 前回価格 / 差額 / 変動率 / 期間最安値・最高値（値下がり行は自動で色付け） 価格推移 日付 × 商品のマトリクス + 折れ線グラフ 生データ 取得ログ（失敗記録込み）。数字の根拠確認用 構成 exe として配布する場合 利用上の注意 スクレイピングを行う際は、 対象サイトの利用規約と robots.txt を必ず確認してください 。",
+      "url": "https://github.com/syunnjack/ec-price-tracker-lite-",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "0c85f0e",
+          "message": "リポジトリURLを実際のものに更新",
+          "date": "2026-08-14T00:39:09Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/0c85f0e30c53e9a74e241339991c69dd68886e4c"
+        },
+        {
+          "sha": "7793988",
+          "message": "EC価格トラッカー Lite の簡易版を追加",
+          "date": "2026-08-14T00:28:57Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
+        }
+      ],
+      "updatedAt": "2026-08-14T00:39:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -10992,6 +11023,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "512c937",
+          "message": "Merge pull request #84 from syunnjack/codex/automated-video-20260814-0856",
+          "date": "2026-08-14T00:07:19Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/512c937235ecdedb202281580528820ae49a3018"
+        },
+        {
+          "sha": "82a4a60",
+          "message": "Refresh repository articles and video metadata",
+          "date": "2026-08-14T00:05:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/82a4a604cffc53eccb349ff639816b4a74a70678"
+        },
+        {
           "sha": "0a04ae9",
           "message": "Merge profile content into about section (#83)",
           "date": "2026-08-13T23:41:00Z",
@@ -11050,21 +11093,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-13T22:00:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c842fcc544bcc03349b4b3299cda9e6b777ae85e"
-        },
-        {
-          "sha": "fdc4fcd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T21:31:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fdc4fcded62aca23f6aa443e77d827461bee7b43"
-        },
-        {
-          "sha": "8cc46d9",
-          "message": "Merge pull request #77 from syunnjack/codex/automated-video-20260814-0610",
-          "date": "2026-08-13T21:09:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8cc46d9a8070f098d010a25ab45b07f20ef211b4"
         }
       ],
-      "updatedAt": "2026-08-13T23:41:05Z",
+      "updatedAt": "2026-08-14T00:07:24Z",
       "stars": 0,
       "forks": 0
     },
