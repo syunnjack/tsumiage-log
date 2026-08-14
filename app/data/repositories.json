@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T04:36:19.908Z",
+  "generatedAt": "2026-08-14T04:53:52.688Z",
   "owner": "syunnjack",
-  "totalRepositories": 299,
+  "totalRepositories": 164,
   "publicRepositories": 164,
-  "privateRepositories": 135,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -11029,6 +11029,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "ed16e94",
+          "message": "Merge pull request #86 from syunnjack/codex/automated-video-20260814-1015",
+          "date": "2026-08-14T04:38:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ed16e9427c6884154c5e03b3bf9087d795f48117"
+        },
+        {
+          "sha": "29c062e",
+          "message": "Refresh repository publication data",
+          "date": "2026-08-14T04:38:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/29c062ef5c1ae804bf3d42715b23ca5d55e9efad"
+        },
+        {
+          "sha": "50bfa28",
+          "message": "Merge remote-tracking branch 'origin/main' into codex/automated-video-20260814-1015",
+          "date": "2026-08-14T04:35:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/50bfa28eb816e82d12e1628c2e84e7845a58150a"
+        },
+        {
+          "sha": "177a076",
+          "message": "Publish ec-price-tracker-lite video assets",
+          "date": "2026-08-14T04:34:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/177a07669ecec9ef5f8bcef4186ebe490d12c9dd"
+        },
+        {
           "sha": "c957536",
           "message": "Merge pull request #85 from syunnjack/codex/automated-video-20260814-0930",
           "date": "2026-08-14T04:34:07Z",
@@ -11075,33 +11099,9 @@
           "message": "Refresh repository articles and video metadata",
           "date": "2026-08-14T00:05:02Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/82a4a604cffc53eccb349ff639816b4a74a70678"
-        },
-        {
-          "sha": "0a04ae9",
-          "message": "Merge profile content into about section (#83)",
-          "date": "2026-08-13T23:41:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0a04ae9ec706b62b0ed19a06a9fed036d7251776"
-        },
-        {
-          "sha": "cac4f12",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-13T23:28:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cac4f1298598c9563d8933daeab11f0dd1e7d75d"
-        },
-        {
-          "sha": "c1c5aea",
-          "message": "Update repository counts after privacy review (#82)",
-          "date": "2026-08-13T23:10:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c1c5aea5923ee7b482c7838ba6cd4259c1b1de2c"
-        },
-        {
-          "sha": "a0e03ac",
-          "message": "Merge pull request #81 from syunnjack/codex/automated-video-20260814-0805",
-          "date": "2026-08-13T23:05:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a0e03ac797f9dc8726edeaef03e3b7d77830f1bc"
         }
       ],
-      "updatedAt": "2026-08-14T04:34:11Z",
+      "updatedAt": "2026-08-14T04:39:00Z",
       "stars": 0,
       "forks": 0
     },
