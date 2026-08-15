@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import storeData from "../data/store-videos.json"
 import { resolveVideoAssetUrl } from "../lib/video-assets"
+import { boothItemUrl, boothShopUrl, fanboxUrl } from "../lib/store-links"
 
 const pageTitle = "ストア | 積み上げログ"
 const pageDescription =
@@ -210,8 +211,17 @@ export default function StorePage() {
             <span className="store-media-label">BOOTH</span>
             <h3>動画・ツールを購入する</h3>
             <p>限定解説動画や買い切りのソフトウェアを販売しています。商品ごとの無料紹介も確認できます。</p>
-            <a href="https://wangan-base.booth.pm/" target="_blank" rel="noopener noreferrer">BOOTHストアを見る <span aria-hidden="true">↗</span></a>
+            <a href={boothShopUrl} target="_blank" rel="noopener noreferrer">BOOTHストアを見る <span aria-hidden="true">↗</span></a>
           </article>
+          {/* pixivFANBOX は未設定のあいだ出さない。開設前のリンクは行き止まりになるため */}
+          {fanboxUrl && (
+            <article className="store-channel-card store-channel-fanbox">
+              <span className="store-media-label">pixivFANBOX</span>
+              <h3>毎月の更新を支える</h3>
+              <p>開発の記録を続けるための月額支援です。支援者の方には、記事や動画にする前の途中経過をお届けします。</p>
+              <a href={fanboxUrl} target="_blank" rel="noopener noreferrer me">FANBOXで支援する <span aria-hidden="true">↗</span></a>
+            </article>
+          )}
           <article className="store-channel-card store-channel-note">
             <span className="store-media-label">note</span>
             <h3>経験や試行錯誤を読む</h3>
@@ -343,7 +353,7 @@ export default function StorePage() {
               </ul>
               <a
                 className="store-buy-button"
-                href="https://wangan-base.booth.pm/items/8713795"
+                href={boothItemUrl(8713795) ?? boothShopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -377,7 +387,7 @@ export default function StorePage() {
               </ul>
               <a
                 className="store-buy-button"
-                href="https://wangan-base.booth.pm/items/8713799"
+                href={boothItemUrl(8713799) ?? boothShopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
