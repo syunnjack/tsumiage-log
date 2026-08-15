@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:36:57.762Z",
+  "generatedAt": "2026-08-15T06:55:36.092Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 12,
+  "queuedCount": 0,
   "videos": [
     {
       "slug": "ai-quiz-study",
@@ -2010,9 +2010,9 @@
         }
       ],
       "publishAt": "2026-09-03T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/finder-lady/finder-lady-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/finder-lady/finder-lady-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Finder Ladyの技術構成を短く解説します。",
@@ -2441,9 +2441,9 @@
         }
       ],
       "publishAt": "2026-09-10T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/game-portal-site-design/game-portal-site-design-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/game-portal-site-design/game-portal-site-design-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Game Portal Site Designの技術構成を短く解説します。",
@@ -2931,9 +2931,9 @@
         }
       ],
       "publishAt": "2026-09-18T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/gym-lightning/gym-lightning-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/gym-lightning/gym-lightning-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Gym Lightningの技術構成を短く解説します。",
@@ -3666,9 +3666,9 @@
         }
       ],
       "publishAt": "2026-09-30T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/jimotomeshi/jimotomeshi-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/jimotomeshi/jimotomeshi-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Jimotomeshiの技術構成を短く解説します。",
@@ -4341,9 +4341,9 @@
         }
       ],
       "publishAt": "2026-10-11T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/laravel-sdk/laravel-sdk-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/laravel-sdk/laravel-sdk-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Laravel Sdkの技術構成を短く解説します。",
@@ -5992,9 +5992,9 @@
         }
       ],
       "publishAt": "2026-11-07T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/premium-collectible-scan-db/premium-collectible-scan-db-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/premium-collectible-scan-db/premium-collectible-scan-db-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Premium Collectible Scan Dbの技術構成を短く解説します。",
@@ -7885,9 +7885,9 @@
         }
       ],
       "publishAt": "2026-12-08T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/sepro001/sepro001-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/sepro001/sepro001-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Sepro001の技術構成を短く解説します。",
@@ -8007,9 +8007,9 @@
         }
       ],
       "publishAt": "2026-12-10T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/sitemap-auto/sitemap-auto-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/sitemap-auto/sitemap-auto-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Sitemap Autoの技術構成を短く解説します。",
@@ -8068,9 +8068,9 @@
         }
       ],
       "publishAt": "2026-12-11T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/sites-kanri/sites-kanri-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/sites-kanri/sites-kanri-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Sites Kanriの技術構成を短く解説します。",
@@ -8927,9 +8927,9 @@
         }
       ],
       "publishAt": "2026-12-25T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/toge-base/toge-base-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/toge-base/toge-base-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Toge Baseの技術構成を短く解説します。",
@@ -9049,9 +9049,9 @@
         }
       ],
       "publishAt": "2026-12-27T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/tokai-marine/tokai-marine-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/tokai-marine/tokai-marine-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Tokai Marineの技術構成を短く解説します。",
@@ -9722,9 +9722,9 @@
         }
       ],
       "publishAt": "2027-01-07T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/wificafe-billing/wificafe-billing-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/wificafe-billing/wificafe-billing-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Wificafe Billingの技術構成を短く解説します。",

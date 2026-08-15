@@ -5,6 +5,7 @@ param(
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Speech
 $root = Split-Path $PSScriptRoot -Parent
+Set-Location -LiteralPath $root
 $queuePath = Join-Path $root 'app/data/video-production.json'
 $queue = Get-Content $queuePath -Raw -Encoding UTF8 | ConvertFrom-Json
 $item = $queue.videos | Where-Object slug -eq $Slug | Select-Object -First 1
@@ -26,8 +27,8 @@ Get-ChildItem -LiteralPath $segmentDir -File -ErrorAction SilentlyContinue | Rem
 & node (Join-Path $root 'scripts/create-repository-video-deck.mjs') $Slug $renderDir $pptxPath
 if ($LASTEXITCODE -ne 0) { throw 'Headless slide rendering failed.' }
 
-$ffmpegPath = & node -e "process.stdout.write(require('ffmpeg-static'))"
-if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $ffmpegPath)) {
+$ffmpegPath = Join-Path $root 'node_modules/ffmpeg-static/ffmpeg.exe'
+if (-not (Test-Path -LiteralPath $ffmpegPath)) {
   throw 'ffmpeg-static executable was not found. Run npm install first.'
 }
 $edgeTts = Get-Command edge-tts -ErrorAction SilentlyContinue

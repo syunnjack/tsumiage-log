@@ -29,7 +29,7 @@ foreach ($target in $targets) {
     $process = Start-Process powershell.exe -ArgumentList @(
       '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File',
       (Join-Path $PSScriptRoot 'render-repository-video.ps1'), '-Slug', $target.slug
-    ) -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
+    ) -WorkingDirectory $root -WindowStyle Hidden -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
     if (-not $process.WaitForExit(150000)) {
       $process.Kill()
       throw 'Renderer timed out after 150 seconds.'
