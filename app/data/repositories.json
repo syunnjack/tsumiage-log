@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:24:24.758Z",
+  "generatedAt": "2026-08-15T18:25:27.949Z",
   "owner": "syunnjack",
   "totalRepositories": 171,
   "publicRepositories": 171,
@@ -6274,6 +6274,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "67a63c6",
+          "message": "Add estate site configuration",
+          "date": "2026-08-15T18:21:21Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/67a63c6861ca315d201bf097e7e4c22038295be4"
+        },
+        {
+          "sha": "a507f5f",
+          "message": "Configure Vercel output",
+          "date": "2026-08-15T18:21:17Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/a507f5f8615e5a5a1682ea39a1ca8af8aed742cb"
+        },
+        {
+          "sha": "3159358",
+          "message": "Add Vercel build configuration",
+          "date": "2026-08-15T18:21:12Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/31593588ff7eba871bcdad815be2672ec105fa4f"
+        },
+        {
           "sha": "43b4235",
           "message": "Add Phase 2 SEO AIO LLMO data integration",
           "date": "2026-08-15T12:43:13Z",
@@ -6286,7 +6304,7 @@
           "url": "https://github.com/syunnjack/municipality-estate/commit/0564581e9fe1ccfdad222bfef4549d06f747748c"
         }
       ],
-      "updatedAt": "2026-08-15T12:44:03Z",
+      "updatedAt": "2026-08-15T18:21:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -10656,6 +10674,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2e97217",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T17:24:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2e97217b1efb6bf69163d2b209792e6a924d4810"
+        },
+        {
           "sha": "706d8c3",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T16:25:17Z",
@@ -10720,15 +10744,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T12:26:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f96fa356dc88df4f2ceed6613b6e4f0e30fe0ebe"
-        },
-        {
-          "sha": "1073a67",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T11:24:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1073a67cfade97b8914f36c03d0024f75c79c922"
         }
       ],
-      "updatedAt": "2026-08-15T16:25:43Z",
+      "updatedAt": "2026-08-15T17:25:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -11469,13 +11487,19 @@
       "files": [],
       "commits": [
         {
+          "sha": "4a1bdb2",
+          "message": "長い引用に短い呼び名をつけ、題や導線で使う",
+          "date": "2026-08-15T18:10:48Z",
+          "url": "https://github.com/syunnjack/yozan-heishu/commit/4a1bdb26584341b68c5b73e76eb293275e1e50c4"
+        },
+        {
           "sha": "46d67bd",
           "message": "上杉鷹山と細井平洲の総合サイトを立ち上げる",
           "date": "2026-08-15T16:10:01Z",
           "url": "https://github.com/syunnjack/yozan-heishu/commit/46d67bdacef57610dc37cd080b6d7a13ba4867e4"
         }
       ],
-      "updatedAt": "2026-08-15T16:14:56Z",
+      "updatedAt": "2026-08-15T18:11:36Z",
       "stars": 0,
       "forks": 0
     }
