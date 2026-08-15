@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-14T23:56:57.535Z",
+  "generatedAt": "2026-08-15T00:28:09.123Z",
   "owner": "syunnjack",
-  "totalRepositories": 301,
+  "totalRepositories": 166,
   "publicRepositories": 166,
-  "privateRepositories": 135,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "finder-lady",
     "game-portal-site-design",
@@ -11012,6 +11012,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "eb3c546",
+          "message": "Merge pull request #96 from syunnjack/codex/automated-video-20260815-085538",
+          "date": "2026-08-15T00:06:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb3c5461eae2c9616634735cb86ed9be4bc9ae57"
+        },
+        {
+          "sha": "e87d406",
+          "message": "Publish rakuten-blogtool video",
+          "date": "2026-08-15T00:05:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e87d406165f8dd4de932e89675cf68c17c74216e"
+        },
+        {
           "sha": "da2734f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-14T23:24:59Z",
@@ -11070,21 +11082,9 @@
           "message": "Merge pull request #93 from syunnjack/codex/automated-video-20260815-040016",
           "date": "2026-08-14T19:00:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7a77cb642f1f273912c627ce3376b5f6c5b1fe8a"
-        },
-        {
-          "sha": "1a396e1",
-          "message": "chore: refresh repository articles and videos",
-          "date": "2026-08-14T19:00:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1a396e101121749dc46562ee2c45da463afb71a5"
-        },
-        {
-          "sha": "d63e0ff",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-14T18:33:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d63e0ff839d63f4d9183b688a4a37bbb8f284884"
         }
       ],
-      "updatedAt": "2026-08-14T23:25:38Z",
+      "updatedAt": "2026-08-15T00:06:51Z",
       "stars": 0,
       "forks": 0
     },
