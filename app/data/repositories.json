@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T19:24:44.984Z",
+  "generatedAt": "2026-08-15T19:56:00.098Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -6263,8 +6263,8 @@
       "slug": "municipality-car",
       "name": "municipality-car",
       "displayName": "Municipality Car",
-      "description": "Municipality Carの設計と実装を記録したプロジェクト",
-      "readmeExcerpt": "Municipality Carの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "全国市区町村 車買取データナビ 全国の市区町村・車種から査定前の確認項目を探し、複数の提示条件を端末内で比較できる静的サイトです",
+      "readmeExcerpt": "全国市区町村 車買取データナビ 全国の市区町村・車種から査定前の確認項目を探し、複数の提示条件を端末内で比較できる静的サイトです。 ローカル確認 npm run check はサイトを生成した後、次を自動監査します。 自治体データ件数と自治体コード canonical、robots、Open Graph、JSON LD インデックス対象ページとサイトマップの一致 重複タイトル、壊れた内部リンク、プレースホルダー 地域検索用データの件数 インデックス方針 全地域ページは検索・閲覧できますが、検索エンジンへ一括登録しません。既存公開URLのある主要地域だけを index,follow とし、それ以外は独自情報を追加するまで noindex,follow にします。対象は data/legacy city paths.json で管理します。 データ更新 ビルド時に localgovjp の自治体データを取得し、件数・必須項目・コード重複を検査します。別URLを利用する場合は MUNICIPALITY DATA URL を指定できます。 デプロイ VercelのBuild Commandは npm run check 、Output Directoryは dist です。監査に失敗したビルドは公開されません。",
       "url": "https://github.com/syunnjack/municipality-car",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -6273,6 +6273,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "02fcace",
+          "message": "Improve SEO quality and comparison experience",
+          "date": "2026-08-15T19:51:29Z",
+          "url": "https://github.com/syunnjack/municipality-car/commit/02fcaceddef1cc01e24f70ff4a3c63841cb78e9e"
+        },
         {
           "sha": "cb55381",
           "message": "Add nationwide municipality and Toyota model build generator",
@@ -6292,7 +6298,7 @@
           "url": "https://github.com/syunnjack/municipality-car/commit/0b17ff26a5a5e21d0adf0671c89978de707d5218"
         }
       ],
-      "updatedAt": "2026-08-15T18:33:04Z",
+      "updatedAt": "2026-08-15T19:51:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -10741,6 +10747,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "69a4573",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T19:25:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/69a4573a13ea18f3e4b60c8d626c147ce0e279a2"
+        },
+        {
           "sha": "4f707ab",
           "message": "Merge pull request #104 from syunnjack/codex/automated-video-20260816-0930",
           "date": "2026-08-15T19:11:38Z",
@@ -10805,15 +10817,9 @@
           "message": "Merge pull request #101 from syunnjack/codex/automated-video-20260815-2320",
           "date": "2026-08-15T14:15:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e2d0191fec4e4c62d9f976ccf1e166254bf5ac32"
-        },
-        {
-          "sha": "c445dad",
-          "message": "Use CDN for Rakuten02 video",
-          "date": "2026-08-15T14:15:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c445dad11dd3b107d8ce66d844d105d5c99b7806"
         }
       ],
-      "updatedAt": "2026-08-15T19:12:17Z",
+      "updatedAt": "2026-08-15T19:25:34Z",
       "stars": 0,
       "forks": 0
     },
