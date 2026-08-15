@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T18:25:27.949Z",
+  "generatedAt": "2026-08-15T19:05:54.374Z",
   "owner": "syunnjack",
-  "totalRepositories": 171,
-  "publicRepositories": 171,
-  "privateRepositories": 0,
+  "totalRepositories": 308,
+  "publicRepositories": 172,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -6260,6 +6260,43 @@
       "forks": 0
     },
     {
+      "slug": "municipality-car",
+      "name": "municipality-car",
+      "displayName": "Municipality Car",
+      "description": "Municipality Carの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Municipality Carの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/municipality-car",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "cb55381",
+          "message": "Add nationwide municipality and Toyota model build generator",
+          "date": "2026-08-15T18:33:01Z",
+          "url": "https://github.com/syunnjack/municipality-car/commit/cb5538121acccb2d8146242eba0dee70964e300f"
+        },
+        {
+          "sha": "70d51b6",
+          "message": "Add Vercel SEO AIO LLMO and Toyota model data",
+          "date": "2026-08-15T18:32:35Z",
+          "url": "https://github.com/syunnjack/municipality-car/commit/70d51b64fa89fdcb7d39daf1b28f814cbccc858a"
+        },
+        {
+          "sha": "0b17ff2",
+          "message": "Initialize municipality-car nationwide SEO site",
+          "date": "2026-08-15T18:32:11Z",
+          "url": "https://github.com/syunnjack/municipality-car/commit/0b17ff26a5a5e21d0adf0671c89978de707d5218"
+        }
+      ],
+      "updatedAt": "2026-08-15T18:33:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "municipality-estate",
       "name": "municipality-estate",
       "displayName": "Municipality Estate",
@@ -6273,6 +6310,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "f7ff8a7",
+          "message": "Add nationwide static site generator",
+          "date": "2026-08-15T18:25:25Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/f7ff8a7a37089fd8bd58e95c5c33ebca748c373e"
+        },
         {
           "sha": "67a63c6",
           "message": "Add estate site configuration",
@@ -6304,7 +6347,7 @@
           "url": "https://github.com/syunnjack/municipality-estate/commit/0564581e9fe1ccfdad222bfef4549d06f747748c"
         }
       ],
-      "updatedAt": "2026-08-15T18:21:28Z",
+      "updatedAt": "2026-08-15T18:26:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -6323,6 +6366,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "42a1041",
+          "message": "Generate nationwide reform pages at build time",
+          "date": "2026-08-15T18:27:18Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/42a1041a551957fbc02c6042d5cd572ea4253bda"
+        },
+        {
+          "sha": "578c238",
+          "message": "Add reform site configuration",
+          "date": "2026-08-15T18:26:27Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/578c238b99fe80cb769c5ede6b7b4b2f2a60a032"
+        },
+        {
+          "sha": "b28b685",
+          "message": "Configure Vercel static output",
+          "date": "2026-08-15T18:26:21Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/b28b685c505120685c34b8b1d900cf937f085403"
+        },
+        {
+          "sha": "52f860c",
+          "message": "Add Vercel build configuration",
+          "date": "2026-08-15T18:26:15Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/52f860c426254ec9954cc25d2041f171b0c2239a"
+        },
+        {
           "sha": "46fd3f8",
           "message": "Add Phase 2 SEO AIO LLMO data integration",
           "date": "2026-08-15T12:43:35Z",
@@ -6335,7 +6402,7 @@
           "url": "https://github.com/syunnjack/municipality-reform/commit/f4d446a0cf551de6ce02658ca8f46c55a4a7051a"
         }
       ],
-      "updatedAt": "2026-08-15T12:44:24Z",
+      "updatedAt": "2026-08-15T18:27:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -10674,6 +10741,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "7766626",
+          "message": "Improve Search Console indexing and video discovery",
+          "date": "2026-08-15T19:01:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7766626c9d156ecd2704edd4d5b59d61e5f1504b"
+        },
+        {
+          "sha": "14ccfff",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T18:25:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/14ccfff29acc2c325a38509ec0b96a27bde700f5"
+        },
+        {
           "sha": "2e97217",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T17:24:54Z",
@@ -10732,21 +10811,9 @@
           "message": "Publish repository articles and videos",
           "date": "2026-08-15T14:07:11Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4ed69ae304a0657ceb658f513b97fcff51cd61e7"
-        },
-        {
-          "sha": "d0a5f6b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T13:27:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0a5f6b0f1072645658e3121d7e5278622f013dd"
-        },
-        {
-          "sha": "f96fa35",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T12:26:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f96fa356dc88df4f2ceed6613b6e4f0e30fe0ebe"
         }
       ],
-      "updatedAt": "2026-08-15T17:25:22Z",
+      "updatedAt": "2026-08-15T19:02:30Z",
       "stars": 0,
       "forks": 0
     },
