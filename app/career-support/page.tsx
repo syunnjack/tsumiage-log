@@ -9,8 +9,8 @@ const pageDescription =
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
-  alternates: { canonical: "/career-support" },
-  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/career-support", images: ["/og.png"] },
+  alternates: { canonical: "/career-support/" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/career-support/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
 }
 
@@ -86,7 +86,7 @@ export default function CareerSupportPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "キャリア・学習", item: "https://syunnjack.dev/career-support" },
+      { "@type": "ListItem", position: 2, name: "キャリア・学習", item: "https://syunnjack.dev/career-support/" },
     ],
   }
 

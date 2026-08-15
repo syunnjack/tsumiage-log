@@ -1,33 +1,40 @@
 import type { MetadataRoute } from "next"
 import { articles } from "./lib/repository-articles"
 import { manualArticles } from "./lib/manual-articles"
+import { absoluteSiteUrl } from "./lib/site-url"
+import { publishedVideos, videoWatchUrl } from "./lib/video-library"
 
 export const dynamic = "force-static"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://syunnjack.dev"
   return [
-    { url: base, changeFrequency: "weekly", priority: 1 },
-    { url: `${base}/beginner`, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${base}/articles`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${base}/videos`, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${base}/videos/favorites`, changeFrequency: "weekly", priority: 0.75 },
-    { url: `${base}/store`, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${base}/crowdsourcing`, changeFrequency: "monthly", priority: 0.85 },
-    { url: `${base}/portfolio`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${base}/profile`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/career-support`, changeFrequency: "monthly", priority: 0.85 },
-    { url: `${base}/services`, changeFrequency: "monthly", priority: 0.9 },
-    { url: `${base}/estimate`, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${base}/contact`, changeFrequency: "monthly", priority: 0.7 },
+    { url: absoluteSiteUrl("/"), changeFrequency: "weekly", priority: 1 },
+    { url: absoluteSiteUrl("/beginner"), changeFrequency: "monthly", priority: 0.9 },
+    { url: absoluteSiteUrl("/articles"), changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteSiteUrl("/videos"), changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteSiteUrl("/videos/favorites"), changeFrequency: "weekly", priority: 0.75 },
+    { url: absoluteSiteUrl("/store"), changeFrequency: "weekly", priority: 0.8 },
+    { url: absoluteSiteUrl("/crowdsourcing"), changeFrequency: "monthly", priority: 0.85 },
+    { url: absoluteSiteUrl("/portfolio"), changeFrequency: "weekly", priority: 0.9 },
+    { url: absoluteSiteUrl("/profile"), changeFrequency: "monthly", priority: 0.8 },
+    { url: absoluteSiteUrl("/career-support"), changeFrequency: "monthly", priority: 0.85 },
+    { url: absoluteSiteUrl("/services"), changeFrequency: "monthly", priority: 0.9 },
+    { url: absoluteSiteUrl("/estimate"), changeFrequency: "monthly", priority: 0.7 },
+    { url: absoluteSiteUrl("/contact"), changeFrequency: "monthly", priority: 0.7 },
     ...articles.map((article) => ({
-      url: `${base}/articles/${article.slug}`,
+      url: absoluteSiteUrl(`/articles/${article.slug}`),
       lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,
-      priority: 0.7,
+      priority: 0.8,
     })),
     ...manualArticles.map((article) => ({
-      url: `${base}/articles/manual/${article.slug}`,
+      url: absoluteSiteUrl(`/articles/manual/${article.slug}`),
+      lastModified: new Date(article.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...publishedVideos.map(({ article }) => ({
+      url: videoWatchUrl(article.slug),
       lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.8,

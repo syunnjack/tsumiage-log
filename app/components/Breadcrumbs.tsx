@@ -24,7 +24,7 @@ export default function Breadcrumbs() {
   return <nav className="site-breadcrumbs" aria-label="パンくずリスト"><ol>
     <li><Link href="/">ホーム</Link></li>
     {segments.map((segment, index) => {
-      const href = `/${segments.slice(0, index + 1).join("/")}`
+      const href = `/${segments.slice(0, index + 1).join("/")}/`
       const current = index === segments.length - 1
       return <li key={href} aria-current={current ? "page" : undefined}>
         {current ? <span>{segmentLabel(segment, index, segments)}</span> : <Link href={href}>{segmentLabel(segment, index, segments)}</Link>}

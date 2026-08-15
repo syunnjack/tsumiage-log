@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "気に入った動画 | 積み上げログ",
   description:
     "技術、F1、お笑い、犬猫の癒やし、好きな楽曲など、実際に見て気に入った動画を選定理由とともに紹介します。",
-  alternates: { canonical: "/videos/favorites" },
+  alternates: { canonical: "/videos/favorites/" },
   openGraph: {
     title: "気に入った動画 | 積み上げログ",
     description: "技術、F1、お笑い、犬猫、音楽から、実際に見て気に入った動画を探せます。",
-    url: "/videos/favorites",
+    url: "/videos/favorites/",
     images: ["/og.png"],
   },
 }
@@ -22,11 +22,11 @@ export default function FavoriteVideosPage() {
     name: "気に入った動画",
     description:
       "syunnjackが実際に見て役立った技術動画を、選定理由とともに紹介するコレクション。",
-    url: "https://syunnjack.dev/videos/favorites",
+    url: "https://syunnjack.dev/videos/favorites/",
     isPartOf: {
       "@type": "WebSite",
       name: "積み上げログ",
-      url: "https://syunnjack.dev",
+      url: "https://syunnjack.dev/",
     },
     numberOfItems: favoriteVideoData.videos.length,
     hasPart: favoriteVideoData.videos.map((video) => ({
@@ -43,9 +43,9 @@ export default function FavoriteVideosPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "動画", item: "https://syunnjack.dev/videos" },
-      { "@type": "ListItem", position: 3, name: "気に入った動画", item: "https://syunnjack.dev/videos/favorites" },
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev/" },
+      { "@type": "ListItem", position: 2, name: "動画", item: "https://syunnjack.dev/videos/" },
+      { "@type": "ListItem", position: 3, name: "気に入った動画", item: "https://syunnjack.dev/videos/favorites/" },
     ],
   }
 
@@ -59,7 +59,7 @@ export default function FavoriteVideosPage() {
           <span className="brand-mark">つ</span>
           <span><strong>積み上げログ</strong><small>技術ブログ</small></span>
         </Link>
-        <Link href="/videos">動画ページへ戻る</Link>
+        <Link href="/videos/">動画ページへ戻る</Link>
       </header>
 
       <section className="favorite-video-hero">

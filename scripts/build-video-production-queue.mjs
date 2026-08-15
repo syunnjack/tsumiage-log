@@ -61,7 +61,7 @@ const videos = repositoryData.articles
       title: meta.title,
       description: projectSummary,
       language: languages,
-      articleUrl: `https://syunnjack.dev/articles/${article.slug}`,
+      articleUrl: `https://syunnjack.dev/articles/${article.slug}/`,
       repositoryUrl: article.url,
       youtubeDescription: meta.youtubeDescription,
       tags: meta.tags,
@@ -72,7 +72,7 @@ const videos = repositoryData.articles
         { title: "技術スタック", body: `主要技術：${languages}\n役割を分け、保守しやすい構成を目指しています。` },
         { title: "リポジトリの読みどころ", body: `公開コード、README、コミット履歴から設計判断を確認できます。\n主なファイル：${article.files.slice(0, 3).join("、") || "主要なソースファイル"}` },
         { title: "コミットから分かる改善", body: commitSummary },
-        { title: "詳しくは積み上げログへ", body: `記事： https://syunnjack.dev/articles/${article.slug}\n\n学び、作り、振り返る開発記録。` },
+        { title: "詳しくは積み上げログへ", body: `記事： https://syunnjack.dev/articles/${article.slug}/\n\n学び、作り、振り返る開発記録。` },
       ],
       publishAt: scheduledPublishAt,
       status: ["scheduled", "published"].includes(prior.status)

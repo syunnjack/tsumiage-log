@@ -8,8 +8,8 @@ const pageDescription =
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
-  alternates: { canonical: "/beginner" },
-  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/beginner", images: ["/og.png"] },
+  alternates: { canonical: "/beginner/" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/beginner/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
 }
 
@@ -46,7 +46,7 @@ export default function BeginnerPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "はじめての方へ", item: "https://syunnjack.dev/beginner" },
+      { "@type": "ListItem", position: 2, name: "はじめての方へ", item: "https://syunnjack.dev/beginner/" },
     ],
   }
 

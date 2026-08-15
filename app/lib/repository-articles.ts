@@ -10,9 +10,16 @@ export type RepositoryArticle = {
 }
 
 const excludedRepositories = new Set(contentPolicy.excludedRepositories)
-export const articles = (repositoryData.articles as RepositoryArticle[]).filter(
-  (article) => !excludedRepositories.has(article.name),
-)
+const promptDebris = /\s+(?:Repository\s+(?:Recommended\s+repository\s+name|Name)|Domain\s+candidates?|(?:Confirmed|Canonical)\s+domain)\s*:?\s*[\s\S]*$/i
+const cleanPublicCopy = (value: string) => value.replace(promptDebris, "").replace(/\s+/g, " ").trim()
+
+export const articles = (repositoryData.articles as RepositoryArticle[])
+  .filter((article) => !excludedRepositories.has(article.name))
+  .map((article) => ({
+    ...article,
+    description: cleanPublicCopy(article.description),
+    readmeExcerpt: cleanPublicCopy(article.readmeExcerpt),
+  }))
 export const articleStats = repositoryData
 export const getArticle = (slug: string) =>
   articles.find((article) => article.slug === slug)

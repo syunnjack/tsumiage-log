@@ -9,8 +9,8 @@ const description = "ココナラ、ランサーズ、クラウドワークス�
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/crowdsourcing" },
-  openGraph: { title, description, type: "website", url: "/crowdsourcing", images: ["/og.png"] },
+  alternates: { canonical: "/crowdsourcing/" },
+  openGraph: { title, description, type: "website", url: "/crowdsourcing/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title, description, images: ["/og.png"] },
 }
 
@@ -46,7 +46,7 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-    { "@type": "ListItem", position: 2, name: "クラウドソーシング", item: "https://syunnjack.dev/crowdsourcing" },
+    { "@type": "ListItem", position: 2, name: "クラウドソーシング", item: "https://syunnjack.dev/crowdsourcing/" },
   ],
 }
 
@@ -55,7 +55,7 @@ const serviceSchema = {
   "@type": "Service",
   name: "クラウドソーシング経由のWeb制作・システム開発・業務自動化",
   description,
-  provider: { "@type": "Person", name: "知多丸", url: "https://syunnjack.dev/profile" },
+  provider: { "@type": "Person", name: "知多丸", url: "https://syunnjack.dev/profile/" },
   areaServed: "JP",
   serviceType: ["Web制作", "システム開発", "業務自動化", "技術相談"],
 }

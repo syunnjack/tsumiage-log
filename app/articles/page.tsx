@@ -9,8 +9,8 @@ const pageDescription = "自主執筆した技術記事と、公開GitHubリポ�
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
-  alternates: { canonical: "/articles" },
-  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/articles", images: ["/og.png"] },
+  alternates: { canonical: "/articles/" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/articles/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
 }
 
@@ -18,8 +18,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-    { "@type": "ListItem", position: 2, name: "技術記事一覧", item: "https://syunnjack.dev/articles" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev/" },
+    { "@type": "ListItem", position: 2, name: "技術記事一覧", item: "https://syunnjack.dev/articles/" },
   ],
 }
 
@@ -39,16 +39,16 @@ export default function ArticlesPage() {
     <section className="repository-grid" aria-label="技術記事">
       {manualArticles.map((article, index) => <article className="repository-card manual-article-card" key={`manual-${article.slug}`}>
         <div className="repository-card-meta"><span>自主執筆 {String(index + 1).padStart(2, "0")}</span><span>{article.category}</span></div>
-        <h2><Link href={`/articles/manual/${article.slug}`}>{article.title}</Link></h2>
+        <h2><Link href={`/articles/manual/${article.slug}/`}>{article.title}</Link></h2>
         <p>{article.description}</p>
         <div className="manual-tags">{article.tags.slice(0, 4).map((tag) => <span key={tag}>{tag}</span>)}</div>
-        <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/manual/${article.slug}`}>記事を読む →</Link></div>
+        <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/manual/${article.slug}/`}>記事を読む →</Link></div>
       </article>)}
       {articles.map((article, index) => <article className="repository-card" key={article.slug}>
         <div className="repository-card-meta"><span>リポジトリ {String(index + 1).padStart(3, "0")}</span><span>{article.primaryLanguage}</span></div>
-        <h2><Link href={`/articles/${article.slug}`}>{article.displayName}の設計と実装</Link></h2>
+        <h2><Link href={`/articles/${article.slug}/`}>{article.displayName}の設計と実装</Link></h2>
         <p>{article.description}</p>
-        <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/${article.slug}`}>解説を読む →</Link></div>
+        <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/${article.slug}/`}>解説を読む →</Link></div>
       </article>)}
     </section>
   </main>

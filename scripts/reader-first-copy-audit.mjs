@@ -1,6 +1,6 @@
 import { readdir, readFile } from "node:fs/promises"
 import path from "node:path"
-import { hasJapaneseText, leadingEnglishLength } from "./repository-content-ja.mjs"
+import { cleanReaderCopy, hasJapaneseText, leadingEnglishLength } from "./repository-content-ja.mjs"
 
 const appDirectory = path.resolve("app")
 // repositories.json is excluded: its readmeExcerpt fields quote other repos'
@@ -51,6 +51,7 @@ const prohibitedExpressions = [
   "ABOUT THIS LOG",
 ]
 const unfinishedReaderLabels = /試作版|公開予定|プレビュー/
+const promptDebrisLabels = /Repository\s+(?:Recommended\s+repository\s+name|Name)|Domain\s+candidates?|(?:Confirmed|Canonical)\s+domain/i
 
 async function collectSourceFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true })
@@ -96,20 +97,25 @@ const repositoryData = JSON.parse(
   await readFile(path.resolve("app/data/repositories.json"), "utf8"),
 )
 for (const article of repositoryData.articles) {
-  if (!hasJapaneseText(article.description)) {
+  const description = cleanReaderCopy(article.description)
+  const readmeExcerpt = cleanReaderCopy(article.readmeExcerpt)
+  if (!hasJapaneseText(description)) {
     violations.push(`app/data/repositories.json ${article.name}: 説明文が日本語ではありません`)
   }
-  if (article.readmeExcerpt && !hasJapaneseText(article.readmeExcerpt)) {
+  if (readmeExcerpt && !hasJapaneseText(readmeExcerpt)) {
     violations.push(`app/data/repositories.json ${article.name}: 本文概要が日本語ではありません`)
   }
-  if (leadingEnglishLength(article.description) > 60) {
+  if (leadingEnglishLength(description) > 60) {
     violations.push(`app/data/repositories.json ${article.name}: 説明文が長い英語から始まっています`)
   }
-  if (leadingEnglishLength(article.readmeExcerpt) > 120) {
+  if (leadingEnglishLength(readmeExcerpt) > 120) {
     violations.push(`app/data/repositories.json ${article.name}: 本文概要が長い英語から始まっています`)
   }
-  if (unfinishedReaderLabels.test(`${article.description}\n${article.readmeExcerpt}`)) {
+  if (unfinishedReaderLabels.test(`${description}\n${readmeExcerpt}`)) {
     violations.push(`app/data/repositories.json ${article.name}: 未完成に見える読者向け表現があります`)
+  }
+  if (promptDebrisLabels.test(`${description}\n${readmeExcerpt}`)) {
+    violations.push(`app/data/repositories.json ${article.name}: 生成プロンプト由来の文言があります`)
   }
 }
 

@@ -37,13 +37,33 @@
   background: var(--paper);
 }
 
+.article-video-watch-link {
+  align-items: center;
+  align-self: stretch;
+  background: var(--ink);
+  color: white;
+  display: flex;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 800;
+  justify-content: center;
+  min-height: 110px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.article-video-watch-link:hover {
+  background: var(--ink-deep);
+  color: var(--amber);
+}
+
 .article-video-published p,
 .article-video-published h2,
 .article-video-published span { margin: 0; }
 .article-video-published p { margin-bottom: .5rem; font-size: .75rem; letter-spacing: .12em; }
 .article-video-published h2 { margin-bottom: .6rem; }
 .article-published-video { width: 100%; aspect-ratio: 16 / 9; background: #111; }
-.article-video-published > a { grid-column: 1 / -1; justify-self: end; font-weight: 700; }
+.article-video-published > a:not(.article-video-watch-link) { grid-column: 1 / -1; justify-self: end; font-weight: 700; }
 
 .video-playback-error {
   align-items: center;
@@ -1957,6 +1977,49 @@ footer > a {
   position: relative;
 }
 
+.video-watch-preview {
+  align-items: center;
+  aspect-ratio: 16 / 9;
+  background-color: var(--ink);
+  background-image:
+    linear-gradient(#ffffff0b 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff0b 1px, transparent 1px);
+  background-size: 26px 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.video-watch-preview > span,
+.video-watch-preview > small {
+  font-family: "DM Mono", monospace;
+  font-size: 7px;
+  position: absolute;
+}
+
+.video-watch-preview > span { left: 12px; top: 11px; }
+.video-watch-preview > small { bottom: 11px; right: 12px; }
+
+.video-watch-preview > strong {
+  align-items: center;
+  border: 1px solid var(--amber);
+  border-radius: 50%;
+  color: var(--amber);
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  padding-left: 3px;
+  transition: transform .2s ease, background .2s ease;
+  width: 52px;
+}
+
+.video-watch-preview:hover > strong {
+  background: #ffffff12;
+  transform: scale(1.08);
+}
+
 .video-placeholder > span,
 .video-placeholder > small {
   font-family: "DM Mono", monospace;
@@ -2075,6 +2138,32 @@ footer > a {
     grid-template-columns: 1fr;
   }
 }
+
+/* 動画視聴ページ */
+.video-watch-page {
+  background: var(--paper-light);
+  color: var(--ink-deep);
+  min-height: 100vh;
+  padding-bottom: clamp(4rem, 9vw, 8rem);
+}
+
+.video-watch-content {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: clamp(3rem, 8vw, 7rem) clamp(1rem, 4vw, 3rem) 0;
+}
+
+.video-watch-content > header { margin-bottom: clamp(1.5rem, 4vw, 3rem); }
+.video-watch-content > header h1 { font-size: clamp(2rem, 6vw, 4.6rem); line-height: 1.08; margin: 1rem 0; }
+.video-watch-content > header > p:last-child { font-size: clamp(.95rem, 2vw, 1.15rem); line-height: 1.9; max-width: 760px; }
+.video-watch-player { aspect-ratio: 16 / 9; background: #111; box-shadow: 0 24px 60px #0d2d2324; width: 100%; }
+.video-watch-meta { border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: .65rem 1.4rem; padding: 1rem 0; }
+.video-watch-meta span { color: #64766c; font: 600 .72rem "DM Mono", monospace; }
+.video-watch-content > section { border-top: 1px solid var(--line); margin-top: clamp(2.5rem, 6vw, 5rem); padding-top: clamp(1.5rem, 3vw, 2.5rem); }
+.video-watch-content > section h2 { font-size: clamp(1.4rem, 3vw, 2.1rem); }
+.video-watch-content > section li,
+.video-watch-content > section p { line-height: 1.9; }
+.video-watch-links > div { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.4rem; }
 
 /* 販売プラットフォーム (/store) */
 .store-page {
