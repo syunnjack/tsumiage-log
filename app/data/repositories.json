@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T06:38:01.799Z",
+  "generatedAt": "2026-08-15T07:25:55.416Z",
   "owner": "syunnjack",
-  "totalRepositories": 301,
-  "publicRepositories": 166,
-  "privateRepositories": 135,
+  "totalRepositories": 167,
+  "publicRepositories": 167,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -2059,6 +2059,31 @@
       "forks": 0
     },
     {
+      "slug": "ec-price-tracker-lite",
+      "name": "ec-price-tracker-lite",
+      "displayName": "Ec Price Tracker Lite",
+      "description": "軽量ECサイト価格トラッカー（Python・CSV履歴出力）",
+      "readmeExcerpt": "ec price tracker lite ECサイトの商品ページから価格を取得し、CSVに履歴を蓄積する軽量スクリプトです。 「価格改定の見落ち」「毎朝の手動チェック」を自動化するための最小構成サンプルとして公開しています。 できること 複数の商品ページを設定ファイル（JSON）で一括管理 CSSセレクタで価格要素を指定して取得 取得結果を history.csv に追記（Excelでそのまま開けるUTF 8 BOM付き） 目標価格を設定すると、下回った行に注記を付与 セットアップ 使い方 出力例: 設定ファイル キー 必須 説明 name ○ CSVに記録する商品名 url ○ 商品ページのURL selector ○ 価格が入っている要素のCSSセレクタ threshold 目標価格（円）。下回るとCSVのnote列に注記が入る Windowsのタスクスケジューラや cron に登録すれば、定期実行での価格履歴収集ができます。 注意 対象サイトの利用規約・robots.txt を確認し、過度なリクエストを行わないようにしてください。 本スクリプトは学習・検証用のサンプルです。 GUI版・Excelレポート版の配布（BOOTH） コマンド操作なしで使えるWindows向けGUI版（.exe）と、集計済みExcelレポートのテンプレートをBOOTHで配布しています。 BOOTH: 〔BOOTH商品ページURLをここに記載〕 個別カスタマイズのご相談（ココナラ） 「対象サイトを追加したい」「Slack/メール通知を付けたい」「社内システムと連携したい」といった個別要件は、ココナラでオーダーメイド対応しています。 ココナラ: 〔ココナラ出品ページURLをここに記載〕 ライセンス MIT License",
+      "url": "https://github.com/syunnjack/ec-price-tracker-lite",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "97fefd4",
+          "message": "Add lite EC price tracker script with docs",
+          "date": "2026-08-13T16:40:40Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
+        }
+      ],
+      "updatedAt": "2026-08-15T06:49:44Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "ec-price-tracker-lite-",
       "name": "ec-price-tracker-lite-",
       "displayName": "Ec Price Tracker Lite",
@@ -2072,6 +2097,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "00ea691",
+          "message": "Add Brain article link to README",
+          "date": "2026-08-15T06:52:40Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/00ea69117dd993d116a17d786de037e323e433fb"
+        },
         {
           "sha": "903a238",
           "message": "支援・購入への導線を追加する",
@@ -2139,7 +2170,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite-/commit/77939889fa780789bdea7ac510308e03ac593f42"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:48Z",
+      "updatedAt": "2026-08-15T06:53:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -10527,6 +10558,42 @@
       "files": [],
       "commits": [
         {
+          "sha": "b1b11ab",
+          "message": "Merge pull request #98 from syunnjack/codex/automated-video-20260815-151834",
+          "date": "2026-08-15T07:00:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b1b11abbb64392d123e245d5ca0ff5474fe45acc"
+        },
+        {
+          "sha": "31148b5",
+          "message": "Merge latest main before automated publication",
+          "date": "2026-08-15T06:59:37Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/31148b55e7afefc9183cdcb3f21cca862460756a"
+        },
+        {
+          "sha": "09bda4c",
+          "message": "Automate repository article and video assets",
+          "date": "2026-08-15T06:57:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/09bda4c9ebcf5dcfcd603c05a85b0c7057c7274c"
+        },
+        {
+          "sha": "1325afb",
+          "message": "Merge pull request #97 from syunnjack/codex/automated-video-20260815-095512",
+          "date": "2026-08-15T06:48:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1325afb0983bff0e2fd3495c90613e5d71dc4cf4"
+        },
+        {
+          "sha": "6a8f708",
+          "message": "Refresh repository publication data",
+          "date": "2026-08-15T06:38:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6a8f708ab89505ef2e0f170804560c0b57dd3226"
+        },
+        {
+          "sha": "e955fd3",
+          "message": "Publish repository videos and articles",
+          "date": "2026-08-15T06:36:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e955fd387b6be7c36b5fd88868bc56b88da39201"
+        },
+        {
           "sha": "26962c9",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T06:27:00Z",
@@ -10561,45 +10628,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T01:50:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0d1aa9d7ec712b962d1ad3a3ac662c01814f37c5"
-        },
-        {
-          "sha": "c513a14",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:59:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c513a14040b491cdb2984ab84bc37a44558f1f47"
-        },
-        {
-          "sha": "8b10a02",
-          "message": "BOOTHリンクをショップ名の変更に強くし、FANBOXの導線を用意する",
-          "date": "2026-08-15T00:44:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8b10a026ffbf833051bb326387c9a8761aa1e4ac"
-        },
-        {
-          "sha": "569ec9e",
-          "message": "記事に codoc の支援枠を置けるようにする",
-          "date": "2026-08-15T00:34:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/569ec9e77c1dfc826a073e11fe07124903e92662"
-        },
-        {
-          "sha": "7d6d879",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T00:28:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7d6d8797d7a72ce7dd9e37960c4e67eb8caa09c8"
-        },
-        {
-          "sha": "eb3c546",
-          "message": "Merge pull request #96 from syunnjack/codex/automated-video-20260815-085538",
-          "date": "2026-08-15T00:06:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb3c5461eae2c9616634735cb86ed9be4bc9ae57"
-        },
-        {
-          "sha": "e87d406",
-          "message": "Publish rakuten-blogtool video",
-          "date": "2026-08-15T00:05:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e87d406165f8dd4de932e89675cf68c17c74216e"
         }
       ],
-      "updatedAt": "2026-08-15T06:27:05Z",
+      "updatedAt": "2026-08-15T07:00:35Z",
       "stars": 0,
       "forks": 0
     },
