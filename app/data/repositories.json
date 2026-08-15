@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T15:24:28.487Z",
+  "generatedAt": "2026-08-15T16:24:51.015Z",
   "owner": "syunnjack",
-  "totalRepositories": 170,
-  "publicRepositories": 170,
+  "totalRepositories": 171,
+  "publicRepositories": 171,
   "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
@@ -2073,6 +2073,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5882cfe",
+          "message": "Replace placeholder links with published BOOTH/Brain/note/coconala URLs (#6)",
+          "date": "2026-08-15T15:29:18Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/5882cfe58e57b5bcc0af7190526ce21ea5611372"
+        },
+        {
           "sha": "25ed0cc",
           "message": "Manage the Zenn article in this repository (zenn-connect) (#5)",
           "date": "2026-08-15T14:26:39Z",
@@ -2109,7 +2115,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
         }
       ],
-      "updatedAt": "2026-08-15T14:26:49Z",
+      "updatedAt": "2026-08-15T15:29:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -10650,6 +10656,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5d95a9c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T15:24:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5d95a9c03171efaea754332d3dd8d6eaac7a8fe5"
+        },
+        {
           "sha": "e290832",
           "message": "Merge pull request #102 from syunnjack/codex/automated-video-20260816-0004",
           "date": "2026-08-15T15:05:34Z",
@@ -10714,15 +10726,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T10:25:16Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ef139b6e736423aa44922073eacde353e29ef8b9"
-        },
-        {
-          "sha": "aa6b969",
-          "message": "動画再生の安定化とヘルスチェック自動化 (#99)",
-          "date": "2026-08-15T09:28:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/aa6b969d2b9a0e8b25f6843d6675e4357801b468"
         }
       ],
-      "updatedAt": "2026-08-15T15:06:09Z",
+      "updatedAt": "2026-08-15T15:25:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -11445,6 +11451,31 @@
         }
       ],
       "updatedAt": "2026-08-15T01:00:04Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "yozan-heishu",
+      "name": "yozan-heishu",
+      "displayName": "Yozan Heishu",
+      "description": "上杉鷹山と、その師・細井平洲の総合サイト。年号・言葉・場所のすべてに出典を示す。yozan-heishu.jp",
+      "readmeExcerpt": "鷹山と平洲 上杉鷹山（1751 1822）と、その師・細井平洲（1728 1801）の総合サイト。 公開先は https://yozan heishu.jp このサイトの方針 この師弟については、出所のはっきりしない逸話や名言が数多く流通している。 だからこのサイトは、 出典をたどれるものだけを載せる という一点で他と分ける。 年号・出来事・言葉の原文は、東海市（愛知県／平洲の生地）と米沢市（山形県／鷹山の藩）の 公式ウェブサイトに記載されているものを典拠とする 各ページに出典リンクを置く 確認できない事柄は載せない。年表に空白の年があるのは、確認できていないため 座標は実在を確認できたものだけを持つ。推測で置かない。 地図に無い場所は「未登録」と明記し、住所で検索させる 言葉の解説では、意味の説明で終わらせず「いつ・誰に向けて語られたか」まで書く。 場面が分かると意味が変わることがあるため。「なせば成る」がその典型で、 若者への励ましではなく、改革をやり遂げた者が次代へ残した壁書の締めくくりだった。 構成 開発 地図データを取り直すとき（Overpass に負荷をかけるので、必要なときだけ）: 実装上の注意 同名の寺社に気をつける。 米沢市にも「観音寺」がある。平洲が学んだ東海市の観音寺と 取り違えかけた。 build places.mjs の判定は必ず地域とセットで行う。 江戸は機械抽出の対象から外している。 名前で絞ると「明治大学米沢嘉博記念図書館」 （漫画評論家の名を冠した図書館。米沢藩とは無関係）や加賀藩の屋敷跡まで拾ってしまう。 範囲が広すぎて名前だけでは判別できないため、江戸のゆかりの地は landmarks.js に出典つきで手で持っている。 重要な場所ほど地図に載っていない。 普門院、関根の郊迎跡、平洲が学んだ観音寺、 白子神社は、いずれも OpenStreetMap に未登録だった。機械抽出だけに頼ると核心が抜ける。 Overpass API は User Agent が無いと 406 を返す。名前だけの正規表現は重すぎて 504 になる。 典拠 東",
+      "url": "https://github.com/syunnjack/yozan-heishu",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "46d67bd",
+          "message": "上杉鷹山と細井平洲の総合サイトを立ち上げる",
+          "date": "2026-08-15T16:10:01Z",
+          "url": "https://github.com/syunnjack/yozan-heishu/commit/46d67bdacef57610dc37cd080b6d7a13ba4867e4"
+        }
+      ],
+      "updatedAt": "2026-08-15T16:14:56Z",
       "stars": 0,
       "forks": 0
     }
