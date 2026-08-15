@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:27:39.341Z",
+  "generatedAt": "2026-08-15T04:25:54.166Z",
   "owner": "syunnjack",
   "totalRepositories": 166,
   "publicRepositories": 166,
@@ -10527,6 +10527,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e65727f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T03:28:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e65727f5ed1ec4c450a2729e1b48e242dabe31e8"
+        },
+        {
           "sha": "3741ce6",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T02:37:28Z",
@@ -10591,15 +10597,9 @@
           "message": "chore: refresh automated article and video metadata",
           "date": "2026-08-14T22:56:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/986cf24ab62d3ff46cddfee367f71b47d9daeda1"
-        },
-        {
-          "sha": "e7f733c",
-          "message": "Merge pull request #94 from syunnjack/codex/automated-video-20260815-072931",
-          "date": "2026-08-14T22:40:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e7f733cd3bee49a6b737e10982aa533ad60da4b5"
         }
       ],
-      "updatedAt": "2026-08-15T02:37:34Z",
+      "updatedAt": "2026-08-15T03:28:19Z",
       "stars": 0,
       "forks": 0
     },
