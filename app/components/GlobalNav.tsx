@@ -1,16 +1,16 @@
 import Link from "next/link"
 
 const items = [
-  ["ストア", "/store"],
-  ["クラウドソーシング", "/crowdsourcing"],
-  ["サービス", "/services"],
-  ["見積依頼", "/estimate"],
-  ["お問い合わせ", "/contact"],
+  ["ストア", "/store/"],
+  ["クラウドソーシング", "/crowdsourcing/"],
+  ["サービス", "/services/"],
+  ["見積依頼", "/estimate/"],
+  ["お問い合わせ", "/contact/"],
   ["このブログについて", "/#about"],
-  ["スマホ・パソコンの操作・設定でお困りの方へ", "/beginner"],
-  ["キャリア・学習", "/career-support"],
-  ["動画", "/videos"],
-  ["お気に入り動画", "/videos/favorites"],
+  ["スマホ・パソコンの操作・設定でお困りの方へ", "/beginner/"],
+  ["キャリア・学習", "/career-support/"],
+  ["動画", "/videos/"],
+  ["お気に入り動画", "/videos/favorites/"],
 ]
 
 export default function GlobalNav() {

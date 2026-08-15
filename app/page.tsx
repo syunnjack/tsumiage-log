@@ -4,14 +4,14 @@ import { manualArticles } from "./lib/manual-articles"
 
 const latestArticles = [
   ...manualArticles.map((article) => ({
-    href: `/articles/manual/${article.slug}`,
+    href: `/articles/manual/${article.slug}/`,
     category: article.category,
     title: article.title,
     excerpt: article.description,
     updatedAt: article.updatedAt,
   })),
   ...repositoryArticles.map((article) => ({
-    href: `/articles/${article.slug}`,
+    href: `/articles/${article.slug}/`,
     category: article.primaryLanguage,
     title: `${article.displayName}の設計と実装`,
     excerpt: article.description,
@@ -58,8 +58,8 @@ export default function Home() {
           </span>
         </a>
         <nav aria-label="メインナビゲーション">
-          <Link href="/articles">記事</Link>
-          <Link href="/videos">動画</Link>
+          <Link href="/articles/">記事</Link>
+          <Link href="/videos/">動画</Link>
           <a href="#timeline">学習年表</a>
           <a href="#project">プロジェクト</a>
           <a href="#about">このブログについて</a>
@@ -87,10 +87,10 @@ export default function Home() {
             ITエンジニアには、設計と実装の過程まで深く伝えます。
           </p>
           <div className="hero-actions">
-            <Link className="button primary" href="/beginner">
+            <Link className="button primary" href="/beginner/">
               はじめての方へ <span aria-hidden="true">→</span>
             </Link>
-            <Link className="button secondary" href="/articles">
+            <Link className="button secondary" href="/articles/">
               技術記事を読む
             </Link>
           </div>
@@ -155,7 +155,7 @@ export default function Home() {
         </div>
         <p className="coming-note">
           GitHubの公開コミットを根拠にした技術解説を公開しています。{" "}
-          <Link href="/articles">全記事を見る →</Link>
+          <Link href="/articles/">全記事を見る →</Link>
         </p>
       </section>
 
@@ -205,7 +205,7 @@ export default function Home() {
             </div>
             <Link
               className="button primary"
-              href="/articles/goal-pilot-app"
+              href="/articles/goal-pilot-app/"
             >
               プロジェクトを見る <span aria-hidden="true">↗</span>
             </Link>

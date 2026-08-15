@@ -1,9 +1,8 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { VideoPlayer } from "../components/VideoPlayer"
 import { articles } from "../lib/repository-articles"
-import { resolveVideoAssetUrl } from "../lib/video-assets"
-import videoProduction from "../data/video-production.json"
+import { canonicalPath } from "../lib/site-url"
+import { publishedVideos, videoWatchPath, videoWatchUrl } from "../lib/video-library"
 
 const pageTitle = "技術解説動画 | 積み上げログ"
 const pageDescription =
@@ -12,27 +11,12 @@ const pageDescription =
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
-  alternates: { canonical: "/videos" },
-  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/videos", images: ["/og.png"] },
+  alternates: { canonical: "/videos/" },
+  openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/videos/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },
 }
 
 export default function VideosPage() {
-  const videoBySlug = new Map(videoProduction.videos.map((video) => [video.slug, video]))
-  const videoEntries = articles
-    .map((article) => {
-      const production = videoBySlug.get(article.slug)
-      return {
-        article,
-        videoUrl: resolveVideoAssetUrl(production?.localVideoUrl),
-        youtubeUrl:
-          article.slug === "rakuten02"
-            ? "https://youtu.be/mQ8Nl4Qk_io"
-            : production?.youtubeUrl,
-      }
-    })
-  const publishedVideos = videoEntries
-    .flatMap((entry) => entry.videoUrl ? [{ ...entry, videoUrl: entry.videoUrl }] : [])
   const articleOnlyCount = articles.length - publishedVideos.length
 
   const collectionSchema = {
@@ -40,25 +24,25 @@ export default function VideosPage() {
     "@type": "CollectionPage",
     name: "技術解説動画",
     description: pageDescription,
-    url: "https://syunnjack.dev/videos",
-    isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev" },
-    numberOfItems: publishedVideos.length,
-    hasPart: publishedVideos.map(({ article, videoUrl }) => ({
-      "@type": "VideoObject",
-      name: `${article.displayName}の技術解説`,
-      description: article.description,
-      contentUrl: videoUrl,
-      thumbnailUrl: article.slug === "rakuten02" ? "https://syunnjack.dev/videos/rakuten02-tech-preview.png" : undefined,
-      uploadDate: article.updatedAt,
-      author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
-    })),
+    url: "https://syunnjack.dev/videos/",
+    isPartOf: { "@type": "WebSite", name: "積み上げログ", url: "https://syunnjack.dev/" },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: publishedVideos.length,
+      itemListElement: publishedVideos.map(({ article }, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `${article.displayName}の技術解説動画`,
+        url: videoWatchUrl(article.slug),
+      })),
+    },
   }
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "動画", item: "https://syunnjack.dev/videos" },
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev/" },
+      { "@type": "ListItem", position: 2, name: "動画", item: "https://syunnjack.dev/videos/" },
     ],
   }
 
@@ -99,7 +83,7 @@ export default function VideosPage() {
       </section>
 
       <section className="video-plan-section">
-        <Link className="favorite-video-entry" href="/videos/favorites">
+        <Link className="favorite-video-entry" href="/videos/favorites/">
           <div>
             <p>おすすめ動画</p>
             <h2>気に入った動画</h2>
@@ -150,16 +134,14 @@ export default function VideosPage() {
           <p>設計、技術選定、コミット履歴の要点をプロジェクトごとに確認できます。</p>
         </div>
         <div className="video-plan-grid">
-          {videoEntries.map(({ article, videoUrl, youtubeUrl }, index) => (
-            <article className={`video-plan-card${videoUrl ? " is-published" : " is-article-only"}`} id={article.slug} key={article.slug}>
-              {videoUrl ? <VideoPlayer fallbackHref={`/articles/${article.slug}`} poster={article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.png" : undefined} src={videoUrl} title={`${article.displayName}の技術解説`} /> : (
-                <div className="video-placeholder video-placeholder-article-only" role="status" aria-label={`${article.displayName}の動画は掲載されていません`}>
-                  <span>動画 {String(index + 1).padStart(3, "0")}</span>
-                  <i>記事のみ</i>
-                  <small>動画なし</small>
-                </div>
-              )}
-              {youtubeUrl ? <a className="youtube-published-link" href={youtubeUrl}>YouTubeで見る ↗</a> : null}
+          {publishedVideos.map(({ article, video }, index) => (
+            <article className="video-plan-card is-published" id={article.slug} key={article.slug}>
+              <Link className="video-watch-preview" href={videoWatchPath(article.slug)} aria-label={`${article.displayName}の技術解説動画を再生`}>
+                <span>動画 {String(index + 1).padStart(3, "0")}</span>
+                <strong aria-hidden="true">▶</strong>
+                <small>約75秒で見る</small>
+              </Link>
+              {video.youtubeUrl ? <a className="youtube-published-link" href={video.youtubeUrl}>YouTubeで見る ↗</a> : null}
               <p>{article.primaryLanguage}</p>
               <h2>{article.displayName}の技術解説</h2>
               <p>
@@ -167,7 +149,7 @@ export default function VideosPage() {
               </p>
               <div>
                 <span>設計・実装・改善</span>
-                <Link href={`/articles/${article.slug}`}>技術記事を読む →</Link>
+                <Link href={canonicalPath(`/articles/${article.slug}`)}>技術記事を読む →</Link>
               </div>
             </article>
           ))}

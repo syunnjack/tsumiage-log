@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://syunnjack.dev"),
   title: "積み上げログ | 学び、作り、振り返る開発記録",
   description: "パソコンが苦手な方には専門用語をかみくだいて、ITエンジニアには実装やコミットまで深く解説するsyunnjackの技術ブログです。",
-  openGraph: { title: "積み上げログ", description: "学び、作り、振り返る開発記録", url: "https://syunnjack.dev", siteName: "積み上げログ", locale: "ja_JP", type: "website", images: [{ url: "/og.png", width: 1731, height: 909, alt: "積み上げログ" }] },
+  openGraph: { title: "積み上げログ", description: "学び、作り、振り返る開発記録", url: "https://syunnjack.dev/", siteName: "積み上げログ", locale: "ja_JP", type: "website", images: [{ url: "/og.png", width: 1731, height: 909, alt: "積み上げログ" }] },
   twitter: { card: "summary_large_image", title: "積み上げログ", description: "学び、作り、振り返る開発記録", images: ["/og.png"] },
   icons: { icon: "/favicon.svg" },
   verification: googleSiteVerification ? { google: googleSiteVerification } : undefined,

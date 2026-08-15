@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { VideoPlayer } from "../../components/VideoPlayer"
 import Comments from "../../components/Comments"
+import { getArticleSeo } from "../../lib/article-seo"
 import { articles, formatCommitMessage, formatDate, getArticle, inferArchitecture } from "../../lib/repository-articles"
-import { resolveVideoAssetUrl } from "../../lib/video-assets"
+import { canonicalPath } from "../../lib/site-url"
+import { videoWatchPath } from "../../lib/video-library"
 import videoProduction from "../../data/video-production.json"
 
 export const generateStaticParams = () => articles.map(({ slug }) => ({ slug }))
@@ -12,51 +13,51 @@ export const generateStaticParams = () => articles.map(({ slug }) => ({ slug }))
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const article = getArticle((await params).slug)
   if (!article) return {}
-  const title = `${article.displayName}の設計・技術選定・コミット履歴を解説`
-  const description = `${article.name}で使われた${article.languages.join("、") || article.primaryLanguage}の構成、実装の変遷、学びをGitHubコミットに基づいて解説します。`
-  return { title: `${title} | 積み上げログ`, description, alternates: { canonical: `/articles/${article.slug}` },
-    openGraph: { title, description, type: "article", url: `/articles/${article.slug}`, modifiedTime: article.updatedAt, images: ["/og.png"] } }
+  const { title, description } = getArticleSeo(article)
+  const canonical = canonicalPath(`/articles/${article.slug}`)
+  return { title: `${title} | 積み上げログ`, description, alternates: { canonical },
+    openGraph: { title, description, type: "article", url: canonical, modifiedTime: article.updatedAt, images: ["/og.png"] } }
 }
 
 export default async function RepositoryArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const article = getArticle((await params).slug)
   if (!article) notFound()
+  const articleSeo = getArticleSeo(article)
   const architecture = inferArchitecture(article)
   const repositoryVideo = videoProduction.videos.find((video) => video.slug === article.slug)
-  const repositoryVideoUrl = resolveVideoAssetUrl(repositoryVideo?.localVideoUrl)
-  const videoUrl = repositoryVideoUrl
   const youtubeUrl = article.slug === "rakuten02" ? "https://youtu.be/mQ8Nl4Qk_io" : repositoryVideo?.youtubeUrl
-  const hasVideo = Boolean(videoUrl)
+  const hasVideo = Boolean(repositoryVideo?.localVideoUrl)
+  const watchPath = videoWatchPath(article.slug)
   const faq = [
     { q: `${article.name}は何を作るプロジェクトですか？`, a: article.description },
     { q: `${article.name}の主要技術は何ですか？`, a: `${article.languages.join("、") || article.primaryLanguage}を中心に構成されています。` },
     { q: "この記事の情報源は何ですか？", a: "公開README、リポジトリ構成、既定ブランチのGitHubコミット履歴です。" },
   ]
   const techArticle = { "@context": "https://schema.org", "@type": "TechArticle",
-    headline: `${article.displayName}の設計・技術選定・コミット履歴を解説`, description: article.description,
+    headline: articleSeo.title, description: articleSeo.description,
     datePublished: article.commits.at(-1)?.date ?? article.updatedAt, dateModified: article.updatedAt,
     author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
-    publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev" },
-    mainEntityOfPage: `https://syunnjack.dev/articles/${article.slug}`, isBasedOn: article.url, about: article.languages }
+    publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev/" },
+    mainEntityOfPage: `https://syunnjack.dev/articles/${article.slug}/`, isBasedOn: article.url, about: article.languages }
   const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: faq.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }
   const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles" },
-      { "@type": "ListItem", position: 3, name: article.name, item: `https://syunnjack.dev/articles/${article.slug}` },
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev/" },
+      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles/" },
+      { "@type": "ListItem", position: 3, name: article.name, item: `https://syunnjack.dev/articles/${article.slug}/` },
     ] }
 
   return <main className="tech-article-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(techArticle) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-    <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
+    <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link><Link href="/articles/">記事一覧へ</Link></header>
     <article>
-      {videoUrl ? <aside className="article-video-published"><div><p>技術解説動画</p><h2>{article.displayName}の技術解説</h2><span>{article.slug === "rakuten02" ? "終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。" : "公開コード、README、コミット履歴から設計と改善の流れを紹介します。"}</span></div><VideoPlayer className="article-published-video" poster={article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.png" : undefined} preload="metadata" src={videoUrl} title={`${article.displayName}の技術解説`} />{youtubeUrl ? <a href={youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside> : null}
+      {hasVideo ? <aside className="article-video-published"><div><p>技術解説動画</p><h2>{article.displayName}の技術解説</h2><span>動画を主役にした専用ページで、目的、構成、コミットによる改善を約75秒で確認できます。</span></div><Link className="article-video-watch-link" href={watchPath}>動画を再生する ▶</Link>{youtubeUrl ? <a href={youtubeUrl}>YouTubeで見る ↗</a> : null}</aside> : null}
       <header className="article-hero">
         <p className="eyebrow"><span />リポジトリ技術解説</p>
-        <h1>{article.displayName}の設計・技術選定・コミット履歴を解説</h1>
+        <h1>{articleSeo.title}</h1>
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>主要言語: {article.primaryLanguage}</span><span>更新: {formatDate(article.updatedAt)}</span><span>根拠コミット: {article.commits.length}件</span></div>
       </header>
@@ -67,7 +68,7 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
           <h2>{hasVideo ? "設計図、コード、コミットの変化を動画で確認" : "このプロジェクトは記事で解説しています"}</h2>
           <span>{hasVideo ? "技術記事と解説動画を行き来しながら、実装判断と改善の流れを理解できます。" : "構成、技術選定、コミットの変化を、以下の本文で詳しく確認できます。"}</span>
         </div>
-        {hasVideo ? <Link href={`/videos#${article.slug}`}>技術解説動画を見る →</Link> : <span className="video-status-label">動画未掲載</span>}
+        {hasVideo ? <Link href={watchPath}>技術解説動画を見る →</Link> : <span className="video-status-label">動画未掲載</span>}
       </aside>
       <div className="article-layout">
         <aside className="article-toc"><strong>この記事の内容</strong><a href="#answer">要点</a><a href="#overview">概要</a><a href="#stack">技術構成</a><a href="#architecture">設計</a><a href="#history">実装の変遷</a><a href="#learning">学び</a><a href="#faq">よくある質問</a></aside>

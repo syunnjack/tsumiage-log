@@ -19,11 +19,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${article.title} | 積み上げログ`,
     description: article.description,
-    alternates: { canonical: `/articles/manual/${article.slug}` },
+    alternates: { canonical: `/articles/manual/${article.slug}/` },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
+      url: `/articles/manual/${article.slug}/`,
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
       tags: article.tags,
@@ -49,8 +50,8 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     datePublished: article.publishedAt,
     dateModified: article.updatedAt,
     author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
-    publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev" },
-    mainEntityOfPage: `https://syunnjack.dev/articles/manual/${article.slug}`,
+    publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev/" },
+    mainEntityOfPage: `https://syunnjack.dev/articles/manual/${article.slug}/`,
     keywords: article.tags.join(", "),
     ...(article.thumbnail ? { image: `https://syunnjack.dev${article.thumbnail}` } : {}),
   }
@@ -58,9 +59,9 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev" },
-      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles" },
-      { "@type": "ListItem", position: 3, name: article.title, item: `https://syunnjack.dev/articles/manual/${article.slug}` },
+      { "@type": "ListItem", position: 1, name: "ホーム", item: "https://syunnjack.dev/" },
+      { "@type": "ListItem", position: 2, name: "技術記事", item: "https://syunnjack.dev/articles/" },
+      { "@type": "ListItem", position: 3, name: article.title, item: `https://syunnjack.dev/articles/manual/${article.slug}/` },
     ],
   }
 
@@ -69,7 +70,7 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <header className="article-site-header">
       <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link>
-      <Link href="/articles">記事一覧へ</Link>
+      <Link href="/articles/">記事一覧へ</Link>
     </header>
     <article>
       <header className="article-hero">

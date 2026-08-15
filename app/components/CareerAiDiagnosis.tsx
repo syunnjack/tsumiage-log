@@ -184,7 +184,7 @@ export default function CareerAiDiagnosis() {
             </ol>
             <div className="diagnosis-actions">
               <Link href={`#${result.anchor}`}>おすすめルートの詳細を見る</Link>
-              <Link href={`/estimate?service=${encodeURIComponent(result.service)}`}>
+              <Link href={`/estimate/?service=${encodeURIComponent(result.service)}`}>
                 診断結果をもとに相談・見積依頼する
               </Link>
             </div>
