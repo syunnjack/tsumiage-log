@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T14:57:31.340Z",
+  "generatedAt": "2026-08-15T15:24:28.487Z",
   "owner": "syunnjack",
-  "totalRepositories": 306,
+  "totalRepositories": 170,
   "publicRepositories": 170,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -10650,6 +10650,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "e290832",
+          "message": "Merge pull request #102 from syunnjack/codex/automated-video-20260816-0004",
+          "date": "2026-08-15T15:05:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e29083237580102c858090ceceaa887ef151059d"
+        },
+        {
+          "sha": "c78398b",
+          "message": "Update repository articles and video data",
+          "date": "2026-08-15T15:05:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c78398bc2a5e4383f8a312eea25b487f124d9731"
+        },
+        {
           "sha": "41f9601",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T14:25:21Z",
@@ -10708,21 +10720,9 @@
           "message": "動画再生の安定化とヘルスチェック自動化 (#99)",
           "date": "2026-08-15T09:28:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/aa6b969d2b9a0e8b25f6843d6675e4357801b468"
-        },
-        {
-          "sha": "e63591d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T09:25:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e63591dfd57899990d5e85c10ef55ae8d205029d"
-        },
-        {
-          "sha": "c3c2245",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T08:25:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c3c2245d0a99b6a7909293e2ed19866cf760312e"
         }
       ],
-      "updatedAt": "2026-08-15T14:25:31Z",
+      "updatedAt": "2026-08-15T15:06:09Z",
       "stars": 0,
       "forks": 0
     },
