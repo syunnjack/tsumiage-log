@@ -24,10 +24,7 @@ export default function VideosPage() {
       const production = videoBySlug.get(article.slug)
       return {
         article,
-        videoUrl:
-          article.slug === "rakuten02"
-            ? "/videos/rakuten02-tech-preview.mp4"
-            : resolveVideoAssetUrl(production?.localVideoUrl),
+        videoUrl: resolveVideoAssetUrl(production?.localVideoUrl),
         youtubeUrl:
           article.slug === "rakuten02"
             ? "https://youtu.be/mQ8Nl4Qk_io"

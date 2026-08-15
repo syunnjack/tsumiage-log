@@ -24,7 +24,7 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
   const architecture = inferArchitecture(article)
   const repositoryVideo = videoProduction.videos.find((video) => video.slug === article.slug)
   const repositoryVideoUrl = resolveVideoAssetUrl(repositoryVideo?.localVideoUrl)
-  const videoUrl = article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.mp4" : repositoryVideoUrl
+  const videoUrl = repositoryVideoUrl
   const youtubeUrl = article.slug === "rakuten02" ? "https://youtu.be/mQ8Nl4Qk_io" : repositoryVideo?.youtubeUrl
   const hasVideo = Boolean(videoUrl)
   const faq = [
