@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:25:21.296Z",
+  "generatedAt": "2026-08-15T09:25:24.957Z",
   "owner": "syunnjack",
   "totalRepositories": 167,
   "publicRepositories": 167,
@@ -2063,7 +2063,7 @@
       "name": "ec-price-tracker-lite",
       "displayName": "Ec Price Tracker Lite",
       "description": "軽量ECサイト価格トラッカー（Python・CSV履歴出力）",
-      "readmeExcerpt": "ec price tracker lite ECサイトの商品ページから価格を取得し、CSVに履歴を蓄積する軽量スクリプトです。 「価格改定の見落ち」「毎朝の手動チェック」を自動化するための最小構成サンプルとして公開しています。 できること 複数の商品ページを設定ファイル（JSON）で一括管理 CSSセレクタで価格要素を指定して取得 取得結果を history.csv に追記（Excelでそのまま開けるUTF 8 BOM付き） 目標価格を設定すると、下回った行に注記を付与 セットアップ 使い方 出力例: 設定ファイル キー 必須 説明 name ○ CSVに記録する商品名 url ○ 商品ページのURL selector ○ 価格が入っている要素のCSSセレクタ threshold 目標価格（円）。下回るとCSVのnote列に注記が入る Windowsのタスクスケジューラや cron に登録すれば、定期実行での価格履歴収集ができます。 注意 対象サイトの利用規約・robots.txt を確認し、過度なリクエストを行わないようにしてください。 本スクリプトは学習・検証用のサンプルです。 導入手順の詳細解説（Brain） 「非エンジニアのメンバーにも使ってもらう」ところまで含めた導入手順・運用のコツを記事にまとめています。 Brain: 毎朝30分の「価格チェック」を1分にした話｜非エンジニアでも使える業務自動化の作り方 — 〔Brain記事URLをここに記載〕 GUI版・Excelレポート版の配布（BOOTH） コマンド操作なしで使えるWindows向けGUI版（.exe）と、集計済みExcelレポートのテンプレートをBOOTHで配布しています。 BOOTH: 〔BOOTH商品ページURLをここに記載〕 個別カスタマイズのご相談（ココナラ） 「対象サイトを追加したい」「Slack/メール通知を付けたい」「社内システムと連携したい」といった個別要件は、ココナラでオーダーメイド対応しています。 ココナラ: 〔ココナラ出品ページURLをここに記載〕 ライセンス MIT Licen",
+      "readmeExcerpt": "ec price tracker lite ECサイトの商品ページから価格を取得し、CSVに履歴を蓄積する軽量スクリプトです。 「価格改定の見落ち」「毎朝の手動チェック」を自動化するための最小構成サンプルとして公開しています。 できること 複数の商品ページを設定ファイル（JSON）で一括管理 CSSセレクタで価格要素を指定して取得 取得結果を history.csv に追記（Excelでそのまま開けるUTF 8 BOM付き） 目標価格を設定すると、下回った行に注記を付与 価格推移グラフ付きのExcelレポート（.xlsx）を出力 GUI（コマンド操作なし）でも同じ操作が可能 セットアップ 使い方 出力例: Excelレポートの出力 report を付けると、履歴CSVから価格推移グラフ付きの .xlsx を生成します。 価格推移 シート: 取得日時 × 商品名の表と折れ線グラフ 取得履歴 シート: 全取得ログ。目標価格以下の行は緑、取得失敗の行は赤で強調 既存の履歴CSVだけからレポートを作り直すこともできます。 GUI版 コマンド操作をしたくない場合や、非エンジニアのメンバーに渡す場合はGUIを使います。 監視対象の追加・編集・削除（ targets.json を自動で読み書き） 「今すぐ取得」で価格を取得し、目標価格以下は緑・取得失敗は赤で表示 「Excelに出力」で price report.xlsx を生成 GUI画面 docs/gui.png Windows向け実行ファイル（.exe）の作成 Pythonが入っていないPCに配布する場合は、PyInstallerで単一実行ファイルにします。 dist/ec price tracker.exe が生成されます。 targets.json と history.csv は実行時のカレントディレクトリに作られるため、exeと同じフォルダに置いて運用してください。 設定ファイル キー 必須 説明 name ○ CSVに記録する商品名 url ○ 商品ページのURL selector ○ 価格が入っている要素のCSSセレク",
       "url": "https://github.com/syunnjack/ec-price-tracker-lite",
       "defaultBranch": "main",
       "primaryLanguage": "Python",
@@ -2072,6 +2072,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "ab1e37c",
+          "message": "Add tkinter GUI and Excel report output (#2)",
+          "date": "2026-08-15T09:22:37Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/ab1e37c7ea24f63d8e209f49107fcccea3b47af1"
+        },
         {
           "sha": "b9398df",
           "message": "Add Brain article link to README (#1)",
@@ -2085,7 +2091,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
         }
       ],
-      "updatedAt": "2026-08-15T07:32:21Z",
+      "updatedAt": "2026-08-15T09:22:51Z",
       "stars": 0,
       "forks": 0
     },
@@ -10564,6 +10570,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c3c2245",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T08:25:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c3c2245d0a99b6a7909293e2ed19866cf760312e"
+        },
+        {
           "sha": "fbf57f4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T07:26:26Z",
@@ -10628,15 +10640,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T03:28:04Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e65727f5ed1ec4c450a2729e1b48e242dabe31e8"
-        },
-        {
-          "sha": "3741ce6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T02:37:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3741ce66051c8557f7ea7000a978bbcc6f89e4a8"
         }
       ],
-      "updatedAt": "2026-08-15T07:26:32Z",
+      "updatedAt": "2026-08-15T08:25:57Z",
       "stars": 0,
       "forks": 0
     },
