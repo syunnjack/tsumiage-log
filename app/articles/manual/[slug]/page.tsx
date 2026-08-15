@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { getManualArticle, manualArticles } from "../../../lib/manual-articles"
 import { formatDate } from "../../../lib/repository-articles"
 import Comments from "../../../components/Comments"
+import CodocEntry from "../../../components/CodocEntry"
 
 export const dynamicParams = false
 export const generateStaticParams = () =>
@@ -92,6 +93,11 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
             {section.code && <pre><code className={`language-${section.code.language}`}>{section.code.content}</code></pre>}
           </section>)}
           <aside className="source-note"><strong>この記事について</strong><p>本人が経験・検証・考察をもとに執筆したオリジナル記事です。</p></aside>
+          <CodocEntry
+            entryId={article.codocEntryId}
+            heading="この記事が役に立ったら"
+            description="記事はすべて無料で公開しています。調査や検証を続ける支えになりますので、よろしければ応援をお願いします。"
+          />
           <Comments />
         </div>
       </div>

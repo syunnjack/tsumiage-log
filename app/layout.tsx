@@ -6,6 +6,8 @@ import "./globals.css"
 
 const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim()
 const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim()
+// codoc（有料記事・サポート）のユーザーコード。未設定なら読み込まない
+const codocUserCode = process.env.NEXT_PUBLIC_CODOC_USERCODE?.trim()
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://syunnjack.dev"),
@@ -61,6 +63,14 @@ gtag('js', new Date());
 gtag('config', '${googleAnalyticsId}');`}
             </Script>
           </>
+        ) : null}
+        {/* codoc の貼り付けタグはページに1つだけ置く。各記事側は
+            components/CodocEntry.tsx が枠を出し、この読み込みが中身を描く。
+            next/script だと実行時に差し込まれ、静的HTMLに data-usercode が
+            残らない。codoc は自分のscriptタグから属性を読むため、
+            公式のスニペットどおり生のタグをHTMLへ直接出す */}
+        {codocUserCode ? (
+          <script src="https://codoc.jp/js/cms.js" data-usercode={codocUserCode} defer />
         ) : null}
       </body>
     </html>

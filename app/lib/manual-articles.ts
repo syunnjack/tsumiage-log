@@ -16,6 +16,8 @@ export type ManualArticle = {
   updatedAt: string
   published: boolean
   thumbnail?: string
+  /** codoc の管理画面で発行される枠のID。設定した記事にだけ支援欄が出る */
+  codocEntryId?: string
   sections: ManualArticleSection[]
 }
 

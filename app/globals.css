@@ -1326,6 +1326,26 @@ footer > a {
   font-weight: 800;
 }
 
+/* codoc（支援・有料記事）の枠。読み終わった直後に置く */
+.codoc-block {
+  margin-top: 55px;
+  padding: 28px 25px;
+  border: 1px solid #c9c9bb;
+  background: #f4f4ec;
+}
+
+.codoc-block__heading {
+  margin: 0 0 10px;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+}
+
+.codoc-block__description {
+  margin: 0 0 18px;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
 .comments-section {
   margin-top: 55px;
   padding-top: 45px;
