@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-08-15T13:26:55.695Z",
+  "generatedAt": "2026-08-15T13:56:46.192Z",
   "owner": "syunnjack",
-  "totalRepositories": 170,
+  "totalRepositories": 306,
   "publicRepositories": 170,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
-    "UFO-catcher",
     "abeshi-mvp",
     "darenano",
     "onsen-ranking",
@@ -10645,6 +10644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d0a5f6b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T13:27:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d0a5f6b0f1072645658e3121d7e5278622f013dd"
+        },
+        {
           "sha": "f96fa35",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T12:26:27Z",
@@ -10709,15 +10714,52 @@
           "message": "Merge pull request #97 from syunnjack/codex/automated-video-20260815-095512",
           "date": "2026-08-15T06:48:57Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1325afb0983bff0e2fd3495c90613e5d71dc4cf4"
-        },
-        {
-          "sha": "6a8f708",
-          "message": "Refresh repository publication data",
-          "date": "2026-08-15T06:38:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6a8f708ab89505ef2e0f170804560c0b57dd3226"
         }
       ],
-      "updatedAt": "2026-08-15T12:27:05Z",
+      "updatedAt": "2026-08-15T13:27:27Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "ufo-catcher",
+      "name": "UFO-catcher",
+      "displayName": "UFO Catcher",
+      "description": "UFO Catcherの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "UFO Catcherの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/UFO-catcher",
+      "defaultBranch": "main",
+      "primaryLanguage": "Astro",
+      "languages": [
+        "Astro"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "315a223",
+          "message": "OGP画像を生成する",
+          "date": "2026-08-15T13:52:44Z",
+          "url": "https://github.com/syunnjack/UFO-catcher/commit/315a22333c89facacfe57d29ff5c41597d15006b"
+        },
+        {
+          "sha": "021724f",
+          "message": "店舗ごとのページと口コミ機能を追加する",
+          "date": "2026-08-15T13:49:30Z",
+          "url": "https://github.com/syunnjack/UFO-catcher/commit/021724fc4b3c1ad0067129f4e2f171b617f92b56"
+        },
+        {
+          "sha": "d60086a",
+          "message": "robots.txt を追加する",
+          "date": "2026-08-15T13:41:04Z",
+          "url": "https://github.com/syunnjack/UFO-catcher/commit/d60086a6581b6d650a5bb634cdc692c3fa264e53"
+        },
+        {
+          "sha": "88f96b5",
+          "message": "ゲーセンマップを立ち上げる",
+          "date": "2026-08-15T13:38:44Z",
+          "url": "https://github.com/syunnjack/UFO-catcher/commit/88f96b5c132e28618e451bb95cd6891016289d6a"
+        }
+      ],
+      "updatedAt": "2026-08-15T13:52:50Z",
       "stars": 0,
       "forks": 0
     },
