@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import { VideoPlayer } from "../../components/VideoPlayer"
+import Comments from "../../components/Comments"
 import { articles, formatCommitMessage, formatDate, getArticle, inferArchitecture } from "../../lib/repository-articles"
 import { resolveVideoAssetUrl } from "../../lib/video-assets"
 import videoProduction from "../../data/video-production.json"
-import Comments from "../../components/Comments"
 
 export const generateStaticParams = () => articles.map(({ slug }) => ({ slug }))
 
@@ -23,6 +24,9 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
   const architecture = inferArchitecture(article)
   const repositoryVideo = videoProduction.videos.find((video) => video.slug === article.slug)
   const repositoryVideoUrl = resolveVideoAssetUrl(repositoryVideo?.localVideoUrl)
+  const videoUrl = article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.mp4" : repositoryVideoUrl
+  const youtubeUrl = article.slug === "rakuten02" ? "https://youtu.be/mQ8Nl4Qk_io" : repositoryVideo?.youtubeUrl
+  const hasVideo = Boolean(videoUrl)
   const faq = [
     { q: `${article.name}は何を作るプロジェクトですか？`, a: article.description },
     { q: `${article.name}の主要技術は何ですか？`, a: `${article.languages.join("、") || article.primaryLanguage}を中心に構成されています。` },
@@ -49,22 +53,21 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <header className="article-site-header"><Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link><Link href="/articles">記事一覧へ</Link></header>
     <article>
-      {article.slug === "rakuten02" && <aside className="article-video-published"><div><p>技術解説動画</p><h2>Rakuten02の技術解説</h2><span>終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。</span></div><video controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></aside>}
-      {repositoryVideoUrl && <aside className="article-video-published"><div><p>技術解説動画</p><h2>{article.displayName}の技術解説</h2><span>公開コード、README、コミット履歴から設計と改善の流れを紹介します。</span></div><video controls preload="metadata" aria-label={`${article.displayName}の技術解説`}><source src={repositoryVideoUrl} type="video/mp4" /></video>{repositoryVideo?.youtubeUrl ? <a href={repositoryVideo.youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside>}
+      {videoUrl ? <aside className="article-video-published"><div><p>技術解説動画</p><h2>{article.displayName}の技術解説</h2><span>{article.slug === "rakuten02" ? "終電ホテルの目的、構成、検索処理、SEO・AIO・LLMO対応を75秒で紹介します。" : "公開コード、README、コミット履歴から設計と改善の流れを紹介します。"}</span></div><VideoPlayer className="article-published-video" poster={article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.png" : undefined} preload="metadata" src={videoUrl} title={`${article.displayName}の技術解説`} />{youtubeUrl ? <a href={youtubeUrl}>YouTubeで見る ↗</a> : <Link href={`/videos#${article.slug}`}>動画一覧で見る →</Link>}</aside> : null}
       <header className="article-hero">
         <p className="eyebrow"><span />リポジトリ技術解説</p>
         <h1>{article.displayName}の設計・技術選定・コミット履歴を解説</h1>
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>主要言語: {article.primaryLanguage}</span><span>更新: {formatDate(article.updatedAt)}</span><span>根拠コミット: {article.commits.length}件</span></div>
       </header>
-      <aside className="article-video-cta">
-        <div className="video-cta-icon" aria-hidden="true">▶</div>
+      <aside className={`article-video-cta${hasVideo ? "" : " video-article-only"}`}>
+        <div className="video-cta-icon" aria-hidden="true">{hasVideo ? "▶" : "文"}</div>
         <div>
-          <p>動画で理解する</p>
-          <h2>設計図、コード、コミットの変化を動画で確認</h2>
-          <span>技術記事と解説動画を行き来しながら、実装判断と改善の流れを理解できます。</span>
+          <p>{hasVideo ? "動画で理解する" : "記事で理解する"}</p>
+          <h2>{hasVideo ? "設計図、コード、コミットの変化を動画で確認" : "このプロジェクトは記事で解説しています"}</h2>
+          <span>{hasVideo ? "技術記事と解説動画を行き来しながら、実装判断と改善の流れを理解できます。" : "構成、技術選定、コミットの変化を、以下の本文で詳しく確認できます。"}</span>
         </div>
-        <Link href={`/videos#${article.slug}`}>技術解説動画を見る →</Link>
+        {hasVideo ? <Link href={`/videos#${article.slug}`}>技術解説動画を見る →</Link> : <span className="video-status-label">動画未掲載</span>}
       </aside>
       <div className="article-layout">
         <aside className="article-toc"><strong>この記事の内容</strong><a href="#answer">要点</a><a href="#overview">概要</a><a href="#stack">技術構成</a><a href="#architecture">設計</a><a href="#history">実装の変遷</a><a href="#learning">学び</a><a href="#faq">よくある質問</a></aside>

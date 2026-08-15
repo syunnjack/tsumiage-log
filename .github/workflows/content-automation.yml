@@ -100,7 +100,8 @@ jobs:
           git push
 
       - name: Start GitHub Pages deployment
-        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        # 更新時はmainへのpushでdeploy.ymlが自動起動するため、重複実行しない
+        if: steps.changes.outputs.changed == 'false' && github.event_name == 'workflow_dispatch'
         run: gh workflow run deploy.yml --ref main
 
       - name: Create or update publication alert

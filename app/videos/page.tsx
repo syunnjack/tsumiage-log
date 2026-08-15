@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { VideoPlayer } from "../components/VideoPlayer"
 import { articles } from "../lib/repository-articles"
 import { resolveVideoAssetUrl } from "../lib/video-assets"
 import videoProduction from "../data/video-production.json"
@@ -17,15 +18,25 @@ export const metadata: Metadata = {
 }
 
 export default function VideosPage() {
-  const publishedVideos = articles
-    .map((article) => ({
-      article,
-      videoUrl:
-        article.slug === "rakuten02"
-          ? "/videos/rakuten02-tech-preview.mp4"
-          : resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl),
-    }))
-    .filter((entry): entry is { article: (typeof articles)[number]; videoUrl: string } => Boolean(entry.videoUrl))
+  const videoBySlug = new Map(videoProduction.videos.map((video) => [video.slug, video]))
+  const videoEntries = articles
+    .map((article) => {
+      const production = videoBySlug.get(article.slug)
+      return {
+        article,
+        videoUrl:
+          article.slug === "rakuten02"
+            ? "/videos/rakuten02-tech-preview.mp4"
+            : resolveVideoAssetUrl(production?.localVideoUrl),
+        youtubeUrl:
+          article.slug === "rakuten02"
+            ? "https://youtu.be/mQ8Nl4Qk_io"
+            : production?.youtubeUrl,
+      }
+    })
+  const publishedVideos = videoEntries
+    .flatMap((entry) => entry.videoUrl ? [{ ...entry, videoUrl: entry.videoUrl }] : [])
+  const articleOnlyCount = articles.length - publishedVideos.length
 
   const collectionSchema = {
     "@context": "https://schema.org",
@@ -85,8 +96,8 @@ export default function VideosPage() {
         </p>
         <div className="video-release-note">
           <span>動画で学ぶ</span>
-          <strong>{articles.length}プロジェクト</strong>
-          <p>記事と動画を行き来しながら、設計、実装、改善のつながりを確認できます。</p>
+          <strong>{publishedVideos.length}本公開中</strong>
+          <p>{articleOnlyCount > 0 ? `${articleOnlyCount}件は記事のみ掲載しています。動画がある項目だけ再生ボタンを表示します。` : `全${articles.length}プロジェクトの解説動画を公開しています。`}</p>
         </div>
       </section>
 
@@ -142,15 +153,16 @@ export default function VideosPage() {
           <p>設計、技術選定、コミット履歴の要点をプロジェクトごとに確認できます。</p>
         </div>
         <div className="video-plan-grid">
-          {articles.map((article, index) => (
-            <article className="video-plan-card" id={article.slug} key={article.slug}>
-              {article.slug === "rakuten02" && <><video className="published-video" controls preload="metadata" poster="/videos/rakuten02-tech-preview.png" aria-label="Rakuten02の技術解説"><source src="/videos/rakuten02-tech-preview.mp4" type="video/mp4" /></video><a className="youtube-published-link" href="https://youtu.be/mQ8Nl4Qk_io">YouTubeで見る ↗</a></>}
-              {videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl && <video className="published-video" controls preload="none" aria-label={`${article.displayName}の技術解説`}><source src={resolveVideoAssetUrl(videoProduction.videos.find((video) => video.slug === article.slug)?.localVideoUrl)} type="video/mp4" /></video>}
-              <div className="video-placeholder" aria-hidden="true">
-                <span>動画 {String(index + 1).padStart(3, "0")}</span>
-                <i>▶</i>
-                <small>設計・コード</small>
-              </div>
+          {videoEntries.map(({ article, videoUrl, youtubeUrl }, index) => (
+            <article className={`video-plan-card${videoUrl ? " is-published" : " is-article-only"}`} id={article.slug} key={article.slug}>
+              {videoUrl ? <VideoPlayer fallbackHref={`/articles/${article.slug}`} poster={article.slug === "rakuten02" ? "/videos/rakuten02-tech-preview.png" : undefined} src={videoUrl} title={`${article.displayName}の技術解説`} /> : (
+                <div className="video-placeholder video-placeholder-article-only" role="status" aria-label={`${article.displayName}の動画は掲載されていません`}>
+                  <span>動画 {String(index + 1).padStart(3, "0")}</span>
+                  <i>記事のみ</i>
+                  <small>動画なし</small>
+                </div>
+              )}
+              {youtubeUrl ? <a className="youtube-published-link" href={youtubeUrl}>YouTubeで見る ↗</a> : null}
               <p>{article.primaryLanguage}</p>
               <h2>{article.displayName}の技術解説</h2>
               <p>
