@@ -11,7 +11,7 @@ npm run dev
 
 ## 記事自動化
 
-GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。
+GitHub Actionsが毎時15分に公開リポジトリの変更を確認します。
 
 1. `syunnjack` の公開リポジトリと最新コミットを収集
 2. アダルト・機密情報の除外ポリシーを適用
@@ -19,6 +19,8 @@ GitHub Actionsが毎日午前3時15分（日本時間）に実行されます。
 4. Lintと公開用ビルド
 5. 変更があれば自動コミット・プッシュ
 6. 公開待ちまたは失敗をGitHub Issueで通知
+
+公開済み動画は毎日午前3時27分（日本時間）に再生URLを自動確認し、異常があればGitHub Issueで通知します。
 
 手動で同じ確認を行う場合：
 
@@ -38,7 +40,13 @@ npm run content:collect
 npm run content:audit
 ```
 
-除外対象は `app/data/content-policy.json` で管理します。自動更新後のSites本番公開には、公開待ちIssueを確認して新しいバージョンを反映します。
+動画URLの確認：
+
+```bash
+npm run video:health
+```
+
+除外対象は `app/data/content-policy.json` で管理します。変更がある場合はGitHub Pagesのデプロイが自動的に開始されます。
 
 ## 確認
 

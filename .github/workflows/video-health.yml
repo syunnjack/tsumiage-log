@@ -1,0 +1,57 @@
+name: Video playback health check
+
+on:
+  schedule:
+    # 毎日午前3時27分（日本時間）
+    - cron: "27 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      VIDEO_ASSET_REVISION: ${{ github.sha }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Check published video URLs
+        run: npm run video:health
+
+      - name: Close resolved alert
+        if: success()
+        run: |
+          title="動画再生ヘルスチェックエラー"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "公開中の動画URLがすべて正常に戻ったため、自動的にクローズします。"
+          fi
+
+      - name: Create or update failure alert
+        if: failure()
+        run: |
+          title="動画再生ヘルスチェックエラー"
+          body="公開中の動画URLに再生できない可能性があります。
+
+          - 実行結果: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
+          - 確認日時: $(date -u '+%Y-%m-%d %H:%M UTC')
+
+          Actionsの『Check published video URLs』で対象動画を確認してください。"
+          issue_number="$(gh issue list --state open --search "\"${title}\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh label create video-health --color b42318 --description "動画再生監視からの通知" --force
+            gh issue create --title "$title" --body "$body" --label video-health
+          fi
