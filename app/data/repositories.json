@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T19:56:00.098Z",
+  "generatedAt": "2026-08-15T20:24:59.922Z",
   "owner": "syunnjack",
-  "totalRepositories": 308,
+  "totalRepositories": 172,
   "publicRepositories": 172,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -300,6 +300,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "95772c7",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-15T20:21:28Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/95772c70ba6f24a1f567033353c742f69cb73cfc"
+        },
+        {
           "sha": "0f3dd5e",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:51:45Z",
@@ -364,15 +370,9 @@
           "message": "Add real bowling-specific accessory terms (shammy, wear, arm sleeve)",
           "date": "2026-08-09T04:59:27Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/96a455f22ecf70e77582c9c79efefb31f59da344"
-        },
-        {
-          "sha": "4bed141",
-          "message": "Highlight Round1's buried pro-challenge events, add affiliate goods",
-          "date": "2026-08-09T04:57:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/4bed141bb64f6181ae881cd1f1eeaefe9363d307"
         }
       ],
-      "updatedAt": "2026-08-15T00:51:48Z",
+      "updatedAt": "2026-08-15T20:21:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -10747,6 +10747,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "def223e",
+          "message": "Merge pull request #105 from syunnjack/codex/automated-video-20260816-045519",
+          "date": "2026-08-15T20:06:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/def223eb28a61625d0873b160c328b933b8698f1"
+        },
+        {
+          "sha": "c81ba36",
+          "message": "Update repository articles and video metadata",
+          "date": "2026-08-15T20:05:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c81ba36e125bc0f27a823503e52dcd9ba0f9a48b"
+        },
+        {
           "sha": "69a4573",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T19:25:11Z",
@@ -10805,21 +10817,9 @@
           "message": "Update repository articles and video data",
           "date": "2026-08-15T15:05:10Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c78398bc2a5e4383f8a312eea25b487f124d9731"
-        },
-        {
-          "sha": "41f9601",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T14:25:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/41f96014f5b95d0860f0d07389b16b69965abf81"
-        },
-        {
-          "sha": "e2d0191",
-          "message": "Merge pull request #101 from syunnjack/codex/automated-video-20260815-2320",
-          "date": "2026-08-15T14:15:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e2d0191fec4e4c62d9f976ccf1e166254bf5ac32"
         }
       ],
-      "updatedAt": "2026-08-15T19:25:34Z",
+      "updatedAt": "2026-08-15T20:06:38Z",
       "stars": 0,
       "forks": 0
     },
