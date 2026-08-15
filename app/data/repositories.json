@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T13:56:46.192Z",
+  "generatedAt": "2026-08-15T14:24:55.641Z",
   "owner": "syunnjack",
-  "totalRepositories": 306,
+  "totalRepositories": 170,
   "publicRepositories": 170,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -10644,6 +10644,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "e2d0191",
+          "message": "Merge pull request #101 from syunnjack/codex/automated-video-20260815-2320",
+          "date": "2026-08-15T14:15:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e2d0191fec4e4c62d9f976ccf1e166254bf5ac32"
+        },
+        {
+          "sha": "c445dad",
+          "message": "Use CDN for Rakuten02 video",
+          "date": "2026-08-15T14:15:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c445dad11dd3b107d8ce66d844d105d5c99b7806"
+        },
+        {
+          "sha": "ea84cf9",
+          "message": "Merge pull request #100 from syunnjack/codex/automated-video-20260815-2308",
+          "date": "2026-08-15T14:07:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ea84cf919aefc0cbb4e9f46c18737beb6112d6a0"
+        },
+        {
+          "sha": "4ed69ae",
+          "message": "Publish repository articles and videos",
+          "date": "2026-08-15T14:07:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4ed69ae304a0657ceb658f513b97fcff51cd61e7"
+        },
+        {
           "sha": "d0a5f6b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T13:27:21Z",
@@ -10690,33 +10714,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T07:26:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fbf57f4035cd8fb954147a8900639da3de7a80bb"
-        },
-        {
-          "sha": "b1b11ab",
-          "message": "Merge pull request #98 from syunnjack/codex/automated-video-20260815-151834",
-          "date": "2026-08-15T07:00:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b1b11abbb64392d123e245d5ca0ff5474fe45acc"
-        },
-        {
-          "sha": "31148b5",
-          "message": "Merge latest main before automated publication",
-          "date": "2026-08-15T06:59:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/31148b55e7afefc9183cdcb3f21cca862460756a"
-        },
-        {
-          "sha": "09bda4c",
-          "message": "Automate repository article and video assets",
-          "date": "2026-08-15T06:57:58Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/09bda4c9ebcf5dcfcd603c05a85b0c7057c7274c"
-        },
-        {
-          "sha": "1325afb",
-          "message": "Merge pull request #97 from syunnjack/codex/automated-video-20260815-095512",
-          "date": "2026-08-15T06:48:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1325afb0983bff0e2fd3495c90613e5d71dc4cf4"
         }
       ],
-      "updatedAt": "2026-08-15T13:27:27Z",
+      "updatedAt": "2026-08-15T14:16:24Z",
       "stars": 0,
       "forks": 0
     },
