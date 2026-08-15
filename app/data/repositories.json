@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T12:25:56.232Z",
+  "generatedAt": "2026-08-15T13:26:55.695Z",
   "owner": "syunnjack",
-  "totalRepositories": 168,
-  "publicRepositories": 168,
+  "totalRepositories": 170,
+  "publicRepositories": 170,
   "privateRepositories": 0,
   "skippedRepositories": [
     "UFO-catcher",
@@ -2064,7 +2064,7 @@
       "name": "ec-price-tracker-lite",
       "displayName": "Ec Price Tracker Lite",
       "description": "軽量ECサイト価格トラッカー（Python・CSV履歴出力）",
-      "readmeExcerpt": "ec price tracker lite ECサイトの商品ページから価格を取得し、CSVに履歴を蓄積する軽量スクリプトです。 「価格改定の見落ち」「毎朝の手動チェック」を自動化するための最小構成サンプルとして公開しています。 できること 複数の商品ページを設定ファイル（JSON）で一括管理 CSSセレクタで価格要素を指定して取得 取得結果を history.csv に追記（Excelでそのまま開けるUTF 8 BOM付き） 目標価格を設定すると、下回った行に注記を付与 価格推移グラフ付きのExcelレポート（.xlsx）を出力 GUI（コマンド操作なし）でも同じ操作が可能 セットアップ 使い方 出力例: Excelレポートの出力 report を付けると、履歴CSVから価格推移グラフ付きの .xlsx を生成します。 価格推移 シート: 取得日時 × 商品名の表と折れ線グラフ 取得履歴 シート: 全取得ログ。目標価格以下の行は緑、取得失敗の行は赤で強調 既存の履歴CSVだけからレポートを作り直すこともできます。 GUI版 コマンド操作をしたくない場合や、非エンジニアのメンバーに渡す場合はGUIを使います。 監視対象の追加・編集・削除（ targets.json を自動で読み書き） 「今すぐ取得」で価格を取得し、目標価格以下は緑・取得失敗は赤で表示 「Excelに出力」で price report.xlsx を生成 GUI画面 docs/gui.png Windows向け実行ファイル（.exe）の作成 Pythonが入っていないPCに配布する場合は、PyInstallerで単一実行ファイルにします。 dist/ec price tracker.exe が生成されます。 targets.json と history.csv は実行時のカレントディレクトリに作られるため、exeと同じフォルダに置いて運用してください。 設定ファイル キー 必須 説明 name ○ CSVに記録する商品名 url ○ 商品ページのURL selector ○ 価格が入っている要素のCSSセレク",
+      "readmeExcerpt": "ec price tracker lite ECサイトの商品ページから価格を取得し、CSVに履歴を蓄積する軽量スクリプトです。 「価格改定の見落ち」「毎朝の手動チェック」を自動化するための最小構成サンプルとして公開しています。 できること 複数の商品ページを設定ファイル（JSON）で一括管理 CSSセレクタで価格要素を指定して取得 取得結果を history.csv に追記（Excelでそのまま開けるUTF 8 BOM付き） 目標価格を設定すると、下回った行に注記を付与 価格推移グラフ付きのExcelレポート（.xlsx）を出力 監視対象をExcelテンプレートで書いて設定ファイルに変換 GUI（コマンド操作なし）でも同じ操作が可能 セットアップ 使い方 出力例: Excelレポートの出力 report を付けると、履歴CSVから価格推移グラフ付きの .xlsx を生成します。 価格推移 シート: 取得日時 × 商品名の表と折れ線グラフ 取得履歴 シート: 全取得ログ。目標価格以下の行は緑、取得失敗の行は赤で強調 既存の履歴CSVだけからレポートを作り直すこともできます。 Excelテンプレートで監視対象を管理 JSONを直接編集したくない場合は、Excelに一覧で書いてから設定ファイルに変換できます。 GUI版 コマンド操作をしたくない場合や、非エンジニアのメンバーに渡す場合はGUIを使います。 監視対象の追加・編集・削除（ targets.json を自動で読み書き） 「今すぐ取得」で価格を取得し、目標価格以下は緑・取得失敗は赤で表示 「Excelに出力」で price report.xlsx を生成 GUI画面 docs/gui.png Windows向け実行ファイル（.exe）の作成 Pythonが入っていないPCに配布する場合は、PyInstallerで単一実行ファイルにします。 dist/ec price tracker.exe が生成されます。 targets.json と history.csv は実行時のカレントディレクトリに作られるため、exeと同じ",
       "url": "https://github.com/syunnjack/ec-price-tracker-lite",
       "defaultBranch": "main",
       "primaryLanguage": "Python",
@@ -2073,6 +2073,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "a2c6bc6",
+          "message": "Improve Excel report readability and refresh GUI screenshot (#4)",
+          "date": "2026-08-15T12:59:30Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/a2c6bc63d4da4edc9a6eedbc7579856037847380"
+        },
+        {
+          "sha": "f378be9",
+          "message": "Add Excel target template, GUI import, and release packaging script (#3)",
+          "date": "2026-08-15T12:46:50Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/f378be9308dde423873238324a00b975d779caf0"
+        },
         {
           "sha": "ab1e37c",
           "message": "Add tkinter GUI and Excel report output (#2)",
@@ -2092,7 +2104,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
         }
       ],
-      "updatedAt": "2026-08-15T09:22:51Z",
+      "updatedAt": "2026-08-15T13:00:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -6233,6 +6245,68 @@
         }
       ],
       "updatedAt": "2026-08-15T00:54:48Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "municipality-estate",
+      "name": "municipality-estate",
+      "displayName": "Municipality Estate",
+      "description": "municipality estate 全国47都道府県・1916地域を収録した不動産査定サイト",
+      "readmeExcerpt": "municipality estate 全国47都道府県・1916地域を収録した不動産査定サイト。 SEO/AIO/LLMO: canonical, robots, sitemap, JSON LD, llms.txt, machine readable JSON. UGC: localStorage版UI同梱。本番はSupabase等へ接続推奨。 Phase 2 2026 08 15 地域固有データレイヤー追加: data/phase2 regional data.json 公式データソース台帳: data/source catalog.json 全国1916地域に固有の自治体コード・緯度経度・自治体公式情報を反映 e Stat住宅・土地統計調査の対象表を登録 国土交通省2026年地価公示・不動産情報ライブラリ連携準備 未公表数値を自動推測しない方針 API同期スクリプト雛形: scripts/",
+      "url": "https://github.com/syunnjack/municipality-estate",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "43b4235",
+          "message": "Add Phase 2 SEO AIO LLMO data integration",
+          "date": "2026-08-15T12:43:13Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/43b42350236adaa7fa18ca91af97469d167ff548"
+        },
+        {
+          "sha": "0564581",
+          "message": "Initialize municipality-estate",
+          "date": "2026-08-15T12:41:52Z",
+          "url": "https://github.com/syunnjack/municipality-estate/commit/0564581e9fe1ccfdad222bfef4549d06f747748c"
+        }
+      ],
+      "updatedAt": "2026-08-15T12:44:03Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "municipality-reform",
+      "name": "municipality-reform",
+      "displayName": "Municipality Reform",
+      "description": "municipality reform 全国47都道府県・1916地域を収録したリフォームサイト",
+      "readmeExcerpt": "municipality reform 全国47都道府県・1916地域を収録したリフォームサイト。 SEO/AIO/LLMO: canonical, robots, sitemap, JSON LD, llms.txt, machine readable JSON. UGC: localStorage版UI同梱。本番はSupabase等へ接続推奨。 Phase 2 2026 08 15 地域固有データレイヤー追加: data/phase2 regional data.json 公式データソース台帳: data/source catalog.json 全国1916地域に固有の自治体コード・緯度経度・自治体公式情報を反映 e Stat住宅・土地統計調査の対象表を登録 住宅省エネ2026・地方公共団体リフォーム支援制度を登録 未公表数値を自動推測しない方針 API同期スクリプト雛形: scripts/",
+      "url": "https://github.com/syunnjack/municipality-reform",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "46fd3f8",
+          "message": "Add Phase 2 SEO AIO LLMO data integration",
+          "date": "2026-08-15T12:43:35Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/46fd3f8b41d7e036e3364c071f592e9da0107cb6"
+        },
+        {
+          "sha": "f4d446a",
+          "message": "Initialize municipality-reform",
+          "date": "2026-08-15T12:41:59Z",
+          "url": "https://github.com/syunnjack/municipality-reform/commit/f4d446a0cf551de6ce02658ca8f46c55a4a7051a"
+        }
+      ],
+      "updatedAt": "2026-08-15T12:44:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -10571,6 +10645,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f96fa35",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T12:26:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f96fa356dc88df4f2ceed6613b6e4f0e30fe0ebe"
+        },
+        {
           "sha": "1073a67",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T11:24:22Z",
@@ -10635,15 +10715,9 @@
           "message": "Refresh repository publication data",
           "date": "2026-08-15T06:38:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6a8f708ab89505ef2e0f170804560c0b57dd3226"
-        },
-        {
-          "sha": "e955fd3",
-          "message": "Publish repository videos and articles",
-          "date": "2026-08-15T06:36:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e955fd387b6be7c36b5fd88868bc56b88da39201"
         }
       ],
-      "updatedAt": "2026-08-15T11:25:00Z",
+      "updatedAt": "2026-08-15T12:27:05Z",
       "stars": 0,
       "forks": 0
     },
