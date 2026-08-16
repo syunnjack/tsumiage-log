@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T20:24:49.265Z",
+  "generatedAt": "2026-08-16T20:59:05.175Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -4644,6 +4644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "47467ba",
+          "message": "応募フォームを有効にする",
+          "date": "2026-08-16T20:37:22Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/47467ba89819f8ab3afdbb250380cb364fb6bbef"
+        },
+        {
           "sha": "2dadcbc",
           "message": "応募フォームの送信に FormSubmit の設定項目を足す",
           "date": "2026-08-16T16:11:37Z",
@@ -4708,15 +4714,9 @@
           "message": "Add Phase 3 groundwork: standalone AIO/LLMO package and monthly AI search report services",
           "date": "2026-08-02T00:49:13Z",
           "url": "https://github.com/syunnjack/king-epark-neo/commit/2aa7448e1654f561e9e5a66ac44b89329b60f715"
-        },
-        {
-          "sha": "8b08fc1",
-          "message": "Add Phase 2 groundwork: pricing page and tokushoho (legal disclosure) template",
-          "date": "2026-08-02T00:37:25Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/8b08fc1b3864cacc2f737e41dafecab9c6f80ecd"
         }
       ],
-      "updatedAt": "2026-08-16T16:11:54Z",
+      "updatedAt": "2026-08-16T20:37:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -10849,6 +10849,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dbc2ff5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-16T20:25:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/dbc2ff5b9bbce9ab52cdaa0f49e15179ffbc006e"
+        },
+        {
           "sha": "ba3fc56",
           "message": "Merge pull request #123 from syunnjack/codex/automated-video-20260817-0415",
           "date": "2026-08-16T20:07:18Z",
@@ -10913,15 +10919,9 @@
           "message": "Merge pull request #120 from syunnjack/codex/automated-video-20260817-0110",
           "date": "2026-08-16T15:58:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2a2e3a04ad0af6972d2e7c4c4a13f86f2d311dbc"
-        },
-        {
-          "sha": "6f84022",
-          "message": "Refresh repository articles and video metadata",
-          "date": "2026-08-16T15:57:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6f840224df7569535ba7160fc459a928348bb7ba"
         }
       ],
-      "updatedAt": "2026-08-16T20:07:55Z",
+      "updatedAt": "2026-08-16T20:25:26Z",
       "stars": 0,
       "forks": 0
     },
