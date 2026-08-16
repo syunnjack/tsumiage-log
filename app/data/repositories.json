@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T16:24:54.959Z",
+  "generatedAt": "2026-08-16T16:56:29.968Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -10849,6 +10849,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "41619b4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-16T16:25:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/41619b4888a1a4be145dd9af6817a14839b4ef7f"
+        },
+        {
           "sha": "2a2e3a0",
           "message": "Merge pull request #120 from syunnjack/codex/automated-video-20260817-0110",
           "date": "2026-08-16T15:58:26Z",
@@ -10913,15 +10919,9 @@
           "message": "Update repository articles and video queue",
           "date": "2026-08-16T13:29:37Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/232e077672521b8b2936a7e001cccce7a724ad17"
-        },
-        {
-          "sha": "f536dc7",
-          "message": "Refresh repository articles and video queue",
-          "date": "2026-08-16T13:29:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f536dc77f774aac9a5d9ff8f3ee67d603b101992"
         }
       ],
-      "updatedAt": "2026-08-16T15:58:38Z",
+      "updatedAt": "2026-08-16T16:25:27Z",
       "stars": 0,
       "forks": 0
     },
