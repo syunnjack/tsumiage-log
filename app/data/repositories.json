@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T04:26:54.317Z",
+  "generatedAt": "2026-08-16T05:15:52.874Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -4628,7 +4628,7 @@
       "name": "king-epark-neo",
       "displayName": "King Epark Neo",
       "description": "king epark neo 飲食店向け「順番待ち・ネット予約」システムを、 EPARK （および導入店舗である 焼肉きんぐ ）の 公開情報をもとに研究し、SEO / AIO・LLMO / UGC の観点で改良を加えた オリジナルブランドのデモ です",
-      "readmeExcerpt": "king epark neo 飲食店向け「順番待ち・ネット予約」システムを、 EPARK （および導入店舗である 焼肉きんぐ ）の 公開情報をもとに研究し、SEO / AIO・LLMO / UGC の観点で改良を加えた オリジナルブランドのデモ です。 実在の企業・店舗ではありません。 ブランド名「炭火焼肉 灯（あかり）」「ジュンバンナビ」はこのデモ用に作成した名称で、 EPARK株式会社・「焼肉きんぐ」運営企業とは一切関係ありません。詳細は about platform.html の免責事項を参照してください。 リサーチ結果（このプロジェクトの前提） 公開情報から把握した、EPARK・焼肉きんぐの実際の仕組み： EPARKは「 席の予約ではなく順番の予約 」という点が本質的な特徴。来店確定時間を決めず、 「あと何組で案内できるか」を共有することで、無断キャンセルによる空席リスクを抑えつつ回転率を上げる設計になっている。 （出典: EPARK法人向けサイト https://epark.mbtn.jp/landingpage/ 、 飲食店ドットコム https://www.inshokuten.com/useful service/22 ） 焼肉きんぐは公式サイト・アプリからの予約導線がEPARKの予約画面に接続される形で運用されており、 順番待ち導入により受付人員を接客に再配置できたと報告されている。 （出典: 飲食店ドットコム ジャーナル https://www.inshokuten.com/foodist/article/6074/ 、 EPARK公式 https://epark.jp/lp/101 ） この「順番待ち」というUXパターン自体は本プロジェクトでも踏襲しつつ、 ブランド・実装はすべて独自 に作成しています。 改良のポイント：SEO / AIO・LLMO / UGC 今回は特に AIO/LLMO（AI検索・LLM引用対策） を重視して設計しました。 観点 実装 SEO 全ページに title / meta description / canonical ",
+      "readmeExcerpt": "king epark neo 飲食店向け「順番待ち・ネット予約」システムを、 EPARK （および導入店舗である 焼肉きんぐ ）の 公開情報をもとに研究し、SEO / AIO・LLMO / UGC の観点で改良を加えた オリジナルブランドのデモ です。 実在の企業・店舗ではありません。 ブランド名「炭火焼肉 灯（あかり）」「ジュンバンナビ」はこのデモ用に作成した名称で、 EPARK株式会社・「焼肉きんぐ」運営企業とは一切関係ありません。詳細は about platform.html の免責事項を参照してください。 リサーチ結果（このプロジェクトの前提） 公開情報から把握した、EPARK・焼肉きんぐの実際の仕組み： EPARKは「 席の予約ではなく順番の予約 」という点が本質的な特徴。来店確定時間を決めず、 「あと何組で案内できるか」を共有することで、無断キャンセルによる空席リスクを抑えつつ回転率を上げる設計になっている。 （出典: EPARK法人向けサイト https://epark.mbtn.jp/landingpage/ 、 飲食店ドットコム https://www.inshokuten.com/useful service/22 ） 焼肉きんぐは公式サイト・アプリからの予約導線がEPARKの予約画面に接続される形で運用されており、 順番待ち導入により受付人員を接客に再配置できたと報告されている。 （出典: 飲食店ドットコム ジャーナル https://www.inshokuten.com/foodist/article/6074/ 、 EPARK公式 https://epark.jp/lp/101 ） この「順番待ち」というUXパターン自体は本プロジェクトでも踏襲しつつ、 ブランド・実装はすべて独自 に作成しています。 改良のポイント：SEO / AIO・LLMO / UGC 今回は特に AIO/LLMO（AI検索・LLM引用対策） を重視して設計しました。 観点 実装 SEO 全ページに title / meta description / canonical",
       "url": "https://github.com/syunnjack/king-epark-neo",
       "defaultBranch": "main",
       "primaryLanguage": "HTML",
@@ -4637,6 +4637,36 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "b3b4251",
+          "message": "モニター応募フォームを用意する（送信先が入るまでは出さない）",
+          "date": "2026-08-16T04:55:46Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/b3b4251fb82011d05684b5a80ad3265ccb622667"
+        },
+        {
+          "sha": "da2d9e7",
+          "message": "Set GA4 measurement ID for junbannavi.com (#1)",
+          "date": "2026-08-16T04:47:39Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/da2d9e7d20d3b469c55c1ceb0368f8b362a614bd"
+        },
+        {
+          "sha": "826feff",
+          "message": "mailto ボタンが無反応になる端末向けに、宛先を画面に出す",
+          "date": "2026-08-16T04:42:19Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/826feffdc366d79ee08e1ab530ad10bb9f79da1c"
+        },
+        {
+          "sha": "39d0274",
+          "message": "Create CNAME",
+          "date": "2026-08-16T04:35:57Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/39d027457d661313b4401b2964ce6cd0f0c7c7b9"
+        },
+        {
+          "sha": "b63f059",
+          "message": "Delete CNAME",
+          "date": "2026-08-16T04:35:43Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/b63f05951b8098c6bd65a2e2795854475c20ecdb"
+        },
         {
           "sha": "47b1d34",
           "message": "支援・購入への導線を追加する",
@@ -4678,27 +4708,9 @@
           "message": "Add Phase 1 monitor recruitment page, terms draft, and execution checklist",
           "date": "2026-08-02T00:29:32Z",
           "url": "https://github.com/syunnjack/king-epark-neo/commit/21a59acd8c05cbe4695ba911237aa2292b6e4d88"
-        },
-        {
-          "sha": "74986f4",
-          "message": "Point site at custom domain junbannavi.com",
-          "date": "2026-08-02T00:23:03Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/74986f4c6ab87f32799145c2a115fa116c1cb6d6"
-        },
-        {
-          "sha": "bda4840",
-          "message": "Point canonical/JSON-LD/llms.txt/robots.txt/sitemap at the live GitHub Pages URL",
-          "date": "2026-08-02T00:14:34Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/bda48400e52e82b0ba146a0d48be5df1eaf7633c"
-        },
-        {
-          "sha": "a7b63e2",
-          "message": "Initial commit: AIO/LLMO-optimized restaurant queue/reservation demo, researched from EPARK and Yakiniku King",
-          "date": "2026-08-02T00:11:59Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/a7b63e20475a6cc22025028ea93ccac3a7fc13d4"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:55Z",
+      "updatedAt": "2026-08-16T04:56:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -7772,6 +7784,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4c5a93d",
+          "message": "fix-rakuten-referrer-context",
+          "date": "2026-08-16T04:27:12Z",
+          "url": "https://github.com/syunnjack/rakuten-blogtool/commit/4c5a93de5452a2876e61480a2875154b3d5fb5f9"
+        },
+        {
           "sha": "164918b",
           "message": "fix-rakuten-api-request-context",
           "date": "2026-08-16T04:17:19Z",
@@ -7796,7 +7814,7 @@
           "url": "https://github.com/syunnjack/rakuten-blogtool/commit/711f8bc6c9773ee82b46e83a8d8c7ffb58ee38b3"
         }
       ],
-      "updatedAt": "2026-08-16T04:25:32Z",
+      "updatedAt": "2026-08-16T04:27:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -10807,6 +10825,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "55acd10",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-16T04:27:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55acd1025eae1de5742794ab1bcbb84bfb6a851a"
+        },
+        {
           "sha": "f95144b",
           "message": "Merge pull request #112 from syunnjack/codex/automated-video-20260816-1302",
           "date": "2026-08-16T04:03:04Z",
@@ -10871,15 +10895,9 @@
           "message": "Merge pull request #109 from syunnjack/codex/automated-video-20260816-0910",
           "date": "2026-08-16T00:10:48Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d04636de0169fd5d6c4cf55bf18aa19cb632084b"
-        },
-        {
-          "sha": "1212c37",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-16T00:10:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1212c37cc43a486a72d15b94b1aeae58e7b8be49"
         }
       ],
-      "updatedAt": "2026-08-16T04:03:33Z",
+      "updatedAt": "2026-08-16T04:27:25Z",
       "stars": 0,
       "forks": 0
     },
