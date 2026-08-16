@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T15:55:57.470Z",
+  "generatedAt": "2026-08-16T16:24:54.959Z",
   "owner": "syunnjack",
-  "totalRepositories": 308,
+  "totalRepositories": 172,
   "publicRepositories": 172,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -4644,6 +4644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2dadcbc",
+          "message": "応募フォームの送信に FormSubmit の設定項目を足す",
+          "date": "2026-08-16T16:11:37Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/2dadcbcac9e923a6ed3526d28748e52e9f0a67e1"
+        },
+        {
           "sha": "b3b4251",
           "message": "モニター応募フォームを用意する（送信先が入るまでは出さない）",
           "date": "2026-08-16T04:55:46Z",
@@ -4708,15 +4714,9 @@
           "message": "Add Phase 2 groundwork: pricing page and tokushoho (legal disclosure) template",
           "date": "2026-08-02T00:37:25Z",
           "url": "https://github.com/syunnjack/king-epark-neo/commit/8b08fc1b3864cacc2f737e41dafecab9c6f80ecd"
-        },
-        {
-          "sha": "21a59ac",
-          "message": "Add Phase 1 monitor recruitment page, terms draft, and execution checklist",
-          "date": "2026-08-02T00:29:32Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/21a59acd8c05cbe4695ba911237aa2292b6e4d88"
         }
       ],
-      "updatedAt": "2026-08-16T04:56:21Z",
+      "updatedAt": "2026-08-16T16:11:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -10849,6 +10849,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "2a2e3a0",
+          "message": "Merge pull request #120 from syunnjack/codex/automated-video-20260817-0110",
+          "date": "2026-08-16T15:58:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a2e3a04ad0af6972d2e7c4c4a13f86f2d311dbc"
+        },
+        {
+          "sha": "6f84022",
+          "message": "Refresh repository articles and video metadata",
+          "date": "2026-08-16T15:57:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6f840224df7569535ba7160fc459a928348bb7ba"
+        },
+        {
           "sha": "5650526",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T15:24:44Z",
@@ -10907,21 +10919,9 @@
           "message": "Refresh repository articles and video queue",
           "date": "2026-08-16T13:29:03Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f536dc77f774aac9a5d9ff8f3ee67d603b101992"
-        },
-        {
-          "sha": "f973a8c",
-          "message": "Refresh repository articles and video queue",
-          "date": "2026-08-16T13:28:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f973a8ce8153569c7b3a4b5823788ff2e4f70d53"
-        },
-        {
-          "sha": "0f7d8a0",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-16T13:26:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0f7d8a0e9361b456d558bec94477c60451ee4962"
         }
       ],
-      "updatedAt": "2026-08-16T15:25:01Z",
+      "updatedAt": "2026-08-16T15:58:38Z",
       "stars": 0,
       "forks": 0
     },
@@ -11668,6 +11668,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5c5c336",
+          "message": "Search Console の所有権確認タグを入れる",
+          "date": "2026-08-16T16:07:10Z",
+          "url": "https://github.com/syunnjack/yozan-heishu/commit/5c5c336f018ab6d659d0a594c8e7e4177d74851f"
+        },
+        {
           "sha": "4a1bdb2",
           "message": "長い引用に短い呼び名をつけ、題や導線で使う",
           "date": "2026-08-15T18:10:48Z",
@@ -11680,7 +11686,7 @@
           "url": "https://github.com/syunnjack/yozan-heishu/commit/46d67bdacef57610dc37cd080b6d7a13ba4867e4"
         }
       ],
-      "updatedAt": "2026-08-15T18:11:36Z",
+      "updatedAt": "2026-08-16T16:07:33Z",
       "stars": 0,
       "forks": 0
     }
