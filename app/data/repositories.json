@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-15T23:24:40.167Z",
+  "generatedAt": "2026-08-16T00:08:02.073Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -2073,6 +2073,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a5aa285",
+          "message": "README: 操作解説動画（YouTube 限定公開）のURLを追記 (#7)",
+          "date": "2026-08-16T00:03:30Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/a5aa28575e278c7ddceb81b00b7bc2b6bd9e8118"
+        },
+        {
           "sha": "5882cfe",
           "message": "Replace placeholder links with published BOOTH/Brain/note/coconala URLs (#6)",
           "date": "2026-08-15T15:29:18Z",
@@ -2115,7 +2121,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
         }
       ],
-      "updatedAt": "2026-08-15T15:29:44Z",
+      "updatedAt": "2026-08-16T00:03:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -10747,6 +10753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5186368",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-15T23:25:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5186368934b68e81ed3f491d046cb2f03307d437"
+        },
+        {
           "sha": "ef57f2a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T22:25:25Z",
@@ -10811,15 +10823,9 @@
           "message": "Merge pull request #104 from syunnjack/codex/automated-video-20260816-0930",
           "date": "2026-08-15T19:11:38Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4f707abe427002f09d068f5e4200a0e783948370"
-        },
-        {
-          "sha": "88ed793",
-          "message": "Publish repository articles and videos",
-          "date": "2026-08-15T19:11:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/88ed7930ba4ff578681af69f6009dfaaf1e3ead6"
         }
       ],
-      "updatedAt": "2026-08-15T22:25:45Z",
+      "updatedAt": "2026-08-15T23:25:30Z",
       "stars": 0,
       "forks": 0
     },
