@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T06:26:16.274Z",
+  "generatedAt": "2026-08-16T07:25:56.584Z",
   "owner": "syunnjack",
   "totalRepositories": 172,
   "publicRepositories": 172,
@@ -118,6 +118,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "376e5a8",
+          "message": "canonical とサイトマップの基点を .net に直す",
+          "date": "2026-08-16T06:31:27Z",
+          "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/376e5a81b645519ed986c4012668475dd44b43dd"
+        },
+        {
           "sha": "0d6bc0e",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:51:41Z",
@@ -182,15 +188,9 @@
           "message": "本番ドメインをkantan-shindan.jpに設定",
           "date": "2026-07-14T12:57:53Z",
           "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/4db82e14c2d069be4389ad8b2a96c0973f288920"
-        },
-        {
-          "sha": "12f1b40",
-          "message": "7カテゴリ総合診断ポータルに拡張",
-          "date": "2026-07-14T12:53:40Z",
-          "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/12f1b40b3f6c565e6b4d568bea73ab170a554f38"
         }
       ],
-      "updatedAt": "2026-08-15T00:51:44Z",
+      "updatedAt": "2026-08-16T06:32:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -10079,6 +10079,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "e2b7abb",
+          "message": "デプロイ後に、サーバへ取り残されたファイルを消す",
+          "date": "2026-08-16T06:37:20Z",
+          "url": "https://github.com/syunnjack/space-map/commit/e2b7abbb08074314d5b71259f749a22c83f40583"
+        },
+        {
+          "sha": "2ca197a",
+          "message": "静的な public/sitemap.xml を消し、動的なサイトマップを復活させる",
+          "date": "2026-08-16T06:35:34Z",
+          "url": "https://github.com/syunnjack/space-map/commit/2ca197a42606eaba52d9d4e74c33416dca9af79d"
+        },
+        {
           "sha": "e793d71",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:31Z",
@@ -10115,7 +10127,7 @@
           "url": "https://github.com/syunnjack/space-map/commit/b221d20674802609cc5aef878edd65248ae2edd0"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:35Z",
+      "updatedAt": "2026-08-16T06:37:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -10831,6 +10843,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d8e7232",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-16T06:26:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d8e72326db2eb537255c6856bea7376dcbc9e60c"
+        },
+        {
           "sha": "dcd0adc",
           "message": "Merge pull request #114 from syunnjack/codex/automated-video-20260816-1500",
           "date": "2026-08-16T05:59:22Z",
@@ -10895,15 +10913,9 @@
           "message": "Update repository articles and video queue",
           "date": "2026-08-16T02:58:11Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1addf9832565ebe0dfc5102997b2d3459550a56d"
-        },
-        {
-          "sha": "3d79397",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-16T02:41:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3d7939765bbfc18cc2353d569b2763260c62264d"
         }
       ],
-      "updatedAt": "2026-08-16T05:59:33Z",
+      "updatedAt": "2026-08-16T06:27:05Z",
       "stars": 0,
       "forks": 0
     },
