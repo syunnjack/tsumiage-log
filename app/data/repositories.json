@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T05:15:52.874Z",
+  "generatedAt": "2026-08-16T05:25:44.785Z",
   "owner": "syunnjack",
-  "totalRepositories": 308,
+  "totalRepositories": 172,
   "publicRepositories": 172,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -482,6 +482,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6bc156b",
+          "message": "ランキングの ListItem に実体を持たせる",
+          "date": "2026-08-16T05:18:20Z",
+          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6bc156b5e419108f540424839d94508f553f7efc"
+        },
+        {
           "sha": "05c9344",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:51:49Z",
@@ -546,15 +552,9 @@
           "message": "Add GA4 tracking",
           "date": "2026-08-04T06:04:51Z",
           "url": "https://github.com/syunnjack/asia-trip-concierge/commit/490b40fd63766d5ae1e9fa01d5b2263e4c896d29"
-        },
-        {
-          "sha": "6e2ad3d",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T13:09:32Z",
-          "url": "https://github.com/syunnjack/asia-trip-concierge/commit/6e2ad3dff1f0121fa687fa61e22c597586840e87"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:06Z",
+      "updatedAt": "2026-08-16T05:18:37Z",
       "stars": 0,
       "forks": 0
     },
