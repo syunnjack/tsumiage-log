@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T02:40:54.845Z",
+  "generatedAt": "2026-08-16T02:54:40.397Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
+  "totalRepositories": 308,
   "publicRepositories": 172,
-  "privateRepositories": 0,
+  "privateRepositories": 136,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -6270,7 +6270,7 @@
       "name": "municipality-car",
       "displayName": "Municipality Car",
       "description": "全国市区町村 車買取データナビ 全国の市区町村・車種から査定前の確認項目を探し、複数の提示条件を端末内で比較できる静的サイトです",
-      "readmeExcerpt": "全国市区町村 車買取データナビ 全国の市区町村・車種から査定前の確認項目を探し、複数の提示条件を端末内で比較できる静的サイトです。 ローカル確認 npm run check はサイトを生成した後、次を自動監査します。 自治体データ件数と自治体コード canonical、robots、Open Graph、JSON LD インデックス対象ページとサイトマップの一致 重複タイトル、壊れた内部リンク、プレースホルダー 地域検索用データの件数 インデックス方針 全地域ページは検索・閲覧できますが、検索エンジンへ一括登録しません。既存公開URLのある主要地域だけを index,follow とし、それ以外は独自情報を追加するまで noindex,follow にします。対象は data/legacy city paths.json で管理します。 データ更新 ビルド時に localgovjp の自治体データを取得し、件数・必須項目・コード重複を検査します。別URLを利用する場合は MUNICIPALITY DATA URL を指定できます。 デプロイ VercelのBuild Commandは npm run check 、Output Directoryは dist です。監査に失敗したビルドは公開されません。",
+      "readmeExcerpt": "全国市区町村 車買取データナビ 全国の市区町村・車種から査定前の確認項目を探し、複数の提示条件を端末内で比較できる静的サイトです。 ローカル確認 npm run check はサイトを生成した後、次を自動監査します。 自治体データ件数と自治体コード canonical、robots、Open Graph、JSON LD 本番URL、GA4、Google Search Console所有権確認の整合性 インデックス対象ページとサイトマップの一致 重複タイトル、壊れた内部リンク、プレースホルダー 地域検索用データの件数 インデックス方針 全地域ページは検索・閲覧できますが、検索エンジンへ一括登録しません。既存公開URLのある主要地域だけを index,follow とし、それ以外は独自情報を追加するまで noindex,follow にします。対象は data/legacy city paths.json で管理します。 データ更新 ビルド時に localgovjp の自治体データを取得し、件数・必須項目・コード重複を検査します。別URLを利用する場合は MUNICIPALITY DATA URL を指定できます。 デプロイ VercelのBuild Commandは npm run check 、Output Directoryは dist です。監査に失敗したビルドは公開されません。 本番URLと計測設定は site.config.json で管理します。必要に応じて SITE URL 、 GA MEASUREMENT ID 、 GOOGLE SITE VERIFICATION 、 SITE UPDATED AT の各環境変数で上書きできます。 SITE URL はパスを含まないHTTPSオリジンを指定してください。",
       "url": "https://github.com/syunnjack/municipality-car",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -6279,6 +6279,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "c183a96",
+          "message": "Prepare municipality-car.jp production replacement",
+          "date": "2026-08-16T02:46:07Z",
+          "url": "https://github.com/syunnjack/municipality-car/commit/c183a964630cd61fb6b8fb33bc1d3babe7c01e82"
+        },
         {
           "sha": "8f0758c",
           "message": "Use corrected current municipality data in production build",
@@ -6316,7 +6322,7 @@
           "url": "https://github.com/syunnjack/municipality-car/commit/0b17ff26a5a5e21d0adf0671c89978de707d5218"
         }
       ],
-      "updatedAt": "2026-08-16T02:01:07Z",
+      "updatedAt": "2026-08-16T02:46:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -10765,6 +10771,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3d79397",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-16T02:41:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3d7939765bbfc18cc2353d569b2763260c62264d"
+        },
+        {
           "sha": "656eb1b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T01:53:04Z",
@@ -10829,15 +10841,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-15T21:25:01Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d71e0273ae6cb2bfe7c22279eb1016d54dbc6877"
-        },
-        {
-          "sha": "213070c",
-          "message": "Merge pull request #106 from syunnjack/codex/automated-video-20260816-055746",
-          "date": "2026-08-15T20:58:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/213070cc68a349af975bfb2bb7604e281babba06"
         }
       ],
-      "updatedAt": "2026-08-16T01:53:14Z",
+      "updatedAt": "2026-08-16T02:41:25Z",
       "stars": 0,
       "forks": 0
     },
