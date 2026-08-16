@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-16T03:54:31.120Z",
+  "generatedAt": "2026-08-16T04:26:54.317Z",
   "owner": "syunnjack",
-  "totalRepositories": 308,
+  "totalRepositories": 172,
   "publicRepositories": 172,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -16,8 +16,8 @@
       "slug": "ai-quiz-study",
       "name": "ai-quiz-study",
       "displayName": "Ai Quiz Study",
-      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
-      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack.github.io/ai quiz study/ Other candidates: https://syunnjack.github.io/ai quiz study/ quizstudy.jp shikakuai.jp gyoseiquiz.jp Concept 行政書士などの資格学習を、一問一答、AI解説、弱点復習、連続学習、LINE通知で継続させる学習アプリ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 有料問題集 月額復習プラン 講座アフィリエイト 模試販売 教育広告 Commands",
+      "description": "AI Quiz Study 資格・AI一問一答",
+      "readmeExcerpt": "AI Quiz Study 資格・AI一問一答",
       "url": "https://github.com/syunnjack/ai-quiz-study",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -26,6 +26,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "efb108b",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:11:42Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/efb108b777c9e15674d22b4442806c2a76ac9bac"
+        },
         {
           "sha": "fdca570",
           "message": "支援・購入への導線を追加する",
@@ -91,15 +97,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:26:38Z",
           "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
-        },
-        {
-          "sha": "ea10cbd",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:26Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/ea10cbdd7494724a0dcb5ca3039818a35a5099e9"
         }
       ],
-      "updatedAt": "2026-08-15T00:51:42Z",
+      "updatedAt": "2026-08-16T04:11:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -391,6 +391,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5423f6b",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:21Z",
+          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/5423f6b48e1af47fc59aefa498e413ad52164cbf"
+        },
+        {
           "sha": "d8bcf0d",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:51:47Z",
@@ -455,15 +461,9 @@
           "message": "Fix production URL in README (#1)",
           "date": "2026-07-31T23:06:41Z",
           "url": "https://github.com/syunnjack/anchor-suggest-search/commit/ac2dad855aff2fa81f39ec3de8fad0f679ca56ef"
-        },
-        {
-          "sha": "8a4c4f5",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T00:07:50Z",
-          "url": "https://github.com/syunnjack/anchor-suggest-search/commit/8a4c4f5a343619d00c860a2de3d2226139a585f7"
         }
       ],
-      "updatedAt": "2026-08-15T00:51:52Z",
+      "updatedAt": "2026-08-16T04:12:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -720,8 +720,8 @@
       "slug": "bowling-lane-alert",
       "name": "bowling-lane-alert",
       "displayName": "Bowling Lane Alert",
-      "description": "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert",
-      "readmeExcerpt": "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert.jp Other candidates: lanealert.jp bowlalert.jp bowlinglane.jp bowlmatch.jp Concept 大会、空きレーン、スコアランキング更新を通知し、施設送客、用品、イベント掲載へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 施設送客 用品 affiliate イベント掲載 会員課金 スポンサー Commands",
+      "description": "Bowling Lane Alert ボウリング大会・空きレーン通知",
+      "readmeExcerpt": "Bowling Lane Alert ボウリング大会・空きレーン通知",
       "url": "https://github.com/syunnjack/bowling-lane-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -730,6 +730,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "fa2ca0a",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:36Z",
+          "url": "https://github.com/syunnjack/bowling-lane-alert/commit/fa2ca0ae58d77d5206c302406ac407759aeb6a86"
+        },
         {
           "sha": "15ca01a",
           "message": "支援・購入への導線を追加する",
@@ -797,7 +803,7 @@
           "url": "https://github.com/syunnjack/bowling-lane-alert/commit/08e565a0597a50e1dd140a1a0a108e1031cf8d5a"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:00Z",
+      "updatedAt": "2026-08-16T04:12:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -815,6 +821,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "b1f506e",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:11:53Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/b1f506eb1062aa2b30f951ec4d498414cda8e078"
+        },
         {
           "sha": "96cf0bd",
           "message": "支援・購入への導線を追加する",
@@ -880,15 +892,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:26:50Z",
           "url": "https://github.com/syunnjack/bowling-score-hub/commit/cd2557619dff96bedb8fe36872db7236d4120892"
-        },
-        {
-          "sha": "c73ad91",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:17:41Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/c73ad918c12cd86b9fc751f56a9b5b9ccd891151"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:10Z",
+      "updatedAt": "2026-08-16T04:12:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -3383,8 +3389,8 @@
       "slug": "golf-slot-watch",
       "name": "golf-slot-watch",
       "displayName": "Golf Slot Watch",
-      "description": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot",
-      "readmeExcerpt": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot.jp Other candidates: golfslot.jp golfaki.jp golftimealert.jp golfyasui.jp Concept 空き枠、安値、雨天キャンセル、天気、練習場を通知し、ゴルフ場予約と用品へ送客する。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 予約成果報酬 用品 affiliate 宿泊送客 練習場掲載 コンペ広告 Commands",
+      "description": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知",
+      "readmeExcerpt": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知",
       "url": "https://github.com/syunnjack/golf-slot-watch",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -3393,6 +3399,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "3c1c66b",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:13:13Z",
+          "url": "https://github.com/syunnjack/golf-slot-watch/commit/3c1c66b9a90d1d2503416ec3f6fc1b1b7429373d"
+        },
         {
           "sha": "f61a4d3",
           "message": "支援・購入への導線を追加する",
@@ -3458,15 +3470,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:06Z",
           "url": "https://github.com/syunnjack/golf-slot-watch/commit/89da77c1be7df0beda11ab50533f47de762aaf38"
-        },
-        {
-          "sha": "edf88ed",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:45Z",
-          "url": "https://github.com/syunnjack/golf-slot-watch/commit/edf88ed9fefc65ebd854b05de1a61aa6d9d31e46"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:22Z",
+      "updatedAt": "2026-08-16T04:13:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -3507,6 +3513,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "c37b67a",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:03Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/c37b67a4fbb11e86d10f780376c5c9301f2bc472"
+        },
         {
           "sha": "3363405",
           "message": "支援・購入への導線を追加する",
@@ -3568,7 +3580,7 @@
           "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/473dc9beadf4dda743f53a6d32f3470c626bb525"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:28Z",
+      "updatedAt": "2026-08-16T04:12:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -3905,8 +3917,8 @@
       "slug": "hotel-price-watch",
       "name": "hotel-price-watch",
       "displayName": "Hotel Price Watch",
-      "description": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack",
-      "readmeExcerpt": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack.github.io/hotel price watch/ Other candidates: https://syunnjack.github.io/hotel price watch/ stayprice.jp akiyasu.jp hotelalert.jp Concept 指定エリア、日程、条件の空室と値下げを通知し、予約アフィリエイトと有料ウォッチへ誘導する宿泊アラート。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths ホテル予約成果報酬 有料ウォッチ 広告枠 旅行保険送客 メールスポンサー Commands",
+      "description": "Hotel Price Watch 宿泊空室・価格下落アラート",
+      "readmeExcerpt": "Hotel Price Watch 宿泊空室・価格下落アラート",
       "url": "https://github.com/syunnjack/hotel-price-watch",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -3915,6 +3927,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "28c9500",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:49Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/28c950099c6e68c8328c7db2ef47a08f90676c95"
+        },
         {
           "sha": "6e560d6",
           "message": "支援・購入への導線を追加する",
@@ -3982,7 +4000,7 @@
           "url": "https://github.com/syunnjack/hotel-price-watch/commit/7ffdd82dd6be09e6dbd700f97e201f7b59106f61"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:33Z",
+      "updatedAt": "2026-08-16T04:12:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -5460,7 +5478,7 @@
       "name": "local-board-plus",
       "displayName": "Local Board Plus",
       "description": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
-      "readmeExcerpt": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです。 Canonical domain: https://syunnjack.github.io/local board plus/ Repository Name local board plus Features 地域掲示板とアンテナサイト UGC投稿、確認待ち、確認済みステータス モデレーションルール SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 地域スポンサー、掲示板広告、イベント告知、確認済み掲載、周辺送客の収益導線",
+      "readmeExcerpt": "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです。",
       "url": "https://github.com/syunnjack/local-board-plus",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -5469,6 +5487,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "ea6ef5a",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:11:58Z",
+          "url": "https://github.com/syunnjack/local-board-plus/commit/ea6ef5ad40bb528b0488ee47b48604aac43330cc"
+        },
         {
           "sha": "98b7dbe",
           "message": "支援・購入への導線を追加する",
@@ -5534,15 +5558,9 @@
           "message": "Set localboard domain",
           "date": "2026-07-17T22:47:17Z",
           "url": "https://github.com/syunnjack/local-board-plus/commit/3f616a96cc560a8359aaaf922808a1314959bb01"
-        },
-        {
-          "sha": "9539cd0",
-          "message": "Create local board plus app",
-          "date": "2026-07-17T22:39:59Z",
-          "url": "https://github.com/syunnjack/local-board-plus/commit/9539cd0fda48b6066cb8744a02ea94d4f835bc3a"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:27Z",
+      "updatedAt": "2026-08-16T04:12:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -6532,7 +6550,7 @@
       "name": "my-dartslive",
       "displayName": "My Dartslive",
       "description": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
-      "readmeExcerpt": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです。 Canonical domain: https://syunnjack.github.io/my dartslive/ Features ジャンル・駅・条件検索 大会・イベント、クーポン、深夜営業、団体向けフィルター 設置情報、混雑、景品入荷、大会、閉店情報のUGC投稿 SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 店舗送客、予約、クーポン、イベント告知、確認済み掲載、物販アフィリエイトの収益導線",
+      "readmeExcerpt": "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです。",
       "url": "https://github.com/syunnjack/my-dartslive",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -6541,6 +6559,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "cd7332c",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:31Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/cd7332ca62caeee3e5cea94a9bfe30aa82f55ad6"
+        },
         {
           "sha": "62f77f8",
           "message": "支援・購入への導線を追加する",
@@ -6606,15 +6630,9 @@
           "message": "Set dartspot domain",
           "date": "2026-07-17T20:44:34Z",
           "url": "https://github.com/syunnjack/my-dartslive/commit/2f52ac763397728ab53d4b863c309baf6150458e"
-        },
-        {
-          "sha": "40fdd52",
-          "message": "Create my dartslive app",
-          "date": "2026-07-17T20:41:37Z",
-          "url": "https://github.com/syunnjack/my-dartslive/commit/40fdd5260717831fbccf7e32df795ca8fa21f871"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:44Z",
+      "updatedAt": "2026-08-16T04:13:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -6707,8 +6725,8 @@
       "slug": "niche-compare-hub",
       "name": "niche-compare-hub",
       "displayName": "Niche Compare Hub",
-      "description": "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku",
-      "readmeExcerpt": "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku.jp Other candidates: nichehikaku.jp reviewhikaku.jp spotcompare.jp kurabeta.jp Concept 喫煙可ホテル、深夜漫画喫茶、遠征宿、レトロ店、趣味施設など狭い条件に特化した比較/レビュー/クーポンサイト。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static seed records in src/App.jsx UGC: localStorage for MVP posts and saved leads Deployment target: GitHub Pages or static hosting Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 成果報酬アフィリエイト 比較枠広告 クーポン送客 有料ランキング レビュー分析レポート Commands",
+      "description": "Niche Compare Hub ニッチ比較サイト",
+      "readmeExcerpt": "Niche Compare Hub ニッチ比較サイト",
       "url": "https://github.com/syunnjack/niche-compare-hub",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -6717,6 +6735,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "457eb73",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:16Z",
+          "url": "https://github.com/syunnjack/niche-compare-hub/commit/457eb7307f8201d66111a8c985894c5955eb7c11"
+        },
         {
           "sha": "7faefd2",
           "message": "支援・購入への導線を追加する",
@@ -6782,15 +6806,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T00:34:38Z",
           "url": "https://github.com/syunnjack/niche-compare-hub/commit/268835a6dae54c1888f6c4a28a566c8c4c81d6c3"
-        },
-        {
-          "sha": "fc40532",
-          "message": "Initial priority app scaffold",
-          "date": "2026-07-18T00:28:55Z",
-          "url": "https://github.com/syunnjack/niche-compare-hub/commit/fc40532a796c1ac74b7fd2f6d3dfabe19af342b5"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:48Z",
+      "updatedAt": "2026-08-16T04:12:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -6945,7 +6963,7 @@
       "name": "open-close-radar",
       "displayName": "Open Close Radar",
       "description": "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです",
-      "readmeExcerpt": "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです。 Canonical domain: https://kaitenheiten.com/ Repository Name open close radar Features 開店・閉店・移転・休業・リニューアル検索 LINE地域アラートとX速報ポストの通知導線 店名、地域、駅、ジャンル、日付、確認状況、出典表示 UGC投稿と確認待ちステータス SEO/AIO/LLMO向けFAQ、即答ブロック、構造化データ robots.txt / sitemap.xml / llms.txt 新店広告、通知スポンサー、求人、テナント、確認済み掲載、閉店前送客、代替店送客の収益導線",
+      "readmeExcerpt": "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです。",
       "url": "https://github.com/syunnjack/open-close-radar",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -6954,6 +6972,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "6a3e950",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:13:05Z",
+          "url": "https://github.com/syunnjack/open-close-radar/commit/6a3e950da290046de75321909e39389d82c47d0d"
+        },
         {
           "sha": "0f52fa9",
           "message": "支援・購入への導線を追加する",
@@ -7021,7 +7045,7 @@
           "url": "https://github.com/syunnjack/open-close-radar/commit/aff3fd6649f5f5dd51f28a2492439051c5058bc9"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:53Z",
+      "updatedAt": "2026-08-16T04:13:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -7748,6 +7772,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "164918b",
+          "message": "fix-rakuten-api-request-context",
+          "date": "2026-08-16T04:17:19Z",
+          "url": "https://github.com/syunnjack/rakuten-blogtool/commit/164918b1a1505a2eb970b7d05e9c7834ac67c87b"
+        },
+        {
           "sha": "e870ac5",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:55:28Z",
@@ -7766,7 +7796,7 @@
           "url": "https://github.com/syunnjack/rakuten-blogtool/commit/711f8bc6c9773ee82b46e83a8d8c7ffb58ee38b3"
         }
       ],
-      "updatedAt": "2026-08-15T00:55:31Z",
+      "updatedAt": "2026-08-16T04:25:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -7784,6 +7814,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "4cba129",
+          "message": "パンくずの構造化データから、リンク先の無い見出しを外す",
+          "date": "2026-08-16T04:25:44Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/4cba1291a98e9015e3fa3ee90389c43f049dc09c"
+        },
         {
           "sha": "cbd7224",
           "message": "支援・購入への導線を追加する",
@@ -7849,15 +7885,9 @@
           "message": "Add one-shot GSC completer script and finish checklist",
           "date": "2026-08-13T00:55:57Z",
           "url": "https://github.com/syunnjack/rakuten02/commit/6f449423b677de377053211d4793ab610beac42e"
-        },
-        {
-          "sha": "afbf27a",
-          "message": "Merge pull request #35 from syunnjack/cursor/gsc-rollout-followup-86e1",
-          "date": "2026-08-13T00:51:05Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/afbf27a84e0c7d1ff656af314fb26cf4c2ae601f"
         }
       ],
-      "updatedAt": "2026-08-15T00:55:36Z",
+      "updatedAt": "2026-08-16T04:25:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -8503,6 +8533,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2a233a0",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:13:20Z",
+          "url": "https://github.com/syunnjack/retro-game-map/commit/2a233a020ac38dae50beae311ef214d506d5a749"
+        },
+        {
           "sha": "8843158",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:55:50Z",
@@ -8567,15 +8603,9 @@
           "message": "Add UGC SEO and revenue growth features",
           "date": "2026-07-17T19:40:34Z",
           "url": "https://github.com/syunnjack/retro-game-map/commit/6b02d6234acaa6396fc814744a87d186d48177f4"
-        },
-        {
-          "sha": "03e5481",
-          "message": "Add auto restaurant history archive",
-          "date": "2026-07-17T19:32:17Z",
-          "url": "https://github.com/syunnjack/retro-game-map/commit/03e5481117b2f054c1da7c71fde7e53c03cee7a8"
         }
       ],
-      "updatedAt": "2026-08-15T00:55:55Z",
+      "updatedAt": "2026-08-16T04:13:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -8858,8 +8888,8 @@
       "slug": "route-delay-stay-alert",
       "name": "route-delay-stay-alert",
       "displayName": "Route Delay Stay Alert",
-      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack",
-      "readmeExcerpt": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack.github.io/route delay stay alert/ Other candidates: https://syunnjack.github.io/route delay stay alert/ routealert.jp bushttps://syunnjack.github.io/route delay stay alert/ arrivalspot.jp Concept 遅延、終電後、早朝到着時に宿、漫画喫茶、飲食店、タクシーへ送客する移動者向け通知ナビ。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊予約 漫画喫茶送客 飲食店送客 タクシー広告 旅行アフィリエイト Commands",
+      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知",
+      "readmeExcerpt": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知",
       "url": "https://github.com/syunnjack/route-delay-stay-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -8868,6 +8898,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "90c7869",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:59Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/90c7869ef6ded87c61216b0433ebc8f0c789c4be"
+        },
         {
           "sha": "bd6d0ec",
           "message": "支援・購入への導線を追加する",
@@ -8933,15 +8969,9 @@
           "message": "Fix production URL in README (#1)",
           "date": "2026-07-31T23:05:57Z",
           "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/e7cd76ce7b7a63f8b811ca882e3988d38c8a2279"
-        },
-        {
-          "sha": "3e51127",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:04Z",
-          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/3e511273ffb2463f7400e5893828126b9df2555e"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:10Z",
+      "updatedAt": "2026-08-16T04:13:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -9119,8 +9149,8 @@
       "slug": "sauna-crowd-alert",
       "name": "sauna-crowd-alert",
       "displayName": "Sauna Crowd Alert",
-      "description": "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd",
-      "readmeExcerpt": "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd.jp Other candidates: saunacrowd.jp saunaalert.jp loyly.jp totonoualert.jp Concept 混雑、ロウリュ、イベント、回数券、深夜営業を通知し、施設送客、物販、宿泊へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 施設送客 回数券 グッズ 宿泊送客 スポンサー Commands",
+      "description": "Sauna Crowd Alert サウナ混雑・ロウリュ通知",
+      "readmeExcerpt": "Sauna Crowd Alert サウナ混雑・ロウリュ通知",
       "url": "https://github.com/syunnjack/sauna-crowd-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -9129,6 +9159,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "e47b679",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:43Z",
+          "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/e47b67973b6ce0068cd3103a39557444da640c3b"
+        },
         {
           "sha": "86884cc",
           "message": "支援・購入への導線を追加する",
@@ -9194,15 +9230,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:07Z",
           "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/505b3a86877104b79934f0c4e3d4364e00b94ab7"
-        },
-        {
-          "sha": "d488901",
-          "message": "Fix sauna domain candidate",
-          "date": "2026-07-18T00:47:36Z",
-          "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/d48890108617973b342a28ddc4db364c0552a501"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:11Z",
+      "updatedAt": "2026-08-16T04:12:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -9885,6 +9915,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "aa0bb09",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:54Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/aa0bb09b8199cc0a6731b060e72ffca61a7cab9b"
+        },
+        {
           "sha": "b7dbe25",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:27Z",
@@ -9951,7 +9987,7 @@
           "url": "https://github.com/syunnjack/solo-spot-map/commit/d9dca68bebae4ffbbd240bfc8846b8aac01987e3"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:31Z",
+      "updatedAt": "2026-08-16T04:13:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -10142,8 +10178,8 @@
       "slug": "study-reminder-ai",
       "name": "study-reminder-ai",
       "displayName": "Study Reminder Ai",
-      "description": "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder",
-      "readmeExcerpt": "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder.jp Other candidates: studyreminder.jp ichimonai.jp aistudyalert.jp quizremind.jp Concept 資格学習をLINE/メールで毎日通知し、AI解説、有料問題集、講座送客へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 月額課金 有料問題集 講座 affiliate 模試販売 教育広告 Commands",
+      "description": "Study Reminder AI 資格試験の一問一答・学習リマインド",
+      "readmeExcerpt": "Study Reminder AI 資格試験の一問一答・学習リマインド",
       "url": "https://github.com/syunnjack/study-reminder-ai",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -10152,6 +10188,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "dbfdfe4",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:26Z",
+          "url": "https://github.com/syunnjack/study-reminder-ai/commit/dbfdfe43b771492bfc49c7a6d4c98089debe9720"
+        },
         {
           "sha": "cd19e41",
           "message": "支援・購入への導線を追加する",
@@ -10217,15 +10259,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:07Z",
           "url": "https://github.com/syunnjack/study-reminder-ai/commit/9b67683da78212e6969951888713d6e44423836d"
-        },
-        {
-          "sha": "69888a0",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:48Z",
-          "url": "https://github.com/syunnjack/study-reminder-ai/commit/69888a0999ba2f860eb9e4436811583c7574aaa3"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:46Z",
+      "updatedAt": "2026-08-16T04:12:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -10680,6 +10716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9748442",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:11:48Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/97484429cc45e8bca2f9243461709e085a3961a6"
+        },
+        {
           "sha": "c3c0089",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:59:36Z",
@@ -10744,15 +10786,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:57:43Z",
           "url": "https://github.com/syunnjack/trip-route-stay/commit/64bde060b30e370181520b2bb91bbf2dd85af53e"
-        },
-        {
-          "sha": "ecbd2b9",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:36Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/ecbd2b9acb005d7f570007be94b8806e1110ad42"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:48Z",
+      "updatedAt": "2026-08-16T04:11:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -10770,6 +10806,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "f95144b",
+          "message": "Merge pull request #112 from syunnjack/codex/automated-video-20260816-1302",
+          "date": "2026-08-16T04:03:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f95144b3ad73ecb7714f1af772d8b831778a5de5"
+        },
+        {
+          "sha": "c04dce7",
+          "message": "Update repository articles and videos",
+          "date": "2026-08-16T04:02:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c04dce70e17eca2dacd2d4ac45299d66235fcb79"
+        },
         {
           "sha": "4b2db5a",
           "message": "Update repository articles from GitHub activity",
@@ -10829,21 +10877,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T00:10:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1212c37cc43a486a72d15b94b1aeae58e7b8be49"
-        },
-        {
-          "sha": "5186368",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T23:25:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5186368934b68e81ed3f491d046cb2f03307d437"
-        },
-        {
-          "sha": "ef57f2a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-15T22:25:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ef57f2a3f2d321f1ec23ceed7dfa0a7bb8504691"
         }
       ],
-      "updatedAt": "2026-08-16T03:33:48Z",
+      "updatedAt": "2026-08-16T04:03:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -11081,6 +11117,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7a71b6e",
+          "message": "Product verification fixes",
+          "date": "2026-08-16T04:12:09Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/7a71b6efc19bec0a504c9223b45476ad1c5f8d59"
+        },
+        {
           "sha": "ecff067",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:59:45Z",
@@ -11147,7 +11189,7 @@
           "url": "https://github.com/syunnjack/wait-time-guide/commit/9ea52155d96149ba52b910977aa9e9a8a2c307a2"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:54Z",
+      "updatedAt": "2026-08-16T04:12:18Z",
       "stars": 0,
       "forks": 0
     },

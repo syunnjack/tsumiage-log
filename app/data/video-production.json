@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T03:54:32.139Z",
+  "generatedAt": "2026-08-16T04:26:54.504Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -13,7 +13,7 @@
       "slug": "ai-quiz-study",
       "repository": "ai-quiz-study",
       "title": "JavaScriptで作ったAi Quiz Study｜構成とコミット履歴を75秒で解説",
-      "description": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
+      "description": "AI Quiz Study 資格・AI一問一答",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/ai-quiz-study/",
       "repositoryUrl": "https://github.com/syunnjack/ai-quiz-study",
@@ -37,7 +37,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack"
+          "body": "AI Quiz Study 資格・AI一問一答"
         },
         {
           "title": "技術スタック",
@@ -49,7 +49,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -63,10 +63,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Ai Quiz Studyの技術構成を短く解説します。",
-        "AI Quiz Study 資格・AI一問一答 Repository Recommended repository name: ai quiz study Domain candidates Confirmed domain: https://syunnjack",
+        "AI Quiz Study 資格・AI一問一答",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -293,7 +293,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -310,7 +310,7 @@
         "Anchor Suggest Searchは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -501,7 +501,7 @@
       "slug": "bowling-lane-alert",
       "repository": "bowling-lane-alert",
       "title": "JavaScriptで作ったBowling Lane Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert",
+      "description": "Bowling Lane Alert ボウリング大会・空きレーン通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/bowling-lane-alert/",
       "repositoryUrl": "https://github.com/syunnjack/bowling-lane-alert",
@@ -525,7 +525,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert"
+          "body": "Bowling Lane Alert ボウリング大会・空きレーン通知"
         },
         {
           "title": "技術スタック",
@@ -537,7 +537,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -551,10 +551,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Bowling Lane Alertの技術構成を短く解説します。",
-        "Bowling Lane Alert ボウリング大会・空きレーン通知 Repository Recommended repository name: bowling lane alert Domain candidates Confirmed domain: lanealert",
+        "Bowling Lane Alert ボウリング大会・空きレーン通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -598,7 +598,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -615,7 +615,7 @@
         "Bowling Score Hubは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -2887,7 +2887,7 @@
       "slug": "golf-slot-watch",
       "repository": "golf-slot-watch",
       "title": "JavaScriptで作ったGolf Slot Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot",
+      "description": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/golf-slot-watch/",
       "repositoryUrl": "https://github.com/syunnjack/golf-slot-watch",
@@ -2911,7 +2911,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot"
+          "body": "Golf Slot Watch ゴルフ場空き枠・安値・天気通知"
         },
         {
           "title": "技術スタック",
@@ -2923,7 +2923,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -2937,10 +2937,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Golf Slot Watchの技術構成を短く解説します。",
-        "Golf Slot Watch ゴルフ場空き枠・安値・天気通知 Repository Recommended repository name: golf slot watch Domain candidates Confirmed domain: golfslot",
+        "Golf Slot Watch ゴルフ場空き枠・安値・天気通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -3045,7 +3045,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -3062,7 +3062,7 @@
         "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -3377,7 +3377,7 @@
       "slug": "hotel-price-watch",
       "repository": "hotel-price-watch",
       "title": "JavaScriptで作ったHotel Price Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack",
+      "description": "Hotel Price Watch 宿泊空室・価格下落アラート",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/hotel-price-watch/",
       "repositoryUrl": "https://github.com/syunnjack/hotel-price-watch",
@@ -3401,7 +3401,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack"
+          "body": "Hotel Price Watch 宿泊空室・価格下落アラート"
         },
         {
           "title": "技術スタック",
@@ -3413,7 +3413,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -3427,10 +3427,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Hotel Price Watchの技術構成を短く解説します。",
-        "Hotel Price Watch 宿泊空室・価格下落アラート Repository Recommended repository name: hotel price watch Domain candidates Confirmed domain: https://syunnjack",
+        "Hotel Price Watch 宿泊空室・価格下落アラート",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -4761,7 +4761,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -4778,7 +4778,7 @@
         "Local Board Plus 地域掲示板、街道ウォーク、開店閉店、イベント、周辺スポットを軽く投稿・検索できるUGC対応ローカル掲示板サービスです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -5738,7 +5738,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -5755,7 +5755,7 @@
         "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -5824,7 +5824,7 @@
       "slug": "niche-compare-hub",
       "repository": "niche-compare-hub",
       "title": "JavaScriptで作ったNiche Compare Hub｜構成とコミット履歴を75秒で解説",
-      "description": "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku",
+      "description": "Niche Compare Hub ニッチ比較サイト",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/niche-compare-hub/",
       "repositoryUrl": "https://github.com/syunnjack/niche-compare-hub",
@@ -5848,7 +5848,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku"
+          "body": "Niche Compare Hub ニッチ比較サイト"
         },
         {
           "title": "技術スタック",
@@ -5860,7 +5860,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -5874,10 +5874,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Niche Compare Hubの技術構成を短く解説します。",
-        "Niche Compare Hub ニッチ比較サイト Repository Recommended repository name: niche compare hub Domain candidates Confirmed domain: nichehikaku",
+        "Niche Compare Hub ニッチ比較サイト",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6044,7 +6044,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -6061,7 +6061,7 @@
         "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6717,7 +6717,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -6734,7 +6734,7 @@
         "rakuten blogtool 楽天市場の商品データを取得し、AIで読者本位の記事を1本ずつ生成してGitHub Pagesへ自動公開する静的ブログです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -7388,7 +7388,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -7405,7 +7405,7 @@
         "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -7718,7 +7718,7 @@
       "slug": "route-delay-stay-alert",
       "repository": "route-delay-stay-alert",
       "title": "JavaScriptで作ったRoute Delay Stay Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack",
+      "description": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/route-delay-stay-alert/",
       "repositoryUrl": "https://github.com/syunnjack/route-delay-stay-alert",
@@ -7742,7 +7742,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack"
+          "body": "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知"
         },
         {
           "title": "技術スタック",
@@ -7754,7 +7754,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -7768,10 +7768,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Route Delay Stay Alertの技術構成を短く解説します。",
-        "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知 Repository Recommended repository name: route delay stay alert Domain candidates Confirmed domain: https://syunnjack",
+        "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -7901,7 +7901,7 @@
       "slug": "sauna-crowd-alert",
       "repository": "sauna-crowd-alert",
       "title": "JavaScriptで作ったSauna Crowd Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd",
+      "description": "Sauna Crowd Alert サウナ混雑・ロウリュ通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/sauna-crowd-alert/",
       "repositoryUrl": "https://github.com/syunnjack/sauna-crowd-alert",
@@ -7925,7 +7925,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd"
+          "body": "Sauna Crowd Alert サウナ混雑・ロウリュ通知"
         },
         {
           "title": "技術スタック",
@@ -7937,7 +7937,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -7951,10 +7951,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Sauna Crowd Alertの技術構成を短く解説します。",
-        "Sauna Crowd Alert サウナ混雑・ロウリュ通知 Repository Recommended repository name: sauna crowd alert Domain candidates Confirmed domain: saunacrowd",
+        "Sauna Crowd Alert サウナ混雑・ロウリュ通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -8610,7 +8610,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -8627,7 +8627,7 @@
         "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -8820,7 +8820,7 @@
       "slug": "study-reminder-ai",
       "repository": "study-reminder-ai",
       "title": "JavaScriptで作ったStudy Reminder Ai｜構成とコミット履歴を75秒で解説",
-      "description": "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder",
+      "description": "Study Reminder AI 資格試験の一問一答・学習リマインド",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/study-reminder-ai/",
       "repositoryUrl": "https://github.com/syunnjack/study-reminder-ai",
@@ -8844,7 +8844,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder"
+          "body": "Study Reminder AI 資格試験の一問一答・学習リマインド"
         },
         {
           "title": "技術スタック",
@@ -8856,7 +8856,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -8870,10 +8870,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Study Reminder Aiの技術構成を短く解説します。",
-        "Study Reminder AI 資格試験の一問一答・学習リマインド Repository Recommended repository name: study reminder ai Domain candidates Confirmed domain: studyreminder",
+        "Study Reminder AI 資格試験の一問一答・学習リマインド",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -9407,7 +9407,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9424,7 +9424,7 @@
         "Trip Route Stayは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -9468,7 +9468,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9485,7 +9485,7 @@
         "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
         "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -9712,7 +9712,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
+          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9729,7 +9729,7 @@
         "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
+        "直近のコミットでは、不具合修正と安定性向上が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
