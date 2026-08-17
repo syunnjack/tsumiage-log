@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:27:31.707Z",
+  "generatedAt": "2026-08-17T09:27:51.318Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1271,6 +1271,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "74d42c6",
+          "message": "高校受験数学 第6回：中点の軌跡と△BPQの最大（2π cm、2 cm²）",
+          "date": "2026-08-17T08:38:47Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/74d42c6920c381d364fcb21ee4676200976751b6"
+        },
+        {
+          "sha": "3a35cda",
+          "message": "高校受験数学 第4回・第5回：直交する2弦の面積と 1+x²+x⁴ の因数分解（上付き数字の豆腐対策つき）",
+          "date": "2026-08-17T08:35:31Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/3a35cdafa4f17e36be9c856542e1964f4d64d7f6"
+        },
+        {
           "sha": "55b9df0",
           "message": "高校受験数学 第3回：正方形2つと七角形の面積（合同の証明つき、図つき動画）",
           "date": "2026-08-17T08:10:24Z",
@@ -1301,7 +1313,7 @@
           "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/de096d0f5973e91688e41b9e08e0d4171c02b580"
         }
       ],
-      "updatedAt": "2026-08-17T08:20:01Z",
+      "updatedAt": "2026-08-17T08:39:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -2134,6 +2146,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b9108f0",
+          "message": "README: DLsite版（オフライン完結）の販売リンクを追記 (#8)",
+          "date": "2026-08-17T08:40:07Z",
+          "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/b9108f0cc0db30ba25cc34df382c148c91c4133e"
+        },
+        {
           "sha": "a5aa285",
           "message": "README: 操作解説動画（YouTube 限定公開）のURLを追記 (#7)",
           "date": "2026-08-16T00:03:30Z",
@@ -2182,7 +2200,7 @@
           "url": "https://github.com/syunnjack/ec-price-tracker-lite/commit/97fefd4e6e71d7b5d6a46927b7bd1a03f0419ad0"
         }
       ],
-      "updatedAt": "2026-08-16T00:03:39Z",
+      "updatedAt": "2026-08-17T08:41:15Z",
       "stars": 0,
       "forks": 0
     },
@@ -10898,6 +10916,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "82df850",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-17T08:28:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/82df850835aa9aed5fca71571a7fc9221b11828b"
+        },
+        {
           "sha": "f3b19c3",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T07:37:01Z",
@@ -10962,15 +10986,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T23:24:31Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d5e50b4bc25d443a59f00d2d02990dfbb2add9de"
-        },
-        {
-          "sha": "0df65fe",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-16T22:24:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0df65feb179d7bcc53150e69b356411d548d5c37"
         }
       ],
-      "updatedAt": "2026-08-17T07:37:47Z",
+      "updatedAt": "2026-08-17T08:28:14Z",
       "stars": 0,
       "forks": 0
     },
