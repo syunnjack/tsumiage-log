@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T21:25:01.238Z",
+  "generatedAt": "2026-08-17T22:24:51.928Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -4001,6 +4001,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9dab6b4",
+          "message": "sitemap: 本番ドメインの実在URLだけを載せる",
+          "date": "2026-08-17T21:42:32Z",
+          "url": "https://github.com/syunnjack/hotel-price-watch/commit/9dab6b4a4d20e50c36cddb83940b2213c02f52d0"
+        },
+        {
           "sha": "28c9500",
           "message": "Product verification fixes",
           "date": "2026-08-16T04:12:49Z",
@@ -4065,15 +4071,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:04Z",
           "url": "https://github.com/syunnjack/hotel-price-watch/commit/46eace685c2c2971f9d98aaeb498a9582db130cf"
-        },
-        {
-          "sha": "7ffdd82",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:41Z",
-          "url": "https://github.com/syunnjack/hotel-price-watch/commit/7ffdd82dd6be09e6dbd700f97e201f7b59106f61"
         }
       ],
-      "updatedAt": "2026-08-16T04:12:53Z",
+      "updatedAt": "2026-08-17T21:42:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -10916,6 +10916,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "79af115",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-17T21:25:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/79af11578c53e94171856468071b39ff8f239c1f"
+        },
+        {
           "sha": "970cd68",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T20:25:48Z",
@@ -10980,15 +10986,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T10:26:45Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/66bafa2aa8eebed7d621f7f303620027ba0a4599"
-        },
-        {
-          "sha": "373a04a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T09:28:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/373a04a6b42e64c74798d617d0f91106ce440828"
         }
       ],
-      "updatedAt": "2026-08-17T20:29:33Z",
+      "updatedAt": "2026-08-17T21:25:43Z",
       "stars": 0,
       "forks": 0
     },
