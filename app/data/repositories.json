@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-08-17T06:27:21.781Z",
+  "generatedAt": "2026-08-17T07:36:31.477Z",
   "owner": "syunnjack",
-  "totalRepositories": 172,
-  "publicRepositories": 172,
+  "totalRepositories": 173,
+  "publicRepositories": 173,
   "privateRepositories": 0,
   "skippedRepositories": [
+    "chitamaru-study-portal",
     "abeshi-mvp",
     "darenano",
     "onsen-ranking",
@@ -10849,6 +10850,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1dc5052",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-17T06:27:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1dc5052a0cc2120de7efb1889dab36ecb16a2fda"
+        },
+        {
           "sha": "2211b2c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T05:27:33Z",
@@ -10913,15 +10920,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T21:24:41Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/debdea78ee1095539d65773248c381ed6653a9be"
-        },
-        {
-          "sha": "5c97029",
-          "message": "Merge pull request #124 from syunnjack/codex/automated-video-20260817-055811",
-          "date": "2026-08-16T21:09:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5c9702960902c50b0e4ffff77a4383081fab13ad"
         }
       ],
-      "updatedAt": "2026-08-17T05:27:45Z",
+      "updatedAt": "2026-08-17T06:28:19Z",
       "stars": 0,
       "forks": 0
     },
