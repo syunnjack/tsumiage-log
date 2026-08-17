@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:24:51.928Z",
+  "generatedAt": "2026-08-17T23:24:40.701Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1180,6 +1180,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "926e50c",
+          "message": "トップページに構造化データ(JSON-LD)を追加する",
+          "date": "2026-08-17T23:07:05Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/926e50ca300567adb5705b2c576f2b67d8f18678"
+        },
+        {
           "sha": "22b1221",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:06Z",
@@ -1244,15 +1250,9 @@
           "message": "Add verified venues reviews and revenue paths",
           "date": "2026-07-15T07:57:15Z",
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
-        },
-        {
-          "sha": "5e39911",
-          "message": "Remove overlapping portal signature",
-          "date": "2026-07-15T07:47:38Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5e3991108adb35722fd2f2f65a67ba85adbe8905"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:25Z",
+      "updatedAt": "2026-08-17T23:07:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -1618,6 +1618,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d51c363",
+          "message": "トップページに構造化データ(JSON-LD)を追加する",
+          "date": "2026-08-17T23:07:02Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/d51c363f6c65042c3debc261e6f4d3f5137245e7"
+        },
+        {
           "sha": "1dcde18",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:20Z",
@@ -1682,15 +1688,9 @@
           "message": "Upgrade Next.js to fix critical security vulnerabilities",
           "date": "2026-07-28T18:50:43Z",
           "url": "https://github.com/syunnjack/cross-genre/commit/ef0701fba4cb09083a4f97bf0e686b7f2c3477a7"
-        },
-        {
-          "sha": "d083e1d",
-          "message": "fix: add 0413",
-          "date": "2026-04-13T11:10:44Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d083e1d0d3ce2e359ac88b0addccc80b882a22cb"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:33Z",
+      "updatedAt": "2026-08-17T23:07:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -2673,6 +2673,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a5a198b",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:39Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/a5a198b35a549075897601d182ff4734e4c068af"
+        },
+        {
           "sha": "7716cb1",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:50Z",
@@ -2703,7 +2709,7 @@
           "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:55Z",
+      "updatedAt": "2026-08-17T23:16:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -2789,6 +2795,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0e55cd5",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:41Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/0e55cd572a8d127c9f38ba05096bdcbd9907b1bd"
+        },
+        {
           "sha": "1b939ac",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:54Z",
@@ -2825,7 +2837,7 @@
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/081db70c85639c69d3d679313ba8be171b792e3f"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:04Z",
+      "updatedAt": "2026-08-17T23:15:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -3200,6 +3212,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c38e452",
+          "message": "トップページに構造化データ(JSON-LD)を追加する",
+          "date": "2026-08-17T23:06:57Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/c38e452a47ebe1cb0e7a9dd4800ab1daf82fe17e"
+        },
+        {
           "sha": "96e3b16",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:08Z",
@@ -3264,15 +3282,9 @@
           "message": "Add sitemap.xml and robots.txt for SEO crawlability",
           "date": "2026-07-28T18:41:00Z",
           "url": "https://github.com/syunnjack/goal-pilot-app/commit/527de87e415df2b6c8ce7635543677bdcd246123"
-        },
-        {
-          "sha": "6d4a1a4",
-          "message": "Add GitHub Pages deployment",
-          "date": "2026-07-26T08:18:47Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/6d4a1a4b172c3e06f8a76f085a37787b00263ad8"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:29Z",
+      "updatedAt": "2026-08-17T23:07:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -3952,6 +3964,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "81eb4c7",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:36Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/81eb4c72308a217b31c139177e565831b2d4a5ce"
+        },
+        {
           "sha": "3f42428",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:28Z",
@@ -3982,7 +4000,7 @@
           "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:31Z",
+      "updatedAt": "2026-08-17T23:15:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -4802,6 +4820,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a4fe7dc",
+          "message": "トップページに構造化データ(JSON-LD)を追加する",
+          "date": "2026-08-17T23:07:00Z",
+          "url": "https://github.com/syunnjack/king-sys/commit/a4fe7dc8fd372a07880220064ce6eafe737b3449"
+        },
+        {
           "sha": "ce52009",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:53Z",
@@ -4856,7 +4880,7 @@
           "url": "https://github.com/syunnjack/king-sys/commit/3e7b943347f8df54bba27559c7a867aaaf935888"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:01Z",
+      "updatedAt": "2026-08-17T23:07:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -5106,6 +5130,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0065fc5",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:44Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/0065fc5553872e8f347a54381496d01f3e9fc3a3"
+        },
+        {
           "sha": "ef2f32b",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:54:01Z",
@@ -5166,7 +5196,7 @@
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/e0098571204c70cb8c21d35c3dd8a12b67f276a5"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:07Z",
+      "updatedAt": "2026-08-17T23:15:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -9348,6 +9378,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8c289bb",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:38Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/8c289bb451b4a3ab1b936aafbc7d4bc194b78692"
+        },
+        {
           "sha": "35ef8e4",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:09Z",
@@ -9396,7 +9432,7 @@
           "url": "https://github.com/syunnjack/sauna-map/commit/53d6e6c2ee789bb54f67e8fa724545514979b49e"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:13Z",
+      "updatedAt": "2026-08-17T23:16:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -9666,6 +9702,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fd281eb",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:46Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/fd281eb935a1a907291e4aa5751676f0280a0e22"
+        },
+        {
           "sha": "19d5aad",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:19Z",
@@ -9726,7 +9768,7 @@
           "url": "https://github.com/syunnjack/smoking-area-where/commit/d5d90ddf39fbfda81fb368a63372d640c31c44f2"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:37Z",
+      "updatedAt": "2026-08-17T23:15:15Z",
       "stars": 0,
       "forks": 0
     },
@@ -9836,6 +9878,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5509e4a",
+          "message": "トップページに構造化データ(JSON-LD)を追加する",
+          "date": "2026-08-17T23:06:53Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/5509e4ac2936cbdaf131bf18019a512f40137a2a"
+        },
+        {
           "sha": "c0ccf4d",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:23Z",
@@ -9900,15 +9948,9 @@
           "message": "Add Nagoya station MVP page",
           "date": "2026-07-16T18:06:57Z",
           "url": "https://github.com/syunnjack/smoking-spot-finder/commit/d7f1e66a197b82a1c79c1a957c22243d4f73d005"
-        },
-        {
-          "sha": "4cddaf7",
-          "message": "Add current-location marker, walking-route ETA, and search-this-area to venue maps",
-          "date": "2026-07-08T14:08:34Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4cddaf7345a6272d4da24430b57d55cc15ed25ca"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:28Z",
+      "updatedAt": "2026-08-17T23:07:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -10152,6 +10194,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e02ef0e",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:49Z",
+          "url": "https://github.com/syunnjack/space-map/commit/e02ef0eacb99762a51a6ad1df43a617725f76546"
+        },
+        {
           "sha": "e2b7abb",
           "message": "デプロイ後に、サーバへ取り残されたファイルを消す",
           "date": "2026-08-16T06:37:20Z",
@@ -10200,7 +10248,7 @@
           "url": "https://github.com/syunnjack/space-map/commit/b221d20674802609cc5aef878edd65248ae2edd0"
         }
       ],
-      "updatedAt": "2026-08-16T06:37:41Z",
+      "updatedAt": "2026-08-17T23:16:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -10916,6 +10964,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0b353eb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-17T22:25:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b353ebdcd30c30c00b07940c936c1e34adffa07"
+        },
+        {
           "sha": "79af115",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T21:25:27Z",
@@ -10980,15 +11034,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T11:25:54Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/69b54e8ce63a206fede0e203ef77d1b5fe71f012"
-        },
-        {
-          "sha": "66bafa2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T10:26:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/66bafa2aa8eebed7d621f7f303620027ba0a4599"
         }
       ],
-      "updatedAt": "2026-08-17T21:25:43Z",
+      "updatedAt": "2026-08-17T22:26:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -11487,6 +11535,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "65e5245",
+          "message": "空のItemListを出力しないようにする",
+          "date": "2026-08-17T23:14:51Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/65e5245770a272ff3590c695b0a6c7c9b6a13dfd"
+        },
+        {
           "sha": "8a4337b",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:59:51Z",
@@ -11529,7 +11583,7 @@
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:55Z",
+      "updatedAt": "2026-08-17T23:15:49Z",
       "stars": 0,
       "forks": 0
     },
