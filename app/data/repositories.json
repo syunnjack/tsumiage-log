@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-17T00:06:47.092Z",
+  "generatedAt": "2026-08-17T00:27:22.887Z",
   "owner": "syunnjack",
-  "totalRepositories": 308,
+  "totalRepositories": 172,
   "publicRepositories": 172,
-  "privateRepositories": 136,
+  "privateRepositories": 0,
   "skippedRepositories": [
     "abeshi-mvp",
     "darenano",
@@ -10849,6 +10849,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "8ff162a",
+          "message": "Merge pull request #125 from syunnjack/codex/automated-video-20260817-090942",
+          "date": "2026-08-17T00:10:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8ff162ad65bbd0fb8542c9f9a7cf20f45c5ba571"
+        },
+        {
+          "sha": "f55d85c",
+          "message": "Update repository articles and video data",
+          "date": "2026-08-17T00:09:43Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f55d85c589ceaf1e7e7f23ae56d9e062c3fb9f32"
+        },
+        {
           "sha": "d5e50b4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T23:24:31Z",
@@ -10907,21 +10919,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-16T18:25:51Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c42cf6b05d79001a111b2d7a79aa7460b3f4d9da"
-        },
-        {
-          "sha": "953f318",
-          "message": "Merge pull request #122 from syunnjack/codex/automated-video-20260817-030711",
-          "date": "2026-08-16T18:07:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/953f318fd7457311ccff5b02f4d5429f57b7a67e"
-        },
-        {
-          "sha": "d9efd4c",
-          "message": "chore: refresh repository articles and video assets",
-          "date": "2026-08-16T18:07:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d9efd4c9887d490ec03671569b82d4ecdc98a182"
         }
       ],
-      "updatedAt": "2026-08-16T23:24:58Z",
+      "updatedAt": "2026-08-17T00:10:15Z",
       "stars": 0,
       "forks": 0
     },
