@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:26:32.006Z",
+  "generatedAt": "2026-08-18T17:25:25.914Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -2721,6 +2721,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5bc1e38",
+          "message": "出店スポットを本番に取り込むワークフローを足す",
+          "date": "2026-08-18T16:26:52Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/5bc1e38dbd837a5f435f29cc0d9aa7cab8ada687"
+        },
+        {
           "sha": "3ea13d6",
           "message": "サーバに残った古い sitemap.xml を消す",
           "date": "2026-08-18T16:20:06Z",
@@ -2787,7 +2793,7 @@
           "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
         }
       ],
-      "updatedAt": "2026-08-18T16:23:22Z",
+      "updatedAt": "2026-08-18T16:31:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -2805,6 +2811,30 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "0c8691a",
+          "message": "外部APIキーの設定状況を横断確認する一時ワークフローを足す（読み取り専用・確認後に削除）",
+          "date": "2026-08-18T17:21:50Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/0c8691ab8d4821bb6d255214dfcda791b1cb5de4"
+        },
+        {
+          "sha": "444f49e",
+          "message": "views とアプリ本体もデプロイし、API結果をキャッシュする",
+          "date": "2026-08-18T17:16:27Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/444f49e7af8472380d21b4f8f22308f22d16bf77"
+        },
+        {
+          "sha": "955e373",
+          "message": "本番のMLIT APIキーを設定できるようにする",
+          "date": "2026-08-18T17:09:39Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/955e373dcab047d3d2b9790787cb06dcd4de23ae"
+        },
+        {
+          "sha": "e30fb61",
+          "message": "本番設定を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
+          "date": "2026-08-18T17:08:01Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/e30fb611f4214721c23e07a38e38ce2ec2ca8c6b"
+        },
         {
           "sha": "11bacaf",
           "message": "都道府県ごとのページが正しい正規URLを示すようにする",
@@ -2852,21 +2882,9 @@
           "message": "CheckRentWatches: 検知カーソルをcreated_atからrent_reports.idベースに変更",
           "date": "2026-07-15T15:22:51Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/b9f12177b6fcdb095a66cc2b505e64826e4bd907"
-        },
-        {
-          "sha": "b649739",
-          "message": "積算法による参考家賃(概算)と家賃口コミ(賃貸事例比較法)＋LINE新着通知を追加",
-          "date": "2026-07-15T03:39:38Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/b649739b57e75f8ca1861724225e8d9dbfbf267b"
-        },
-        {
-          "sha": "ccffb62",
-          "message": "不動産価格ウォッチ（都道府県別取引価格＋LINE通知）を新規構築",
-          "date": "2026-07-15T01:00:58Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/ccffb6281d8f7318a441484d6bc9ba5945d9f9a4"
         }
       ],
-      "updatedAt": "2026-08-18T16:19:06Z",
+      "updatedAt": "2026-08-18T17:22:29Z",
       "stars": 0,
       "forks": 0
     },
@@ -11234,6 +11252,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "efbb519",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T16:26:57Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/efbb51926b98d23e076f844fe3c8e5df042b612f"
+        },
+        {
           "sha": "8413557",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T15:26:33Z",
@@ -11298,15 +11322,9 @@
           "message": "chitamaru-study-portal の技術解説動画を追加",
           "date": "2026-08-18T07:16:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7ab1bae1b802e90bb16c59e3b992a0335594f0f9"
-        },
-        {
-          "sha": "9a2753d",
-          "message": "動画レンダリングを毎時の自動実行から外し、成否判定を生成物ベースにする",
-          "date": "2026-08-18T07:16:31Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9a2753db73964c80c406755c0499fa151e36d7e5"
         }
       ],
-      "updatedAt": "2026-08-18T15:33:08Z",
+      "updatedAt": "2026-08-18T16:28:49Z",
       "stars": 0,
       "forks": 0
     },
