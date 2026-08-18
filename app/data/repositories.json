@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:19:37.154Z",
+  "generatedAt": "2026-08-18T07:28:34.392Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -11156,6 +11156,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "cd025fc",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T07:20:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cd025fc68ad92b96def7bbddf090f668b888f102"
+        },
+        {
           "sha": "7ab1bae",
           "message": "chitamaru-study-portal の技術解説動画を追加",
           "date": "2026-08-18T07:16:33Z",
@@ -11220,15 +11226,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T00:28:04Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6b79b875590185c92265feb260c7e4a0e1cf13ea"
-        },
-        {
-          "sha": "0772ce2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T23:25:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0772ce273b12add072024cd963d9749e433153f9"
         }
       ],
-      "updatedAt": "2026-08-18T07:18:59Z",
+      "updatedAt": "2026-08-18T07:20:31Z",
       "stars": 0,
       "forks": 0
     },
