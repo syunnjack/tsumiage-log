@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T22:24:52.116Z",
+  "generatedAt": "2026-08-18T00:27:32.859Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -49,7 +49,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -66,7 +66,7 @@
         "AI Quiz Study 資格・AI一問一答",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -440,7 +440,7 @@
       "slug": "bar-job-alert",
       "repository": "bar-job-alert",
       "title": "JavaScriptで作ったBar Job Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert",
+      "description": "Bar Job Alert 飲食店・夜職・バー求人通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/bar-job-alert/",
       "repositoryUrl": "https://github.com/syunnjack/bar-job-alert",
@@ -464,7 +464,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert"
+          "body": "Bar Job Alert 飲食店・夜職・バー求人通知"
         },
         {
           "title": "技術スタック",
@@ -490,7 +490,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Bar Job Alertの技術構成を短く解説します。",
-        "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert",
+        "Bar Job Alert 飲食店・夜職・バー求人通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -598,7 +598,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -615,7 +615,7 @@
         "Bowling Score Hubは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -1417,7 +1417,7 @@
       "slug": "darts-event-alert",
       "repository": "darts-event-alert",
       "title": "JavaScriptで作ったDarts Event Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent",
+      "description": "Darts Event Alert ダーツ台・大会通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/darts-event-alert/",
       "repositoryUrl": "https://github.com/syunnjack/darts-event-alert",
@@ -1441,7 +1441,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent"
+          "body": "Darts Event Alert ダーツ台・大会通知"
         },
         {
           "title": "技術スタック",
@@ -1467,7 +1467,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Darts Event Alertの技術構成を短く解説します。",
-        "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent",
+        "Darts Event Alert ダーツ台・大会通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -2027,7 +2027,7 @@
       "slug": "exam-date-alert",
       "repository": "exam-date-alert",
       "title": "JavaScriptで作ったExam Date Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate",
+      "description": "Exam Date Alert 試験日程・出題予想通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/exam-date-alert/",
       "repositoryUrl": "https://github.com/syunnjack/exam-date-alert",
@@ -2051,7 +2051,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate"
+          "body": "Exam Date Alert 試験日程・出題予想通知"
         },
         {
           "title": "技術スタック",
@@ -2077,7 +2077,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Exam Date Alertの技術構成を短く解説します。",
-        "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate",
+        "Exam Date Alert 試験日程・出題予想通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -5799,7 +5799,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -5816,7 +5816,7 @@
         "My Dartslive ダーツ設置店を中心に、ボウリング、カラオケ、プリクラ、プライズ、ゲームセンターを横断検索するUGC対応アミューズ施設検索サービスです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -7815,7 +7815,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -7832,7 +7832,7 @@
         "Route Delay Stay Alert 高速バス・電車遅延・到着後スポット通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },

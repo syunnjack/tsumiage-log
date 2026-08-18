@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T23:24:40.701Z",
+  "generatedAt": "2026-08-18T00:27:32.661Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -26,6 +26,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "061c29a",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:42Z",
+          "url": "https://github.com/syunnjack/ai-quiz-study/commit/061c29a422e6390aa2653505f64ed1804bf4d894"
+        },
         {
           "sha": "efb108b",
           "message": "Product verification fixes",
@@ -91,15 +97,9 @@
           "message": "Add Search Console verification meta tag",
           "date": "2026-08-04T14:10:57Z",
           "url": "https://github.com/syunnjack/ai-quiz-study/commit/fd1cee9fcde540912842ee0d9145b1857375a0a5"
-        },
-        {
-          "sha": "02cadf2",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:38Z",
-          "url": "https://github.com/syunnjack/ai-quiz-study/commit/02cadf20879d5071a10b852663babc03fa505e77"
         }
       ],
-      "updatedAt": "2026-08-16T04:11:48Z",
+      "updatedAt": "2026-08-18T00:27:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -117,6 +117,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "0e40806",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:10:36Z",
+          "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/0e4080611368f9256cbf3946415d3931a3d7ecb1"
+        },
         {
           "sha": "376e5a8",
           "message": "canonical とサイトマップの基点を .net に直す",
@@ -182,15 +188,9 @@
           "message": "保険・脱毛サロン・ウォーターサーバー・結婚相談所・FX投資診断を追加",
           "date": "2026-07-14T19:08:39Z",
           "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/d18bbf69610df3b9fbc5e73c9f7bd836ae8db20d"
-        },
-        {
-          "sha": "4db82e1",
-          "message": "本番ドメインをkantan-shindan.jpに設定",
-          "date": "2026-07-14T12:57:53Z",
-          "url": "https://github.com/syunnjack/ai-tool-diagnoser/commit/4db82e14c2d069be4389ad8b2a96c0973f288920"
         }
       ],
-      "updatedAt": "2026-08-16T06:32:08Z",
+      "updatedAt": "2026-08-18T00:11:01Z",
       "stars": 0,
       "forks": 0
     },
@@ -635,8 +635,8 @@
       "slug": "bar-job-alert",
       "name": "bar-job-alert",
       "displayName": "Bar Job Alert",
-      "description": "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert",
-      "readmeExcerpt": "Bar Job Alert 飲食店・夜職・バー求人通知 Repository Recommended repository name: bar job alert Domain candidates Confirmed domain: barjobalert.jp Other candidates: barjobalert.jp yorujob.jp barworkalert.jp nightwork.jp Concept バー、飲食、夜職の求人、面接枠、体験入店、喫煙可店舗情報を通知し、成果報酬へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 求人成果報酬 面接予約 店舗掲載 広告 LINE課金 Commands",
+      "description": "Bar Job Alert 飲食店・夜職・バー求人通知",
+      "readmeExcerpt": "Bar Job Alert 飲食店・夜職・バー求人通知",
       "url": "https://github.com/syunnjack/bar-job-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -645,6 +645,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "5697f6d",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:47Z",
+          "url": "https://github.com/syunnjack/bar-job-alert/commit/5697f6dfa3675c46756d854a520e26f4fea3e13c"
+        },
         {
           "sha": "b1c38a2",
           "message": "支援・購入への導線を追加する",
@@ -712,7 +718,7 @@
           "url": "https://github.com/syunnjack/bar-job-alert/commit/0fb03d1b44ee67bb5629d343ed12c6e0eb8d6730"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:01Z",
+      "updatedAt": "2026-08-18T00:26:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -822,6 +828,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "bfd25f2",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:49Z",
+          "url": "https://github.com/syunnjack/bowling-score-hub/commit/bfd25f2fb26b586b051bc1ce56d4f5585a65740c"
+        },
+        {
           "sha": "b1f506e",
           "message": "Product verification fixes",
           "date": "2026-08-16T04:11:53Z",
@@ -886,15 +898,9 @@
           "message": "Add Search Console verification meta tag",
           "date": "2026-08-04T14:11:08Z",
           "url": "https://github.com/syunnjack/bowling-score-hub/commit/667fe8b624c4db47cd1617f969831d624f77feea"
-        },
-        {
-          "sha": "cd25576",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:26:50Z",
-          "url": "https://github.com/syunnjack/bowling-score-hub/commit/cd2557619dff96bedb8fe36872db7236d4120892"
         }
       ],
-      "updatedAt": "2026-08-16T04:12:08Z",
+      "updatedAt": "2026-08-18T00:26:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -1095,6 +1101,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "46fbb7d",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:52Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/46fbb7d890203976c2258b91724c8b727118cf9b"
+        },
+        {
           "sha": "ea51fb8",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:04Z",
@@ -1161,7 +1173,7 @@
           "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:21Z",
+      "updatedAt": "2026-08-18T00:26:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -1747,8 +1759,8 @@
       "slug": "darts-event-alert",
       "name": "darts-event-alert",
       "displayName": "Darts Event Alert",
-      "description": "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent",
-      "readmeExcerpt": "Darts Event Alert ダーツ台・大会通知 Repository Recommended repository name: darts event alert Domain candidates Confirmed domain: dartsevent.jp Other candidates: dartsevent.jp dartsalert.jp dartboard.jp dartnavi.jp Concept DARTSLIVE設置店、大会、空き台、キャンペーンを通知し、店舗送客と用品アフィリエイトにつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 店舗送客 用品 affiliate 大会掲載 バー求人 スポンサー Commands",
+      "description": "Darts Event Alert ダーツ台・大会通知",
+      "readmeExcerpt": "Darts Event Alert ダーツ台・大会通知",
       "url": "https://github.com/syunnjack/darts-event-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -1757,6 +1769,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "44144f9",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:56Z",
+          "url": "https://github.com/syunnjack/darts-event-alert/commit/44144f9ebe8d4ea9376e6ffdfcee470d299d4dd6"
+        },
         {
           "sha": "e842ce8",
           "message": "支援・購入への導線を追加する",
@@ -1824,7 +1842,7 @@
           "url": "https://github.com/syunnjack/darts-event-alert/commit/4ffac8ffcc6f08e1332b601ddb2ccb14659cbed5"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:47Z",
+      "updatedAt": "2026-08-18T00:27:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -2310,6 +2328,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4476058",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:27:06Z",
+          "url": "https://github.com/syunnjack/eki-genre-map/commit/44760586e8895a6a33a0a567cd8740dd394e5283"
+        },
+        {
           "sha": "c234d69",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:40Z",
@@ -2376,7 +2400,7 @@
           "url": "https://github.com/syunnjack/eki-genre-map/commit/ad8a4ac78c6f99cc9a46b4c9c224bdcd8cc0ad58"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:48Z",
+      "updatedAt": "2026-08-18T00:27:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -2469,8 +2493,8 @@
       "slug": "exam-date-alert",
       "name": "exam-date-alert",
       "displayName": "Exam Date Alert",
-      "description": "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate",
-      "readmeExcerpt": "Exam Date Alert 試験日程・出題予想通知 Repository Recommended repository name: exam date alert Domain candidates Confirmed domain: examdate.jp Other candidates: examdate.jp shikakuday.jp examalert.jp shikenwatch.jp Concept 行政書士、宅建、FPなどの試験日、申込期限、出題予想を通知し、教材・模試へ送客する。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 教材販売 模試販売 講座送客 メールスポンサー 月額課金 Commands",
+      "description": "Exam Date Alert 試験日程・出題予想通知",
+      "readmeExcerpt": "Exam Date Alert 試験日程・出題予想通知",
       "url": "https://github.com/syunnjack/exam-date-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -2479,6 +2503,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "633fad5",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:27:08Z",
+          "url": "https://github.com/syunnjack/exam-date-alert/commit/633fad5f8fa6eed5d75879ec35a21d265eef4dfd"
+        },
         {
           "sha": "2c5c112",
           "message": "支援・購入への導線を追加する",
@@ -2546,7 +2576,7 @@
           "url": "https://github.com/syunnjack/exam-date-alert/commit/bd42f08e659cd0b96336dbd5832cae6ecd7b186d"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:52Z",
+      "updatedAt": "2026-08-18T00:27:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -5812,7 +5842,7 @@
       "name": "manga-cafe-finder",
       "displayName": "Manga Cafe Finder",
       "description": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです",
-      "readmeExcerpt": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです。 Canonical domain: https://syunnjack.github.io/manga cafe finder/ Domain Candidates mangacafemap.jp netcafemap.jp https://syunnjack.github.io/manga cafe finder/ Features 設備条件フィルター UGC投稿 SEO/AIO/LLMO向けFAQと即答ブロック robots.txt / sitemap.xml / llms.txt 店舗送客、クーポン、宿泊交通、電子書籍、確認済み掲載の収益導線",
+      "readmeExcerpt": "ComicStay 漫画喫茶・ネットカフェを、個室、シャワー、喫煙、女性専用、深夜滞在、閉店情報、口コミ投稿で探せるUGC対応サービスです。",
       "url": "https://github.com/syunnjack/manga-cafe-finder",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -5821,6 +5851,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "b67af37",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:54Z",
+          "url": "https://github.com/syunnjack/manga-cafe-finder/commit/b67af374c92d05d7f20f74deedba4a5abcbe1aa4"
+        },
         {
           "sha": "8ddbfd7",
           "message": "支援・購入への導線を追加する",
@@ -5888,7 +5924,7 @@
           "url": "https://github.com/syunnjack/manga-cafe-finder/commit/cec3622c3089a8a5e2f1ecf89099e5ac3b1bd7e1"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:27Z",
+      "updatedAt": "2026-08-18T00:27:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -6675,6 +6711,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e5d5ef8",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:26:59Z",
+          "url": "https://github.com/syunnjack/my-dartslive/commit/e5d5ef8f1f60898668c2bc96306c97fd3c33d075"
+        },
+        {
           "sha": "cd7332c",
           "message": "Product verification fixes",
           "date": "2026-08-16T04:12:31Z",
@@ -6739,15 +6781,9 @@
           "message": "Fix production URL in README (#1)",
           "date": "2026-07-31T23:04:46Z",
           "url": "https://github.com/syunnjack/my-dartslive/commit/83a0d517e7e75fefa249ce302bc73b72be60fd94"
-        },
-        {
-          "sha": "2f52ac7",
-          "message": "Set dartspot domain",
-          "date": "2026-07-17T20:44:34Z",
-          "url": "https://github.com/syunnjack/my-dartslive/commit/2f52ac763397728ab53d4b863c309baf6150458e"
         }
       ],
-      "updatedAt": "2026-08-16T04:13:00Z",
+      "updatedAt": "2026-08-18T00:27:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -9026,6 +9062,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0e9457e",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-18T00:27:01Z",
+          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/0e9457e95cae4bd2ddbd68204bb84b2b32b47698"
+        },
+        {
           "sha": "90c7869",
           "message": "Product verification fixes",
           "date": "2026-08-16T04:12:59Z",
@@ -9090,15 +9132,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:57:23Z",
           "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/fec28bee5cb5d8aa9e6a1ce97a279a9ddc1a4ae7"
-        },
-        {
-          "sha": "e7cd76c",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:57Z",
-          "url": "https://github.com/syunnjack/route-delay-stay-alert/commit/e7cd76ce7b7a63f8b811ca882e3988d38c8a2279"
         }
       ],
-      "updatedAt": "2026-08-16T04:13:03Z",
+      "updatedAt": "2026-08-18T00:27:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -10964,6 +11000,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0772ce2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-17T23:25:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0772ce273b12add072024cd963d9749e433153f9"
+        },
+        {
           "sha": "0b353eb",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T22:25:23Z",
@@ -11028,15 +11070,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T12:27:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9218fd3e462e7116f41b697a459a7013a8fecee7"
-        },
-        {
-          "sha": "69b54e8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T11:25:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/69b54e8ce63a206fede0e203ef77d1b5fe71f012"
         }
       ],
-      "updatedAt": "2026-08-17T22:26:03Z",
+      "updatedAt": "2026-08-17T23:25:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -11535,6 +11571,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "11f4f50",
+          "message": "デプロイを他の同型サイトと同じSFTP方式に戻す",
+          "date": "2026-08-18T00:06:46Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/11f4f503e0dc2865dc872919e17ce57bff01537c"
+        },
+        {
           "sha": "65e5245",
           "message": "空のItemListを出力しないようにする",
           "date": "2026-08-17T23:14:51Z",
@@ -11583,7 +11625,7 @@
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
         }
       ],
-      "updatedAt": "2026-08-17T23:15:49Z",
+      "updatedAt": "2026-08-18T00:07:08Z",
       "stars": 0,
       "forks": 0
     },
