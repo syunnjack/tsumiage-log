@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T01:50:21.393Z",
+  "generatedAt": "2026-08-18T07:15:07.421Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -7,7 +7,7 @@
       "youtubeUrl": "https://youtu.be/mQ8Nl4Qk_io"
     }
   ],
-  "queuedCount": 1,
+  "queuedCount": 0,
   "videos": [
     {
       "slug": "ai-quiz-study",
@@ -912,9 +912,9 @@
         }
       ],
       "publishAt": "2026-08-16T01:00:00.000Z",
-      "status": "queued",
-      "localVideoUrl": null,
-      "localPptxUrl": null,
+      "status": "rendered",
+      "localVideoUrl": "/videos/repositories/chitamaru-study-portal/chitamaru-study-portal-tech-preview.mp4",
+      "localPptxUrl": "/videos/repositories/chitamaru-study-portal/chitamaru-study-portal-tech-preview.pptx",
       "youtubeUrl": null,
       "narration": [
         "今回は、Chitamaru Study Portalの技術構成を短く解説します。",
