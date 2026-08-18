@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:28:34.392Z",
+  "generatedAt": "2026-08-18T08:26:59.952Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1630,6 +1630,36 @@
       "files": [],
       "commits": [
         {
+          "sha": "9e2ee94",
+          "message": "補助金の実データを26都市に拡充し、中古車買取に提携先を追加する",
+          "date": "2026-08-18T08:19:16Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/9e2ee9462f0cb88967f15e649f33c32165c758cb"
+        },
+        {
+          "sha": "4cbfcf9",
+          "message": "近隣都市の導線を全ページに出し、行き止まりへのリンクをやめる",
+          "date": "2026-08-18T08:06:58Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/4cbfcf924f33f50c5b0f3f96e018eaf8e05fedec"
+        },
+        {
+          "sha": "1285484",
+          "message": "各ページに解説（流れ・比較の見どころ・よくある質問）を追加する",
+          "date": "2026-08-18T07:59:32Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/128548414b2deb224f7c5f4b187d3806c53e0c75"
+        },
+        {
+          "sha": "e066a9f",
+          "message": "提携先が無いページを検索対象から外す",
+          "date": "2026-08-18T07:52:32Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/e066a9ffe72f72aa336b29f72aa6ce6ed59d2541"
+        },
+        {
+          "sha": "34b3ce2",
+          "message": "ページごとに固有の title・description・canonical を出す",
+          "date": "2026-08-18T07:46:27Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/34b3ce2c67644965d4505ed4ae9e5e25ef6f41c3"
+        },
+        {
           "sha": "2484aab",
           "message": "robots.txt を追加する",
           "date": "2026-08-18T01:09:00Z",
@@ -1670,39 +1700,9 @@
           "message": "Expand nationwide, fix broken affiliate links, add subsidy/business genres",
           "date": "2026-08-09T11:19:09Z",
           "url": "https://github.com/syunnjack/cross-genre/commit/e892aceda3214710bf63d6c2b7cc876d69a3591f"
-        },
-        {
-          "sha": "9b8cde4",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:06Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/9b8cde4eaa55ff92a82f13ee5fb7acb919a95d90"
-        },
-        {
-          "sha": "9306039",
-          "message": "Add sitemap.xml",
-          "date": "2026-08-05T11:37:58Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/9306039f86bcbc5fd08262696d5d4992e0f4f905"
-        },
-        {
-          "sha": "5e997e3",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:43Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/5e997e36c83d3b8a17ebf00c3d2fbfa0eeae3cdf"
-        },
-        {
-          "sha": "4b9b844",
-          "message": "Add missing page title/meta description",
-          "date": "2026-08-05T11:21:13Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/4b9b844d5da38d14dd7d113f0afd63bf026b09fa"
-        },
-        {
-          "sha": "d698e89",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:54Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/d698e890d3f0749e2522808b5c556da4b6b81960"
         }
       ],
-      "updatedAt": "2026-08-18T01:09:16Z",
+      "updatedAt": "2026-08-18T08:19:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -4042,6 +4042,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0bc6eb4",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:02:27Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/0bc6eb425b156d0f6f51901a9f9057640ce88701"
+        },
+        {
           "sha": "6e16096",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:28Z",
@@ -4084,7 +4090,7 @@
           "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:14Z",
+      "updatedAt": "2026-08-18T08:04:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -4395,6 +4401,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b22e5be",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:02:23Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b22e5be4af79940420c2304c195120d55aa7ebcb"
+        },
+        {
           "sha": "4cca9af",
           "message": "sitemap.xml が500になるのを直す",
           "date": "2026-08-18T07:08:20Z",
@@ -4459,15 +4471,9 @@
           "message": "Add free question membership gate",
           "date": "2026-07-14T21:24:48Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/866593e3cfa78154fe53f10094b9adf5da368df4"
-        },
-        {
-          "sha": "c9ac0d7",
-          "message": "Add certification practice questions",
-          "date": "2026-07-14T21:15:14Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/c9ac0d7c40bb3ca3c0d48469884ab45ff8acee6d"
         }
       ],
-      "updatedAt": "2026-08-18T07:09:17Z",
+      "updatedAt": "2026-08-18T08:03:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -5226,6 +5232,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1b1f9e7",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:02:19Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/1b1f9e740b1fb80f071ce754db4e15c796264129"
+        },
+        {
           "sha": "dd49ab2",
           "message": "sitemap.xml が500になるのを直す",
           "date": "2026-08-18T07:04:39Z",
@@ -5290,15 +5302,9 @@
           "message": "匿名掲示板（5ch風）機能を実装",
           "date": "2026-07-14T16:42:49Z",
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/63816f2f59b127a6b86785d7e8d9e296ef1f2fca"
-        },
-        {
-          "sha": "e009857",
-          "message": "Initial commit of Laravel posting app",
-          "date": "2025-05-24T14:07:03Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/e0098571204c70cb8c21d35c3dd8a12b67f276a5"
         }
       ],
-      "updatedAt": "2026-08-18T07:07:00Z",
+      "updatedAt": "2026-08-18T08:04:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -9546,6 +9552,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a52f6a1",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:02:31Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/a52f6a13789fa1ca712e4da012264169fdc53027"
+        },
+        {
           "sha": "24203b2",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:28:28Z",
@@ -9606,7 +9618,7 @@
           "url": "https://github.com/syunnjack/sauna-map/commit/53d6e6c2ee789bb54f67e8fa724545514979b49e"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:49Z",
+      "updatedAt": "2026-08-18T08:05:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -9876,6 +9888,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "153fb87",
+          "message": "views の転送先を実際のアプリ配置に合わせる",
+          "date": "2026-08-18T07:52:52Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/153fb874d396c427105d03dcc4edb8f8f09ac7a7"
+        },
+        {
+          "sha": "b782537",
+          "message": "サーバ構成を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
+          "date": "2026-08-18T07:51:35Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/b782537e35d60cdf07bbb68489d11cb695526ed6"
+        },
+        {
+          "sha": "7ad17ba",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T07:42:22Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/7ad17ba9fd8bc61d89181660c4ecc9f085b7efeb"
+        },
+        {
           "sha": "ac90223",
           "message": "sitemap.xml が500になるのを直す",
           "date": "2026-08-18T07:04:37Z",
@@ -9928,27 +9958,9 @@
           "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
           "date": "2026-07-14T22:01:31Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/e9c71a9d692b97bd9550b52a1dfa3617fe3b2515"
-        },
-        {
-          "sha": "3e4f951",
-          "message": "本番ドメインをkitsuenjo-map.jpに設定",
-          "date": "2026-07-14T15:56:14Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/3e4f9517b421d965d69cddc00a3fa97fd49507d3"
-        },
-        {
-          "sha": "c587a4d",
-          "message": "重大バグ修正・UGC不正対策・SEO/AIO/LLMO最適化を実施",
-          "date": "2026-07-14T15:50:20Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/c587a4d31fdf801d0b523aed0c374220cd1df3f4"
-        },
-        {
-          "sha": "c4633b2",
-          "message": "最低限の機能プロトタイプ",
-          "date": "2025-07-11T05:43:55Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/c4633b2b715138ab3a9cd7d00672c7cd2291c5f2"
         }
       ],
-      "updatedAt": "2026-08-18T07:05:59Z",
+      "updatedAt": "2026-08-18T07:53:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -11156,6 +11168,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "28d9b5c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T07:28:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/28d9b5caa44941a14e3241d6e49fde2ec05f516a"
+        },
+        {
           "sha": "cd025fc",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T07:20:05Z",
@@ -11220,15 +11238,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T01:50:47Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9ae78009d8d0f938b696a3a4318036d074cace3b"
-        },
-        {
-          "sha": "6b79b87",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T00:28:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b79b875590185c92265feb260c7e4a0e1cf13ea"
         }
       ],
-      "updatedAt": "2026-08-18T07:20:31Z",
+      "updatedAt": "2026-08-18T07:29:06Z",
       "stars": 0,
       "forks": 0
     },
