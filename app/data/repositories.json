@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T15:26:04.798Z",
+  "generatedAt": "2026-08-18T16:26:32.006Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1101,6 +1101,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "70c1261",
+          "message": "都道府県別ページを追加し、予約リンクに広告表記を入れる",
+          "date": "2026-08-18T15:52:25Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/70c1261739e73f928d7729ca75398bc4824b1a14"
+        },
+        {
           "sha": "46fbb7d",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:26:52Z",
@@ -1165,15 +1171,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T15:45:44Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/e4919aa4c189de469d5875c402a6a026253b8c00"
-        },
-        {
-          "sha": "8975e57",
-          "message": "キャンプ場UGC空き状況マップ＋LINE通知を新規構築",
-          "date": "2026-07-15T00:42:48Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/8975e570e69cdbf803ab8ab7f1e078327d045ad9"
         }
       ],
-      "updatedAt": "2026-08-18T00:26:57Z",
+      "updatedAt": "2026-08-18T15:58:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -2721,6 +2721,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "3ea13d6",
+          "message": "サーバに残った古い sitemap.xml を消す",
+          "date": "2026-08-18T16:20:06Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/3ea13d68e089b3cefb5d6a2a78bf1801cd9d5724"
+        },
+        {
+          "sha": "5984d24",
+          "message": "ビューがルート未反映のサーバーで500になるのを直す",
+          "date": "2026-08-18T16:09:15Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/5984d24636ff1f7c953e92e09a4fc3ed263057a5"
+        },
+        {
+          "sha": "f91db2b",
+          "message": "キッチンカーの出店場所23か所を実データとして追加する",
+          "date": "2026-08-18T16:07:27Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/f91db2b7c02d0350c4a4bb21ce05f51b87bd00a9"
+        },
+        {
           "sha": "cf06671",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:35:36Z",
@@ -2769,7 +2787,7 @@
           "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
         }
       ],
-      "updatedAt": "2026-08-18T08:37:40Z",
+      "updatedAt": "2026-08-18T16:23:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -2787,6 +2805,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "11bacaf",
+          "message": "都道府県ごとのページが正しい正規URLを示すようにする",
+          "date": "2026-08-18T16:16:55Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/11bacaf28e4ac8a4cf9bf38927cb226139485120"
+        },
         {
           "sha": "8876f31",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -2842,7 +2866,7 @@
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/ccffb6281d8f7318a441484d6bc9ba5945d9f9a4"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:22Z",
+      "updatedAt": "2026-08-18T16:19:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -2860,6 +2884,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "d126d8a",
+          "message": "全国の葬儀社・斎場2,435件を取り込む",
+          "date": "2026-08-18T16:00:58Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/d126d8abe3435b7e9a5928be7e65ddfb5091fdec"
+        },
         {
           "sha": "13cf062",
           "message": "views もデプロイ対象にする",
@@ -2915,7 +2945,7 @@
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/081db70c85639c69d3d679313ba8be171b792e3f"
         }
       ],
-      "updatedAt": "2026-08-18T08:39:15Z",
+      "updatedAt": "2026-08-18T16:05:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -4054,6 +4084,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "da7f980",
+          "message": "取り込みの分割数をSQLiteの変数上限に合わせる",
+          "date": "2026-08-18T15:25:55Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/da7f980724943723562ed70c0a898252825663e1"
+        },
+        {
+          "sha": "99f9433",
+          "message": "全国の保育園・幼稚園32,752件を取り込む",
+          "date": "2026-08-18T15:23:16Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/99f943348adce5826b5b14222215a4c88f513d61"
+        },
+        {
           "sha": "0bc6eb4",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:02:27Z",
@@ -4102,7 +4144,7 @@
           "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
         }
       ],
-      "updatedAt": "2026-08-18T08:04:57Z",
+      "updatedAt": "2026-08-18T15:32:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -9564,6 +9606,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "074dd1d",
+          "message": "全国の銭湯・サウナ・温泉5,790件を取り込む",
+          "date": "2026-08-18T16:00:55Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/074dd1dc8ce4f63b94559a215926592221181695"
+        },
+        {
           "sha": "a52f6a1",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:02:31Z",
@@ -9630,7 +9678,7 @@
           "url": "https://github.com/syunnjack/sauna-map/commit/53d6e6c2ee789bb54f67e8fa724545514979b49e"
         }
       ],
-      "updatedAt": "2026-08-18T08:05:27Z",
+      "updatedAt": "2026-08-18T16:06:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -9900,6 +9948,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3291d81",
+          "message": "全国の喫煙所907件を取り込む",
+          "date": "2026-08-18T16:01:03Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/3291d81198690450add4a7f9fa85f6e4198ce406"
+        },
+        {
           "sha": "153fb87",
           "message": "views の転送先を実際のアプリ配置に合わせる",
           "date": "2026-08-18T07:52:52Z",
@@ -9964,15 +10018,9 @@
           "message": "LINEプッシュ通知連携を追加(お気に入りスポットの混雑度変化)",
           "date": "2026-07-14T23:17:06Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/629dc17c3e55bc7f6b98b599c623a66e27c86ddd"
-        },
-        {
-          "sha": "e9c71a9",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:01:31Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/e9c71a9d692b97bd9550b52a1dfa3617fe3b2515"
         }
       ],
-      "updatedAt": "2026-08-18T07:53:26Z",
+      "updatedAt": "2026-08-18T16:03:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -11004,6 +11052,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fb96989",
+          "message": "78スポット全部の駐車場情報を公式出典つきでそろえる",
+          "date": "2026-08-18T15:06:37Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/fb96989ed1f18f971a6c0c183eaa6cee1a232787"
+        },
+        {
           "sha": "4ae3606",
           "message": "駐車場の実データを56スポットに拡充する",
           "date": "2026-08-18T12:55:38Z",
@@ -11068,15 +11122,9 @@
           "message": "Refine user-facing tourism copy",
           "date": "2026-08-11T12:35:49Z",
           "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/81e5b0dcf5f7f10c571137468f4ead0ab942e491"
-        },
-        {
-          "sha": "df61931",
-          "message": "Add area CTA flow and split sitemaps",
-          "date": "2026-08-11T12:33:07Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/df619310dc32c97913ea579c61b8469d00331996"
         }
       ],
-      "updatedAt": "2026-08-18T13:00:59Z",
+      "updatedAt": "2026-08-18T15:39:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -11186,6 +11234,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8413557",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T15:26:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/841355755724895dec6627ca45cb7d11e70a92a9"
+        },
+        {
           "sha": "0f94156",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T14:27:48Z",
@@ -11250,15 +11304,9 @@
           "message": "動画レンダリングを毎時の自動実行から外し、成否判定を生成物ベースにする",
           "date": "2026-08-18T07:16:31Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9a2753db73964c80c406755c0499fa151e36d7e5"
-        },
-        {
-          "sha": "995691c",
-          "message": "コメント欄の切替ラベルを copy:audit の禁止語を避けた表現にする",
-          "date": "2026-08-18T06:56:16Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/995691cba917f97bad78e78678f4b821ed5b6f8e"
         }
       ],
-      "updatedAt": "2026-08-18T14:35:06Z",
+      "updatedAt": "2026-08-18T15:33:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -11831,8 +11879,8 @@
       "slug": "welfare-job-alert",
       "name": "welfare-job-alert",
       "displayName": "Welfare Job Alert",
-      "description": "Welfare Job Alert 障害者雇用・福祉系求人通知 Repository Recommended repository name: welfare job alert Domain candidates Confirmed domain: welfarejob",
-      "readmeExcerpt": "Welfare Job Alert 障害者雇用・福祉系求人通知 Repository Recommended repository name: welfare job alert Domain candidates Confirmed domain: welfarejob.jp Other candidates: welfarejob.jp fukushijob.jp supportwork.jp inclusivejob.jp Concept 障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 人材送客 事業所掲載 相談送客 広告 資料請求 Commands",
+      "description": "Welfare Job Alert 障害者雇用・福祉系求人通知",
+      "readmeExcerpt": "Welfare Job Alert 障害者雇用・福祉系求人通知",
       "url": "https://github.com/syunnjack/welfare-job-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -11841,6 +11889,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "753608e",
+          "message": "求職者に向けた内容に書き換え、canonicalとタイトルを整える",
+          "date": "2026-08-18T15:18:37Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/753608e765930f4de5b0625b19b61aaf2af62c82"
+        },
         {
           "sha": "b014ab5",
           "message": "支援・購入への導線を追加する",
@@ -11896,7 +11950,7 @@
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/8aab173c58a69fb3ec10fd76dcc21c7d125a689e"
         }
       ],
-      "updatedAt": "2026-08-15T01:00:00Z",
+      "updatedAt": "2026-08-18T15:49:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -11927,16 +11981,64 @@
       "slug": "work-bar-navi",
       "name": "work-bar-navi",
       "displayName": "Work Bar Navi",
-      "description": "Work Bar Naviは、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Work Bar Naviは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Work Bar Naviは、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Work Bar Naviは、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/work-bar-navi",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "93290b1",
+          "message": "取得スクリプトが読む環境変数名を戻し、キー無しでもデータを消さないようにする",
+          "date": "2026-08-18T16:02:31Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/93290b12d717b1e7b3539e7812b8148ffe2f7fc1"
+        },
+        {
+          "sha": "d1fe125",
+          "message": "エリア名のスラッシュでURLが多階層に割れるのを直す",
+          "date": "2026-08-18T15:43:45Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/d1fe1250f96d2813432462640b691c7cc7c01869"
+        },
+        {
+          "sha": "e5967f6",
+          "message": "掲載店舗を420店から1,260店に増やし、取得方法をエリアコードに変える",
+          "date": "2026-08-18T15:42:53Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/e5967f63ba9e6555d7e708cc75a4ae2b54a1e760"
+        },
+        {
+          "sha": "75d99e6",
+          "message": "駅ごとのページ17枚を追加する",
+          "date": "2026-08-18T15:33:56Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/75d99e618b5b5f389d5ba29302f5aa79dd28d1f5"
+        },
+        {
+          "sha": "08ed1c4",
+          "message": "都市ページとほぼ同じになるエリアページを作らないようにする",
+          "date": "2026-08-18T15:30:45Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/08ed1c46ab15be386ac4511a20fb4f8abc3673e3"
+        },
+        {
+          "sha": "6318496",
+          "message": "繁華街ごとのエリアページ25枚を追加する",
+          "date": "2026-08-18T15:29:55Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/63184960bfeba15391634a53c86ffb89c4531b65"
+        },
+        {
+          "sha": "09a2a9d",
+          "message": "都市別の静的ページ21枚を生成し、トップから導線をつなぐ",
+          "date": "2026-08-18T15:25:48Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/09a2a9da8cf32a0bb78493d9b437cb728728ff41"
+        },
+        {
+          "sha": "1081f02",
+          "message": "広告であることを明示し、canonical と OG を追加する",
+          "date": "2026-08-18T15:22:08Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/1081f02f4499eb66eb3a4439474bcca835e9d958"
+        },
         {
           "sha": "6b35895",
           "message": "支援・購入への導線を追加する",
@@ -11960,57 +12062,9 @@
           "message": "seo: add IndexNow key file",
           "date": "2026-08-10T21:04:42Z",
           "url": "https://github.com/syunnjack/work-bar-navi/commit/e9876ec5b1426eabe106b8210a0ba696d84ea0e1"
-        },
-        {
-          "sha": "b1087e9",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:02:26Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/b1087e94940d863636b8cc5cd8692f77a06fb887"
-        },
-        {
-          "sha": "71bc2cc",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:58:41Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/71bc2cc428c9cb660505d0f62b594a87bd14ab41"
-        },
-        {
-          "sha": "0625108",
-          "message": "Rewrite internal/business-jargon copy into user-facing language",
-          "date": "2026-08-09T10:27:11Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/0625108ae02573fe3f9813841431d1cd0d467c77"
-        },
-        {
-          "sha": "c795929",
-          "message": "Translate to Japanese, add real venue data via HotPepper API, hotel funnel, and affiliate links",
-          "date": "2026-08-09T10:16:15Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/c79592923231c770e1a03900bc8eeec283dfb602"
-        },
-        {
-          "sha": "1849d89",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:31Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/1849d89ecfa3585c82ec2bd52251028a78f6f3a1"
-        },
-        {
-          "sha": "5ba4f2c",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/5ba4f2c1c023103e1770eccfedef9b020fd0705b"
-        },
-        {
-          "sha": "46939fd",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:51Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/46939fd200632fa0761b8b18f361345c07be2560"
-        },
-        {
-          "sha": "6fe4667",
-          "message": "Fix production URL in README (#1)",
-          "date": "2026-07-31T23:05:24Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/6fe46676220890c11927fc743d26043d05e120a8"
         }
       ],
-      "updatedAt": "2026-08-15T01:00:04Z",
+      "updatedAt": "2026-08-18T16:08:49Z",
       "stars": 0,
       "forks": 0
     },
