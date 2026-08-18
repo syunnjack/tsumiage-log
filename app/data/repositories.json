@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T09:26:15.828Z",
+  "generatedAt": "2026-08-18T10:25:43.860Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -4413,6 +4413,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "382950a",
+          "message": "/about が500になるのを直す",
+          "date": "2026-08-18T10:20:14Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/382950a8fde6bbc4bd732e89da28338747c884c4"
+        },
+        {
+          "sha": "453dc6a",
+          "message": "診断: サーバ上の about.blade.php をリポジトリと突き合わせる",
+          "date": "2026-08-18T10:00:33Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/453dc6add78b03754f41beaf13aa6eb7b1c1f03b"
+        },
+        {
+          "sha": "115c14e",
+          "message": "診断ワークフローで例外メッセージを見る",
+          "date": "2026-08-18T09:48:53Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/115c14e7e058a948ec3de7fd0391cca8525fa13f"
+        },
+        {
+          "sha": "c00966f",
+          "message": "500の原因を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
+          "date": "2026-08-18T09:47:56Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/c00966fe7e66f9fea6ce5bb183b3af6280d5a2cd"
+        },
+        {
           "sha": "b22e5be",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:02:23Z",
@@ -4459,33 +4483,9 @@
           "message": "Add scheduled review tracking",
           "date": "2026-07-14T22:28:12Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/526d1268cb88b0b9e7b710243c26c4fe4a8f876b"
-        },
-        {
-          "sha": "7aa16bf",
-          "message": "Add learning dashboard and question admin",
-          "date": "2026-07-14T22:06:54Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/7aa16bfc2c68ffa357ab29e4645fa4a170e963af"
-        },
-        {
-          "sha": "551110d",
-          "message": "Add billing history and SEO pages",
-          "date": "2026-07-14T21:57:14Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/551110d60f928256996df7911e8515dc1ab3e041"
-        },
-        {
-          "sha": "b2f8ca2",
-          "message": "Add account based free question limit",
-          "date": "2026-07-14T21:36:13Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b2f8ca216403051afc03df5549d2dbd1a4abb33d"
-        },
-        {
-          "sha": "866593e",
-          "message": "Add free question membership gate",
-          "date": "2026-07-14T21:24:48Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/866593e3cfa78154fe53f10094b9adf5da368df4"
         }
       ],
-      "updatedAt": "2026-08-18T08:03:07Z",
+      "updatedAt": "2026-08-18T10:20:52Z",
       "stars": 0,
       "forks": 0
     },
@@ -11186,6 +11186,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b343bc1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T09:26:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b343bc16533abc68599f528eff838b4939d501dd"
+        },
+        {
           "sha": "4183d6e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T08:27:25Z",
@@ -11250,15 +11256,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T03:31:03Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/38aaf5a3c5fa9e776863a636c3930b4069404ce8"
-        },
-        {
-          "sha": "a3cb42d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T02:39:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a3cb42d8d004138f617de0a854af1f0987cb0890"
         }
       ],
-      "updatedAt": "2026-08-18T08:29:16Z",
+      "updatedAt": "2026-08-18T09:28:04Z",
       "stars": 0,
       "forks": 0
     },
@@ -11757,6 +11757,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "71b363b",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:45:35Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/71b363b2e588497816ae0ba9ef925809b105ef2a"
+        },
+        {
           "sha": "0bd22bf",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:41Z",
@@ -11817,7 +11823,7 @@
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:21Z",
+      "updatedAt": "2026-08-18T09:36:11Z",
       "stars": 0,
       "forks": 0
     },
