@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T06:26:43.060Z",
+  "generatedAt": "2026-08-18T07:19:37.154Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -4395,6 +4395,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4cca9af",
+          "message": "sitemap.xml が500になるのを直す",
+          "date": "2026-08-18T07:08:20Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/4cca9af3f907e4024b9d7e00becdcb26f7241ba4"
+        },
+        {
           "sha": "1e9f789",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:37Z",
@@ -4459,15 +4465,9 @@
           "message": "Add certification practice questions",
           "date": "2026-07-14T21:15:14Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/c9ac0d7c40bb3ca3c0d48469884ab45ff8acee6d"
-        },
-        {
-          "sha": "652c66f",
-          "message": "Optimize IT certification quiz SEO",
-          "date": "2026-07-14T19:12:47Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/652c66ff97b3115c020ed2d1de8ece7ff3c105e9"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:41Z",
+      "updatedAt": "2026-08-18T07:09:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -5226,6 +5226,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dd49ab2",
+          "message": "sitemap.xml が500になるのを直す",
+          "date": "2026-08-18T07:04:39Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/dd49ab2a06150a0eabdde5d10046ecf36deaeaeb"
+        },
+        {
           "sha": "0065fc5",
           "message": "空のItemListを出力しないようにする",
           "date": "2026-08-17T23:14:44Z",
@@ -5292,7 +5298,7 @@
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/e0098571204c70cb8c21d35c3dd8a12b67f276a5"
         }
       ],
-      "updatedAt": "2026-08-17T23:15:10Z",
+      "updatedAt": "2026-08-18T07:07:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -9870,6 +9876,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ac90223",
+          "message": "sitemap.xml が500になるのを直す",
+          "date": "2026-08-18T07:04:37Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/ac902230cd62f4d0f5ac17f95f5123cab20bfdd1"
+        },
+        {
           "sha": "9c27fc2",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:44Z",
@@ -9934,15 +9946,9 @@
           "message": "最低限の機能プロトタイプ",
           "date": "2025-07-11T05:43:55Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/c4633b2b715138ab3a9cd7d00672c7cd2291c5f2"
-        },
-        {
-          "sha": "d5d90dd",
-          "message": "first commit",
-          "date": "2025-07-04T23:46:01Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/d5d90ddf39fbfda81fb368a63372d640c31c44f2"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:57Z",
+      "updatedAt": "2026-08-18T07:05:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -9960,6 +9966,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "0fce8d2",
+          "message": "他者のドメインを自サイトとして名乗るのをやめる",
+          "date": "2026-08-18T07:01:42Z",
+          "url": "https://github.com/syunnjack/smoking-map-alert/commit/0fce8d232924a95c3497cd959a0c7f191e88666b"
+        },
         {
           "sha": "0558275",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -10025,15 +10037,9 @@
           "message": "Fix unregistered production domain (#1)",
           "date": "2026-07-31T23:05:19Z",
           "url": "https://github.com/syunnjack/smoking-map-alert/commit/f4fa47e8ece3f6c6eaaa68c805668bd71bcc4890"
-        },
-        {
-          "sha": "40c4fa6",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:07Z",
-          "url": "https://github.com/syunnjack/smoking-map-alert/commit/40c4fa60dfcd823b53287c2a94f1ef475311eda1"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:55Z",
+      "updatedAt": "2026-08-18T07:02:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -11150,6 +11156,36 @@
       "files": [],
       "commits": [
         {
+          "sha": "7ab1bae",
+          "message": "chitamaru-study-portal の技術解説動画を追加",
+          "date": "2026-08-18T07:16:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7ab1bae1b802e90bb16c59e3b992a0335594f0f9"
+        },
+        {
+          "sha": "9a2753d",
+          "message": "動画レンダリングを毎時の自動実行から外し、成否判定を生成物ベースにする",
+          "date": "2026-08-18T07:16:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9a2753db73964c80c406755c0499fa151e36d7e5"
+        },
+        {
+          "sha": "995691c",
+          "message": "コメント欄の切替ラベルを copy:audit の禁止語を避けた表現にする",
+          "date": "2026-08-18T06:56:16Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/995691cba917f97bad78e78678f4b821ed5b6f8e"
+        },
+        {
+          "sha": "e5245fe",
+          "message": "コメント欄を giscus から Cusdis へ差し替え",
+          "date": "2026-08-18T06:51:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e5245fed83ec734edcf1ff00054ee812de419ae0"
+        },
+        {
+          "sha": "f046cb4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T06:27:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f046cb412f1eb11bf631a5153de060a99b969af4"
+        },
+        {
           "sha": "125dabb",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T05:26:00Z",
@@ -11190,39 +11226,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T23:25:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0772ce273b12add072024cd963d9749e433153f9"
-        },
-        {
-          "sha": "0b353eb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T22:25:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b353ebdcd30c30c00b07940c936c1e34adffa07"
-        },
-        {
-          "sha": "79af115",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T21:25:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/79af11578c53e94171856468071b39ff8f239c1f"
-        },
-        {
-          "sha": "970cd68",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T20:25:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/970cd681f7ee13b65206951ec863b3e78a197bd9"
-        },
-        {
-          "sha": "8994e9e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T19:26:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8994e9ea81e7055010ba3558b1dd76ea61dea373"
-        },
-        {
-          "sha": "3ec178d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T18:27:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3ec178d808c386fa9f69f6dad6d892ff9817ec8e"
         }
       ],
-      "updatedAt": "2026-08-18T05:26:34Z",
+      "updatedAt": "2026-08-18T07:18:59Z",
       "stars": 0,
       "forks": 0
     },
