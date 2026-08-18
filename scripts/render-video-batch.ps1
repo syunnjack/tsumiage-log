@@ -39,10 +39,11 @@ foreach ($target in $targets) {
     $hasArtifacts = (Test-Path $expectedMp4) -and (Test-Path $expectedPptx) -and
       (Get-Item $expectedMp4).Length -gt 0 -and (Get-Item $expectedPptx).Length -gt 0 -and
       (Get-Item $expectedMp4).LastWriteTime -ge $started -and (Get-Item $expectedPptx).LastWriteTime -ge $started
-    $hasNonZeroExitCode = $null -ne $process.ExitCode -and $process.ExitCode -ne 0
-    if ($hasNonZeroExitCode -or -not $hasArtifacts) {
+    # 終了コードは artifact-tool の後片付けに書き換えられることがあるので、
+    # 成否は生成物が今回の実行で作られたかどうかで判定する
+    if (-not $hasArtifacts) {
       $detail = if (Test-Path $stderr) { Get-Content $stderr -Raw } else { '' }
-      throw "Renderer exited with code $($process.ExitCode) or did not create fresh artifacts. $detail"
+      throw "Renderer did not create fresh artifacts (exit code $($process.ExitCode)). $detail"
     }
     $audioDir = Join-Path $root "video-assets/repositories/$($target.slug)/audio"
     Remove-Item -LiteralPath $audioDir -Recurse -Force -ErrorAction SilentlyContinue

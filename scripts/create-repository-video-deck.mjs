@@ -150,3 +150,26 @@ await pptx.save(pptxPath)
 await fs.writeFile(path.join(renderDir, "narration.json"), `${JSON.stringify(item.narration, null, 2)}\n`)
 
 console.log(JSON.stringify({ slug, slides: item.slides.length, pptxPath, renderDir }))
+
+// artifact-tool の後片付けがプロセスの終了コードを 127 に書き換えるため、
+// このスクリプトの終了コードは成否を表さない（呼び出し側も生成物で判定している）。
+// 失敗したときに何が欠けたのかが分かるよう、ここで生成物を確かめて標準エラーに出す。
+const expectedArtifacts = [
+  pptxPath,
+  path.join(renderDir, "montage.webp"),
+  path.join(renderDir, "narration.json"),
+  ...Array.from({ length: item.slides.length }, (_, index) =>
+    path.join(renderDir, `slide-${String(index + 1).padStart(2, "0")}.png`),
+  ),
+]
+const missing = []
+for (const artifact of expectedArtifacts) {
+  const stat = await fs.stat(artifact).catch(() => null)
+  if (!stat || stat.size === 0) missing.push(artifact)
+}
+if (missing.length > 0) {
+  console.error("Slide artifacts are missing or empty:")
+  for (const artifact of missing) console.error(`- ${artifact}`)
+  process.exit(1)
+}
+process.exit(0)

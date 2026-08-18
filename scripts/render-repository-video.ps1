@@ -24,8 +24,19 @@ Get-ChildItem -LiteralPath $renderDir -File -ErrorAction SilentlyContinue | Remo
 Get-ChildItem -LiteralPath $audioDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
 Get-ChildItem -LiteralPath $segmentDir -File -ErrorAction SilentlyContinue | Remove-Item -Force
 
+$deckStartedAt = Get-Date
 & node (Join-Path $root 'scripts/create-repository-video-deck.mjs') $Slug $renderDir $pptxPath
-if ($LASTEXITCODE -ne 0) { throw 'Headless slide rendering failed.' }
+# artifact-tool の後片付けがプロセスの終了コードを 127 に書き換えてしまうため、
+# 終了コードは当てにならない。スライドと pptx が今回の実行で作られたかで成否を判定する。
+$deckArtifacts = @(1..6 | ForEach-Object { Join-Path $renderDir ('slide-{0:D2}.png' -f $_) }) + @($pptxPath)
+$missingArtifacts = @($deckArtifacts | Where-Object {
+  -not (Test-Path -LiteralPath $_) -or
+  (Get-Item -LiteralPath $_).Length -eq 0 -or
+  (Get-Item -LiteralPath $_).LastWriteTime -lt $deckStartedAt
+})
+if ($missingArtifacts.Count -gt 0) {
+  throw "Headless slide rendering failed (missing: $($missingArtifacts -join ', '))"
+}
 
 $ffmpegPath = Join-Path $root 'node_modules/ffmpeg-static/ffmpeg.exe'
 if (-not (Test-Path -LiteralPath $ffmpegPath)) {
@@ -84,3 +95,4 @@ if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $mp4Path) -or (Get-Item
 if ($LASTEXITCODE -ne 0) { throw 'Video production status update failed.' }
 
 Get-Item $mp4Path, $pptxPath | Select-Object FullName, Length
+exit 0
