@@ -20,7 +20,8 @@ const localeJa = {
   submitting: "送信中…",
   comment_has_been_sent: "送信しました。確認のうえ公開されます。",
   mode_markdown: "Markdown",
-  mode_preview: "プレビュー",
+  // Cusdis 既定の英語 preview ラベルの訳。copy:audit の禁止語を避けた言い回しにしている
+  mode_preview: "表示を確認",
 }
 
 declare global {
