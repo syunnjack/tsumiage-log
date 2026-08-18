@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T22:24:40.470Z",
+  "generatedAt": "2026-08-18T23:24:47.530Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1101,6 +1101,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "60de410",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:35Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/60de4106fbaa43b2dae129c372fe8a3470f9a6fa"
+        },
+        {
+          "sha": "d8e1dbb",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:43Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/d8e1dbb4dd1f8dc554e34a1a36849e6398d2a269"
+        },
+        {
           "sha": "70c1261",
           "message": "都道府県別ページを追加し、予約リンクに広告表記を入れる",
           "date": "2026-08-18T15:52:25Z",
@@ -1159,21 +1171,9 @@
           "message": "Fix: Add SSH port 10022 for Xserver",
           "date": "2026-08-01T18:45:12Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/efae48023129243e0966061fb9db1a5c88b0101d"
-        },
-        {
-          "sha": "830e93e",
-          "message": "Fix: Use npm install instead of npm ci",
-          "date": "2026-08-01T18:38:45Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/830e93e0365a04ed3bb40ec5c4d248f6fb4d6b89"
-        },
-        {
-          "sha": "e4919aa",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T15:45:44Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/e4919aa4c189de469d5875c402a6a026253b8c00"
         }
       ],
-      "updatedAt": "2026-08-18T15:58:33Z",
+      "updatedAt": "2026-08-18T23:00:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -2721,6 +2721,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "3900169",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:29Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/3900169a712afd51751689660e3932f68e5efd6b"
+        },
+        {
+          "sha": "4f3817e",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:35Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/4f3817e084844b2a37d815b32efc0ddb6d025698"
+        },
+        {
           "sha": "5bc1e38",
           "message": "出店スポットを本番に取り込むワークフローを足す",
           "date": "2026-08-18T16:26:52Z",
@@ -2779,21 +2791,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T18:00:29Z",
           "url": "https://github.com/syunnjack/foodtruck-map/commit/e1592489553066788fe8404a3f8e24b471151090"
-        },
-        {
-          "sha": "05d7f66",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:08:40Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/05d7f66accf01d8be78112ed7c5b93dcf828b73f"
-        },
-        {
-          "sha": "4c35b2e",
-          "message": "フードトラックマップ（出店情報UGC×LINE通知）を新規構築",
-          "date": "2026-07-15T21:00:22Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
         }
       ],
-      "updatedAt": "2026-08-18T16:31:59Z",
+      "updatedAt": "2026-08-18T23:00:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -2811,6 +2811,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "67aa7a1",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:45Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/67aa7a1f874f6ef43dcdb974e7f28caff89ea9a5"
+        },
+        {
+          "sha": "8c6a6d1",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:55Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/8c6a6d1fb4777118fa53f4a9ef1f9e99518e41b8"
+        },
         {
           "sha": "572d53b",
           "message": "横断確認用の一時ワークフローを削除する",
@@ -2870,21 +2882,9 @@
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:15Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/8876f3126f243ef38ab4b9f94a9378cc0116e8d5"
-        },
-        {
-          "sha": "2898417",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:52:52Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/2898417b5d14443a4a7c1d00451f84abc31df009"
-        },
-        {
-          "sha": "7693646",
-          "message": "Complete real estate watch project baseline",
-          "date": "2026-08-11T14:48:52Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/769364606111814ff868aadae3ba3595a003fbb7"
         }
       ],
-      "updatedAt": "2026-08-18T22:00:37Z",
+      "updatedAt": "2026-08-18T23:01:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -2902,6 +2902,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "6f3f85e",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:24Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/6f3f85e90ff7dab1723b1a32ddd165fa6e8d258f"
+        },
+        {
+          "sha": "17a94f1",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:30Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/17a94f1ad6c025b13263aea7b4cae521ca6b9874"
+        },
         {
           "sha": "d126d8a",
           "message": "全国の葬儀社・斎場2,435件を取り込む",
@@ -2963,7 +2975,7 @@
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/081db70c85639c69d3d679313ba8be171b792e3f"
         }
       ],
-      "updatedAt": "2026-08-18T16:05:33Z",
+      "updatedAt": "2026-08-18T23:00:55Z",
       "stars": 0,
       "forks": 0
     },
@@ -2981,6 +2993,30 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "4beb5dd",
+          "message": "中身が0件の検索ページを、検索結果に出さないようにする",
+          "date": "2026-08-18T22:50:09Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/4beb5dd7b10f815f867f2b008e0316477b515b93"
+        },
+        {
+          "sha": "4a2dceb",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:57Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/4a2dceb0baaa38bf272c99faed2771e2b4084e70"
+        },
+        {
+          "sha": "89b29e1",
+          "message": "住民側のふるさと納税（控除額）も自治体ページに載せる",
+          "date": "2026-08-18T22:36:02Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/89b29e1496ed6bfc53c2c0e1189e161905860403"
+        },
+        {
+          "sha": "f96b52a",
+          "message": "自治体データの取り込みがサーバーで失敗しないようにする",
+          "date": "2026-08-18T22:32:07Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/f96b52aaf08b2a8567f48cebe6237bbe30dbf4b6"
+        },
         {
           "sha": "cba2cab",
           "message": "自治体1,788団体の受入実績ページを追加する",
@@ -3028,33 +3064,9 @@
           "message": "Replace asset-only deploy with full app deploy to Xserver",
           "date": "2026-08-08T22:16:52Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/782c7e0ce154f86708bc945b7357ffd31d0375ff"
-        },
-        {
-          "sha": "ad8bd0c",
-          "message": "Fix deploy target: furusato-hikaku.net, not .jp",
-          "date": "2026-08-08T22:09:38Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/ad8bd0c4ccff8a3778220d3ba4cca2f68b60422c"
-        },
-        {
-          "sha": "2bf91d9",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:16Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/2bf91d957e09929bb3915a8e68908e5163e6ea1f"
-        },
-        {
-          "sha": "de19ac8",
-          "message": "LINEウォッチ通知を追加(新着・再登場の返礼品検知)",
-          "date": "2026-07-14T23:32:10Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/de19ac8327e862744c0de970abf012ea37f07c36"
-        },
-        {
-          "sha": "b145094",
-          "message": "楽天API連携の不具合修正とドメイン設定",
-          "date": "2026-07-14T22:03:24Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/b14509408b42b0e2d5bdc8b7337200f0effc77ff"
         }
       ],
-      "updatedAt": "2026-08-18T22:04:32Z",
+      "updatedAt": "2026-08-18T22:50:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -3968,6 +3980,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "d55d054",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:39Z",
+          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/d55d05425e18b2435e2107b482e0ac1d66be24a4"
+        },
+        {
+          "sha": "a78933d",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:47Z",
+          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/a78933d00c001dbcd75f8bd9bb148c6d48359599"
+        },
+        {
           "sha": "8d58785",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:25Z",
@@ -4004,7 +4028,7 @@
           "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/34aafe0930e29b20a6716544643d55a8e190c7d7"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:37Z",
+      "updatedAt": "2026-08-18T23:00:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -4114,6 +4138,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "f6dfaff",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:19Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/f6dfaff566a623c41f70c40b843ac118f412f9ae"
+        },
+        {
+          "sha": "3d58b98",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:25Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/3d58b98ca7dfcc5203a03cc2c14d275a5dbfa823"
+        },
+        {
           "sha": "da7f980",
           "message": "取り込みの分割数をSQLiteの変数上限に合わせる",
           "date": "2026-08-18T15:25:55Z",
@@ -4174,7 +4210,7 @@
           "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
         }
       ],
-      "updatedAt": "2026-08-18T15:32:11Z",
+      "updatedAt": "2026-08-18T23:00:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -4848,6 +4884,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "cbdf4b9",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:37Z",
+          "url": "https://github.com/syunnjack/kaden-hikaku/commit/cbdf4b95ddbcf663549987d976285e17e1f35177"
+        },
+        {
+          "sha": "a278ff2",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:45Z",
+          "url": "https://github.com/syunnjack/kaden-hikaku/commit/a278ff2f308c434a2f346b9c61be03f0b491936b"
+        },
+        {
           "sha": "f176ca3",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:36Z",
@@ -4896,7 +4944,7 @@
           "url": "https://github.com/syunnjack/kaden-hikaku/commit/dc44eb6df6c0306a5ffa7623169b030cd08f86c9"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:01Z",
+      "updatedAt": "2026-08-18T23:01:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -5225,6 +5273,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "a59df69",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:43Z",
+          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/a59df69fd0668992fc02a8ff9afeba914a92654e"
+        },
+        {
+          "sha": "52db152",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:52Z",
+          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/52db1529073b9ac2f9488411753ba148e0727823"
+        },
+        {
           "sha": "9953369",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:59Z",
@@ -5283,21 +5343,9 @@
           "message": "CheckPriceReportWatches: 検知カーソルをcreated_atからprice_reports.idベースに変更",
           "date": "2026-07-15T15:27:26Z",
           "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/9bfa024d632771609b48fa8f71084be027fb8fdd"
-        },
-        {
-          "sha": "2dd4b31",
-          "message": "CheckPriceReportWatches: 通知検知漏れになりうるタイムスタンプ更新を修正",
-          "date": "2026-07-15T03:38:30Z",
-          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/2dd4b3188ba3aef3578d0fe10faf514bca0e3d25"
-        },
-        {
-          "sha": "7ab15ef",
-          "message": "車買取相場口コミサイト＋LINE通知を新規構築",
-          "date": "2026-07-15T00:46:36Z",
-          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/7ab15ef83485a5b942ac808fffe55faf059f75a7"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:03Z",
+      "updatedAt": "2026-08-18T23:01:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -9636,6 +9684,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "a9b3108",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:22Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/a9b310897fe078ef5436d1f832512ff978dad021"
+        },
+        {
+          "sha": "0e9d943",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:27Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/0e9d94339bd802e3e618d033eb9493000ef4fd9d"
+        },
+        {
           "sha": "074dd1d",
           "message": "全国の銭湯・サウナ・温泉5,790件を取り込む",
           "date": "2026-08-18T16:00:55Z",
@@ -9694,21 +9754,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T17:59:59Z",
           "url": "https://github.com/syunnjack/sauna-map/commit/525039d4276c6df562b582bed5dd05f9fb0a3ff5"
-        },
-        {
-          "sha": "2cd56a7",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:54Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/2cd56a796a3e2414fc5f449fdd56cb2a52b27f19"
-        },
-        {
-          "sha": "53d6e6c",
-          "message": "サウナ・銭湯マップ（地図×混雑度UGC×LINE通知）を新規構築",
-          "date": "2026-07-15T18:33:19Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/53d6e6c2ee789bb54f67e8fa724545514979b49e"
         }
       ],
-      "updatedAt": "2026-08-18T16:06:26Z",
+      "updatedAt": "2026-08-18T23:00:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -9978,6 +10026,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "b64a396",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:26Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/b64a396565618a1fc7090b426dbed9ecd1be2e52"
+        },
+        {
+          "sha": "c4388bc",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:32Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/c4388bc107ab57ffad1e70bdbdfc42c50a8810d6"
+        },
+        {
           "sha": "3291d81",
           "message": "全国の喫煙所907件を取り込む",
           "date": "2026-08-18T16:01:03Z",
@@ -10036,21 +10096,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T18:00:15Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/fdf3042463001833be5eaae9e011bf33822eccb7"
-        },
-        {
-          "sha": "df5df11",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:03Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/df5df11c9062a1ee6abd9d8ec2ac2d91ccc18010"
-        },
-        {
-          "sha": "629dc17",
-          "message": "LINEプッシュ通知連携を追加(お気に入りスポットの混雑度変化)",
-          "date": "2026-07-14T23:17:06Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/629dc17c3e55bc7f6b98b599c623a66e27c86ddd"
         }
       ],
-      "updatedAt": "2026-08-18T16:03:42Z",
+      "updatedAt": "2026-08-18T23:00:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -10482,6 +10530,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "6eed25e",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:31Z",
+          "url": "https://github.com/syunnjack/space-map/commit/6eed25ebd5085046729c1ce479ef7971fc47930c"
+        },
+        {
+          "sha": "e333d3f",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:37Z",
+          "url": "https://github.com/syunnjack/space-map/commit/e333d3f05a0081ac6a1bdb52668373a697e53a80"
+        },
+        {
           "sha": "0044bcf",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:39:55Z",
@@ -10540,15 +10600,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:10:07Z",
           "url": "https://github.com/syunnjack/space-map/commit/ea14da1b018f5261206fc90daaa0404ebb8879bc"
-        },
-        {
-          "sha": "b221d20",
-          "message": "レンタルスペースマップ（地図×直前空き枠UGC×LINE通知・予約問い合わせ）を新規構築",
-          "date": "2026-07-15T19:14:27Z",
-          "url": "https://github.com/syunnjack/space-map/commit/b221d20674802609cc5aef878edd65248ae2edd0"
         }
       ],
-      "updatedAt": "2026-08-18T08:41:24Z",
+      "updatedAt": "2026-08-18T23:00:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -10566,6 +10620,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2fb3134",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:50Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/2fb31342594cd9da4d01b51cc6c0fa10eeac3dd5"
+        },
         {
           "sha": "2f45141",
           "message": "支援・購入への導線を追加する",
@@ -10627,7 +10687,7 @@
           "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:37Z",
+      "updatedAt": "2026-08-18T22:36:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -11264,6 +11324,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "30e41b1",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T22:25:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/30e41b130670247741283cd1c06e41e4ed2f04b8"
+        },
+        {
           "sha": "2ac09c5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T21:25:40Z",
@@ -11328,15 +11394,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T11:25:35Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/161e8e55eeb09ed39d2f0cf61f423b55e46ee06d"
-        },
-        {
-          "sha": "fe975d6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T10:26:15Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe975d6abd045e8c61015c033f29d1b11e886b8a"
         }
       ],
-      "updatedAt": "2026-08-18T21:27:39Z",
+      "updatedAt": "2026-08-18T22:25:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -11835,6 +11895,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "d37a099",
+          "message": "LINE設定を本番に反映する仕組みを用意する",
+          "date": "2026-08-18T23:00:33Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/d37a099fb340a3059b9a3ebe39820fad1adbcfb0"
+        },
+        {
+          "sha": "5357646",
+          "message": "LINE連携が未設定のうちは、押せない表示にする",
+          "date": "2026-08-18T22:35:41Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/53576464f5de0d0d0e8959f70e27031ec09f00c8"
+        },
+        {
           "sha": "71b363b",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:45:35Z",
@@ -11893,15 +11965,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:10:15Z",
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/a6c6e53fc56348d699dfd3fbfdfa1e8529cbbdb9"
-        },
-        {
-          "sha": "7de3665",
-          "message": "結婚式場マップ（地図×UGC×LINE通知・資料請求）を新規構築",
-          "date": "2026-07-15T05:09:02Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/7de3665eecfb40921ca83196cef1cedafb0a0c20"
         }
       ],
-      "updatedAt": "2026-08-18T09:36:11Z",
+      "updatedAt": "2026-08-18T23:01:03Z",
       "stars": 0,
       "forks": 0
     },
