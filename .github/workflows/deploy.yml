@@ -25,10 +25,9 @@ jobs:
       NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
       NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: ${{ vars.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }}
       NEXT_PUBLIC_VIDEO_ASSET_REVISION: ${{ github.sha }}
-      NEXT_PUBLIC_GISCUS_REPO: ${{ vars.NEXT_PUBLIC_GISCUS_REPO }}
-      NEXT_PUBLIC_GISCUS_REPO_ID: ${{ vars.NEXT_PUBLIC_GISCUS_REPO_ID }}
-      NEXT_PUBLIC_GISCUS_CATEGORY: ${{ vars.NEXT_PUBLIC_GISCUS_CATEGORY }}
-      NEXT_PUBLIC_GISCUS_CATEGORY_ID: ${{ vars.NEXT_PUBLIC_GISCUS_CATEGORY_ID }}
+      # Cusdis の App ID は HTML に埋め込まれる公開識別子なので直接書いてよい。
+      # リポジトリ変数にすると設定漏れでコメント欄が黙って消えるため、ここに置く。
+      NEXT_PUBLIC_CUSDIS_APP_ID: "34798e9d-8eb2-4eb1-b7ff-49351d545715"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
