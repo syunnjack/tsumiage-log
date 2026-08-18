@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T11:25:03.129Z",
+  "generatedAt": "2026-08-18T12:26:58.273Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1192,6 +1192,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f780c33",
+          "message": "インデックス対象の URL からスラッシュを外し、OGを追加する",
+          "date": "2026-08-18T12:07:02Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/f780c33ef3a48a3f1c4d129eeaf8d91fdb8224d8"
+        },
+        {
           "sha": "926e50c",
           "message": "トップページに構造化データ(JSON-LD)を追加する",
           "date": "2026-08-17T23:07:05Z",
@@ -1256,15 +1262,9 @@
           "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
           "date": "2026-07-30T16:19:51Z",
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/24c5fc6624b41942c4f25acc18e4d6b0b9d75c20"
-        },
-        {
-          "sha": "851d78b",
-          "message": "Add verified venues reviews and revenue paths",
-          "date": "2026-07-15T07:57:15Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/851d78bb073d6478ebf587cff9795f9b45c08063"
         }
       ],
-      "updatedAt": "2026-08-17T23:07:28Z",
+      "updatedAt": "2026-08-18T12:07:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -10993,8 +10993,8 @@
       "slug": "tourism-crowd-parking-alert",
       "name": "tourism-crowd-parking-alert",
       "displayName": "Tourism Crowd Parking Alert",
-      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
-      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking.jp Other candidates: tourismparking.jp spotcrowd.jp parkingalert.jp kankowatch.jp Concept 観光前に、混雑状況や駐車場の空き、近くの飲食店やチケット情報をまとめて確認できるサービスです。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 駐車場情報 観光予約 周辺グルメ チケット情報 地域広告 Commands GitHub Pages Deploy Workflow file: .github/workflows/deploy pages.yml Trigger: push to main or master Output: dist directory If Gi",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知",
+      "readmeExcerpt": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知",
       "url": "https://github.com/syunnjack/tourism-crowd-parking-alert",
       "defaultBranch": "main",
       "primaryLanguage": "HTML",
@@ -11003,6 +11003,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "07bca76",
+          "message": "エリア一覧ページを追加し、canonical と OG を全ページに入れる",
+          "date": "2026-08-18T12:14:16Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/07bca76dbd33f071aa747be6d7dfb4d89d828c48"
+        },
         {
           "sha": "d5b8d3e",
           "message": "支援・購入への導線を追加する",
@@ -11068,15 +11074,9 @@
           "message": "Generate area pages and add heatmap",
           "date": "2026-08-11T12:04:58Z",
           "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
-        },
-        {
-          "sha": "f0de71a",
-          "message": "Enhance search UI and add area summaries",
-          "date": "2026-08-11T11:57:32Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f0de71a3aac1ef9642fe4af61186c524a9acec6a"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:40Z",
+      "updatedAt": "2026-08-18T12:14:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -11094,6 +11094,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "62c2854",
+          "message": "canonical を入れ、robots のサイトマップを自ドメインに直す",
+          "date": "2026-08-18T12:19:44Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/62c2854e4d25b49918026b19426fecb849232ebf"
+        },
         {
           "sha": "9748442",
           "message": "Product verification fixes",
@@ -11159,15 +11165,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T19:21:09Z",
           "url": "https://github.com/syunnjack/trip-route-stay/commit/332cc8a82a68f05824d9c8e0b105af19a2bc3086"
-        },
-        {
-          "sha": "64bde06",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:43Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/64bde060b30e370181520b2bb91bbf2dd85af53e"
         }
       ],
-      "updatedAt": "2026-08-16T04:11:58Z",
+      "updatedAt": "2026-08-18T12:20:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -11185,6 +11185,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "161e8e5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T11:25:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/161e8e55eeb09ed39d2f0cf61f423b55e46ee06d"
+        },
         {
           "sha": "fe975d6",
           "message": "Update repository articles from GitHub activity",
@@ -11250,15 +11256,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T05:26:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/125dabbace001906c6e06af87e95e898dccabec7"
-        },
-        {
-          "sha": "53a8396",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T04:27:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/53a8396506734ad32e0c15c7c5eb8a846c7bf2e0"
         }
       ],
-      "updatedAt": "2026-08-18T10:27:26Z",
+      "updatedAt": "2026-08-18T11:26:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -11394,8 +11394,8 @@
       "slug": "wait-time-alert",
       "name": "wait-time-alert",
       "displayName": "Wait Time Alert",
-      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
-      "readmeExcerpt": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert.jp Other candidates: waittimealert.jp machijikan.jp queuealert.jp neconomeplus.jp Concept 病院、役所、民間施設、整理券、QR待ち時間を通知し、施設向けSaaSと広告へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 施設SaaS 予約送客 広告 法人契約 レポート Commands",
+      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知",
+      "readmeExcerpt": "Wait Time Alert 病院・役所・民間施設の待ち時間通知",
       "url": "https://github.com/syunnjack/wait-time-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -11404,6 +11404,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "b5b999d",
+          "message": "canonical を入れ、検索結果に出る説明文を読者向けに直す",
+          "date": "2026-08-18T12:25:11Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/b5b999d262e6ea2dbba02b7e570f8614a0fba68a"
+        },
         {
           "sha": "09e9817",
           "message": "支援・購入への導線を追加する",
@@ -11469,15 +11475,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:10Z",
           "url": "https://github.com/syunnjack/wait-time-alert/commit/ff6367a9fc693186319e5e71c8b5bbdf6dcc20d3"
-        },
-        {
-          "sha": "7350080",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:54Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/7350080ceae57459a4db4a5025e5b92ae8b1e16b"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:51Z",
+      "updatedAt": "2026-08-18T12:26:07Z",
       "stars": 0,
       "forks": 0
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:28:34.556Z",
+  "generatedAt": "2026-08-18T12:26:58.407Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -9371,7 +9371,7 @@
       "slug": "tourism-crowd-parking-alert",
       "repository": "tourism-crowd-parking-alert",
       "title": "HTMLで作ったTourism Crowd Parking Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+      "description": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知",
       "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/tourism-crowd-parking-alert/",
       "repositoryUrl": "https://github.com/syunnjack/tourism-crowd-parking-alert",
@@ -9395,7 +9395,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking"
+          "body": "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知"
         },
         {
           "title": "技術スタック",
@@ -9421,7 +9421,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Tourism Crowd Parking Alertの技術構成を短く解説します。",
-        "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知 Repository Recommended repository name: tourism crowd parking alert Domain candidates Confirmed domain: tourismparking",
+        "Tourism Crowd Parking Alert 観光スポット混雑・駐車場空き通知",
         "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -9468,7 +9468,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9485,7 +9485,7 @@
         "Trip Route Stayは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -9676,7 +9676,7 @@
       "slug": "wait-time-alert",
       "repository": "wait-time-alert",
       "title": "JavaScriptで作ったWait Time Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+      "description": "Wait Time Alert 病院・役所・民間施設の待ち時間通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/wait-time-alert/",
       "repositoryUrl": "https://github.com/syunnjack/wait-time-alert",
@@ -9700,7 +9700,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert"
+          "body": "Wait Time Alert 病院・役所・民間施設の待ち時間通知"
         },
         {
           "title": "技術スタック",
@@ -9726,7 +9726,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Wait Time Alertの技術構成を短く解説します。",
-        "Wait Time Alert 病院・役所・民間施設の待ち時間通知 Repository Recommended repository name: wait time alert Domain candidates Confirmed domain: waittimealert",
+        "Wait Time Alert 病院・役所・民間施設の待ち時間通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
