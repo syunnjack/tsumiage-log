@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T01:50:21.206Z",
+  "generatedAt": "2026-08-18T02:39:01.307Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -4825,6 +4825,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "e755139",
+          "message": "Service の provider に url を足す",
+          "date": "2026-08-18T02:36:49Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/e7551392225c36fb86a164f33d44b2ae9a71e101"
+        },
+        {
+          "sha": "0ff3662",
+          "message": "sitemap.xml を本番ドメインの実在ページに置き換える",
+          "date": "2026-08-18T02:25:09Z",
+          "url": "https://github.com/syunnjack/king-epark-neo/commit/0ff3662b268a9911f491ccdb3d60b1a19d798c02"
+        },
+        {
           "sha": "47467ba",
           "message": "応募フォームを有効にする",
           "date": "2026-08-16T20:37:22Z",
@@ -4883,21 +4895,9 @@
           "message": "Add Monday visit materials: printable flyer and pitch deck",
           "date": "2026-08-02T01:15:42Z",
           "url": "https://github.com/syunnjack/king-epark-neo/commit/93c516d387b49df6ecca63fb3c5f6217c374ee84"
-        },
-        {
-          "sha": "48f5954",
-          "message": "Add GA4/GSC integration scaffolding; fix canonical/sitemap mismatch and broken hero image reference",
-          "date": "2026-08-02T00:58:46Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/48f5954781fd2654c59441403cab84813e869300"
-        },
-        {
-          "sha": "2aa7448",
-          "message": "Add Phase 3 groundwork: standalone AIO/LLMO package and monthly AI search report services",
-          "date": "2026-08-02T00:49:13Z",
-          "url": "https://github.com/syunnjack/king-epark-neo/commit/2aa7448e1654f561e9e5a66ac44b89329b60f715"
         }
       ],
-      "updatedAt": "2026-08-16T20:37:37Z",
+      "updatedAt": "2026-08-18T02:37:15Z",
       "stars": 0,
       "forks": 0
     },
@@ -11150,6 +11150,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9ae7800",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T01:50:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ae78009d8d0f938b696a3a4318036d074cace3b"
+        },
+        {
           "sha": "6b79b87",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T00:28:04Z",
@@ -11214,15 +11220,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-17T14:25:59Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a48f28cc1cc2a7b5958379a7e6d895a2c76759e2"
-        },
-        {
-          "sha": "73beab4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-17T13:29:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/73beab45eeaf1e6af8fb7a676b59b73b034145f5"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:45Z",
+      "updatedAt": "2026-08-18T01:50:59Z",
       "stars": 0,
       "forks": 0
     },
