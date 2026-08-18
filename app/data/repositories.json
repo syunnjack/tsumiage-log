@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T18:27:33.868Z",
+  "generatedAt": "2026-08-18T19:25:32.532Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -2812,6 +2812,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "dfd10fa",
+          "message": "kaden-hikaku の検索が0件になる原因を確認する",
+          "date": "2026-08-18T19:25:05Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/dfd10fa04ff56ddd0151dd0623f482af6347ec07"
+        },
+        {
+          "sha": "6b6b166",
+          "message": "楽天APIの3値の有無を確認する",
+          "date": "2026-08-18T19:23:52Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/6b6b16668871837908fe90ce0540dc27878bb733"
+        },
+        {
+          "sha": "507278e",
+          "message": "走査を空の変数すべてに広げる",
+          "date": "2026-08-18T19:20:31Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/507278e61d3c4fcb39f79d379e98ed64efef2608"
+        },
+        {
           "sha": "0c8691a",
           "message": "外部APIキーの設定状況を横断確認する一時ワークフローを足す（読み取り専用・確認後に削除）",
           "date": "2026-08-18T17:21:50Z",
@@ -2864,27 +2882,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T05:05:53Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/a606ed23314727dc9895e6646fec7688c8b9166f"
-        },
-        {
-          "sha": "a1a6f38",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:18Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/a1a6f38d3ee81cd28e21eeeedb8d9abfe68d90e2"
-        },
-        {
-          "sha": "a63d367",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:08:44Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/a63d367e9201915ca533707948dda8c96825f5e0"
-        },
-        {
-          "sha": "b9f1217",
-          "message": "CheckRentWatches: 検知カーソルをcreated_atからrent_reports.idベースに変更",
-          "date": "2026-07-15T15:22:51Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/b9f12177b6fcdb095a66cc2b505e64826e4bd907"
         }
       ],
-      "updatedAt": "2026-08-18T17:22:29Z",
+      "updatedAt": "2026-08-18T19:23:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -2982,6 +2982,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "64a502b",
+          "message": "カタログ同期の失敗でデプロイ全体が落ちないようにし、同期の実行時刻を移す",
+          "date": "2026-08-18T19:20:42Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/64a502b6aba68af4ce6c493c5f3c5c1f2311720e"
+        },
+        {
           "sha": "8ab1f1a",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:56Z",
@@ -3042,7 +3048,7 @@
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/0424ea1e8e6e0e83869f0fe29915647017df1fa6"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:00Z",
+      "updatedAt": "2026-08-18T19:24:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -11252,6 +11258,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b696f8b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T18:28:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b696f8b0ea7f3d0e69579fd267c3722f2b08e3e8"
+        },
+        {
           "sha": "98b6b62",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T17:25:52Z",
@@ -11316,15 +11328,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T07:28:59Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/28d9b5caa44941a14e3241d6e49fde2ec05f516a"
-        },
-        {
-          "sha": "cd025fc",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T07:20:05Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cd025fc68ad92b96def7bbddf090f668b888f102"
         }
       ],
-      "updatedAt": "2026-08-18T17:26:16Z",
+      "updatedAt": "2026-08-18T18:33:38Z",
       "stars": 0,
       "forks": 0
     },
