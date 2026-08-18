@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:25:43.860Z",
+  "generatedAt": "2026-08-18T11:25:03.129Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -4413,6 +4413,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b541b37",
+          "message": "JSON-LD の @context が Blade に食われるのを直す",
+          "date": "2026-08-18T10:45:57Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b541b3756742cb33c093ed29efb843b4eca88557"
+        },
+        {
           "sha": "382950a",
           "message": "/about が500になるのを直す",
           "date": "2026-08-18T10:20:14Z",
@@ -4477,15 +4483,9 @@
           "message": "Enhance free trial exam questions",
           "date": "2026-07-14T23:09:16Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/3e88abc43c147ced644c804c28a9182da15cb911"
-        },
-        {
-          "sha": "526d126",
-          "message": "Add scheduled review tracking",
-          "date": "2026-07-14T22:28:12Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/526d1268cb88b0b9e7b710243c26c4fe4a8f876b"
         }
       ],
-      "updatedAt": "2026-08-18T10:20:52Z",
+      "updatedAt": "2026-08-18T10:48:30Z",
       "stars": 0,
       "forks": 0
     },
@@ -11186,6 +11186,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fe975d6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T10:26:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fe975d6abd045e8c61015c033f29d1b11e886b8a"
+        },
+        {
           "sha": "b343bc1",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T09:26:41Z",
@@ -11250,15 +11256,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T04:27:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/53a8396506734ad32e0c15c7c5eb8a846c7bf2e0"
-        },
-        {
-          "sha": "38aaf5a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T03:31:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/38aaf5a3c5fa9e776863a636c3930b4069404ce8"
         }
       ],
-      "updatedAt": "2026-08-18T09:28:04Z",
+      "updatedAt": "2026-08-18T10:27:26Z",
       "stars": 0,
       "forks": 0
     },
