@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:27:24.171Z",
+  "generatedAt": "2026-08-18T15:26:04.798Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -11186,6 +11186,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0f94156",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T14:27:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0f9415690f44d2080b76561c3d1c5fbb50e374dd"
+        },
+        {
           "sha": "4051efc",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T13:31:41Z",
@@ -11250,15 +11256,9 @@
           "message": "コメント欄の切替ラベルを copy:audit の禁止語を避けた表現にする",
           "date": "2026-08-18T06:56:16Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/995691cba917f97bad78e78678f4b821ed5b6f8e"
-        },
-        {
-          "sha": "e5245fe",
-          "message": "コメント欄を giscus から Cusdis へ差し替え",
-          "date": "2026-08-18T06:51:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e5245fed83ec734edcf1ff00054ee812de419ae0"
         }
       ],
-      "updatedAt": "2026-08-18T13:35:53Z",
+      "updatedAt": "2026-08-18T14:35:06Z",
       "stars": 0,
       "forks": 0
     },
