@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:27:32.859Z",
+  "generatedAt": "2026-08-18T01:50:21.393Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -293,7 +293,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -310,7 +310,7 @@
         "Anchor Suggest Searchは、JavaScriptを中心に設計・実装したプロジェクトです。",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -537,7 +537,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -554,7 +554,7 @@
         "Bowling Lane Alert ボウリング大会・空きレーン通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -1539,7 +1539,7 @@
       "slug": "disaster-spot-alert",
       "repository": "disaster-spot-alert",
       "title": "JavaScriptで作ったDisaster Spot Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot",
+      "description": "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/disaster-spot-alert/",
       "repositoryUrl": "https://github.com/syunnjack/disaster-spot-alert",
@@ -1563,7 +1563,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot"
+          "body": "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知"
         },
         {
           "title": "技術スタック",
@@ -1589,7 +1589,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Disaster Spot Alertの技術構成を短く解説します。",
-        "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知 Repository Recommended repository name: disaster spot alert Domain candidates Confirmed domain: disasterspot",
+        "Disaster Spot Alert 災害・悪天候時の避難/営業中スポット通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -2149,7 +2149,7 @@
       "slug": "flea-price-watch",
       "repository": "flea-price-watch",
       "title": "JavaScriptで作ったFlea Price Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Flea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice",
+      "description": "Flea Price Watch フリマ相場・値下げ通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/flea-price-watch/",
       "repositoryUrl": "https://github.com/syunnjack/flea-price-watch",
@@ -2173,7 +2173,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Flea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice"
+          "body": "Flea Price Watch フリマ相場・値下げ通知"
         },
         {
           "title": "技術スタック",
@@ -2199,7 +2199,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Flea Price Watchの技術構成を短く解説します。",
-        "Flea Price Watch フリマ相場・値下げ通知 Repository Recommended repository name: flea price watch Domain candidates Confirmed domain: fleaprice",
+        "Flea Price Watch フリマ相場・値下げ通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -2984,7 +2984,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -3001,7 +3001,7 @@
         "Golf Slot Watch ゴルフ場空き枠・安値・天気通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -3866,7 +3866,7 @@
       "slug": "job-match-alert",
       "repository": "job-match-alert",
       "title": "JavaScriptで作ったJob Match Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
+      "description": "Job Match Alert 求人新着・条件一致通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/job-match-alert/",
       "repositoryUrl": "https://github.com/syunnjack/job-match-alert",
@@ -3890,7 +3890,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert"
+          "body": "Job Match Alert 求人新着・条件一致通知"
         },
         {
           "title": "技術スタック",
@@ -3916,7 +3916,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Job Match Alertの技術構成を短く解説します。",
-        "Job Match Alert 求人新着・条件一致通知 Repository Recommended repository name: job match alert Domain candidates Confirmed domain: jobmatchalert",
+        "Job Match Alert 求人新着・条件一致通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -4664,7 +4664,7 @@
       "slug": "local-alert-radar",
       "repository": "local-alert-radar",
       "title": "JavaScriptで作ったLocal Alert Radar｜構成とコミット履歴を75秒で解説",
-      "description": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: https://syunnjack",
+      "description": "Local Alert Radar 開店閉店・地域アラート",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/local-alert-radar/",
       "repositoryUrl": "https://github.com/syunnjack/local-alert-radar",
@@ -4688,7 +4688,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: https://syunnjack"
+          "body": "Local Alert Radar 開店閉店・地域アラート"
         },
         {
           "title": "技術スタック",
@@ -4714,7 +4714,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Local Alert Radarの技術構成を短く解説します。",
-        "Local Alert Radar 開店閉店・地域アラート Repository Recommended repository name: local alert radar Domain candidates Confirmed domain: https://syunnjack",
+        "Local Alert Radar 開店閉店・地域アラート",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -5824,7 +5824,7 @@
       "slug": "netcafe-seat-watch",
       "repository": "netcafe-seat-watch",
       "title": "JavaScriptで作ったNetcafe Seat Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat",
+      "description": "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/netcafe-seat-watch/",
       "repositoryUrl": "https://github.com/syunnjack/netcafe-seat-watch",
@@ -5848,7 +5848,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat"
+          "body": "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知"
         },
         {
           "title": "技術スタック",
@@ -5874,7 +5874,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Netcafe Seat Watchの技術構成を短く解説します。",
-        "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知 Repository Recommended repository name: netcafe seat watch Domain candidates Confirmed domain: netcafeseat",
+        "Netcafe Seat Watch 漫画喫茶・ネットカフェ空席/シャワー通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -5921,7 +5921,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -5938,7 +5938,7 @@
         "Niche Compare Hub ニッチ比較サイト",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6105,7 +6105,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -6122,7 +6122,7 @@
         "開店閉店レーダー 地域の開店、閉店、移転、休業、リニューアル情報をUGCで集め、LINEとXのアラート通知で届ける速報サービスです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -6130,7 +6130,7 @@
       "slug": "openclose-pulse",
       "repository": "openclose-pulse",
       "title": "JavaScriptで作ったOpenclose Pulse｜構成とコミット履歴を75秒で解説",
-      "description": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: https://syunnjack",
+      "description": "OpenClose Pulse 開店・閉店・移転・休業速報",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/openclose-pulse/",
       "repositoryUrl": "https://github.com/syunnjack/openclose-pulse",
@@ -6154,7 +6154,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: https://syunnjack"
+          "body": "OpenClose Pulse 開店・閉店・移転・休業速報"
         },
         {
           "title": "技術スタック",
@@ -6180,7 +6180,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Openclose Pulseの技術構成を短く解説します。",
-        "OpenClose Pulse 開店・閉店・移転・休業速報 Repository Recommended repository name: openclose pulse Domain candidates Confirmed domain: https://syunnjack",
+        "OpenClose Pulse 開店・閉店・移転・休業速報",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -6375,7 +6375,7 @@
       "slug": "prize-arrival-watch",
       "repository": "prize-arrival-watch",
       "title": "JavaScriptで作ったPrize Arrival Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Prize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival",
+      "description": "Prize Arrival Watch プライズ景品の入荷・在庫通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/prize-arrival-watch/",
       "repositoryUrl": "https://github.com/syunnjack/prize-arrival-watch",
@@ -6399,7 +6399,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Prize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival"
+          "body": "Prize Arrival Watch プライズ景品の入荷・在庫通知"
         },
         {
           "title": "技術スタック",
@@ -6425,7 +6425,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Prize Arrival Watchの技術構成を短く解説します。",
-        "Prize Arrival Watch プライズ景品の入荷・在庫通知 Repository Recommended repository name: prize arrival watch Domain candidates Confirmed domain: prizearrival",
+        "Prize Arrival Watch プライズ景品の入荷・在庫通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -6436,7 +6436,7 @@
       "slug": "prize-stock-alert",
       "repository": "prize-stock-alert",
       "title": "JavaScriptで作ったPrize Stock Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: https://syunnjack",
+      "description": "Prize Stock Alert プライズ・ゲームセンター在庫情報",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/prize-stock-alert/",
       "repositoryUrl": "https://github.com/syunnjack/prize-stock-alert",
@@ -6460,7 +6460,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: https://syunnjack"
+          "body": "Prize Stock Alert プライズ・ゲームセンター在庫情報"
         },
         {
           "title": "技術スタック",
@@ -6486,7 +6486,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Prize Stock Alertの技術構成を短く解説します。",
-        "Prize Stock Alert プライズ・ゲームセンター在庫情報 Repository Recommended repository name: prize stock alert Domain candidates Confirmed domain: https://syunnjack",
+        "Prize Stock Alert プライズ・ゲームセンター在庫情報",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -6986,7 +6986,7 @@
       "slug": "rc-course-alert",
       "repository": "rc-course-alert",
       "title": "JavaScriptで作ったRc Course Alert｜構成とコミット履歴を75秒で解説",
-      "description": "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert",
+      "description": "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/rc-course-alert/",
       "repositoryUrl": "https://github.com/syunnjack/rc-course-alert",
@@ -7010,7 +7010,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert"
+          "body": "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知"
         },
         {
           "title": "技術スタック",
@@ -7036,7 +7036,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Rc Course Alertの技術構成を短く解説します。",
-        "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知 Repository Recommended repository name: rc course alert Domain candidates Confirmed domain: rccoursealert",
+        "RC Course Alert ラジコン・ミニ四駆コース営業/大会通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -7352,7 +7352,7 @@
       "slug": "restaurant-seat-alert",
       "repository": "restaurant-seat-alert",
       "title": "JavaScriptで作ったRestaurant Seat Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert",
+      "description": "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/restaurant-seat-alert/",
       "repositoryUrl": "https://github.com/syunnjack/restaurant-seat-alert",
@@ -7376,7 +7376,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert"
+          "body": "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知"
         },
         {
           "title": "技術スタック",
@@ -7402,7 +7402,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Restaurant Seat Alertの技術構成を短く解説します。",
-        "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知 Repository Recommended repository name: restaurant seat alert Domain candidates Confirmed domain: seatalert",
+        "Restaurant Seat Alert 飲食店の空席・限定メニュー・クーポン通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -7449,7 +7449,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -7466,7 +7466,7 @@
         "retro game map Retro Game Mapは、レトロゲームセンター、懐かし自販機、ゲーム喫茶、閉店情報を検索・確認できるプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -7474,7 +7474,7 @@
       "slug": "retro-game-watch",
       "repository": "retro-game-watch",
       "title": "JavaScriptで作ったRetro Game Watch｜構成とコミット履歴を75秒で解説",
-      "description": "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch",
+      "description": "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-game-watch/",
       "repositoryUrl": "https://github.com/syunnjack/retro-game-watch",
@@ -7498,7 +7498,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch"
+          "body": "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知"
         },
         {
           "title": "技術スタック",
@@ -7524,7 +7524,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Retro Game Watchの技術構成を短く解説します。",
-        "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知 Repository Recommended repository name: retro game watch Domain candidates Confirmed domain: retrogamewatch",
+        "Retro Game Watch レトロゲーム設置店の稼働・撤去・大会通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -7535,7 +7535,7 @@
       "slug": "retro-jihanki-live",
       "repository": "retro-jihanki-live",
       "title": "JavaScriptで作ったRetro Jihanki Live｜構成とコミット履歴を75秒で解説",
-      "description": "Retro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive",
+      "description": "Retro Jihanki Live レトロ自販機営業状況通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/retro-jihanki-live/",
       "repositoryUrl": "https://github.com/syunnjack/retro-jihanki-live",
@@ -7559,7 +7559,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Retro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive"
+          "body": "Retro Jihanki Live レトロ自販機営業状況通知"
         },
         {
           "title": "技術スタック",
@@ -7585,7 +7585,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Retro Jihanki Liveの技術構成を短く解説します。",
-        "Retro Jihanki Live レトロ自販機営業状況通知 Repository Recommended repository name: retro jihanki live Domain candidates Confirmed domain: jihankilive",
+        "Retro Jihanki Live レトロ自販機営業状況通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -7998,7 +7998,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -8015,7 +8015,7 @@
         "Sauna Crowd Alert サウナ混雑・ロウリュ通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -8207,7 +8207,7 @@
       "slug": "showa-retro-route",
       "repository": "showa-retro-route",
       "title": "JavaScriptで作ったShowa Retro Route｜構成とコミット履歴を75秒で解説",
-      "description": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: https://syunnjack",
+      "description": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/showa-retro-route/",
       "repositoryUrl": "https://github.com/syunnjack/showa-retro-route",
@@ -8231,7 +8231,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: https://syunnjack"
+          "body": "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン"
         },
         {
           "title": "技術スタック",
@@ -8257,7 +8257,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Showa Retro Routeの技術構成を短く解説します。",
-        "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン Repository Recommended repository name: showa retro route Domain candidates Confirmed domain: https://syunnjack",
+        "Showa Retro Route レトロ自販機・レトロゲーム・オートレストラン",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -8452,7 +8452,7 @@
       "slug": "smoking-map-alert",
       "repository": "smoking-map-alert",
       "title": "JavaScriptで作ったSmoking Map Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
+      "description": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/smoking-map-alert/",
       "repositoryUrl": "https://github.com/syunnjack/smoking-map-alert",
@@ -8476,7 +8476,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap"
+          "body": "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知"
         },
         {
           "title": "技術スタック",
@@ -8502,7 +8502,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Smoking Map Alertの技術構成を短く解説します。",
-        "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知 Repository Recommended repository name: smoking map alert Domain candidates Confirmed domain: smokingmap",
+        "Smoking Map Alert 喫煙所・喫煙可店舗の新規/閉鎖通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -8574,7 +8574,7 @@
       "slug": "smoking-stay-alert",
       "repository": "smoking-stay-alert",
       "title": "JavaScriptで作ったSmoking Stay Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay",
+      "description": "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/smoking-stay-alert/",
       "repositoryUrl": "https://github.com/syunnjack/smoking-stay-alert",
@@ -8598,7 +8598,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay"
+          "body": "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知"
         },
         {
           "title": "技術スタック",
@@ -8624,7 +8624,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Smoking Stay Alertの技術構成を短く解説します。",
-        "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知 Repository Recommended repository name: smoking stay alert Domain candidates Confirmed domain: smokingstay",
+        "Smoking Stay Alert 喫煙可ホテル・バストイレ付き宿通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -8671,7 +8671,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -8688,7 +8688,7 @@
         "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -8917,7 +8917,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -8934,7 +8934,7 @@
         "Study Reminder AI 資格試験の一問一答・学習リマインド",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -9066,7 +9066,7 @@
       "slug": "subsidy-alert-hub",
       "repository": "subsidy-alert-hub",
       "title": "JavaScriptで作ったSubsidy Alert Hub｜構成とコミット履歴を75秒で解説",
-      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+      "description": "Subsidy Alert Hub 補助金・助成金・自治体募集通知",
       "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/subsidy-alert-hub/",
       "repositoryUrl": "https://github.com/syunnjack/subsidy-alert-hub",
@@ -9090,7 +9090,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert"
+          "body": "Subsidy Alert Hub 補助金・助成金・自治体募集通知"
         },
         {
           "title": "技術スタック",
@@ -9116,7 +9116,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Subsidy Alert Hubの技術構成を短く解説します。",
-        "Subsidy Alert Hub 補助金・助成金・自治体募集通知 Repository Recommended repository name: subsidy alert hub Domain candidates Confirmed domain: subsidyalert",
+        "Subsidy Alert Hub 補助金・助成金・自治体募集通知",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
@@ -9773,7 +9773,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9790,7 +9790,7 @@
         "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです",
         "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
