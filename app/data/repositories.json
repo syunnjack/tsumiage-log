@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T21:25:14.066Z",
+  "generatedAt": "2026-08-18T22:24:40.470Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -2812,6 +2812,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "572d53b",
+          "message": "横断確認用の一時ワークフローを削除する",
+          "date": "2026-08-18T22:00:19Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/572d53b28eda282256262bfbec525deb0dc2a414"
+        },
+        {
           "sha": "dfd10fa",
           "message": "kaden-hikaku の検索が0件になる原因を確認する",
           "date": "2026-08-18T19:25:05Z",
@@ -2876,15 +2882,9 @@
           "message": "Complete real estate watch project baseline",
           "date": "2026-08-11T14:48:52Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/769364606111814ff868aadae3ba3595a003fbb7"
-        },
-        {
-          "sha": "a606ed2",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:53Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/a606ed23314727dc9895e6646fec7688c8b9166f"
         }
       ],
-      "updatedAt": "2026-08-18T19:26:28Z",
+      "updatedAt": "2026-08-18T22:00:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -2982,6 +2982,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "cba2cab",
+          "message": "自治体1,788団体の受入実績ページを追加する",
+          "date": "2026-08-18T22:24:15Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/cba2cabb76e2399fd8920452994356c3acf75aff"
+        },
+        {
+          "sha": "0f21bc9",
+          "message": "カテゴリ・地域ごとのページが正しい正規URLを示すようにする",
+          "date": "2026-08-18T22:01:08Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/0f21bc956a3d271feb26ff178e8d5cf619d6a0c8"
+        },
+        {
           "sha": "64a502b",
           "message": "カタログ同期の失敗でデプロイ全体が落ちないようにし、同期の実行時刻を移す",
           "date": "2026-08-18T19:20:42Z",
@@ -3040,15 +3052,9 @@
           "message": "楽天API連携の不具合修正とドメイン設定",
           "date": "2026-07-14T22:03:24Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/b14509408b42b0e2d5bdc8b7337200f0effc77ff"
-        },
-        {
-          "sha": "0424ea1",
-          "message": "ふるさと納税返礼品比較サイトを新規構築",
-          "date": "2026-07-14T21:33:10Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/0424ea1e8e6e0e83869f0fe29915647017df1fa6"
         }
       ],
-      "updatedAt": "2026-08-18T19:24:46Z",
+      "updatedAt": "2026-08-18T22:04:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -11258,6 +11264,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2ac09c5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T21:25:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ac09c5e7ec891e4e745731c01179a7204bf617a"
+        },
+        {
           "sha": "d61cf08",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T20:25:20Z",
@@ -11322,15 +11334,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T10:26:15Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fe975d6abd045e8c61015c033f29d1b11e886b8a"
-        },
-        {
-          "sha": "b343bc1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T09:26:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b343bc16533abc68599f528eff838b4939d501dd"
         }
       ],
-      "updatedAt": "2026-08-18T20:27:25Z",
+      "updatedAt": "2026-08-18T21:27:39Z",
       "stars": 0,
       "forks": 0
     },
