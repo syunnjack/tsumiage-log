@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T08:26:59.952Z",
+  "generatedAt": "2026-08-18T09:26:15.828Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -1630,6 +1630,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2769bf0",
+          "message": "市の制度が無い都市に、県と国の制度の案内を追加する",
+          "date": "2026-08-18T08:37:53Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/2769bf0c8d4abe750e35f170b835ad315c14b742"
+        },
+        {
           "sha": "9e2ee94",
           "message": "補助金の実データを26都市に拡充し、中古車買取に提携先を追加する",
           "date": "2026-08-18T08:19:16Z",
@@ -1694,15 +1700,9 @@
           "message": "Homepage: stop funneling every genre card to Tokyo only",
           "date": "2026-08-09T16:07:15Z",
           "url": "https://github.com/syunnjack/cross-genre/commit/fed6b919025468ba8c087ed45062a7bc75d25301"
-        },
-        {
-          "sha": "e892ace",
-          "message": "Expand nationwide, fix broken affiliate links, add subsidy/business genres",
-          "date": "2026-08-09T11:19:09Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/e892aceda3214710bf63d6c2b7cc876d69a3591f"
         }
       ],
-      "updatedAt": "2026-08-18T08:19:57Z",
+      "updatedAt": "2026-08-18T08:40:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -2721,6 +2721,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "cf06671",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:35:36Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/cf06671e44cc7acd3b0828f3f933d966d3086486"
+        },
+        {
           "sha": "7d2731d",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:13Z",
@@ -2763,7 +2769,7 @@
           "url": "https://github.com/syunnjack/foodtruck-map/commit/4c35b2e79682f70e34f8c2ac4f1387624d2332cd"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:19Z",
+      "updatedAt": "2026-08-18T08:37:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -2855,6 +2861,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "13cf062",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:36:42Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/13cf0621a8d13a60c8345d53a497e7f5fef6e14e"
+        },
+        {
           "sha": "3e6ec98",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:28:45Z",
@@ -2903,7 +2915,7 @@
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/081db70c85639c69d3d679313ba8be171b792e3f"
         }
       ],
-      "updatedAt": "2026-08-18T00:29:05Z",
+      "updatedAt": "2026-08-18T08:39:15Z",
       "stars": 0,
       "forks": 0
     },
@@ -10392,6 +10404,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0044bcf",
+          "message": "views もデプロイ対象にする",
+          "date": "2026-08-18T08:39:55Z",
+          "url": "https://github.com/syunnjack/space-map/commit/0044bcf08f418c2e51cab6764b62c4b3e79a5c56"
+        },
+        {
           "sha": "4102c28",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:28:18Z",
@@ -10452,7 +10470,7 @@
           "url": "https://github.com/syunnjack/space-map/commit/b221d20674802609cc5aef878edd65248ae2edd0"
         }
       ],
-      "updatedAt": "2026-08-18T00:29:03Z",
+      "updatedAt": "2026-08-18T08:41:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -11168,6 +11186,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4183d6e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T08:27:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4183d6e93f3b463701ed80040d5226fad0d0e102"
+        },
+        {
           "sha": "28d9b5c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T07:28:59Z",
@@ -11232,15 +11256,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T02:39:21Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a3cb42d8d004138f617de0a854af1f0987cb0890"
-        },
-        {
-          "sha": "9ae7800",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T01:50:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ae78009d8d0f938b696a3a4318036d074cace3b"
         }
       ],
-      "updatedAt": "2026-08-18T07:29:06Z",
+      "updatedAt": "2026-08-18T08:29:16Z",
       "stars": 0,
       "forks": 0
     },
