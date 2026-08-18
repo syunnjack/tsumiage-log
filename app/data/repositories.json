@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:26:58.273Z",
+  "generatedAt": "2026-08-18T13:31:14.885Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -5244,6 +5244,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2a90b7c",
+          "message": "板データを本番に投入するワークフローを足す",
+          "date": "2026-08-18T12:46:40Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/2a90b7c88c1d19ff98df6a573267730abbf83674"
+        },
+        {
           "sha": "1b1f9e7",
           "message": "views もデプロイ対象にする",
           "date": "2026-08-18T08:02:19Z",
@@ -5308,15 +5314,9 @@
           "message": "本番ドメインをyorozu-bbs.jpに設定",
           "date": "2026-07-14T18:55:02Z",
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/6bf5e6f3ec3d94c4c790c7298380eb5052713c2f"
-        },
-        {
-          "sha": "63816f2",
-          "message": "匿名掲示板（5ch風）機能を実装",
-          "date": "2026-07-14T16:42:49Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/63816f2f59b127a6b86785d7e8d9e296ef1f2fca"
         }
       ],
-      "updatedAt": "2026-08-18T08:04:48Z",
+      "updatedAt": "2026-08-18T12:48:04Z",
       "stars": 0,
       "forks": 0
     },
@@ -11004,6 +11004,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "4ae3606",
+          "message": "駐車場の実データを56スポットに拡充する",
+          "date": "2026-08-18T12:55:38Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/4ae3606a56615e477bbe3b6e12e1bd1b1980fbaf"
+        },
+        {
+          "sha": "24bcc91",
+          "message": "駐車場の実データを40スポットに拡充する",
+          "date": "2026-08-18T12:50:35Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/24bcc9154a2397e891152aa055b63faeb567e813"
+        },
+        {
+          "sha": "80b0004",
+          "message": "駐車場の実データを24スポットに拡充する",
+          "date": "2026-08-18T12:45:39Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/80b0004a2353b612562001c2f00cb7210ff7659a"
+        },
+        {
+          "sha": "37871be",
+          "message": "駐車場の実データを公式出典つきで載せ、根拠のない数値を削除する",
+          "date": "2026-08-18T12:39:17Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/37871be45c9c26e9af5e3c8fc3a465208a20cadb"
+        },
+        {
           "sha": "07bca76",
           "message": "エリア一覧ページを追加し、canonical と OG を全ページに入れる",
           "date": "2026-08-18T12:14:16Z",
@@ -11050,33 +11074,9 @@
           "message": "Add area CTA flow and split sitemaps",
           "date": "2026-08-11T12:33:07Z",
           "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/df619310dc32c97913ea579c61b8469d00331996"
-        },
-        {
-          "sha": "8b42d97",
-          "message": "Add nearby area rankings and FAQ schema",
-          "date": "2026-08-11T12:28:31Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/8b42d97b1216952e6951b5486490d82bb9404c3a"
-        },
-        {
-          "sha": "0001cd0",
-          "message": "Update Xserver deploy workflow runtime",
-          "date": "2026-08-11T12:20:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0001cd03f06ab4d79ed765873babe900dfecc32c"
-        },
-        {
-          "sha": "e42037a",
-          "message": "Enhance area pages and prefecture heatmap",
-          "date": "2026-08-11T12:08:49Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/e42037a4a81a8b1bc6929beeaff51b126b6632fa"
-        },
-        {
-          "sha": "73d6a97",
-          "message": "Generate area pages and add heatmap",
-          "date": "2026-08-11T12:04:58Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/73d6a97db934eab08afcfe9c6bcf4ea1ca097bf1"
         }
       ],
-      "updatedAt": "2026-08-18T12:14:54Z",
+      "updatedAt": "2026-08-18T13:00:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -11094,6 +11094,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2d79d58",
+          "message": "ページの文章を読者向けに書き換える",
+          "date": "2026-08-18T12:29:13Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/2d79d5861c57b91d51e260ab4a3c23be7f1a64ea"
+        },
         {
           "sha": "62c2854",
           "message": "canonical を入れ、robots のサイトマップを自ドメインに直す",
@@ -11159,15 +11165,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:29:15Z",
           "url": "https://github.com/syunnjack/trip-route-stay/commit/af9f0c11987e57e786743aa35aaab56619b3ee3c"
-        },
-        {
-          "sha": "332cc8a",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:21:09Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/332cc8a82a68f05824d9c8e0b105af19a2bc3086"
         }
       ],
-      "updatedAt": "2026-08-18T12:20:54Z",
+      "updatedAt": "2026-08-18T12:30:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -11185,6 +11185,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "97e8f37",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T12:27:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/97e8f37752bd30e132e6325f34429082ac63c0b2"
+        },
         {
           "sha": "161e8e5",
           "message": "Update repository articles from GitHub activity",
@@ -11250,15 +11256,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T06:27:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f046cb412f1eb11bf631a5153de060a99b969af4"
-        },
-        {
-          "sha": "125dabb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T05:26:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/125dabbace001906c6e06af87e95e898dccabec7"
         }
       ],
-      "updatedAt": "2026-08-18T11:26:48Z",
+      "updatedAt": "2026-08-18T12:28:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -11405,6 +11405,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8982e67",
+          "message": "ページの文章を読者向けに書き換える",
+          "date": "2026-08-18T12:29:27Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/8982e6734a011c1dbf44724f4efe8ae57c4cf3b4"
+        },
+        {
           "sha": "b5b999d",
           "message": "canonical を入れ、検索結果に出る説明文を読者向けに直す",
           "date": "2026-08-18T12:25:11Z",
@@ -11469,15 +11475,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:57:45Z",
           "url": "https://github.com/syunnjack/wait-time-alert/commit/4b24f8ee0a15cb962f84e052e75ac0fdbb5d6647"
-        },
-        {
-          "sha": "ff6367a",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:10Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/ff6367a9fc693186319e5e71c8b5bbdf6dcc20d3"
         }
       ],
-      "updatedAt": "2026-08-18T12:26:07Z",
+      "updatedAt": "2026-08-18T12:32:02Z",
       "stars": 0,
       "forks": 0
     },
