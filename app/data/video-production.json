@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:26:57.174Z",
+  "generatedAt": "2026-08-19T13:32:17.976Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -1966,12 +1966,12 @@
     {
       "slug": "eki-genre-map",
       "repository": "eki-genre-map",
-      "title": "JavaScriptで作ったEki Genre Map｜構成とコミット履歴を75秒で解説",
-      "description": "Eki Genre Mapは、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "JavaScript",
+      "title": "HTMLで作ったEki Genre Map｜構成とコミット履歴を75秒で解説",
+      "description": "Eki Genre Mapは、HTMLを中心に設計・実装したプロジェクトです。",
+      "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/eki-genre-map/",
       "repositoryUrl": "https://github.com/syunnjack/eki-genre-map",
-      "youtubeDescription": "Eki Genre Mapは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Eki Genre Mapがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/eki-genre-map\nソースコード（GitHub）： https://github.com/syunnjack/eki-genre-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Eki Genre Mapは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Eki Genre Mapがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/eki-genre-map\nソースコード（GitHub）： https://github.com/syunnjack/eki-genre-map\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n似たものを作った方がいれば、どんな技術を選んだか聞かせてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -1979,11 +1979,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "HTML",
         "Eki Genre Map",
-        "JavaScript 個人開発"
+        "HTML 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "HTMLの個人開発",
       "slides": [
         {
           "title": "Eki Genre Mapの技術解説",
@@ -1991,11 +1991,11 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Eki Genre Mapは、JavaScriptを中心に設計・実装したプロジェクトです。"
+          "body": "Eki Genre Mapは、HTMLを中心に設計・実装したプロジェクトです。"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -2017,8 +2017,8 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Eki Genre Mapの技術構成を短く解説します。",
-        "Eki Genre Mapは、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "Eki Genre Mapは、HTMLを中心に設計・実装したプロジェクトです。",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
@@ -2089,12 +2089,12 @@
     {
       "slug": "event-trip-alert",
       "repository": "event-trip-alert",
-      "title": "JavaScriptで作ったEvent Trip Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert",
-      "language": "JavaScript",
+      "title": "Bladeで作ったEvent Trip Alert｜構成とコミット履歴を75秒で解説",
+      "description": "イベント遠征アラート（eventtripalert",
+      "language": "Blade",
       "articleUrl": "https://syunnjack.dev/articles/event-trip-alert/",
       "repositoryUrl": "https://github.com/syunnjack/event-trip-alert",
-      "youtubeDescription": "Event Trip Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Event Trip Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/event-trip-alert\nソースコード（GitHub）： https://github.com/syunnjack/event-trip-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Event Trip Alertは、Bladeで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Event Trip Alertがどんな技術で組まれているか（Blade）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/event-trip-alert\nソースコード（GitHub）： https://github.com/syunnjack/event-trip-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n使っている技術のなかで、気になるものはありましたか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #Blade #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -2102,11 +2102,12 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "Laravel",
+        "Blade",
         "Event Trip Alert",
-        "JavaScript 個人開発"
+        "Blade 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "Bladeの個人開発",
       "slides": [
         {
           "title": "Event Trip Alertの技術解説",
@@ -2114,11 +2115,11 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert"
+          "body": "イベント遠征アラート（eventtripalert"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：Blade\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -2140,8 +2141,8 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Event Trip Alertの技術構成を短く解説します。",
-        "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "イベント遠征アラート（eventtripalert",
+        "主な技術はBladeです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"

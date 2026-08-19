@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T12:26:56.986Z",
+  "generatedAt": "2026-08-19T13:32:17.798Z",
   "owner": "syunnjack",
-  "totalRepositories": 177,
-  "publicRepositories": 177,
+  "totalRepositories": 178,
+  "publicRepositories": 178,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
@@ -2373,16 +2373,22 @@
       "slug": "eki-genre-map",
       "name": "eki-genre-map",
       "displayName": "Eki Genre Map",
-      "description": "Eki Genre Mapは、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Eki Genre Mapは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Eki Genre Mapは、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Eki Genre Mapは、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/eki-genre-map",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "542def4",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-19T12:27:51Z",
+          "url": "https://github.com/syunnjack/eki-genre-map/commit/542def485347bed5871bf0a1189d83f8b238dc01"
+        },
         {
           "sha": "4476058",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -2448,15 +2454,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T00:07:49Z",
           "url": "https://github.com/syunnjack/eki-genre-map/commit/19ffb50bb95be75433afd212eb2938232c4e0810"
-        },
-        {
-          "sha": "ad8a4ac",
-          "message": "Initial app scaffold",
-          "date": "2026-07-17T23:32:28Z",
-          "url": "https://github.com/syunnjack/eki-genre-map/commit/ad8a4ac78c6f99cc9a46b4c9c224bdcd8cc0ad58"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:13Z",
+      "updatedAt": "2026-08-19T12:32:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -2495,16 +2495,34 @@
       "slug": "event-trip-alert",
       "name": "event-trip-alert",
       "displayName": "Event Trip Alert",
-      "description": "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert",
-      "readmeExcerpt": "Event Trip Alert ライブ・イベント遠征アラート Repository Recommended repository name: event trip alert Domain candidates Confirmed domain: eventtripalert.jp Other candidates: eventtripalert.jp enseialert.jp livestay.jp eventstay.jp Concept ライブ、スポーツ、展示会の開催日から宿、交通、周辺飲食、グッズへつなげる遠征通知サービス。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 宿泊送客 交通送客 飲食店掲載 グッズ affiliate スポンサー枠 Commands",
+      "description": "イベント遠征アラート（eventtripalert",
+      "readmeExcerpt": "イベント遠征アラート（eventtripalert.jp） ライブ・スポーツ・展示会で遠征するときに、 会場の場所と最寄り駅 を調べるサイト。 経緯 このリポジトリには以前、React の静的ページに「ライブ alert seed 1」といった 架空の項目と、「収益導線」「技術選定」「MVPは静的seed + localStorage」などの 運営側のメモがそのまま入っており、それが本番で公開されていた。 すべて削除し、出典をたどれる実データだけを載せる構成に作り直した。 データ 内容 出所 会場（スタジアム・イベントホール・ライブハウス・展示場・劇場） OpenStreetMap（ODbL 1.0） 最寄り駅と距離 同じ地図データの鉄道駅から、直線距離で最も近いものを機械的に選定 扱っていないもの : 公演・試合の予定、チケット、宿や交通の予約。 データの更新 scripts/.cache/ に取得済みの応答が残るので、再実行しても必要な分しか Overpass に問い合わせない。取得できなかった県は、そのキャッシュを消して 再実行すれば埋まる。 構成 URL 内容 / 種類別・都道府県別の入口 /kinds/{種類} 種類ごとの全国一覧（stadium / hall / livehouse / exhibition / theatre） /areas/{ローマ字} 都道府県ごとの会場一覧 /venues/{slug} 会場ページ（最寄り駅・収容人数・公式サイト・出典） /about データの出所と、扱っていないことの説明 デプロイ main へ push すると GitHub Actions が Xserver へ rsync する。 データベースは使わないので migrate も seed も無い。 必要なシークレット: SSH HOST SSH USERNAME SSH PRIVATE KEY APP KEY 。 任意: GA MEASUREMENT ID GOOGLE SITE VERIFICATION 。",
       "url": "https://github.com/syunnjack/event-trip-alert",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "Blade",
       "languages": [
-        "JavaScript"
+        "Blade"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2e54c49",
+          "message": "public/.htaccess を入れ直す",
+          "date": "2026-08-19T13:10:23Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/2e54c494fbe40f0cf92c6b511a1777977f0a6ef4"
+        },
+        {
+          "sha": "36ab46b",
+          "message": "データ取得をGitHub Actions側でも実行できるようにする",
+          "date": "2026-08-19T13:07:40Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/36ab46b0ae841b25ee4a350df55628957f3ee177"
+        },
+        {
+          "sha": "00b34e0",
+          "message": "企画書とダミーデータの公開をやめ、実在の会場データで作り直す",
+          "date": "2026-08-19T12:24:59Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/00b34e0cc4f2819377b6e76f8bde4f7854028f96"
+        },
         {
           "sha": "16ae011",
           "message": "支援・購入への導線を追加する",
@@ -2558,21 +2576,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:56:12Z",
           "url": "https://github.com/syunnjack/event-trip-alert/commit/ce330aacba964e5d3410e3581e0f4c1806e71e82"
-        },
-        {
-          "sha": "ef3a715",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:04Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/ef3a71558ba7d235faee552528e9393568d58782"
-        },
-        {
-          "sha": "a32c99a",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:42Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/a32c99a0c573762b6a25fe40efc660ea4e97b598"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:50Z",
+      "updatedAt": "2026-08-19T13:13:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -11423,6 +11429,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5df204c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T12:27:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5df204c9ff30544a2946853d3bbfb37947c9bb75"
+        },
+        {
           "sha": "9400f3a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T11:25:45Z",
@@ -11487,15 +11499,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T01:51:03Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/dffb1a8174f0de5ece088dac792d7ae2aee1d848"
-        },
-        {
-          "sha": "93c91b4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T00:28:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/93c91b4c30dc7129fb433446cbe1ac9f84427c2e"
         }
       ],
-      "updatedAt": "2026-08-19T11:26:33Z",
+      "updatedAt": "2026-08-19T12:29:27Z",
       "stars": 0,
       "forks": 0
     },
