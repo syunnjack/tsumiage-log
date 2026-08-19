@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:26:34.893Z",
+  "generatedAt": "2026-08-19T19:25:12.018Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -5338,12 +5338,12 @@
     {
       "slug": "midnight-spot-alert",
       "repository": "midnight-spot-alert",
-      "title": "HTMLで作ったMidnight Spot Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Midnight Spot Alert 深夜営業・終電後スポット通知",
-      "language": "HTML",
+      "title": "JavaScriptで作ったMidnight Spot Alert｜構成とコミット履歴を75秒で解説",
+      "description": "24時間営業マップ（midnightspot",
+      "language": "JavaScript",
       "articleUrl": "https://syunnjack.dev/articles/midnight-spot-alert/",
       "repositoryUrl": "https://github.com/syunnjack/midnight-spot-alert",
-      "youtubeDescription": "Midnight Spot Alertは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Midnight Spot Alertがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/midnight-spot-alert\nソースコード（GitHub）： https://github.com/syunnjack/midnight-spot-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Midnight Spot Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Midnight Spot Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/midnight-spot-alert\nソースコード（GitHub）： https://github.com/syunnjack/midnight-spot-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -5351,11 +5351,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "HTML",
+        "JavaScript",
         "Midnight Spot Alert",
-        "HTML 個人開発"
+        "JavaScript 個人開発"
       ],
-      "playlist": "HTMLの個人開発",
+      "playlist": "JavaScriptの個人開発",
       "slides": [
         {
           "title": "Midnight Spot Alertの技術解説",
@@ -5363,11 +5363,11 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Midnight Spot Alert 深夜営業・終電後スポット通知"
+          "body": "24時間営業マップ（midnightspot"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -5389,8 +5389,8 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Midnight Spot Alertの技術構成を短く解説します。",
-        "Midnight Spot Alert 深夜営業・終電後スポット通知",
-        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
+        "24時間営業マップ（midnightspot",
+        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"

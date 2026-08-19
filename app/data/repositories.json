@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:26:34.713Z",
+  "generatedAt": "2026-08-19T19:25:11.834Z",
   "owner": "syunnjack",
   "totalRepositories": 178,
   "publicRepositories": 178,
@@ -2475,6 +2475,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e94dd7f",
+          "message": "お問い合わせ先が空欄のまま公開されていたのを直す",
+          "date": "2026-08-19T19:16:26Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e94dd7fcc05e649e5f2d238d70155956af535008"
+        },
+        {
           "sha": "35fe740",
           "message": "デプロイを実行する",
           "date": "2026-08-19T11:47:21Z",
@@ -2487,7 +2493,7 @@
           "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e75870824e389fe9c64b3a733479cf667097a708"
         }
       ],
-      "updatedAt": "2026-08-19T11:50:16Z",
+      "updatedAt": "2026-08-19T19:18:55Z",
       "stars": 0,
       "forks": 0
     },
@@ -6454,16 +6460,22 @@
       "slug": "midnight-spot-alert",
       "name": "midnight-spot-alert",
       "displayName": "Midnight Spot Alert",
-      "description": "Midnight Spot Alert 深夜営業・終電後スポット通知",
-      "readmeExcerpt": "Midnight Spot Alert 深夜営業・終電後スポット通知",
+      "description": "24時間営業マップ（midnightspot",
+      "readmeExcerpt": "24時間営業マップ（midnightspot.jp） 地図データに 24時間営業（ opening hours=24/7 ） と登録されている店舗だけを載せる静的サイト。 方針 「深夜まで営業」「たぶん開いている」という推測では載せない コンビニは載せない （数が多く、深夜に開いているのが当たり前のため） 混雑状況・在庫・空席は載せない（公開データが無いため） 営業時間は変わるので、行く前に店舗へ確認するよう各ページに明記する データ 内容 出所 店舗の名称・場所・種類・電話・公式サイト OpenStreetMap（ODbL 1.0） scripts/build spot data.py が都道府県ごとに取得して src/spots.json を書き出す。 手元の回線では Overpass に断られることが多いため、GitHub Actions （ .github/workflows/refresh data.yml ）から実行する。 サイトの組み立て src/spots.json が空のときは、一覧を公開せず「準備中」ページだけを書き出す （noindex＋ Disallow: / ）。中身の無いページを検索結果に出さないため。 main へ push すると Actions が dist/ を Xserver へ rsync する。",
       "url": "https://github.com/syunnjack/midnight-spot-alert",
       "defaultBranch": "main",
-      "primaryLanguage": "HTML",
+      "primaryLanguage": "JavaScript",
       "languages": [
-        "HTML"
+        "JavaScript"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "0a572d3",
+          "message": "企画書とダミーデータをやめ、24時間営業の店舗を載せる形に作り替える",
+          "date": "2026-08-19T18:33:54Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/0a572d39a44499486f8f39d5bcc4349c08648ebf"
+        },
         {
           "sha": "1d84c0c",
           "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
@@ -6531,7 +6543,7 @@
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/de53091b095432bdd62b6b5e87cc48fae381d5d3"
         }
       ],
-      "updatedAt": "2026-08-19T18:09:08Z",
+      "updatedAt": "2026-08-19T18:37:18Z",
       "stars": 0,
       "forks": 0
     },
@@ -11441,6 +11453,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b8538e7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T18:27:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b8538e76a7b1dde0745f6b63c83c47c004025638"
+        },
+        {
           "sha": "28a8cbe",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T17:25:41Z",
@@ -11505,15 +11523,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T07:28:38Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/74ec13e1d6dc48c8ec36d73059e3eabd1061fab8"
-        },
-        {
-          "sha": "3fd90a7",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T06:27:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3fd90a744683a60af28066a04f4bc508d6ad1811"
         }
       ],
-      "updatedAt": "2026-08-19T17:29:51Z",
+      "updatedAt": "2026-08-19T18:27:56Z",
       "stars": 0,
       "forks": 0
     },
