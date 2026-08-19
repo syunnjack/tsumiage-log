@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T11:25:19.191Z",
+  "generatedAt": "2026-08-19T12:26:56.986Z",
   "owner": "syunnjack",
-  "totalRepositories": 176,
-  "publicRepositories": 176,
+  "totalRepositories": 177,
+  "publicRepositories": 177,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
@@ -2457,6 +2457,37 @@
         }
       ],
       "updatedAt": "2026-08-18T00:27:13Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "enjoy-setsuyaku",
+      "name": "enjoy-setsuyaku",
+      "displayName": "Enjoy Setsuyaku",
+      "description": "くらしの節約データ（enjoy setsuyaku",
+      "readmeExcerpt": "くらしの節約データ（enjoy setsuyaku.jp） 総務省「家計調査」をもとに、費目別・都市別の平均支出を掲載し、 そこから何をどの順番で見直すかを記事で説明するサイト。 中身 種類 置き場所 件数 記事 resources/articles/ .md 13本 支出データ database/data/kakei 2024.json 52都市 × 11費目 データベースは使わない。記事は Markdown ファイル、支出データは JSON を読む。 データの更新 家計調査の年報が新しくなったら、 scripts/build kakei data.py の STAT INF ID を新しい年の統計表IDに変えて実行する。 統計表IDは e Stat の 「家計調査 家計収支編 二人以上の世帯 詳細結果表 第1 1表 都市階級・地方・ 都道府県庁所在市別1世帯当たり1か月間の収入と支出」のページで確認する。 記事の書き方 resources/articles/ に Markdown ファイルを置く。先頭に次を書く。 守っていること: 金額・制度は公的機関の公表資料にもとづき、記事末に出典URLを書く 「必ず◯円下がる」といった断定はしない 条件で結果が変わるものは、変わる理由を書く デプロイ main へ push すると GitHub Actions が Xserver へ rsync する。 必要なシークレット: SSH HOST SSH USERNAME SSH PRIVATE KEY APP KEY 。 任意: CONTACT ADDRESS GA MEASUREMENT ID GOOGLE SITE VERIFICATION ADSENSE CLIENT 。",
+      "url": "https://github.com/syunnjack/enjoy-setsuyaku",
+      "defaultBranch": "main",
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "35fe740",
+          "message": "デプロイを実行する",
+          "date": "2026-08-19T11:47:21Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/35fe74045b4721683f0a004a5c89ac60df35bffe"
+        },
+        {
+          "sha": "e758708",
+          "message": "家計調査をもとにした節約サイトを作る（記事13本・52都市のデータ）",
+          "date": "2026-08-19T11:33:26Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e75870824e389fe9c64b3a733479cf667097a708"
+        }
+      ],
+      "updatedAt": "2026-08-19T11:50:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -10683,6 +10714,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3b8ab14",
+          "message": "デプロイが本番の .env を壊さないようにする",
+          "date": "2026-08-19T12:05:38Z",
+          "url": "https://github.com/syunnjack/storage-locker-near/commit/3b8ab14e001527e1d4ffa3fd3ec6d95e7f02feed"
+        },
+        {
           "sha": "2fb3134",
           "message": "LINE連携が未設定のうちは、押せない表示にする",
           "date": "2026-08-18T22:35:50Z",
@@ -10749,7 +10786,7 @@
           "url": "https://github.com/syunnjack/storage-locker-near/commit/8b39ab6905cd97651879de1c113ff9a5f18b236d"
         }
       ],
-      "updatedAt": "2026-08-18T22:36:32Z",
+      "updatedAt": "2026-08-19T12:07:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -11386,6 +11423,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9400f3a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T11:25:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9400f3aa9ecb046227209785494e8e4204b02087"
+        },
+        {
           "sha": "9f55c8f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T10:26:12Z",
@@ -11450,15 +11493,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T00:28:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/93c91b4c30dc7129fb433446cbe1ac9f84427c2e"
-        },
-        {
-          "sha": "9a6f020",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T23:25:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9a6f02084c8f44b798f9165a2bda36ca209234a8"
         }
       ],
-      "updatedAt": "2026-08-19T10:27:57Z",
+      "updatedAt": "2026-08-19T11:26:33Z",
       "stars": 0,
       "forks": 0
     },
