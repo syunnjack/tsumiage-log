@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:25:44.040Z",
+  "generatedAt": "2026-08-19T11:25:19.191Z",
   "owner": "syunnjack",
   "totalRepositories": 176,
   "publicRepositories": 176,
@@ -21,10 +21,30 @@
       "readmeExcerpt": "47めし（47meshi.net） 47都道府県の郷土料理を、都道府県と食材から探せるサイト。 データの出所 農林水産省「うちの郷土料理 次世代に伝えたい大切な味」 https://www.maff.go.jp/j/keikaku/syokubunka/k ryouri/ 載せているのは 料理名・都道府県・主な伝承地域・主な使用食材 と、 農林水産省の該当ページへのリンクだけ。由来や作り方の解説文は転載せず、 写真も使わない。 データの更新 scripts/.kyodo cache/ に取得済みのHTMLが残るので、再実行しても 農林水産省のサーバへは必要な分しか取りに行かない。 構成 URL 内容 / 47都道府県の一覧（地方ごと） /areas/{ローマ字} 都道府県ごとの郷土料理一覧 /dishes/{slug} 料理ページ（伝承地域・使用食材・出典リンク） /ingredients/{食材名} その食材を使う郷土料理（都道府県をまたぐ） /sitemap.xml サイトマップ デプロイ main へ push すると GitHub Actions が Xserver へ rsync し、 migrate と DishSeeder を実行する。必要なシークレットは SSH HOST SSH USERNAME SSH PRIVATE KEY APP KEY 、 任意で GA MEASUREMENT ID GOOGLE SITE VERIFICATION 。",
       "url": "https://github.com/syunnjack/47meshi",
       "defaultBranch": "main",
-      "primaryLanguage": "未分類",
-      "languages": [],
+      "primaryLanguage": "Blade",
+      "languages": [
+        "Blade"
+      ],
       "files": [],
       "commits": [
+        {
+          "sha": "a2e591c",
+          "message": "デプロイでキャッシュ用のディレクトリまで作る",
+          "date": "2026-08-19T10:50:27Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/a2e591c8507ad6b8082f08cdbcb12b06c13b05a5"
+        },
+        {
+          "sha": "0229a61",
+          "message": "デプロイのSSH手順を、置き場所の用意と取り込みに分ける",
+          "date": "2026-08-19T10:48:22Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/0229a6120863e83d57a5a259c6c7849db465c8bb"
+        },
+        {
+          "sha": "07677a1",
+          "message": "デプロイを実行する",
+          "date": "2026-08-19T10:45:07Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/07677a145599c76eef1822f1c0914ca10942abfe"
+        },
         {
           "sha": "7f24c8b",
           "message": "47都道府県の郷土料理1,365品を載せるサイトを作る",
@@ -32,7 +52,7 @@
           "url": "https://github.com/syunnjack/47meshi/commit/7f24c8b49c09709a3d3a54ec0e5dfe3c03f15aaf"
         }
       ],
-      "updatedAt": "2026-08-19T10:15:55Z",
+      "updatedAt": "2026-08-19T10:53:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -11366,6 +11386,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9f55c8f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T10:26:12Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f55c8f59947973c9f867903814846aafae4dfd1"
+        },
+        {
           "sha": "accaa24",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T09:26:46Z",
@@ -11430,15 +11456,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T23:25:18Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9a6f02084c8f44b798f9165a2bda36ca209234a8"
-        },
-        {
-          "sha": "30e41b1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T22:25:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/30e41b130670247741283cd1c06e41e4ed2f04b8"
         }
       ],
-      "updatedAt": "2026-08-19T09:28:53Z",
+      "updatedAt": "2026-08-19T10:27:57Z",
       "stars": 0,
       "forks": 0
     },
