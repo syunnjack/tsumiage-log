@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T08:26:30.510Z",
+  "generatedAt": "2026-08-19T09:26:15.857Z",
   "owner": "syunnjack",
-  "totalRepositories": 174,
-  "publicRepositories": 174,
+  "totalRepositories": 175,
+  "publicRepositories": 175,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
@@ -4795,16 +4795,22 @@
       "slug": "juku-map",
       "name": "juku-map",
       "displayName": "Juku Map",
-      "description": "Juku Mapは、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Juku Mapは、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Juku Mapは、Bladeを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Juku Mapは、Bladeを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/juku-map",
       "defaultBranch": "main",
-      "primaryLanguage": "PHP",
+      "primaryLanguage": "Blade",
       "languages": [
-        "PHP"
+        "Blade"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "c3f60cb",
+          "message": "架空の塾データを捨て、OpenStreetMap から3,388件を取り込む。公開先を juku-map.net にする",
+          "date": "2026-08-19T09:12:31Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/c3f60cbba7c1f952df75620bc93da662bd04f37b"
+        },
         {
           "sha": "72bc847",
           "message": "接続確認用のワークフローを削除する",
@@ -4870,15 +4876,9 @@
           "message": "feat: 全学年対応の塾データ20件シーダー追加・デプロイ時に自動投入",
           "date": "2026-08-11T10:37:32Z",
           "url": "https://github.com/syunnjack/juku-map/commit/4b428d692578a884bac521e0814262eec4a2ee96"
-        },
-        {
-          "sha": "0c1ba85",
-          "message": "feat: 対象学年（小学生〜大学受験）・授業形式フィルター追加",
-          "date": "2026-08-11T10:30:50Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/0c1ba85c8fd4c450515418bd52ceed6908414fe3"
         }
       ],
-      "updatedAt": "2026-08-19T07:09:08Z",
+      "updatedAt": "2026-08-19T09:15:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -11343,6 +11343,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "cb9701c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T08:26:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cb9701c4cfb645cf15b60a31d376d1656bd311b1"
+        },
+        {
           "sha": "74ec13e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T07:28:38Z",
@@ -11407,15 +11413,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T21:25:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2ac09c5e7ec891e4e745731c01179a7204bf617a"
-        },
-        {
-          "sha": "d61cf08",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T20:25:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d61cf083a7aebfe7308ecf5b148b0619b74258d7"
         }
       ],
-      "updatedAt": "2026-08-19T07:29:24Z",
+      "updatedAt": "2026-08-19T08:27:32Z",
       "stars": 0,
       "forks": 0
     },
