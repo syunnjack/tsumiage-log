@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19T09:26:15.857Z",
+  "generatedAt": "2026-08-19T10:25:44.040Z",
   "owner": "syunnjack",
-  "totalRepositories": 175,
-  "publicRepositories": 175,
+  "totalRepositories": 176,
+  "publicRepositories": 176,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
@@ -13,6 +13,29 @@
     "yuniba"
   ],
   "articles": [
+    {
+      "slug": "47meshi",
+      "name": "47meshi",
+      "displayName": "47meshi",
+      "description": "47めし（47meshi",
+      "readmeExcerpt": "47めし（47meshi.net） 47都道府県の郷土料理を、都道府県と食材から探せるサイト。 データの出所 農林水産省「うちの郷土料理 次世代に伝えたい大切な味」 https://www.maff.go.jp/j/keikaku/syokubunka/k ryouri/ 載せているのは 料理名・都道府県・主な伝承地域・主な使用食材 と、 農林水産省の該当ページへのリンクだけ。由来や作り方の解説文は転載せず、 写真も使わない。 データの更新 scripts/.kyodo cache/ に取得済みのHTMLが残るので、再実行しても 農林水産省のサーバへは必要な分しか取りに行かない。 構成 URL 内容 / 47都道府県の一覧（地方ごと） /areas/{ローマ字} 都道府県ごとの郷土料理一覧 /dishes/{slug} 料理ページ（伝承地域・使用食材・出典リンク） /ingredients/{食材名} その食材を使う郷土料理（都道府県をまたぐ） /sitemap.xml サイトマップ デプロイ main へ push すると GitHub Actions が Xserver へ rsync し、 migrate と DishSeeder を実行する。必要なシークレットは SSH HOST SSH USERNAME SSH PRIVATE KEY APP KEY 、 任意で GA MEASUREMENT ID GOOGLE SITE VERIFICATION 。",
+      "url": "https://github.com/syunnjack/47meshi",
+      "defaultBranch": "main",
+      "primaryLanguage": "未分類",
+      "languages": [],
+      "files": [],
+      "commits": [
+        {
+          "sha": "7f24c8b",
+          "message": "47都道府県の郷土料理1,365品を載せるサイトを作る",
+          "date": "2026-08-19T09:46:34Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/7f24c8b49c09709a3d3a54ec0e5dfe3c03f15aaf"
+        }
+      ],
+      "updatedAt": "2026-08-19T10:15:55Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "slug": "ai-quiz-study",
       "name": "ai-quiz-study",
@@ -11343,6 +11366,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "accaa24",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T09:26:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/accaa244e8dfe89879e74bacfef280e511107a85"
+        },
+        {
           "sha": "cb9701c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T08:26:58Z",
@@ -11407,15 +11436,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T22:25:09Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/30e41b130670247741283cd1c06e41e4ed2f04b8"
-        },
-        {
-          "sha": "2ac09c5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T21:25:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2ac09c5e7ec891e4e745731c01179a7204bf617a"
         }
       ],
-      "updatedAt": "2026-08-19T08:27:32Z",
+      "updatedAt": "2026-08-19T09:28:53Z",
       "stars": 0,
       "forks": 0
     },
