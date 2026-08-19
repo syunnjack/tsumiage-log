@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T16:26:32.194Z",
+  "generatedAt": "2026-08-19T00:27:35.615Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -2702,7 +2702,7 @@
       "slug": "gesenmap",
       "repository": "gesenmap",
       "title": "PHPで作ったGesenmap｜構成とコミット履歴を75秒で解説",
-      "description": "Gesenmapは、PHPを中心に設計・実装したプロジェクトです。",
+      "description": "ゲーセンマップ（gesenmap",
       "language": "PHP",
       "articleUrl": "https://syunnjack.dev/articles/gesenmap/",
       "repositoryUrl": "https://github.com/syunnjack/gesenmap",
@@ -2727,7 +2727,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Gesenmapは、PHPを中心に設計・実装したプロジェクトです。"
+          "body": "ゲーセンマップ（gesenmap"
         },
         {
           "title": "技術スタック",
@@ -2753,7 +2753,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Gesenmapの技術構成を短く解説します。",
-        "Gesenmapは、PHPを中心に設計・実装したプロジェクトです。",
+        "ゲーセンマップ（gesenmap",
         "主な技術はPHPです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T23:24:47.530Z",
+  "generatedAt": "2026-08-19T00:27:35.425Z",
   "owner": "syunnjack",
   "totalRepositories": 173,
   "publicRepositories": 173,
@@ -3272,8 +3272,8 @@
       "slug": "gesenmap",
       "name": "gesenmap",
       "displayName": "Gesenmap",
-      "description": "Gesenmapは、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gesenmapは、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "ゲーセンマップ（gesenmap",
+      "readmeExcerpt": "ゲーセンマップ（gesenmap.jp） 全国のゲームセンターを地図・都道府県から探せるサイト。Laravel + SQLite。 掲載データ 店舗の名称・住所・電話・営業時間・設置しているゲームの種類は、 各チェーンの公式サイトで確認したもの （GiGO / バンダイナムコアミューズメント / イオンファンタジー / タイトー）。店舗ページに出典と確認日を出す。公表されていない項目は空欄にし、推測で埋めない 生成: python scripts/build game center data.py → database/data/game centers.json （取得済みの内容は scripts/.cache に残るので、作り直すときはそこを消す） 取り込み: php artisan db:seed class=GameCenterOfficialSeeder （slug をキーにした upsert。 データから消えた公式店舗は掲載から外す） 更新は毎月1日に .github/workflows/refresh data.yml が自動で流す（手動実行も可）。 差分が出たらコミットされ、その push でデプロイまで進む 口コミ・応援投票・地図からの店舗登録は利用者の投稿。店舗ページで公式情報と区別して表示する デプロイ（Xserver） main への push で .github/workflows/deploy.yml が動く。 配置先が2か所に分かれている ので注意。 public/ → /home/xs501620/gesenmap.jp/public html/ （SFTP） アプリ本体（ app/ resources/ routes/ database/ など）→ /home/xs501620/gesenmap.jp/app/ （rsync） そのあとSSHで migrate → 各種 cache → 店舗データの取り込み .env ・ vendor ・ storage はサーバー側のものを使うため送らない。 About Laravel Laravel",
       "url": "https://github.com/syunnjack/gesenmap",
       "defaultBranch": "main",
       "primaryLanguage": "PHP",
@@ -3282,6 +3282,30 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "962776d",
+          "message": "タイトーの240店を追加する",
+          "date": "2026-08-19T00:09:29Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/962776df45a746a3733a5feb9f52f6cd2dcd1116"
+        },
+        {
+          "sha": "cfe5665",
+          "message": "店舗データの取り込みがサーバーで失敗しないようにする",
+          "date": "2026-08-18T23:59:52Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/cfe5665ff6de2b9fb5791f0656bc380969000804"
+        },
+        {
+          "sha": "5bb5010",
+          "message": "イオンファンタジー701店を追加し、データ更新を自動化する",
+          "date": "2026-08-18T23:56:21Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/5bb50102637183e94d5ffed7d9e3c5128aa1426e"
+        },
+        {
+          "sha": "36e53ee",
+          "message": "公式サイトで確認したゲームセンター766店を掲載する",
+          "date": "2026-08-18T23:30:05Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/36e53eeaffd9ed5c160476ea9ed0384fc8e73603"
+        },
         {
           "sha": "af84c07",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -3329,27 +3353,9 @@
           "message": "$(cat <<'EOF'",
           "date": "2026-07-14T21:59:52Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/7d34b0c8ad386cb199ac2b6548abe4a83bcc9f43"
-        },
-        {
-          "sha": "e68d2cd",
-          "message": "Point sitemap at the production domain gesen-kuchikomi.jp",
-          "date": "2026-07-14T11:19:33Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/e68d2cd454b55965b30cb69b3f4aeb489cc43f87"
-        },
-        {
-          "sha": "096f768",
-          "message": "Fix fatal bugs and build out ゲーセンマップ into a working UGC site",
-          "date": "2026-07-14T11:09:46Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/096f768392c4931574235626219ce1aae0bb7aea"
-        },
-        {
-          "sha": "2686bb4",
-          "message": "Initial commit gesenmap",
-          "date": "2025-07-26T11:50:07Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/2686bb402aee8a9e79ff6f01a31d1057208e0423"
         }
       ],
-      "updatedAt": "2026-08-18T00:27:29Z",
+      "updatedAt": "2026-08-19T00:09:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -11324,6 +11330,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9a6f020",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-18T23:25:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9a6f02084c8f44b798f9165a2bda36ca209234a8"
+        },
+        {
           "sha": "30e41b1",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T22:25:09Z",
@@ -11388,15 +11400,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T12:27:25Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/97e8f37752bd30e132e6325f34429082ac63c0b2"
-        },
-        {
-          "sha": "161e8e5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T11:25:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/161e8e55eeb09ed39d2f0cf61f423b55e46ee06d"
         }
       ],
-      "updatedAt": "2026-08-18T22:25:19Z",
+      "updatedAt": "2026-08-18T23:26:22Z",
       "stars": 0,
       "forks": 0
     },
