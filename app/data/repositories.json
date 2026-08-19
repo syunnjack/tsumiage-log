@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:26:04.871Z",
+  "generatedAt": "2026-08-19T06:27:17.947Z",
   "owner": "syunnjack",
   "totalRepositories": 174,
   "publicRepositories": 174,
@@ -2813,6 +2813,48 @@
       "files": [],
       "commits": [
         {
+          "sha": "6840e2a",
+          "message": "umikaido.jp のアプリを取り出す一時ワークフローを足す",
+          "date": "2026-08-19T06:07:05Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/6840e2a1dd234b92110181bc1a99db5634c3b2bc"
+        },
+        {
+          "sha": "aaccf94",
+          "message": "umikaido.jp の調査・修正用ワークフローを削除する",
+          "date": "2026-08-19T06:03:57Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/aaccf94df38619a6b28330e7f0b6969acfe5652d"
+        },
+        {
+          "sha": "4dbab08",
+          "message": "umikaido.jp の壊れた JSON-LD を直すワークフローにする",
+          "date": "2026-08-19T06:02:01Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/4dbab080cb3aa5d95282761389af43877524e8c3"
+        },
+        {
+          "sha": "7714d41",
+          "message": "アプリの実際の場所に合わせて調査内容を直す",
+          "date": "2026-08-19T05:55:44Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/7714d41dff30dd555f0cb690dd6779f7b0598ace"
+        },
+        {
+          "sha": "d998fa7",
+          "message": "umikaido.jp の配信元を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
+          "date": "2026-08-19T05:54:26Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/d998fa72f77012f4c5879350a8b056387f52c2e7"
+        },
+        {
+          "sha": "81d488a",
+          "message": "リダイレクト設置用の一時ワークフローを削除する",
+          "date": "2026-08-19T05:40:29Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/81d488ad4bd229424f3f13729b97eba6a1bc6926"
+        },
+        {
+          "sha": "c6e12d8",
+          "message": "chikuden-v2h-nabi.jp を chikuden-hojokin.jp へ301で寄せる",
+          "date": "2026-08-19T05:38:38Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/c6e12d86920bd6ce130d654a347fb1cbc6bf9f95"
+        },
+        {
           "sha": "2eddecf",
           "message": "chikuden-hojokin.jp を一度だけ公開するワークフローを足す",
           "date": "2026-08-19T05:05:54Z",
@@ -2841,51 +2883,9 @@
           "message": "kaden-hikaku の検索が0件になる原因を確認する",
           "date": "2026-08-18T19:25:05Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/dfd10fa04ff56ddd0151dd0623f482af6347ec07"
-        },
-        {
-          "sha": "6b6b166",
-          "message": "楽天APIの3値の有無を確認する",
-          "date": "2026-08-18T19:23:52Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/6b6b16668871837908fe90ce0540dc27878bb733"
-        },
-        {
-          "sha": "507278e",
-          "message": "走査を空の変数すべてに広げる",
-          "date": "2026-08-18T19:20:31Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/507278e61d3c4fcb39f79d379e98ed64efef2608"
-        },
-        {
-          "sha": "0c8691a",
-          "message": "外部APIキーの設定状況を横断確認する一時ワークフローを足す（読み取り専用・確認後に削除）",
-          "date": "2026-08-18T17:21:50Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/0c8691ab8d4821bb6d255214dfcda791b1cb5de4"
-        },
-        {
-          "sha": "444f49e",
-          "message": "views とアプリ本体もデプロイし、API結果をキャッシュする",
-          "date": "2026-08-18T17:16:27Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/444f49e7af8472380d21b4f8f22308f22d16bf77"
-        },
-        {
-          "sha": "955e373",
-          "message": "本番のMLIT APIキーを設定できるようにする",
-          "date": "2026-08-18T17:09:39Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/955e373dcab047d3d2b9790787cb06dcd4de23ae"
-        },
-        {
-          "sha": "e30fb61",
-          "message": "本番設定を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
-          "date": "2026-08-18T17:08:01Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/e30fb611f4214721c23e07a38e38ce2ec2ca8c6b"
-        },
-        {
-          "sha": "11bacaf",
-          "message": "都道府県ごとのページが正しい正規URLを示すようにする",
-          "date": "2026-08-18T16:16:55Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/11bacaf28e4ac8a4cf9bf38927cb226139485120"
         }
       ],
-      "updatedAt": "2026-08-19T05:06:14Z",
+      "updatedAt": "2026-08-19T06:08:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -2903,6 +2903,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "732a664",
+          "message": "都道府県・施設種別ページを追加し、一覧をページ送りにする",
+          "date": "2026-08-19T06:03:53Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/732a664f223f5504ebb292f77b3b2620e1073f4d"
+        },
         {
           "sha": "6f3f85e",
           "message": "LINE設定を本番に反映する仕組みを用意する",
@@ -2968,15 +2974,9 @@
           "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
           "date": "2026-07-15T15:32:28Z",
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/3ed797358ea50760729d9438568c25cf8d31718f"
-        },
-        {
-          "sha": "081db70",
-          "message": "葬儀社マップ（地図×UGC×LINE通知・事前相談受付）を新規構築",
-          "date": "2026-07-15T05:50:44Z",
-          "url": "https://github.com/syunnjack/funeral-hall-map/commit/081db70c85639c69d3d679313ba8be171b792e3f"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:55Z",
+      "updatedAt": "2026-08-19T06:05:29Z",
       "stars": 0,
       "forks": 0
     },
@@ -9703,6 +9703,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c681023",
+          "message": "都道府県・施設種別ページを追加し、一覧をページ送りにする",
+          "date": "2026-08-19T05:53:07Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/c6810234ce1d53e2516355d730b19c3bb80617c6"
+        },
+        {
           "sha": "a9b3108",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:22Z",
@@ -9767,15 +9773,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T05:05:40Z",
           "url": "https://github.com/syunnjack/sauna-map/commit/2000024929a711017f576eaf4937fb0e0f4960b4"
-        },
-        {
-          "sha": "525039d",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:59:59Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/525039d4276c6df562b582bed5dd05f9fb0a3ff5"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:45Z",
+      "updatedAt": "2026-08-19T05:54:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -10549,6 +10549,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c67f74a",
+          "message": "全国の公民館・コミュニティセンター21,391件を取り込み、都道府県ページを追加する",
+          "date": "2026-08-19T06:13:28Z",
+          "url": "https://github.com/syunnjack/space-map/commit/c67f74a8674b91a4059f580acf4e83f109d9ffd9"
+        },
+        {
           "sha": "6eed25e",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:31Z",
@@ -10613,15 +10619,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T18:00:41Z",
           "url": "https://github.com/syunnjack/space-map/commit/2672fecd66b418c472d244e9978d73abdcda5de0"
-        },
-        {
-          "sha": "ea14da1",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:07Z",
-          "url": "https://github.com/syunnjack/space-map/commit/ea14da1b018f5261206fc90daaa0404ebb8879bc"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:49Z",
+      "updatedAt": "2026-08-19T06:15:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -11343,6 +11343,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "713f759",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T05:26:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/713f7593d7c49a3babb25ff9a625bbc9eedb671d"
+        },
+        {
           "sha": "d71186c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T04:27:36Z",
@@ -11407,15 +11413,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T18:28:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b696f8b0ea7f3d0e69579fd267c3722f2b08e3e8"
-        },
-        {
-          "sha": "98b6b62",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T17:25:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/98b6b6226cf707d5deb18331c7b048d492eb27b7"
         }
       ],
-      "updatedAt": "2026-08-19T04:27:42Z",
+      "updatedAt": "2026-08-19T05:27:25Z",
       "stars": 0,
       "forks": 0
     },
