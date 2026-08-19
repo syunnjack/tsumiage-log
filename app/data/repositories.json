@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T19:25:11.834Z",
+  "generatedAt": "2026-08-19T20:25:23.909Z",
   "owner": "syunnjack",
   "totalRepositories": 178,
   "publicRepositories": 178,
@@ -28,6 +28,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0a3f772",
+          "message": "このサイトについて に問い合わせ窓口を書く",
+          "date": "2026-08-19T19:30:35Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/0a3f772fb1cc008b1df0e1406d0ceb10f74772ef"
+        },
+        {
           "sha": "a2e591c",
           "message": "デプロイでキャッシュ用のディレクトリまで作る",
           "date": "2026-08-19T10:50:27Z",
@@ -52,7 +58,7 @@
           "url": "https://github.com/syunnjack/47meshi/commit/7f24c8b49c09709a3d3a54ec0e5dfe3c03f15aaf"
         }
       ],
-      "updatedAt": "2026-08-19T10:53:10Z",
+      "updatedAt": "2026-08-19T19:31:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -2475,6 +2481,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7e14989",
+          "message": "GA4の測定IDを設定する（G-ESKE961TTV）",
+          "date": "2026-08-19T19:36:42Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/7e14989f55332fc0b74887f3daaecf942257d89b"
+        },
+        {
           "sha": "e94dd7f",
           "message": "お問い合わせ先が空欄のまま公開されていたのを直す",
           "date": "2026-08-19T19:16:26Z",
@@ -2493,7 +2505,7 @@
           "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e75870824e389fe9c64b3a733479cf667097a708"
         }
       ],
-      "updatedAt": "2026-08-19T19:18:55Z",
+      "updatedAt": "2026-08-19T19:39:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -2511,6 +2523,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "bc0f276",
+          "message": "会場データをOpenStreetMapの最新の内容に更新する",
+          "date": "2026-08-19T19:38:08Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/bc0f27662abab42a1262af27172157eb486b282c"
+        },
         {
           "sha": "2dce692",
           "message": "データ更新の push が弾かれないようにする",
@@ -2576,15 +2594,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:27:08Z",
           "url": "https://github.com/syunnjack/event-trip-alert/commit/2aa54808084f9072b0fe59e4982cb6dcdd4327d1"
-        },
-        {
-          "sha": "b07da5a",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:18:06Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/b07da5a748de8367771dcffaad50f0e2473107eb"
         }
       ],
-      "updatedAt": "2026-08-19T17:29:49Z",
+      "updatedAt": "2026-08-19T19:38:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -2990,6 +3002,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "907f0b9",
+          "message": "このサイトについて に問い合わせ窓口を書く",
+          "date": "2026-08-19T19:30:30Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/907f0b9990cd9ea9a806ae5c63360c778426bc7d"
+        },
+        {
           "sha": "732a664",
           "message": "都道府県・施設種別ページを追加し、一覧をページ送りにする",
           "date": "2026-08-19T06:03:53Z",
@@ -3054,15 +3072,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:09:12Z",
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/aa3b38124af59e4aa9e91375d09bd995692200f0"
-        },
-        {
-          "sha": "3ed7973",
-          "message": "CheckCostReportWatches: 検知カーソルをcreated_atからcost_reports.idベースに変更",
-          "date": "2026-07-15T15:32:28Z",
-          "url": "https://github.com/syunnjack/funeral-hall-map/commit/3ed797358ea50760729d9438568c25cf8d31718f"
         }
       ],
-      "updatedAt": "2026-08-19T06:05:29Z",
+      "updatedAt": "2026-08-19T19:31:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -4892,6 +4904,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0f4e96f",
+          "message": "このサイトについて に問い合わせ窓口を書く",
+          "date": "2026-08-19T19:30:24Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/0f4e96f13caa7c6daf27538a12f26bcd476152ba"
+        },
+        {
           "sha": "e6fea3e",
           "message": "教室ページに市区町村と町名を入れ、中身の薄いページは検索結果に出さない",
           "date": "2026-08-19T18:05:03Z",
@@ -4956,15 +4974,9 @@
           "message": "fix: VenueSeeder重複クラス定義を解消",
           "date": "2026-08-11T11:22:03Z",
           "url": "https://github.com/syunnjack/juku-map/commit/cd467952a74a40f1b646bc017722813c14542c6b"
-        },
-        {
-          "sha": "8b96b48",
-          "message": "feat: 実在の塾・予備校データ75件追加（東京/神奈川/埼玉/千葉/大阪/京都/兵庫/愛知/福岡/宮城/北海道/広島/全国オンライン）",
-          "date": "2026-08-11T11:17:05Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/8b96b48b7b849d53fcf530fb5c70630022307499"
         }
       ],
-      "updatedAt": "2026-08-19T18:09:51Z",
+      "updatedAt": "2026-08-19T19:32:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -6471,6 +6483,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "993086d",
+          "message": "24時間営業の店舗データを更新する",
+          "date": "2026-08-19T19:45:18Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/993086d9dffc4e142a1fb3cbab0aa584272180a3"
+        },
+        {
           "sha": "0a572d3",
           "message": "企画書とダミーデータをやめ、24時間営業の店舗を載せる形に作り替える",
           "date": "2026-08-19T18:33:54Z",
@@ -6535,15 +6553,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:06Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/77a8b5ec010e29aaa38ee0462960dc77aa11848f"
-        },
-        {
-          "sha": "de53091",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:46Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/de53091b095432bdd62b6b5e87cc48fae381d5d3"
         }
       ],
-      "updatedAt": "2026-08-19T18:37:18Z",
+      "updatedAt": "2026-08-19T19:48:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -9533,12 +9545,18 @@
       "readmeExcerpt": "route spot navi Route Spot Naviは、乗換・高速バスの到着地から「次に行く場所」まで探せる地域情報ナビのプロトタイプです。 Concept 経路検索の到着地から、周辺スポット、宿、喫煙場所、カフェ、ゲーム施設などへ誘導する 待ち時間、徒歩分数、料金、評価、ユーザー投票で比較できる 掲載候補をメモし、カテゴリ別の検索条件に反映できる 将来的に地図、口コミ、閉店情報、ランキング、API連携へ拡張する Production Domain: https://syunnjack.github.io/route spot navi/ Build command: npm run build Build output: dist GitHub Pagesで公開する場合は、 public/CNAME に https://syunnjack.github.io/route spot navi/ を設定済みです。 Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/route-spot-navi",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "77afe9c",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-19T20:05:04Z",
+          "url": "https://github.com/syunnjack/route-spot-navi/commit/77afe9c6478654b216397de6848401a2beff2c1d"
+        },
         {
           "sha": "68fd3fb",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -9606,7 +9624,7 @@
           "url": "https://github.com/syunnjack/route-spot-navi/commit/af712f03a0437a58bd6121371b8c61499955b5d1"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:53Z",
+      "updatedAt": "2026-08-19T20:06:05Z",
       "stars": 0,
       "forks": 0
     },
@@ -9807,6 +9825,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "96c70df",
+          "message": "このサイトについて に問い合わせ窓口を書く",
+          "date": "2026-08-19T19:30:33Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/96c70df1958e1363d79776101b1d068d25b7daa2"
+        },
+        {
           "sha": "c681023",
           "message": "都道府県・施設種別ページを追加し、一覧をページ送りにする",
           "date": "2026-08-19T05:53:07Z",
@@ -9871,15 +9895,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:00:58Z",
           "url": "https://github.com/syunnjack/sauna-map/commit/ab59cd2e091e3417143902874faa9cf09e45b703"
-        },
-        {
-          "sha": "2000024",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:40Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/2000024929a711017f576eaf4937fb0e0f4960b4"
         }
       ],
-      "updatedAt": "2026-08-19T05:54:06Z",
+      "updatedAt": "2026-08-19T19:31:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -10506,12 +10524,18 @@
       "readmeExcerpt": "solo spot map Solo Spot Mapは、一人で入りやすいカフェ・喫煙所・漫画喫茶・深夜スポットを検索できるプロトタイプです。 Concept 一人利用歓迎、喫煙可、電源あり、深夜営業などの条件で探せる 「2名様から」「シングルチャージあり」など、一人利用で困る条件を見える化する 待ち時間、バス到着後、仕事前後の短時間利用に向く場所を提案する 将来的に口コミ、地図、投稿、閉店確認、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/solo spot map/ hitori map.jp smoke cafe.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/solo-spot-map",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "8fda24d",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-19T20:05:16Z",
+          "url": "https://github.com/syunnjack/solo-spot-map/commit/8fda24d0f23eb5573a560b8b59a7d8b66d6b2697"
+        },
         {
           "sha": "0e14db5",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -10577,15 +10601,9 @@
           "message": "Fix production URL in README (#1)",
           "date": "2026-07-31T23:06:35Z",
           "url": "https://github.com/syunnjack/solo-spot-map/commit/ac3ad923268a016f434b17cba9f60c4e5f2f733c"
-        },
-        {
-          "sha": "4c0b243",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/solo-spot-map/commit/4c0b2437e1c91afabd24a3b8746dfb14b6bf1451"
         }
       ],
-      "updatedAt": "2026-08-18T00:29:32Z",
+      "updatedAt": "2026-08-19T20:07:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -10653,6 +10671,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9664f40",
+          "message": "このサイトについて に問い合わせ窓口を書く",
+          "date": "2026-08-19T19:30:27Z",
+          "url": "https://github.com/syunnjack/space-map/commit/9664f4068a51045839c3a60e8a942f61e668a90c"
+        },
+        {
           "sha": "7042366",
           "message": "デプロイの取り込み手順で php の実体を探してから使う",
           "date": "2026-08-19T06:38:43Z",
@@ -10717,15 +10741,9 @@
           "message": "feat: add sitemap.xml for SEO",
           "date": "2026-08-10T20:29:34Z",
           "url": "https://github.com/syunnjack/space-map/commit/7cccd9ac60282c3de2d7458d47b32812a4bfce2c"
-        },
-        {
-          "sha": "34f4e4a",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:06:06Z",
-          "url": "https://github.com/syunnjack/space-map/commit/34f4e4a5d96fce319f1854fe369e90145d865058"
         }
       ],
-      "updatedAt": "2026-08-19T06:40:24Z",
+      "updatedAt": "2026-08-19T19:31:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -11453,6 +11471,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3afc148",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T19:25:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3afc148a7bea47357d3207572d45ff8e7b6aa01e"
+        },
+        {
           "sha": "b8538e7",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T18:27:01Z",
@@ -11517,15 +11541,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T08:26:58Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cb9701c4cfb645cf15b60a31d376d1656bd311b1"
-        },
-        {
-          "sha": "74ec13e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T07:28:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/74ec13e1d6dc48c8ec36d73059e3eabd1061fab8"
         }
       ],
-      "updatedAt": "2026-08-19T18:27:56Z",
+      "updatedAt": "2026-08-19T19:29:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -11756,12 +11774,18 @@
       "readmeExcerpt": "wait time guide Wait Time Guideは、役所・病院・店舗・駅施設などの待ち時間を見て、近くで過ごせる場所へ案内するプロトタイプです。 Concept 施設の現在待ち時間、受付状況、呼び出し目安を比較する 待ち時間に合わせてカフェ、喫煙所、漫画喫茶、買い物、食事を提案する QRコードや整理券番号から、自分の順番を見失わない導線を想定する 将来的に猫の目コム風の混雑表示、民間施設の案内、広告導線へ拡張する Suggested Domain https://syunnjack.github.io/wait time guide/ waitplus.jp junban navi.jp Commands npm run dev : 開発サーバー起動 npm run build : 本番ビルド npm run lint : 静的解析 npm run preview : ビルド結果の確認",
       "url": "https://github.com/syunnjack/wait-time-guide",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "3beb83a",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-19T20:04:50Z",
+          "url": "https://github.com/syunnjack/wait-time-guide/commit/3beb83ad6881391b9baf2f2bc4d01e5719a9ff80"
+        },
         {
           "sha": "feb7965",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
@@ -11827,15 +11851,9 @@
           "message": "Fix production URL in README (#1)",
           "date": "2026-07-31T23:05:47Z",
           "url": "https://github.com/syunnjack/wait-time-guide/commit/d39a6d3478ade9eb3909938ebdc21cf1759ce42a"
-        },
-        {
-          "sha": "5e74d0a",
-          "message": "Add SEO UGC and monetization strategy",
-          "date": "2026-07-17T20:07:26Z",
-          "url": "https://github.com/syunnjack/wait-time-guide/commit/5e74d0ae74272b48b4a35f5d1a691ea96e580a78"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:09Z",
+      "updatedAt": "2026-08-19T20:08:21Z",
       "stars": 0,
       "forks": 0
     },
