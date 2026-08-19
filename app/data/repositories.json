@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T01:50:32.553Z",
+  "generatedAt": "2026-08-19T02:39:51.711Z",
   "owner": "syunnjack",
   "totalRepositories": 174,
   "publicRepositories": 174,
@@ -4151,6 +4151,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "0016558",
+          "message": "ページ送りの表示を日本語にし、2ページ目以降のcanonicalを直す",
+          "date": "2026-08-19T02:29:06Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/0016558749f0819296892d2d41b5113ca0094e60"
+        },
+        {
+          "sha": "5fa7bdf",
+          "message": "トップページの38MBを解消し、都道府県ページを追加する",
+          "date": "2026-08-19T02:24:48Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/5fa7bdfdab3a7106ba51879d492e370f61800fd5"
+        },
+        {
           "sha": "f6dfaff",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:19Z",
@@ -4209,21 +4221,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T18:00:07Z",
           "url": "https://github.com/syunnjack/hoiku-map/commit/ccb83b1f21a49c4ea737bab3d56754d1edfa9794"
-        },
-        {
-          "sha": "5483d55",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:31Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/5483d553793b04e7627e032db3b8f730c198c9e1"
-        },
-        {
-          "sha": "0dc2f64",
-          "message": "保育園マップ（地図×UGC×空きあり通知・見学入園相談受付）を新規構築",
-          "date": "2026-07-15T09:15:10Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/0dc2f64b2937b9e5c967a6668a6708b8668e6946"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:41Z",
+      "updatedAt": "2026-08-19T02:29:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -11337,6 +11337,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dffb1a8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T01:51:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/dffb1a8174f0de5ece088dac792d7ae2aee1d848"
+        },
+        {
           "sha": "93c91b4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T00:28:06Z",
@@ -11401,15 +11407,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T14:27:48Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0f9415690f44d2080b76561c3d1c5fbb50e374dd"
-        },
-        {
-          "sha": "4051efc",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T13:31:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4051efc20cab08b28b4a732670adafa4f5385ad7"
         }
       ],
-      "updatedAt": "2026-08-19T00:28:27Z",
+      "updatedAt": "2026-08-19T01:51:27Z",
       "stars": 0,
       "forks": 0
     },
