@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:27:04.591Z",
+  "generatedAt": "2026-08-19T05:26:04.871Z",
   "owner": "syunnjack",
   "totalRepositories": 174,
   "publicRepositories": 174,
@@ -2813,6 +2813,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2eddecf",
+          "message": "chikuden-hojokin.jp を一度だけ公開するワークフローを足す",
+          "date": "2026-08-19T05:05:54Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/2eddecf6447d6d29dc0662f6b1f39d25ad908374"
+        },
+        {
           "sha": "67aa7a1",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:45Z",
@@ -2877,15 +2883,9 @@
           "message": "都道府県ごとのページが正しい正規URLを示すようにする",
           "date": "2026-08-18T16:16:55Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/11bacaf28e4ac8a4cf9bf38927cb226139485120"
-        },
-        {
-          "sha": "8876f31",
-          "message": "robots.txt のサイトマップを本番ドメインに直す",
-          "date": "2026-08-18T00:27:15Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/8876f3126f243ef38ab4b9f94a9378cc0116e8d5"
         }
       ],
-      "updatedAt": "2026-08-18T23:01:02Z",
+      "updatedAt": "2026-08-19T05:06:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -5286,6 +5286,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "58f6d93",
+          "message": "車種50件を掲載し、車種ページのURLと出典を整える",
+          "date": "2026-08-19T05:05:42Z",
+          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/58f6d9346bdb434d7a4cc6570231966f5d812f52"
+        },
+        {
           "sha": "a59df69",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:43Z",
@@ -5350,15 +5356,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:09:47Z",
           "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/414ed0d59be133d86e9e0d1a90ce9a8566b5f9bf"
-        },
-        {
-          "sha": "9bfa024",
-          "message": "CheckPriceReportWatches: 検知カーソルをcreated_atからprice_reports.idベースに変更",
-          "date": "2026-07-15T15:27:26Z",
-          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/9bfa024d632771609b48fa8f71084be027fb8fdd"
         }
       ],
-      "updatedAt": "2026-08-18T23:01:02Z",
+      "updatedAt": "2026-08-19T05:07:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -6257,6 +6257,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3d93cca",
+          "message": "Google APIキーがページに出ていた問題を直す",
+          "date": "2026-08-19T05:14:13Z",
+          "url": "https://github.com/syunnjack/maportal/commit/3d93ccac0dd3412a382ced5b976ef268d4ced574"
+        },
+        {
           "sha": "df6a40d",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:54:24Z",
@@ -6323,7 +6329,7 @@
           "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:30Z",
+      "updatedAt": "2026-08-19T05:15:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -6849,6 +6855,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "fc18487",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-08-19T05:21:10Z",
+          "url": "https://github.com/syunnjack/my-affiliate-site/commit/fc18487fc0ab133d5aa94810fc1e6630c28d6a3d"
+        },
+        {
+          "sha": "7ccd975",
+          "message": "chikuden-hojokin.jp へ静的サイトとして配信する",
+          "date": "2026-08-19T05:04:01Z",
+          "url": "https://github.com/syunnjack/my-affiliate-site/commit/7ccd975f0a7247df3d09f0a9573fcbd7de5fe9b7"
+        },
+        {
+          "sha": "ebe1e4e",
+          "message": "根拠のない補助額の表示をやめ、一次情報に案内する",
+          "date": "2026-08-19T04:55:13Z",
+          "url": "https://github.com/syunnjack/my-affiliate-site/commit/ebe1e4ef9a145b05c16dd5c1f410787d66ef5235"
+        },
+        {
           "sha": "85ecbf7",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:54:38Z",
@@ -6901,27 +6925,9 @@
           "message": "Add GA4 tracking",
           "date": "2026-08-04T06:05:22Z",
           "url": "https://github.com/syunnjack/my-affiliate-site/commit/0d001de198bd6ae97d350025aa9c0ccaf563e1aa"
-        },
-        {
-          "sha": "778235c",
-          "message": "fix: sort prefectures from North to South",
-          "date": "2026-04-11T08:33:17Z",
-          "url": "https://github.com/syunnjack/my-affiliate-site/commit/778235c01ddf5d892f7d8ad137ef70456912a45a"
-        },
-        {
-          "sha": "2d0750c",
-          "message": "fix: remove event handlers to fix build error",
-          "date": "2026-04-11T05:21:16Z",
-          "url": "https://github.com/syunnjack/my-affiliate-site/commit/2d0750c3b484f38e4da8188106fee4d486cd0be6"
-        },
-        {
-          "sha": "15d046b",
-          "message": "fix: globalize title and group cities by prefecture",
-          "date": "2026-04-11T00:26:11Z",
-          "url": "https://github.com/syunnjack/my-affiliate-site/commit/15d046b6762b52485ed34b016b84887e194d7ac6"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:43Z",
+      "updatedAt": "2026-08-19T05:21:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -10039,6 +10045,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "93d11d6",
+          "message": "喫煙所に市区町村を付け、都道府県ページを追加する",
+          "date": "2026-08-19T04:51:03Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/93d11d6f5f05bc1450a43d65c14c7196b5cc4c97"
+        },
+        {
           "sha": "b64a396",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:26Z",
@@ -10103,15 +10115,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T05:05:50Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/17b9cfafc1b7eb80e9dd22b71335164fbdd33dc6"
-        },
-        {
-          "sha": "fdf3042",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:15Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/fdf3042463001833be5eaae9e011bf33822eccb7"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:53Z",
+      "updatedAt": "2026-08-19T04:51:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -11337,6 +11343,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d71186c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T04:27:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d71186c64c5e4906c91d9551e1e29cac93493c56"
+        },
+        {
           "sha": "8612911",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T03:32:03Z",
@@ -11401,15 +11413,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T17:25:52Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/98b6b6226cf707d5deb18331c7b048d492eb27b7"
-        },
-        {
-          "sha": "efbb519",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T16:26:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/efbb51926b98d23e076f844fe3c8e5df042b612f"
         }
       ],
-      "updatedAt": "2026-08-19T03:33:55Z",
+      "updatedAt": "2026-08-19T04:27:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -11908,6 +11914,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e423e87",
+          "message": "オンザページ（旧ノバレーゼ・エスクリ）の34会場を追加する",
+          "date": "2026-08-19T04:27:27Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/e423e8720756aa1f75829c077919a562278a01f5"
+        },
+        {
           "sha": "497d1b6",
           "message": "アイ・ケイ・ケイの8会場を追加する",
           "date": "2026-08-19T04:16:40Z",
@@ -11972,15 +11984,9 @@
           "message": "feat: 結婚式場データを138件に拡充（北海道〜沖縄・離島まで全都道府県カバー）",
           "date": "2026-08-11T18:07:46Z",
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/9291415cd974d295f18b1a083d3d1367decd8b19"
-        },
-        {
-          "sha": "df0d585",
-          "message": "feat: 全国60件の結婚式場データ追加・デプロイワークフロー改善（rsync+SSH+seeding）",
-          "date": "2026-08-11T18:03:14Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/df0d585dba03e59b27d5d64086553adf91053e2c"
         }
       ],
-      "updatedAt": "2026-08-19T04:16:59Z",
+      "updatedAt": "2026-08-19T04:28:29Z",
       "stars": 0,
       "forks": 0
     },
