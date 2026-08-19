@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T03:31:33.462Z",
+  "generatedAt": "2026-08-19T04:27:04.591Z",
   "owner": "syunnjack",
   "totalRepositories": 174,
   "publicRepositories": 174,
@@ -4523,16 +4523,22 @@
       "slug": "itshikaku-shindan",
       "name": "itshikaku-shindan",
       "displayName": "Itshikaku Shindan",
-      "description": "Itshikaku Shindanは、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Itshikaku Shindanは、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Itshikaku Shindanは、Bladeを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Itshikaku Shindanは、Bladeを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/itshikaku-shindan",
       "defaultBranch": "main",
-      "primaryLanguage": "PHP",
+      "primaryLanguage": "Blade",
       "languages": [
-        "PHP"
+        "Blade"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "197f9cf",
+          "message": "問題を80問から300問に増やし、資格ごとに無料体験5問を用意する",
+          "date": "2026-08-19T03:32:20Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/197f9cf330340e1d129659db4961e75afb726416"
+        },
         {
           "sha": "a3c4164",
           "message": "問題データが本番に入らない状態を直す",
@@ -4598,15 +4604,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:09:35Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/9d9d1be20afa20b7561dd346a672440c767171d8"
-        },
-        {
-          "sha": "87a24db",
-          "message": "Enrich paid question explanations",
-          "date": "2026-07-14T23:17:03Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/87a24db588b8633a18e9725eb7d2fe532b746d24"
         }
       ],
-      "updatedAt": "2026-08-19T03:05:20Z",
+      "updatedAt": "2026-08-19T03:32:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -11337,6 +11337,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8612911",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T03:32:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8612911a94f902119cb96973b6f27ebdc3672f14"
+        },
+        {
           "sha": "2b89ea8",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T02:40:22Z",
@@ -11401,15 +11407,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T16:26:57Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/efbb51926b98d23e076f844fe3c8e5df042b612f"
-        },
-        {
-          "sha": "8413557",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T15:26:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/841355755724895dec6627ca45cb7d11e70a92a9"
         }
       ],
-      "updatedAt": "2026-08-19T02:41:13Z",
+      "updatedAt": "2026-08-19T03:33:55Z",
       "stars": 0,
       "forks": 0
     },
@@ -11897,16 +11897,34 @@
       "slug": "wedding-hall-map",
       "name": "wedding-hall-map",
       "displayName": "Wedding Hall Map",
-      "description": "Wedding Hall Mapは、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Wedding Hall Mapは、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Wedding Hall Mapは、Bladeを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Wedding Hall Mapは、Bladeを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/wedding-hall-map",
       "defaultBranch": "main",
-      "primaryLanguage": "PHP",
+      "primaryLanguage": "Blade",
       "languages": [
-        "PHP"
+        "Blade"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "497d1b6",
+          "message": "アイ・ケイ・ケイの8会場を追加する",
+          "date": "2026-08-19T04:16:40Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/497d1b6f96ce3fc8b170ea30302c91deb9f4d6f4"
+        },
+        {
+          "sha": "5edc61d",
+          "message": "運営会社の公式サイトから28会場を追加する",
+          "date": "2026-08-19T04:06:11Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/5edc61df74f824194a5f55b7c507ba28b2a179ba"
+        },
+        {
+          "sha": "7355fe0",
+          "message": "掲載データを出典のたどれる121会場に置き換える",
+          "date": "2026-08-19T03:57:49Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/7355fe0fb82e5fa888c638d40344dabae9222d04"
+        },
         {
           "sha": "d37a099",
           "message": "LINE設定を本番に反映する仕組みを用意する",
@@ -11960,27 +11978,9 @@
           "message": "feat: 全国60件の結婚式場データ追加・デプロイワークフロー改善（rsync+SSH+seeding）",
           "date": "2026-08-11T18:03:14Z",
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/df0d585dba03e59b27d5d64086553adf91053e2c"
-        },
-        {
-          "sha": "187ec6a",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:56Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/187ec6ab95006d71d0020ef960a9455e36373bb2"
-        },
-        {
-          "sha": "b70d2f0",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:25Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/b70d2f05941b9e4b3bc21e64ec1cd5a938437c27"
-        },
-        {
-          "sha": "a6c6e53",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:10:15Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/a6c6e53fc56348d699dfd3fbfdfa1e8529cbbdb9"
         }
       ],
-      "updatedAt": "2026-08-18T23:01:03Z",
+      "updatedAt": "2026-08-19T04:16:59Z",
       "stars": 0,
       "forks": 0
     },
