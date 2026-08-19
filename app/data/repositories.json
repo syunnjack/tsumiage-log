@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:25:05.587Z",
+  "generatedAt": "2026-08-19T23:24:53.111Z",
   "owner": "syunnjack",
   "totalRepositories": 178,
   "publicRepositories": 178,
@@ -2524,6 +2524,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e562fd2",
+          "message": "会場データをOpenStreetMapの最新の内容に更新する",
+          "date": "2026-08-19T23:00:25Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/e562fd233e3b343ffd1a1ceabaa5fc10e9b1b6c8"
+        },
+        {
           "sha": "3b6d0c6",
           "message": "データ更新のあとに自動でデプロイする",
           "date": "2026-08-19T21:04:50Z",
@@ -2588,15 +2594,9 @@
           "message": "Fix title/description: use Japanese copy matching actual content",
           "date": "2026-08-04T15:19:06Z",
           "url": "https://github.com/syunnjack/event-trip-alert/commit/82e7e63ff16e00f1ff54d4a5a99a913764a3169a"
-        },
-        {
-          "sha": "a1e320c",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:11:36Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/a1e320cc5adcd60d37d1c0cee61e4b89b3fed89d"
         }
       ],
-      "updatedAt": "2026-08-19T21:06:50Z",
+      "updatedAt": "2026-08-19T23:02:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -6483,6 +6483,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "396feb3",
+          "message": "24時間営業の店舗データを更新する",
+          "date": "2026-08-19T22:25:13Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/396feb3c6d21d34dda045679979301c419049ee0"
+        },
+        {
           "sha": "b81c6b4",
           "message": "データ更新のあとに自動でデプロイする",
           "date": "2026-08-19T21:05:06Z",
@@ -6547,15 +6553,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T19:19:03Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/38a36b929321cc632062e246688d1b9a379bf030"
-        },
-        {
-          "sha": "7b75646",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:56:43Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/7b7564665192f77e37ec36b71d1ca6d20ecfd4ff"
         }
       ],
-      "updatedAt": "2026-08-19T21:08:01Z",
+      "updatedAt": "2026-08-19T22:25:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -11471,6 +11471,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "926d3ed",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T22:25:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/926d3ede4676ec12493c990e2d7ec786361a83b0"
+        },
+        {
           "sha": "23222aa",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T21:25:46Z",
@@ -11535,15 +11541,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T11:25:45Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9400f3aa9ecb046227209785494e8e4204b02087"
-        },
-        {
-          "sha": "9f55c8f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T10:26:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f55c8f59947973c9f867903814846aafae4dfd1"
         }
       ],
-      "updatedAt": "2026-08-19T21:26:20Z",
+      "updatedAt": "2026-08-19T22:25:47Z",
       "stars": 0,
       "forks": 0
     },
