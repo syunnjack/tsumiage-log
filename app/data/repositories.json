@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:28:14.590Z",
+  "generatedAt": "2026-08-19T08:26:30.510Z",
   "owner": "syunnjack",
   "totalRepositories": 174,
   "publicRepositories": 174,
@@ -2813,6 +2813,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c067d4b",
+          "message": "chikuden-hojokin.jp の暫定配信ワークフローを削除する",
+          "date": "2026-08-19T08:20:13Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/c067d4b9953456aece2e1a98654f3033489ae475"
+        },
+        {
           "sha": "5c7c3ec",
           "message": "camp-hikaku の調査用ワークフローを削除する",
           "date": "2026-08-19T07:01:26Z",
@@ -2877,15 +2883,9 @@
           "message": "アプリの実際の場所に合わせて調査内容を直す",
           "date": "2026-08-19T05:55:44Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/7714d41dff30dd555f0cb690dd6779f7b0598ace"
-        },
-        {
-          "sha": "d998fa7",
-          "message": "umikaido.jp の配信元を調べる一時ワークフローを足す（読み取り専用・確認後に削除）",
-          "date": "2026-08-19T05:54:26Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/d998fa72f77012f4c5879350a8b056387f52c2e7"
         }
       ],
-      "updatedAt": "2026-08-19T07:03:30Z",
+      "updatedAt": "2026-08-19T08:22:12Z",
       "stars": 0,
       "forks": 0
     },
@@ -6855,6 +6855,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "af05685",
+          "message": "秘密鍵の末尾改行を補ってから配信する",
+          "date": "2026-08-19T08:09:06Z",
+          "url": "https://github.com/syunnjack/my-affiliate-site/commit/af05685ebbeabd991a144b9229cf43911b3ee54b"
+        },
+        {
           "sha": "fc18487",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-19T05:21:10Z",
@@ -6919,15 +6925,9 @@
           "message": "Add missing page title/meta description; fix nested body tag",
           "date": "2026-08-05T11:21:08Z",
           "url": "https://github.com/syunnjack/my-affiliate-site/commit/532a6baa134240d4b314cc988d46aa9f3cbb2147"
-        },
-        {
-          "sha": "0d001de",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:05:22Z",
-          "url": "https://github.com/syunnjack/my-affiliate-site/commit/0d001de198bd6ae97d350025aa9c0ccaf563e1aa"
         }
       ],
-      "updatedAt": "2026-08-19T05:21:27Z",
+      "updatedAt": "2026-08-19T08:10:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -11343,6 +11343,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "74ec13e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-19T07:28:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/74ec13e1d6dc48c8ec36d73059e3eabd1061fab8"
+        },
+        {
           "sha": "3fd90a7",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T06:27:44Z",
@@ -11407,15 +11413,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-18T20:25:20Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d61cf083a7aebfe7308ecf5b148b0619b74258d7"
-        },
-        {
-          "sha": "eadc7eb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-18T19:26:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/eadc7eb77b0816491ab93af7dd7ee203a4ddaf2a"
         }
       ],
-      "updatedAt": "2026-08-19T06:27:56Z",
+      "updatedAt": "2026-08-19T07:29:24Z",
       "stars": 0,
       "forks": 0
     },
