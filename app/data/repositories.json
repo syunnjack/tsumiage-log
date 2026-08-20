@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T10:25:43.756Z",
+  "generatedAt": "2026-08-20T11:25:13.329Z",
   "owner": "syunnjack",
   "totalRepositories": 178,
   "publicRepositories": 178,
@@ -1333,6 +1333,42 @@
       "files": [],
       "commits": [
         {
+          "sha": "ad7282d",
+          "message": "高校英語の解説動画を自動生成 [skip ci]",
+          "date": "2026-08-20T11:00:33Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/ad7282de7b2c66ffe6f056826795ee7fdd484ca5"
+        },
+        {
+          "sha": "e818a5e",
+          "message": "英語解説動画の自動生成を軽量化",
+          "date": "2026-08-20T10:56:32Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/e818a5e274800fb6b4217b321098a0e6afeb9328"
+        },
+        {
+          "sha": "c227d08",
+          "message": "高校英語トップに第2回 時制を追加",
+          "date": "2026-08-20T10:54:31Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/c227d08b17cc9428cea24ef67ffcf816e35f3fea"
+        },
+        {
+          "sha": "ab70317",
+          "message": "高校英語 第2回：時制の解説ページを追加",
+          "date": "2026-08-20T10:54:17Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/ab70317de593fe1d69042c0cdb8717f78ada33ed"
+        },
+        {
+          "sha": "d1ea978",
+          "message": "高校英語 第2回：時制の動画教材データを追加",
+          "date": "2026-08-20T10:54:05Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/d1ea978470cbb961b41edc79cdaf74e5224e8533"
+        },
+        {
+          "sha": "dd2747d",
+          "message": "解説動画を自動生成するGitHub Actionsを追加",
+          "date": "2026-08-20T10:53:38Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/dd2747dd5cfb062bb56faa8581bab76f926df8f1"
+        },
+        {
           "sha": "282eb2c",
           "message": "高校英語トップに第1回5文型を公開",
           "date": "2026-08-20T05:17:12Z",
@@ -1367,33 +1403,9 @@
           "message": "高校受験数学 第3回：正方形2つと七角形の面積（合同の証明つき、図つき動画）",
           "date": "2026-08-17T08:10:24Z",
           "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/55b9df068ec12e9da640912f1d5a7cd842b5a2b9"
-        },
-        {
-          "sha": "418b959",
-          "message": "図形作図機能を追加し、高校受験数学 第2回（三平方の定理と垂線）を公開",
-          "date": "2026-08-17T08:00:27Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/418b959b416420a938c23b5dbd174369d7f8c68b"
-        },
-        {
-          "sha": "57ef806",
-          "message": "第8〜13回の解説動画とページを追加、チャンネル名・サブタイトルを全動画に反映",
-          "date": "2026-08-17T07:42:47Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/57ef806baaecdb01fd3d37c8cecc429867b00940"
-        },
-        {
-          "sha": "ce96686",
-          "message": "高校数学ポータル（5科目構成）と解説動画7本を追加",
-          "date": "2026-08-17T07:15:51Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/ce96686ebd8dd2faa54a3905f3bd67bbb0c2a891"
-        },
-        {
-          "sha": "de096d0",
-          "message": "初期コミット：README",
-          "date": "2026-08-17T07:01:23Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/de096d0f5973e91688e41b9e08e0d4171c02b580"
         }
       ],
-      "updatedAt": "2026-08-20T05:18:07Z",
+      "updatedAt": "2026-08-20T11:01:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -11489,6 +11501,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1b79481",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-20T10:26:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1b79481365d25588d59f7b6ba9a194d729e67399"
+        },
+        {
           "sha": "159c4d2",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-20T09:26:46Z",
@@ -11553,15 +11571,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T23:25:19Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d17e45040bb4c2daff254d65a7e150b5c98a5a29"
-        },
-        {
-          "sha": "926d3ed",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T22:25:38Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/926d3ede4676ec12493c990e2d7ec786361a83b0"
         }
       ],
-      "updatedAt": "2026-08-20T09:27:45Z",
+      "updatedAt": "2026-08-20T10:28:16Z",
       "stars": 0,
       "forks": 0
     },
