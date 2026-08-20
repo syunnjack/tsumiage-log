@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:27:02.755Z",
+  "generatedAt": "2026-08-20T05:26:05.477Z",
   "owner": "syunnjack",
   "totalRepositories": 178,
   "publicRepositories": 178,
@@ -1333,6 +1333,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "282eb2c",
+          "message": "高校英語トップに第1回5文型を公開",
+          "date": "2026-08-20T05:17:12Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/282eb2cd712c357faa6ecc2ffc2037fdba3651d7"
+        },
+        {
+          "sha": "af74652",
+          "message": "高校英語 第1回：5文型の解説ページを追加",
+          "date": "2026-08-20T05:16:58Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/af74652105346353dda41aea0e2567245d976fd1"
+        },
+        {
+          "sha": "fe454a7",
+          "message": "高校英語 第1回：5文型の動画教材データを追加",
+          "date": "2026-08-20T05:16:40Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/fe454a74982b10fef7c131684d8cf6689e752ee8"
+        },
+        {
           "sha": "74d42c6",
           "message": "高校受験数学 第6回：中点の軌跡と△BPQの最大（2π cm、2 cm²）",
           "date": "2026-08-17T08:38:47Z",
@@ -1375,7 +1393,7 @@
           "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/de096d0f5973e91688e41b9e08e0d4171c02b580"
         }
       ],
-      "updatedAt": "2026-08-17T08:39:45Z",
+      "updatedAt": "2026-08-20T05:18:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -10349,6 +10367,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "77bb381",
+          "message": "全テーブルで行レベルセキュリティを有効にする",
+          "date": "2026-08-20T04:33:19Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/77bb381fa2df8586671a226414a0d86a9815f334"
+        },
+        {
           "sha": "5509e4a",
           "message": "トップページに構造化データ(JSON-LD)を追加する",
           "date": "2026-08-17T23:06:53Z",
@@ -10413,15 +10437,9 @@
           "message": "Add GA4 tracking",
           "date": "2026-08-04T06:05:13Z",
           "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4711b180d79bb27a343f63cb95152408cfa3dbcf"
-        },
-        {
-          "sha": "d7f1e66",
-          "message": "Add Nagoya station MVP page",
-          "date": "2026-07-16T18:06:57Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/d7f1e66a197b82a1c79c1a957c22243d4f73d005"
         }
       ],
-      "updatedAt": "2026-08-17T23:07:21Z",
+      "updatedAt": "2026-08-20T04:35:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -11471,6 +11489,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f92812b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-20T04:27:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f92812b259d9afffc33ca9b5b8c6e6df56f44a77"
+        },
+        {
           "sha": "5c453f0",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-20T03:31:51Z",
@@ -11535,15 +11559,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-19T17:25:41Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/28a8cbeb9883ee5840a9249d4cef521856820047"
-        },
-        {
-          "sha": "f8bbcc8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-19T16:26:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f8bbcc8f6589e5521607e1a74592ecb075417198"
         }
       ],
-      "updatedAt": "2026-08-20T03:32:05Z",
+      "updatedAt": "2026-08-20T04:29:04Z",
       "stars": 0,
       "forks": 0
     },
