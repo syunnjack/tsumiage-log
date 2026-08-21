@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:25:36.984Z",
+  "generatedAt": "2026-08-21T18:26:54.752Z",
   "owner": "syunnjack",
   "totalRepositories": 180,
   "publicRepositories": 180,
@@ -3209,6 +3209,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "4017089",
+          "message": "診断用の sync-status.txt を外す",
+          "date": "2026-08-21T17:34:02Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/4017089400c28dc17a57e826abfb2517de0664d8"
+        },
+        {
+          "sha": "e7b0b03",
+          "message": "楽天の認証情報を登録したので、デプロイを走らせて同期する",
+          "date": "2026-08-21T17:30:41Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/e7b0b03faf7104fbf7dae78083aa9193d06dad0e"
+        },
+        {
+          "sha": "097dc94",
+          "message": "同期の結果を public/sync-status.txt に書き出す",
+          "date": "2026-08-21T17:25:47Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/097dc947076846078bde2097a00a705defa2c457"
+        },
+        {
           "sha": "a8eb260",
           "message": "返礼品の判定に店名も使う（テストが落ちていたのを直す）",
           "date": "2026-08-21T16:55:36Z",
@@ -3261,27 +3279,9 @@
           "message": "自治体データの取り込みがサーバーで失敗しないようにする",
           "date": "2026-08-18T22:32:07Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/f96b52aaf08b2a8567f48cebe6237bbe30dbf4b6"
-        },
-        {
-          "sha": "cba2cab",
-          "message": "自治体1,788団体の受入実績ページを追加する",
-          "date": "2026-08-18T22:24:15Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/cba2cabb76e2399fd8920452994356c3acf75aff"
-        },
-        {
-          "sha": "0f21bc9",
-          "message": "カテゴリ・地域ごとのページが正しい正規URLを示すようにする",
-          "date": "2026-08-18T22:01:08Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/0f21bc956a3d271feb26ff178e8d5cf619d6a0c8"
-        },
-        {
-          "sha": "64a502b",
-          "message": "カタログ同期の失敗でデプロイ全体が落ちないようにし、同期の実行時刻を移す",
-          "date": "2026-08-18T19:20:42Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/64a502b6aba68af4ce6c493c5f3c5c1f2311720e"
         }
       ],
-      "updatedAt": "2026-08-21T16:55:59Z",
+      "updatedAt": "2026-08-21T17:34:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -11593,6 +11593,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "174113e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T17:26:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/174113eb21610d90cb922896af1af66ec462e148"
+        },
+        {
           "sha": "b4ece79",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T16:26:58Z",
@@ -11657,15 +11663,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T07:31:32Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/36b2e0cfaf638b40c861bff709c9d72e8e5d0592"
-        },
-        {
-          "sha": "da0cd5b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T06:28:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/da0cd5bf480c9ed351fe19e7088b47ba2ef8c7a8"
         }
       ],
-      "updatedAt": "2026-08-21T16:31:10Z",
+      "updatedAt": "2026-08-21T17:26:20Z",
       "stars": 0,
       "forks": 0
     },
