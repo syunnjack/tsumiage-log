@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T14:26:50.422Z",
+  "generatedAt": "2026-08-21T15:27:04.905Z",
   "owner": "syunnjack",
   "totalRepositories": 180,
   "publicRepositories": 180,
@@ -2936,6 +2936,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "55038fb",
+          "message": "トップページに、自治体が公表している出店場所115か所を出す",
+          "date": "2026-08-21T14:40:10Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/55038fb90e03c1e68bd305fdadd64bad8503d2bd"
+        },
+        {
           "sha": "29c2df9",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T13:49:32Z",
@@ -3000,15 +3006,9 @@
           "message": "出店スポットを本番に取り込むワークフローを足す",
           "date": "2026-08-18T16:26:52Z",
           "url": "https://github.com/syunnjack/foodtruck-map/commit/5bc1e38dbd837a5f435f29cc0d9aa7cab8ada687"
-        },
-        {
-          "sha": "3ea13d6",
-          "message": "サーバに残った古い sitemap.xml を消す",
-          "date": "2026-08-18T16:20:06Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/3ea13d68e089b3cefb5d6a2a78bf1801cd9d5724"
         }
       ],
-      "updatedAt": "2026-08-21T13:52:34Z",
+      "updatedAt": "2026-08-21T14:41:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -3209,6 +3209,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1e8f169",
+          "message": "返礼品でない商品を取り込んでいたのを直し、カテゴリ全体に行き渡らせる",
+          "date": "2026-08-21T15:11:21Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/1e8f1698cff7a155746f8b11af954dc90c4711e8"
+        },
+        {
           "sha": "e7fd753",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:31Z",
@@ -3273,15 +3279,9 @@
           "message": "Remove one-off cleanup workflow",
           "date": "2026-08-08T22:24:19Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/dda41bd30658f61632d3dd976846e368e3bc9bde"
-        },
-        {
-          "sha": "ffc1824",
-          "message": "Add cleanup-and-link job to fix public_html structure",
-          "date": "2026-08-08T22:21:58Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/ffc1824e4eb750852c66a12866802bcd12192a1d"
         }
       ],
-      "updatedAt": "2026-08-21T14:09:16Z",
+      "updatedAt": "2026-08-21T15:12:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -6605,6 +6605,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "492ec04",
+          "message": "24時間営業の店舗データを更新する",
+          "date": "2026-08-21T15:20:55Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/492ec04fe7df3ae5bb57ecd943d89ac46aace3e4"
+        },
+        {
           "sha": "5d81dee",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:09:27Z",
@@ -6669,15 +6675,9 @@
           "message": "Add Search Console verification meta tag",
           "date": "2026-08-04T14:12:32Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/0067c4cbe3e2db5c9ebcd0c57ac6ecc2e6309e50"
-        },
-        {
-          "sha": "845d9f5",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:27:50Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/845d9f59872af81407dbcd8de43b54421767c924"
         }
       ],
-      "updatedAt": "2026-08-21T14:12:40Z",
+      "updatedAt": "2026-08-21T15:22:52Z",
       "stars": 0,
       "forks": 0
     },
@@ -11593,6 +11593,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e2d6b94",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T14:27:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e2d6b941c535bf8003f7fd515dfe4e13468907d0"
+        },
+        {
           "sha": "5529855",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:10:14Z",
@@ -11657,15 +11663,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T04:27:19Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/65f3364d149a0247b5fc5c9c997776c4e83622c1"
-        },
-        {
-          "sha": "9c51293",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T03:34:51Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c51293fb817ef58ca525ca9ecf0177315262470"
         }
       ],
-      "updatedAt": "2026-08-21T14:10:35Z",
+      "updatedAt": "2026-08-21T14:28:16Z",
       "stars": 0,
       "forks": 0
     },
