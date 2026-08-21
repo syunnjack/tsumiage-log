@@ -1,11 +1,10 @@
 {
-  "generatedAt": "2026-08-21T06:27:35.620Z",
+  "generatedAt": "2026-08-21T07:30:58.282Z",
   "owner": "syunnjack",
   "totalRepositories": 180,
   "publicRepositories": 180,
   "privateRepositories": 0,
   "skippedRepositories": [
-    "arukatsu",
     "scan-doc",
     "abeshi-mvp",
     "darenano",
@@ -546,6 +545,37 @@
         }
       ],
       "updatedAt": "2026-08-19T17:46:21Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "arukatsu",
+      "name": "arukatsu",
+      "displayName": "Arukatsu",
+      "description": "歩活データ（arukatsu",
+      "readmeExcerpt": "歩活データ（arukatsu.jp） 厚生労働省「国民健康・栄養調査」の平均歩数を、都道府県別・年代別・年次推移で 掲載する静的サイト。 データ 内容 調査年 備考 都道府県別（20〜64歳・年齢調整値） 2016年 調査規模を広げた年にしか集計されない ため、これが最新 年代別 2019年 年次推移 2003年〜2017年 取得は e Stat の API 経由。 appId は環境変数 ESTAT APP ID から読み、 リポジトリには置かない（GitHub のシークレットに登録する）。 方針 公表値をそのまま載せる。推計はしない 健康や運動に関する助言は書かない （何歩あるくべきかは人によって違うため） 歩数が少ない地域について、個人の努力の問題であるかのような書き方をしない （地形・交通手段・産業構成の影響が大きい） 2016年は熊本県が調査対象外。値が無いことを明記し、順位を付けない 構成 URL 内容 / 都道府県別の順位（46都道府県） /prefectures/{ローマ字}/ 都道府県ごとの平均歩数と全国平均との差 /ages/ 年代別 /trend/ 年次推移 /about/ データの出所と、扱っていないもの デプロイ main へ push すると Actions が dist/ を Xserver へ rsync する。 必要なシークレット: SSH HOST SSH USERNAME SSH PRIVATE KEY ESTAT APP ID 。",
+      "url": "https://github.com/syunnjack/arukatsu",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "1169a72",
+          "message": "デプロイを実行する",
+          "date": "2026-08-21T06:29:02Z",
+          "url": "https://github.com/syunnjack/arukatsu/commit/1169a72de539c592566f5d09fd6cbe6956e9d57d"
+        },
+        {
+          "sha": "93fe030",
+          "message": "歩数データを載せるサイトを作る（47都道府県・51ページ）",
+          "date": "2026-08-21T04:23:13Z",
+          "url": "https://github.com/syunnjack/arukatsu/commit/93fe030c8c1c226df4eda22347696787f1674332"
+        }
+      ],
+      "updatedAt": "2026-08-21T06:29:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -11533,6 +11563,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "da0cd5b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T06:28:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/da0cd5bf480c9ed351fe19e7088b47ba2ef8c7a8"
+        },
+        {
           "sha": "5a49469",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T05:26:43Z",
@@ -11597,15 +11633,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-20T19:26:32Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8a8792fe1c87618495670661425a4cc495db95f9"
-        },
-        {
-          "sha": "adee71c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-20T18:27:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/adee71cc3ece5cc571cec4754276cb3ca9487b6e"
         }
       ],
-      "updatedAt": "2026-08-21T05:26:56Z",
+      "updatedAt": "2026-08-21T06:28:18Z",
       "stars": 0,
       "forks": 0
     },
