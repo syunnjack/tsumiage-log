@@ -30,10 +30,10 @@ jobs:
       NEXT_PUBLIC_CUSDIS_APP_ID: "34798e9d-8eb2-4eb1-b7ff-49351d545715"
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm

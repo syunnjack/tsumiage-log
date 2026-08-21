@@ -42,11 +42,11 @@ jobs:
 
       # 動画ファイル本体がリポジトリに入っているため、チェックアウトは重い。
       # 履歴は不要なので浅くする
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
