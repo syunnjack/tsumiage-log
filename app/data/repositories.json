@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:26:56.043Z",
+  "generatedAt": "2026-08-21T13:32:34.628Z",
   "owner": "syunnjack",
   "totalRepositories": 180,
   "publicRepositories": 180,
@@ -2902,7 +2902,7 @@
       "name": "foodtruck-map",
       "displayName": "Foodtruck Map",
       "description": "Foodtruck Mapは、Bladeを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Foodtruck Mapは、Bladeを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "readmeExcerpt": "foodtruck map（foodtruck map.jp） キッチンカーが出店する場所を、住所と出典つきでまとめた地図。 本番URL: https://foodtruck map.jp 配信: Xserver（ /home/xs501620/foodtruck map.jp/ ） Laravel。 public html は公開ディレクトリ、 app/ にアプリ本体 デプロイの癖（先に読むこと） 通常のデプロイ（ deploy.yml ）は public/ と resources/ しか送りません。 app/ routes/ database/ はサーバーに届きません。 このため、ビューから新しいルートやモデルを参照すると、本番だけ500になります （実際にトップとトラック一覧を落としたことがあります）。ビューが新しい ルートに触れるときは Route::has で存在を確認してから使ってください。 app/ routes/ database/ を送って migrate と seed まで流すのは import data.yml （手動実行） です。出店場所のデータを更新したら、 これを実行しないと本番に反映されません。 掲載しているデータ 自治体・公園管理者が公式に公表している出店場所だけを載せています。 推測で埋めることはしません。日々の出店予定は自治体が毎月更新するため 持たず、出典先の公式ページへ案内します。 合計115か所・51市区町村・12都道府県（東京77／千葉8／大阪6／神奈川6／埼玉4／ 栃木3／福岡3／秋田3／京都2／岐阜1／愛知1／茨城1）。 いちばん大きい出典は、公益財団法人 東京都公園協会の募集要項（都立公園46か所）です。 出店場所には4つの型があります。 公園 : 自治体が公園のにぎわいづくりのために誘致しているもの 庁舎 : 市役所・区役所・県庁の広場に平日の昼に出るもの（公園より続きやすい） 公園管理者の施設 : 動物園など、指定管理者が誘致しているもの 道の駅 : 屋外テラスや駐車場に出るもの データの作り直し scripts/f",
       "url": "https://github.com/syunnjack/foodtruck-map",
       "defaultBranch": "main",
       "primaryLanguage": "Blade",
@@ -2911,6 +2911,48 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "89e7ba7",
+          "message": "Merge pull request #1 from syunnjack/data/expand-spots",
+          "date": "2026-08-21T13:17:08Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/89e7ba7b9e2b3347a31071def62be45c2e583723"
+        },
+        {
+          "sha": "4b6c46b",
+          "message": "出店場所を115か所にする（12都道府県）",
+          "date": "2026-08-21T13:06:14Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/4b6c46b5eaf4183e7f82aeb6b88e3f5e8290f1e5"
+        },
+        {
+          "sha": "af92481",
+          "message": "出店場所を112か所にする（11都道府県）",
+          "date": "2026-08-21T12:59:03Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/af92481280a98262a1a46b863cfdb7e51cdb4f06"
+        },
+        {
+          "sha": "3c40477",
+          "message": "市役所・区役所での出店6か所を足す（105か所）",
+          "date": "2026-08-21T12:50:41Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/3c404775213802424a0449e950740c2a4caaa47a"
+        },
+        {
+          "sha": "22b7ada",
+          "message": "出店場所を77か所から99か所に増やす",
+          "date": "2026-08-21T12:47:49Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/22b7ada10a1070e91b1bb656aeba80623ef04c56"
+        },
+        {
+          "sha": "abe7a9e",
+          "message": "出店場所を5か所足し、READMEを実態に合わせる",
+          "date": "2026-08-21T12:36:44Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/abe7a9e6916c133a6c125d7a2fdfeca0a832951a"
+        },
+        {
+          "sha": "d1ee017",
+          "message": "出店場所を23か所から72か所に増やす",
+          "date": "2026-08-21T10:46:53Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/d1ee0172cb6da7f35736102489728be212d2ed49"
+        },
         {
           "sha": "3900169",
           "message": "LINE設定を本番に反映する仕組みを用意する",
@@ -2940,51 +2982,9 @@
           "message": "ビューがルート未反映のサーバーで500になるのを直す",
           "date": "2026-08-18T16:09:15Z",
           "url": "https://github.com/syunnjack/foodtruck-map/commit/5984d24636ff1f7c953e92e09a4fc3ed263057a5"
-        },
-        {
-          "sha": "f91db2b",
-          "message": "キッチンカーの出店場所23か所を実データとして追加する",
-          "date": "2026-08-18T16:07:27Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/f91db2b7c02d0350c4a4bb21ce05f51b87bd00a9"
-        },
-        {
-          "sha": "cf06671",
-          "message": "views もデプロイ対象にする",
-          "date": "2026-08-18T08:35:36Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/cf06671e44cc7acd3b0828f3f933d966d3086486"
-        },
-        {
-          "sha": "7d2731d",
-          "message": "robots.txt のサイトマップを本番ドメインに直す",
-          "date": "2026-08-18T00:27:13Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/7d2731d1a892e4b0263c47b69dd3cf1ee42db102"
-        },
-        {
-          "sha": "a5a198b",
-          "message": "空のItemListを出力しないようにする",
-          "date": "2026-08-17T23:14:39Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/a5a198b35a549075897601d182ff4734e4c068af"
-        },
-        {
-          "sha": "7716cb1",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:52:50Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/7716cb1a382a4ad781e6beb62da98b26091cfdda"
-        },
-        {
-          "sha": "b7bb96e",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:59Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/b7bb96e7d5fdbd432aa1e1e70d95e3cb4c061d3c"
-        },
-        {
-          "sha": "e159248",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:29Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/e1592489553066788fe8404a3f8e24b471151090"
         }
       ],
-      "updatedAt": "2026-08-18T23:00:57Z",
+      "updatedAt": "2026-08-21T13:18:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -11563,6 +11563,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "af3198b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T12:27:25Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/af3198bbbe89e0ac928ad78841ebe9317ef684c7"
+        },
+        {
           "sha": "8456627",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T11:25:52Z",
@@ -11627,15 +11633,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T01:53:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a55ef421552cefe73346a01c51f42ab601abb03d"
-        },
-        {
-          "sha": "3819ee9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T00:28:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3819ee9a7faecae663b417c782639e2b4e5bcb6d"
         }
       ],
-      "updatedAt": "2026-08-21T11:25:58Z",
+      "updatedAt": "2026-08-21T12:28:08Z",
       "stars": 0,
       "forks": 0
     },
