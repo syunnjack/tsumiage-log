@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T02:41:25.889Z",
+  "generatedAt": "2026-08-21T03:34:21.724Z",
   "owner": "syunnjack",
-  "totalRepositories": 178,
-  "publicRepositories": 178,
+  "totalRepositories": 179,
+  "publicRepositories": 179,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
@@ -241,6 +241,37 @@
         }
       ],
       "updatedAt": "2026-08-18T00:11:01Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "airport-flow",
+      "name": "airport-flow",
+      "displayName": "Airport Flow",
+      "description": "空港データ（airportflow",
+      "readmeExcerpt": "空港データ（airportflow.jp） 国土交通省「空港管理状況調書」をもとに、全国の空港の乗降客数・着陸回数・ 貨物取扱量を掲載する静的サイト。 データ 内容 出所 乗降客数・着陸回数・貨物取扱量（国内／国際／合計・順位） 国土交通省航空局「空港別順位表」 出典表示は「空港管理状況調書（国土交通省航空局）」と明示する決まりがある （ FAQ https://www.mlit.go.jp/common/001302082.pdf ）。フッタと「このサイトについて」に記載している。 推計はしない。 混雑予想・待ち時間・就航路線・運賃は扱わない。公表値だけを載せる。 データの更新 調書は年度ごとに公表される。新しい年度が出たら、 scripts/build airport data.py の RANKING URL を差し替えて実行する。 URL は 航空：空港管理状況 https://www.mlit.go.jp/koku/15 bf 000185.html で確認する。 構成 URL 内容 / 乗降客数の上位30空港と、指標ごとの入口 /passengers/ /landings/ /cargo/ 指標ごとの全国順位 /airports/{ローマ字}/ 空港ごとの実績（3指標×国内／国際／合計＋順位） /about/ データの出所と、扱っていないもの ヘリポート（名称末尾が H ）は空港と性格が違うため、個別ページを作らず 「このサイトについて」に一覧だけ載せている。 デプロイ main へ push すると Actions が dist/ を Xserver へ rsync する。 必要なシークレット: SSH HOST SSH USERNAME SSH PRIVATE KEY 。",
+      "url": "https://github.com/syunnjack/airport-flow",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "8cfa2b4",
+          "message": "デプロイを実行する",
+          "date": "2026-08-21T03:27:43Z",
+          "url": "https://github.com/syunnjack/airport-flow/commit/8cfa2b4f6766e453d4a53dfc647ff33fcb5575d5"
+        },
+        {
+          "sha": "33e555e",
+          "message": "空港の実績データを載せるサイトを作る（95空港・100ページ）",
+          "date": "2026-08-21T03:12:37Z",
+          "url": "https://github.com/syunnjack/airport-flow/commit/33e555e052d029d5a333752e1c708abca57096ff"
+        }
+      ],
+      "updatedAt": "2026-08-21T03:28:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -11501,6 +11532,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e7b7f34",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T02:41:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e7b7f345c9e4f08cb43930e6f53a511918ed0e9f"
+        },
+        {
           "sha": "a55ef42",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T01:53:00Z",
@@ -11565,15 +11602,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-20T15:27:11Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8921117d90e4c7fe2df7a7431c3ccfa2595b69a4"
-        },
-        {
-          "sha": "fdc0f3a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-20T14:27:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fdc0f3adb40ea15a540ce7bac7158e2d20a834cc"
         }
       ],
-      "updatedAt": "2026-08-21T01:53:09Z",
+      "updatedAt": "2026-08-21T02:42:14Z",
       "stars": 0,
       "forks": 0
     },
