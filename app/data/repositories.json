@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:32:34.628Z",
+  "generatedAt": "2026-08-21T14:26:50.422Z",
   "owner": "syunnjack",
   "totalRepositories": 180,
   "publicRepositories": 180,
@@ -27,6 +27,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "815f341",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:07:48Z",
+          "url": "https://github.com/syunnjack/47meshi/commit/815f341b97e7b0bc395fb5cedd15bc01fdc72593"
+        },
         {
           "sha": "0a3f772",
           "message": "このサイトについて に問い合わせ窓口を書く",
@@ -58,7 +64,7 @@
           "url": "https://github.com/syunnjack/47meshi/commit/7f24c8b49c09709a3d3a54ec0e5dfe3c03f15aaf"
         }
       ],
-      "updatedAt": "2026-08-19T19:31:28Z",
+      "updatedAt": "2026-08-21T14:11:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -259,6 +265,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "916c437",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:07:53Z",
+          "url": "https://github.com/syunnjack/airport-flow/commit/916c43790c01ebd825d3d45628a8161b995b0814"
+        },
+        {
           "sha": "8cfa2b4",
           "message": "デプロイを実行する",
           "date": "2026-08-21T03:27:43Z",
@@ -271,7 +283,7 @@
           "url": "https://github.com/syunnjack/airport-flow/commit/33e555e052d029d5a333752e1c708abca57096ff"
         }
       ],
-      "updatedAt": "2026-08-21T03:28:37Z",
+      "updatedAt": "2026-08-21T14:08:30Z",
       "stars": 0,
       "forks": 0
     },
@@ -563,6 +575,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "20ed3a1",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:07:57Z",
+          "url": "https://github.com/syunnjack/arukatsu/commit/20ed3a16ebd12a0c8f966abcc50ec1371297c733"
+        },
+        {
           "sha": "1169a72",
           "message": "デプロイを実行する",
           "date": "2026-08-21T06:29:02Z",
@@ -575,7 +593,7 @@
           "url": "https://github.com/syunnjack/arukatsu/commit/93fe030c8c1c226df4eda22347696787f1674332"
         }
       ],
-      "updatedAt": "2026-08-21T06:29:11Z",
+      "updatedAt": "2026-08-21T14:10:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -1213,6 +1231,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9cd8589",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:02Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/9cd8589bf986d81af10e95b1f746dfeb9d791459"
+        },
+        {
           "sha": "33b3045",
           "message": "ビューと食い違わないようコントローラとルートも送る",
           "date": "2026-08-19T06:57:39Z",
@@ -1277,15 +1301,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T17:39:09Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/46442b0d0ebc6979969c8f4a0ebec4c501713bb8"
-        },
-        {
-          "sha": "fe1e9c7",
-          "message": "Fix: Change deploy path from dist to public",
-          "date": "2026-08-01T18:53:44Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/fe1e9c7403ea8d993f394344a4ccea3b4b36c615"
         }
       ],
-      "updatedAt": "2026-08-19T06:58:10Z",
+      "updatedAt": "2026-08-21T14:08:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -2573,6 +2591,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0b3eb9c",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:11Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/0b3eb9c02067ca6aa8382b27d15bf12a5268e1ea"
+        },
+        {
           "sha": "7e14989",
           "message": "GA4の測定IDを設定する（G-ESKE961TTV）",
           "date": "2026-08-19T19:36:42Z",
@@ -2597,7 +2621,7 @@
           "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e75870824e389fe9c64b3a733479cf667097a708"
         }
       ],
-      "updatedAt": "2026-08-19T19:39:03Z",
+      "updatedAt": "2026-08-21T14:08:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -2615,6 +2639,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "a3501ba",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:16Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/a3501badab9495d5194c0129ffd972c86875824d"
+        },
         {
           "sha": "e562fd2",
           "message": "会場データをOpenStreetMapの最新の内容に更新する",
@@ -2680,15 +2710,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T20:59:46Z",
           "url": "https://github.com/syunnjack/event-trip-alert/commit/634e09e160c9e8d3e0933c2e45cffa9e29737019"
-        },
-        {
-          "sha": "82e7e63",
-          "message": "Fix title/description: use Japanese copy matching actual content",
-          "date": "2026-08-04T15:19:06Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/82e7e63ff16e00f1ff54d4a5a99a913764a3169a"
         }
       ],
-      "updatedAt": "2026-08-19T23:02:23Z",
+      "updatedAt": "2026-08-21T14:08:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -2706,6 +2730,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "a9b1030",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:21Z",
+          "url": "https://github.com/syunnjack/exam-date-alert/commit/a9b103081965f1827fe1d0faf462727d19a97b17"
+        },
         {
           "sha": "dffa177",
           "message": "企画書とダミーデータをやめ、17試験の制度情報と公式リンクに置き換える",
@@ -2771,15 +2801,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T19:18:09Z",
           "url": "https://github.com/syunnjack/exam-date-alert/commit/a8e41edbeaaf39f4df8246f33d8ce6ce15fe2e58"
-        },
-        {
-          "sha": "ba0ce49",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:56:14Z",
-          "url": "https://github.com/syunnjack/exam-date-alert/commit/ba0ce494042caae4c042b16555e78c3b4d2dc70c"
         }
       ],
-      "updatedAt": "2026-08-19T18:25:27Z",
+      "updatedAt": "2026-08-21T14:08:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -2912,6 +2936,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "29c2df9",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T13:49:32Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/29c2df94dedb02394275ce4ed81e535f763020e8"
+        },
+        {
           "sha": "89e7ba7",
           "message": "Merge pull request #1 from syunnjack/data/expand-spots",
           "date": "2026-08-21T13:17:08Z",
@@ -2976,15 +3006,9 @@
           "message": "サーバに残った古い sitemap.xml を消す",
           "date": "2026-08-18T16:20:06Z",
           "url": "https://github.com/syunnjack/foodtruck-map/commit/3ea13d68e089b3cefb5d6a2a78bf1801cd9d5724"
-        },
-        {
-          "sha": "5984d24",
-          "message": "ビューがルート未反映のサーバーで500になるのを直す",
-          "date": "2026-08-18T16:09:15Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/5984d24636ff1f7c953e92e09a4fc3ed263057a5"
         }
       ],
-      "updatedAt": "2026-08-21T13:18:48Z",
+      "updatedAt": "2026-08-21T13:52:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -3002,6 +3026,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "4762502",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:26Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/476250209fed08a731737434eb7c9260f817c96b"
+        },
         {
           "sha": "c067d4b",
           "message": "chikuden-hojokin.jp の暫定配信ワークフローを削除する",
@@ -3067,15 +3097,9 @@
           "message": "umikaido.jp の壊れた JSON-LD を直すワークフローにする",
           "date": "2026-08-19T06:02:01Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/4dbab080cb3aa5d95282761389af43877524e8c3"
-        },
-        {
-          "sha": "7714d41",
-          "message": "アプリの実際の場所に合わせて調査内容を直す",
-          "date": "2026-08-19T05:55:44Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/7714d41dff30dd555f0cb690dd6779f7b0598ace"
         }
       ],
-      "updatedAt": "2026-08-19T08:22:12Z",
+      "updatedAt": "2026-08-21T14:08:50Z",
       "stars": 0,
       "forks": 0
     },
@@ -3093,6 +3117,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "ab5ebe7",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:11:15Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/ab5ebe7b78d0adedc8c908c8a84bf583644171b5"
+        },
         {
           "sha": "907f0b9",
           "message": "このサイトについて に問い合わせ窓口を書く",
@@ -3158,15 +3188,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T17:59:55Z",
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/62625c3634e624909055eebe49e0192f82e6dce5"
-        },
-        {
-          "sha": "aa3b381",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:12Z",
-          "url": "https://github.com/syunnjack/funeral-hall-map/commit/aa3b38124af59e4aa9e91375d09bd995692200f0"
         }
       ],
-      "updatedAt": "2026-08-19T19:31:45Z",
+      "updatedAt": "2026-08-21T14:12:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -3184,6 +3208,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "e7fd753",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:31Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/e7fd7539084961699104da4f875824a0ae4824f7"
+        },
         {
           "sha": "4beb5dd",
           "message": "中身が0件の検索ページを、検索結果に出さないようにする",
@@ -3249,15 +3279,9 @@
           "message": "Add cleanup-and-link job to fix public_html structure",
           "date": "2026-08-08T22:21:58Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/ffc1824e4eb750852c66a12866802bcd12192a1d"
-        },
-        {
-          "sha": "782c7e0",
-          "message": "Replace asset-only deploy with full app deploy to Xserver",
-          "date": "2026-08-08T22:16:52Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/782c7e0ce154f86708bc945b7357ffd31d0375ff"
         }
       ],
-      "updatedAt": "2026-08-18T22:50:42Z",
+      "updatedAt": "2026-08-21T14:09:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -3474,6 +3498,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "247e116",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:36Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/247e116952772cfcfcb84856a6d364ff3774651e"
+        },
+        {
           "sha": "962776d",
           "message": "タイトーの240店を追加する",
           "date": "2026-08-19T00:09:29Z",
@@ -3538,15 +3568,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:09:20Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/3e402ae3ee7a58af6ad2751fcbc6074275aed0d5"
-        },
-        {
-          "sha": "7d34b0c",
-          "message": "$(cat <<'EOF'",
-          "date": "2026-07-14T21:59:52Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/7d34b0c8ad386cb199ac2b6548abe4a83bcc9f43"
         }
       ],
-      "updatedAt": "2026-08-19T00:09:36Z",
+      "updatedAt": "2026-08-21T14:09:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -3564,6 +3588,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2fe0d4a",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:40Z",
+          "url": "https://github.com/syunnjack/goal-pilot-app/commit/2fe0d4a6eb1e50cf1f676bf85c1c36f6ae3f642d"
+        },
         {
           "sha": "90a117e",
           "message": "読者向けの文章に直し、テンプレート20ページを追加する",
@@ -3629,15 +3659,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:27:17Z",
           "url": "https://github.com/syunnjack/goal-pilot-app/commit/abfbaa30eef3a6aeeefcb48945bdb3d7c822f179"
-        },
-        {
-          "sha": "bcb88ad",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:18:17Z",
-          "url": "https://github.com/syunnjack/goal-pilot-app/commit/bcb88ad2034d72668f674d083d8da39fbb4a2a07"
         }
       ],
-      "updatedAt": "2026-08-19T00:45:36Z",
+      "updatedAt": "2026-08-21T14:09:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -3747,6 +3771,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8b1d8be",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:45Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/8b1d8beb9f82198a4f5d71c236062bbaa554682b"
+        },
+        {
           "sha": "674a48a",
           "message": "都道府県ページをパス型URLにし、公開前の不具合を直す",
           "date": "2026-08-19T01:19:33Z",
@@ -3811,15 +3841,9 @@
           "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
           "date": "2026-08-08T17:28:36Z",
           "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
-        },
-        {
-          "sha": "1786e97",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-08T17:27:59Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/1786e970a0df89226eeeac4255b51c16272c52ce"
         }
       ],
-      "updatedAt": "2026-08-19T01:19:55Z",
+      "updatedAt": "2026-08-21T14:11:52Z",
       "stars": 0,
       "forks": 0
     },
@@ -4177,6 +4201,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c0755c2",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:49Z",
+          "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/c0755c296eb4c41ccdb0773ba38d9655829c189a"
+        },
+        {
           "sha": "e22576f",
           "message": "引越安心マークの認定事業者339社を掲載する",
           "date": "2026-08-19T01:35:02Z",
@@ -4231,7 +4261,7 @@
           "url": "https://github.com/syunnjack/hikkoshi-hikaku/commit/34aafe0930e29b20a6716544643d55a8e190c7d7"
         }
       ],
-      "updatedAt": "2026-08-19T01:35:37Z",
+      "updatedAt": "2026-08-21T14:09:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -4341,6 +4371,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ff66562",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:08:54Z",
+          "url": "https://github.com/syunnjack/hoiku-map/commit/ff6656217e7cf7b99e7272960ea9a290a21c46ad"
+        },
+        {
           "sha": "0016558",
           "message": "ページ送りの表示を日本語にし、2ページ目以降のcanonicalを直す",
           "date": "2026-08-19T02:29:06Z",
@@ -4405,15 +4441,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T05:05:44Z",
           "url": "https://github.com/syunnjack/hoiku-map/commit/4f413e48cc8ae745241f3ccd80ee90312a11c5da"
-        },
-        {
-          "sha": "ccb83b1",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:07Z",
-          "url": "https://github.com/syunnjack/hoiku-map/commit/ccb83b1f21a49c4ea737bab3d56754d1edfa9794"
         }
       ],
-      "updatedAt": "2026-08-19T02:29:14Z",
+      "updatedAt": "2026-08-21T14:09:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -4724,6 +4754,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0bdbaf9",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:04Z",
+          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/0bdbaf92b0be86b0907a39b5af2743516c3c82e3"
+        },
+        {
           "sha": "197f9cf",
           "message": "問題を80問から300問に増やし、資格ごとに無料体験5問を用意する",
           "date": "2026-08-19T03:32:20Z",
@@ -4788,15 +4824,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T17:59:51Z",
           "url": "https://github.com/syunnjack/itshikaku-shindan/commit/b4f82e2e3e439e9fdadd46642e46ddfe3c87c965"
-        },
-        {
-          "sha": "9d9d1be",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:35Z",
-          "url": "https://github.com/syunnjack/itshikaku-shindan/commit/9d9d1be20afa20b7561dd346a672440c767171d8"
         }
       ],
-      "updatedAt": "2026-08-19T03:32:39Z",
+      "updatedAt": "2026-08-21T14:15:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -4996,6 +5026,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3fb9dee",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:09Z",
+          "url": "https://github.com/syunnjack/juku-map/commit/3fb9deef5a096a06052aca7d9b29f53eff458ae6"
+        },
+        {
           "sha": "0f4e96f",
           "message": "このサイトについて に問い合わせ窓口を書く",
           "date": "2026-08-19T19:30:24Z",
@@ -5060,15 +5096,9 @@
           "message": "fix: db:seed失敗時もデプロイを継続するよう変更",
           "date": "2026-08-11T11:25:01Z",
           "url": "https://github.com/syunnjack/juku-map/commit/6b9a422a4a21825064bac604222c38b491464c56"
-        },
-        {
-          "sha": "cd46795",
-          "message": "fix: VenueSeeder重複クラス定義を解消",
-          "date": "2026-08-11T11:22:03Z",
-          "url": "https://github.com/syunnjack/juku-map/commit/cd467952a74a40f1b646bc017722813c14542c6b"
         }
       ],
-      "updatedAt": "2026-08-19T19:32:44Z",
+      "updatedAt": "2026-08-21T14:09:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -5476,6 +5506,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1940d47",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:13Z",
+          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/1940d4719a0989a67d7538a455e02ad48ad3828b"
+        },
+        {
           "sha": "58f6d93",
           "message": "車種50件を掲載し、車種ページのURLと出典を整える",
           "date": "2026-08-19T05:05:42Z",
@@ -5540,15 +5576,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T18:00:03Z",
           "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/83db2593cf783229d9337dab03717f06c26bf5c9"
-        },
-        {
-          "sha": "414ed0d",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:47Z",
-          "url": "https://github.com/syunnjack/kuruma-kaitori-kuchikomi/commit/414ed0d59be133d86e9e0d1a90ce9a8566b5f9bf"
         }
       ],
-      "updatedAt": "2026-08-19T05:07:08Z",
+      "updatedAt": "2026-08-21T14:09:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -5566,6 +5596,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "6d41f7b",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:18Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/6d41f7bae9bb3dc0e1636dd13be8adc21149d74c"
+        },
         {
           "sha": "6fd4e03",
           "message": "URLを含む投稿を受け付けられるようにし、sageを実際に効かせる",
@@ -5631,15 +5667,9 @@
           "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
           "date": "2026-07-14T22:01:56Z",
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/1ce5235d40738231f48a23ef0d91f386e7f11451"
-        },
-        {
-          "sha": "5f3cf25",
-          "message": "資格試験受験生板・転職/退職愚痴板を追加",
-          "date": "2026-07-14T19:11:40Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/5f3cf25b2fe6ca9c82be3d1a592571f353e1d45d"
         }
       ],
-      "updatedAt": "2026-08-19T06:56:18Z",
+      "updatedAt": "2026-08-21T14:12:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -6453,6 +6483,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "191de05",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:22Z",
+          "url": "https://github.com/syunnjack/maportal/commit/191de057dff74836b718fdfa057e9b238f97f3cb"
+        },
+        {
           "sha": "3d93cca",
           "message": "Google APIキーがページに出ていた問題を直す",
           "date": "2026-08-19T05:14:13Z",
@@ -6517,15 +6553,9 @@
           "message": "Build マッサージ口コミポータル on Google Places API (New), with UGC",
           "date": "2026-07-14T10:22:33Z",
           "url": "https://github.com/syunnjack/maportal/commit/7d456a4ab077641f22da6df5f3d50007f1b0729c"
-        },
-        {
-          "sha": "55e634f",
-          "message": "Initial commit maportal",
-          "date": "2025-07-26T11:52:10Z",
-          "url": "https://github.com/syunnjack/maportal/commit/55e634f449fec741d2a408bab7343c10c886a6ea"
         }
       ],
-      "updatedAt": "2026-08-19T05:15:20Z",
+      "updatedAt": "2026-08-21T14:12:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -6574,6 +6604,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "5d81dee",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:27Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/5d81dee22f91a4bc25bb533b31468871027a64a4"
+        },
         {
           "sha": "396feb3",
           "message": "24時間営業の店舗データを更新する",
@@ -6639,15 +6675,9 @@
           "message": "Switch deployment to Xserver",
           "date": "2026-08-04T05:27:50Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/845d9f59872af81407dbcd8de43b54421767c924"
-        },
-        {
-          "sha": "38a36b9",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T19:19:03Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/38a36b929321cc632062e246688d1b9a379bf030"
         }
       ],
-      "updatedAt": "2026-08-19T22:25:47Z",
+      "updatedAt": "2026-08-21T14:12:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -9644,6 +9674,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "db62a2d",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:37Z",
+          "url": "https://github.com/syunnjack/route-spot-navi/commit/db62a2dbafc3cdb4b6b5f995489af5adeb291310"
+        },
+        {
           "sha": "77afe9c",
           "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
           "date": "2026-08-19T20:05:04Z",
@@ -9708,15 +9744,9 @@
           "message": "Add SEO UGC and monetization strategy",
           "date": "2026-07-17T20:07:26Z",
           "url": "https://github.com/syunnjack/route-spot-navi/commit/985956fd9a25c498e0de5e3c45a5b75d2d44e7c0"
-        },
-        {
-          "sha": "af712f0",
-          "message": "Initial Route Spot Navi app",
-          "date": "2026-07-17T18:37:59Z",
-          "url": "https://github.com/syunnjack/route-spot-navi/commit/af712f03a0437a58bd6121371b8c61499955b5d1"
         }
       ],
-      "updatedAt": "2026-08-19T20:06:05Z",
+      "updatedAt": "2026-08-21T14:10:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -9826,6 +9856,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5066410",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:41Z",
+          "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/506641048fea992d9dc9e6d6977b33a8e2dda812"
+        },
+        {
           "sha": "d3e17d3",
           "message": "saunacrowd.jp を sauna-map.jp へ301転送する",
           "date": "2026-08-19T18:13:50Z",
@@ -9890,15 +9926,9 @@
           "message": "Add Search Console verification meta tag",
           "date": "2026-08-04T14:13:25Z",
           "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/d563e288f286b2c53f874304493805be3500ee37"
-        },
-        {
-          "sha": "c0889b8",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:28:49Z",
-          "url": "https://github.com/syunnjack/sauna-crowd-alert/commit/c0889b8ca9996da9034cd7037c29d09f89618dd9"
         }
       ],
-      "updatedAt": "2026-08-19T18:18:21Z",
+      "updatedAt": "2026-08-21T14:11:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -9916,6 +9946,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "6d560de",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:11:19Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/6d560de934dbeb878f317c45ea0f1c4a6a44464b"
+        },
         {
           "sha": "96c70df",
           "message": "このサイトについて に問い合わせ窓口を書く",
@@ -9981,15 +10017,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:04:30Z",
           "url": "https://github.com/syunnjack/sauna-map/commit/bbe69b2294e075bff7585571dcfd28f06e727363"
-        },
-        {
-          "sha": "ab59cd2",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:00:58Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/ab59cd2e091e3417143902874faa9cf09e45b703"
         }
       ],
-      "updatedAt": "2026-08-19T19:31:41Z",
+      "updatedAt": "2026-08-21T14:12:12Z",
       "stars": 0,
       "forks": 0
     },
@@ -10259,6 +10289,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a435de1",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:09:53Z",
+          "url": "https://github.com/syunnjack/smoking-area-where/commit/a435de1466ebf4d95c0814ca81f20ba686a8c556"
+        },
+        {
           "sha": "93d11d6",
           "message": "喫煙所に市区町村を付け、都道府県ページを追加する",
           "date": "2026-08-19T04:51:03Z",
@@ -10323,15 +10359,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:19Z",
           "url": "https://github.com/syunnjack/smoking-area-where/commit/19d5aad4cdf0109ce9f3e5910dcec5464a46b4ae"
-        },
-        {
-          "sha": "17b9cfa",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:50Z",
-          "url": "https://github.com/syunnjack/smoking-area-where/commit/17b9cfafc1b7eb80e9dd22b71335164fbdd33dc6"
         }
       ],
-      "updatedAt": "2026-08-19T04:51:45Z",
+      "updatedAt": "2026-08-21T14:10:50Z",
       "stars": 0,
       "forks": 0
     },
@@ -10763,6 +10793,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8c2a711",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:11:24Z",
+          "url": "https://github.com/syunnjack/space-map/commit/8c2a7114b7ac9c1416b6a7c9095de17ba146c985"
+        },
+        {
           "sha": "9664f40",
           "message": "このサイトについて に問い合わせ窓口を書く",
           "date": "2026-08-19T19:30:27Z",
@@ -10827,15 +10863,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:31Z",
           "url": "https://github.com/syunnjack/space-map/commit/e793d714fbc10a8454ded1be0981d6b7380e7923"
-        },
-        {
-          "sha": "7cccd9a",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:34Z",
-          "url": "https://github.com/syunnjack/space-map/commit/7cccd9ac60282c3de2d7458d47b32812a4bfce2c"
         }
       ],
-      "updatedAt": "2026-08-19T19:31:43Z",
+      "updatedAt": "2026-08-21T14:11:50Z",
       "stars": 0,
       "forks": 0
     },
@@ -11381,6 +11411,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f09a689",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:04Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/f09a689c7f6b4bb459a473e69a3d38d87cbfe0d9"
+        },
+        {
           "sha": "fb96989",
           "message": "78スポット全部の駐車場情報を公式出典つきでそろえる",
           "date": "2026-08-18T15:06:37Z",
@@ -11445,15 +11481,9 @@
           "message": "Polish user-facing tourism wording",
           "date": "2026-08-11T12:38:26Z",
           "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0e656b31ad2ac2354c5889a6f78bba157aacbde0"
-        },
-        {
-          "sha": "81e5b0d",
-          "message": "Refine user-facing tourism copy",
-          "date": "2026-08-11T12:35:49Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/81e5b0dcf5f7f10c571137468f4ead0ab942e491"
         }
       ],
-      "updatedAt": "2026-08-18T15:39:11Z",
+      "updatedAt": "2026-08-21T14:10:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -11471,6 +11501,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "1b9bcb9",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:09Z",
+          "url": "https://github.com/syunnjack/trip-route-stay/commit/1b9bcb935e2be0e8a9772c5a7955b9b025b9bcba"
+        },
         {
           "sha": "2d79d58",
           "message": "ページの文章を読者向けに書き換える",
@@ -11536,15 +11572,9 @@
           "message": "Translate English UI text to Japanese",
           "date": "2026-08-09T09:33:32Z",
           "url": "https://github.com/syunnjack/trip-route-stay/commit/f85652dbec32bb1e612ddaaf8d4ee4c70cb33849"
-        },
-        {
-          "sha": "af9f0c1",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:15Z",
-          "url": "https://github.com/syunnjack/trip-route-stay/commit/af9f0c11987e57e786743aa35aaab56619b3ee3c"
         }
       ],
-      "updatedAt": "2026-08-18T12:30:20Z",
+      "updatedAt": "2026-08-21T14:12:37Z",
       "stars": 0,
       "forks": 0
     },
@@ -11562,6 +11592,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "5529855",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55298558ab14b0128e68f63a0d0a69981463e0ce"
+        },
+        {
+          "sha": "98e4bf4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-21T13:33:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/98e4bf4338143ea5aedaa06567a7aaee0b30c3b7"
+        },
         {
           "sha": "af3198b",
           "message": "Update repository articles from GitHub activity",
@@ -11621,21 +11663,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T03:34:51Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9c51293fb817ef58ca525ca9ecf0177315262470"
-        },
-        {
-          "sha": "e7b7f34",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T02:41:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e7b7f345c9e4f08cb43930e6f53a511918ed0e9f"
-        },
-        {
-          "sha": "a55ef42",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T01:53:00Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a55ef421552cefe73346a01c51f42ab601abb03d"
         }
       ],
-      "updatedAt": "2026-08-21T12:28:08Z",
+      "updatedAt": "2026-08-21T14:10:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -11782,6 +11812,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4613da8",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:24Z",
+          "url": "https://github.com/syunnjack/wait-time-alert/commit/4613da8d9ee17be5b31b154d6b068d81f367ccc6"
+        },
+        {
           "sha": "8982e67",
           "message": "ページの文章を読者向けに書き換える",
           "date": "2026-08-18T12:29:27Z",
@@ -11846,15 +11882,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T19:21:15Z",
           "url": "https://github.com/syunnjack/wait-time-alert/commit/0179b55e12e0626765717f32d275ac870b7e6502"
-        },
-        {
-          "sha": "4b24f8e",
-          "message": "Add GitHub Pages deploy workflow",
-          "date": "2026-08-03T18:57:45Z",
-          "url": "https://github.com/syunnjack/wait-time-alert/commit/4b24f8ee0a15cb962f84e052e75ac0fdbb5d6647"
         }
       ],
-      "updatedAt": "2026-08-18T12:32:02Z",
+      "updatedAt": "2026-08-21T14:10:51Z",
       "stars": 0,
       "forks": 0
     },
@@ -12134,6 +12164,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b7db90f",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:29Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/b7db90f26d489d48cae1ab582c771ba345bdace1"
+        },
+        {
           "sha": "e423e87",
           "message": "オンザページ（旧ノバレーゼ・エスクリ）の34会場を追加する",
           "date": "2026-08-19T04:27:27Z",
@@ -12198,15 +12234,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:59:51Z",
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/8a4337b0f558a3404229ed5b3a0ce6631f68110c"
-        },
-        {
-          "sha": "9291415",
-          "message": "feat: 結婚式場データを138件に拡充（北海道〜沖縄・離島まで全都道府県カバー）",
-          "date": "2026-08-11T18:07:46Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/9291415cd974d295f18b1a083d3d1367decd8b19"
         }
       ],
-      "updatedAt": "2026-08-19T04:28:29Z",
+      "updatedAt": "2026-08-21T14:10:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -12224,6 +12254,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "e645553",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:33Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/e645553d9e4b56c12a044bde9189ab902ca65010"
+        },
         {
           "sha": "753608e",
           "message": "求職者に向けた内容に書き換え、canonicalとタイトルを整える",
@@ -12285,7 +12321,7 @@
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/8aab173c58a69fb3ec10fd76dcc21c7d125a689e"
         }
       ],
-      "updatedAt": "2026-08-18T15:49:21Z",
+      "updatedAt": "2026-08-21T14:11:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -12326,6 +12362,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "cb606f7",
+          "message": "actions/checkout と setup-node を v5 に上げる",
+          "date": "2026-08-21T14:10:38Z",
+          "url": "https://github.com/syunnjack/work-bar-navi/commit/cb606f779630051e964b9edb344f071c023cd677"
+        },
         {
           "sha": "93290b1",
           "message": "取得スクリプトが読む環境変数名を戻し、キー無しでもデータを消さないようにする",
@@ -12391,15 +12433,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:06:14Z",
           "url": "https://github.com/syunnjack/work-bar-navi/commit/3e43f89b1a7effc47acb9c4c2fc869e0b60de60c"
-        },
-        {
-          "sha": "e9876ec",
-          "message": "seo: add IndexNow key file",
-          "date": "2026-08-10T21:04:42Z",
-          "url": "https://github.com/syunnjack/work-bar-navi/commit/e9876ec5b1426eabe106b8210a0ba696d84ea0e1"
         }
       ],
-      "updatedAt": "2026-08-18T16:08:49Z",
+      "updatedAt": "2026-08-21T14:13:58Z",
       "stars": 0,
       "forks": 0
     },
