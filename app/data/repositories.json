@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:25:21.679Z",
+  "generatedAt": "2026-08-22T10:24:59.259Z",
   "owner": "syunnjack",
   "totalRepositories": 181,
   "publicRepositories": 181,
@@ -1414,6 +1414,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "964bbbb",
+          "message": "高校英語の解説動画を自動生成 [skip ci]",
+          "date": "2026-08-22T10:01:34Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/964bbbbd8b554c02be22b5ec36b3c079a6023e8e"
+        },
+        {
+          "sha": "485d619",
+          "message": "高校英語 基礎9講を完成",
+          "date": "2026-08-22T09:57:24Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/485d6195c3f3c8ec782f46a67a51095a7604a082"
+        },
+        {
           "sha": "ad7282d",
           "message": "高校英語の解説動画を自動生成 [skip ci]",
           "date": "2026-08-20T11:00:33Z",
@@ -1472,21 +1484,9 @@
           "message": "高校受験数学 第6回：中点の軌跡と△BPQの最大（2π cm、2 cm²）",
           "date": "2026-08-17T08:38:47Z",
           "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/74d42c6920c381d364fcb21ee4676200976751b6"
-        },
-        {
-          "sha": "3a35cda",
-          "message": "高校受験数学 第4回・第5回：直交する2弦の面積と 1+x²+x⁴ の因数分解（上付き数字の豆腐対策つき）",
-          "date": "2026-08-17T08:35:31Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/3a35cdafa4f17e36be9c856542e1964f4d64d7f6"
-        },
-        {
-          "sha": "55b9df0",
-          "message": "高校受験数学 第3回：正方形2つと七角形の面積（合同の証明つき、図つき動画）",
-          "date": "2026-08-17T08:10:24Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/55b9df068ec12e9da640912f1d5a7cd842b5a2b9"
         }
       ],
-      "updatedAt": "2026-08-20T11:01:25Z",
+      "updatedAt": "2026-08-22T10:01:49Z",
       "stars": 0,
       "forks": 0
     },
@@ -11594,6 +11594,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b129138",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-22T09:25:51Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b129138952184bd058bba400fcf40972f76f5aa4"
+        },
+        {
           "sha": "cb23923",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-22T08:26:13Z",
@@ -11658,15 +11664,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-21T22:25:20Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1270ba8275134339aa0db503c1597f010f2f9bdf"
-        },
-        {
-          "sha": "d2f678b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T21:25:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d2f678bb610beba5a0e210044f6e5524de64b63d"
         }
       ],
-      "updatedAt": "2026-08-22T08:26:49Z",
+      "updatedAt": "2026-08-22T09:26:01Z",
       "stars": 0,
       "forks": 0
     },
