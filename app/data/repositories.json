@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:24:15.266Z",
+  "generatedAt": "2026-08-22T20:24:32.970Z",
   "owner": "syunnjack",
   "totalRepositories": 182,
   "publicRepositories": 182,
@@ -395,6 +395,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6bb15a8",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-22T20:21:22Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/6bb15a87def778be2a01626896a0e6b52651035e"
+        },
+        {
           "sha": "ef2a56c",
           "message": "Refresh bowling event data",
           "date": "2026-08-21T20:17:03Z",
@@ -459,15 +465,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-12T20:31:34Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/e2a8278c83917d8f8b4ef8ac0cd7d3e4db720b49"
-        },
-        {
-          "sha": "ef35b2a",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-11T20:25:20Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/ef35b2a207d24aaa11fd348d93b7d28cceb6b965"
         }
       ],
-      "updatedAt": "2026-08-21T20:17:48Z",
+      "updatedAt": "2026-08-22T20:21:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -11595,6 +11595,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e053d82",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-22T19:24:47Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e053d828f90a3d706dba3b9b56b148b7d9f11fab"
+        },
+        {
           "sha": "0739c42",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-22T18:26:07Z",
@@ -11659,15 +11665,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-22T08:26:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cb239238c76d3d6d84261037c76685646fbdda8f"
-        },
-        {
-          "sha": "f223fb3",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-22T07:26:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f223fb351731102c8f15930c8ec0f52b86bc2a80"
         }
       ],
-      "updatedAt": "2026-08-22T18:26:38Z",
+      "updatedAt": "2026-08-22T19:24:57Z",
       "stars": 0,
       "forks": 0
     },
