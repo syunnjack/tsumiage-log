@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-22T11:24:16.160Z",
+  "generatedAt": "2026-08-22T12:26:24.418Z",
   "owner": "syunnjack",
-  "totalRepositories": 181,
-  "publicRepositories": 181,
+  "totalRepositories": 182,
+  "publicRepositories": 182,
   "privateRepositories": 0,
   "skippedRepositories": [
     "scan-doc",
     "abeshi-mvp",
     "ashi-fetish",
+    "asmr-voice",
     "darenano",
     "onsen-ranking",
     "vr-content-gear-guide",
@@ -11594,6 +11595,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "caa1388",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-22T11:24:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/caa1388db6075e6014cf29dc9b9434bb704c7ab8"
+        },
+        {
           "sha": "ceb5958",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-22T10:25:28Z",
@@ -11658,15 +11665,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-22T00:27:53Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bfd3612f0377e9179f4185fb65fa75f920e3f50a"
-        },
-        {
-          "sha": "d749480",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-21T23:25:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d749480a437683a865fa5475458636a3890ce1db"
         }
       ],
-      "updatedAt": "2026-08-22T10:26:01Z",
+      "updatedAt": "2026-08-22T11:25:01Z",
       "stars": 0,
       "forks": 0
     },
