@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:26:26.023Z",
+  "generatedAt": "2026-08-23T14:24:44.191Z",
   "owner": "syunnjack",
   "totalRepositories": 182,
   "publicRepositories": 182,
@@ -3211,6 +3211,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fe71474",
+          "message": "楽天カタログ同期のSSHを3回まで試す",
+          "date": "2026-08-23T14:11:36Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/fe71474e70c6f23bb17ed9731f64dc04c04d400c"
+        },
+        {
           "sha": "4017089",
           "message": "診断用の sync-status.txt を外す",
           "date": "2026-08-21T17:34:02Z",
@@ -3275,15 +3281,9 @@
           "message": "住民側のふるさと納税（控除額）も自治体ページに載せる",
           "date": "2026-08-18T22:36:02Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/89b29e1496ed6bfc53c2c0e1189e161905860403"
-        },
-        {
-          "sha": "f96b52a",
-          "message": "自治体データの取り込みがサーバーで失敗しないようにする",
-          "date": "2026-08-18T22:32:07Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/f96b52aaf08b2a8567f48cebe6237bbe30dbf4b6"
         }
       ],
-      "updatedAt": "2026-08-21T17:34:21Z",
+      "updatedAt": "2026-08-23T14:11:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -11595,6 +11595,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fac140a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-23T13:26:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fac140a4a304149e271d135c002fb68dd6ed9426"
+        },
+        {
           "sha": "aeabbcf",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-23T12:26:55Z",
@@ -11659,15 +11665,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-23T02:41:58Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ad91df4a9f6390d587f5e43cb74560e25d9beff8"
-        },
-        {
-          "sha": "b23e4c6",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-23T01:53:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b23e4c6984de2657c762e25e5abb7d5e1dcc9a61"
         }
       ],
-      "updatedAt": "2026-08-23T12:27:06Z",
+      "updatedAt": "2026-08-23T13:27:05Z",
       "stars": 0,
       "forks": 0
     },
