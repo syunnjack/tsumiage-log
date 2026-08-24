@@ -66,9 +66,13 @@ if (failures.length === 0) {
   if (videoEntries !== publishedSlugs.length) {
     failures.push(`動画サイトマップ件数が不一致です: ${videoEntries}/${publishedSlugs.length}`)
   }
+  // 視聴ページは **通常サイトマップに載せない**。本文が450〜530字の同じ雛形で、
+  // AdSense に「有用性の低いコンテンツ」と判定された原因だったため、
+  // 2026-08-24 にページ側を noindex にし、サイトマップを356件→26件に絞った
+  // （app/sitemap.ts のコメント参照）。ここは「入っていないこと」を守る検査。
   const watchSitemapEntries = sitemapUrls.filter((url) => new URL(url).pathname.startsWith("/videos/") && !["/videos/", "/videos/favorites/"].includes(new URL(url).pathname)).length
-  if (watchSitemapEntries !== publishedSlugs.length) {
-    failures.push(`通常サイトマップの視聴ページ件数が不一致です: ${watchSitemapEntries}/${publishedSlugs.length}`)
+  if (watchSitemapEntries !== 0) {
+    failures.push(`通常サイトマップに視聴ページが${watchSitemapEntries}件入っています。noindex にしたページなので載せないこと`)
   }
 }
 
