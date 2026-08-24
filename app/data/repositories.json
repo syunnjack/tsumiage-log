@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:39:19.999Z",
+  "generatedAt": "2026-08-24T08:30:21.725Z",
   "owner": "syunnjack",
   "totalRepositories": 183,
   "publicRepositories": 183,
@@ -11595,6 +11595,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "4fe504c",
+          "message": "禁止語「公開後」を言い換える",
+          "date": "2026-08-24T08:13:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4fe504cc7e33faa0f27a0c75b89c35e320b97190"
+        },
+        {
+          "sha": "7e16c94",
+          "message": "実体験の技術記事を5本追加する",
+          "date": "2026-08-24T08:09:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7e16c94d7a2709f12cefb52c48f0580b1d37c253"
+        },
+        {
+          "sha": "bd4c306",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-24T07:39:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bd4c3069e7c445c7c62b07cecbb1945c6fb7fe71"
+        },
+        {
           "sha": "c45d3e5",
           "message": "AdSense対策の記事を3本追加する",
           "date": "2026-08-24T07:31:27Z",
@@ -11647,27 +11665,9 @@
           "message": "AdSenseの ads.txt と広告スクリプトを設置する",
           "date": "2026-08-24T04:36:20Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/36ee8ef58863ab6736c47ea02fb2af73428fdb73"
-        },
-        {
-          "sha": "7586b0f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-24T04:31:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7586b0ff3edbfe62407959c86118461d75fab575"
-        },
-        {
-          "sha": "9ab938f",
-          "message": "手書き記事を3本追加する",
-          "date": "2026-08-24T04:17:45Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ab938fae4dfedbbeaf11ef2ae1af1b9d2f43d66"
-        },
-        {
-          "sha": "81bebb5",
-          "message": "AdSenseの「有用性の低いコンテンツ」に対処する",
-          "date": "2026-08-24T04:10:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/81bebb596d9ac62b87dc5e837ecbe89fa858da21"
         }
       ],
-      "updatedAt": "2026-08-24T07:32:57Z",
+      "updatedAt": "2026-08-24T08:15:28Z",
       "stars": 0,
       "forks": 0
     },
