@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:28:16.932Z",
+  "generatedAt": "2026-08-24T17:26:09.575Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11638,6 +11638,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "aee15a6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-24T16:28:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/aee15a6b800843aab5210d371ce857d376a38ee7"
+        },
+        {
           "sha": "5ead2e4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-24T15:30:39Z",
@@ -11702,15 +11708,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-24T07:39:46Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bd4c3069e7c445c7c62b07cecbb1945c6fb7fe71"
-        },
-        {
-          "sha": "c45d3e5",
-          "message": "AdSense対策の記事を3本追加する",
-          "date": "2026-08-24T07:31:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c45d3e53a46b571f37139dc77cdfdff3a8d686cd"
         }
       ],
-      "updatedAt": "2026-08-24T15:38:05Z",
+      "updatedAt": "2026-08-24T16:38:34Z",
       "stars": 0,
       "forks": 0
     },
