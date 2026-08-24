@@ -50,6 +50,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <GlobalNav />
         <Breadcrumbs />
         {children}
+        {/* AdSense の読み込み。メタタグ（google-adsense-account）だけでは
+            広告は出ない。審査でもこのスクリプトの設置を見られる。
+            ads.txt は public/ads.txt に置いてある。 */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1144781774561249"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         {googleAnalyticsId ? (
           <>
             <Script
