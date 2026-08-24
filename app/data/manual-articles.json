@@ -1,6 +1,294 @@
 {
   "articles": [
     {
+      "slug": "adsense-low-value-content-measured",
+      "title": "AdSenseに「有用性の低いコンテンツ」で落ちた原因を、記事340本の文字数を測って特定した",
+      "description": "自動生成した記事340本を抱えた技術ブログが、AdSenseの審査に落ちた。理由は「有用性の低いコンテンツ」。感覚で直すのではなく、全記事の文字数と見出し構成を実測して原因を切り分けた。何が薄かったのか、どこを直したのかを数字で記録する。",
+      "category": "サイト運営",
+      "tags": [
+        "AdSense",
+        "SEO",
+        "自動生成",
+        "noindex",
+        "サイトマップ"
+      ],
+      "publishedAt": "2026-08-24T12:00:00+09:00",
+      "updatedAt": "2026-08-24T12:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：薄い自動生成ページが340本あり、実質的な記事は5本だった",
+          "body": [
+            "審査に落ちた通知には「有用性の低いコンテンツ」としか書かれていない。どのページが問題なのかは教えてくれない。",
+            "そこで、サイトマップに載っている全ページの本文を取得して、文字数を測った。結果はこうだった。",
+            "**動画ページ168本：本文450〜530字**",
+            "**リポジトリ記事172本：本文1,200〜1,500字**",
+            "手書き記事5本：本文1,440〜8,932字",
+            "自動生成の340本が、サイト全体の評価を引き下げていた。"
+          ]
+        },
+        {
+          "heading": "測り方",
+          "body": [
+            "サイトマップからURLを集め、それぞれ取得してタグを落とし、文字数を数えるだけだ。スクリプトを書けば数分で終わる。",
+            "本文だけでなく、**タイトルと見出しの並び**も一緒に出すのが重要だった。文字数だけ見ていたら「1,500字あるなら十分では」と判断を誤っていた。"
+          ],
+          "code": {
+            "language": "python",
+            "content": "import re, urllib.request, statistics\n\nsm = urllib.request.urlopen('https://example.com/sitemap.xml').read().decode()\nurls = re.findall(r'<loc>([^<]+)</loc>', sm)\n\nfor u in urls[:20]:\n    html = urllib.request.urlopen(u).read().decode('utf-8', 'replace')\n    body = re.sub(r'<script.*?</script>|<style.*?</style>', '', html, flags=re.S)\n    text = re.sub(r'\\s+', ' ', re.sub(r'<[^>]+>', ' ', body)).strip()\n    title = re.search(r'<title>([^<]*)</title>', html)\n    print(f'{len(text):>6}字  {title.group(1) if title else \"\"}')"
+          }
+        },
+        {
+          "heading": "何が薄かったのか",
+          "body": [
+            "文字数以上に問題だったのは、**340本すべてが同じ雛形だった**ことだ。",
+            "タイトルは「◯◯の設計・技術選定・コミット履歴を解説」「◯◯ 技術解説動画｜△△の構成と改善」。リポジトリ名と言語名を差し替えただけで、340本が並んでいた。",
+            "見出しの構成も全記事で同一。本文も「主に Blade を使用し、公開コミットから機能追加と改善を積み重ねた過程を確認できます」のように、**どのリポジトリに当てはめても成立する文章**だった。",
+            "Googleの品質ガイドラインが言う「自動生成された、独自の価値がないコンテンツ」そのものだった。記事数が多いほど評価が下がる。"
+          ]
+        },
+        {
+          "heading": "直し方：消さずに、検索から外す",
+          "body": [
+            "自動生成のページにも、制作物の記録としての価値はある。自分で見返すし、ポートフォリオとしても使う。だから削除はしなかった。",
+            "したことは3つ。",
+            "**1. noindex にする。** `follow` は残すので、リンクは辿られる。評価の対象から外れるだけだ。",
+            "**2. サイトマップから外す。** 356件 → 18件になった。手書き記事5本と主要ページ13件だけが残った。",
+            "**3. 何であるかを明示する。** 記事一覧を「読み物」と「制作物の記録」に分け、自動生成ページの冒頭にも「自動でまとめた記録です」と書いた。読者に誤解させないためであり、同時に自分への戒めでもある。"
+          ],
+          "code": {
+            "language": "tsx",
+            "content": "// Next.js の App Router\nexport async function generateMetadata(): Promise<Metadata> {\n  return {\n    title: \"...\",\n    description: \"...\",\n    robots: { index: false, follow: true },\n  }\n}"
+          }
+        },
+        {
+          "heading": "サイトマップは「出したいページ」だけ載せる",
+          "body": [
+            "サイトマップに全ページを載せるものだと思い込んでいた。そうではない。**検索結果に出したいページだけ**を載せるものだ。",
+            "356件のうち338件は、出したくないページだった。それを申告し続けていたのだから、評価が下がるのは当然だった。"
+          ]
+        },
+        {
+          "heading": "残る課題：実質5本では足りない",
+          "body": [
+            "noindexとサイトマップの整理で、薄いページは評価対象から外れた。しかし残ったのは**手書き5本**だけだ。",
+            "AdSenseは「独自性のある質の高いコンテンツ」を求めている。5本で再審査を通すのは厳しい。",
+            "だから、この記事を含めて書き足している。**実際に踏んだ問題と、その解き方**なら、雛形では書けない。今回の調査そのものが題材になった。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "「有用性の低いコンテンツ」と言われたら、**感覚で直す前に測る**。全ページの文字数、タイトル、見出し構成を出せば、どこが薄いかは数字で分かる。",
+            "自動生成のページは、消さなくてよい。**noindex とサイトマップからの除外**で、評価対象から外せる。",
+            "サイトマップは全ページを載せる場所ではない。**検索結果に出したいページだけ**を載せる。",
+            "そして、記事数を増やすことと、内容を増やすことは違う。同じ雛形を340本並べても、1本分の価値にしかならない。"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "reusable-workflow-secrets-inherit",
+      "title": "GitHub Actionsの再利用ワークフローでSecretが空になり、投票欄が消えていた｜secrets: inherit を忘れた話",
+      "description": "週次のデータ更新のたびに、サイトから投票ボタンと口コミ欄が消えていた。原因は、再利用ワークフローを呼ぶときに secrets: inherit を書いていなかったこと。pushでのデプロイでは正常に動くため、手元では再現しない。同じ経路で続けて踏んだ3つの落とし穴と、その直し方をまとめる。",
+      "category": "CI/CD",
+      "tags": [
+        "GitHub Actions",
+        "再利用ワークフロー",
+        "Secrets",
+        "デプロイ",
+        "静的サイト"
+      ],
+      "publishedAt": "2026-08-24T11:00:00+09:00",
+      "updatedAt": "2026-08-24T11:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：再利用ワークフローは、呼び出し元のSecretを自動では受け取らない",
+          "body": [
+            "`uses:` で別のワークフローを呼ぶとき、`secrets: inherit` を書かないと、呼ばれた側の `${{ secrets.XXX }}` は**空文字になる**。エラーにはならない。空のまま処理が進む。",
+            "私の場合、ビルド時に埋め込むはずのSupabaseの接続情報が空になり、投票ボタン・口コミ欄・ランキングが存在しないページが配信されていた。"
+          ],
+          "code": {
+            "language": "yaml",
+            "content": "jobs:\n  deploy:\n    needs: refresh\n    uses: ./.github/workflows/deploy.yml\n    secrets: inherit          # これが無いとSecretが渡らない\n    permissions:\n      contents: read\n      pages: write\n      id-token: write"
+          }
+        },
+        {
+          "heading": "何をしていたか",
+          "body": [
+            "静的サイトを GitHub Pages で配信している。投稿機能だけは Supabase に置いていて、ビルド時に接続情報を埋め込む形にしていた。",
+            "ワークフローは2つある。",
+            "`deploy.yml` — ビルドして Pages へ配信する",
+            "`refresh-data.yml` — 週1回、外部APIからデータを取り直し、変化があればcommitして `deploy.yml` を呼ぶ",
+            "この `refresh-data.yml` から `deploy.yml` を呼ぶところが問題だった。"
+          ]
+        },
+        {
+          "heading": "気づきにくい理由",
+          "body": [
+            "**pushでのデプロイでは、まったく正常に動く。**",
+            "コードを直してpushすれば `deploy.yml` が直接起動し、Secretはそのまま使える。手元で確認しても問題は出ない。",
+            "壊れるのは、データを取り直したときだけだ。週1回の自動実行で静かに壊れ、次に何かをpushすると勝手に直る。**再現条件が分かるまで、原因の見当がつかなかった。**",
+            "見つかったのは、たまたまページを再読み込みして「ランキングと投稿が消えた」と気づいたからだった。"
+          ]
+        },
+        {
+          "heading": "調べ方：配信されているHTMLを直接見る",
+          "body": [
+            "ブラウザの表示だけを見ていると、JavaScriptの失敗なのか、そもそもデータが無いのかが分からない。配信されているHTMLを直接取って、埋め込まれるはずの値が入っているか見るのが早い。",
+            "私の場合、接続先が空文字になっていることがすぐ分かった。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -sSL https://example.com/some-page/ | grep -o 'data-api=\"[^\"]*\"'\n# → data-api=\"\"   ← 空だった\n\ncurl -sSL https://example.com/data/config.json\n# → {}          ← 空だった"
+          }
+        },
+        {
+          "heading": "同じ経路で、続けて3つ踏んだ",
+          "body": [
+            "`refresh-data.yml` → `deploy.yml` という呼び出しは、落とし穴が集まる場所だった。順に踏んだ。",
+            "**1. 古いコミットを配信していた。** `actions/checkout` は既定でワークフロー起動時のSHAを取る。ジョブの中でbotがcommitしても、そのcommitは含まれない。取り直したデータが反映されないまま配信されていた。`ref: main` を明示して解決した。",
+            "**2. Secretが渡っていなかった。** 本題。`secrets: inherit` を追加した。",
+            "**3. commitが止まっていた。** ビルドスクリプトが、commitしないファイル（生成物）も書き換える。そのまま `git pull --rebase` すると「未コミットの変更がある」と拒まれ、データがpushされない。`--autostash` を付けて解決した。",
+            "3つとも、**pushでのデプロイでは起きない**。取り直し経由のときだけ起きる。"
+          ],
+          "code": {
+            "language": "yaml",
+            "content": "# 1. 古いSHAを避ける\n- uses: actions/checkout@v5\n  with:\n    ref: main\n\n# 3. 生成物を退避してから取り込む\n- run: |\n    git add <対象ファイル>\n    git diff --cached --quiet && exit 0\n    git commit -m \"データを取り直す\"\n    git pull --rebase --autostash origin main\n    git push"
+          }
+        },
+        {
+          "heading": "教訓：エラーにならない失敗を疑う",
+          "body": [
+            "3つとも、ワークフローは**成功で終わっていた**。緑のチェックが付いていた。",
+            "Secretが空でもビルドは通る。古いSHAでもビルドは通る。壊れているのは出力の中身だけで、CIはそれを知らない。",
+            "配信後に「入っているはずのものが入っているか」を確認する仕組みを入れるべきだった。今回でいえば、デプロイ後にHTMLを取って接続先が空でないかを見る、といった確認だ。それがあれば、週次の実行が壊れた時点で気づけた。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "再利用ワークフローには **`secrets: inherit`** が要る。書き忘れてもエラーは出ず、空文字で進む。",
+            "`actions/checkout` は既定で**起動時のSHA**を取る。ジョブ内でcommitするなら `ref` を明示する。",
+            "生成物があるリポジトリで `git pull --rebase` するなら **`--autostash`** を付ける。",
+            "そして、**CIが成功しても出力が正しいとは限らない**。配信後の確認まで含めて初めて、動いていると言える。"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare-nameservers-differ-per-zone",
+      "title": "Cloudflareのネームサーバーはゾーンごとに違う｜19ドメイン分の設定をやり直した話",
+      "description": "未使用ドメインをCloudflare経由で301転送しようとして、19件が何時間経っても pending のままだった。原因は、Cloudflareが割り当てるネームサーバーの組がドメインごとに違うことだった。レジストリのwhoisで一件ずつ確認して初めて分かった経緯と、確認の手順をまとめる。",
+      "category": "インフラ",
+      "tags": [
+        "Cloudflare",
+        "DNS",
+        "ネームサーバー",
+        "301リダイレクト",
+        "お名前.com"
+      ],
+      "publishedAt": "2026-08-24T10:00:00+09:00",
+      "updatedAt": "2026-08-24T10:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：Cloudflareのネームサーバーは、ドメインごとに違う組が割り当てられる",
+          "body": [
+            "Cloudflareにドメインを追加すると、そのゾーン専用のネームサーバーが2本渡される。この2本は、アカウント共通ではない。**ゾーンごとに違う。**",
+            "私のアカウントでは、次の2種類が混在していた。",
+            "anna.ns.cloudflare.com / luke.ns.cloudflare.com",
+            "dora.ns.cloudflare.com / joaquin.ns.cloudflare.com",
+            "最初に設定した数件が anna / luke だったので、それ以降に追加したドメインにも同じ値を入れていた。結果、dora / joaquin を要求するゾーンは、何時間経っても pending のままだった。"
+          ]
+        },
+        {
+          "heading": "何をしていたか",
+          "body": [
+            "使っていないドメインが30件近くあった。取得したまま何も置いていない状態で、お名前.comの初期ページが表示されるだけになっていた。",
+            "これらを、運営している別のサイトの該当ページへ301転送することにした。Cloudflareを使えば、サーバーを用意せずに転送だけができる。手順はこうだ。",
+            "1. Cloudflareにドメインを追加する",
+            "2. Aレコードを 192.0.2.1 で作り、プロキシを有効にする",
+            "3. ページルールで、全アクセスを転送先へ301で飛ばす",
+            "4. お名前.comでネームサーバーをCloudflareのものに変更する",
+            "192.0.2.1 は、RFC 5737 で文書用として予約されているアドレスで、どこにも繋がらない。Cloudflareがリクエストを受け止めて転送するだけなので、その先にサーバーは要らない。"
+          ]
+        },
+        {
+          "heading": "症状：一部だけ通り、大半が pending のまま",
+          "body": [
+            "最初の数件はすぐに active になった。ところが、その後に追加した分は何時間待っても pending から動かない。",
+            "DNSの浸透待ちだと考えて待った。半日経っても変わらなかった。",
+            "ここで、確認の方法が間違っていたことに気づく。DNSキャッシュを見ていたのでは、申請がレジストリに届いているのかどうかが分からない。**登録原簿を直接見る必要がある。**"
+          ]
+        },
+        {
+          "heading": "確認はwhoisとRDAPで、レジストリに直接聞く",
+          "body": [
+            "TLDごとに問い合わせ先が違う。",
+            "`.jp` は JPRS の whois。ドメイン名のあとに `/e` を付けると英語で返る。",
+            "`.net` や `.com` は Verisign の whois。",
+            "`.shop` は2026年5月にwhoisが廃止され、RDAPに移行した。`https://rdap.gmoregistry.net/rdap/domain/<ドメイン>` を叩く。",
+            "見るべきは Name Server と、**Last Updated（最終更新日時）**だ。ネームサーバーを変更したのに Last Updated が動いていなければ、申請自体が届いていない。反映待ちではない。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# .jp\nwhois -h whois.jprs.jp 'example.jp/e' | grep -E 'Name Server|Last Updated'\n\n# .net / .com\nwhois -h whois.verisign-grs.com example.net | grep -E 'Name Server|Updated Date'\n\n# .shop（whois廃止、RDAP）\ncurl -H 'Accept: application/rdap+json' \\n  https://rdap.gmoregistry.net/rdap/domain/example.shop"
+          }
+        },
+        {
+          "heading": "分かったこと：値そのものが違っていた",
+          "body": [
+            "whoisで見ると、こうなっていた。",
+            "設定されていた値：anna.ns.cloudflare.com / luke.ns.cloudflare.com",
+            "Cloudflareが要求する値：dora.ns.cloudflare.com / joaquin.ns.cloudflare.com",
+            "Last Updated は動いていたので、申請自体は通っていた。**違う値で正しく登録されていた**わけだ。だから何時間待っても active にならない。",
+            "念のため、ゾーンを削除して作り直してみた。割り当ては同じ dora / joaquin だった。**ドメイン名から決まる固定値**で、引き直すことはできない。"
+          ]
+        },
+        {
+          "heading": "正しい確認手順",
+          "body": [
+            "Cloudflare API でゾーンの一覧を取ると、`name_servers` に必要な値が入っている。これとレジストリの登録値を突き合わせれば、一件ずつ目視しなくて済む。",
+            "ゾーンを作った直後に `name_servers` を控えておくのが確実だ。あとから一覧で引き直すこともできる。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s -H \"Authorization: Bearer $CLOUDFLARE_API_TOKEN\" \\n  'https://api.cloudflare.com/client/v4/zones?per_page=50' \\n  | jq -r '.result[] | \"\\(.name)\t\\(.status)\t\\(.name_servers | join(\"/\"))\"'"
+          }
+        },
+        {
+          "heading": "activation_check で確認を早める",
+          "body": [
+            "レジストリ側が正しくなっても、Cloudflareの判定はすぐには変わらない。定期的な確認を待つことになる。",
+            "`activation_check` を叩くと、その場で確認を走らせられる。それでも数分から数十分はかかる。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s -X PUT \\n  -H \"Authorization: Bearer $CLOUDFLARE_API_TOKEN\" \\n  \"https://api.cloudflare.com/client/v4/zones/$ZONE_ID/activation_check\""
+          }
+        },
+        {
+          "heading": "もう一つ踏んだ罠：サブドメインのNSレコード",
+          "body": [
+            "ネームサーバーを移したあと、`www` だけが古いサーバーを指し続けるドメインがあった。Aレコードは正しく Cloudflare を向いているのに、である。",
+            "原因は、`www.example.jp` に **NSレコード**が残っていたことだった。これは「wwwの管理は別のサーバーに任せる」という委任の指定で、**Aレコードより優先される**。",
+            "Cloudflareがドメインを取り込むときのスキャンで、旧DNSにあったNSレコードをそのまま持ってきていた。同じ理由で、`dev` や `test` などのサブドメインにもNSレコードが並んでいた。移行時は、これらを消す必要がある。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "Cloudflareのネームサーバーは**ゾーンごとに違う**。複数ドメインをまとめて設定するときに、同じ値を使い回してはいけない。",
+            "反映されないときは、DNSキャッシュではなく**レジストリの登録原簿**を見る。Last Updated が動いていなければ申請が届いておらず、動いていれば値が違う。",
+            "サブドメインに**NSレコード**が残っていると、Aレコードを設定しても効かない。移行時は消す。",
+            "この3点を最初から知っていれば、19件分のやり直しは避けられた。"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gyosei-shoshi-tsukue-ni-mukawanai",
       "title": "行政書士試験、机に向かう勉強をやめた｜4回目の受験を「移動時間と食事中」だけで戦う自主ルール",
       "description": "2026年度の行政書士試験に4回目の挑戦。20代で受けた1回目は論述があった時代で歯が立たず、30代の2回目は120点前後、二年前の3回目は択一換算であと3問というところで届かなかった。受験申込と模試の申込を済ませ、今年は「机に向かう勉強はしない」と決めた。参考書は伊藤塾の解法マスター2冊だけ、あとは問題練習のみ。移動時間と食事中のスキマ時間だけで合格点を狙う戦略をまとめる。",
