@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T03:35:31.321Z",
+  "generatedAt": "2026-08-24T04:30:58.210Z",
   "owner": "syunnjack",
   "totalRepositories": 183,
   "publicRepositories": 183,
@@ -11595,6 +11595,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "9ab938f",
+          "message": "手書き記事を3本追加する",
+          "date": "2026-08-24T04:17:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ab938fae4dfedbbeaf11ef2ae1af1b9d2f43d66"
+        },
+        {
+          "sha": "81bebb5",
+          "message": "AdSenseの「有用性の低いコンテンツ」に対処する",
+          "date": "2026-08-24T04:10:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/81bebb596d9ac62b87dc5e837ecbe89fa858da21"
+        },
+        {
+          "sha": "0b02e3e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-24T03:36:02Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b02e3e2623bf31f9dcc25e7541cd7f8f6aae326"
+        },
+        {
           "sha": "290fef2",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-24T02:42:26Z",
@@ -11647,27 +11665,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-23T18:25:52Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/52b684079b597c5cf4fec4a441ede4f893b49417"
-        },
-        {
-          "sha": "2f1bbce",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-23T17:24:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2f1bbcec12e88307fd4b0cebec957a298b9c08c0"
-        },
-        {
-          "sha": "13e36b5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-23T16:25:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/13e36b5178333b62301e07fc7c410dd70bbcb755"
-        },
-        {
-          "sha": "bcace5f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-23T15:24:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bcace5f192c1d16c4a65797951ca95e2927fdba0"
         }
       ],
-      "updatedAt": "2026-08-24T02:43:00Z",
+      "updatedAt": "2026-08-24T04:18:35Z",
       "stars": 0,
       "forks": 0
     },
