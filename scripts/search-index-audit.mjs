@@ -21,7 +21,6 @@ if (!existsSync(outDirectory)) failures.push("out/ がありません。先に n
 
 if (failures.length === 0) {
   const sitemap = readOutput("sitemap.xml", "sitemap.xml/index.html")
-  const videoSitemap = readOutput("video-sitemap.xml", "video-sitemap.xml/index.html")
   const robots = readOutput("robots.txt", "robots.txt/index.html")
   const listing = readOutput("videos/index.html")
   const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1])
@@ -31,8 +30,10 @@ if (failures.length === 0) {
     if (path !== "/" && !path.endsWith("/")) failures.push(`サイトマップURLの末尾スラッシュ不足: ${url}`)
   }
 
-  if (!robots.includes("https://syunnjack.dev/video-sitemap.xml")) {
-    failures.push("robots.txt に動画サイトマップがありません")
+  // 視聴ページは noindex なので、動画サイトマップは出さない（2026-08-25）。
+  // 申告だけ残ると、載らないURLを検索エンジンに出し続けることになる。
+  if (robots.includes("video-sitemap.xml")) {
+    failures.push("robots.txt が動画サイトマップを指しています。視聴ページは noindex なので出さないこと")
   }
   if (count(listing, /<video\b/g) !== 0) failures.push("動画一覧に video 要素が残っています")
 
@@ -62,10 +63,6 @@ if (failures.length === 0) {
     }
   }
 
-  const videoEntries = count(videoSitemap, /<video:video>/g)
-  if (videoEntries !== publishedSlugs.length) {
-    failures.push(`動画サイトマップ件数が不一致です: ${videoEntries}/${publishedSlugs.length}`)
-  }
   // 視聴ページは **通常サイトマップに載せない**。本文が450〜530字の同じ雛形で、
   // AdSense に「有用性の低いコンテンツ」と判定された原因だったため、
   // 2026-08-24 にページ側を noindex にし、サイトマップを356件→26件に絞った
