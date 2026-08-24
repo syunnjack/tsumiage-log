@@ -2778,3 +2778,25 @@ footer > a {
   line-height: 1.8;
   opacity: .8;
 }
+
+
+/* 記事一覧の下に置く、制作物への案内 */
+.archive-portfolio-note {
+  max-width: 1080px;
+  margin: 40px auto 0;
+  padding: 22px 24px;
+  border: 1px solid rgba(148, 163, 184, .35);
+  border-radius: 12px;
+}
+
+.archive-portfolio-note h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.archive-portfolio-note p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.9;
+  opacity: .85;
+}
