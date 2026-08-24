@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:34:54.834Z",
+  "generatedAt": "2026-08-24T14:28:38.596Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11620,6 +11620,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "74c61b4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-24T13:35:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/74c61b4f0b449c9e371b99b829893efbbf753fe6"
+        },
+        {
           "sha": "3d48be5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-24T12:27:24Z",
@@ -11684,15 +11690,9 @@
           "message": "プロフィールに運営サイトと学習中のことを追記する",
           "date": "2026-08-24T06:58:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bea5561fbec6d36e540bb238d73e08cd8db572b4"
-        },
-        {
-          "sha": "ec05cbc",
-          "message": "AdSense申請に必要なページと導線を整える",
-          "date": "2026-08-24T06:49:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ec05cbcdbf51ebab665ab8f7cfbf94c78153f154"
         }
       ],
-      "updatedAt": "2026-08-24T12:33:35Z",
+      "updatedAt": "2026-08-24T13:39:11Z",
       "stars": 0,
       "forks": 0
     },
