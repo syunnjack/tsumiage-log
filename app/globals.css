@@ -2740,3 +2740,41 @@ footer > a {
   font-size: 12px;
   opacity: .6;
 }
+
+
+/* プロフィールの運営サイト一覧 */
+.profile-note {
+  margin: 0 0 18px;
+  font-size: 14px;
+  opacity: .75;
+  line-height: 1.9;
+}
+
+.site-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.site-list li {
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, .35);
+  border-radius: 10px;
+}
+
+.site-list a {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.site-list span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.8;
+  opacity: .8;
+}
