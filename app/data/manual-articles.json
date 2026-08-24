@@ -1,6 +1,342 @@
 {
   "articles": [
     {
+      "slug": "adsense-required-pages-checklist",
+      "title": "AdSense申請に必要なページ一式｜プライバシーポリシーに何を書くか、実際に使っているサービスから決める",
+      "description": "AdSenseの審査に落ちたサイトを整えるなかで、プライバシーポリシーもフッターも無いことに気づいた。テンプレートを貼るのではなく、コードを調べて実際に使っているサービスだけを書いた。必要なページと、それぞれに何を書いたかをまとめる。",
+      "category": "サイト運営",
+      "tags": [
+        "AdSense",
+        "プライバシーポリシー",
+        "ads.txt",
+        "サイト運営",
+        "Next.js"
+      ],
+      "publishedAt": "2026-08-24T20:00:00+09:00",
+      "updatedAt": "2026-08-24T20:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：必要なのは4つ。そのうち2つが無かった",
+          "body": [
+            "AdSense の審査に向けてサイトを点検したら、次の状態だった。",
+            "**プライバシーポリシー — 無い（404）**",
+            "**全ページ共通のフッター — 無い**",
+            "運営者情報 — あるが672字と薄い",
+            "お問い合わせ — ある",
+            "さらに、技術的な設置も抜けていた。**`ads.txt` が404**で、**広告スクリプトも読み込まれていなかった**。メタタグだけ置いてあった。",
+            "「サイトは広告を表示できない状態です」という表示の直接の原因は、この2つだった。"
+          ]
+        },
+        {
+          "heading": "ads.txt と広告スクリプトは別物",
+          "body": [
+            "AdSense の設置には3つの要素があり、どれか1つでも欠けると動かない。",
+            "**1. `google-adsense-account` のメタタグ。** サイトの所有権を示す。",
+            "**2. `ads.txt`。** ドメイン直下に置く。誰が広告枠を売る権限を持つかを申告するファイル。**これが無いと「所有権を確認してください」が消えない。**",
+            "**3. `adsbygoogle.js` の読み込み。** これが実際に広告を表示する。メタタグだけでは1つも表示されない。",
+            "私はメタタグだけ置いて、済んだつもりになっていた。"
+          ],
+          "code": {
+            "language": "text",
+            "content": "# public/ads.txt（ドメイン直下に置く）\ngoogle.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0"
+          }
+        },
+        {
+          "heading": "Next.js での広告スクリプトの置き方",
+          "body": [
+            "App Router なら `app/layout.tsx` に置く。`next/script` を使い、`afterInteractive` で読み込む。",
+            "`crossOrigin=\"anonymous\"` を付けるのを忘れないこと。AdSense の公式コードに含まれている。"
+          ],
+          "code": {
+            "language": "tsx",
+            "content": "import Script from \"next/script\"\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"ja\">\n      <body>\n        {children}\n        <Script\n          src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX\"\n          strategy=\"afterInteractive\"\n          crossOrigin=\"anonymous\"\n        />\n      </body>\n    </html>\n  )\n}"
+          }
+        },
+        {
+          "heading": "プライバシーポリシーは、テンプレートを貼らない",
+          "body": [
+            "検索すれば雛形はいくらでも出てくる。しかし**使っていないサービスまで書くのは良くない**。Amazonアソシエイトを使っていないのに書けば、それは事実と違う記載になる。",
+            "自分のコードを調べて、実際に使っているものだけを列挙した。",
+            "調べ方は単純だ。外部サービスのドメインや識別子を、ソース全体から拾う。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "grep -rhoE \"googletagmanager|adsbygoogle|codoc|cusdis|docs\\.google\\.com/forms|youtube|rakuten|amazon-adsystem|a8\\.net|valuecommerce\" \\n  app/ --include=\"*.tsx\" --include=\"*.ts\" | sort -u"
+          }
+        },
+        {
+          "heading": "書いた項目",
+          "body": [
+            "調べた結果に基づいて、次の項目を書いた。",
+            "**運営者** — 誰が運営しているか。プロフィールと連絡先へのリンク。",
+            "**アクセス解析** — GA4 を使っていること、Cookie を使うこと、個人を特定する情報は含まないこと。",
+            "**広告の配信** — AdSense を使っていること、第三者配信事業者が Cookie を使うこと、**無効化の方法**（広告設定と aboutads.info へのリンク）。",
+            "**アフィリエイト** — 楽天アフィリエイトを使っていること。紹介料が評価を変えないこと。",
+            "**コメントと有料記事** — Cusdis と codoc を使っていること、公開前に確認すること。",
+            "**お問い合わせ** — Googleフォームで受け付け、無断で公開・提供しないこと。",
+            "**埋め込みコンテンツ** — YouTube を埋め込むページがあること。",
+            "**Cookie の無効化** — ブラウザ設定で無効にできること。",
+            "**免責事項** — 情報の正確性を保証しないこと。技術記事のコードは自分の環境で検証すること。学習記録は結果を保証しないこと。",
+            "**著作権** — 帰属と、権利者からの申し出への対応。",
+            "**改定** — 最終更新日。"
+          ]
+        },
+        {
+          "heading": "フッターが無いと、どこからも辿れない",
+          "body": [
+            "プライバシーポリシーを作っても、**導線が無ければ意味がない**。私のサイトにはフッターが無く、運営者情報も連絡先もトップページからしか辿れなかった。",
+            "全ページ共通のフッターを作り、次の3つをどこからでも1クリックで開けるようにした。",
+            "運営者について ／ プライバシーポリシー ／ お問い合わせ",
+            "あわせて、**広告を掲載している旨をフッターに明記**した。これも審査で見られる点だ。"
+          ]
+        },
+        {
+          "heading": "運営者情報は「実在すること」が伝わる分量にする",
+          "body": [
+            "672字の経歴だけでは、実在の運営者かどうかが判断しにくい。次を足して1,866字にした。",
+            "**運営しているサイトの一覧。** 実際にアクセスして応答を確認したものだけを載せ、それぞれデータの出どころを添えた。",
+            "**学習中のこと。** 資格試験に挑戦していることと、その記録へのリンク。",
+            "**失敗も公開している姿勢。** 設定を間違えてやり直した話などへのリンク。",
+            "**連絡先。** お問い合わせ、GitHub、プライバシーポリシーへの導線。",
+            "作ったものが実在して、動いていて、書いた記事と結びついている。これが伝わる構成にした。"
+          ]
+        },
+        {
+          "heading": "確認のしかた",
+          "body": [
+            "対応したあと、外から見て揃っているかを確認する。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# 必須ページが200を返すか\nfor p in privacy profile contact; do\n  echo -n \"/$p/ \"\n  curl -sS -o /dev/null -w '%{http_code}\n' \"https://example.com/$p/\"\ndone\n\n# ads.txt が配信されているか\ncurl -sS -w '\nHTTP %{http_code}\n' https://example.com/ads.txt\n\n# 広告スクリプトが読み込まれているか\ncurl -sSL https://example.com/ | grep -c 'adsbygoogle.js'"
+          }
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "AdSense に必要なのは、**プライバシーポリシー・運営者情報・お問い合わせ・全ページからの導線**の4つ。",
+            "技術的には、**メタタグ・`ads.txt`・広告スクリプト**の3つが揃って初めて動く。1つでも欠けると表示されない。",
+            "プライバシーポリシーは、**自分のコードを調べて、実際に使っているサービスだけを書く**。テンプレートを貼ると、使っていないサービスまで書くことになる。",
+            "そして、**作っただけでは足りない。** どのページからでも辿れるようにするところまでが対応だ。"
+          ]
+        },
+        {
+          "heading": "AdSense対策シリーズ",
+          "body": [
+            "審査に落ちてから、申請の準備が整うまでの記録です。",
+            "/articles/manual/adsense-low-value-content-measured/ — 落ちた原因を、記事340本の文字数を測って特定した",
+            "/articles/manual/noindex-does-not-hide-from-adsense/ — noindex は審査には効かない。検索から消しても審査員には見えている",
+            "/articles/manual/adsense-required-pages-checklist/ — 申請に必要なページ一式。プライバシーポリシーに何を書くか（この記事）",
+            "/articles/manual/whois-rdap-expired-domain-check/ — 登録したまま放置したドメインの生死を調べる（whois と RDAP）"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "whois-rdap-expired-domain-check",
+      "title": "whoisで「登録あり」に見えたドメインが、RDAPでは全部失効していた｜6件を調べ直した話",
+      "description": "AdSenseに登録したまま放置していたサイトを整理するため、ドメインの生死を調べた。whoisでは3件が「登録あり」に見えたが、RDAPで照会し直すと全件が失効していた。TLDごとに応答形式が違うことが原因だった。確実に判定する方法をまとめる。",
+      "category": "インフラ",
+      "tags": [
+        "whois",
+        "RDAP",
+        "ドメイン",
+        "DNS",
+        "AdSense"
+      ],
+      "publishedAt": "2026-08-24T19:00:00+09:00",
+      "updatedAt": "2026-08-24T19:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：ドメインの生死を確かめるなら RDAP を使う",
+          "body": [
+            "AdSense に12サイト登録したまま放置していた。整理するために、それぞれのドメインがまだ生きているか調べた。",
+            "whois で照会したところ、6件のうち3件が「登録あり」に見えた。ところが **RDAP で照会し直すと、6件すべてが失効**していた。",
+            "原因は単純だ。whois の応答形式は TLD ごとにバラバラで、**「登録がない」ことの伝え方も統一されていない**。私のスクリプトは `No match` という文字列だけを見ていたので、別の言い回しを使う TLD で判定を誤った。"
+          ]
+        },
+        {
+          "heading": "何が起きたか",
+          "body": [
+            "調べたのは次の6件だ。すべて数年前に取得して、サイトを作ったまま放置していたもの。",
+            "`.net` と `.blog` は `No match for ...` と返ってきたので、失効と判定できた。",
+            "問題は `.info`、`.live`、`.online` の3件だった。応答に `No match` が含まれず、注意書きやレジストリの案内文だけが返ってきた。スクリプトは「登録あり」と扱ってしまった。",
+            "**「登録あり」なのに有効期限が取れない**という結果になり、そこで異常に気づいた。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# 判定を誤った書き方\nwhois example.info | grep -q 'No match' && echo '失効' || echo '登録あり'\n# → 「登録あり」と出るが、実際は失効している"
+          }
+        },
+        {
+          "heading": "RDAP なら、HTTPのステータスで判定できる",
+          "body": [
+            "RDAP（Registration Data Access Protocol）は、whois の後継として作られた仕組みだ。応答が **JSON で統一**されていて、文字列を読み解く必要がない。",
+            "そして何より、**登録がないドメインは HTTP 404 を返す**。ステータスコードだけで判定できる。",
+            "`https://rdap.org/domain/<ドメイン>` に投げると、その TLD の RDAP サーバーへ転送してくれる。TLD ごとに問い合わせ先を用意しなくて済む。"
+          ],
+          "code": {
+            "language": "python",
+            "content": "import json, urllib.request, urllib.error\n\ndef is_registered(domain):\n    req = urllib.request.Request(\n        f'https://rdap.org/domain/{domain}',\n        headers={'Accept': 'application/rdap+json'})\n    try:\n        with urllib.request.urlopen(req, timeout=30) as r:\n            data = json.loads(r.read().decode())\n        ns = [n.get('ldhName', '') for n in data.get('nameservers', [])]\n        events = {e['eventAction']: e['eventDate'][:10]\n                  for e in data.get('events', [])}\n        return True, ns, events.get('expiration')\n    except urllib.error.HTTPError as e:\n        if e.code == 404:\n            return False, [], None       # 失効している\n        raise"
+          }
+        },
+        {
+          "heading": "RDAP で分かること",
+          "body": [
+            "返ってくる JSON には、判断に必要なものが揃っている。",
+            "**`status`** — `active`、`client transfer prohibited` など。",
+            "**`nameservers`** — 現在のネームサーバー。ここが空なら、登録はあってもDNSが設定されていない。",
+            "**`events`** — `registration`（取得日）、`expiration`（期限）、`last changed`（最終変更）。",
+            "**`last changed` は特に役に立つ。** ネームサーバーを変更したのに反映されないとき、この日時が動いていなければ、申請自体が届いていないと分かる。反映待ちではない。"
+          ]
+        },
+        {
+          "heading": "whois が使えない TLD も増えている",
+          "body": [
+            "`.shop` は 2026年5月に whois が廃止された。照会すると、RDAP へ移行した旨の案内だけが返る。",
+            "ICANN の方針で、他の TLD も順次 RDAP へ移行している。**新しく書くなら、最初から RDAP を使ったほうがいい。**",
+            "ただし `.jp` は例外だ。JPRS は RDAP に対応しておらず、whois を使う。ドメイン名のあとに `/e` を付けると英語で返る。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# .jp は JPRS の whois。英語で返させる\nwhois -h whois.jprs.jp 'example.jp/e' \\n  | grep -E 'Name Server|Status|Last Updated'"
+          }
+        },
+        {
+          "heading": "放置したドメインを整理する意味",
+          "body": [
+            "調べた結果、AdSense に登録した12サイトのうち **6件はドメインが失効**していた。存在しないサイトを登録したままにしていた。",
+            "審査ではアカウント全体が見られる。**動いていないサイトが半数を占めている状態**は、印象として良くない。",
+            "取得したまま忘れているドメインは、意外と溜まる。年に一度でも棚卸しをしておくと、更新料の無駄も防げる。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "whois は **TLD ごとに応答形式が違う**。`No match` だけを見る判定は当てにならない。",
+            "**RDAP なら HTTP 404 で判定できる。** `https://rdap.org/domain/<ドメイン>` に投げれば、TLD ごとの問い合わせ先を意識しなくて済む。",
+            "`.jp` は RDAP 非対応なので whois を使う。`.shop` は whois が廃止済み。",
+            "**判定が怪しいと感じたら、別の方法で照会し直す。** 今回は「登録ありなのに期限が取れない」という不整合が手がかりになった。"
+          ]
+        },
+        {
+          "heading": "AdSense対策シリーズ",
+          "body": [
+            "審査に落ちてから、申請の準備が整うまでの記録です。",
+            "/articles/manual/adsense-low-value-content-measured/ — 落ちた原因を、記事340本の文字数を測って特定した",
+            "/articles/manual/noindex-does-not-hide-from-adsense/ — noindex は審査には効かない。検索から消しても審査員には見えている",
+            "/articles/manual/adsense-required-pages-checklist/ — 申請に必要なページ一式。プライバシーポリシーに何を書くか",
+            "/articles/manual/whois-rdap-expired-domain-check/ — 登録したまま放置したドメインの生死を調べる（whois と RDAP）（この記事）"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "noindex-does-not-hide-from-adsense",
+      "title": "noindex はAdSenseの審査には効かない｜検索から消しても、審査員には見えている",
+      "description": "薄い自動生成ページ340本を noindex にしてサイトマップからも外した。それで対策は終わったつもりだった。しかし記事一覧を開くと、そのページへのリンクが343件並んだままだった。noindex は検索エンジンの索引から外す指定であって、審査員が見るのを止めるものではない。何を勘違いしていたのかを書く。",
+      "category": "サイト運営",
+      "tags": [
+        "AdSense",
+        "noindex",
+        "SEO",
+        "審査",
+        "サイト設計"
+      ],
+      "publishedAt": "2026-08-24T18:00:00+09:00",
+      "updatedAt": "2026-08-24T18:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：noindex は「検索結果に出さない」指定であって「見せない」指定ではない",
+          "body": [
+            "AdSense に「有用性の低いコンテンツ」で落ちたあと、自動生成していた薄いページ340本を `noindex` にした。サイトマップからも外し、356件から27件まで減らした。",
+            "これで対策は済んだと思っていた。**間違いだった。**",
+            "記事一覧のページを開いて、リンクの数を数えてみた。自動生成ページへのリンクが **343件**、そのまま並んでいた。",
+            "`noindex` は Google の検索結果に出さないための指定だ。**サイトを見に来た人には、何も変わらず見える。** AdSense の審査員も同じだ。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# 記事一覧に何本のリンクが並んでいるか数える\ncurl -sSL https://example.com/articles/ \\n  | grep -oE 'href=\"/articles/[a-z0-9-]+/\"' \\n  | wc -l\n# → 343"
+          }
+        },
+        {
+          "heading": "なぜ勘違いしたのか",
+          "body": [
+            "`noindex` を入れると、Search Console の「インデックス登録されていない」に移る。数字が動くので、対処した感覚が強い。",
+            "SEO の文脈では、これで正しい。検索評価から外れるので、薄いページが全体の足を引っ張ることはなくなる。",
+            "しかし AdSense の審査は、検索エンジンの評価とは別に行われる。**サイトを実際に開いて、内容を見て判断される。** 検索結果に出るかどうかは関係がない。",
+            "つまり私がやったのは、**Google の検索担当には見えないようにしたが、AdSense の担当には見えたまま**という状態だった。"
+          ]
+        },
+        {
+          "heading": "審査員が見る画面を、自分で開いて確認する",
+          "body": [
+            "対策したあと、自分のサイトを「初めて来た人」として開いてみるべきだった。",
+            "トップから記事一覧へ進むと、同じ雛形のタイトルが延々と並ぶ。",
+            "「◯◯の設計・技術選定・コミット履歴を解説」",
+            "「△△の設計・技術選定・コミット履歴を解説」",
+            "これが172件。そのあとに動画ページが168件。**前回落ちたときと、見え方が何も変わっていなかった。**",
+            "noindex を入れたことで、自分の頭の中では「なかったこと」になっていた。しかし画面は変わっていない。"
+          ]
+        },
+        {
+          "heading": "やったこと：一覧から外し、置き場所を変えた",
+          "body": [
+            "削除はしなかった。制作物の記録としては使うし、自分で見返すこともある。",
+            "したのは、**置き場所を変えること**だ。",
+            "記事一覧（`/articles/`）からは、自動生成172本へのリンクを全部外した。代わりに「制作物としては別のページから辿れます」という案内を1つ置いた。",
+            "結果はこうなった。",
+            "自動生成へのリンク：343件 → **0件**",
+            "ページ全体の文字数：24,906字 → **3,589字**",
+            "記事一覧を開くと、手書きの記事13本だけが並ぶ。**これが審査員に見せたい画面だった。**"
+          ]
+        },
+        {
+          "heading": "noindex が効く場面と、効かない場面",
+          "body": [
+            "整理すると、こうなる。",
+            "**効く：検索結果への表示。** 薄いページが検索に出なくなり、サイト全体の評価を下げなくなる。これは本来の目的どおり。",
+            "**効く：サイトマップの申告内容。** 出したいページだけを載せることで、意図が伝わる。",
+            "**効かない：人が見る画面。** リンクを辿れば普通に表示される。AdSense の審査、SNSでの共有、直接アクセス、いずれも影響を受けない。",
+            "**効かない：サイト内の導線。** ナビゲーションや一覧に載っていれば、そこから見られる。",
+            "薄いページを「無かったこと」にしたいなら、**リンクを外すところまでやる**必要がある。"
+          ]
+        },
+        {
+          "heading": "確認の手順",
+          "body": [
+            "対策したあと、次を確認するようにした。",
+            "**1. 一覧ページのリンク数を数える。** 何が何件並んでいるかを、目ではなくコマンドで数える。",
+            "**2. トップから2クリックで何が見えるか辿る。** 審査員も、訪問者も、まずトップから入る。",
+            "**3. ページ全体の文字数を測る。** 薄いページのリンクが並んでいると、一覧ページ自体が不自然に長くなる。24,906字という数字は、明らかにおかしかった。",
+            "いずれも数分で終わる。**「対処したつもり」を数字で潰す作業**だと思っている。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "`noindex` は検索エンジン向けの指定であって、**人が見る画面には何の影響もない**。",
+            "AdSense の審査は、検索結果ではなく**サイトそのもの**を見て行われる。薄いページが一覧に並んでいれば、そのまま判断材料になる。",
+            "対策したあとは、**自分のサイトを初めて来た人として開いてみる**。リンクの数をコマンドで数えれば、思い込みは一発で崩れる。",
+            "この確認をしないまま再審査に出していたら、また同じ結果になっていたはずだ。"
+          ]
+        },
+        {
+          "heading": "AdSense対策シリーズ",
+          "body": [
+            "審査に落ちてから、申請の準備が整うまでの記録です。",
+            "/articles/manual/adsense-low-value-content-measured/ — 落ちた原因を、記事340本の文字数を測って特定した",
+            "/articles/manual/noindex-does-not-hide-from-adsense/ — noindex は審査には効かない。検索から消しても審査員には見えている（この記事）",
+            "/articles/manual/adsense-required-pages-checklist/ — 申請に必要なページ一式。プライバシーポリシーに何を書くか",
+            "/articles/manual/whois-rdap-expired-domain-check/ — 登録したまま放置したドメインの生死を調べる（whois と RDAP）"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gyosei-shoshi-2months-left-strategy",
       "title": "行政書士試験まであと2か月｜六法も判例集も使わず、参考書1冊とクイズ形式の反復で180点を取りにいく",
       "description": "本試験まで残り約2か月。時間的な制約があるなかで、六法と判例集は使わないと決めた。参考書1冊をクイズ感覚で繰り返し、記憶の定着だけを狙う。そして大手予備校の模試を受けて全国順位と偏差値を出す。180点を越えるための道筋が見えて、モチベーションも保てる。その組み立てを書く。",
@@ -513,6 +849,16 @@
             "自動生成のページは、消さなくてよい。**noindex とサイトマップからの除外**で、評価対象から外せる。",
             "サイトマップは全ページを載せる場所ではない。**検索結果に出したいページだけ**を載せる。",
             "そして、記事数を増やすことと、内容を増やすことは違う。同じ雛形を340本並べても、1本分の価値にしかならない。"
+          ]
+        },
+        {
+          "heading": "AdSense対策シリーズ",
+          "body": [
+            "審査に落ちてから、申請の準備が整うまでの記録です。",
+            "/articles/manual/adsense-low-value-content-measured/ — 落ちた原因を、記事340本の文字数を測って特定した（この記事）",
+            "/articles/manual/noindex-does-not-hide-from-adsense/ — noindex は審査には効かない。検索から消しても審査員には見えている",
+            "/articles/manual/adsense-required-pages-checklist/ — 申請に必要なページ一式。プライバシーポリシーに何を書くか",
+            "/articles/manual/whois-rdap-expired-domain-check/ — 登録したまま放置したドメインの生死を調べる（whois と RDAP）"
           ]
         }
       ]
