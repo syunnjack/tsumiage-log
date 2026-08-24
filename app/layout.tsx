@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Script from "next/script"
+import GlobalFooter from "./components/GlobalFooter"
 import Breadcrumbs from "./components/Breadcrumbs"
 import GlobalNav from "./components/GlobalNav"
 import "./globals.css"
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <GlobalNav />
         <Breadcrumbs />
         {children}
+        <GlobalFooter />
         {/* AdSense の読み込み。メタタグ（google-adsense-account）だけでは
             広告は出ない。審査でもこのスクリプトの設置を見られる。
             ads.txt は public/ads.txt に置いてある。 */}

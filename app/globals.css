@@ -2628,3 +2628,115 @@ footer > a {
   opacity: .75;
   line-height: 1.8;
 }
+
+
+/* プライバシーポリシーなどの規約ページ。読みやすさだけを優先する。 */
+.legal-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+.legal-page h1 {
+  font-size: clamp(26px, 5vw, 34px);
+  margin: 0 0 12px;
+}
+
+.legal-lead {
+  margin: 0 0 8px;
+  opacity: .8;
+}
+
+.legal-page section {
+  margin-top: 36px;
+}
+
+.legal-page h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  padding-left: 12px;
+  border-left: 4px solid currentColor;
+}
+
+.legal-page p {
+  margin: 0 0 12px;
+  line-height: 1.9;
+}
+
+.legal-page a {
+  text-decoration: underline;
+}
+
+.legal-updated {
+  margin-top: 20px;
+  font-size: 13px;
+  opacity: .7;
+}
+
+
+/* 全ページ共通のフッター */
+.global-footer {
+  margin-top: 72px;
+  padding: 40px 20px 28px;
+  border-top: 1px solid rgba(148, 163, 184, .35);
+  font-size: 14px;
+}
+
+.global-footer-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 28px 32px;
+}
+
+.global-footer-brand strong {
+  font-size: 16px;
+}
+
+.global-footer-brand p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  opacity: .7;
+}
+
+.global-footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.global-footer-heading {
+  margin: 0 0 2px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  opacity: .6;
+}
+
+.global-footer nav a {
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.global-footer nav a:hover,
+.global-footer nav a:focus-visible {
+  text-decoration: underline;
+}
+
+.global-footer-note {
+  max-width: 1080px;
+  margin: 32px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(148, 163, 184, .25);
+  font-size: 12px;
+  line-height: 1.9;
+  opacity: .75;
+}
+
+.global-footer-copy {
+  max-width: 1080px;
+  margin: 12px auto 0;
+  font-size: 12px;
+  opacity: .6;
+}

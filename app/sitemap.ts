@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteSiteUrl("/services"), changeFrequency: "monthly", priority: 0.9 },
     { url: absoluteSiteUrl("/estimate"), changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteSiteUrl("/contact"), changeFrequency: "monthly", priority: 0.7 },
+    { url: absoluteSiteUrl("/privacy"), changeFrequency: "yearly", priority: 0.5 },
     // リポジトリ記事（172本）はサイトマップに入れない。
     // README とコミットから機械的に作ったもので、同じ雛形が並ぶため
     // 検索エンジンに出す価値が薄い。ページ側でも noindex にしてある。
