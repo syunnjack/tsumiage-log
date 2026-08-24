@@ -1,6 +1,102 @@
 {
   "articles": [
     {
+      "slug": "gyosei-shoshi-2months-left-strategy",
+      "title": "行政書士試験まであと2か月｜六法も判例集も使わず、参考書1冊とクイズ形式の反復で180点を取りにいく",
+      "description": "本試験まで残り約2か月。時間的な制約があるなかで、六法と判例集は使わないと決めた。参考書1冊をクイズ感覚で繰り返し、記憶の定着だけを狙う。そして大手予備校の模試を受けて全国順位と偏差値を出す。180点を越えるための道筋が見えて、モチベーションも保てる。その組み立てを書く。",
+      "category": "学習記録",
+      "tags": [
+        "行政書士",
+        "資格試験",
+        "直前期",
+        "模試",
+        "偏差値",
+        "社会人"
+      ],
+      "publishedAt": "2026-08-24T17:00:00+09:00",
+      "updatedAt": "2026-08-24T17:00:00+09:00",
+      "published": true,
+      "sections": [
+        {
+          "heading": "結論：残り2か月でやることは、参考書1冊の反復と模試だけ",
+          "body": [
+            "本試験まで、あと約2か月になった。",
+            "この期間でやることを2つに絞った。**参考書1冊をクイズ感覚で繰り返すこと**と、**大手予備校の模試を受けること**。それだけだ。",
+            "**六法は引かない。判例集も使わない。** 直前期にこれをやると、時間がいくらでも吸われる。残り2か月で新しく手を広げても、点にはならない。"
+          ]
+        },
+        {
+          "heading": "なぜ六法と判例集を捨てたのか",
+          "body": [
+            "六法を引くのは、勉強している感覚が強い。条文の全文を読むと、理解が深まった気になる。",
+            "しかし、行政書士試験の択一で問われるのは条文の全文ではない。**要件と効果、そして例外の有無**だ。それは参考書に整理された形で載っている。六法から自力で抜き出す作業は、参考書が既にやってくれている。",
+            "判例集も同じだ。判例の事実関係を追うのは面白いが、試験で必要なのは結論と理由の骨組みだけだ。参考書に載っている範囲を確実に覚えるほうが、点に直結する。",
+            "残り2か月という前提だと、この判断は変わらない。**期間が短いほど、教材は絞るべきだ。**"
+          ]
+        },
+        {
+          "heading": "クイズ感覚で回す、というやり方",
+          "body": [
+            "参考書を「読む」のをやめた。代わりに、**自分に問いを出して答える**形で使っている。",
+            "やり方は単純だ。見出しや太字の用語を見て、説明を隠して自分で言ってみる。言えたら次へ、言えなかったらその場で確認する。1項目あたり10秒から30秒で終わる。",
+            "これには2つ利点がある。",
+            "**1. 細切れの時間で進められる。** 読む勉強はまとまった時間が要るが、問いに答えるだけなら移動中でもできる。私は社会人で複数のサイトを運営しているので、まとまった時間が取れない。",
+            "**2. 覚えているかどうかが、その場で分かる。** 読んでいると「知っている」と錯覚する。声に出して説明しようとすると、言えないところがはっきりする。3回目の試験で落とした問題は、まさにこの「知っているつもり」の部分だった。"
+          ]
+        },
+        {
+          "heading": "模試を受ける理由は、点数ではない",
+          "body": [
+            "大手予備校の模試を受けることにした。目的は点数を出すことではない。**自分の位置を知ること**だ。",
+            "模試を受けると、次の3つが出る。",
+            "**全国順位。** 受験者の中で自分がどこにいるか。合格率10%前後の試験なので、上位10%圏内にいるかどうかが分かる。",
+            "**偏差値。** 科目別に出るので、どこが足を引っ張っているかが数字で見える。感覚で「民法が弱い」と思っていた部分が、実は取れていることもある。",
+            "**科目ごとの得点。** 180点にどう組み立てて到達するかを、具体的に計算できる。行政法で何点、民法で何点、記述で何点。この配分を決めれば、残り2か月で何をやるかが自動的に決まる。"
+          ]
+        },
+        {
+          "heading": "180点への道筋が見えることが、そのままモチベーションになる",
+          "body": [
+            "直前期にきついのは、勉強量ではない。**受かるかどうか分からないまま続けること**だ。",
+            "3回目に落ちたあと、しばらく参考書を開けなかった。あと4問という数字だけが残って、何をどうすれば埋まるのか分からなかった。",
+            "模試で数字が出ると、これが変わる。「行政法をあと3問取れれば届く」と分かれば、そこに時間を使えばいい。**やるべきことが決まると、迷いが消える。**",
+            "全国順位が出るのも効く。ひとりで参考書を回していると、自分がどのくらいの位置にいるのか見当がつかない。順位が出れば、上がったか下がったかで判断できる。ゲームのスコアのように扱える。",
+            "つまり模試は、**戦略を立てる道具でありながら、続ける気力を保つ道具でもある。** 一石二鳥だ。"
+          ]
+        },
+        {
+          "heading": "残り2か月の使い方",
+          "body": [
+            "組み立てはこうだ。",
+            "**参考書1冊を、クイズ形式で回し続ける。** 何周するかは決めていない。移動時間と食事中に、開けるだけ開く。",
+            "**模試を受けて、科目別の点数を出す。** 出たら、180点への配分を計算し直す。",
+            "**落とした問題だけ参考書に戻る。** 全体を読み直さない。間違えたところだけ、その場で確認する。",
+            "これ以上は増やさない。**新しい教材を買わない**というのが、今年いちばん強く決めていることだ。1回目から3回目まで、不安になって買い足しては中途半端に終わらせてきた。"
+          ]
+        },
+        {
+          "heading": "同じ時期に受ける人へ",
+          "body": [
+            "残り2か月で、まだ手をつけていない範囲があると焦る。私も焦っている。",
+            "ただ、**焦って教材を増やすと確実に悪くなる**というのは、3回分の経験で分かっている。増やすなら教材ではなく、解く回数だ。",
+            "そして、模試は必ず受けたほうがいい。点数が悪くても構わない。**いまの位置が分かることのほうが、点数そのものより価値がある。** 分からないまま2か月過ごすのが、いちばん消耗する。",
+            "本試験までの経過は、このブログに記録していく。模試の結果が出たら、順位と偏差値も書く。うまくいかなかったことも隠さず書くつもりだ。"
+          ]
+        },
+        {
+          "heading": "受験記シリーズ",
+          "body": [
+            "4回分の受験記をまとめてあります。",
+            "/articles/manual/gyosei-shoshi-1st-attempt-ronjutsu/ — 1回目：200字論述の時代に足切りで落ちた",
+            "/articles/manual/gyosei-shoshi-2nd-attempt-ashikiri-passed/ — 2回目：足切りは通過したが120点前後で落ちた",
+            "/articles/manual/gyosei-shoshi-3rd-attempt-4-questions-short/ — 3回目：あと4問で落ちた",
+            "/articles/manual/gyosei-shoshi-4th-attempt-decision/ — 4回目：参考書1冊に絞って今年で決める",
+            "勉強の場所と時間の決め方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gyosei-shoshi-4th-attempt-decision",
       "title": "行政書士試験4回目、受験申込を済ませた｜時間が取れない社会人が参考書1冊に絞った理由",
       "description": "4回目の行政書士試験に申し込んだ。あと4問で落ちた一昨年から、勉強のやり方を変える。時間的な制約があるなかで、参考書を1冊に絞り、問題演習・答練・模試を軸にすると決めた。なぜ「読む」より「解く」を選んだのか、その判断の中身を書く。",
@@ -79,7 +175,8 @@
             "/articles/manual/gyosei-shoshi-2nd-attempt-ashikiri-passed/ — 2回目：足切りは通過したが120点前後で落ちた",
             "/articles/manual/gyosei-shoshi-3rd-attempt-4-questions-short/ — 3回目：あと4問で落ちた",
             "/articles/manual/gyosei-shoshi-4th-attempt-decision/ — 4回目：参考書1冊に絞って今年で決める（この記事）",
-            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。"
+            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。",
+            "直前期（残り2か月）の組み立ては /articles/manual/gyosei-shoshi-2months-left-strategy/ に書いています。"
           ]
         }
       ]
@@ -162,7 +259,8 @@
             "/articles/manual/gyosei-shoshi-2nd-attempt-ashikiri-passed/ — 2回目：足切りは通過したが120点前後で落ちた",
             "/articles/manual/gyosei-shoshi-3rd-attempt-4-questions-short/ — 3回目：あと4問で落ちた（この記事）",
             "/articles/manual/gyosei-shoshi-4th-attempt-decision/ — 4回目：参考書1冊に絞って今年で決める",
-            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。"
+            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。",
+            "直前期（残り2か月）の組み立ては /articles/manual/gyosei-shoshi-2months-left-strategy/ に書いています。"
           ]
         }
       ]
@@ -245,7 +343,8 @@
             "/articles/manual/gyosei-shoshi-2nd-attempt-ashikiri-passed/ — 2回目：足切りは通過したが120点前後で落ちた（この記事）",
             "/articles/manual/gyosei-shoshi-3rd-attempt-4-questions-short/ — 3回目：あと4問で落ちた",
             "/articles/manual/gyosei-shoshi-4th-attempt-decision/ — 4回目：参考書1冊に絞って今年で決める",
-            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。"
+            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。",
+            "直前期（残り2か月）の組み立ては /articles/manual/gyosei-shoshi-2months-left-strategy/ に書いています。"
           ]
         }
       ]
@@ -325,7 +424,8 @@
             "/articles/manual/gyosei-shoshi-2nd-attempt-ashikiri-passed/ — 2回目：足切りは通過したが120点前後で落ちた",
             "/articles/manual/gyosei-shoshi-3rd-attempt-4-questions-short/ — 3回目：あと4問で落ちた",
             "/articles/manual/gyosei-shoshi-4th-attempt-decision/ — 4回目：参考書1冊に絞って今年で決める",
-            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。"
+            "今年の勉強のやり方は /articles/manual/gyosei-shoshi-tsukue-ni-mukawanai/ に、模試の選び方は /articles/manual/gyosei-shoshi-moshi-osusume-2026/ に書いています。",
+            "直前期（残り2か月）の組み立ては /articles/manual/gyosei-shoshi-2months-left-strategy/ に書いています。"
           ]
         }
       ]
