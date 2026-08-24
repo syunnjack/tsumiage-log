@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next"
-import { articles } from "./lib/repository-articles"
 import { manualArticles } from "./lib/manual-articles"
 import { absoluteSiteUrl } from "./lib/site-url"
-import { publishedVideos, videoWatchUrl } from "./lib/video-library"
 
 export const dynamic = "force-static"
 
@@ -21,23 +19,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteSiteUrl("/services"), changeFrequency: "monthly", priority: 0.9 },
     { url: absoluteSiteUrl("/estimate"), changeFrequency: "monthly", priority: 0.7 },
     { url: absoluteSiteUrl("/contact"), changeFrequency: "monthly", priority: 0.7 },
-    ...articles.map((article) => ({
-      url: absoluteSiteUrl(`/articles/${article.slug}`),
-      lastModified: new Date(article.updatedAt),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    })),
+    // リポジトリ記事（172本）はサイトマップに入れない。
+    // README とコミットから機械的に作ったもので、同じ雛形が並ぶため
+    // 検索エンジンに出す価値が薄い。ページ側でも noindex にしてある。
+    // 制作物の一覧としては /portfolio から辿れる。
     ...manualArticles.map((article) => ({
       url: absoluteSiteUrl(`/articles/manual/${article.slug}`),
       lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    ...publishedVideos.map(({ article }) => ({
-      url: videoWatchUrl(article.slug),
-      lastModified: new Date(article.updatedAt),
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
-    })),
+    // 動画の個別ページ（168本）も入れない。本文が450〜530字しかなく、
+    // 同じ雛形が並ぶため。動画は /videos の一覧から辿れる。
   ]
 }

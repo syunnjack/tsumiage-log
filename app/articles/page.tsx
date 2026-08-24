@@ -34,19 +34,29 @@ export default function ArticlesPage() {
       <p className="eyebrow"><span />開発記録</p>
       <h1>技術記事一覧</h1>
       <p>自分の経験から書いた記事と、公開リポジトリの実装記録をまとめています。</p>
-      <dl><div><dt>公開記事</dt><dd>{articles.length + manualArticles.length}</dd></div><div><dt>自主執筆</dt><dd>{manualArticles.length}</dd></div><div><dt>確認したリポジトリ</dt><dd>{articleStats.totalRepositories}</dd></div></dl>
+      <dl><div><dt>読み物</dt><dd>{manualArticles.length}</dd></div><div><dt>制作物の記録</dt><dd>{articles.length}</dd></div><div><dt>確認したリポジトリ</dt><dd>{articleStats.totalRepositories}</dd></div></dl>
     </section>
     <section className="repository-grid" aria-label="技術記事">
+      <h2 className="article-section-heading">読み物</h2>
+      <p className="article-section-note">
+        実際に手を動かして詰まった点と、その解き方を書いたものです。
+      </p>
       {manualArticles.map((article, index) => <article className="repository-card manual-article-card" key={`manual-${article.slug}`}>
         <div className="repository-card-meta"><span>自主執筆 {String(index + 1).padStart(2, "0")}</span><span>{article.category}</span></div>
-        <h2><Link href={`/articles/manual/${article.slug}/`}>{article.title}</Link></h2>
+        <h3><Link href={`/articles/manual/${article.slug}/`}>{article.title}</Link></h3>
         <p>{article.description}</p>
         <div className="manual-tags">{article.tags.slice(0, 4).map((tag) => <span key={tag}>{tag}</span>)}</div>
         <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/manual/${article.slug}/`}>記事を読む →</Link></div>
       </article>)}
+      <h2 className="article-section-heading">制作物の記録</h2>
+      <p className="article-section-note">
+        公開している GitHub リポジトリの README とコミット履歴から、
+        構成と変更の流れを機械的にまとめたものです。読み物ではなく、
+        何をどう作ったかの記録として置いています。
+      </p>
       {articles.map((article, index) => <article className="repository-card" key={article.slug}>
         <div className="repository-card-meta"><span>リポジトリ {String(index + 1).padStart(3, "0")}</span><span>{article.primaryLanguage}</span></div>
-        <h2><Link href={`/articles/${article.slug}/`}>{article.displayName}の設計と実装</Link></h2>
+        <h3><Link href={`/articles/${article.slug}/`}>{article.displayName}の設計と実装</Link></h3>
         <p>{article.description}</p>
         <div className="repository-card-footer"><time>{formatDate(article.updatedAt)}</time><Link href={`/articles/${article.slug}/`}>解説を読む →</Link></div>
       </article>)}

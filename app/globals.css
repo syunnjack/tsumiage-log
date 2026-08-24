@@ -2602,3 +2602,29 @@ footer > a {
   background: var(--amber);
   color: var(--ink-deep);
 }
+
+
+/* 自動でまとめた記録であることを、最初にはっきり伝える。 */
+.article-machine-note {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border-left: 3px solid #94a3b8;
+  border-radius: 6px;
+  background: rgba(148, 163, 184, .12);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.article-machine-note strong { font-weight: 700; }
+
+.article-section-heading {
+  margin: 40px 0 4px;
+  font-size: 20px;
+}
+
+.article-section-note {
+  margin: 0 0 18px;
+  font-size: 14px;
+  opacity: .75;
+  line-height: 1.8;
+}

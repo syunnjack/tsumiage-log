@@ -15,7 +15,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!article) return {}
   const { title, description } = getArticleSeo(article)
   const canonical = canonicalPath(`/articles/${article.slug}`)
+  // リポジトリ記事は README とコミット履歴から機械的に作っている。
+  // 172本が同じ雛形で並ぶため、AdSense に「有用性の低いコンテンツ」と
+  // 判定された（2026-08-21）。制作物の記録としては残すが、
+  // 検索エンジンには載せない。読み手に向けて書いた記事は
+  // /articles/manual/ にあり、そちらは index させる。
   return { title: `${title} | 積み上げログ`, description, alternates: { canonical },
+    robots: { index: false, follow: true },
     openGraph: { title, description, type: "article", url: canonical, modifiedTime: article.updatedAt, images: ["/og.png"] } }
 }
 
@@ -60,6 +66,13 @@ export default async function RepositoryArticlePage({ params }: { params: Promis
         <h1>{articleSeo.title}</h1>
         <p className="article-summary">{article.description}</p>
         <div className="article-facts"><span>主要言語: {article.primaryLanguage}</span><span>更新: {formatDate(article.updatedAt)}</span><span>根拠コミット: {article.commits.length}件</span></div>
+        {/* 何をどう作ったかの記録であって、読み物ではない。
+            そのことを最初に伝え、読み物のほうへも案内する。 */}
+        <p className="article-machine-note">
+          このページは、公開している GitHub リポジトリの README とコミット履歴から
+          自動でまとめた<strong>制作物の記録</strong>です。読み物として書いた記事は
+          <Link href="/articles/">記事一覧</Link>の「読み物」にあります。
+        </p>
       </header>
       <aside className={`article-video-cta${hasVideo ? "" : " video-article-only"}`}>
         <div className="video-cta-icon" aria-hidden="true">{hasVideo ? "▶" : "文"}</div>

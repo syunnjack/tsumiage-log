@@ -27,9 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const url = videoWatchPath(article.slug)
   const image = videoThumbnailUrl(article.slug)
 
+  // 動画ページは本文が450〜530字しかなく、168本が同じ雛形で並ぶ。
+  // AdSense に「有用性の低いコンテンツ」と判定された（2026-08-21）ため、
+  // 検索エンジンには載せない。動画自体は /videos から辿れる。
   return {
     title: `${title} | 積み上げログ`,
     description,
+    robots: { index: false, follow: true },
     alternates: { canonical: url },
     openGraph: { title, description, type: "video.other", url, images: [image], videos: [absoluteVideoUrl(entry.videoUrl)] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
