@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:32:14.068Z",
+  "generatedAt": "2026-08-25T04:27:05.744Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -3539,7 +3539,7 @@
       "name": "gesenmap",
       "displayName": "Gesenmap",
       "description": "ゲーセンマップ（gesenmap",
-      "readmeExcerpt": "ゲーセンマップ（gesenmap.jp） 全国のゲームセンターを地図・都道府県から探せるサイト。Laravel + SQLite。 掲載データ 店舗の名称・住所・電話・営業時間・設置しているゲームの種類は、 各チェーンの公式サイトで確認したもの （GiGO / バンダイナムコアミューズメント / イオンファンタジー / タイトー）。店舗ページに出典と確認日を出す。公表されていない項目は空欄にし、推測で埋めない 生成: python scripts/build game center data.py → database/data/game centers.json （取得済みの内容は scripts/.cache に残るので、作り直すときはそこを消す） 取り込み: php artisan db:seed class=GameCenterOfficialSeeder （slug をキーにした upsert。 データから消えた公式店舗は掲載から外す） 更新は毎月1日に .github/workflows/refresh data.yml が自動で流す（手動実行も可）。 差分が出たらコミットされ、その push でデプロイまで進む 口コミ・応援投票・地図からの店舗登録は利用者の投稿。店舗ページで公式情報と区別して表示する デプロイ（Xserver） main への push で .github/workflows/deploy.yml が動く。 配置先が2か所に分かれている ので注意。 public/ → /home/xs501620/gesenmap.jp/public html/ （SFTP） アプリ本体（ app/ resources/ routes/ database/ など）→ /home/xs501620/gesenmap.jp/app/ （rsync） そのあとSSHで migrate → 各種 cache → 店舗データの取り込み .env ・ vendor ・ storage はサーバー側のものを使うため送らない。 About Laravel Laravel",
+      "readmeExcerpt": "ゲーセンマップ（gesenmap.jp） 全国のゲームセンターを地図・都道府県から探せるサイト。Laravel + SQLite。 掲載データ 店舗の名称・住所・電話・営業時間・設置しているゲームの種類は、 各チェーンの公式サイトで確認したもの （GiGO / バンダイナムコアミューズメント / イオンファンタジー / タイトー）。店舗ページに出典と確認日を出す。公表されていない項目は空欄にし、推測で埋めない 生成: python scripts/build game center data.py → database/data/game centers.json （取得済みの内容は scripts/.cache に残るので、作り直すときはそこを消す） 取り込み: php artisan db:seed class=GameCenterOfficialSeeder （slug をキーにした upsert。 データから消えた公式店舗は掲載から外す） 更新は毎月1日に .github/workflows/refresh data.yml が自動で流す（手動実行も可）。 差分が出たらコミットされ、その push でデプロイまで進む 口コミ・応援投票・地図からの店舗登録は利用者の投稿。店舗ページで公式情報と区別して表示する カテゴリ（遊びの種類） 店舗を アーケードゲーム / プライズ / カプセルトイ / プリクラ / その他 に分ける。 /category ・ /category/{種類} ・ /area/{都道府県}/{種類} で引ける。 分類は公式が出しているものからしか決めない。 チェーン 何を根拠にするか GiGO 店舗ページの「ゲームの種類」 バンダイナムコ 店舗ページの「設置ゲーム機」タブ（区分）と「入荷プライズ」タブの有無 タイトー 一覧APIの StoreGroupID （0=ゲームセンター / 2=brooming＝プリクラ専門 / 11=ガチャステ＝カプセルトイ専門 / 1=ボウリング）。 7＝マリオンクレープはゲームを置いていないので掲載しない イオン",
       "url": "https://github.com/syunnjack/gesenmap",
       "defaultBranch": "main",
       "primaryLanguage": "PHP",
@@ -3548,6 +3548,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "157a0a5",
+          "message": "遊びの種類で店舗を引けるようにする",
+          "date": "2026-08-25T03:43:10Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/157a0a54bb6821d8dc80c0412c71dc6dd54e8222"
+        },
         {
           "sha": "247e116",
           "message": "actions/checkout と setup-node を v5 に上げる",
@@ -3613,15 +3619,9 @@
           "message": "Add GA4 tracking snippet",
           "date": "2026-08-03T17:59:47Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/fe21546d20d54d464be3fa315113bc3dab38e065"
-        },
-        {
-          "sha": "3e402ae",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:20Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/3e402ae3ee7a58af6ad2751fcbc6074275aed0d5"
         }
       ],
-      "updatedAt": "2026-08-21T14:09:00Z",
+      "updatedAt": "2026-08-25T03:44:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -11644,6 +11644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "de081e2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-25T03:32:45Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/de081e212b0a0bfc16e94c09cdfa772d02c9bdeb"
+        },
+        {
           "sha": "b77a6e7",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-25T02:40:33Z",
@@ -11708,15 +11714,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-24T19:26:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8d6e4915af2c64cf5d9ea79ecdea3f7a5b93ffd4"
-        },
-        {
-          "sha": "fa41d0d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-24T18:30:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fa41d0da70f0b66579805c0bfc2761a5324d0768"
         }
       ],
-      "updatedAt": "2026-08-25T02:40:42Z",
+      "updatedAt": "2026-08-25T03:33:07Z",
       "stars": 0,
       "forks": 0
     },
