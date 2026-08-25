@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T04:27:05.744Z",
+  "generatedAt": "2026-08-25T05:31:17.792Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -3549,6 +3549,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "5d37ec7",
+          "message": "取り直したデータが本番へ出ないのを直す",
+          "date": "2026-08-25T04:50:45Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/5d37ec7e00bdc13cd4c3e3f010f73497a997c287"
+        },
+        {
+          "sha": "cdfe91d",
+          "message": "店舗データを公式サイトの最新の内容に更新する",
+          "date": "2026-08-25T04:48:27Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/cdfe91d2ce059af93c5ed83c7fc6c29034b3d50c"
+        },
+        {
           "sha": "157a0a5",
           "message": "遊びの種類で店舗を引けるようにする",
           "date": "2026-08-25T03:43:10Z",
@@ -3607,21 +3619,9 @@
           "message": "feat: 全国ゲームセンター60件シーダー追加（東京・神奈川・大阪・名古屋・福岡・札幌等）・自動デプロイ時にシーディング実行",
           "date": "2026-08-11T14:54:30Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/22fbc69cddfcfc1f878e32ec7da3737eab73f5b1"
-        },
-        {
-          "sha": "9be413d",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:05:31Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/9be413d1fac32cd780f5bd264c4f93b8b5568712"
-        },
-        {
-          "sha": "fe21546",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:59:47Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/fe21546d20d54d464be3fa315113bc3dab38e065"
         }
       ],
-      "updatedAt": "2026-08-25T03:44:02Z",
+      "updatedAt": "2026-08-25T04:51:06Z",
       "stars": 0,
       "forks": 0
     },
@@ -11644,6 +11644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f121d2a",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-25T04:27:37Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f121d2a70dc3eb94ae21e1efa2f823cd79550b2f"
+        },
+        {
           "sha": "de081e2",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-25T03:32:45Z",
@@ -11708,15 +11714,9 @@
           "message": "行政書士試験の過去問150点の記録を1本追加する",
           "date": "2026-08-24T19:28:05Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0be0b6475b90750937d7585cda68e795e31c05a2"
-        },
-        {
-          "sha": "8d6e491",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-24T19:26:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8d6e4915af2c64cf5d9ea79ecdea3f7a5b93ffd4"
         }
       ],
-      "updatedAt": "2026-08-25T03:33:07Z",
+      "updatedAt": "2026-08-25T04:27:58Z",
       "stars": 0,
       "forks": 0
     },
