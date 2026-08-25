@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:27:17.013Z",
+  "generatedAt": "2026-08-25T09:26:47.167Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11644,6 +11644,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "08cb58e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-25T08:27:38Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/08cb58e5cb37ec9568759a606c2abc9b760c2dcc"
+        },
+        {
           "sha": "e4e12fb",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-25T07:32:28Z",
@@ -11708,15 +11714,9 @@
           "message": "noindex にした視聴ページの動画サイトマップをやめる",
           "date": "2026-08-24T22:18:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/8320e75b96bec7fdeec4dcd4661e4e6829b8932e"
-        },
-        {
-          "sha": "2d5f667",
-          "message": "視聴ページはサイトマップに載せない、を監査の前提にする",
-          "date": "2026-08-24T22:12:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2d5f6671db752f78df801d74340378cbefda2ca2"
         }
       ],
-      "updatedAt": "2026-08-25T07:35:19Z",
+      "updatedAt": "2026-08-25T08:30:43Z",
       "stars": 0,
       "forks": 0
     },
