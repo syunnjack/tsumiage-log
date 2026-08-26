@@ -1350,6 +1350,33 @@ footer > a {
   font-size: 13px;
 }
 
+/* 記事末尾の関連記事。連載として続けて読ませるための導線 */
+.manual-related {
+  border-top: 2px solid currentColor;
+  margin-top: 55px;
+  padding-top: 25px;
+}
+
+.manual-related h2 {
+  font-size: 15px;
+  margin: 0 0 12px;
+}
+
+.manual-related ul {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.manual-related a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration: underline;
+}
+
 .source-note {
   background: #e1e1d5;
   margin-top: 55px;

@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
-import { getManualArticle, manualArticles } from "../../../lib/manual-articles"
+import { getManualArticle, manualArticles, relatedManualArticles } from "../../../lib/manual-articles"
 import { formatDate } from "../../../lib/repository-articles"
 import Comments from "../../../components/Comments"
 import CodocEntry from "../../../components/CodocEntry"
@@ -42,6 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ManualArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const article = getManualArticle((await params).slug)
   if (!article) notFound()
+  const related = relatedManualArticles(article)
   const schema = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
@@ -93,6 +94,18 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
             {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             {section.code && <pre><code className={`language-${section.code.language}`}>{section.code.content}</code></pre>}
           </section>)}
+          {related.length > 0 && (
+            <nav className="manual-related" aria-label="関連記事">
+              <h2>関連記事</h2>
+              <ul>
+                {related.map((item) => (
+                  <li key={item.slug}>
+                    <Link href={`/articles/manual/${item.slug}/`}>{item.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
           <aside className="source-note"><strong>この記事について</strong><p>本人が経験・検証・考察をもとに執筆したオリジナル記事です。</p></aside>
           <CodocEntry
             entryId={article.codocEntryId}
