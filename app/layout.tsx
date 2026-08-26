@@ -12,6 +12,9 @@ const codocUserCode = process.env.NEXT_PUBLIC_CODOC_USERCODE?.trim()
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://syunnjack.dev"),
+  // トップページの canonical。ここが無いと、パラメータ付きのURLで来たときに
+  // どれが正規なのか Google に伝わらない。下層ページは各 page.tsx で指定している
+  alternates: { canonical: "/" },
   title: "積み上げログ | 学び、作り、振り返る開発記録",
   description: "パソコンが苦手な方には専門用語をかみくだいて、ITエンジニアには実装やコミットまで深く解説するsyunnjackの技術ブログです。",
   openGraph: { title: "積み上げログ", description: "学び、作り、振り返る開発記録", url: "https://syunnjack.dev/", siteName: "積み上げログ", locale: "ja_JP", type: "website", images: [{ url: "/og.png", width: 1731, height: 909, alt: "積み上げログ" }] },
