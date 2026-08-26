@@ -29,13 +29,16 @@ export default function FavoriteVideosPage() {
       url: "https://syunnjack.dev/",
     },
     numberOfItems: favoriteVideoData.videos.length,
+    // ここは他人が YouTube に公開している動画の紹介ページ。
+    // VideoObject を出すと、Google はこのページを「その動画の視聴ページ」と見なし、
+    // 動画が見つからないとして「動画が視聴ページに表示されない」を出し続ける
+    // （実体は YouTube 側にあり、当サイトの動画ではない）。
+    // 紹介であることが伝わればよいので、リンクの一覧として申告する。
     hasPart: favoriteVideoData.videos.map((video) => ({
-      "@type": "VideoObject",
+      "@type": "WebPage",
       name: video.title,
       description: video.description,
-      thumbnailUrl: video.thumbnailUrl,
-      embedUrl: video.embedUrl,
-      contentUrl: video.sourceUrl,
+      url: video.sourceUrl,
       author: { "@type": "Person", name: video.author, url: video.authorUrl },
     })),
   }

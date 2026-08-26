@@ -47,21 +47,10 @@ export default async function VideoWatchPage({ params }: Props) {
 
   const { article, video, videoUrl } = entry
   const watchUrl = videoWatchUrl(article.slug)
-  const thumbnailUrl = videoThumbnailUrl(article.slug)
-  const videoSchema = {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    name: video.title,
-    description: `${article.displayName}の目的、使用技術、設計、コミットによる改善を短時間で解説します。`,
-    thumbnailUrl: [thumbnailUrl],
-    uploadDate: article.updatedAt,
-    contentUrl: absoluteVideoUrl(videoUrl),
-    mainEntityOfPage: watchUrl,
-    inLanguage: "ja",
-    author: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
-    publisher: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev/" },
-    potentialAction: { "@type": "WatchAction", target: watchUrl },
-  }
+  // このページは noindex（AdSense 対策で168本まとめて外した／2026-08-21）。
+  // 検索に載せられないページに VideoObject を出しても Google は動画を確認できず、
+  // Search Console の「動画が視聴ページに表示されない」が消えないまま残る。
+  // 構造化データは出さず、プレイヤーだけ置く。動画は /videos/ から辿れる。
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -74,7 +63,6 @@ export default async function VideoWatchPage({ params }: Props) {
 
   return (
     <main className="video-watch-page">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <header className="article-site-header">
         <Link className="brand" href="/"><span className="brand-mark">つ</span><span><strong>積み上げログ</strong><small>技術ブログ</small></span></Link>
