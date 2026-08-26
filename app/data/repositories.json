@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:28:11.744Z",
+  "generatedAt": "2026-08-26T10:26:40.672Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11650,6 +11650,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9553cd9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-26T09:28:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9553cd97e8357526237cca96355660ea076b845e"
+        },
+        {
           "sha": "b37f68e",
           "message": "トップページに canonical を足す",
           "date": "2026-08-26T08:44:54Z",
@@ -11714,15 +11720,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T02:43:07Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/5c844655627e241e1278e47828b5dcb177b0ce9f"
-        },
-        {
-          "sha": "3f675d8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-26T01:52:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3f675d89717ba54b0679cceb2f4e3983871a48e2"
         }
       ],
-      "updatedAt": "2026-08-26T08:48:40Z",
+      "updatedAt": "2026-08-26T09:29:24Z",
       "stars": 0,
       "forks": 0
     },
