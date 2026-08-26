@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T18:03:49.422Z",
+  "generatedAt": "2026-08-26T19:01:27.876Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11650,6 +11650,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "92fdb28",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-26T18:04:20Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/92fdb287c4e19ba6726139490af816555c8b1ca9"
+        },
+        {
           "sha": "f46cc47",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T16:37:56Z",
@@ -11714,15 +11720,9 @@
           "message": "毎朝のYouTube投稿が失敗の通知だけを出し続けるのを止める",
           "date": "2026-08-26T08:08:11Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/dd32d705fae8e3d65fbedc938040d95d84a6bfe8"
-        },
-        {
-          "sha": "ac7c3a7",
-          "message": "自主執筆記事に関連記事の導線を足す",
-          "date": "2026-08-26T07:34:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ac7c3a70f3e3377c6906771101b3bac9eb8563f2"
         }
       ],
-      "updatedAt": "2026-08-26T16:44:22Z",
+      "updatedAt": "2026-08-26T18:05:00Z",
       "stars": 0,
       "forks": 0
     },
