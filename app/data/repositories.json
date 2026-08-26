@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T05:27:02.256Z",
+  "generatedAt": "2026-08-26T06:27:02.176Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -1415,6 +1415,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8812d37",
+          "message": "英語動画生成を再トリガー (#3)",
+          "date": "2026-08-26T06:09:00Z",
+          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/8812d378c51dc171c436025068fcff4abef63cb7"
+        },
+        {
           "sha": "964bbbb",
           "message": "高校英語の解説動画を自動生成 [skip ci]",
           "date": "2026-08-22T10:01:34Z",
@@ -1479,15 +1485,9 @@
           "message": "高校英語 第1回：5文型の動画教材データを追加",
           "date": "2026-08-20T05:16:40Z",
           "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/fe454a74982b10fef7c131684d8cf6689e752ee8"
-        },
-        {
-          "sha": "74d42c6",
-          "message": "高校受験数学 第6回：中点の軌跡と△BPQの最大（2π cm、2 cm²）",
-          "date": "2026-08-17T08:38:47Z",
-          "url": "https://github.com/syunnjack/chitamaru-study-portal/commit/74d42c6920c381d364fcb21ee4676200976751b6"
         }
       ],
-      "updatedAt": "2026-08-22T10:01:49Z",
+      "updatedAt": "2026-08-26T06:09:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -11650,6 +11650,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9ce62eb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-26T05:27:27Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ce62eb03be71846a8d104e79ea0ac104c591e06"
+        },
+        {
           "sha": "80725ae",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T04:27:53Z",
@@ -11714,15 +11720,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-25T18:29:19Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/487b589433038400a1cfc0c12efd05fd9f82ff85"
-        },
-        {
-          "sha": "14ab053",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-25T17:28:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/14ab05383264cc4b61684f4d067f8057a0272cd9"
         }
       ],
-      "updatedAt": "2026-08-26T04:28:12Z",
+      "updatedAt": "2026-08-26T05:28:25Z",
       "stars": 0,
       "forks": 0
     },
