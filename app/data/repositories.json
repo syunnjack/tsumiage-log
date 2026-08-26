@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:37:28.049Z",
+  "generatedAt": "2026-08-26T18:03:49.422Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11650,6 +11650,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f46cc47",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-26T16:37:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f46cc47b22b831e5ad04c8a5fa56388144b0af7b"
+        },
+        {
           "sha": "0030971",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T15:51:17Z",
@@ -11714,15 +11720,9 @@
           "message": "自主執筆記事に関連記事の導線を足す",
           "date": "2026-08-26T07:34:23Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ac7c3a70f3e3377c6906771101b3bac9eb8563f2"
-        },
-        {
-          "sha": "8ede572",
-          "message": "noindex のページと他人の動画から VideoObject を外す",
-          "date": "2026-08-26T07:34:10Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8ede5729c0139e44a3a2c4cf2eb505c732bb6ec1"
         }
       ],
-      "updatedAt": "2026-08-26T15:51:23Z",
+      "updatedAt": "2026-08-26T16:44:22Z",
       "stars": 0,
       "forks": 0
     },
