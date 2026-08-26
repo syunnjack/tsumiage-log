@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T21:06:43.802Z",
+  "generatedAt": "2026-08-26T22:15:29.577Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -395,6 +395,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "bc2355b",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-26T21:00:12Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/bc2355bd4bd90cc350744ccc738cec39b10188ae"
+        },
+        {
           "sha": "90fd0b9",
           "message": "Refresh bowling event data",
           "date": "2026-08-25T20:18:22Z",
@@ -459,15 +465,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-15T20:21:28Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/95772c70ba6f24a1f567033353c742f69cb73cfc"
-        },
-        {
-          "sha": "0f3dd5e",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:51:45Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/0f3dd5ee3e28fa56a4fdefdf82a930af4b8cb170"
         }
       ],
-      "updatedAt": "2026-08-25T20:18:33Z",
+      "updatedAt": "2026-08-26T21:16:05Z",
       "stars": 0,
       "forks": 0
     },
@@ -2143,6 +2143,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dc13f96",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-08-26T20:48:35Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/dc13f966b030175e35d0257b2c3de506e245601c"
+        },
+        {
           "sha": "31ebd03",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-25T20:08:31Z",
@@ -2179,7 +2185,7 @@
           "url": "https://github.com/syunnjack/dokodemiru/commit/5aa32e934b5ba7482682310e67e7dfa37b692b12"
         }
       ],
-      "updatedAt": "2026-08-25T20:09:23Z",
+      "updatedAt": "2026-08-26T21:09:29Z",
       "stars": 0,
       "forks": 0
     },
