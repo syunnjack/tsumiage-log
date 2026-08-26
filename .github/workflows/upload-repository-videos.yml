@@ -31,29 +31,48 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
+      # Secret が無いときの扱いを、起動のしかたで分ける。
+      #
+      # 定期実行で毎日 exit 1 すると、失敗の通知だけが毎朝届き続ける。
+      # 設定していないことは分かっているので、それは異常ではない。
+      # 定期実行では何もせず終わり、手動実行のときだけエラーにする。
       - name: 認証情報が設定されているか確認
+        id: check
         env:
           CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          REFRESH: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
-          if [ -z "$CLIENT_ID" ]; then
-            echo "::error::YOUTUBE_CLIENT_ID / YOUTUBE_CLIENT_SECRET / YOUTUBE_REFRESH_TOKEN をリポジトリのSecretsに設定してください。"
+          if [ -n "$CLIENT_ID" ] && [ -n "$SECRET" ] && [ -n "$REFRESH" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "ready=false" >> "$GITHUB_OUTPUT"
+          MSG="YOUTUBE_CLIENT_ID / YOUTUBE_CLIENT_SECRET / YOUTUBE_REFRESH_TOKEN をリポジトリのSecretsに設定してください。"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "::error::$MSG"
             exit 1
           fi
+          echo "::notice::$MSG 設定されるまで、定期実行では投稿しません。"
 
       # 動画ファイル本体がリポジトリに入っているため、チェックアウトは重い。
       # 履歴は不要なので浅くする
       - uses: actions/checkout@v5
+        if: steps.check.outputs.ready == 'true'
         with:
           fetch-depth: 1
 
       - uses: actions/setup-node@v5
+        if: steps.check.outputs.ready == 'true'
         with:
           node-version: 22
           cache: npm
 
       - run: npm ci
+        if: steps.check.outputs.ready == 'true'
 
       - name: 投稿する
+        if: steps.check.outputs.ready == 'true'
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -64,6 +83,7 @@ jobs:
             --privacy "${{ github.event.inputs.privacy || 'public' }}"
 
       - name: 投稿結果を記録する
+        if: steps.check.outputs.ready == 'true'
         run: |
           if git diff --quiet -- app/data/video-production.json; then
             echo "投稿できたものはありませんでした。"
@@ -87,7 +107,7 @@ jobs:
           done
 
       - name: 残りを表示する
-        if: always()
+        if: steps.check.outputs.ready == 'true'
         run: |
           node -e "
             const q = require('./app/data/video-production.json');
