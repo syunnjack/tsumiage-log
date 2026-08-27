@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T10:32:24.545Z",
+  "generatedAt": "2026-08-27T14:55:39.121Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -10534,6 +10534,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "ab224f0",
+          "message": "/smoking のタイトルと説明を、そのページのものにする",
+          "date": "2026-08-27T13:15:02Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/ab224f04772b8c7fea0cdd6cf8744e7634e10c4a"
+        },
+        {
+          "sha": "43aa9b6",
+          "message": "重複ドメインを1本に寄せ、トップページの中身をHTMLに出す",
+          "date": "2026-08-27T13:08:50Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/43aa9b6913b8dc621cf16df0ae6a0e090c7e8044"
+        },
+        {
           "sha": "77bb381",
           "message": "全テーブルで行レベルセキュリティを有効にする",
           "date": "2026-08-20T04:33:19Z",
@@ -10592,21 +10604,9 @@
           "message": "Add IndexNow key file",
           "date": "2026-08-08T02:02:11Z",
           "url": "https://github.com/syunnjack/smoking-spot-finder/commit/06837b874d3d8270d784bb20b284d35ede43ed80"
-        },
-        {
-          "sha": "46bf58b",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:41Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/46bf58bdf861eeca87484c9ba35ef88caf885aa6"
-        },
-        {
-          "sha": "4711b18",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:05:13Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/4711b180d79bb27a343f63cb95152408cfa3dbcf"
         }
       ],
-      "updatedAt": "2026-08-20T04:35:26Z",
+      "updatedAt": "2026-08-27T13:17:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -11656,6 +11656,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "df109f5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-27T10:32:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/df109f581aa87d9bc6170e9b532ea6d31f9fd682"
+        },
+        {
           "sha": "ba28b7a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-27T06:26:09Z",
@@ -11720,15 +11726,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T15:51:17Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0030971a8dcd2c04ed0cca2ea374c9b0b5c3c91a"
-        },
-        {
-          "sha": "12f92f4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-26T14:30:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/12f92f4ee569cf6395cc0f1e1f29941d7baaf38c"
         }
       ],
-      "updatedAt": "2026-08-27T06:26:44Z",
+      "updatedAt": "2026-08-27T10:41:31Z",
       "stars": 0,
       "forks": 0
     },
