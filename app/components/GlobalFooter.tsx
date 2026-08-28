@@ -30,6 +30,7 @@ export default function GlobalFooter() {
           <Link href="/articles/">記事一覧</Link>
           <Link href="/videos/">動画</Link>
           <Link href="/portfolio/">制作物</Link>
+          <Link href="/sites/">運営サイト一覧</Link>
           <Link href="/beginner/">パソコン操作でお困りの方へ</Link>
         </nav>
 
