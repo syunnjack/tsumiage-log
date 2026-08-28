@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T22:12:05.704Z",
+  "generatedAt": "2026-08-28T22:26:24.442Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -3193,6 +3193,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c7b9255",
+          "message": "package-lock.json をコミットしてビルドの依存を固定する",
+          "date": "2026-08-28T22:12:23Z",
+          "url": "https://github.com/syunnjack/funeral-hall-map/commit/c7b92551295b9977a86292384b0ddf1b0f5c7444"
+        },
+        {
           "sha": "ab5ebe7",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:11:15Z",
@@ -3257,15 +3263,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T05:05:37Z",
           "url": "https://github.com/syunnjack/funeral-hall-map/commit/5b66d98995fa5b5e784532285752b1d7632fd354"
-        },
-        {
-          "sha": "62625c3",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:59:55Z",
-          "url": "https://github.com/syunnjack/funeral-hall-map/commit/62625c3634e624909055eebe49e0192f82e6dce5"
         }
       ],
-      "updatedAt": "2026-08-21T14:12:14Z",
+      "updatedAt": "2026-08-28T22:13:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -10022,6 +10022,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "87894c8",
+          "message": "package-lock.json をコミットしてビルドの依存を固定する",
+          "date": "2026-08-28T22:12:23Z",
+          "url": "https://github.com/syunnjack/sauna-map/commit/87894c890baa782ed2dc13d8c4baa8c443682906"
+        },
+        {
           "sha": "6d560de",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:11:19Z",
@@ -10086,15 +10092,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:08:25Z",
           "url": "https://github.com/syunnjack/sauna-map/commit/2a60aa1ad86e81cc625099151b25b4f34994febe"
-        },
-        {
-          "sha": "bbe69b2",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:04:30Z",
-          "url": "https://github.com/syunnjack/sauna-map/commit/bbe69b2294e075bff7585571dcfd28f06e727363"
         }
       ],
-      "updatedAt": "2026-08-21T14:12:12Z",
+      "updatedAt": "2026-08-28T22:13:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -10910,6 +10910,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dcb9684",
+          "message": "package-lock.json をコミットしてビルドの依存を固定する",
+          "date": "2026-08-28T22:12:23Z",
+          "url": "https://github.com/syunnjack/space-map/commit/dcb9684af145e0d1d7e88cfd4f1c14fabf2be3b9"
+        },
+        {
           "sha": "8c2a711",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:11:24Z",
@@ -10974,15 +10980,9 @@
           "message": "静的な public/sitemap.xml を消し、動的なサイトマップを復活させる",
           "date": "2026-08-16T06:35:34Z",
           "url": "https://github.com/syunnjack/space-map/commit/2ca197a42606eaba52d9d4e74c33416dca9af79d"
-        },
-        {
-          "sha": "e793d71",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:56:31Z",
-          "url": "https://github.com/syunnjack/space-map/commit/e793d714fbc10a8454ded1be0981d6b7380e7923"
         }
       ],
-      "updatedAt": "2026-08-21T14:11:50Z",
+      "updatedAt": "2026-08-28T22:13:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -11710,6 +11710,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ac39230",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-28T22:12:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ac39230f4c904f13efbc17d39fa95e7cd2f04fc7"
+        },
+        {
           "sha": "fef62b4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-28T21:01:04Z",
@@ -11774,15 +11780,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-27T22:34:56Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/68d6ee3ba8469acf866191ed3164ac714a1ecca4"
-        },
-        {
-          "sha": "c499e08",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-27T18:55:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c499e084e5a0bc74c4dbb66c07cf2ef8a7e0f7b1"
         }
       ],
-      "updatedAt": "2026-08-28T21:04:30Z",
+      "updatedAt": "2026-08-28T22:12:47Z",
       "stars": 0,
       "forks": 0
     },
