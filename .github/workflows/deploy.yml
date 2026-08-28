@@ -58,6 +58,11 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      # ビルド出力(out/)を見る監査なので、build のあとに置く。
+      # ここに無かったため、2026-08-26 の方針変更で期待値がずれたことに3日気づけなかった。
+      - name: Audit search index
+        run: npm run search:index:audit
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

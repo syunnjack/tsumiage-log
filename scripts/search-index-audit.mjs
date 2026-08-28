@@ -51,15 +51,21 @@ if (failures.length === 0) {
     failures.push(`視聴ページ数が不一致です: ${watchDirectories.length}/${publishedSlugs.length}`)
   }
 
+  // 視聴ページに VideoObject は **出さない**（2026-08-26 の 8ede572）。
+  // noindex のページに構造化データを出しても Google は動画を確認できず、
+  // Search Console の「動画が視聴ページに表示されない」が消えないまま残るため。
+  // ここも「入っていないこと」を守る検査にしてある。逆に戻すと全件失敗する。
   for (const slug of publishedSlugs) {
     const watchPage = readOutput(`videos/${slug}/index.html`)
     if (count(watchPage, /<video\b/g) !== 1) failures.push(`${slug}: 視聴ページの video 要素が1件ではありません`)
-    if (!watchPage.includes('"@type":"VideoObject"')) failures.push(`${slug}: VideoObject がありません`)
+    if (watchPage.includes('"@type":"VideoObject"')) {
+      failures.push(`${slug}: 視聴ページに VideoObject が入っています。noindex のページなので出さないこと`)
+    }
     if (!watchPage.includes(`rel="canonical" href="https://syunnjack.dev/videos/${slug}/"`)) {
       failures.push(`${slug}: canonical URLが正しくありません`)
     }
-    if (!watchPage.includes('"thumbnailUrl"') || !watchPage.includes('"contentUrl"')) {
-      failures.push(`${slug}: VideoObject の必須URLが不足しています`)
+    if (!watchPage.includes('content="noindex')) {
+      failures.push(`${slug}: 視聴ページが noindex になっていません`)
     }
   }
 
@@ -67,9 +73,18 @@ if (failures.length === 0) {
   // AdSense に「有用性の低いコンテンツ」と判定された原因だったため、
   // 2026-08-24 にページ側を noindex にし、サイトマップを356件→26件に絞った
   // （app/sitemap.ts のコメント参照）。ここは「入っていないこと」を守る検査。
-  const watchSitemapEntries = sitemapUrls.filter((url) => new URL(url).pathname.startsWith("/videos/") && !["/videos/", "/videos/favorites/"].includes(new URL(url).pathname)).length
-  if (watchSitemapEntries !== 0) {
-    failures.push(`通常サイトマップに視聴ページが${watchSitemapEntries}件入っています。noindex にしたページなので載せないこと`)
+  // 一覧の /videos/ 自体も外した（2026-08-29）。視聴ページ167本へのリンクが並ぶため、
+  // AdSense の審査員には前回落ちたときと同じ画面に見えていた。noindex は検索に効くだけで、
+  // 人が見る画面は変わらない（/articles/manual/noindex-does-not-hide-from-adsense/）。
+  // 選定理由を書いた手書きの /videos/favorites/ は残す。
+  const videoSitemapEntries = sitemapUrls
+    .map((url) => new URL(url).pathname)
+    .filter((path) => path.startsWith("/videos/") && path !== "/videos/favorites/")
+  if (videoSitemapEntries.length !== 0) {
+    failures.push(`通常サイトマップに動画ページが${videoSitemapEntries.length}件入っています（${videoSitemapEntries.join(", ")}）。noindex にしたページなので載せないこと`)
+  }
+  if (!listing.includes('content="noindex')) {
+    failures.push("動画一覧 /videos/ が noindex になっていません")
   }
 }
 
