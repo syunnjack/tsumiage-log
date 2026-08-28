@@ -11,6 +11,9 @@ const pageDescription =
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  // 個別の視聴ページ167本へのリンクが並ぶ一覧なので、検索結果には出さない
+  // （視聴ページ自体も noindex。app/sitemap.ts のコメント参照）。
+  robots: { index: false, follow: true },
   alternates: { canonical: "/videos/" },
   openGraph: { title: pageTitle, description: pageDescription, type: "website", url: "/videos/", images: ["/og.png"] },
   twitter: { card: "summary_large_image", title: pageTitle, description: pageDescription, images: ["/og.png"] },

@@ -28,7 +28,7 @@ export default function GlobalFooter() {
         <nav aria-label="コンテンツ">
           <p className="global-footer-heading">コンテンツ</p>
           <Link href="/articles/">記事一覧</Link>
-          <Link href="/videos/">動画</Link>
+          <Link href="/videos/favorites/">お気に入り動画</Link>
           <Link href="/portfolio/">制作物</Link>
           <Link href="/sites/">運営サイト一覧</Link>
           <Link href="/beginner/">パソコン操作でお困りの方へ</Link>

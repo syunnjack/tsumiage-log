@@ -9,7 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteSiteUrl("/"), changeFrequency: "weekly", priority: 1 },
     { url: absoluteSiteUrl("/beginner"), changeFrequency: "monthly", priority: 0.9 },
     { url: absoluteSiteUrl("/articles"), changeFrequency: "weekly", priority: 0.9 },
-    { url: absoluteSiteUrl("/videos"), changeFrequency: "weekly", priority: 0.9 },
+    // /videos は自動生成の視聴ページ167本が並ぶだけの一覧なので入れない（noindex にしてある）。
+    // /videos/favorites は選定理由を書いた手書きの紹介30本なので残す。
     { url: absoluteSiteUrl("/videos/favorites"), changeFrequency: "weekly", priority: 0.75 },
     { url: absoluteSiteUrl("/store"), changeFrequency: "weekly", priority: 0.8 },
     { url: absoluteSiteUrl("/crowdsourcing"), changeFrequency: "monthly", priority: 0.85 },

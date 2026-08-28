@@ -58,8 +58,8 @@ export default function ArticlesPage() {
         読み物ではないため、この一覧には並べていません。
       </p>
       <p>
-        どんなものを作ってきたかは<Link href="/portfolio/">制作物のページ</Link>から、
-        解説動画は<Link href="/videos/">動画のページ</Link>から確認できます。
+        どんなものを作ってきたかは<Link href="/portfolio/">制作物のページ</Link>から確認できます。
+        解説動画は、それぞれの記録のページに置いてあります。
       </p>
     </section>
   </main>

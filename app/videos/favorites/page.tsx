@@ -62,7 +62,7 @@ export default function FavoriteVideosPage() {
           <span className="brand-mark">つ</span>
           <span><strong>積み上げログ</strong><small>技術ブログ</small></span>
         </Link>
-        <Link href="/videos/">動画ページへ戻る</Link>
+        <Link href="/articles/">記事一覧へ</Link>
       </header>
 
       <section className="favorite-video-hero">
