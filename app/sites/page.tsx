@@ -131,6 +131,19 @@ export default function SitesPage() {
           </div>
         </section>
       ))}
+      <section className="business-section">
+        <div className="section-heading">
+          <div>
+            <h2>運営者について</h2>
+          </div>
+          <p>上記のサイトは、いずれも個人で開発・運営しているものです。</p>
+        </div>
+        <p>
+          更新の記録は<a href="/articles/">記事一覧</a>に、開発の話は X（
+          <a href="https://x.com/syunnjackdev" rel="me noopener" target="_blank">@syunnjackdev</a>
+          ）に書いています。お問い合わせは<a href="/contact/">こちら</a>から受け付けています。
+        </p>
+      </section>
     </BusinessPage>
   )
 }
