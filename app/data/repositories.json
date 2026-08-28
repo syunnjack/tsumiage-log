@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T04:57:17.637Z",
+  "generatedAt": "2026-08-28T07:56:01.722Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -10813,6 +10813,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "c70a777",
+          "message": "Search Console の所有権確認タグを追加する (#4)",
+          "date": "2026-08-28T07:29:30Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/c70a77767c561ca28a8b8972fc89623010c23a22"
+        },
+        {
+          "sha": "1612ee8",
+          "message": "Search Console の所有権確認タグを追加する",
+          "date": "2026-08-28T07:26:47Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/1612ee844c84bc3501316a09717b73ceefe2f3e0"
+        },
+        {
           "sha": "c7a0517",
           "message": "Vercelへのドメイン一括登録をGitHub Actionsから実行できるようにする (#3)",
           "date": "2026-08-28T00:49:00Z",
@@ -10871,21 +10883,9 @@
           "message": "Switch production domain from sosolu.site to sosolu.tokyo",
           "date": "2026-08-07T11:48:22Z",
           "url": "https://github.com/syunnjack/sosolu-site/commit/361e6785015a56c2735134ab4bde2069ab7c546f"
-        },
-        {
-          "sha": "1a04541",
-          "message": "Build 41-genre meta ranking comparison hub with UGC reviews",
-          "date": "2026-08-06T17:20:30Z",
-          "url": "https://github.com/syunnjack/sosolu-site/commit/1a045413f98c6ea3e60a1b6b05369e73a2209cb6"
-        },
-        {
-          "sha": "a98d448",
-          "message": "Initial sosolu-site scaffold: Astro + UGC/AIO/LLMO structure",
-          "date": "2026-08-06T16:52:35Z",
-          "url": "https://github.com/syunnjack/sosolu-site/commit/a98d44827119746a7dcb549135d0afb523ea07ad"
         }
       ],
-      "updatedAt": "2026-08-28T01:23:52Z",
+      "updatedAt": "2026-08-28T07:30:12Z",
       "stars": 0,
       "forks": 0
     },
@@ -11704,6 +11704,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0b6e1b5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-28T04:57:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b6e1b51ae80076fb58360f024902ac3db4be1b1"
+        },
+        {
           "sha": "ab50faa",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-28T01:56:28Z",
@@ -11768,15 +11774,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T21:07:12Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/68fcd612e0096b2129cf1b5d6d537322d0107d6e"
-        },
-        {
-          "sha": "ffe278e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-26T19:56:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ffe278ecb250636e0dd9c3ed7e2dea59743b924e"
         }
       ],
-      "updatedAt": "2026-08-28T01:56:33Z",
+      "updatedAt": "2026-08-28T04:58:03Z",
       "stars": 0,
       "forks": 0
     },
