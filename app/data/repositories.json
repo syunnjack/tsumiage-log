@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T22:34:30.870Z",
+  "generatedAt": "2026-08-28T01:55:57.201Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -395,6 +395,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3a551a3",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-27T23:25:41Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/3a551a3657f877f93a7e1446b15f8daca65f23da"
+        },
+        {
           "sha": "bc2355b",
           "message": "Refresh bowling event data",
           "date": "2026-08-26T21:00:12Z",
@@ -459,15 +465,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-16T20:15:46Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/f6872c31d8380462d24b008eaaaf2c03a1f9b1d1"
-        },
-        {
-          "sha": "95772c7",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-15T20:21:28Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/95772c70ba6f24a1f567033353c742f69cb73cfc"
         }
       ],
-      "updatedAt": "2026-08-26T21:16:05Z",
+      "updatedAt": "2026-08-27T23:26:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -2143,6 +2143,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1a19e8b",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-08-27T23:10:38Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/1a19e8b3b55a4a0bfc3c65b7155264964963bb4d"
+        },
+        {
           "sha": "dc13f96",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-26T20:48:35Z",
@@ -2185,7 +2191,7 @@
           "url": "https://github.com/syunnjack/dokodemiru/commit/5aa32e934b5ba7482682310e67e7dfa37b692b12"
         }
       ],
-      "updatedAt": "2026-08-26T21:09:29Z",
+      "updatedAt": "2026-08-27T23:11:01Z",
       "stars": 0,
       "forks": 0
     },
@@ -10796,16 +10802,58 @@
       "slug": "sosolu-site",
       "name": "sosolu-site",
       "displayName": "Sosolu Site",
-      "description": "Sosolu Siteは、TypeScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "sosolu site sosolu.tokyo — 既存の41ジャンル別ランキングサイト（ syunnjack/ ranking ）を横断して比較する、 ユーザーレビュー（UGC）主体のメタ比較ハブ。 設計方針: docs/DOMAINS.md ./docs/DOMAINS.md （ドメイン割り当て）。 rakuten02 リポジトリの docs/SEO AIO LLMO.md / docs/RANKING SITES.md も参照。 セットアップ デプロイ Vercelに接続すると @astrojs/vercel アダプタでそのままデプロイ可能。 src/pages/api/reviews.ts はVercel Postgresに接続する。 POSTGRES URL 等の環境変数が未設定の場合、 レビューAPIは503を返し、フロント側は「準備中」表示にフォールバックする（サイト自体は落ちない）。 DB接続後は db/schema.sql を実行してテーブルを作成すること。 現状 x Astroプロジェクト初期構成（sitemap統合済み） x llms.txt / robots.txt （AIO/LLMO・SEO基礎） x 41ジャンルの一覧ページ（ / ）+ ジャンル別ページ（ /c/{slug}/ ） x FAQ / BreadcrumbList / Product+AggregateRating 構造化データ（JSON LD） x UGCレビュー投稿・表示UI（ src/components/ReviewWidget.astro ） x レビューAPI実装（ src/pages/api/reviews.ts 、バリデーション込み） x DBスキーマ定義（ db/schema.sql ） 各ジャンルランキングサイトの実デプロイ・URL紐付け（ src/data/categories.ts の externalUrl 、現状すべて未公開のため null ） Vercel Postgresの実プロビジョニング（ユーザー側のVercelアカウント作業） sosolu",
+      "description": "Sosolu Siteは、Astroを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "sosolu site sosolu.tokyo — 既存のジャンル別ランキングサイト（ syunnjack/ ranking ）を横断して比較する、 ユーザーレビュー（UGC）主体のメタ比較ハブ。 設計方針: docs/DOMAINS.md ./docs/DOMAINS.md （ドメイン割り当て）。 rakuten02 リポジトリの docs/SEO AIO LLMO.md / docs/RANKING SITES.md も参照。 セットアップ チェック PRとmainへのpushでは .github/workflows/ci.yml がこの2つを走らせる。 Vercelの確認でもビルドは走るが、失敗に気付くのがデプロイ後になるため、 マージ前にPR上でも確認する。 デプロイ Vercelに接続すると @astrojs/vercel アダプタでそのままデプロイ可能。 src/pages/api/reviews.ts はVercel Postgresに接続する。 POSTGRES URL 等の環境変数が未設定の場合、 レビューAPIは503を返し、フロント側は「準備中」表示にフォールバックする（サイト自体は落ちない）。 DB接続後は db/schema.sql を実行してテーブルを作成すること。 schema.sql は ADD COLUMN IF NOT EXISTS を含むので、既存テーブルにそのまま流しても良い。 環境変数 変数 必須 用途 POSTGRES URL レビュー機能に必要 Vercel Postgres接続。未設定ならレビューAPIは503を返す REVIEW IP SALT 任意（推奨） 投稿元IPをハッシュ化するときのソルト。未設定だと連投チェックが効かない ドメイン 本番は sosolu.tokyo の一本。保有している他ドメイン（ sosolu.email など18件）は src/middleware.ts が301で sosolu.tokyo へ寄せる。対象ドメインは src/lib/site.ts の REDIRECT HOSTS",
       "url": "https://github.com/syunnjack/sosolu-site",
       "defaultBranch": "main",
-      "primaryLanguage": "TypeScript",
+      "primaryLanguage": "Astro",
       "languages": [
-        "TypeScript"
+        "Astro"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "c7a0517",
+          "message": "Vercelへのドメイン一括登録をGitHub Actionsから実行できるようにする (#3)",
+          "date": "2026-08-28T00:49:00Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/c7a0517d96ca378932f118739d6a10f71b4b5ce2"
+        },
+        {
+          "sha": "a0b4e27",
+          "message": "Vercelへのドメイン一括登録をGitHub Actionsから実行できるようにする",
+          "date": "2026-08-28T00:45:55Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/a0b4e27590bf29a47f1953ad03b574e9a2510cb2"
+        },
+        {
+          "sha": "4fb681c",
+          "message": "ドメイン設定の検証スクリプトと、実施手順の具体化 (#2)",
+          "date": "2026-08-28T00:38:20Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/4fb681c147f35a18079c76bd3e1a7476d9c7e1a4"
+        },
+        {
+          "sha": "1f86a7f",
+          "message": "ドメイン設定の検証スクリプトと、実施手順の具体化",
+          "date": "2026-08-28T00:10:56Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/1f86a7f3d48aafe9adbd1beec007c48b311a4691"
+        },
+        {
+          "sha": "26ce28c",
+          "message": "sosolu.email などの保有ドメインを sosolu.tokyo へ寄せ、サイト全体を作り込む (#1)",
+          "date": "2026-08-28T00:04:56Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/26ce28c2966c4504272129573bb96b7afbcc6321"
+        },
+        {
+          "sha": "8d7b3d6",
+          "message": "CI（型チェックとビルド）を追加する",
+          "date": "2026-08-27T23:32:42Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/8d7b3d60a9c26ad204ef6d793a9dbb09b78d560d"
+        },
+        {
+          "sha": "4190880",
+          "message": "sosolu.email などの保有ドメインを sosolu.tokyo へ寄せ、サイト全体を作り込む",
+          "date": "2026-08-27T23:22:23Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/4190880cdbe6ff906d07164723785a8333e50e28"
+        },
         {
           "sha": "5281389",
           "message": "支援・購入への導線を追加する",
@@ -10837,7 +10885,7 @@
           "url": "https://github.com/syunnjack/sosolu-site/commit/a98d44827119746a7dcb549135d0afb523ea07ad"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:33Z",
+      "updatedAt": "2026-08-28T01:23:52Z",
       "stars": 0,
       "forks": 0
     },
@@ -11656,6 +11704,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "68d6ee3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-27T22:34:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/68d6ee3ba8469acf866191ed3164ac714a1ecca4"
+        },
+        {
           "sha": "c499e08",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-27T18:55:18Z",
@@ -11720,15 +11774,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-26T19:01:49Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4a2e642ff28f5b773500dd228a0e83fd976afea2"
-        },
-        {
-          "sha": "92fdb28",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-26T18:04:20Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/92fdb287c4e19ba6726139490af816555c8b1ca9"
         }
       ],
-      "updatedAt": "2026-08-27T18:58:25Z",
+      "updatedAt": "2026-08-27T22:35:01Z",
       "stars": 0,
       "forks": 0
     },
