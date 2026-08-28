@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import BusinessPage from "../components/BusinessPage"
 
 const title = "運営サイト一覧 | 積み上げログ"
@@ -139,9 +140,9 @@ export default function SitesPage() {
           <p>上記のサイトは、いずれも個人で開発・運営しているものです。</p>
         </div>
         <p>
-          更新の記録は<a href="/articles/">記事一覧</a>に、開発の話は X（
+          更新の記録は<Link href="/articles/">記事一覧</Link>に、開発の話は X（
           <a href="https://x.com/syunnjackdev" rel="me noopener" target="_blank">@syunnjackdev</a>
-          ）に書いています。お問い合わせは<a href="/contact/">こちら</a>から受け付けています。
+          ）に書いています。お問い合わせは<Link href="/contact/">こちら</Link>から受け付けています。
         </p>
       </section>
     </BusinessPage>
