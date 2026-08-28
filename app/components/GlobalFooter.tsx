@@ -32,7 +32,7 @@ export default function GlobalFooter() {
           <Link href="/portfolio/">制作物</Link>
           <Link href="/sites/">運営サイト一覧</Link>
           <Link href="/beginner/">パソコン操作でお困りの方へ</Link>
-          <a href="https://x.com/syunnjackdev" rel="me noopener" target="_blank">X（@syunnjackdev）</a>
+          <a href="https://x.com/chitamarudev" rel="me noopener" target="_blank">X（@chitamarudev）</a>
         </nav>
 
         <nav aria-label="サービス">

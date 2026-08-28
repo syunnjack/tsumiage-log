@@ -141,7 +141,7 @@ export default function SitesPage() {
         </div>
         <p>
           更新の記録は<Link href="/articles/">記事一覧</Link>に、開発の話は X（
-          <a href="https://x.com/syunnjackdev" rel="me noopener" target="_blank">@syunnjackdev</a>
+          <a href="https://x.com/chitamarudev" rel="me noopener" target="_blank">@chitamarudev</a>
           ）に書いています。お問い合わせは<Link href="/contact/">こちら</Link>から受け付けています。
         </p>
       </section>
