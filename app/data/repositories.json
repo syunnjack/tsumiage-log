@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:26:38.233Z",
+  "generatedAt": "2026-08-29T04:26:53.000Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11716,6 +11716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4234221",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-29T03:27:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/423422163e564961b22d3e25aa14ae0d77d5515c"
+        },
+        {
           "sha": "7e1fff4",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T02:29:22Z",
@@ -11780,15 +11786,9 @@
           "message": "X のリンク先を @chitamarudev に直す",
           "date": "2026-08-28T14:11:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ae581f10788ab593f0d97e0219823df9a28d68ad"
-        },
-        {
-          "sha": "b134737",
-          "message": "内部リンクを Link に直す",
-          "date": "2026-08-28T13:28:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b13473709ac63bab16e384efe5800014cbade7aa"
         }
       ],
-      "updatedAt": "2026-08-29T02:29:27Z",
+      "updatedAt": "2026-08-29T03:27:19Z",
       "stars": 0,
       "forks": 0
     },
