@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T01:24:33.404Z",
+  "generatedAt": "2026-08-29T02:28:52.584Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -10825,6 +10825,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "17f6514",
+          "message": "リダイレクト確認をActionsから実行できるようにする (#5)",
+          "date": "2026-08-29T02:09:46Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/17f651495985125f5a991eeaa72dde3b89db4998"
+        },
+        {
+          "sha": "a0d9159",
+          "message": "リダイレクト確認をActionsから実行できるようにする",
+          "date": "2026-08-29T01:42:58Z",
+          "url": "https://github.com/syunnjack/sosolu-site/commit/a0d91591263dabea48aca31c90d5aba418b4ae4d"
+        },
+        {
           "sha": "c70a777",
           "message": "Search Console の所有権確認タグを追加する (#4)",
           "date": "2026-08-28T07:29:30Z",
@@ -10883,21 +10895,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:56:29Z",
           "url": "https://github.com/syunnjack/sosolu-site/commit/52813894a08f34e3ba8e721d3c5bc933eac8039f"
-        },
-        {
-          "sha": "da715e1",
-          "message": "feat: add sitemap.xml for SEO",
-          "date": "2026-08-10T20:29:28Z",
-          "url": "https://github.com/syunnjack/sosolu-site/commit/da715e13e734a3a5e872dc8a9f8f869ec012d4b4"
-        },
-        {
-          "sha": "361e678",
-          "message": "Switch production domain from sosolu.site to sosolu.tokyo",
-          "date": "2026-08-07T11:48:22Z",
-          "url": "https://github.com/syunnjack/sosolu-site/commit/361e6785015a56c2735134ab4bde2069ab7c546f"
         }
       ],
-      "updatedAt": "2026-08-28T07:30:12Z",
+      "updatedAt": "2026-08-29T02:09:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -11716,6 +11716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "37a94e4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-29T01:25:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/37a94e42e463779e3a56e7ffe2cd33fe374bc74b"
+        },
+        {
           "sha": "b3253dd",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T00:52:16Z",
@@ -11780,15 +11786,9 @@
           "message": "運営サイト一覧に運営者の節と、Xへのリンクを足す",
           "date": "2026-08-28T13:23:08Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9286f58efac667db8986d7cb9fdfe4a0df6b177a"
-        },
-        {
-          "sha": "a8fb46a",
-          "message": "運営サイト一覧のページ(/sites/)を追加する",
-          "date": "2026-08-28T12:52:06Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a8fb46a2d54e5129d90964f98abd99506ffa4343"
         }
       ],
-      "updatedAt": "2026-08-29T00:52:33Z",
+      "updatedAt": "2026-08-29T01:27:09Z",
       "stars": 0,
       "forks": 0
     },
