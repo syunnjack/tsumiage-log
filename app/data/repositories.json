@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T09:23:00.573Z",
+  "generatedAt": "2026-08-29T10:22:47.623Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -11716,6 +11716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e110f73",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-29T09:23:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e110f73c9b371c455e89baaf0a8cc478efd425f4"
+        },
+        {
           "sha": "a8771ea",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T08:28:08Z",
@@ -11780,15 +11786,9 @@
           "message": "検索インデックス監査を実態に合わせ、デプロイでも走らせる",
           "date": "2026-08-28T22:30:45Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/806d1030490c1eeeb55c14957493e7691032832d"
-        },
-        {
-          "sha": "398c0a0",
-          "message": "動画一覧 /videos/ を審査員の導線から外す",
-          "date": "2026-08-28T22:30:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/398c0a0ffea9bf5762b9f1b17f78e5599f275136"
         }
       ],
-      "updatedAt": "2026-08-29T08:28:36Z",
+      "updatedAt": "2026-08-29T09:26:28Z",
       "stars": 0,
       "forks": 0
     },
