@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T23:19:46.541Z",
+  "generatedAt": "2026-08-29T00:51:45.100Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -1792,6 +1792,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2212d06",
+          "message": "未提携5ジャンルの解説を書く",
+          "date": "2026-08-28T23:46:20Z",
+          "url": "https://github.com/syunnjack/cross-genre/commit/2212d06ba2a0f9d8fd4fb99d9fe81a720952eab5"
+        },
+        {
           "sha": "b05860f",
           "message": "アフィリエイトリンクに広告表記を出す",
           "date": "2026-08-24T21:49:08Z",
@@ -1856,15 +1862,9 @@
           "message": "Scope Tokyo-only offers to Tokyo/Kanto instead of showing everywhere",
           "date": "2026-08-09T17:24:33Z",
           "url": "https://github.com/syunnjack/cross-genre/commit/a03a3cdaf1e570d303a9a817c1fb3348a46143c1"
-        },
-        {
-          "sha": "0768926",
-          "message": "Add real per-city battery/solar subsidy facts for 10 major cities",
-          "date": "2026-08-09T16:30:13Z",
-          "url": "https://github.com/syunnjack/cross-genre/commit/076892645b3897e99e23716ef2c74b6274351409"
         }
       ],
-      "updatedAt": "2026-08-24T21:49:16Z",
+      "updatedAt": "2026-08-28T23:52:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -11710,6 +11710,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "64a6285",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-28T23:20:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/64a6285932294d4223b5ac56336eef23b3e6b357"
+        },
+        {
           "sha": "806d103",
           "message": "検索インデックス監査を実態に合わせ、デプロイでも走らせる",
           "date": "2026-08-28T22:30:45Z",
@@ -11774,15 +11780,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-28T12:07:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6049d0bacace2eb1c2d52e9d493bcc0ad082d856"
-        },
-        {
-          "sha": "700304e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-28T07:56:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/700304eaed66719db3a3e1cedde1562d99bee47e"
         }
       ],
-      "updatedAt": "2026-08-28T22:32:41Z",
+      "updatedAt": "2026-08-28T23:20:51Z",
       "stars": 0,
       "forks": 0
     },
