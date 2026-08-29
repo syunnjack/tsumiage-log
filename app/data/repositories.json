@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T00:51:45.100Z",
+  "generatedAt": "2026-08-29T01:24:33.404Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -2666,6 +2666,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1665959",
+          "message": "都市別ページに、データから導ける読み取りを足す",
+          "date": "2026-08-29T00:58:38Z",
+          "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/166595956ceaca62b29c948152ae571b68940278"
+        },
+        {
           "sha": "0b3eb9c",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:11Z",
@@ -2696,7 +2702,7 @@
           "url": "https://github.com/syunnjack/enjoy-setsuyaku/commit/e75870824e389fe9c64b3a733479cf667097a708"
         }
       ],
-      "updatedAt": "2026-08-21T14:08:49Z",
+      "updatedAt": "2026-08-29T00:59:57Z",
       "stars": 0,
       "forks": 0
     },
@@ -11710,6 +11716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b3253dd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-29T00:52:16Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b3253dda2a8383e70f5f11e18ea78b031034d2ff"
+        },
+        {
           "sha": "64a6285",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-28T23:20:17Z",
@@ -11774,15 +11786,9 @@
           "message": "運営サイト一覧のページ(/sites/)を追加する",
           "date": "2026-08-28T12:52:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a8fb46a2d54e5129d90964f98abd99506ffa4343"
-        },
-        {
-          "sha": "6049d0b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-28T12:07:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6049d0bacace2eb1c2d52e9d493bcc0ad082d856"
         }
       ],
-      "updatedAt": "2026-08-28T23:20:51Z",
+      "updatedAt": "2026-08-29T00:52:33Z",
       "stars": 0,
       "forks": 0
     },
