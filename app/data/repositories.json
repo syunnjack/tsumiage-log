@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T18:26:19.533Z",
+  "generatedAt": "2026-08-30T19:19:25.831Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -3042,6 +3042,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ca26d54",
+          "message": "app/ と routes/ もデプロイする",
+          "date": "2026-08-30T18:39:55Z",
+          "url": "https://github.com/syunnjack/foodtruck-map/commit/ca26d549b5ab1a7b11ef7f43aa44562a2eebfd9e"
+        },
+        {
           "sha": "55038fb",
           "message": "トップページに、自治体が公表している出店場所115か所を出す",
           "date": "2026-08-21T14:40:10Z",
@@ -3106,15 +3112,9 @@
           "message": "LINE連携が未設定のうちは、押せない表示にする",
           "date": "2026-08-18T22:35:35Z",
           "url": "https://github.com/syunnjack/foodtruck-map/commit/4f3817e084844b2a37d815b32efc0ddb6d025698"
-        },
-        {
-          "sha": "5bc1e38",
-          "message": "出店スポットを本番に取り込むワークフローを足す",
-          "date": "2026-08-18T16:26:52Z",
-          "url": "https://github.com/syunnjack/foodtruck-map/commit/5bc1e38dbd837a5f435f29cc0d9aa7cab8ada687"
         }
       ],
-      "updatedAt": "2026-08-21T14:41:22Z",
+      "updatedAt": "2026-08-30T18:40:05Z",
       "stars": 0,
       "forks": 0
     },
@@ -11710,6 +11710,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a7b0d30",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T18:26:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7b0d30ddd5b80f9939008a697c6433bece27b36"
+        },
+        {
           "sha": "0f1b4e5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T17:20:48Z",
@@ -11774,15 +11780,9 @@
           "message": "記事を更新したあとにサイトを再ビルドする",
           "date": "2026-08-30T09:22:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d7e2f7ca6bb919ec489ff77878d40d87c50f86ec"
-        },
-        {
-          "sha": "cbdf817",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-30T08:29:23Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbdf817b8c091d140c30909dbdbb3d8e2cfa7e1d"
         }
       ],
-      "updatedAt": "2026-08-30T17:22:27Z",
+      "updatedAt": "2026-08-30T18:27:40Z",
       "stars": 0,
       "forks": 0
     },
