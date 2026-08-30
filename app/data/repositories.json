@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T19:19:25.831Z",
+  "generatedAt": "2026-08-30T20:23:19.914Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -396,6 +396,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5dd19ca",
+          "message": "Refresh bowling event data",
+          "date": "2026-08-30T20:18:57Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/5dd19ca0cae15675fa14070207dcb3c2125f5afe"
+        },
+        {
           "sha": "4170613",
           "message": "Refresh bowling event data",
           "date": "2026-08-29T20:19:31Z",
@@ -460,15 +466,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-19T20:23:02Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/cb94c66f8c3633af61f1f6e102af78024954c26b"
-        },
-        {
-          "sha": "134818e",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-18T20:17:07Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/134818e93d2dedc24e6e5bc94da29f45f471d0fa"
         }
       ],
-      "updatedAt": "2026-08-29T20:19:55Z",
+      "updatedAt": "2026-08-30T20:19:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -2150,6 +2150,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "adc14b5",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-08-30T20:08:35Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/adc14b599b7c781370490494bcf8f32b61134f7a"
+        },
+        {
           "sha": "4d6f523",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-29T20:08:38Z",
@@ -2210,7 +2216,7 @@
           "url": "https://github.com/syunnjack/dokodemiru/commit/5aa32e934b5ba7482682310e67e7dfa37b692b12"
         }
       ],
-      "updatedAt": "2026-08-29T20:09:02Z",
+      "updatedAt": "2026-08-30T20:09:21Z",
       "stars": 0,
       "forks": 0
     },
@@ -3133,6 +3139,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c9121c3",
+          "message": "種類別・市区町村別の内訳と四半期推移を出す (#1)",
+          "date": "2026-08-30T20:06:20Z",
+          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/c9121c339d1cd39ae7d71b554b2dc86fac51ed66"
+        },
+        {
           "sha": "4762502",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:26Z",
@@ -3197,15 +3209,9 @@
           "message": "umikaido.jp の調査・修正用ワークフローを削除する",
           "date": "2026-08-19T06:03:57Z",
           "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/aaccf94df38619a6b28330e7f0b6969acfe5652d"
-        },
-        {
-          "sha": "4dbab08",
-          "message": "umikaido.jp の壊れた JSON-LD を直すワークフローにする",
-          "date": "2026-08-19T06:02:01Z",
-          "url": "https://github.com/syunnjack/fudousan-kakaku-watch/commit/4dbab080cb3aa5d95282761389af43877524e8c3"
         }
       ],
-      "updatedAt": "2026-08-21T14:08:50Z",
+      "updatedAt": "2026-08-30T20:06:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -11710,6 +11716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "98ee476",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T19:19:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/98ee476776d0073909e7f16f723318a2fe61253b"
+        },
+        {
           "sha": "a7b0d30",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T18:26:49Z",
@@ -11774,15 +11786,9 @@
           "message": "作業用の一時ファイルを追跡対象から外す",
           "date": "2026-08-30T09:22:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0386af9bee63a456eaee95e6d71abf615db0c7db"
-        },
-        {
-          "sha": "d7e2f7c",
-          "message": "記事を更新したあとにサイトを再ビルドする",
-          "date": "2026-08-30T09:22:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d7e2f7ca6bb919ec489ff77878d40d87c50f86ec"
         }
       ],
-      "updatedAt": "2026-08-30T18:27:40Z",
+      "updatedAt": "2026-08-30T19:20:26Z",
       "stars": 0,
       "forks": 0
     },
