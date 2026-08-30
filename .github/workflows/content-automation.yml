@@ -100,8 +100,12 @@ jobs:
           git push
 
       - name: Start GitHub Pages deployment
-        # 更新時はmainへのpushでdeploy.ymlが自動起動するため、重複実行しない
-        if: steps.changes.outputs.changed == 'false' && github.event_name == 'workflow_dispatch'
+        # GITHUB_TOKEN で push したコミットは、他のワークフローを起動しない
+        # （Actions の無限ループ防止の仕様）。記事を更新したときこそ
+        # deploy.yml を明示的に呼ばないと、データだけ新しくサイトが古いままになる。
+        # 実際 2026-08-28 以降、記事は毎時更新されていたのに再ビルドされず、
+        # sitemap.xml に生成記事が1件も載っていなかった。
+        if: steps.changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         run: gh workflow run deploy.yml --ref main
 
       - name: Create or update publication alert
