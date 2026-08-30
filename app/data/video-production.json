@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:28:48.768Z",
+  "generatedAt": "2026-08-30T09:24:43.615Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -1295,12 +1295,12 @@
     {
       "slug": "coin-laundring",
       "repository": "coin-laundring",
-      "title": "JavaScriptで作ったCoin Laundring｜構成とコミット履歴を75秒で解説",
+      "title": "HTMLで作ったCoin Laundring｜構成とコミット履歴を75秒で解説",
       "description": "coin laundring コインランドリーの空き状況を素早く比較するためのフロントエンドアプリです",
-      "language": "JavaScript",
+      "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/coin-laundring/",
       "repositoryUrl": "https://github.com/syunnjack/coin-laundring",
-      "youtubeDescription": "Coin Laundringは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Coin Laundringがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/coin-laundring\nソースコード（GitHub）： https://github.com/syunnjack/coin-laundring\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Coin Laundringは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Coin Laundringがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/coin-laundring\nソースコード（GitHub）： https://github.com/syunnjack/coin-laundring\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの規模なら、どのくらいの期間で作れると思いますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -1308,11 +1308,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "HTML",
         "Coin Laundring",
-        "JavaScript 個人開発"
+        "HTML 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "HTMLの個人開発",
       "slides": [
         {
           "title": "Coin Laundringの技術解説",
@@ -1324,7 +1324,7 @@
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -1347,7 +1347,7 @@
       "narration": [
         "今回は、Coin Laundringの技術構成を短く解説します。",
         "coin laundring コインランドリーの空き状況を素早く比較するためのフロントエンドアプリです",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
@@ -9837,7 +9837,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、構成の更新と保守性の改善が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -9854,7 +9854,7 @@
         "積み上げログ 「学び、作り、振り返る開発記録」をテーマにした、syunnjackの技術ブログです",
         "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、構成の更新と保守性の改善が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },

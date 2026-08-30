@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T08:28:48.556Z",
+  "generatedAt": "2026-08-30T09:24:43.430Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -1644,12 +1644,18 @@
       "readmeExcerpt": "coin laundring コインランドリーの空き状況を素早く比較するためのフロントエンドアプリです。 機能 混雑ステータスフィルター（空きあり / やや混雑 / 混雑） 距離・徒歩時間の並び替え 店舗詳細（料金、設備、営業時間） 洗濯物量に応じた乾燥見込み時間の簡易シミュレーター ローカル起動 検証 デプロイ（GitHub Actions） main への push で .github/workflows/deploy.yml .github/workflows/deploy.yml が実行されます。 事前に以下の Repository Secrets を設定してください。 SSH HOST SSH USERNAME SSH PRIVATE KEY DEPLOY PATH DEPLOY PATH には公開ディレクトリ（例: /home/xxx/example.jp/public html/ ）を設定します。",
       "url": "https://github.com/syunnjack/coin-laundring",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "eca572a",
+          "message": "実在しない店舗の掲載をやめ、準備中ページにする",
+          "date": "2026-08-30T08:33:36Z",
+          "url": "https://github.com/syunnjack/coin-laundring/commit/eca572ab03e4d8eaeb4005fbbea480a83e21299c"
+        },
         {
           "sha": "9e2d5bf",
           "message": "支援・購入への導線を追加する",
@@ -1663,7 +1669,7 @@
           "url": "https://github.com/syunnjack/coin-laundring/commit/5de806d21cdd691a7ccb88027a747390f0d24560"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:20Z",
+      "updatedAt": "2026-08-30T08:33:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -5459,6 +5465,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "be4873e",
+          "message": "サイトマップのURLに末尾スラッシュを付ける",
+          "date": "2026-08-30T08:28:51Z",
+          "url": "https://github.com/syunnjack/koe-hiroba/commit/be4873eaae0df420d0640a0d11a40a2212ea3343"
+        },
+        {
           "sha": "cc7aba9",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:55Z",
@@ -5489,7 +5501,7 @@
           "url": "https://github.com/syunnjack/koe-hiroba/commit/0cdae7329d521c98f0a7edc5668d33257d0d9d64"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:01Z",
+      "updatedAt": "2026-08-30T08:29:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -5908,6 +5920,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "92c8b2a",
+          "message": "楽天APIの認証情報を config 経由で読む",
+          "date": "2026-08-30T08:36:35Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/92c8b2a9c3d99212da0fefdf7b448af17cd90c02"
+        },
+        {
           "sha": "6d07aed",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:54:08Z",
@@ -5974,7 +5992,7 @@
           "url": "https://github.com/syunnjack/like-mangavi/commit/90897ecc024081dc21c3f36e53a6d1eaf4d124b2"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:13Z",
+      "updatedAt": "2026-08-30T08:36:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -9139,7 +9157,7 @@
           "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
         }
       ],
-      "updatedAt": "2026-08-30T06:11:10Z",
+      "updatedAt": "2026-08-30T08:45:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -11734,6 +11752,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "0386af9",
+          "message": "作業用の一時ファイルを追跡対象から外す",
+          "date": "2026-08-30T09:22:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0386af9bee63a456eaee95e6d71abf615db0c7db"
+        },
+        {
+          "sha": "d7e2f7c",
+          "message": "記事を更新したあとにサイトを再ビルドする",
+          "date": "2026-08-30T09:22:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d7e2f7ca6bb919ec489ff77878d40d87c50f86ec"
+        },
+        {
+          "sha": "cbdf817",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T08:29:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbdf817b8c091d140c30909dbdbb3d8e2cfa7e1d"
+        },
+        {
           "sha": "55e222f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T07:25:19Z",
@@ -11786,27 +11822,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T23:21:17Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bd4d43f2890223431d88be32db21a4eb01d4aa45"
-        },
-        {
-          "sha": "57bc0fd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-29T21:21:49Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/57bc0fd60262e36de2a836326027ab12aea80cd0"
-        },
-        {
-          "sha": "ba6f5aa",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-29T20:23:32Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ba6f5aaa1f12875fb4d4c936e4a2e58f608e97cd"
-        },
-        {
-          "sha": "65db080",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-29T19:19:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/65db0800ca2ef5fe69f5f07534521c864d750283"
         }
       ],
-      "updatedAt": "2026-08-30T07:25:25Z",
+      "updatedAt": "2026-08-30T09:22:51Z",
       "stars": 0,
       "forks": 0
     },
