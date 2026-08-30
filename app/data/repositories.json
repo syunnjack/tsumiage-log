@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T13:21:31.108Z",
+  "generatedAt": "2026-08-30T14:22:23.961Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -1324,6 +1324,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "75a48ad",
+          "message": "Trigger the first deploy after connecting the repository",
+          "date": "2026-08-30T14:04:24Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/75a48addc687cd96011e43a524af7cc52e1358c4"
+        },
+        {
+          "sha": "dc3b773",
+          "message": "Say what the site covers on the top page",
+          "date": "2026-08-30T13:34:23Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/dc3b773e0858fdf15eb49824d6b5708d7bf42e89"
+        },
+        {
           "sha": "f780c33",
           "message": "インデックス対象の URL からスラッシュを外し、OGを追加する",
           "date": "2026-08-18T12:07:02Z",
@@ -1382,21 +1394,9 @@
           "message": "Add Google Search Console verification",
           "date": "2026-08-05T11:25:37Z",
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bc81d70f637f30d481d94b27e3c71194f067725d"
-        },
-        {
-          "sha": "f03b647",
-          "message": "Add GA4 tracking",
-          "date": "2026-08-04T06:04:47Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/f03b6477859995777ca1488bcab4a851984a2a2a"
-        },
-        {
-          "sha": "24c5fc6",
-          "message": "Migrate from vinext/Cloudflare template to standard Next.js for Vercel",
-          "date": "2026-07-30T16:19:51Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/24c5fc6624b41942c4f25acc18e4d6b0b9d75c20"
         }
       ],
-      "updatedAt": "2026-08-18T12:07:59Z",
+      "updatedAt": "2026-08-30T14:06:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -2350,6 +2350,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "588d5a9",
+          "message": "無課金・オート戦闘の検証記録サイトにする (#2)",
+          "date": "2026-08-30T13:41:46Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/588d5a9f5fd6aa90df65b1a3165d03c5d16414c1"
+        },
+        {
           "sha": "4c56e2d",
           "message": "Put real content in the initial HTML and fix the sitemap (#1)",
           "date": "2026-08-30T12:50:21Z",
@@ -2410,7 +2416,7 @@
           "url": "https://github.com/syunnjack/dqwv2/commit/c758f6968461a346c6d5b6a05c3e58d3c210567d"
         }
       ],
-      "updatedAt": "2026-08-30T12:50:38Z",
+      "updatedAt": "2026-08-30T13:42:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -5714,6 +5720,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "dad992f",
+          "message": "http と www を正規URLへ301で寄せる (#1)",
+          "date": "2026-08-30T14:03:38Z",
+          "url": "https://github.com/syunnjack/laravel-posting-app/commit/dad992fdd7acbd24cecb69ab7a9fb203861ba56e"
+        },
+        {
           "sha": "6d41f7b",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:09:18Z",
@@ -5778,15 +5790,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:09:50Z",
           "url": "https://github.com/syunnjack/laravel-posting-app/commit/f6914cde8e485efb62d27932bc2c5852cf696626"
-        },
-        {
-          "sha": "1ce5235",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:01:56Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/1ce5235d40738231f48a23ef0d91f386e7f11451"
         }
       ],
-      "updatedAt": "2026-08-21T14:12:14Z",
+      "updatedAt": "2026-08-30T14:03:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -9103,6 +9109,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "bdbccbe",
+          "message": "Trigger the first deploy after connecting the repository",
+          "date": "2026-08-30T14:04:14Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/bdbccbe4bdba3aca9ef954d3b6b9611937fd8577"
+        },
+        {
           "sha": "686759e",
           "message": "Canonicalize to the serving host instead of the Vercel default domain",
           "date": "2026-08-30T05:45:55Z",
@@ -9169,7 +9181,7 @@
           "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
         }
       ],
-      "updatedAt": "2026-08-30T08:45:00Z",
+      "updatedAt": "2026-08-30T14:05:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -11764,6 +11776,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "42fbcc9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T13:22:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/42fbcc903433650326ce218b6b9b0442579759f4"
+        },
+        {
           "sha": "517b1e9",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T12:32:24Z",
@@ -11828,15 +11846,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T04:28:37Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/02b721b74d20632d1e29fdf9a8f4c8bafc457439"
-        },
-        {
-          "sha": "43efac2",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-30T03:29:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/43efac211b670e9f7cf03a2344d11245d48f304c"
         }
       ],
-      "updatedAt": "2026-08-30T12:33:04Z",
+      "updatedAt": "2026-08-30T13:22:16Z",
       "stars": 0,
       "forks": 0
     },
