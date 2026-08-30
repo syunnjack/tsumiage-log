@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T07:24:45.524Z",
+  "generatedAt": "2026-08-30T08:28:48.556Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -3858,6 +3858,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "15e80e7",
+          "message": "ゴルフ場の取得を、失敗が焼き付かない作りにする",
+          "date": "2026-08-30T07:55:45Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/15e80e76dfbe6921bba1cfdf21c5ed0f6688ed86"
+        },
+        {
           "sha": "8b1d8be",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:45Z",
@@ -3922,15 +3928,9 @@
           "message": "Fix production Rakuten credentials and add real weather forecasts",
           "date": "2026-08-09T03:59:25Z",
           "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
-        },
-        {
-          "sha": "41bdfdd",
-          "message": "Wire GA4_MEASUREMENT_ID into the production .env written at deploy",
-          "date": "2026-08-08T17:28:36Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/41bdfddd8a08b67285ced5722a53728facfbfcf7"
         }
       ],
-      "updatedAt": "2026-08-21T14:11:52Z",
+      "updatedAt": "2026-08-30T07:55:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -4052,16 +4052,22 @@
       "slug": "gyosei-quiz-one",
       "name": "gyosei-quiz-one",
       "displayName": "Gyosei Quiz One",
-      "description": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "description": "Gyosei Quiz Oneは、HTMLを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "Gyosei Quiz Oneは、HTMLを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
       "url": "https://github.com/syunnjack/gyosei-quiz-one",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2dd1ee1",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-30T07:52:42Z",
+          "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/2dd1ee13148c26b38c5bdbceca2b3b5c9b02f097"
+        },
         {
           "sha": "c37b67a",
           "message": "Product verification fixes",
@@ -4129,7 +4135,7 @@
           "url": "https://github.com/syunnjack/gyosei-quiz-one/commit/473dc9beadf4dda743f53a6d32f3470c626bb525"
         }
       ],
-      "updatedAt": "2026-08-16T04:12:11Z",
+      "updatedAt": "2026-08-30T07:53:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -4356,16 +4362,22 @@
       "slug": "hobby-stock-price-alert",
       "name": "hobby-stock-price-alert",
       "displayName": "Hobby Stock Price Alert",
-      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock",
-      "readmeExcerpt": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock.jp Other candidates: figurealert.jp cardstock.jp gamezaiko.jp Concept 在庫復活、価格下落、予約開始、再販を通知し、ECアフィリエイトと有料通知へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths EC affiliate 有料通知 買取送客 広告枠 スポンサー Commands",
+      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知",
+      "readmeExcerpt": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知",
       "url": "https://github.com/syunnjack/hobby-stock-price-alert",
       "defaultBranch": "main",
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "HTML",
       "languages": [
-        "JavaScript"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "5820354",
+          "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
+          "date": "2026-08-30T07:55:01Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/5820354079362c0fc96d8bb386e07ffa2675f08a"
+        },
         {
           "sha": "9e93a8d",
           "message": "支援・購入への導線を追加する",
@@ -4431,15 +4443,9 @@
           "message": "Set confirmed custom domain",
           "date": "2026-07-18T15:53:08Z",
           "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/7260a82b989831a8c0c9dc75ed81603bf61ecf42"
-        },
-        {
-          "sha": "debaa8d",
-          "message": "Initial notification app scaffold",
-          "date": "2026-07-18T00:46:50Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/debaa8dbef5c8459242a025d854b1344cce951e8"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:37Z",
+      "updatedAt": "2026-08-30T07:55:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -7599,6 +7605,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c4ab0fe",
+          "message": "楽天APIの認証情報を config 経由で読む",
+          "date": "2026-08-30T08:05:47Z",
+          "url": "https://github.com/syunnjack/onsen-list/commit/c4ab0fec9211264de3de48387916cffa460692c7"
+        },
+        {
           "sha": "80b8f5f",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:54:46Z",
@@ -7663,15 +7675,9 @@
           "message": "Point sitemap at the production domain onsen-search.jp",
           "date": "2026-07-13T17:20:00Z",
           "url": "https://github.com/syunnjack/onsen-list/commit/87b9d308339212a71195a7d7d20091072286eda6"
-        },
-        {
-          "sha": "15dc9a4",
-          "message": "Harden onsen search against API failures and add test coverage",
-          "date": "2026-07-13T15:39:43Z",
-          "url": "https://github.com/syunnjack/onsen-list/commit/15dc9a439c9bada1585928fcf5ca0cd22af5e6b2"
         }
       ],
-      "updatedAt": "2026-08-15T00:54:50Z",
+      "updatedAt": "2026-08-30T08:06:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -11546,6 +11552,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c9f4a62",
+          "message": "おすすめ欄から収益側の分類を外す",
+          "date": "2026-08-30T07:52:59Z",
+          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/c9f4a623c37be1ff642a2e3425c6d666f8838837"
+        },
+        {
           "sha": "f09a689",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:10:04Z",
@@ -11610,15 +11622,9 @@
           "message": "Tighten homepage labels and CTAs",
           "date": "2026-08-11T12:40:37Z",
           "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/eae68d6475493df380257f58aff430629deede68"
-        },
-        {
-          "sha": "0e656b3",
-          "message": "Polish user-facing tourism wording",
-          "date": "2026-08-11T12:38:26Z",
-          "url": "https://github.com/syunnjack/tourism-crowd-parking-alert/commit/0e656b31ad2ac2354c5889a6f78bba157aacbde0"
         }
       ],
-      "updatedAt": "2026-08-21T14:10:42Z",
+      "updatedAt": "2026-08-30T07:53:34Z",
       "stars": 0,
       "forks": 0
     },
@@ -11728,6 +11734,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "55e222f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T07:25:19Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/55e222fb4835da40c4cc167b0167f1fbf7660644"
+        },
+        {
           "sha": "6611d0d",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T06:36:19Z",
@@ -11792,15 +11804,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T19:19:29Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/65db0800ca2ef5fe69f5f07534521c864d750283"
-        },
-        {
-          "sha": "bd9e0b1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-29T18:27:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bd9e0b17b95fa8bc6fda9e68e54dab0f5a461b22"
         }
       ],
-      "updatedAt": "2026-08-30T06:36:48Z",
+      "updatedAt": "2026-08-30T07:25:25Z",
       "stars": 0,
       "forks": 0
     },

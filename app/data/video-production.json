@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T00:51:45.290Z",
+  "generatedAt": "2026-08-30T08:28:48.768Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -3377,12 +3377,12 @@
     {
       "slug": "gyosei-quiz-one",
       "repository": "gyosei-quiz-one",
-      "title": "JavaScriptで作ったGyosei Quiz One｜構成とコミット履歴を75秒で解説",
-      "description": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。",
-      "language": "JavaScript",
+      "title": "HTMLで作ったGyosei Quiz One｜構成とコミット履歴を75秒で解説",
+      "description": "Gyosei Quiz Oneは、HTMLを中心に設計・実装したプロジェクトです。",
+      "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/gyosei-quiz-one/",
       "repositoryUrl": "https://github.com/syunnjack/gyosei-quiz-one",
-      "youtubeDescription": "Gyosei Quiz Oneは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Gyosei Quiz Oneがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/gyosei-quiz-one\nソースコード（GitHub）： https://github.com/syunnjack/gyosei-quiz-one\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Gyosei Quiz Oneは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Gyosei Quiz Oneがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/gyosei-quiz-one\nソースコード（GitHub）： https://github.com/syunnjack/gyosei-quiz-one\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\nこの構成で「ここは自分なら変える」という点があれば教えてください。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -3390,11 +3390,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "HTML",
         "Gyosei Quiz One",
-        "JavaScript 個人開発"
+        "HTML 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "HTMLの個人開発",
       "slides": [
         {
           "title": "Gyosei Quiz Oneの技術解説",
@@ -3402,11 +3402,11 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。"
+          "body": "Gyosei Quiz Oneは、HTMLを中心に設計・実装したプロジェクトです。"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -3414,7 +3414,7 @@
         },
         {
           "title": "コミットから分かる改善",
-          "body": "直近のコミットでは、不具合修正と安定性向上が行われました。"
+          "body": "直近のコミットでは、実装の見直しと継続的な改善が行われました。"
         },
         {
           "title": "詳しくは積み上げログへ",
@@ -3428,10 +3428,10 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Gyosei Quiz Oneの技術構成を短く解説します。",
-        "Gyosei Quiz Oneは、JavaScriptを中心に設計・実装したプロジェクトです。",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "Gyosei Quiz Oneは、HTMLを中心に設計・実装したプロジェクトです。",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
-        "直近のコミットでは、不具合修正と安定性向上が行われました。",
+        "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
       ]
     },
@@ -3622,12 +3622,12 @@
     {
       "slug": "hobby-stock-price-alert",
       "repository": "hobby-stock-price-alert",
-      "title": "JavaScriptで作ったHobby Stock Price Alert｜構成とコミット履歴を75秒で解説",
-      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock",
-      "language": "JavaScript",
+      "title": "HTMLで作ったHobby Stock Price Alert｜構成とコミット履歴を75秒で解説",
+      "description": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知",
+      "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/hobby-stock-price-alert/",
       "repositoryUrl": "https://github.com/syunnjack/hobby-stock-price-alert",
-      "youtubeDescription": "Hobby Stock Price Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Hobby Stock Price Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/hobby-stock-price-alert\nソースコード（GitHub）： https://github.com/syunnjack/hobby-stock-price-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Hobby Stock Price Alertは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Hobby Stock Price Alertがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/hobby-stock-price-alert\nソースコード（GitHub）： https://github.com/syunnjack/hobby-stock-price-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -3635,11 +3635,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "HTML",
         "Hobby Stock Price Alert",
-        "JavaScript 個人開発"
+        "HTML 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "HTMLの個人開発",
       "slides": [
         {
           "title": "Hobby Stock Price Alertの技術解説",
@@ -3647,11 +3647,11 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock"
+          "body": "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知"
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -3673,8 +3673,8 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、Hobby Stock Price Alertの技術構成を短く解説します。",
-        "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知 Repository Recommended repository name: hobby stock price alert Domain candidates Confirmed domain: hobby stock",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "Hobby Stock Price Alert フィギュア・トレカ・ゲーム在庫/価格通知",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
