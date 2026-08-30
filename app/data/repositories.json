@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T05:23:41.657Z",
+  "generatedAt": "2026-08-30T06:35:51.358Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -6918,6 +6918,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f952ad4",
+          "message": "Stop auto-deploying the SPA over municipality-car.jp",
+          "date": "2026-08-30T06:01:51Z",
+          "url": "https://github.com/syunnjack/municipacipality-car/commit/f952ad4eaad024c7b35cce9412e835735aad89c3"
+        },
+        {
           "sha": "8c6b377",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-08-18T00:27:53Z",
@@ -6982,15 +6988,9 @@
           "message": "Switch deployment target to Xserver",
           "date": "2026-08-03T20:46:18Z",
           "url": "https://github.com/syunnjack/municipacipality-car/commit/b0e6279f70f8f9026c76b12eec825db79a84b1f0"
-        },
-        {
-          "sha": "241109b",
-          "message": "Build national car buyback guide site (47 prefectures)",
-          "date": "2026-08-03T20:39:27Z",
-          "url": "https://github.com/syunnjack/municipacipality-car/commit/241109b5d01fbcafba07bc6a6a2e79cc0a277586"
         }
       ],
-      "updatedAt": "2026-08-18T00:28:13Z",
+      "updatedAt": "2026-08-30T06:02:51Z",
       "stars": 0,
       "forks": 0
     },
@@ -9067,6 +9067,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "686759e",
+          "message": "Canonicalize to the serving host instead of the Vercel default domain",
+          "date": "2026-08-30T05:45:55Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/686759eb6be02d3597c23a0ced6ae03c9f66372d"
+        },
+        {
           "sha": "917f50f",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:55:44Z",
@@ -9127,7 +9133,7 @@
           "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
         }
       ],
-      "updatedAt": "2026-08-15T00:56:00Z",
+      "updatedAt": "2026-08-30T06:11:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -11722,6 +11728,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d6588c0",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T05:24:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d6588c0ef6e5d47791f903e00170c684fc139f6b"
+        },
+        {
           "sha": "02b721b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T04:28:37Z",
@@ -11786,15 +11798,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-29T17:21:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/bc0d2aa2810d0c7564f3bf65c854cea545530ef2"
-        },
-        {
-          "sha": "a89fc42",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-29T16:23:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a89fc42d20c99beed9f6f00497737b8c4b7700bc"
         }
       ],
-      "updatedAt": "2026-08-30T04:29:52Z",
+      "updatedAt": "2026-08-30T05:25:03Z",
       "stars": 0,
       "forks": 0
     },
