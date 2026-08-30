@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T14:22:23.961Z",
+  "generatedAt": "2026-08-30T15:22:32.651Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -10,6 +10,7 @@
     "ashi-fetish",
     "asmr-voice",
     "darenano",
+    "laravel-posting-app",
     "onsen-ranking",
     "vr-content-gear-guide",
     "yuniba"
@@ -5404,6 +5405,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7f1878d",
+          "message": "Explain the reservation-to-queue mechanism on the top page",
+          "date": "2026-08-30T15:00:57Z",
+          "url": "https://github.com/syunnjack/king-sys/commit/7f1878d07ec170787a57e722589274c61e80eeae"
+        },
+        {
           "sha": "a4fe7dc",
           "message": "トップページに構造化データ(JSON-LD)を追加する",
           "date": "2026-08-17T23:07:00Z",
@@ -5464,7 +5471,7 @@
           "url": "https://github.com/syunnjack/king-sys/commit/3e7b943347f8df54bba27559c7a867aaaf935888"
         }
       ],
-      "updatedAt": "2026-08-17T23:07:16Z",
+      "updatedAt": "2026-08-30T15:01:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -5702,97 +5709,6 @@
         }
       ],
       "updatedAt": "2026-08-21T14:09:36Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "laravel-posting-app",
-      "name": "laravel-posting-app",
-      "displayName": "Laravel Posting App",
-      "description": "Laravel Posting Appは、PHPを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "Laravel Posting Appは、PHPを中心に設計・実装したプロジェクトです。 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
-      "url": "https://github.com/syunnjack/laravel-posting-app",
-      "defaultBranch": "main",
-      "primaryLanguage": "PHP",
-      "languages": [
-        "PHP"
-      ],
-      "files": [],
-      "commits": [
-        {
-          "sha": "dad992f",
-          "message": "http と www を正規URLへ301で寄せる (#1)",
-          "date": "2026-08-30T14:03:38Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/dad992fdd7acbd24cecb69ab7a9fb203861ba56e"
-        },
-        {
-          "sha": "6d41f7b",
-          "message": "actions/checkout と setup-node を v5 に上げる",
-          "date": "2026-08-21T14:09:18Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/6d41f7bae9bb3dc0e1636dd13be8adc21149d74c"
-        },
-        {
-          "sha": "6fd4e03",
-          "message": "URLを含む投稿を受け付けられるようにし、sageを実際に効かせる",
-          "date": "2026-08-19T06:54:30Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/6fd4e034fff5a41deff4373c95a24a6298c2a4f9"
-        },
-        {
-          "sha": "2a90b7c",
-          "message": "板データを本番に投入するワークフローを足す",
-          "date": "2026-08-18T12:46:40Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/2a90b7c88c1d19ff98df6a573267730abbf83674"
-        },
-        {
-          "sha": "1b1f9e7",
-          "message": "views もデプロイ対象にする",
-          "date": "2026-08-18T08:02:19Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/1b1f9e740b1fb80f071ce754db4e15c796264129"
-        },
-        {
-          "sha": "dd49ab2",
-          "message": "sitemap.xml が500になるのを直す",
-          "date": "2026-08-18T07:04:39Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/dd49ab2a06150a0eabdde5d10046ecf36deaeaeb"
-        },
-        {
-          "sha": "0065fc5",
-          "message": "空のItemListを出力しないようにする",
-          "date": "2026-08-17T23:14:44Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/0065fc5553872e8f347a54381496d01f3e9fc3a3"
-        },
-        {
-          "sha": "ef2f32b",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:54:01Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/ef2f32b7d20638bbc88b2908110548ae5291c531"
-        },
-        {
-          "sha": "6ddca9e",
-          "message": "feat: UX改善 - >>N引用・URL自動リンク・名前記憶・sage・確認・Ctrl+Enter・板内検索・NEWバッジ・j/kキーナビ・URLコピーボタン",
-          "date": "2026-08-11T15:12:05Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/6ddca9e4326b3bc582e76831bbe1b65b140a9204"
-        },
-        {
-          "sha": "732e6d1",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T05:06:37Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/732e6d1ffb2a9077fc6a42f09a5e184da573709e"
-        },
-        {
-          "sha": "8ad79ad",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T18:00:37Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/8ad79ad4f71cf46f8c6ef48b345b2423a95d8e16"
-        },
-        {
-          "sha": "f6914cd",
-          "message": "Add GitHub Actions deployment workflow",
-          "date": "2026-08-01T19:09:50Z",
-          "url": "https://github.com/syunnjack/laravel-posting-app/commit/f6914cde8e485efb62d27932bc2c5852cf696626"
-        }
-      ],
-      "updatedAt": "2026-08-30T14:03:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -9109,6 +9025,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c7044d9",
+          "message": "Require the cron secret instead of skipping the check when it is unset",
+          "date": "2026-08-30T15:10:17Z",
+          "url": "https://github.com/syunnjack/reserve-serapi/commit/c7044d969d1d3f32acc4f33048b3163267148025"
+        },
+        {
           "sha": "bdbccbe",
           "message": "Trigger the first deploy after connecting the repository",
           "date": "2026-08-30T14:04:14Z",
@@ -9173,15 +9095,9 @@
           "message": "Initial reserve-serapi MVP: shift-aware therapist booking PWA",
           "date": "2026-07-28T22:49:39Z",
           "url": "https://github.com/syunnjack/reserve-serapi/commit/5a833b897c8ca61f97ff2135a7af3c69ef2028f7"
-        },
-        {
-          "sha": "3de261b",
-          "message": "Initial commit from Create Next App",
-          "date": "2026-07-28T22:02:28Z",
-          "url": "https://github.com/syunnjack/reserve-serapi/commit/3de261b702d605f01357538d5c63b651d0e27692"
         }
       ],
-      "updatedAt": "2026-08-30T14:05:28Z",
+      "updatedAt": "2026-08-30T15:11:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -9199,6 +9115,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "a4ff8ea",
+          "message": "Say what the service does, and stop listing the login page",
+          "date": "2026-08-30T14:56:28Z",
+          "url": "https://github.com/syunnjack/reserve-sys/commit/a4ff8ea849d1de4c5dd29f8e2c4cd1b852e5004c"
+        },
         {
           "sha": "5aa3d1d",
           "message": "支援・購入への導線を追加する",
@@ -9236,7 +9158,7 @@
           "url": "https://github.com/syunnjack/reserve-sys/commit/2c07f6e7b70e34ec2fc98ad0967714ddbb8e23e4"
         }
       ],
-      "updatedAt": "2026-08-15T00:55:51Z",
+      "updatedAt": "2026-08-30T14:59:22Z",
       "stars": 0,
       "forks": 0
     },
@@ -11776,6 +11698,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e9e9041",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T14:22:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e9e90411dfb53ead703ddb7b7d2abe9f9c97cc90"
+        },
+        {
           "sha": "42fbcc9",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T13:22:04Z",
@@ -11840,15 +11768,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T05:24:14Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d6588c0ef6e5d47791f903e00170c684fc139f6b"
-        },
-        {
-          "sha": "02b721b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-30T04:28:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/02b721b74d20632d1e29fdf9a8f4c8bafc457439"
         }
       ],
-      "updatedAt": "2026-08-30T13:22:16Z",
+      "updatedAt": "2026-08-30T14:23:11Z",
       "stars": 0,
       "forks": 0
     },
