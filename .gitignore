@@ -51,3 +51,8 @@ next-env.d.ts
 /video-assets/repositories/*/segments/
 /video-assets/repositories/*/rendered-slides/
 /video-assets/repositories/**/*.inspect.ndjson
+
+# 作業中に置いた一時ファイル。他サイトの本番 .env を持ち込んで
+# 置きっぱなしにしたことがあるので、名前の形で丸ごと除外する。
+.tmp_*
+tsconfig.tsbuildinfo
