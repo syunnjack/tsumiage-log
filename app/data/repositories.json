@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T17:20:15.706Z",
+  "generatedAt": "2026-08-30T18:26:19.533Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -5235,6 +5235,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "f978396",
+          "message": "app/ と routes/ もデプロイする",
+          "date": "2026-08-30T17:59:38Z",
+          "url": "https://github.com/syunnjack/kaden-hikaku/commit/f978396f8365f0bfc163ea3ed53d105cecade702"
+        },
+        {
+          "sha": "d81f371",
+          "message": "検索ページの canonical が全部 /search を指していたのを直す (#1)",
+          "date": "2026-08-30T17:55:45Z",
+          "url": "https://github.com/syunnjack/kaden-hikaku/commit/d81f37134078abd79a66dfeb9e57943672eb2149"
+        },
+        {
           "sha": "cbdf4b9",
           "message": "LINE設定を本番に反映する仕組みを用意する",
           "date": "2026-08-18T23:00:37Z",
@@ -5295,7 +5307,7 @@
           "url": "https://github.com/syunnjack/kaden-hikaku/commit/dc44eb6df6c0306a5ffa7623169b030cd08f86c9"
         }
       ],
-      "updatedAt": "2026-08-18T23:01:00Z",
+      "updatedAt": "2026-08-30T18:00:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -11698,6 +11710,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0f1b4e5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T17:20:48Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0f1b4e5f14e8fc581e967585630fdecdaea139ea"
+        },
+        {
           "sha": "ec0c88a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T16:24:39Z",
@@ -11762,15 +11780,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T08:29:23Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cbdf817b8c091d140c30909dbdbb3d8e2cfa7e1d"
-        },
-        {
-          "sha": "55e222f",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-30T07:25:19Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/55e222fb4835da40c4cc167b0167f1fbf7660644"
         }
       ],
-      "updatedAt": "2026-08-30T16:24:54Z",
+      "updatedAt": "2026-08-30T17:22:27Z",
       "stars": 0,
       "forks": 0
     },
