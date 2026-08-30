@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:31:55.036Z",
+  "generatedAt": "2026-08-30T13:21:31.108Z",
   "owner": "syunnjack",
   "totalRepositories": 184,
   "publicRepositories": 184,
@@ -2350,6 +2350,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4c56e2d",
+          "message": "Put real content in the initial HTML and fix the sitemap (#1)",
+          "date": "2026-08-30T12:50:21Z",
+          "url": "https://github.com/syunnjack/dqwv2/commit/4c56e2dcc63a9a5e71122a7b7d657c2ec30175c5"
+        },
+        {
           "sha": "66ca457",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:36Z",
@@ -2404,7 +2410,7 @@
           "url": "https://github.com/syunnjack/dqwv2/commit/c758f6968461a346c6d5b6a05c3e58d3c210567d"
         }
       ],
-      "updatedAt": "2026-08-15T00:52:43Z",
+      "updatedAt": "2026-08-30T12:50:38Z",
       "stars": 0,
       "forks": 0
     },
@@ -4160,6 +4166,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8dbf65d",
+          "message": "Put real content in the initial HTML and fix the sitemap (#1)",
+          "date": "2026-08-30T12:52:53Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/8dbf65d28e2c756a073dde0a449c151b076a7a66"
+        },
+        {
           "sha": "4c4a210",
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:20Z",
@@ -4190,7 +4202,7 @@
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:42Z",
+      "updatedAt": "2026-08-30T12:53:12Z",
       "stars": 0,
       "forks": 0
     },
@@ -8574,6 +8586,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3a62612",
+          "message": "Show real hotels on the area pages",
+          "date": "2026-08-30T13:12:46Z",
+          "url": "https://github.com/syunnjack/rakuten02/commit/3a62612285f3b60b5c37ed5a19c7260a56d978c4"
+        },
+        {
           "sha": "4cba129",
           "message": "パンくずの構造化データから、リンク先の無い見出しを外す",
           "date": "2026-08-16T04:25:44Z",
@@ -8638,15 +8656,9 @@
           "message": "Merge master into sitemap-auto branch; resolve handoff conflicts",
           "date": "2026-08-13T00:56:13Z",
           "url": "https://github.com/syunnjack/rakuten02/commit/edc6f4e6d5a03610662d1c4f7c224c307c58c8ad"
-        },
-        {
-          "sha": "6f44942",
-          "message": "Add one-shot GSC completer script and finish checklist",
-          "date": "2026-08-13T00:55:57Z",
-          "url": "https://github.com/syunnjack/rakuten02/commit/6f449423b677de377053211d4793ab610beac42e"
         }
       ],
-      "updatedAt": "2026-08-16T04:25:59Z",
+      "updatedAt": "2026-08-30T13:13:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -11752,6 +11764,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "517b1e9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-08-30T12:32:24Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/517b1e96d5fe3751d189012306cc8b13ce76cae7"
+        },
+        {
           "sha": "d5a40ad",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T11:21:24Z",
@@ -11816,15 +11834,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-08-30T03:29:25Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/43efac211b670e9f7cf03a2344d11245d48f304c"
-        },
-        {
-          "sha": "715a063",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-08-30T02:33:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/715a0639e55b92100e06bf16ee845c88a029eb73"
         }
       ],
-      "updatedAt": "2026-08-30T11:22:07Z",
+      "updatedAt": "2026-08-30T12:33:04Z",
       "stars": 0,
       "forks": 0
     },
