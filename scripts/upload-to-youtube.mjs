@@ -16,6 +16,7 @@
 import { createReadStream } from 'node:fs'
 import { readFile, writeFile, access } from 'node:fs/promises'
 import { createServer } from 'node:http'
+import { createInterface } from 'node:readline'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { google } from 'googleapis'
@@ -23,6 +24,21 @@ import { google } from 'googleapis'
 const root = fileURLToPath(new URL('..', import.meta.url))
 const CLIENT_SECRET_PATH = path.join(root, 'client_secret.json')
 const TOKEN_PATH = path.join(root, '.youtube-token.json')
+
+// 環境変数から直接認証情報を読む場合に使う
+const ENV_CLIENT_ID = process.env.YOUTUBE_CLIENT_ID
+const ENV_CLIENT_SECRET = process.env.YOUTUBE_CLIENT_SECRET
+
+// 既知のクライアントID（Google Auth Platformで確認済み）
+const KNOWN_CLIENT_ID = '311818625650-mbm2n84l27fn2d5sbsev7lofl8nvj0hh.apps.googleusercontent.com'
+
+function askSecret() {
+  return new Promise((resolve) => {
+    const rl = createInterface({ input: process.stdin, output: process.stderr })
+    process.stderr.write('クライアントシークレットを入力してください（Google Auth Platform > Clients > Additional information に表示）: ')
+    rl.question('', (answer) => { rl.close(); resolve(answer.trim()) })
+  })
+}
 const STORE_VIDEOS_PATH = path.join(root, 'app/data/store-videos.json')
 const STORE_DIR = path.join(root, 'video-assets/store')
 const STATE_PATH = path.join(root, 'video-assets/store/youtube-upload-state.json')
@@ -37,20 +53,28 @@ const targetSlug = slugIndex !== -1 ? args[slugIndex + 1] : null
 
 // --- OAuth ---
 async function loadCredentials() {
+  // 1. 環境変数
+  if (ENV_CLIENT_ID && ENV_CLIENT_SECRET) {
+    return { installed: { client_id: ENV_CLIENT_ID, client_secret: ENV_CLIENT_SECRET, redirect_uris: ['http://localhost:8080'] } }
+  }
+  // 2. client_secret.json
   try {
     await access(CLIENT_SECRET_PATH)
-  } catch {
-    console.error(`\n❌ client_secret.json が見つかりません: ${CLIENT_SECRET_PATH}`)
-    console.error('Google Cloud Console で OAuth 2.0 クライアントID (デスクトップアプリ) を作成し、')
-    console.error('client_secret.json としてリポジトリルートに配置してください。\n')
-    process.exit(1)
-  }
-  return JSON.parse(await readFile(CLIENT_SECRET_PATH, 'utf8'))
+    return JSON.parse(await readFile(CLIENT_SECRET_PATH, 'utf8'))
+  } catch { /* fall through */ }
+  // 3. ターミナルで対話入力
+  const secret = await askSecret()
+  if (!secret) { console.error('シークレットが入力されませんでした。'); process.exit(1) }
+  const creds = { installed: { client_id: KNOWN_CLIENT_ID, client_secret: secret, redirect_uris: ['http://localhost:8080'] } }
+  await writeFile(CLIENT_SECRET_PATH, JSON.stringify(creds, null, 2))
+  console.log(`✅ client_secret.json を保存しました。次回以降は自動で読み込まれます。`)
+  return creds
 }
 
 function buildOAuthClient(credentials) {
-  const { client_id, client_secret, redirect_uris } = credentials.installed ?? credentials.web
-  return new google.auth.OAuth2(client_id, client_secret, redirect_uris[0])
+  const { client_id, client_secret } = credentials.installed ?? credentials.web
+  // ローカルサーバーのコールバックURLに固定する
+  return new google.auth.OAuth2(client_id, client_secret, 'http://localhost:8080')
 }
 
 async function authorize(oAuth2Client) {
