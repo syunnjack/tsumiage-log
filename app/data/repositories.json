@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:22:19.823Z",
+  "generatedAt": "2026-09-01T20:25:42.741Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -397,6 +397,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3261694",
+          "message": "Refresh bowling event data",
+          "date": "2026-09-01T20:20:13Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/3261694b3115359edd02d16047d2c703a8babd88"
+        },
+        {
           "sha": "65ef055",
           "message": "Refresh bowling event data",
           "date": "2026-08-31T20:26:44Z",
@@ -461,15 +467,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-21T20:17:03Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/ef2a56c72d14d771b008cf20bc2e70544cbd521b"
-        },
-        {
-          "sha": "772a2ef",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-20T20:18:44Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/772a2ef056fd2e0f745f455c38ccfa1281876a00"
         }
       ],
-      "updatedAt": "2026-08-31T20:27:02Z",
+      "updatedAt": "2026-09-01T20:20:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -2151,6 +2151,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fbb9bee",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-09-01T20:08:44Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/fbb9bee59e8996a3f3db120bc07a5a423d44e543"
+        },
+        {
           "sha": "bd8bcc4",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-31T20:08:40Z",
@@ -2215,15 +2221,9 @@
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-24T15:02:38Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/1c4b0f165b8f76af7ecb2a991b21de5e52af575f"
-        },
-        {
-          "sha": "5aa32e9",
-          "message": "どこで見る？（dokodemiru.jp）の土台を作る",
-          "date": "2026-08-24T09:57:58Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/5aa32e934b5ba7482682310e67e7dfa37b692b12"
         }
       ],
-      "updatedAt": "2026-08-31T20:30:14Z",
+      "updatedAt": "2026-09-01T20:10:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -3617,6 +3617,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "96eb3f5",
+          "message": "店舗データを公式サイトの最新の内容に更新する",
+          "date": "2026-09-01T20:23:10Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/96eb3f57864179c521bfc9fc21bf74cef5e8a308"
+        },
+        {
           "sha": "5d37ec7",
           "message": "取り直したデータが本番へ出ないのを直す",
           "date": "2026-08-25T04:50:45Z",
@@ -3681,15 +3687,9 @@
           "message": "feat: 全国ゲームセンター追加84件（北海道〜沖縄全都道府県対応）・計144件に拡充",
           "date": "2026-08-11T14:59:18Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/19f54edbc16f5bda23b8cbfb7be2508b78e03658"
-        },
-        {
-          "sha": "22fbc69",
-          "message": "feat: 全国ゲームセンター60件シーダー追加（東京・神奈川・大阪・名古屋・福岡・札幌等）・自動デプロイ時にシーディング実行",
-          "date": "2026-08-11T14:54:30Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/22fbc69cddfcfc1f878e32ec7da3737eab73f5b1"
         }
       ],
-      "updatedAt": "2026-08-25T04:51:06Z",
+      "updatedAt": "2026-09-01T20:23:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -11723,6 +11723,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0db9fdb",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-01T19:22:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0db9fdbdd74caddc581ef04283d4ad1ae845711a"
+        },
+        {
           "sha": "2a3707a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T18:31:47Z",
@@ -11787,15 +11793,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T11:25:05Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/204dd77d201749fb2b3c7583c97f261743ad88a9"
-        },
-        {
-          "sha": "d73813c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T10:29:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d73813caa809fb7d0e13d3a49f6de719afe47bde"
         }
       ],
-      "updatedAt": "2026-09-01T18:50:40Z",
+      "updatedAt": "2026-09-01T19:27:41Z",
       "stars": 0,
       "forks": 0
     },
