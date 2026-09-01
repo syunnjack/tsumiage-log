@@ -1,3 +1,4 @@
+import { Fragment } from "react"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -37,6 +38,24 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       images: [image],
     },
   }
+}
+
+// 本文は素の文字列で持っているので、**強調** と `コード` だけをここで要素に変換する。
+// マークダウン全体を通すのではなく、記事データで実際に使っている2つに限定している。
+function renderInline(text: string) {
+  const nodes = []
+  let key = 0
+  for (const chunk of text.split(/(\*\*[^*]+?\*\*)/g)) {
+    if (!chunk) continue
+    const bold = chunk.startsWith("**") && chunk.endsWith("**") && chunk.length > 4
+    for (const piece of (bold ? chunk.slice(2, -2) : chunk).split(/(`[^`]+`)/g)) {
+      if (!piece) continue
+      const isCode = piece.startsWith("`") && piece.endsWith("`") && piece.length > 2
+      const inner = isCode ? <code>{piece.slice(1, -1)}</code> : piece
+      nodes.push(<Fragment key={key++}>{bold ? <strong>{inner}</strong> : inner}</Fragment>)
+    }
+  }
+  return nodes
 }
 
 export default async function ManualArticlePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -91,7 +110,7 @@ export default async function ManualArticlePage({ params }: { params: Promise<{ 
           {article.sections.map((section, index) => <section id={`section-${index + 1}`} key={section.heading}>
             <p className="section-kicker">{String(index + 1).padStart(2, "0")} / 本文</p>
             <h2>{section.heading}</h2>
-            {section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            {section.body.map((paragraph) => <p key={paragraph}>{renderInline(paragraph)}</p>)}
             {section.code && <pre><code className={`language-${section.code.language}`}>{section.code.content}</code></pre>}
           </section>)}
           {related.length > 0 && (
