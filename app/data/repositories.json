@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T11:24:32.533Z",
+  "generatedAt": "2026-09-01T12:36:17.372Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -3890,6 +3890,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "86f00e0",
+          "message": "楽天市場APIは別アプリの資格情報を使えるようにする",
+          "date": "2026-09-01T12:20:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/86f00e02159b996dcad9cf01f541f4c06e030891"
+        },
+        {
+          "sha": "1bf6e66",
+          "message": "ゴルフ練習場（OSM 386件）と、楽天市場のゴルフ用品を都道府県ページに足す",
+          "date": "2026-09-01T12:10:04Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1bf6e66e8c08a2faa57f91ac1f6b8fbcb1ea0f52"
+        },
+        {
           "sha": "597ad9a",
           "message": "http を https へ301で寄せる",
           "date": "2026-09-01T11:01:00Z",
@@ -3948,21 +3960,9 @@
           "message": "feat: add sitemap.xml for SEO",
           "date": "2026-08-10T20:29:20Z",
           "url": "https://github.com/syunnjack/golf-search/commit/d025d48d9a9659e3b9077228076166e4fdb5796b"
-        },
-        {
-          "sha": "3e118a9",
-          "message": "Fix Rakuten Travel API version for May 2026 platform migration",
-          "date": "2026-08-09T17:36:19Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/3e118a9b7ddb6200db5acbee34935ec6b6af246d"
-        },
-        {
-          "sha": "7edfecb",
-          "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
-          "date": "2026-08-09T09:02:32Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
         }
       ],
-      "updatedAt": "2026-09-01T11:07:58Z",
+      "updatedAt": "2026-09-01T12:27:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -11723,6 +11723,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "204dd77",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-01T11:25:05Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/204dd77d201749fb2b3c7583c97f261743ad88a9"
+        },
+        {
           "sha": "d73813c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T10:29:56Z",
@@ -11787,15 +11793,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T03:32:40Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/15edd005ed16a211f85a7e180ae6e80941523685"
-        },
-        {
-          "sha": "7584168",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T02:36:17Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7584168da0c330b230c36f29b0cf76193fe4e349"
         }
       ],
-      "updatedAt": "2026-09-01T10:30:32Z",
+      "updatedAt": "2026-09-01T11:36:02Z",
       "stars": 0,
       "forks": 0
     },
