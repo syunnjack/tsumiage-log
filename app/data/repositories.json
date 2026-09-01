@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T14:27:45.472Z",
+  "generatedAt": "2026-09-01T15:42:37.966Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11723,6 +11723,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1c9ae6b",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-01T14:28:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/1c9ae6b7adc1e6978ed8cfca6773a8450cdfe8aa"
+        },
+        {
           "sha": "1d1eb3a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T13:27:11Z",
@@ -11787,15 +11793,9 @@
           "message": "記事追記: 自己採点「あと4問」と成績通知「あと3問」のずれを追加",
           "date": "2026-09-01T05:06:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f35185286ee2f543f89d4e8a822eb1c17f80eb74"
-        },
-        {
-          "sha": "c6416d5",
-          "message": "記事追加: 片づけで出てきた模試と本試験の成績表4枚を弱点リストにする",
-          "date": "2026-09-01T05:00:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c6416d5f7d8e8d5ee0a7f6d6a9668353cf40b94a"
         }
       ],
-      "updatedAt": "2026-09-01T13:45:27Z",
+      "updatedAt": "2026-09-01T15:32:02Z",
       "stars": 0,
       "forks": 0
     },
