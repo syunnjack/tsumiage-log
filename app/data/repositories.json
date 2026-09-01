@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:42:37.966Z",
+  "generatedAt": "2026-09-01T16:44:39.371Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11723,6 +11723,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "470b28d",
+          "message": "手書き記事の本文で **強調** と `コード` を描画する",
+          "date": "2026-09-01T16:35:35Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/470b28df85faab00d9cd2833e730c11187a21747"
+        },
+        {
+          "sha": "d15aab2",
+          "message": "受験記の年と得点を成績通知に合わせて訂正",
+          "date": "2026-09-01T16:22:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d15aab28fddfe351435f5680fa43a61809b21ff0"
+        },
+        {
+          "sha": "2182a4f",
+          "message": "記事追加: 合格返金狙いで講座に入るのは2回目",
+          "date": "2026-09-01T16:08:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2182a4fbdcd127fe71ca0388d3a241bc7d3537e7"
+        },
+        {
+          "sha": "2cb93d8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-01T15:43:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2cb93d81be06548b54e457da6544139a08e40c9b"
+        },
+        {
           "sha": "1c9ae6b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T14:28:09Z",
@@ -11769,33 +11793,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T07:29:19Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/92527738047d0ea6d0480a8a1ee406508ae47ce2"
-        },
-        {
-          "sha": "84f2725",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T06:41:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/84f2725277e048c2c2d3204e8e49ccd704674d59"
-        },
-        {
-          "sha": "54db83f",
-          "message": "YouTube投稿スクリプトの認証を3段構えにする",
-          "date": "2026-09-01T05:34:24Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/54db83f152d5f53becc6a1728958ca3baa3491ee"
-        },
-        {
-          "sha": "1d5ff76",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T05:27:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1d5ff7611b9c1d102b67a3f3d733310fb9ef390a"
-        },
-        {
-          "sha": "f351852",
-          "message": "記事追記: 自己採点「あと4問」と成績通知「あと3問」のずれを追加",
-          "date": "2026-09-01T05:06:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f35185286ee2f543f89d4e8a822eb1c17f80eb74"
         }
       ],
-      "updatedAt": "2026-09-01T15:32:02Z",
+      "updatedAt": "2026-09-01T16:29:09Z",
       "stars": 0,
       "forks": 0
     },
