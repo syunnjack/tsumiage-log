@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:29:22.899Z",
+  "generatedAt": "2026-09-01T11:24:32.533Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -3890,6 +3890,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "597ad9a",
+          "message": "http を https へ301で寄せる",
+          "date": "2026-09-01T11:01:00Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/597ad9a16fba31c91a19d0a9cd8be8ad55dee1ab"
+        },
+        {
+          "sha": "8cca772",
+          "message": "デプロイ先を Secret ではなく workflow に書く（伏せ字で原因が読めなくなるため）",
+          "date": "2026-09-01T10:30:42Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/8cca772625ad351ba62b36117366716129ed5592"
+        },
+        {
+          "sha": "1377739",
+          "message": "デプロイ先の設定を直したので、もう一度流す",
+          "date": "2026-09-01T10:29:31Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/1377739cc1834b1799e3118ad962fe0252f3a5ed"
+        },
+        {
+          "sha": "288b36c",
+          "message": "都道府県の検索を areaCode に変える（keyword だと18県が0件になっていた）",
+          "date": "2026-09-01T10:24:50Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/288b36cc750c7cbeafeeec8e18c758bc9e78af2d"
+        },
+        {
           "sha": "15e80e7",
           "message": "ゴルフ場の取得を、失敗が焼き付かない作りにする",
           "date": "2026-08-30T07:55:45Z",
@@ -3936,33 +3960,9 @@
           "message": "Add Rakuten Travel hotel suggestions for pre-stay near golf courses",
           "date": "2026-08-09T09:02:32Z",
           "url": "https://github.com/syunnjack/golf-search/commit/7edfecb6f921064f423806ead22e44d91f9efd2b"
-        },
-        {
-          "sha": "7875016",
-          "message": "Fix the actual search bug: response field is \"Items\", not \"items\"",
-          "date": "2026-08-09T04:11:26Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/78750165a8994694bcfd4383f7a55095d69d3a30"
-        },
-        {
-          "sha": "e46a0be",
-          "message": "Read Rakuten credentials from config instead of env() in the controller",
-          "date": "2026-08-09T04:06:09Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/e46a0be4ba26375263e32c55d70b1c086d45c277"
-        },
-        {
-          "sha": "b1fc362",
-          "message": "Merge branch 'main' of https://github.com/syunnjack/golf-search",
-          "date": "2026-08-09T04:00:31Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/b1fc362e9d6ba7c0e5381b75d2e542d73452e873"
-        },
-        {
-          "sha": "c6cc576",
-          "message": "Fix production Rakuten credentials and add real weather forecasts",
-          "date": "2026-08-09T03:59:25Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/c6cc576432935efe8e1d0df2871bc1208a01d3b2"
         }
       ],
-      "updatedAt": "2026-08-30T07:55:58Z",
+      "updatedAt": "2026-09-01T11:07:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -11723,6 +11723,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d73813c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-01T10:29:56Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d73813caa809fb7d0e13d3a49f6de719afe47bde"
+        },
+        {
           "sha": "8806948",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T09:30:33Z",
@@ -11787,15 +11793,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T02:36:17Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7584168da0c330b230c36f29b0cf76193fe4e349"
-        },
-        {
-          "sha": "ae1488e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T01:42:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ae1488ef920b48715e06646d0700a911b2648e05"
         }
       ],
-      "updatedAt": "2026-09-01T09:37:09Z",
+      "updatedAt": "2026-09-01T10:30:32Z",
       "stars": 0,
       "forks": 0
     },
