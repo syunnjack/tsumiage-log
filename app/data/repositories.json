@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:29:47.293Z",
+  "generatedAt": "2026-09-02T06:44:31.771Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -4813,8 +4813,8 @@
       "slug": "inid-comunity",
       "name": "iniD-comunity",
       "displayName": "IniD Comunity",
-      "description": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです",
-      "readmeExcerpt": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです。 主な機能 最初の10プレイ向けロードマップ 初心者向けコース・車種ガイド localStorageへ保存する走行ログ 投稿、検索、カテゴリ絞り込み、いいね FAQ構造化データ、サイトマップ、robots.txt、llms.txt 開発 本サイトはファンによる非公式サイトで、ゲームメーカーおよび権利者各社とは関係ありません。",
+      "description": "INITIAL D START LINE 頭文字D THE ARCADE を遊んだ記録を、運営者ひとりが書いていく非公式サイトです",
+      "readmeExcerpt": "INITIAL D START LINE 頭文字D THE ARCADE を遊んだ記録を、運営者ひとりが書いていく非公式サイトです。掲示板や会員制度はありません。 方針 載せてよいのは、公式が公表している情報と、運営者自身が実際に確認したことだけです。 2026年9月2日に、初期表示として持っていた架空のデータをすべて削除しました。削除したのは、架空の投稿3件（投稿者名・いいね数・投稿時刻つき）、その投稿から算出していた「今週の参考になった投稿」と「初心者を助けたドライバー」のランキング、車種・コースの投票結果、月額応援メンバーとスポンサー掲載の案内、およびページ上に表示しなくなったFAQの構造化データです。実在しない利用者がいるように見せることになるためです。 同じものを再び追加しないでください。数字を置きたくなったら、その数字の出どころが公式か自分の記録かを先に確認します。 主な機能 運営者の現在の進捗を書く「いまの状況」 運営者が最初に覚えた順番（私見であることを明示） 収録コース・車種の名称一覧（性能の比較やおすすめ度は付けない） 閲覧者が自分用に記録するメモ（端末内のみに保存し、送信はしない） サイトマップ、robots.txt 開発 本サイトは運営者ひとりのプレイ記録で、ファンによる非公式サイトです。ゲームメーカーおよび権利者各社とは関係ありません。",
       "url": "https://github.com/syunnjack/iniD-comunity",
       "defaultBranch": "main",
       "primaryLanguage": "TypeScript",
@@ -4823,6 +4823,18 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "6d7c209",
+          "message": "テストを新しい内容に更新し、架空データの再混入を検知する",
+          "date": "2026-09-02T06:37:15Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/6d7c209a8f70eb84f1d066e355227433d4f520a3"
+        },
+        {
+          "sha": "1fbbfad",
+          "message": "架空の利用者データと支援導線を削除し、運営者の記録サイトにする",
+          "date": "2026-09-02T06:34:33Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/1fbbfad0e310d404365d732318a53a7dce4488e6"
+        },
         {
           "sha": "5fcceab",
           "message": "支援・購入への導線を追加する",
@@ -4866,7 +4878,7 @@
           "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
         }
       ],
-      "updatedAt": "2026-08-15T00:53:41Z",
+      "updatedAt": "2026-09-02T06:37:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -11723,6 +11735,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6b23e08",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-02T05:30:17Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b23e081e4fea83e7657454aef76ef233335ac09"
+        },
+        {
           "sha": "23ee3db",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T04:32:20Z",
@@ -11787,15 +11805,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T18:31:47Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2a3707a0526beb957ad4a13dd9eb194f57ba9b10"
-        },
-        {
-          "sha": "0b29767",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T17:24:07Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b29767b7d689ed0b796e85ac9d50e1ce829c35a"
         }
       ],
-      "updatedAt": "2026-09-02T04:35:30Z",
+      "updatedAt": "2026-09-02T05:30:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -12193,7 +12205,7 @@
       "name": "wangan-base",
       "displayName": "Wangan Base",
       "description": "走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティ",
-      "readmeExcerpt": "WANGAN BASE 走るほど、つながる。湾岸プレイヤーのための非公式攻略コミュニティです。 主な機能 ストーリー進捗と次の目標を表示するマイガレージ コース攻略・車種データ 攻略情報、質問、対戦募集のコミュニティ投稿 ブラウザ内への進捗・投稿保存 全国の湾岸ミッドナイト マキシマムチューン 6RR PLUS公式設置店への地域別導線 BOOTHショップ、運営支援、店舗PR掲載への収益導線 スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 収益導線の設定 BOOTHショップを公開したら、デプロイ環境に次の公開環境変数を設定します。 未設定時も https://wan gan base.booth.pm/ へ移動します。月額支援と店舗掲載の問い合わせ先は、それぞれ NEXT PUBLIC SUPPORT URL と NEXT PUBLIC PARTNER URL で差し替えられます。 NEXT PUBLIC BOOTH ITEM 01 URL は「WANGAN BASE 運営支援パック 01」の商品ページURLです。BOOTHで商品を登録すると https://wan gan base.booth.pm/items/ が発行されるので、その値を設定してください。未設定の場合はショップトップへ移動します。 権利表記 本プロジェクトはファンによる非公式コミュニティサイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
+      "readmeExcerpt": "WANGAN BASE 湾岸ミッドナイト マキシマムチューン 6RR PLUS を遊んだ記録を、運営者ひとりが書いていく非公式サイトです。掲示板や会員制度はありません。 方針 載せてよいのは、公式が公表している情報と、運営者自身が実際に確認したことだけです。 2026年9月2日に、初期表示として持っていた架空のデータをすべて削除しました。削除したのは、架空のドライバー名とストーリー進捗、「128 DRIVERS ONLINE」という固定のオンライン人数、投稿3件とその投稿者名・いいね数・投稿時刻、車種投票の得票数、貢献ドライバーのランキング、月額390円の会員制度、未登録のBOOTH商品です。実在しない利用者がいるように見せることになるためです。 同じものを再び追加しないでください。数字を置きたくなったら、その数字の出どころが公式か自分の記録かを先に確認します。 主な機能 運営者の現在の進捗を書く「いまの状況」 収録コース・車種の名称一覧（性能の比較や推奨設定は載せない） 全国の湾岸ミッドナイト マキシマムチューン 6RR PLUS 公式設置店一覧への都道府県別リンク 閲覧者が自分用に進捗をメモする欄（端末内のみに保存し、送信はしない） スマートフォン対応 開発 ビルド確認は npm run build 、静的解析は npm run lint を使用します。 権利表記 本プロジェクトはファンによる非公式サイトです。ゲームメーカーおよび権利者各社とは関係ありません。ゲーム名、車名、商標等は各権利者に帰属します。",
       "url": "https://github.com/syunnjack/wangan-base",
       "defaultBranch": "codex/initial-community-site",
       "primaryLanguage": "TypeScript",
@@ -12202,6 +12214,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "c631897",
+          "message": "架空の利用者データと会員制度を削除し、運営者の記録サイトにする",
+          "date": "2026-09-02T06:28:01Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/c63189766926587ffb3bfa5938d7e475e73ef2f4"
+        },
         {
           "sha": "cbe3b52",
           "message": "支援・購入への導線を追加する",
@@ -12267,15 +12285,9 @@
           "message": "Add monetization paths to arcade directory",
           "date": "2026-08-12T07:25:34Z",
           "url": "https://github.com/syunnjack/wangan-base/commit/6f062cfa938ae80004ae87fdc1094cff5d8e73a0"
-        },
-        {
-          "sha": "a27674c",
-          "message": "Correct Tokyo outer-area official link",
-          "date": "2026-08-12T04:36:05Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/a27674c2aea51b44ce53223ec02648be7f6c9a66"
         }
       ],
-      "updatedAt": "2026-08-15T00:59:58Z",
+      "updatedAt": "2026-09-02T06:29:03Z",
       "stars": 0,
       "forks": 0
     },

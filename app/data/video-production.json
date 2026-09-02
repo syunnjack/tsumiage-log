@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:23:34.159Z",
+  "generatedAt": "2026-09-02T06:44:31.975Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -3929,7 +3929,7 @@
       "slug": "inid-comunity",
       "repository": "iniD-comunity",
       "title": "TypeScriptで作ったIniD Comunity｜構成とコミット履歴を75秒で解説",
-      "description": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです",
+      "description": "INITIAL D START LINE 頭文字D THE ARCADE を遊んだ記録を、運営者ひとりが書いていく非公式サイトです",
       "language": "TypeScript",
       "articleUrl": "https://syunnjack.dev/articles/inid-comunity/",
       "repositoryUrl": "https://github.com/syunnjack/iniD-comunity",
@@ -3953,7 +3953,7 @@
         },
         {
           "title": "このプロジェクトは何を解決する？",
-          "body": "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです"
+          "body": "INITIAL D START LINE 頭文字D THE ARCADE を遊んだ記録を、運営者ひとりが書いていく非公式サイトです"
         },
         {
           "title": "技術スタック",
@@ -3979,7 +3979,7 @@
       "youtubeUrl": null,
       "narration": [
         "今回は、IniD Comunityの技術構成を短く解説します。",
-        "INITIAL D START LINE 頭文字D THE ARCADEを始めたばかりのプレイヤー向けの、非公式攻略・成長記録・交流サイトです",
+        "INITIAL D START LINE 頭文字D THE ARCADE を遊んだ記録を、運営者ひとりが書いていく非公式サイトです",
         "主な技術はTypeScriptです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
