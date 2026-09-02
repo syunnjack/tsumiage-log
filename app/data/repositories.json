@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T13:27:07.548Z",
+  "generatedAt": "2026-09-02T14:27:09.626Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -3890,6 +3890,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "f364243",
+          "message": "前泊ホテルの取得失敗を1時間焼き付けないようにする",
+          "date": "2026-09-02T14:11:06Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/f364243934c1a3ba0d8e9ae5fb3611e920a3a0c0"
+        },
+        {
+          "sha": "d364cd1",
+          "message": "前泊ホテルを地区コードで引く（キーワードだけでは0件だった）",
+          "date": "2026-09-02T14:08:59Z",
+          "url": "https://github.com/syunnjack/golf-search/commit/d364cd1bd4a2d01f898f586a86fcda075b1aa9bd"
+        },
+        {
           "sha": "dbc72d4",
           "message": "楽天市場APIのバージョンを 20260701 に直す",
           "date": "2026-09-01T16:33:03Z",
@@ -3948,21 +3960,9 @@
           "message": "都道府県ページをパス型URLにし、公開前の不具合を直す",
           "date": "2026-08-19T01:19:33Z",
           "url": "https://github.com/syunnjack/golf-search/commit/674a48a9781b2911d3d36ee4242b7db7b25b562a"
-        },
-        {
-          "sha": "723bd4f",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:53:13Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/723bd4f813e11e75643cb03897598b74f9f78758"
-        },
-        {
-          "sha": "c28c0d5",
-          "message": "Document nationwide golf search baseline",
-          "date": "2026-08-11T15:06:52Z",
-          "url": "https://github.com/syunnjack/golf-search/commit/c28c0d5c6cd565f65566cbb62ea1c236fff3d79b"
         }
       ],
-      "updatedAt": "2026-09-01T17:05:57Z",
+      "updatedAt": "2026-09-02T14:15:50Z",
       "stars": 0,
       "forks": 0
     },
@@ -11741,6 +11741,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "93e481e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-02T13:27:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/93e481e03ae345be4b2cd4c0a7ff4fa61d14d495"
+        },
+        {
           "sha": "2f9b37e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T12:38:19Z",
@@ -11805,15 +11811,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T02:49:46Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a3a688aa60807384f2d594a0d14502a3c4da9fae"
-        },
-        {
-          "sha": "8646a77",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-02T01:35:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/8646a7748e58d2537f7d5a0a328d923022b91f11"
         }
       ],
-      "updatedAt": "2026-09-02T12:42:51Z",
+      "updatedAt": "2026-09-02T13:32:41Z",
       "stars": 0,
       "forks": 0
     },
