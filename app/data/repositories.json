@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T06:44:31.771Z",
+  "generatedAt": "2026-09-02T07:29:27.886Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -1235,6 +1235,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "47a253d",
+          "message": "都道府県ページに観光スポットを足す",
+          "date": "2026-09-02T07:12:29Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/47a253dd6e24dd5336f450c5f4121c2ea585b9a9"
+        },
+        {
           "sha": "9cd8589",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:02Z",
@@ -1299,15 +1305,9 @@
           "message": "Add permanent Search Console verification meta tag",
           "date": "2026-08-04T04:57:12Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/68bcab1ddbc2670f09b22de2d0e5cde8b157bded"
-        },
-        {
-          "sha": "46442b0",
-          "message": "Add GA4 tracking snippet",
-          "date": "2026-08-03T17:39:09Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/46442b0d0ebc6979969c8f4a0ebec4c501713bb8"
         }
       ],
-      "updatedAt": "2026-08-21T14:08:39Z",
+      "updatedAt": "2026-09-02T07:15:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -4824,6 +4824,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "490fa95",
+          "message": "GitHub Pages への公開を追加する",
+          "date": "2026-09-02T07:02:25Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/490fa951645ebe2bee80a3993c72f72c4c7298a4"
+        },
+        {
           "sha": "6d7c209",
           "message": "テストを新しい内容に更新し、架空データの再混入を検知する",
           "date": "2026-09-02T06:37:15Z",
@@ -4878,7 +4884,7 @@
           "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
         }
       ],
-      "updatedAt": "2026-09-02T06:37:31Z",
+      "updatedAt": "2026-09-02T07:02:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -7594,6 +7600,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "df3829d",
+          "message": "デプロイのワークフローを作る（これまで手作業だった）",
+          "date": "2026-09-02T07:14:45Z",
+          "url": "https://github.com/syunnjack/onsen-list/commit/df3829dc3dc00c69286a5b5d083c67b053821b46"
+        },
+        {
+          "sha": "83b67a5",
+          "message": "観光スポットを足し、山梨県0件と旧APIバージョンを直す",
+          "date": "2026-09-02T07:12:26Z",
+          "url": "https://github.com/syunnjack/onsen-list/commit/83b67a5d43f137cb009a8a70596c40607d621b83"
+        },
+        {
           "sha": "c4ab0fe",
           "message": "楽天APIの認証情報を config 経由で読む",
           "date": "2026-08-30T08:05:47Z",
@@ -7652,21 +7670,9 @@
           "message": "Remove unused Livewire auth/settings/dashboard scaffolding",
           "date": "2026-07-13T21:03:38Z",
           "url": "https://github.com/syunnjack/onsen-list/commit/7a41ac1df32e0aa4f5832aa0368adb17fec17693"
-        },
-        {
-          "sha": "79f07db",
-          "message": "Migrate to Rakuten's 2026 Travel API (accessKey + new endpoint)",
-          "date": "2026-07-13T17:49:33Z",
-          "url": "https://github.com/syunnjack/onsen-list/commit/79f07db6c56e370d08e90afbd6ab315715e01f2a"
-        },
-        {
-          "sha": "87b9d30",
-          "message": "Point sitemap at the production domain onsen-search.jp",
-          "date": "2026-07-13T17:20:00Z",
-          "url": "https://github.com/syunnjack/onsen-list/commit/87b9d308339212a71195a7d7d20091072286eda6"
         }
       ],
-      "updatedAt": "2026-08-30T08:06:09Z",
+      "updatedAt": "2026-09-02T07:17:35Z",
       "stars": 0,
       "forks": 0
     },
@@ -11735,6 +11741,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0bc72e2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-02T06:45:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0bc72e2bde789c1b1d1524108389e75c65935e74"
+        },
+        {
           "sha": "6b23e08",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T05:30:17Z",
@@ -11799,15 +11811,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-01T19:22:49Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0db9fdbdd74caddc581ef04283d4ad1ae845711a"
-        },
-        {
-          "sha": "2a3707a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-01T18:31:47Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2a3707a0526beb957ad4a13dd9eb194f57ba9b10"
         }
       ],
-      "updatedAt": "2026-09-02T05:30:36Z",
+      "updatedAt": "2026-09-02T06:48:00Z",
       "stars": 0,
       "forks": 0
     },
