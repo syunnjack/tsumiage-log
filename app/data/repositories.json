@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T01:34:34.565Z",
+  "generatedAt": "2026-09-02T02:49:16.996Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11723,6 +11723,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8646a77",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-02T01:35:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8646a7748e58d2537f7d5a0a328d923022b91f11"
+        },
+        {
           "sha": "03b413f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T01:00:00Z",
@@ -11787,15 +11793,9 @@
           "message": "受験記の年と得点を成績通知に合わせて訂正",
           "date": "2026-09-01T16:22:50Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d15aab28fddfe351435f5680fa43a61809b21ff0"
-        },
-        {
-          "sha": "2182a4f",
-          "message": "記事追加: 合格返金狙いで講座に入るのは2回目",
-          "date": "2026-09-01T16:08:14Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/2182a4fbdcd127fe71ca0388d3a241bc7d3537e7"
         }
       ],
-      "updatedAt": "2026-09-02T01:00:09Z",
+      "updatedAt": "2026-09-02T01:35:11Z",
       "stars": 0,
       "forks": 0
     },
