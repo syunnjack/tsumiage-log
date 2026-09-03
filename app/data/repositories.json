@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:24:19.269Z",
+  "generatedAt": "2026-09-03T18:31:12.345Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "229d446",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-03T17:24:53Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/229d446cee5ec6826d9857d5b79e5227c887cf9f"
+        },
+        {
           "sha": "489a926",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T16:28:08Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T06:41:00Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/2049d52952bc3e2ac5aa62c8a12ff1ad14647f55"
-        },
-        {
-          "sha": "ae0fe30",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T05:23:56Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ae0fe30524f633a88fa6fc59b4ed4db0a502b376"
         }
       ],
-      "updatedAt": "2026-09-03T16:36:22Z",
+      "updatedAt": "2026-09-03T17:25:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -12408,12 +12408,30 @@
       "readmeExcerpt": "Welfare Job Alert 障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト。本番は https://welfarejob.jp Concept 障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 人材送客 事業所掲載 相談送客 広告 資料請求 Commands",
       "url": "https://github.com/syunnjack/welfare-job-alert",
       "defaultBranch": "main",
-      "primaryLanguage": "Python",
+      "primaryLanguage": "HTML",
       "languages": [
-        "Python"
+        "HTML"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "f39cee7",
+          "message": "制度名から自治体を引ける横断ページを21本作る",
+          "date": "2026-09-03T17:44:43Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/f39cee77c95ad94c7d75b4da695fcf101e635ee9"
+        },
+        {
+          "sha": "ce85d66",
+          "message": "個別ページを、制度リンクが1件でも取れた60自治体に広げる",
+          "date": "2026-09-03T17:31:23Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/ce85d66aca2cc2a7ebb37713c20c4ac174c9a57b"
+        },
+        {
+          "sha": "0dd4dbd",
+          "message": "主要74自治体の障害福祉制度を、公式ページへの入口として公開する",
+          "date": "2026-09-03T17:26:48Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/0dd4dbdda0a722483b4b87a4ec61adef0512cffd"
+        },
         {
           "sha": "375fdf8",
           "message": "主要74自治体の障害福祉制度を収集する（62件・773制度）",
@@ -12467,27 +12485,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:08:22Z",
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/163eb522f41e74f23fb5fcadb2752266d336c699"
-        },
-        {
-          "sha": "0a1f27c",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:04:27Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/0a1f27c45d467f61fc3528f94cdf6d262a808f70"
-        },
-        {
-          "sha": "7685ccc",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:00:55Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/7685ccc3426dafca6e515044bc0917ed4472971b"
-        },
-        {
-          "sha": "5dff63d",
-          "message": "Switch deployment to Xserver",
-          "date": "2026-08-04T05:29:27Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/5dff63d6b2a37bc0390c370961c4c0aaa26c3a2d"
         }
       ],
-      "updatedAt": "2026-09-03T13:17:45Z",
+      "updatedAt": "2026-09-03T17:48:55Z",
       "stars": 0,
       "forks": 0
     },
