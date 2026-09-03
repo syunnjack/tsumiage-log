@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:20:43.281Z",
+  "generatedAt": "2026-09-03T20:25:08.583Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -397,6 +397,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "cf4faf2",
+          "message": "Refresh bowling event data",
+          "date": "2026-09-03T20:19:13Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/cf4faf222a918044687eef6ad17f9d65effc3d30"
+        },
+        {
           "sha": "6441543",
           "message": "Refresh bowling event data",
           "date": "2026-09-02T20:21:05Z",
@@ -461,15 +467,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-23T20:14:53Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/faadd3b8873803d2ebb31016d7061bebc7c82222"
-        },
-        {
-          "sha": "6bb15a8",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-22T20:21:22Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/6bb15a87def778be2a01626896a0e6b52651035e"
         }
       ],
-      "updatedAt": "2026-09-02T20:21:45Z",
+      "updatedAt": "2026-09-03T20:21:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -2151,6 +2151,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3e34bd6",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-09-03T20:08:41Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/3e34bd67606838cad69bfa3d2a83eeb737faa010"
+        },
+        {
           "sha": "ec252c9",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-02T20:08:29Z",
@@ -2215,15 +2221,9 @@
           "message": "__pycache__ を無視する",
           "date": "2026-08-24T14:59:51Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/e6f2d4804cc8f32633c942b37cc753ee2cba2983"
-        },
-        {
-          "sha": "762ce38",
-          "message": "広告を出さない方針を README に書く",
-          "date": "2026-08-24T11:18:37Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/762ce3825723d00d6670f10c265f2e0126014894"
         }
       ],
-      "updatedAt": "2026-09-02T20:12:19Z",
+      "updatedAt": "2026-09-03T20:11:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6b73366",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-03T19:21:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b7336627290ed31a11ac040181c3bc4e87c3f15"
+        },
+        {
           "sha": "22d9f5b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T18:31:44Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T08:34:29Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c36fad6cfbd9840342aef3d770af2de129178d7d"
-        },
-        {
-          "sha": "c163991",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T07:29:08Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c1639919fde371d36a675bd80c557965474fe2ec"
         }
       ],
-      "updatedAt": "2026-09-03T18:33:32Z",
+      "updatedAt": "2026-09-03T19:22:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -12415,6 +12415,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "e1acdfe",
+          "message": "巡回を全国741市へ広げ、都道府県の階層を挟む",
+          "date": "2026-09-03T19:45:09Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/e1acdfeca3235c974155cd129f097a107e069cee"
+        },
+        {
+          "sha": "7cd1d26",
+          "message": "巡回を全国の市へ広げ、届かなかった自治体の抽出を直す",
+          "date": "2026-09-03T18:03:59Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/7cd1d26d4bffc4471ca33e2d19225e6520a01207"
+        },
+        {
           "sha": "f39cee7",
           "message": "制度名から自治体を引ける横断ページを21本作る",
           "date": "2026-09-03T17:44:43Z",
@@ -12473,21 +12485,9 @@
           "message": "求職者に向けた内容に書き換え、canonicalとタイトルを整える",
           "date": "2026-08-18T15:18:37Z",
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/753608e765930f4de5b0625b19b61aaf2af62c82"
-        },
-        {
-          "sha": "b014ab5",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:59:53Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/b014ab5856c9e326302ee91c931d96a9d86f034e"
-        },
-        {
-          "sha": "163eb52",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:08:22Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/163eb522f41e74f23fb5fcadb2752266d336c699"
         }
       ],
-      "updatedAt": "2026-09-03T17:48:55Z",
+      "updatedAt": "2026-09-03T19:49:46Z",
       "stars": 0,
       "forks": 0
     },
