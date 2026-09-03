@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T07:28:38.677Z",
+  "generatedAt": "2026-09-03T08:33:59.241Z",
   "policy": "実際のアダルトビジネスに直接関連するリポジトリ（Fanza/DMM統合、風俗情報など）、および機密・部外秘資料由来の可能性があるリポジトリは公開記事に含めない。技術的に有意義なプロジェクトは、内容に基づいて公開対象とする。",
   "completed": [
     {
@@ -10228,12 +10228,12 @@
     {
       "slug": "welfare-job-alert",
       "repository": "welfare-job-alert",
-      "title": "JavaScriptで作ったWelfare Job Alert｜構成とコミット履歴を75秒で解説",
+      "title": "HTMLで作ったWelfare Job Alert｜構成とコミット履歴を75秒で解説",
       "description": "Welfare Job Alert 障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト",
-      "language": "JavaScript",
+      "language": "HTML",
       "articleUrl": "https://syunnjack.dev/articles/welfare-job-alert/",
       "repositoryUrl": "https://github.com/syunnjack/welfare-job-alert",
-      "youtubeDescription": "Welfare Job Alertは、JavaScriptで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Welfare Job Alertがどんな技術で組まれているか（JavaScript）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/welfare-job-alert\nソースコード（GitHub）： https://github.com/syunnjack/welfare-job-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #JavaScript #技術解説 #プログラミング #GitHub",
+      "youtubeDescription": "Welfare Job Alertは、HTMLで作った個人開発のプロジェクトです。この動画では、公開リポジトリのファイル構成、使用技術の役割、直近のコミットから読み取れる改善の流れを75秒で紹介します。\n\n▼ この動画で分かること\n・Welfare Job Alertがどんな技術で組まれているか（HTML）\n・リポジトリのどこを読むと設計が分かるか（READMEと主要なソースファイル）\n・直近のコミットで何が改善されたか\n\n▼ リンク\nくわしい解説記事： https://syunnjack.dev/articles/welfare-job-alert\nソースコード（GitHub）： https://github.com/syunnjack/welfare-job-alert\nブログ『積み上げログ』： https://syunnjack.dev/\n\n▼ コメントで教えてください\n個人開発で毎回悩むのは設計ですが、みなさんはどう決めていますか。\n\n『積み上げログ』は、個人開発でつくったものの設計と、そこから学んだことを記事と動画で残しているチャンネルです。同じような構成で作ってみたい方の手がかりになればうれしいです。\n\n#個人開発 #HTML #技術解説 #プログラミング #GitHub",
       "tags": [
         "個人開発",
         "技術解説",
@@ -10241,11 +10241,11 @@
         "ソースコード",
         "GitHub",
         "開発記録",
-        "JavaScript",
+        "HTML",
         "Welfare Job Alert",
-        "JavaScript 個人開発"
+        "HTML 個人開発"
       ],
-      "playlist": "JavaScriptの個人開発",
+      "playlist": "HTMLの個人開発",
       "slides": [
         {
           "title": "Welfare Job Alertの技術解説",
@@ -10257,7 +10257,7 @@
         },
         {
           "title": "技術スタック",
-          "body": "主要技術：JavaScript\n役割を分け、保守しやすい構成を目指しています。"
+          "body": "主要技術：HTML\n役割を分け、保守しやすい構成を目指しています。"
         },
         {
           "title": "リポジトリの読みどころ",
@@ -10280,7 +10280,7 @@
       "narration": [
         "今回は、Welfare Job Alertの技術構成を短く解説します。",
         "Welfare Job Alert 障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト",
-        "主な技術はJavaScriptです。役割を分け、保守しやすい構成を目指しています。",
+        "主な技術はHTMLです。役割を分け、保守しやすい構成を目指しています。",
         "リポジトリでは、主要なソースファイルを中心に実装を確認できます。",
         "直近のコミットでは、実装の見直しと継続的な改善が行われました。",
         "詳しい設計とコミット履歴は、技術ブログ積み上げログの記事で紹介しています。"
