@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:40:28.112Z",
+  "generatedAt": "2026-09-03T07:28:38.511Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11741,6 +11741,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2049d52",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-03T06:41:00Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/2049d52952bc3e2ac5aa62c8a12ff1ad14647f55"
+        },
+        {
           "sha": "ae0fe30",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T05:23:56Z",
@@ -11805,15 +11811,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-02T17:24:12Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0fdd3a30b09e2ddf5619727bd2cae7543bdd9568"
-        },
-        {
-          "sha": "9ee294c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-02T16:29:46Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9ee294c3915c8052395f87990e9ede73b558afd8"
         }
       ],
-      "updatedAt": "2026-09-03T05:24:22Z",
+      "updatedAt": "2026-09-03T06:42:04Z",
       "stars": 0,
       "forks": 0
     },
@@ -12392,8 +12392,8 @@
       "slug": "welfare-job-alert",
       "name": "welfare-job-alert",
       "displayName": "Welfare Job Alert",
-      "description": "Welfare Job Alert 障害者雇用・福祉系求人通知",
-      "readmeExcerpt": "Welfare Job Alert 障害者雇用・福祉系求人通知",
+      "description": "Welfare Job Alert 障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト",
+      "readmeExcerpt": "Welfare Job Alert 障害者雇用枠の求人と、福祉の仕事の募集を通知するサイト。本番は https://welfarejob.jp Concept 障害者雇用、福祉事業所、支援員求人を通知し、人材送客、事業所掲載、相談導線へつなげる。 Technical Selection Frontend: Vite + React 19 Styling: Plain CSS Initial data: Static alert seed records in src/App.jsx Local state: localStorage for MVP saved alerts and UGC requests Notification integrations: LINE Messaging API, X API, transactional email provider, Slack Incoming Webhooks Future data layer: Supabase or Cloudflare D1 SEO/AIO/LLMO: structured data, answer block, FAQ, sitemap, robots and llms.txt Revenue Paths 人材送客 事業所掲載 相談送客 広告 資料請求 Commands",
       "url": "https://github.com/syunnjack/welfare-job-alert",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -12402,6 +12402,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "2a748a4",
+          "message": "求人通知の実体を作り、障害者割引のページを追加する",
+          "date": "2026-09-03T07:18:57Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/2a748a497a01e93947f30b560735015ccaafbea3"
+        },
         {
           "sha": "e645553",
           "message": "actions/checkout と setup-node を v5 に上げる",
@@ -12469,7 +12475,7 @@
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/8aab173c58a69fb3ec10fd76dcc21c7d125a689e"
         }
       ],
-      "updatedAt": "2026-08-21T14:11:07Z",
+      "updatedAt": "2026-09-03T07:19:55Z",
       "stars": 0,
       "forks": 0
     },
