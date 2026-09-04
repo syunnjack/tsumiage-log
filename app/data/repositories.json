@@ -1,16 +1,18 @@
 {
-  "generatedAt": "2026-09-04T09:28:17.516Z",
+  "generatedAt": "2026-09-04T10:27:13.104Z",
   "owner": "syunnjack",
-  "totalRepositories": 190,
-  "publicRepositories": 190,
+  "totalRepositories": 198,
+  "publicRepositories": 198,
   "privateRepositories": 0,
   "skippedRepositories": [
-    "award-alert",
     "mall-oudan",
+    "malloudan",
     "nekonote",
-    "rank-check",
+    "rank-checkv2",
     "rms-auto",
     "scan-doc",
+    "thumbnail-auto",
+    "weekly-check",
     "abeshi-mvp",
     "ashi-fetish",
     "asmr-voice",
@@ -767,6 +769,49 @@
         }
       ],
       "updatedAt": "2026-08-15T00:51:55Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "award-alert",
+      "name": "award-alert",
+      "displayName": "Award Alert",
+      "description": "Award Alertの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Award Alertの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/award-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "e2c3c58",
+          "message": "商品検索が返す項目を見る（レビュー件数と平均点があるか）",
+          "date": "2026-09-04T10:11:35Z",
+          "url": "https://github.com/syunnjack/award-alert/commit/e2c3c580d15948a228208fd1db549f8d1709fee5"
+        },
+        {
+          "sha": "7175d59",
+          "message": "403 と 404 を切り分けるため、許可済みドメインの Referer で叩けるようにする",
+          "date": "2026-09-04T09:59:56Z",
+          "url": "https://github.com/syunnjack/award-alert/commit/7175d59b28312dc68c24c7122b320e566f0ffc4a"
+        },
+        {
+          "sha": "caded46",
+          "message": "ランキングAPIの当て方を増やして調べ直す",
+          "date": "2026-09-04T09:59:09Z",
+          "url": "https://github.com/syunnjack/award-alert/commit/caded4647959a5c5121ef30635e1d81b5875231a"
+        },
+        {
+          "sha": "fcc0c41",
+          "message": "ランキングAPIの形を調べる道具を置く",
+          "date": "2026-09-04T09:56:13Z",
+          "url": "https://github.com/syunnjack/award-alert/commit/fcc0c412c9ed9f08e056db8233fc3a96e78741ac"
+        }
+      ],
+      "updatedAt": "2026-09-04T10:13:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -8645,6 +8690,37 @@
       "forks": 0
     },
     {
+      "slug": "rank-check",
+      "name": "rank-check",
+      "displayName": "Rank Check",
+      "description": "Rank Checkは、Pythonを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "rank check（campsignal.jp）— モール横断の検索順位ウォッチ リポジトリ名は rank check だが、公開先は campsignal.jp。 自店の商品が、モールの検索で何番目に出るかを毎日記録する。 公開先: https://campsignal.jp 配信: GitHub Pages（ dist/CNAME は scripts/build site.mjs の SITE DOMAIN から作る） ドメインは SITE DOMAIN 1箇所で決める。 個別のファイルに書かない 何が他と違うのか APIの並び順ではなく、買い物客が見る検索結果ページの順位を数えている。 楽天もYahooも商品検索APIを公開しているが、その並び順が買い物客の画面と 同じである保証はない。APIの順位を「検索順位」と呼ぶツールは、そこで嘘をつく。 このツールは検索結果ページそのものを読む。2026 09 04 の実測で、 手で数えた順位と一致することを確かめてある。 楽天 「財布 メンズ」 kinoco → 3位（手で数えても3位） Yahoo 「財布 メンズ」 mura → 5位（手で数えても5位） 対応しているモール モール 順位 取り方 楽天市場 ✅ 検索結果ページ（1ページ45件） Yahoo ショッピング ✅ 検索結果ページ（1ページ30件） Amazon ❌ 未対応。PA API の鍵に「180日で3件の売上」が要る Google ⏸ 検索順位の機械取得は規約違反。 Search Console API なら自社サイトの掲載順位を正規に取れる ので、そちらで実装する Google をスクレイピングしない。 競合ツールにはやっているものもあるが、 規約違反でいつ止まってもおかしくない。自社ECサイトを持つ店には Search Console API のほうが正確で、止まらない。 PCとスマホ User Agent を変えると 別のページが返る （実測でサイズも中身も違う）。 ただし そのとき並び順は同じだった。 「スマホでは順位が違う」は、いつも起きるこ",
+      "url": "https://github.com/syunnjack/rank-check",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "e372be8",
+          "message": "ドメインの状態を見る道具を入れる",
+          "date": "2026-09-04T09:41:36Z",
+          "url": "https://github.com/syunnjack/rank-check/commit/e372be87da7ef97b1cb7090140b7e878a61ccb40"
+        },
+        {
+          "sha": "76f64d4",
+          "message": "モール横断の検索順位ウォッチを置く",
+          "date": "2026-09-04T09:35:02Z",
+          "url": "https://github.com/syunnjack/rank-check/commit/76f64d466794dbf9b83817045b2436ba34a591a5"
+        }
+      ],
+      "updatedAt": "2026-09-04T09:43:01Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "ranking-vote-hub",
       "name": "ranking-vote-hub",
       "displayName": "Ranking Vote Hub",
@@ -9223,6 +9299,37 @@
       "forks": 0
     },
     {
+      "slug": "respo-check",
+      "name": "respo-check",
+      "displayName": "Respo Check",
+      "description": "Respo Checkは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "respo check（cosmewatch.jp）— スマホ表示チェック リポジトリ名は respo check だが、公開先は cosmewatch.jp。 商品ページを、スマホ・タブレット・PCの幅で撮って並べる。 公開先: https://cosmewatch.jp 配信: GitHub Pages（ dist/CNAME は scripts/build site.mjs の SITE DOMAIN から作る） iframe では作れない 「スマホ表示をPCで確認」を iframe で作ろうとすると必ず失敗する。 楽天もYahooも X Frame Options を返すので、他所のページは埋め込めない。 ヘッドレスブラウザで幅を変えて実際に開き、スクショを撮る。 JavaScript で作られている部分もそのまま写る。 決めたこと スマホを左端に置く。 店主はPCで作業しているので、放っておくと PCの見た目だけで判断してしまう。並び順で「まずスマホ」を作る。 幅の比はそのまま並べる。 3つを同じ大きさに揃えると、スマホで どれだけ狭いかが分からなくなる。狭さこそ見せたいもの。 「開いた瞬間に見える範囲」だけ撮る。 縦に全部つなげた画像にしない。 見たいのは、来た人が最初に何を見るか。 networkidle で待たない。 楽天のような広告と計測の多いページは 通信が止まらず、待ち続けて失敗する（2026 09 04 実測）。 使い方 相手のサイトへの負荷 自分の商品ページを見に行くだけで、1ページにつき幅の数だけ開く。 3秒あける。 人が手で確認するより速く叩く理由がない。",
+      "url": "https://github.com/syunnjack/respo-check",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "86d1aef",
+          "message": "撮った画像をリポジトリに入れないようにする",
+          "date": "2026-09-04T10:03:21Z",
+          "url": "https://github.com/syunnjack/respo-check/commit/86d1aefc3bebdbafe36271a028fec5589ae38cd2"
+        },
+        {
+          "sha": "7073865",
+          "message": "商品ページを幅別に撮って並べる",
+          "date": "2026-09-04T10:03:01Z",
+          "url": "https://github.com/syunnjack/respo-check/commit/7073865e3933c0e73ab87edce692d3755f45ee4b"
+        }
+      ],
+      "updatedAt": "2026-09-04T10:11:11Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "restaurant-seat-alert",
       "name": "restaurant-seat-alert",
       "displayName": "Restaurant Seat Alert",
@@ -9688,6 +9795,31 @@
         }
       ],
       "updatedAt": "2026-08-15T00:56:07Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "review-auto",
+      "name": "review-auto",
+      "displayName": "Review Auto",
+      "description": "Review Autoは、JavaScriptを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "review auto（chutonavi.com）— レビュー返信の下書き リポジトリ名は review auto だが、公開先は chutonavi.com。 レビュー本文を貼ると、返信の下書きが3案出る。 レビュー本文は作らない 名前は review auto だが、 作るのは返信の下書きだけ。 事業者が自作自演のレビューを書くのは、ステマ規制（景品表示法・2023年10月施行） に触れる。使った店が措置命令を受ければ、作った側も無関係ではいられない。 だから レビュー本文を生成する機能は入れない。 返信は事業者が名乗って書くもので、規制の対象ではない。しかも店主が いちばん時間を取られている作業でもある。低評価への返信は特に神経を使う。 どこにも送らない レビュー本文には客の名前や困りごとが入る。 通信を1回も発生させない。 判定も文面作りも、開いたブラウザの中だけで終わる。 預からなければ漏らしようがない。 LLM を使っていない 返信は型が決まっている。謝る・礼を言う・次にどうするか。 型と、本文から拾った言葉の差し込みで足りる。 LLM を足すとしたら「型で拾えなかった個別の指摘」だけ。 そのときも、本文を外に送ることになる点は正直に書く必要がある。 気をつけたこと 謝罪を重ねない。 話題ごとに謝ったうえで型の謝罪も足すと 「申し訳ございません」が3回続き、かえって薄く読める。 触れる話題があったときは、型のほうを「次にどうするか」に寄せている。 良し悪しは星の数だけで決める。 「品質は悪くないですが」のような 書き方は必ず取り違える。拾った話題は「触れられていた」ことにしか使わない。 その前提を画面にも書いてある。 そのまま送らせない。 事実の確認（在庫・発送日・不良の有無）は 店主がやるしかない。確かめていないことを書くと、かえって信用を損なう。 使い方",
+      "url": "https://github.com/syunnjack/review-auto",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "641c790",
+          "message": "レビュー返信の下書きを作る（本文は作らない）",
+          "date": "2026-09-04T10:10:36Z",
+          "url": "https://github.com/syunnjack/review-auto/commit/641c790e76e814bf2fe69857d35c7abed67d408c"
+        }
+      ],
+      "updatedAt": "2026-09-04T10:12:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -10257,6 +10389,37 @@
         }
       ],
       "updatedAt": "2026-08-15T00:56:28Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "shop-review",
+      "name": "shop-review",
+      "displayName": "Shop Review",
+      "description": "Shop Reviewの設計と実装を記録したプロジェクト",
+      "readmeExcerpt": "Shop Reviewの設計と実装を記録したプロジェクト 公開されているファイル構成とコミット履歴から、使用技術の役割、実装の分け方、改善の過程を確認できます。",
+      "url": "https://github.com/syunnjack/shop-review",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "1ff90d1",
+          "message": "レビューの増減を記録する",
+          "date": "2026-09-04T10:14:24Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/1ff90d1333ee2c1675eaeb8c5a73272a0f10f326"
+        },
+        {
+          "sha": "b49082c",
+          "message": "自店のレビューの増減を見る",
+          "date": "2026-09-04T10:13:19Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/b49082c8b3614378d05b3bfdc9faa9de0e63e6da"
+        }
+      ],
+      "updatedAt": "2026-09-04T10:18:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -11758,6 +11921,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "479fb33",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T09:28:46Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/479fb33a2442bef313b451efd0131cdfde32641c"
+        },
+        {
           "sha": "3a7986b",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T08:33:51Z",
@@ -11822,15 +11991,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T22:24:34Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fc956a9a45366840eab20433e0819df21c9425e8"
-        },
-        {
-          "sha": "83ef662",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T21:24:01Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/83ef662f007113d7fc0d210fbf1b36faf9baafda"
         }
       ],
-      "updatedAt": "2026-09-04T08:34:38Z",
+      "updatedAt": "2026-09-04T09:33:10Z",
       "stars": 0,
       "forks": 0
     },
@@ -12607,6 +12770,31 @@
         }
       ],
       "updatedAt": "2026-08-21T14:13:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "yahoo-alert",
+      "name": "yahoo-alert",
+      "displayName": "Yahoo Alert",
+      "description": "Yahoo Alertは、Pythonを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "yahoo alert（choicecompass.jp）— Yahoo ショッピングの売れ筋ウォッチ リポジトリ名は yahoo alert だが、公開先は choicecompass.jp。 「公式ランキング」とは名乗らない Yahoo のランキングAPI（V1 ranking）は 500 を返す。 カテゴリを指定してもしなくても同じ（2026 09 04 実測）。動いていない。 代わりに商品検索APIの sort= sold （売れ筋順）を使う。これは実質の順位だが、 Yahooが公式に発表しているランキングではない。 「売れ筋順の◯位」と書き、 「公式ランキング1位」とは絶対に書かない。 そこを混ぜると、使った店が景表法の優良誤認を問われる。 何を知らせるか 抜けた 上位から消えた。 これがいちばん急ぐので先に並べる 動いた 順位が変わった 入った 上位に現れた 上限に注意 appid には1日の上限がある。 35分ほど（2,000件強）で 429 が返るようになる （2026 09 04・別のツールで実測）。キーワードを絞って使う。 応答が無かったときは記録しない。 0件と混同すると「抜けた」と誤って知らせる。 使い方",
+      "url": "https://github.com/syunnjack/yahoo-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "250a149",
+          "message": "Yahoo!ショッピングの売れ筋上位を見る",
+          "date": "2026-09-04T10:17:19Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/250a14916969da59ddc9e9081f6175f35f3bd188"
+        }
+      ],
+      "updatedAt": "2026-09-04T10:25:10Z",
       "stars": 0,
       "forks": 0
     },
