@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T06:39:30.332Z",
+  "generatedAt": "2026-09-04T07:27:31.200Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6dfd378",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T06:40:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6dfd378e877b50ffb216fab684303bd8dfa9dc3d"
+        },
+        {
           "sha": "9d59edf",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T05:26:20Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T19:21:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6b7336627290ed31a11ac040181c3bc4e87c3f15"
-        },
-        {
-          "sha": "22d9f5b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T18:31:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/22d9f5ba3cf8b3ace16fc37b7115c3c3401f7f29"
         }
       ],
-      "updatedAt": "2026-09-04T05:26:28Z",
+      "updatedAt": "2026-09-04T06:41:32Z",
       "stars": 0,
       "forks": 0
     },
@@ -12415,6 +12415,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9d37b83",
+          "message": "/discount/ の JSON-LD の閉じ括弧が足りていなかったのを直す",
+          "date": "2026-09-04T07:14:57Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/9d37b8318fd01db9ca980ea702f160c793defeca"
+        },
+        {
           "sha": "21652af",
           "message": "全1,741件の公式サイトURLを確かめ、誤っていた2件のリンクを外す",
           "date": "2026-09-04T03:18:51Z",
@@ -12479,15 +12485,9 @@
           "message": "主要74自治体の障害福祉制度を収集する（62件・773制度）",
           "date": "2026-09-03T13:09:56Z",
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/375fdf85c3fefa11eb41e6c19711855b100b3ec2"
-        },
-        {
-          "sha": "24df799",
-          "message": "公共交通機関の障害者割引を、金額と条件つきで載せる（案B）",
-          "date": "2026-09-03T08:28:00Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/24df799d865516533f33365ac68c2dbc6622333c"
         }
       ],
-      "updatedAt": "2026-09-04T03:19:09Z",
+      "updatedAt": "2026-09-04T07:15:11Z",
       "stars": 0,
       "forks": 0
     },
