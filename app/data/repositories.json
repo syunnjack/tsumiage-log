@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T10:27:13.104Z",
+  "generatedAt": "2026-09-04T11:24:00.419Z",
   "owner": "syunnjack",
   "totalRepositories": 198,
   "publicRepositories": 198,
@@ -1376,6 +1376,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "7874623",
+          "message": "スマホ写真を日記に載せる形に整える道具を足す",
+          "date": "2026-09-04T11:00:15Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/7874623c78008e0df05306667d65a92b31ebd4ec"
+        },
+        {
+          "sha": "f8c35b7",
+          "message": "訪問日記を置ける場所を作る（写真つき）",
+          "date": "2026-09-04T10:56:50Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/f8c35b75a1a537bdc1e61aba82d5dfc6603869dc"
+        },
+        {
           "sha": "75a48ad",
           "message": "Trigger the first deploy after connecting the repository",
           "date": "2026-08-30T14:04:24Z",
@@ -1434,21 +1446,9 @@
           "message": "Fix canonical/sitemap/robots pointing at a stale dev domain",
           "date": "2026-08-09T07:33:03Z",
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c802c7c7667b57a38f701f792a52dfde870202e7"
-        },
-        {
-          "sha": "bd4af74",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:14Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bd4af740e6bd21c576ca7cb808ff592512ec2974"
-        },
-        {
-          "sha": "bc81d70",
-          "message": "Add Google Search Console verification",
-          "date": "2026-08-05T11:25:37Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/bc81d70f637f30d481d94b27e3c71194f067725d"
         }
       ],
-      "updatedAt": "2026-08-30T14:06:35Z",
+      "updatedAt": "2026-09-04T11:04:12Z",
       "stars": 0,
       "forks": 0
     },
@@ -11921,6 +11921,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c84eb05",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T10:27:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c84eb05b4d85b0bd555acb21e37f0a6bd76a30ff"
+        },
+        {
           "sha": "479fb33",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T09:28:46Z",
@@ -11985,15 +11991,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T23:22:14Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4dd4e0e44720526e09aab6c33a14587eca26aebd"
-        },
-        {
-          "sha": "fc956a9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T22:24:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fc956a9a45366840eab20433e0819df21c9425e8"
         }
       ],
-      "updatedAt": "2026-09-04T09:33:10Z",
+      "updatedAt": "2026-09-04T10:29:37Z",
       "stars": 0,
       "forks": 0
     },
