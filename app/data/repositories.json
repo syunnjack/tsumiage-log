@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T07:27:31.200Z",
+  "generatedAt": "2026-09-04T08:33:23.001Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -4417,6 +4417,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "90df156",
+          "message": "デプロイが失敗する理由を出す（原因はサーバー側の未設定）",
+          "date": "2026-09-04T07:45:01Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/90df15608b96366c8e234a3072fcb554d3eacfdd"
+        },
+        {
+          "sha": "4120697",
+          "message": "診断: サーバー上のドメイン一覧を全部出す",
+          "date": "2026-09-04T07:40:41Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/41206972782537d148899fd916306ccc32e1d615"
+        },
+        {
+          "sha": "d6dc5fb",
+          "message": "デプロイが失敗する原因を切り分ける診断を一時的に入れる",
+          "date": "2026-09-04T07:35:27Z",
+          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/d6dc5fbc6675a4e0bd7c2e1988ba6b80fe61c978"
+        },
+        {
           "sha": "5820354",
           "message": "公開していた仮データと収益計画を下ろし、準備中ページにする",
           "date": "2026-08-30T07:55:01Z",
@@ -4469,27 +4487,9 @@
           "message": "Add GitHub Pages deploy workflow",
           "date": "2026-08-03T18:51:04Z",
           "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/60f9af0e271b0213d2719e633b11228c8695d38d"
-        },
-        {
-          "sha": "35862c1",
-          "message": "Update .gitignore",
-          "date": "2026-08-03T18:51:33Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/35862c13b3d250ec51166f224c40a834e96fe673"
-        },
-        {
-          "sha": "bf829ca",
-          "message": "Fix unregistered production domain (#1)",
-          "date": "2026-07-31T23:04:52Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/bf829ca1451941d14d3c08a56bcfe506754e4c9d"
-        },
-        {
-          "sha": "7260a82",
-          "message": "Set confirmed custom domain",
-          "date": "2026-07-18T15:53:08Z",
-          "url": "https://github.com/syunnjack/hobby-stock-price-alert/commit/7260a82b989831a8c0c9dc75ed81603bf61ecf42"
         }
       ],
-      "updatedAt": "2026-08-30T07:55:07Z",
+      "updatedAt": "2026-09-04T07:46:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "1039718",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T07:28:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/10397186ac344299216279b79f2276f9bee27db5"
+        },
+        {
           "sha": "6dfd378",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T06:40:01Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T20:25:42Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b6570bcdbeacd0475f93ab82a068e68df380b4d0"
-        },
-        {
-          "sha": "6b73366",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T19:21:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b7336627290ed31a11ac040181c3bc4e87c3f15"
         }
       ],
-      "updatedAt": "2026-09-04T06:41:32Z",
+      "updatedAt": "2026-09-04T07:28:58Z",
       "stars": 0,
       "forks": 0
     },
@@ -12324,6 +12324,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f4df1e4",
+          "message": "結婚式場ではない15件を下ろす（焼肉屋・企業の接待施設・宝飾店）",
+          "date": "2026-09-04T08:17:13Z",
+          "url": "https://github.com/syunnjack/wedding-hall-map/commit/f4df1e4d3b9dc8893d6e7ff6dbf6ecd22ac1a969"
+        },
+        {
           "sha": "b7db90f",
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:10:29Z",
@@ -12388,15 +12394,9 @@
           "message": "空のItemListを出力しないようにする",
           "date": "2026-08-17T23:14:51Z",
           "url": "https://github.com/syunnjack/wedding-hall-map/commit/65e5245770a272ff3590c695b0a6c7c9b6a13dfd"
-        },
-        {
-          "sha": "8a4337b",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:59:51Z",
-          "url": "https://github.com/syunnjack/wedding-hall-map/commit/8a4337b0f558a3404229ed5b3a0ce6631f68110c"
         }
       ],
-      "updatedAt": "2026-08-21T14:10:54Z",
+      "updatedAt": "2026-09-04T08:19:49Z",
       "stars": 0,
       "forks": 0
     },
