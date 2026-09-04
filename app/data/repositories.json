@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T01:31:11.479Z",
+  "generatedAt": "2026-09-04T02:33:43.250Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "97e9b70",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T01:31:42Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/97e9b70e6c6aa513fafabd727be517215a75e194"
+        },
+        {
           "sha": "1039d1a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T00:58:02Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T14:28:57Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/92bec2de2e4da39385ec8059ad45a3964595f0da"
-        },
-        {
-          "sha": "b77dccb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T13:27:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b77dccb51585e284c9984e94a465bbbbc5123f0c"
         }
       ],
-      "updatedAt": "2026-09-04T00:58:07Z",
+      "updatedAt": "2026-09-04T01:31:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -12415,6 +12415,30 @@
       "files": [],
       "commits": [
         {
+          "sha": "48029c4",
+          "message": "失効ドメインへのリンクを外し、都道府県の制度を載せる",
+          "date": "2026-09-04T02:31:00Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/48029c476d6c220de4992c046b74b0e0e0d0dc8a"
+        },
+        {
+          "sha": "6560d8e",
+          "message": "同じ都道府県でURLが衝突していたのを直し、都道府県ページをsitemapに入れる",
+          "date": "2026-09-04T01:48:53Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/6560d8ec9f97bc1ea3da1b580eeee0b21e5eb3ab"
+        },
+        {
+          "sha": "b6d798d",
+          "message": "全1,741市区町村の巡回を終え、0件の自治体を回し直す",
+          "date": "2026-09-04T01:37:56Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/b6d798da608fe500c3c3b76817b8ee7255c8e02a"
+        },
+        {
+          "sha": "df86d61",
+          "message": "町村926件の対象リストを作り、届かない自治体の辿り方を広げる",
+          "date": "2026-09-03T23:41:12Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/df86d6189460619fd0446d7ee5a56367a6d0571c"
+        },
+        {
           "sha": "e1acdfe",
           "message": "巡回を全国741市へ広げ、都道府県の階層を挟む",
           "date": "2026-09-03T19:45:09Z",
@@ -12461,33 +12485,9 @@
           "message": "自治体の障害福祉制度を集める巡回スクリプト（未完成）",
           "date": "2026-09-03T08:21:54Z",
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/2c16506d8a100e91663526d907f8d4e020eccace"
-        },
-        {
-          "sha": "4b03271",
-          "message": "自治体マスタと公式サイトURLを作る",
-          "date": "2026-09-03T08:02:55Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/4b03271c83dfc2a55aad5ab0259987bcab9421af"
-        },
-        {
-          "sha": "2a748a4",
-          "message": "求人通知の実体を作り、障害者割引のページを追加する",
-          "date": "2026-09-03T07:18:57Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/2a748a497a01e93947f30b560735015ccaafbea3"
-        },
-        {
-          "sha": "e645553",
-          "message": "actions/checkout と setup-node を v5 に上げる",
-          "date": "2026-08-21T14:10:33Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/e645553d9e4b56c12a044bde9189ab902ca65010"
-        },
-        {
-          "sha": "753608e",
-          "message": "求職者に向けた内容に書き換え、canonicalとタイトルを整える",
-          "date": "2026-08-18T15:18:37Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/753608e765930f4de5b0625b19b61aaf2af62c82"
         }
       ],
-      "updatedAt": "2026-09-03T19:49:46Z",
+      "updatedAt": "2026-09-04T02:31:16Z",
       "stars": 0,
       "forks": 0
     },
