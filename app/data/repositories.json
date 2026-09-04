@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T13:25:48.374Z",
+  "generatedAt": "2026-09-04T14:25:40.513Z",
   "owner": "syunnjack",
-  "totalRepositories": 198,
-  "publicRepositories": 198,
+  "totalRepositories": 199,
+  "publicRepositories": 199,
   "privateRepositories": 0,
   "skippedRepositories": [
     "mall-oudan",
@@ -8704,6 +8704,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ca1a875",
+          "message": "記事を1本置く（モールSEOの勉強会に行く前に調べたこと）",
+          "date": "2026-09-04T13:44:56Z",
+          "url": "https://github.com/syunnjack/rank-check/commit/ca1a87502a5a9e614461bed8b8258d526940e74f"
+        },
+        {
           "sha": "e372be8",
           "message": "ドメインの状態を見る道具を入れる",
           "date": "2026-09-04T09:41:36Z",
@@ -8716,7 +8722,7 @@
           "url": "https://github.com/syunnjack/rank-check/commit/76f64d466794dbf9b83817045b2436ba34a591a5"
         }
       ],
-      "updatedAt": "2026-09-04T09:43:01Z",
+      "updatedAt": "2026-09-04T13:47:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -10393,6 +10399,31 @@
       "forks": 0
     },
     {
+      "slug": "shikaku-score",
+      "name": "shikaku-score",
+      "displayName": "Shikaku Score",
+      "description": "合格ラインとの距離（erabiyori.jp）",
+      "readmeExcerpt": "shikaku score（erabiyori.jp）— 合格ラインとの距離 リポジトリ名は shikaku score だが、公開先は erabiyori.jp。 得点を入れると、合格ラインまでの距離と判定が出る。宅建と行政書士。 公開先: https://erabiyori.jp 配信: GitHub Pages（ dist/CNAME は SITE DOMAIN から作る） 入力した内容はどこにも送信されない。 ブラウザの中だけで動く スタディングと、どこを変えたか スタディングのAI実力スコアは「 繰り返し学習した場合 にスコアが高くなる」と 公式に明記されている。つまり「できるか」と「やったか」が1つの数字に混ざっていて、 どちらがどれだけ効いているか利用者に見えない。 繰り返した人が受かりやすいのは事実だろうが、それは相関であって因果ではない。 しかも 教材を使うほど数字が上がる のは、教材提供者に都合がよい設計でもある。 ここでは繰り返しを一切加点しない。 入れた得点だけで判定する。 本試験での偏差値は出さない 出すには受験者の得点分布が要る。 宅建も行政書士も、得点分布は公表されていない。 合格率と合格点から逆算しようにも、式が1本で未知数が2つあり解けない。 根拠のない偏差値は嘘と同じ なので出さない。代わりに、公表された合格点だけで 言えることを出す。判定の根拠は「過去◯年のうち何年で合格ラインを超えたか」で、 1行で説明できる。 資格で合格基準の性質が違う 宅建 行政書士 基準 相対 （上位◯%） 絶対 （180点固定） 合格点 毎年動く（31〜38点） 180点 足切り なし あり （法令等122・基礎知識24） 見せ方 過去10年で何年合格したか 180点まであと何点か＋足切り 同じ見せ方はできない。 切り替えられるようにしてある。 足切りは総合点に埋めない。 総合が足りていても、基礎知識が24点未満なら不合格。 総合点の内側に隠すと気づけないので、E判定にして理由を書く。 模試の分布（行政書士のみ） 実際に受験した模試の得点分布を持っているの",
+      "url": "https://github.com/syunnjack/shikaku-score",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "2d3ad9e",
+          "message": "合格ラインとの距離を出す（宅建・行政書士）",
+          "date": "2026-09-04T14:22:31Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/2d3ad9e9ab42020318174785fc7ff077c8ab5f8f"
+        }
+      ],
+      "updatedAt": "2026-09-04T14:25:09Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "slug": "shop-review",
       "name": "shop-review",
       "displayName": "Shop Review",
@@ -11921,6 +11952,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a9ecef6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T13:26:21Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a9ecef64b1c608e735141a056ada66e929787737"
+        },
+        {
           "sha": "e18f30a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T12:37:07Z",
@@ -11985,15 +12022,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T02:34:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b209288fa1fb9386fbbe28a1fb59fd673c6d0849"
-        },
-        {
-          "sha": "97e9b70",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-04T01:31:42Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/97e9b70e6c6aa513fafabd727be517215a75e194"
         }
       ],
-      "updatedAt": "2026-09-04T12:37:13Z",
+      "updatedAt": "2026-09-04T13:26:31Z",
       "stars": 0,
       "forks": 0
     },
