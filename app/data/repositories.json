@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T02:33:43.250Z",
+  "generatedAt": "2026-09-04T03:29:47.819Z",
   "owner": "syunnjack",
   "totalRepositories": 185,
   "publicRepositories": 185,
@@ -11753,6 +11753,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b209288",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-04T02:34:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b209288fa1fb9386fbbe28a1fb59fd673c6d0849"
+        },
+        {
           "sha": "97e9b70",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-04T01:31:42Z",
@@ -11817,15 +11823,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-03T15:29:15Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/baf03dd21253d1929195db79a3aec62bf3ac4881"
-        },
-        {
-          "sha": "92bec2d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-03T14:28:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/92bec2de2e4da39385ec8059ad45a3964595f0da"
         }
       ],
-      "updatedAt": "2026-09-04T01:31:47Z",
+      "updatedAt": "2026-09-04T02:34:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -12415,6 +12415,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "21652af",
+          "message": "全1,741件の公式サイトURLを確かめ、誤っていた2件のリンクを外す",
+          "date": "2026-09-04T03:18:51Z",
+          "url": "https://github.com/syunnjack/welfare-job-alert/commit/21652af80358039265cd244c375eed9633882bea"
+        },
+        {
           "sha": "48029c4",
           "message": "失効ドメインへのリンクを外し、都道府県の制度を載せる",
           "date": "2026-09-04T02:31:00Z",
@@ -12479,15 +12485,9 @@
           "message": "公共交通機関の障害者割引を、金額と条件つきで載せる（案B）",
           "date": "2026-09-03T08:28:00Z",
           "url": "https://github.com/syunnjack/welfare-job-alert/commit/24df799d865516533f33365ac68c2dbc6622333c"
-        },
-        {
-          "sha": "2c16506",
-          "message": "自治体の障害福祉制度を集める巡回スクリプト（未完成）",
-          "date": "2026-09-03T08:21:54Z",
-          "url": "https://github.com/syunnjack/welfare-job-alert/commit/2c16506d8a100e91663526d907f8d4e020eccace"
         }
       ],
-      "updatedAt": "2026-09-04T02:31:16Z",
+      "updatedAt": "2026-09-04T03:19:09Z",
       "stars": 0,
       "forks": 0
     },
