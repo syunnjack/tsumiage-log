@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T19:19:31.144Z",
+  "generatedAt": "2026-09-05T20:23:16.248Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -404,6 +404,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7acee20",
+          "message": "Refresh bowling event data",
+          "date": "2026-09-05T20:20:19Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/7acee20ad2b9e42c89a26213778e5e6966f6e355"
+        },
+        {
           "sha": "46aa4fc",
           "message": "Refresh bowling event data",
           "date": "2026-09-04T20:19:20Z",
@@ -468,15 +474,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-08-25T20:18:22Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/90fd0b9dbf4e4b515c9755bd4bc9e723d28fa6b8"
-        },
-        {
-          "sha": "0a64071",
-          "message": "Refresh bowling event data",
-          "date": "2026-08-24T20:19:33Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/0a640710b5a35d82a04782d0fd95407ccf9006b4"
         }
       ],
-      "updatedAt": "2026-09-04T20:19:25Z",
+      "updatedAt": "2026-09-05T20:20:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -2201,6 +2201,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5d95e07",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-09-05T20:08:18Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/5d95e07d6f0e0c14f701d9756250c71130a4a978"
+        },
+        {
           "sha": "c4c3aa0",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-04T20:08:20Z",
@@ -2265,15 +2271,9 @@
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-08-25T20:08:31Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/31ebd033c7d80cdb2a820f64428c5311427520eb"
-        },
-        {
-          "sha": "dc17924",
-          "message": "配信状況を取り直す（TMDB）",
-          "date": "2026-08-24T20:09:15Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/dc17924c6fe91dba3d9892a4505d0e7fc1b75a4c"
         }
       ],
-      "updatedAt": "2026-09-04T20:08:25Z",
+      "updatedAt": "2026-09-05T20:08:23Z",
       "stars": 0,
       "forks": 0
     },
@@ -2335,6 +2335,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ed68037",
+          "message": "公式のルールと安全な遊び方のページを足す",
+          "date": "2026-09-05T20:11:41Z",
+          "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/ed68037a8369689537e4b4556b77f7f187a3b643"
+        },
+        {
           "sha": "0386fd6",
           "message": "一覧ページに構造化データを、詳細ページにパンくずを入れる",
           "date": "2026-08-18T01:27:22Z",
@@ -2395,7 +2401,7 @@
           "url": "https://github.com/syunnjack/dqwalk-mukatoshin/commit/48e7a13763f1e7aec36b91d37be280296b752240"
         }
       ],
-      "updatedAt": "2026-08-18T01:27:38Z",
+      "updatedAt": "2026-09-05T20:11:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -3673,6 +3679,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "38d3fa6",
+          "message": "公式のルールのページを足す（条文と通達にあたって書く）",
+          "date": "2026-09-05T20:15:47Z",
+          "url": "https://github.com/syunnjack/gesenmap/commit/38d3fa61481e29c026aeced06e995858a83211fe"
+        },
+        {
           "sha": "96eb3f5",
           "message": "店舗データを公式サイトの最新の内容に更新する",
           "date": "2026-09-01T20:23:10Z",
@@ -3737,15 +3749,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:53:06Z",
           "url": "https://github.com/syunnjack/gesenmap/commit/f41841f0ab8bf6eddcad16e7bc43f8c89a0231aa"
-        },
-        {
-          "sha": "19f54ed",
-          "message": "feat: 全国ゲームセンター追加84件（北海道〜沖縄全都道府県対応）・計144件に拡充",
-          "date": "2026-08-11T14:59:18Z",
-          "url": "https://github.com/syunnjack/gesenmap/commit/19f54edbc16f5bda23b8cbfb7be2508b78e03658"
         }
       ],
-      "updatedAt": "2026-09-01T20:23:40Z",
+      "updatedAt": "2026-09-05T20:15:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -11964,6 +11970,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ce2ee63",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-05T19:19:59Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ce2ee639107a38af773bfc7b4de62607a1978080"
+        },
+        {
           "sha": "1ffbc1e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-05T18:26:40Z",
@@ -12028,15 +12040,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-05T08:29:10Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/722a0d3ded6d460b9cc67ca4315c847d5218594f"
-        },
-        {
-          "sha": "0dcb5af",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-05T07:24:37Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0dcb5afe84278c073aa4548bff5fdc1c1ffd91dd"
         }
       ],
-      "updatedAt": "2026-09-05T18:26:47Z",
+      "updatedAt": "2026-09-05T19:20:05Z",
       "stars": 0,
       "forks": 0
     },
@@ -12054,6 +12060,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "bee44b8",
+          "message": "公式のルールのページを足す（条文と通達にあたって書く）",
+          "date": "2026-09-05T20:07:06Z",
+          "url": "https://github.com/syunnjack/UFO-catcher/commit/bee44b803b5fad2abd415a63aa9d5ef1bd39a10e"
+        },
         {
           "sha": "315a223",
           "message": "OGP画像を生成する",
@@ -12079,7 +12091,7 @@
           "url": "https://github.com/syunnjack/UFO-catcher/commit/88f96b5c132e28618e451bb95cd6891016289d6a"
         }
       ],
-      "updatedAt": "2026-08-15T13:52:50Z",
+      "updatedAt": "2026-09-05T20:07:11Z",
       "stars": 0,
       "forks": 0
     },
