@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T22:23:09.282Z",
+  "generatedAt": "2026-09-07T23:22:45.462Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "1e83ad0",
+          "message": "Merge pull request #2 from syunnjack/codex/verified-wellness-facilities",
+          "date": "2026-09-07T22:47:19Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/1e83ad0e0d283411bde369be8cf08a07dde6361d"
+        },
+        {
+          "sha": "6769d59",
+          "message": "Add eight officially sourced activity and wellness facilities",
+          "date": "2026-09-07T22:45:40Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/6769d5997faef0813328a82b1b94eb624dbd8510"
+        },
+        {
           "sha": "66daaf5",
           "message": "Merge pull request #1 from syunnjack/codex/outdoor-wellness-discovery",
           "date": "2026-09-07T22:09:28Z",
@@ -1343,21 +1355,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:04Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/ea51fb8414efb65f0b72a2668d4aff864fa00b1a"
-        },
-        {
-          "sha": "a756762",
-          "message": "Fix Rakuten Travel API integration for May 2026 platform migration",
-          "date": "2026-08-09T17:18:36Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/a7567622fa2b3ff4e740b0e390d0e4248fd7a927"
-        },
-        {
-          "sha": "45464da",
-          "message": "Add real Ikyu-listed glamping bookings and Rakuten import scaffolding",
-          "date": "2026-08-09T17:08:52Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/45464da6c221d8d9a60720bf28b09ffc2c90db23"
         }
       ],
-      "updatedAt": "2026-09-07T22:09:40Z",
+      "updatedAt": "2026-09-07T22:47:29Z",
       "stars": 0,
       "forks": 0
     },
@@ -9355,6 +9355,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "bb1d8c2",
+          "message": "スクショを撮り直す",
+          "date": "2026-09-07T23:13:37Z",
+          "url": "https://github.com/syunnjack/respo-check/commit/bb1d8c21834ed6254786bd0130d7560295999d5e"
+        },
+        {
           "sha": "86d1aef",
           "message": "撮った画像をリポジトリに入れないようにする",
           "date": "2026-09-04T10:03:21Z",
@@ -9367,7 +9373,7 @@
           "url": "https://github.com/syunnjack/respo-check/commit/7073865e3933c0e73ab87edce692d3755f45ee4b"
         }
       ],
-      "updatedAt": "2026-09-04T10:11:11Z",
+      "updatedAt": "2026-09-07T23:13:43Z",
       "stars": 0,
       "forks": 0
     },
@@ -12006,6 +12012,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "86b8e82",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-07T22:23:44Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/86b8e825acb878c46f75987f0e00ac70712db611"
+        },
+        {
           "sha": "e73cb19",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T21:23:32Z",
@@ -12070,15 +12082,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T11:25:34Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/5be2cdf124ea8ba1c0bd17f85d2a70eb6caea2f3"
-        },
-        {
-          "sha": "df6f8a1",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-07T10:28:22Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/df6f8a167a867b878aab2c8d9d0ca43cdffd7be8"
         }
       ],
-      "updatedAt": "2026-09-07T21:24:02Z",
+      "updatedAt": "2026-09-07T22:23:53Z",
       "stars": 0,
       "forks": 0
     },
@@ -12879,6 +12885,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9b01261",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-07T22:34:14Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/9b01261705f0aa23a4ea262c0b4791cd6532d3f8"
+        },
+        {
           "sha": "641b1d7",
           "message": "売れ筋の順位を記録する",
           "date": "2026-09-06T22:34:20Z",
@@ -12903,7 +12915,7 @@
           "url": "https://github.com/syunnjack/yahoo-alert/commit/250a14916969da59ddc9e9081f6175f35f3bd188"
         }
       ],
-      "updatedAt": "2026-09-06T22:34:26Z",
+      "updatedAt": "2026-09-07T22:34:20Z",
       "stars": 0,
       "forks": 0
     },
