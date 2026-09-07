@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:23:05.398Z",
+  "generatedAt": "2026-09-07T22:23:09.282Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "66daaf5",
+          "message": "Merge pull request #1 from syunnjack/codex/outdoor-wellness-discovery",
+          "date": "2026-09-07T22:09:28Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/66daaf5a97928b9dfa6e03c22984ddd3a94afa43"
+        },
+        {
+          "sha": "5117a05",
+          "message": "Expand camp-hikaku with outdoor and wellness discovery, comparison and community reviews",
+          "date": "2026-09-07T20:35:00Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/5117a05586cee824481b7ec5faf5d6e9184ca66e"
+        },
+        {
           "sha": "47a253d",
           "message": "都道府県ページに観光スポットを足す",
           "date": "2026-09-02T07:12:29Z",
@@ -1343,21 +1355,9 @@
           "message": "Add real Ikyu-listed glamping bookings and Rakuten import scaffolding",
           "date": "2026-08-09T17:08:52Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/45464da6c221d8d9a60720bf28b09ffc2c90db23"
-        },
-        {
-          "sha": "f38fef0",
-          "message": "Seed nationwide real campground and glamping data",
-          "date": "2026-08-09T16:53:55Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/f38fef01790036082e6212e83e928669e374e7a9"
-        },
-        {
-          "sha": "68bcab1",
-          "message": "Add permanent Search Console verification meta tag",
-          "date": "2026-08-04T04:57:12Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/68bcab1ddbc2670f09b22de2d0e5cde8b157bded"
         }
       ],
-      "updatedAt": "2026-09-02T07:15:46Z",
+      "updatedAt": "2026-09-07T22:09:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -8716,6 +8716,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9bf7fe2",
+          "message": "順位を記録する",
+          "date": "2026-09-07T22:01:57Z",
+          "url": "https://github.com/syunnjack/rank-check/commit/9bf7fe25a552528b22767fc33ee351ad9ec2872f"
+        },
+        {
           "sha": "b4bd986",
           "message": "順位を記録する",
           "date": "2026-09-06T22:01:53Z",
@@ -8752,7 +8758,7 @@
           "url": "https://github.com/syunnjack/rank-check/commit/76f64d466794dbf9b83817045b2436ba34a591a5"
         }
       ],
-      "updatedAt": "2026-09-06T22:01:58Z",
+      "updatedAt": "2026-09-07T22:02:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -10468,6 +10474,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "62431ec",
+          "message": "レビューの増減を記録する",
+          "date": "2026-09-07T22:09:41Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/62431ec53e5bf4c7bba7916f10afdd7af81ce1c8"
+        },
+        {
           "sha": "e0dff37",
           "message": "レビューの増減を記録する",
           "date": "2026-09-06T22:08:53Z",
@@ -10492,7 +10504,7 @@
           "url": "https://github.com/syunnjack/shop-review/commit/b49082c8b3614378d05b3bfdc9faa9de0e63e6da"
         }
       ],
-      "updatedAt": "2026-09-06T22:08:57Z",
+      "updatedAt": "2026-09-07T22:09:48Z",
       "stars": 0,
       "forks": 0
     },
@@ -11994,6 +12006,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e73cb19",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-07T21:23:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e73cb19931a55f6d5647b325bea75668f3cc9784"
+        },
+        {
           "sha": "687a94f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T20:25:43Z",
@@ -12058,15 +12076,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T10:28:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/df6f8a167a867b878aab2c8d9d0ca43cdffd7be8"
-        },
-        {
-          "sha": "511f367",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-07T09:35:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/511f3671da8e5abce2ea12dbe36507f300036460"
         }
       ],
-      "updatedAt": "2026-09-07T20:25:58Z",
+      "updatedAt": "2026-09-07T21:24:02Z",
       "stars": 0,
       "forks": 0
     },
