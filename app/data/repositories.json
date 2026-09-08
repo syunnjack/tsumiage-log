@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T23:22:45.462Z",
+  "generatedAt": "2026-09-08T00:59:57.713Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "b7e065e",
+          "message": "Merge pull request #3 from syunnjack/codex/nationwide-wellness-discovery",
+          "date": "2026-09-08T00:12:48Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/b7e065e1eae379f12c8d93fd7a07c1696fa6b32a"
+        },
+        {
+          "sha": "0fb9191",
+          "message": "Deploy application routes before templates that reference new shortlist links",
+          "date": "2026-09-08T00:11:42Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/0fb9191de23e9836bfbd0fe46001466d6e5b79eb"
+        },
+        {
+          "sha": "5b03f1d",
+          "message": "Expand verified wellness catalog to 155 locations and add saved discovery lists",
+          "date": "2026-09-08T00:09:38Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/5b03f1d94ab66425e8e5e8dbfdabeef327945c7f"
+        },
+        {
           "sha": "1e83ad0",
           "message": "Merge pull request #2 from syunnjack/codex/verified-wellness-facilities",
           "date": "2026-09-07T22:47:19Z",
@@ -1337,27 +1355,9 @@
           "message": "LINE連携が未設定のうちは、押せない表示にする",
           "date": "2026-08-18T22:35:43Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/d8e1dbb4dd1f8dc554e34a1a36849e6398d2a269"
-        },
-        {
-          "sha": "70c1261",
-          "message": "都道府県別ページを追加し、予約リンクに広告表記を入れる",
-          "date": "2026-08-18T15:52:25Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/70c1261739e73f928d7729ca75398bc4824b1a14"
-        },
-        {
-          "sha": "46fbb7d",
-          "message": "robots.txt のサイトマップを本番ドメインに直す",
-          "date": "2026-08-18T00:26:52Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/46fbb7d890203976c2258b91724c8b727118cf9b"
-        },
-        {
-          "sha": "ea51fb8",
-          "message": "支援・購入への導線を追加する",
-          "date": "2026-08-15T00:52:04Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/ea51fb8414efb65f0b72a2668d4aff864fa00b1a"
         }
       ],
-      "updatedAt": "2026-09-07T22:47:29Z",
+      "updatedAt": "2026-09-08T00:12:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -12012,6 +12012,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4cb1045",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-07T23:23:09Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4cb104572a8036615da73e5230db4b4443cb4aac"
+        },
+        {
           "sha": "86b8e82",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T22:23:44Z",
@@ -12076,15 +12082,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-07T12:37:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7e56f8b3c32b7210dec7986a1bed2eac8a6fc70e"
-        },
-        {
-          "sha": "5be2cdf",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-07T11:25:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5be2cdf124ea8ba1c0bd17f85d2a70eb6caea2f3"
         }
       ],
-      "updatedAt": "2026-09-07T22:23:53Z",
+      "updatedAt": "2026-09-07T23:23:15Z",
       "stars": 0,
       "forks": 0
     },
