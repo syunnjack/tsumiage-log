@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T06:40:33.063Z",
+  "generatedAt": "2026-09-09T07:28:45.925Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "94274a6",
+          "message": "Merge pull request #4 from syunnjack/codex/metropolitan-six-genre-guide",
+          "date": "2026-09-09T06:42:07Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/94274a634c238c0a7d2cfb284f910242d83ab2cc"
+        },
+        {
+          "sha": "9d6bef6",
+          "message": "Add sourced metropolitan guide with six genres and detailed facility conditions",
+          "date": "2026-09-09T06:40:21Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/9d6bef6928a148fdd3f4a79a604cc83c59f66abc"
+        },
+        {
           "sha": "b7e065e",
           "message": "Merge pull request #3 from syunnjack/codex/nationwide-wellness-discovery",
           "date": "2026-09-08T00:12:48Z",
@@ -1343,21 +1355,9 @@
           "message": "ビューと食い違わないようコントローラとルートも送る",
           "date": "2026-08-19T06:57:39Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/33b30453658733fc92a0be8532d19a1be677a074"
-        },
-        {
-          "sha": "60de410",
-          "message": "LINE設定を本番に反映する仕組みを用意する",
-          "date": "2026-08-18T23:00:35Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/60de4106fbaa43b2dae129c372fe8a3470f9a6fa"
-        },
-        {
-          "sha": "d8e1dbb",
-          "message": "LINE連携が未設定のうちは、押せない表示にする",
-          "date": "2026-08-18T22:35:43Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/d8e1dbb4dd1f8dc554e34a1a36849e6398d2a269"
         }
       ],
-      "updatedAt": "2026-09-08T00:12:56Z",
+      "updatedAt": "2026-09-09T06:42:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -12024,6 +12024,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0b8a1f2",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-09T06:41:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0b8a1f22836e5262f32abb9f2b4d37d48db21be5"
+        },
+        {
           "sha": "7dee759",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T05:27:12Z",
@@ -12088,15 +12094,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-08T19:22:35Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fcc25824f62f66f753df7c0b7a6109a4ac4dc943"
-        },
-        {
-          "sha": "da56b00",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-08T18:31:48Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/da56b00d1d18928c290b5a1283bb7fe71e26da0d"
         }
       ],
-      "updatedAt": "2026-09-09T05:27:31Z",
+      "updatedAt": "2026-09-09T06:41:16Z",
       "stars": 0,
       "forks": 0
     },
