@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T15:26:02.225Z",
+  "generatedAt": "2026-09-09T16:28:24.258Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "58c6c9e",
+          "message": "Merge pull request #6 from syunnjack/codex/expand-regional-real-data",
+          "date": "2026-09-09T15:40:29Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/58c6c9ed97113da7097a6dc4f8aa53b4ac3c4ddc"
+        },
+        {
+          "sha": "0810583",
+          "message": "Expand regional guides to 24 sourced facilities with genre comparisons",
+          "date": "2026-09-09T15:38:43Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/08105832d750e5653d84c58e40608ee84a3b64a5"
+        },
+        {
           "sha": "fafe8d2",
           "message": "Merge pull request #5 from syunnjack/codex/kansai-six-genre-guide",
           "date": "2026-09-09T09:12:39Z",
@@ -1343,21 +1355,9 @@
           "message": "Merge pull request #1 from syunnjack/codex/outdoor-wellness-discovery",
           "date": "2026-09-07T22:09:28Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/66daaf5a97928b9dfa6e03c22984ddd3a94afa43"
-        },
-        {
-          "sha": "5117a05",
-          "message": "Expand camp-hikaku with outdoor and wellness discovery, comparison and community reviews",
-          "date": "2026-09-07T20:35:00Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/5117a05586cee824481b7ec5faf5d6e9184ca66e"
-        },
-        {
-          "sha": "47a253d",
-          "message": "都道府県ページに観光スポットを足す",
-          "date": "2026-09-02T07:12:29Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/47a253dd6e24dd5336f450c5f4121c2ea585b9a9"
         }
       ],
-      "updatedAt": "2026-09-09T09:16:26Z",
+      "updatedAt": "2026-09-09T15:45:09Z",
       "stars": 0,
       "forks": 0
     },
@@ -12024,6 +12024,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0d47069",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-09T15:26:33Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d47069c523810888ba96820052df432413f25da"
+        },
+        {
           "sha": "340ed56",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T14:27:20Z",
@@ -12088,15 +12094,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T04:30:24Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/5e98ad02795499773e9f9a61824f9292ed7b902f"
-        },
-        {
-          "sha": "5c3328a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-09T03:30:29Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/5c3328aae09b371526eea0cdc45c93c6bcea4482"
         }
       ],
-      "updatedAt": "2026-09-09T14:35:07Z",
+      "updatedAt": "2026-09-09T15:33:39Z",
       "stars": 0,
       "forks": 0
     },
