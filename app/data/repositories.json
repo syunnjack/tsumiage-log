@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T08:32:59.083Z",
+  "generatedAt": "2026-09-09T09:29:15.743Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "fafe8d2",
+          "message": "Merge pull request #5 from syunnjack/codex/kansai-six-genre-guide",
+          "date": "2026-09-09T09:12:39Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/fafe8d23c665e7afa609810c04df29efd3889a78"
+        },
+        {
+          "sha": "9ee68b1",
+          "message": "Add sourced Kansai guide across six genres and prefectures",
+          "date": "2026-09-09T09:11:31Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/9ee68b1c2a72e64746064d19126db991f0447c3c"
+        },
+        {
           "sha": "94274a6",
           "message": "Merge pull request #4 from syunnjack/codex/metropolitan-six-genre-guide",
           "date": "2026-09-09T06:42:07Z",
@@ -1343,21 +1355,9 @@
           "message": "都道府県ページに観光スポットを足す",
           "date": "2026-09-02T07:12:29Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/47a253dd6e24dd5336f450c5f4121c2ea585b9a9"
-        },
-        {
-          "sha": "9cd8589",
-          "message": "actions/checkout と setup-node を v5 に上げる",
-          "date": "2026-08-21T14:08:02Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/9cd8589bf986d81af10e95b1f746dfeb9d791459"
-        },
-        {
-          "sha": "33b3045",
-          "message": "ビューと食い違わないようコントローラとルートも送る",
-          "date": "2026-08-19T06:57:39Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/33b30453658733fc92a0be8532d19a1be677a074"
         }
       ],
-      "updatedAt": "2026-09-09T06:42:40Z",
+      "updatedAt": "2026-09-09T09:16:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -12024,6 +12024,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "a2c8cac",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-09T08:33:26Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2c8cac70f9155bc2e5b61dc17f28a10464c7410"
+        },
+        {
           "sha": "a5521dc",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T07:29:12Z",
@@ -12088,15 +12094,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-08T21:22:07Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/89af2ce912d979176a6ae5fc27ea572402a0646a"
-        },
-        {
-          "sha": "922978d",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-08T20:25:55Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/922978dcf62bd02aea9f121d1ece5c9682c7b07b"
         }
       ],
-      "updatedAt": "2026-09-09T07:29:54Z",
+      "updatedAt": "2026-09-09T08:35:29Z",
       "stars": 0,
       "forks": 0
     },
