@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T20:25:52.127Z",
+  "generatedAt": "2026-09-09T21:22:17.516Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "792c775",
+          "message": "Merge pull request #7 from syunnjack/codex/designated-city-guides",
+          "date": "2026-09-09T21:12:14Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/792c7753480865cd748efd1046753cc61c5635b7"
+        },
+        {
+          "sha": "aafee85",
+          "message": "施設データの転送欠落を修復し全35件のJSONを保持",
+          "date": "2026-09-09T21:10:38Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/aafee8501a161d78b1abc044246cb5731b517a99"
+        },
+        {
+          "sha": "4e69255",
+          "message": "全国20政令指定都市の40施設ガイドと公式情報を追加",
+          "date": "2026-09-09T21:07:16Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/4e69255e9195639c6e57aeeb636fe8c2e6ffc644"
+        },
+        {
           "sha": "58c6c9e",
           "message": "Merge pull request #6 from syunnjack/codex/expand-regional-real-data",
           "date": "2026-09-09T15:40:29Z",
@@ -1337,27 +1355,9 @@
           "message": "Expand verified wellness catalog to 155 locations and add saved discovery lists",
           "date": "2026-09-08T00:09:38Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/5b03f1d94ab66425e8e5e8dbfdabeef327945c7f"
-        },
-        {
-          "sha": "1e83ad0",
-          "message": "Merge pull request #2 from syunnjack/codex/verified-wellness-facilities",
-          "date": "2026-09-07T22:47:19Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/1e83ad0e0d283411bde369be8cf08a07dde6361d"
-        },
-        {
-          "sha": "6769d59",
-          "message": "Add eight officially sourced activity and wellness facilities",
-          "date": "2026-09-07T22:45:40Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/6769d5997faef0813328a82b1b94eb624dbd8510"
-        },
-        {
-          "sha": "66daaf5",
-          "message": "Merge pull request #1 from syunnjack/codex/outdoor-wellness-discovery",
-          "date": "2026-09-07T22:09:28Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/66daaf5a97928b9dfa6e03c22984ddd3a94afa43"
         }
       ],
-      "updatedAt": "2026-09-09T15:45:09Z",
+      "updatedAt": "2026-09-09T21:12:47Z",
       "stars": 0,
       "forks": 0
     },
@@ -12024,6 +12024,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d98b69e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-09T20:26:22Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d98b69e10f53905b9ebe5604bc10eb223b869460"
+        },
+        {
           "sha": "9642b49",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T19:22:10Z",
@@ -12088,15 +12094,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T09:29:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/827eaca6664876180b3a6e2c387a1d1e81c11e17"
-        },
-        {
-          "sha": "a2c8cac",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-09T08:33:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a2c8cac70f9155bc2e5b61dc17f28a10464c7410"
         }
       ],
-      "updatedAt": "2026-09-09T19:25:06Z",
+      "updatedAt": "2026-09-09T20:26:31Z",
       "stars": 0,
       "forks": 0
     },
