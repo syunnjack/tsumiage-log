@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T23:22:34.974Z",
+  "generatedAt": "2026-09-10T00:57:48.916Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "86f8d0a",
+          "message": "Merge pull request #8 from syunnjack/codex/api-facility-expansion",
+          "date": "2026-09-09T23:51:26Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/86f8d0af1f8da0415c691c36e8e50237bcc0fbc2"
+        },
+        {
+          "sha": "0a7c166",
+          "message": "Add 36 officially verified facilities across all 20 designated cities",
+          "date": "2026-09-09T23:49:55Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/0a7c1667b027538c803c4e229c03f682ba927318"
+        },
+        {
           "sha": "792c775",
           "message": "Merge pull request #7 from syunnjack/codex/designated-city-guides",
           "date": "2026-09-09T21:12:14Z",
@@ -1343,21 +1355,9 @@
           "message": "Merge pull request #3 from syunnjack/codex/nationwide-wellness-discovery",
           "date": "2026-09-08T00:12:48Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/b7e065e1eae379f12c8d93fd7a07c1696fa6b32a"
-        },
-        {
-          "sha": "0fb9191",
-          "message": "Deploy application routes before templates that reference new shortlist links",
-          "date": "2026-09-08T00:11:42Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/0fb9191de23e9836bfbd0fe46001466d6e5b79eb"
-        },
-        {
-          "sha": "5b03f1d",
-          "message": "Expand verified wellness catalog to 155 locations and add saved discovery lists",
-          "date": "2026-09-08T00:09:38Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/5b03f1d94ab66425e8e5e8dbfdabeef327945c7f"
         }
       ],
-      "updatedAt": "2026-09-09T21:12:47Z",
+      "updatedAt": "2026-09-09T23:51:31Z",
       "stars": 0,
       "forks": 0
     },
@@ -12036,6 +12036,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7f7928c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-09T23:23:03Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f7928c0ac57a6faf4ed3f49b3c9458e4e43deb6"
+        },
+        {
           "sha": "15a5e88",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T22:23:40Z",
@@ -12100,15 +12106,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T12:37:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1651385b4676173310b5675702bd5c0dc4ca47ce"
-        },
-        {
-          "sha": "0d44753",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-09T11:24:53Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/0d44753cb690c1c007c8667df3abce9f45978ac7"
         }
       ],
-      "updatedAt": "2026-09-09T22:23:49Z",
+      "updatedAt": "2026-09-09T23:23:08Z",
       "stars": 0,
       "forks": 0
     },
