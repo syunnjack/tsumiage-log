@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T06:39:48.714Z",
+  "generatedAt": "2026-09-10T07:28:11.142Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "66159a5",
+          "message": "Merge pull request #12 from syunnjack/codex/all-city-wards",
+          "date": "2026-09-10T07:05:48Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/66159a5f43a99532e7901de7279d61fb5c53bd6d"
+        },
+        {
+          "sha": "e6caffc",
+          "message": "全20政令指定都市と東京23区の194区へ区別ガイドを拡張",
+          "date": "2026-09-10T07:00:29Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/e6caffce7308aa33adb70d81fc50fffd1ecbe410"
+        },
+        {
           "sha": "1747f56",
           "message": "Merge pull request #11 from syunnjack/codex/ward-guides",
           "date": "2026-09-10T06:31:32Z",
@@ -1343,21 +1355,9 @@
           "message": "施設データの転送欠落を修復し全35件のJSONを保持",
           "date": "2026-09-09T21:10:38Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/aafee8501a161d78b1abc044246cb5731b517a99"
-        },
-        {
-          "sha": "4e69255",
-          "message": "全国20政令指定都市の40施設ガイドと公式情報を追加",
-          "date": "2026-09-09T21:07:16Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/4e69255e9195639c6e57aeeb636fe8c2e6ffc644"
-        },
-        {
-          "sha": "58c6c9e",
-          "message": "Merge pull request #6 from syunnjack/codex/expand-regional-real-data",
-          "date": "2026-09-09T15:40:29Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/58c6c9ed97113da7097a6dc4f8aa53b4ac3c4ddc"
         }
       ],
-      "updatedAt": "2026-09-10T06:31:40Z",
+      "updatedAt": "2026-09-10T07:05:59Z",
       "stars": 0,
       "forks": 0
     },
@@ -12036,6 +12036,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0870315",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-10T06:40:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/08703155b1da5ff4ba8e8daff6ebf94d61d0d700"
+        },
+        {
           "sha": "4402ebe",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-10T05:26:23Z",
@@ -12100,15 +12106,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T19:22:10Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/9642b4927bb84f9c9eac73c8b7544cd6a336b245"
-        },
-        {
-          "sha": "1c71c34",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-09T18:31:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1c71c349da2d36de1d8fea4c064718dfc4e5e057"
         }
       ],
-      "updatedAt": "2026-09-10T05:26:28Z",
+      "updatedAt": "2026-09-10T06:40:18Z",
       "stars": 0,
       "forks": 0
     },
