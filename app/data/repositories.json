@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:25:55.215Z",
+  "generatedAt": "2026-09-10T06:39:48.714Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -1285,6 +1285,42 @@
       "files": [],
       "commits": [
         {
+          "sha": "1747f56",
+          "message": "Merge pull request #11 from syunnjack/codex/ward-guides",
+          "date": "2026-09-10T06:31:32Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/1747f5615504ee9efd027da7e7231cb1baa71342"
+        },
+        {
+          "sha": "1d729af",
+          "message": "東京大阪名古屋の63区を住所で探せる区別ガイドを追加",
+          "date": "2026-09-10T06:29:22Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/1d729af6e5b996af93c46720c55751423aa7af99"
+        },
+        {
+          "sha": "edbb80d",
+          "message": "Merge pull request #10 from syunnjack/codex/capital-schema-verification",
+          "date": "2026-09-10T05:53:39Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/edbb80d0bfbbecbb4b94ab2907cd959030ee2c74"
+        },
+        {
+          "sha": "0135da2",
+          "message": "構造化データのcontext出力と既存施設の公式案内を修正",
+          "date": "2026-09-10T05:51:09Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/0135da2c17639c056d936c5df114f5265ebbe5ae"
+        },
+        {
+          "sha": "a3db02b",
+          "message": "Merge pull request #9 from syunnjack/codex/prefectural-capital-expansion",
+          "date": "2026-09-10T05:37:14Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/a3db02b4294d0f2305820591d8d2c77b3d37864e"
+        },
+        {
+          "sha": "e10ef6e",
+          "message": "全国47県庁所在地へ都市ガイドを拡張し45施設を照合",
+          "date": "2026-09-10T05:35:14Z",
+          "url": "https://github.com/syunnjack/camp-hikaku/commit/e10ef6e1db02c054adf826d772708025ff301bb0"
+        },
+        {
           "sha": "86f8d0a",
           "message": "Merge pull request #8 from syunnjack/codex/api-facility-expansion",
           "date": "2026-09-09T23:51:26Z",
@@ -1319,45 +1355,9 @@
           "message": "Merge pull request #6 from syunnjack/codex/expand-regional-real-data",
           "date": "2026-09-09T15:40:29Z",
           "url": "https://github.com/syunnjack/camp-hikaku/commit/58c6c9ed97113da7097a6dc4f8aa53b4ac3c4ddc"
-        },
-        {
-          "sha": "0810583",
-          "message": "Expand regional guides to 24 sourced facilities with genre comparisons",
-          "date": "2026-09-09T15:38:43Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/08105832d750e5653d84c58e40608ee84a3b64a5"
-        },
-        {
-          "sha": "fafe8d2",
-          "message": "Merge pull request #5 from syunnjack/codex/kansai-six-genre-guide",
-          "date": "2026-09-09T09:12:39Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/fafe8d23c665e7afa609810c04df29efd3889a78"
-        },
-        {
-          "sha": "9ee68b1",
-          "message": "Add sourced Kansai guide across six genres and prefectures",
-          "date": "2026-09-09T09:11:31Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/9ee68b1c2a72e64746064d19126db991f0447c3c"
-        },
-        {
-          "sha": "94274a6",
-          "message": "Merge pull request #4 from syunnjack/codex/metropolitan-six-genre-guide",
-          "date": "2026-09-09T06:42:07Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/94274a634c238c0a7d2cfb284f910242d83ab2cc"
-        },
-        {
-          "sha": "9d6bef6",
-          "message": "Add sourced metropolitan guide with six genres and detailed facility conditions",
-          "date": "2026-09-09T06:40:21Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/9d6bef6928a148fdd3f4a79a604cc83c59f66abc"
-        },
-        {
-          "sha": "b7e065e",
-          "message": "Merge pull request #3 from syunnjack/codex/nationwide-wellness-discovery",
-          "date": "2026-09-08T00:12:48Z",
-          "url": "https://github.com/syunnjack/camp-hikaku/commit/b7e065e1eae379f12c8d93fd7a07c1696fa6b32a"
         }
       ],
-      "updatedAt": "2026-09-09T23:51:31Z",
+      "updatedAt": "2026-09-10T06:31:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -12036,6 +12036,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4402ebe",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-10T05:26:23Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4402ebeed0ed3614e49845f84127948c0fbec7e3"
+        },
+        {
           "sha": "d4ce911",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-10T04:30:27Z",
@@ -12100,15 +12106,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-09T18:31:02Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/1c71c349da2d36de1d8fea4c064718dfc4e5e057"
-        },
-        {
-          "sha": "1c6a447",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-09T17:24:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/1c6a44784cafb32cf6ee46d32c5346a44b14e46f"
         }
       ],
-      "updatedAt": "2026-09-10T04:30:37Z",
+      "updatedAt": "2026-09-10T05:26:28Z",
       "stars": 0,
       "forks": 0
     },
