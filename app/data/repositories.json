@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T15:25:33.680Z",
+  "generatedAt": "2026-09-11T16:27:31.007Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -4886,6 +4886,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "177c2ad",
+          "message": "アミューズメントICカードの解説ページを足す",
+          "date": "2026-09-11T15:58:42Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/177c2ad18695a6c582c159ace0996b6c653b0859"
+        },
+        {
           "sha": "c028dcc",
           "message": "チャプター2 第四話・難易度2 の記録を足す",
           "date": "2026-09-05T10:06:13Z",
@@ -4950,15 +4956,9 @@
           "message": "Configure touge-start.jp domain",
           "date": "2026-08-02T02:36:28Z",
           "url": "https://github.com/syunnjack/iniD-comunity/commit/72980aad39e4244277b69336847269c675bd3149"
-        },
-        {
-          "sha": "4817e13",
-          "message": "Build Initial D beginner community site",
-          "date": "2026-08-02T02:26:15Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/4817e13256e15f9fd5548a5698770d3de10feba3"
         }
       ],
-      "updatedAt": "2026-09-05T10:06:19Z",
+      "updatedAt": "2026-09-11T15:59:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -12042,6 +12042,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9c1ad81",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-11T15:26:01Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/9c1ad81e0e70e6288ae0efacf784b5bf999a69d1"
+        },
+        {
           "sha": "fd8fdbe",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-11T14:27:50Z",
@@ -12106,15 +12112,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-11T04:30:24Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/cc2c3ff12d2e34cf9bf670fdf63a78e5c56d97c2"
-        },
-        {
-          "sha": "783609e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-11T03:29:57Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/783609e564ebdfea1c45f68d79e075e4d892caf3"
         }
       ],
-      "updatedAt": "2026-09-11T14:27:57Z",
+      "updatedAt": "2026-09-11T15:26:07Z",
       "stars": 0,
       "forks": 0
     },
@@ -12528,6 +12528,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "bfb788e",
+          "message": "いまの状況を車ごとのガレージ表示にする",
+          "date": "2026-09-11T16:18:26Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/bfb788e64a8865bed100c2a1f027f91802a4a658"
+        },
+        {
+          "sha": "9f1d8c2",
+          "message": "アミューズメントICカードの解説ページを足し、配信されていなかったsitemapを直す",
+          "date": "2026-09-11T15:58:41Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/9f1d8c23d63aadd3037d188db1676a64c883d31f"
+        },
+        {
           "sha": "ae41ae8",
           "message": "全国分身の記録を足し、死んでいたテストを実物に置き換える",
           "date": "2026-09-05T10:11:11Z",
@@ -12586,21 +12598,9 @@
           "message": "Connect WANGAN BASE BOOTH shop",
           "date": "2026-08-12T07:51:57Z",
           "url": "https://github.com/syunnjack/wangan-base/commit/8fed044dcb5a41db1b693c6960881765eb7d7559"
-        },
-        {
-          "sha": "c3009bd",
-          "message": "Document BOOTH URL configuration",
-          "date": "2026-08-12T07:39:43Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/c3009bd97a2792b1b1d3b405a871052ef3c505b8"
-        },
-        {
-          "sha": "ba807aa",
-          "message": "Prepare BOOTH storefront integration",
-          "date": "2026-08-12T07:39:34Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/ba807aadc99093fc2161044d42df237e4581e21d"
         }
       ],
-      "updatedAt": "2026-09-05T10:11:17Z",
+      "updatedAt": "2026-09-11T16:18:32Z",
       "stars": 0,
       "forks": 0
     },
