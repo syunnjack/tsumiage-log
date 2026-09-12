@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T19:19:19.220Z",
+  "generatedAt": "2026-09-12T20:26:10.638Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -2202,6 +2202,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5b4fe9a",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-09-12T20:10:51Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/5b4fe9a14dbd1d7c34e20dcc5dfeaa2e7d738843"
+        },
+        {
           "sha": "37787e8",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-11T20:08:07Z",
@@ -2266,15 +2272,9 @@
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-01T20:08:44Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/fbb9bee59e8996a3f3db120bc07a5a423d44e543"
-        },
-        {
-          "sha": "bd8bcc4",
-          "message": "配信状況を取り直す（TMDB）",
-          "date": "2026-08-31T20:08:40Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/bd8bcc43312a8389dc17c6de3e9e3c254140d20d"
         }
       ],
-      "updatedAt": "2026-09-11T20:08:11Z",
+      "updatedAt": "2026-09-12T20:10:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -6774,6 +6774,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "20ff1d3",
+          "message": "24時間営業の店舗データを更新する",
+          "date": "2026-09-12T19:40:38Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/20ff1d30d5db967735e732f40f5c4fefb9b199e5"
+        },
+        {
           "sha": "492ec04",
           "message": "24時間営業の店舗データを更新する",
           "date": "2026-08-21T15:20:55Z",
@@ -6838,15 +6844,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:00:38Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/93902e0353c53b6b521fefb1b5e87b5e95392e9f"
-        },
-        {
-          "sha": "0067c4c",
-          "message": "Add Search Console verification meta tag",
-          "date": "2026-08-04T14:12:32Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/0067c4cbe3e2db5c9ebcd0c57ac6ecc2e6309e50"
         }
       ],
-      "updatedAt": "2026-08-21T15:22:52Z",
+      "updatedAt": "2026-09-12T19:40:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -12061,6 +12061,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "eb5b8bf",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-12T19:19:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/eb5b8bf84e487420429f3417cba22a690fc9fbbf"
+        },
+        {
           "sha": "229783e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T18:26:59Z",
@@ -12125,15 +12131,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T08:29:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0aab377e4a9851c4d6867db05980fbc6ba77a14d"
-        },
-        {
-          "sha": "9f77077",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-12T07:25:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9f77077bebd99a77965447a299128845798d988d"
         }
       ],
-      "updatedAt": "2026-09-12T18:27:04Z",
+      "updatedAt": "2026-09-12T19:19:57Z",
       "stars": 0,
       "forks": 0
     },
