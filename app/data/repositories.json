@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:23:03.115Z",
+  "generatedAt": "2026-09-12T11:20:59.974Z",
   "owner": "syunnjack",
   "totalRepositories": 199,
   "publicRepositories": 199,
@@ -4886,6 +4886,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "68c4998",
+          "message": "アミューズメントICカードのWeb連携とデータ移行の制約を追記し、Search Console の確認ファイルを置く",
+          "date": "2026-09-12T10:33:54Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/68c499864110799b3b012c76ef5cac6b19ffd815"
+        },
+        {
           "sha": "177c2ad",
           "message": "アミューズメントICカードの解説ページを足す",
           "date": "2026-09-11T15:58:42Z",
@@ -4950,15 +4956,9 @@
           "message": "Prepare domain launch operations",
           "date": "2026-08-02T03:13:20Z",
           "url": "https://github.com/syunnjack/iniD-comunity/commit/a469ab9c3f83fdf10c752cd907fba5f3e269e5af"
-        },
-        {
-          "sha": "72980aa",
-          "message": "Configure touge-start.jp domain",
-          "date": "2026-08-02T02:36:28Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/72980aad39e4244277b69336847269c675bd3149"
         }
       ],
-      "updatedAt": "2026-09-11T15:59:03Z",
+      "updatedAt": "2026-09-12T10:34:00Z",
       "stars": 0,
       "forks": 0
     },
@@ -12054,6 +12054,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "135d958",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-12T10:23:29Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/135d95845cafbd4bc96bc1b56334e2a17e17ae9c"
+        },
+        {
           "sha": "daa1a31",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T09:25:25Z",
@@ -12118,15 +12124,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-11T23:23:36Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/14e5a068856c7b0e7fab7d1a923524e4e3d31462"
-        },
-        {
-          "sha": "7f08536",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-11T22:24:11Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7f085366e6814fa9521dea8c7e0f7a7f9b3773d7"
         }
       ],
-      "updatedAt": "2026-09-12T09:25:29Z",
+      "updatedAt": "2026-09-12T10:23:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -12540,6 +12540,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9d513ff",
+          "message": "アミューズメントICカードのWeb連携とデータ移行の制約を追記し、Search Console の確認ファイルを置く",
+          "date": "2026-09-12T10:33:51Z",
+          "url": "https://github.com/syunnjack/wangan-base/commit/9d513ffd16669888b67c5813d3ff2ceb8ddd4525"
+        },
+        {
           "sha": "8d22b52",
           "message": "エボ3のC4級昇格とビンゴ3列、R2の車種確定を記録する",
           "date": "2026-09-12T09:57:28Z",
@@ -12604,15 +12610,9 @@
           "message": "Update BOOTH shop URL",
           "date": "2026-08-12T08:45:18Z",
           "url": "https://github.com/syunnjack/wangan-base/commit/aa8bcd49ecd35494bec01b91ed83d96095cd074d"
-        },
-        {
-          "sha": "a1be4f7",
-          "message": "Document live BOOTH shop URL",
-          "date": "2026-08-12T07:51:58Z",
-          "url": "https://github.com/syunnjack/wangan-base/commit/a1be4f70d55b99ef004a6c5c5bd549f55a4e9eee"
         }
       ],
-      "updatedAt": "2026-09-12T09:57:35Z",
+      "updatedAt": "2026-09-12T10:33:57Z",
       "stars": 0,
       "forks": 0
     },
