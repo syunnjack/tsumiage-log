@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T21:23:09.148Z",
+  "generatedAt": "2026-09-12T22:22:56.122Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -10505,6 +10505,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0f7c22f",
+          "message": "レビューの増減を記録する",
+          "date": "2026-09-12T22:08:51Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/0f7c22f3e8772060b78e98a7f0192a0b6c00afc5"
+        },
+        {
           "sha": "84e2704",
           "message": "レビューの増減を記録する",
           "date": "2026-09-11T22:09:34Z",
@@ -10559,7 +10565,7 @@
           "url": "https://github.com/syunnjack/shop-review/commit/b49082c8b3614378d05b3bfdc9faa9de0e63e6da"
         }
       ],
-      "updatedAt": "2026-09-11T22:09:39Z",
+      "updatedAt": "2026-09-12T22:08:55Z",
       "stars": 0,
       "forks": 0
     },
@@ -12061,6 +12067,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "3c292fa",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-12T21:23:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/3c292fa12bb49bd3371c3d704cc5cb0bd325bc4a"
+        },
+        {
           "sha": "1b20066",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T20:26:37Z",
@@ -12125,15 +12137,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T10:23:29Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/135d95845cafbd4bc96bc1b56334e2a17e17ae9c"
-        },
-        {
-          "sha": "daa1a31",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-12T09:25:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/daa1a319b1c34c302e5e68d8d9cbd19c51392be8"
         }
       ],
-      "updatedAt": "2026-09-12T20:26:42Z",
+      "updatedAt": "2026-09-12T21:23:41Z",
       "stars": 0,
       "forks": 0
     },
