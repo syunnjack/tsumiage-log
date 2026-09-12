@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T15:22:20.931Z",
+  "generatedAt": "2026-09-12T16:24:53.301Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -4249,6 +4249,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7f5cf9c",
+          "message": "AI実力スコアのダッシュボードを /ai-score/ に追加する (#4)",
+          "date": "2026-09-12T15:32:41Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/7f5cf9c40de4786264c0062a48ad4f5c301e826a"
+        },
+        {
           "sha": "8dbf65d",
           "message": "Put real content in the initial HTML and fix the sitemap (#1)",
           "date": "2026-08-30T12:52:53Z",
@@ -4285,7 +4291,7 @@
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-08-30T12:53:12Z",
+      "updatedAt": "2026-09-12T15:32:46Z",
       "stars": 0,
       "forks": 0
     },
@@ -12055,6 +12061,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ac61bcd",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-12T15:22:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ac61bcd7c7105747282ab55e8f9c215f068e3840"
+        },
+        {
           "sha": "7cb9271",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T14:23:41Z",
@@ -12119,15 +12131,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-12T04:28:05Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fea9682c6a796e8699ac7351559ba45fb5ecfd8f"
-        },
-        {
-          "sha": "a7d17d4",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-12T03:28:43Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/a7d17d474b8858f7c573701e3e6831333c36488a"
         }
       ],
-      "updatedAt": "2026-09-12T14:23:45Z",
+      "updatedAt": "2026-09-12T15:22:54Z",
       "stars": 0,
       "forks": 0
     },
