@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T13:22:27.956Z",
+  "generatedAt": "2026-09-13T14:23:24.439Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -4249,6 +4249,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f0c51e7",
+          "message": "合格作戦の記事を /strategy/ に追加する (#5)",
+          "date": "2026-09-13T14:03:24Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/f0c51e7e75c7d4de8f36935d27be684ef847c9e9"
+        },
+        {
           "sha": "7f5cf9c",
           "message": "AI実力スコアのダッシュボードを /ai-score/ に追加する (#4)",
           "date": "2026-09-12T15:32:41Z",
@@ -4291,7 +4297,7 @@
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-09-12T15:32:46Z",
+      "updatedAt": "2026-09-13T14:03:29Z",
       "stars": 0,
       "forks": 0
     },
@@ -12067,6 +12073,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "84ba741",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-13T13:22:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/84ba74149258d2bc38a4b4d7dbc2eb764d3d2b1f"
+        },
+        {
           "sha": "e25eb66",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-13T12:32:43Z",
@@ -12131,15 +12143,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-13T02:34:06Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/61362fbd544b64f6d115bbe9c9bb63bfe876e798"
-        },
-        {
-          "sha": "cbc396c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-13T01:38:41Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbc396cfd30ffc0f1a63ff64de92d7216658da50"
         }
       ],
-      "updatedAt": "2026-09-13T12:32:48Z",
+      "updatedAt": "2026-09-13T13:22:57Z",
       "stars": 0,
       "forks": 0
     },
