@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T16:27:50.293Z",
+  "generatedAt": "2026-09-16T17:22:46.736Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -4249,6 +4249,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "2ba9a35",
+          "message": "AI実力スコアのページを、実測を主役にして作り直す (#9)",
+          "date": "2026-09-16T16:31:21Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/2ba9a35560308eadba6ceea95ffe5878bc1079fa"
+        },
+        {
+          "sha": "d0915d9",
+          "message": "領域サムライの説明を、実物に合わせて直す (#8)",
+          "date": "2026-09-16T16:28:06Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/d0915d9624c1ab40d84ec0cc583fb62bcb690f35"
+        },
+        {
           "sha": "e286071",
           "message": "受験記をこのサイトに移し、「受験の理由」の記事を足す (#7)",
           "date": "2026-09-16T16:24:22Z",
@@ -4303,7 +4315,7 @@
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-09-16T16:24:27Z",
+      "updatedAt": "2026-09-16T16:31:26Z",
       "stars": 0,
       "forks": 0
     },
@@ -10498,13 +10510,43 @@
       "files": [],
       "commits": [
         {
+          "sha": "15fdca0",
+          "message": "会員制の土台を作る (#5)",
+          "date": "2026-09-16T17:00:48Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/15fdca020f85becb1f997aff6d71d1ad1a36c800"
+        },
+        {
+          "sha": "99eafae",
+          "message": "配信を Vercel に寄せる (#4)",
+          "date": "2026-09-16T16:48:29Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/99eafae029f2fb23888a703c3ae248f99483cbfc"
+        },
+        {
+          "sha": "ecab781",
+          "message": "Pages の有効化は手作業が要ることを記録する (#3)",
+          "date": "2026-09-16T16:45:46Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/ecab781f2631016618879f53a40e63e89c08bbd4"
+        },
+        {
+          "sha": "b2de13e",
+          "message": "Pages を有効にしてからデプロイする (#2)",
+          "date": "2026-09-16T16:41:48Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/b2de13e7383282d086ab867ce080eb38f20cf50f"
+        },
+        {
+          "sha": "b4ccc4b",
+          "message": "平均との差と、スコアの推移を出す (#1)",
+          "date": "2026-09-16T16:38:57Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/b4ccc4b4145564ac5cbaac876c214b0497f3f32b"
+        },
+        {
           "sha": "2d3ad9e",
           "message": "合格ラインとの距離を出す（宅建・行政書士）",
           "date": "2026-09-04T14:22:31Z",
           "url": "https://github.com/syunnjack/shikaku-score/commit/2d3ad9e9ab42020318174785fc7ff077c8ab5f8f"
         }
       ],
-      "updatedAt": "2026-09-04T14:25:09Z",
+      "updatedAt": "2026-09-16T17:00:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -12097,6 +12139,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "93344cf",
+          "message": "行政書士の記事12本を gyosei-yosou へ移す (#133)",
+          "date": "2026-09-16T16:55:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/93344cfd0ea236298334b433ed70bb3a7cf3d5b7"
+        },
+        {
+          "sha": "4fc91ec",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-16T16:28:14Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4fc91ec720a4cb312ae334bfa4e345809e678744"
+        },
+        {
           "sha": "d48ca8f",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-16T15:26:13Z",
@@ -12155,21 +12209,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-16T06:41:18Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/681b6092f16ac476b39b964c31449488cf695987"
-        },
-        {
-          "sha": "9b8db05",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-16T05:27:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9b8db05aba3e0d032d997704d6563065a361f832"
-        },
-        {
-          "sha": "36df1cd",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-16T04:30:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/36df1cd35e01b081bb8928d0a88707a37c918d97"
         }
       ],
-      "updatedAt": "2026-09-16T15:26:21Z",
+      "updatedAt": "2026-09-16T16:55:45Z",
       "stars": 0,
       "forks": 0
     },
