@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:25:45.705Z",
+  "generatedAt": "2026-09-16T16:27:50.293Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -4249,6 +4249,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e286071",
+          "message": "受験記をこのサイトに移し、「受験の理由」の記事を足す (#7)",
+          "date": "2026-09-16T16:24:22Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/e28607184e124a19278957dcf8d997a56e9a9465"
+        },
+        {
           "sha": "f0c51e7",
           "message": "合格作戦の記事を /strategy/ に追加する (#5)",
           "date": "2026-09-13T14:03:24Z",
@@ -4297,7 +4303,7 @@
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-09-13T14:03:29Z",
+      "updatedAt": "2026-09-16T16:24:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -12091,6 +12097,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d48ca8f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-16T15:26:13Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d48ca8f3ed639806f618cb58e02aca72e86d87f5"
+        },
+        {
           "sha": "ac826ae",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-16T14:27:50Z",
@@ -12155,15 +12167,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-16T04:30:50Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/36df1cd35e01b081bb8928d0a88707a37c918d97"
-        },
-        {
-          "sha": "d3a1bcf",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-16T03:30:39Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/d3a1bcf889654a5e456e25a4b349d975be48cafd"
         }
       ],
-      "updatedAt": "2026-09-16T14:28:42Z",
+      "updatedAt": "2026-09-16T15:26:21Z",
       "stars": 0,
       "forks": 0
     },
