@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:22:46.736Z",
+  "generatedAt": "2026-09-16T18:29:51.623Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -12139,6 +12139,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "059d4b4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-16T17:23:19Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/059d4b41f9a13248fcf51ffa48d408cef78e539c"
+        },
+        {
           "sha": "93344cf",
           "message": "行政書士の記事12本を gyosei-yosou へ移す (#133)",
           "date": "2026-09-16T16:55:40Z",
@@ -12203,15 +12209,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-16T07:30:16Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/81a38297fdae43bf1974bec404af1ed5238bceaa"
-        },
-        {
-          "sha": "681b609",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-16T06:41:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/681b6092f16ac476b39b964c31449488cf695987"
         }
       ],
-      "updatedAt": "2026-09-16T16:55:45Z",
+      "updatedAt": "2026-09-16T17:23:25Z",
       "stars": 0,
       "forks": 0
     },
