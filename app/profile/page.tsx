@@ -123,8 +123,8 @@ export default function ProfilePage() {
         </p>
         <p>
           うまくいったことだけでなく、落ちた回に何が足りなかったのかも記録しています。
-          <Link href="/articles/manual/gyosei-shoshi-1st-attempt-ronjutsu/">受験記</Link>
-          として1回目から順に書いてあります。
+          <a href="https://syunnjack.github.io/gyosei-yosou/articles/" target="_blank" rel="noopener noreferrer">受験記</a>
+          として1回目から順に、行政書士試験のサイトにまとめてあります。
         </p>
         <p>
           技術についても同じ姿勢で書いています。設定を間違えて19ドメイン分やり直した話や、
