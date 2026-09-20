@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:23:13.608Z",
+  "generatedAt": "2026-09-20T23:22:43.481Z",
   "owner": "syunnjack",
   "totalRepositories": 200,
   "publicRepositories": 200,
@@ -12139,6 +12139,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f116ba4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-20T22:23:37Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f116ba49ffb0c1bade6b9b0747573631ddab2352"
+        },
+        {
           "sha": "d80f294",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-20T21:23:21Z",
@@ -12203,15 +12209,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-20T11:22:18Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f0e71393e7107225e57ebcd797a75ed62c6fbd11"
-        },
-        {
-          "sha": "16e3390",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-20T10:24:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/16e33909383984ee0328f275f29a25e58c1c1cff"
         }
       ],
-      "updatedAt": "2026-09-20T21:23:26Z",
+      "updatedAt": "2026-09-20T22:23:42Z",
       "stars": 0,
       "forks": 0
     },
@@ -13012,6 +13012,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "2c59f4a",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-20T22:34:16Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/2c59f4a877bbe0b4962394445f3e99606b904b2c"
+        },
+        {
           "sha": "4fb18e1",
           "message": "売れ筋の順位を記録する",
           "date": "2026-09-19T22:34:22Z",
@@ -13076,15 +13082,9 @@
           "message": "売れ筋の順位を記録する",
           "date": "2026-09-09T22:34:27Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/09ab79dba837f9269f288567ece6a89d9c45e95a"
-        },
-        {
-          "sha": "18df98f",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-08T22:34:34Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/18df98f6534deca58e8d2743fedbcd9a543c0697"
         }
       ],
-      "updatedAt": "2026-09-19T22:34:26Z",
+      "updatedAt": "2026-09-20T22:34:21Z",
       "stars": 0,
       "forks": 0
     },
