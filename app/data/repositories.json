@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T20:25:37.526Z",
+  "generatedAt": "2026-09-21T21:24:27.596Z",
   "owner": "syunnjack",
-  "totalRepositories": 201,
-  "publicRepositories": 201,
+  "totalRepositories": 202,
+  "publicRepositories": 202,
   "privateRepositories": 0,
   "skippedRepositories": [
     "mall-oudan",
@@ -814,6 +814,37 @@
         }
       ],
       "updatedAt": "2026-09-04T10:13:24Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "baigaeshi-lab",
+      "name": "baigaeshi-lab",
+      "displayName": "Baigaeshi Lab",
+      "description": "行列のできる倍返し研究所（sugusuu.com）— トラブル事例と、そのあとどうしたか",
+      "readmeExcerpt": "行列のできる倍返し研究所（sugusuu.com） トラブルに遭ったときに、 実際にどこへ行って、何を出して、どうなったか を書くブログ。 制度の解説ではなく、動いた順番の記録。 公開先: https://sugusuu.com 配信: GitHub Pages（ dist/CNAME はビルドで作る） 記事は content/posts.json の1ファイル。依存パッケージなし 他人の事例は consent で止める consent: false の記事は ビルドで書き出さない。 友人・知人のトラブルは、読み物としては面白くなるが、 本人にとっては人生で一番 知られたくない種類の話 であることが多い。「下書きのつもりが公開されていた」は、 ここでは起きてはいけない種類の事故なので、フラグ1つで止まるようにしてある。 同意があっても書かないもの: 年齢 / 性別 / 続柄 / 勤務先 / 地域 / 金額 書くのは 「付き添った側から見えた手続き」 だけ。 本人から取り下げの連絡があれば、理由を聞かずに消す。 題名について 「行列のできる法律相談所」は実在の番組名、「倍返し」は半沢直樹の決め台詞。 個人ブログのもじりとして置いているが、権利者から指摘があれば題名を変える。 ドメインが sugusuu.com で題名に依存していないので、 題名だけ差し替えられる。 使い方 ドメイン sugusuu.com は、お名前.comで未使用だった10本のうちの1本。 残り9本は節約系6本・推し活・行き先ナビなどで、 このブログとテーマがぶつかる ため外した。",
+      "url": "https://github.com/syunnjack/baigaeshi-lab",
+      "defaultBranch": "main",
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "2613953",
+          "message": "push だけで反映されるようにする（dist はコミットしない）",
+          "date": "2026-09-21T21:04:11Z",
+          "url": "https://github.com/syunnjack/baigaeshi-lab/commit/26139531a29ae6b1038f28ce92a9c6976fe1ae4f"
+        },
+        {
+          "sha": "dc011f0",
+          "message": "行列のできる倍返し研究所 を立ち上げる",
+          "date": "2026-09-21T21:03:50Z",
+          "url": "https://github.com/syunnjack/baigaeshi-lab/commit/dc011f0c9856d6b28a83f506b97db69af22af17e"
+        }
+      ],
+      "updatedAt": "2026-09-21T21:04:39Z",
       "stars": 0,
       "forks": 0
     },
@@ -12140,6 +12171,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "c4902d8",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-21T20:26:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/c4902d8137b47d38637a652a39e27b083251de5b"
+        },
+        {
           "sha": "9e80e41",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-21T19:24:35Z",
@@ -12204,15 +12241,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-21T09:34:55Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/0180ef682699cc822e83375d65bb88a3ab3036b8"
-        },
-        {
-          "sha": "4d8c090",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-21T08:38:03Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/4d8c0904f78d62739dee2c8eda982b0773f50867"
         }
       ],
-      "updatedAt": "2026-09-21T19:24:40Z",
+      "updatedAt": "2026-09-21T20:26:11Z",
       "stars": 0,
       "forks": 0
     },
