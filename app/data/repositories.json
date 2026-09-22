@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T20:25:17.448Z",
+  "generatedAt": "2026-09-22T21:23:00.294Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -12195,6 +12195,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "08c9821",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-22T20:25:50Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/08c982173272ec49fe616ffcf6d2a23ff4f4b177"
+        },
+        {
           "sha": "056098c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T19:23:10Z",
@@ -12259,15 +12265,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T09:28:50Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ac295599e1d0605aea9d59ff726ec6d89c1e2f11"
-        },
-        {
-          "sha": "78e8df0",
-          "message": "移設先を github.io から本番の gyosei-yosou.jp へ直す",
-          "date": "2026-09-22T09:21:52Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/78e8df0d1aeef741ba43511a1ee1b43cdade95ef"
         }
       ],
-      "updatedAt": "2026-09-22T19:23:16Z",
+      "updatedAt": "2026-09-22T20:25:56Z",
       "stars": 0,
       "forks": 0
     },
