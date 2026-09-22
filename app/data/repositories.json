@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T01:35:28.497Z",
+  "generatedAt": "2026-09-22T02:34:26.284Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -822,7 +822,7 @@
       "name": "baigaeshi-lab",
       "displayName": "Baigaeshi Lab",
       "description": "行列のできる倍返し研究所（sugusuu.com）— トラブル事例と、そのあとどうしたか",
-      "readmeExcerpt": "行列のできる倍返し研究所（sugusuu.com） トラブルに遭ったときに、 実際にどこへ行って、何を出して、どうなったか を書くブログ。 制度の解説ではなく、動いた順番の記録。 公開先: https://sugusuu.com 配信: GitHub Pages（ dist/CNAME はビルドで作る） 記事は content/posts.json の1ファイル。依存パッケージなし 他人の事例は consent で止める consent: false の記事は ビルドで書き出さない。 友人・知人のトラブルは、読み物としては面白くなるが、 本人にとっては人生で一番 知られたくない種類の話 であることが多い。「下書きのつもりが公開されていた」は、 ここでは起きてはいけない種類の事故なので、フラグ1つで止まるようにしてある。 同意があっても書かないもの: 年齢 / 性別 / 続柄 / 勤務先 / 地域 / 金額 書くのは 「付き添った側から見えた手続き」 だけ。 本人から取り下げの連絡があれば、理由を聞かずに消す。 題名について 「行列のできる法律相談所」は実在の番組名、「倍返し」は半沢直樹の決め台詞。 個人ブログのもじりとして置いているが、権利者から指摘があれば題名を変える。 ドメインが sugusuu.com で題名に依存していないので、 題名だけ差し替えられる。 使い方 ドメイン sugusuu.com は、お名前.comで未使用だった10本のうちの1本。 残り9本は節約系6本・推し活・行き先ナビなどで、 このブログとテーマがぶつかる ため外した。",
+      "readmeExcerpt": "行列のできる倍返し研究所（ikisaki navi.jp） トラブルに遭ったときに、 実際にどこへ行って、何を出して、どうなったか を書くブログ。 制度の解説ではなく、動いた順番の記録。 公開先: https://ikisaki navi.jp 配信: GitHub Pages（ dist/CNAME はビルドで作る） 記事は content/posts.json の1ファイル。依存パッケージなし 他人の事例は consent で止める consent: false の記事は ビルドで書き出さない。 友人・知人のトラブルは、読み物としては面白くなるが、 本人にとっては人生で一番 知られたくない種類の話 であることが多い。「下書きのつもりが公開されていた」は、 ここでは起きてはいけない種類の事故なので、フラグ1つで止まるようにしてある。 同意があっても書かないもの: 年齢 / 性別 / 続柄 / 勤務先 / 地域 / 金額 書くのは 「付き添った側から見えた手続き」 だけ。 本人から取り下げの連絡があれば、理由を聞かずに消す。 題名について 「行列のできる法律相談所」は実在の番組名、「倍返し」は半沢直樹の決め台詞。 個人ブログのもじりとして置いているが、権利者から指摘があれば題名を変える。 ドメインが ikisaki navi.jp で題名に依存していないので、 題名だけ差し替えられる。 使い方 ドメイン お名前.comで パーキングIP（150.95.255.38）を向いていた10本 から選んだ。 最初 sugusuu.com を選んだが、これは誤り。 sugusuu.jp （スグスウ｜近くの喫煙スポット） が稼働していて、 .com はその転送用に確保されたものだった。 「パーキングを向いている＝未使用」ではない。 用途が決まっていて未設定なだけのことがある。 sites portfolio.md と vercel two accounts.md に記録が残っていた。 先に引くこと。 ikisaki navi.jp を選んだ理由: 「行き先ナビ」＝トラブルのとき、どこ",
       "url": "https://github.com/syunnjack/baigaeshi-lab",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -831,6 +831,12 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "fc6c629",
+          "message": "ドメインを ikisaki-navi.jp に変える",
+          "date": "2026-09-22T02:24:04Z",
+          "url": "https://github.com/syunnjack/baigaeshi-lab/commit/fc6c6296f3bfddd14f7ace492ea4b1ae1e7e633b"
+        },
         {
           "sha": "2613953",
           "message": "push だけで反映されるようにする（dist はコミットしない）",
@@ -844,7 +850,7 @@
           "url": "https://github.com/syunnjack/baigaeshi-lab/commit/dc011f0c9856d6b28a83f506b97db69af22af17e"
         }
       ],
-      "updatedAt": "2026-09-21T21:04:39Z",
+      "updatedAt": "2026-09-22T02:24:30Z",
       "stars": 0,
       "forks": 0
     },
@@ -12177,6 +12183,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "d688166",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-22T01:35:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/d6881663ae3a14dc0314b9b1e986632ec3a0429e"
+        },
+        {
           "sha": "9576827",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T00:59:38Z",
@@ -12241,15 +12253,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-21T14:29:43Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/3bb20630be0c9ff522c37bdc0ff8afef459bc29f"
-        },
-        {
-          "sha": "f02330c",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-21T13:28:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/f02330cb72f8760910ba662eb8c8e1c3f316f1e7"
         }
       ],
-      "updatedAt": "2026-09-22T00:59:43Z",
+      "updatedAt": "2026-09-22T01:36:00Z",
       "stars": 0,
       "forks": 0
     },
