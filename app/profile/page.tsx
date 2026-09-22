@@ -123,7 +123,7 @@ export default function ProfilePage() {
         </p>
         <p>
           うまくいったことだけでなく、落ちた回に何が足りなかったのかも記録しています。
-          <a href="https://syunnjack.github.io/gyosei-yosou/articles/" target="_blank" rel="noopener noreferrer">受験記</a>
+          <a href="https://gyosei-yosou.jp/" target="_blank" rel="noopener noreferrer">受験記</a>
           として1回目から順に、行政書士試験のサイトにまとめてあります。
         </p>
         <p>
