@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:34:03.850Z",
+  "generatedAt": "2026-09-22T09:28:23.204Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -12195,6 +12195,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "78e8df0",
+          "message": "移設先を github.io から本番の gyosei-yosou.jp へ直す",
+          "date": "2026-09-22T09:21:52Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/78e8df0d1aeef741ba43511a1ee1b43cdade95ef"
+        },
+        {
+          "sha": "be9482f",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-22T08:34:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/be9482fdc75a1ae011442ce92d68fc7829972904"
+        },
+        {
           "sha": "06253cf",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T07:30:13Z",
@@ -12253,21 +12265,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-21T22:25:42Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/c1081f59b79d0077e7bdf5162e0e327276f06493"
-        },
-        {
-          "sha": "96c77fb",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-21T21:24:59Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/96c77fbc07ce783d0fc646ae79b623da6ec22732"
-        },
-        {
-          "sha": "c4902d8",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-21T20:26:04Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c4902d8137b47d38637a652a39e27b083251de5b"
         }
       ],
-      "updatedAt": "2026-09-22T07:30:18Z",
+      "updatedAt": "2026-09-22T09:22:03Z",
       "stars": 0,
       "forks": 0
     },
