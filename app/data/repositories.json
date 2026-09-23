@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:33:55.937Z",
+  "generatedAt": "2026-09-23T09:28:43.262Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -832,6 +832,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "cfc5748",
+          "message": "記事を4カテゴリに分け、カテゴリ別の一覧ページを出す",
+          "date": "2026-09-23T08:51:18Z",
+          "url": "https://github.com/syunnjack/baigaeshi-lab/commit/cfc57482a6106c9fec7c7e505ce0a8a99dd7d45d"
+        },
+        {
           "sha": "e606a74",
           "message": "繁華街のトラブルを2本足す（肩がぶつかった／店のルールを注意した）",
           "date": "2026-09-22T06:04:00Z",
@@ -862,7 +868,7 @@
           "url": "https://github.com/syunnjack/baigaeshi-lab/commit/dc011f0c9856d6b28a83f506b97db69af22af17e"
         }
       ],
-      "updatedAt": "2026-09-22T06:04:26Z",
+      "updatedAt": "2026-09-23T08:51:24Z",
       "stars": 0,
       "forks": 0
     },
@@ -12195,6 +12201,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "ee50271",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-23T08:34:32Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ee50271746277fb67e0631ecba91df3ee59697bf"
+        },
+        {
           "sha": "1205ca3",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-23T07:31:16Z",
@@ -12259,15 +12271,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T21:23:30Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b0443196dad0196eeb26d2428736b582b1e75489"
-        },
-        {
-          "sha": "08c9821",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-22T20:25:50Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/08c982173272ec49fe616ffcf6d2a23ff4f4b177"
         }
       ],
-      "updatedAt": "2026-09-23T07:31:22Z",
+      "updatedAt": "2026-09-23T08:34:37Z",
       "stars": 0,
       "forks": 0
     },
