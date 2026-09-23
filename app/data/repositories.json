@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:28:43.262Z",
+  "generatedAt": "2026-09-23T10:27:32.306Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -10562,7 +10562,7 @@
       "name": "shikaku-score",
       "displayName": "Shikaku Score",
       "description": "合格ラインとの距離（erabiyori.jp）",
-      "readmeExcerpt": "shikaku score（erabiyori.jp）— 合格ラインとの距離 リポジトリ名は shikaku score だが、公開先は erabiyori.jp。 得点を入れると、合格ラインまでの距離と判定が出る。宅建と行政書士。 公開先: https://erabiyori.jp 配信: GitHub Pages（ dist/CNAME は SITE DOMAIN から作る） 入力した内容はどこにも送信されない。 ブラウザの中だけで動く スタディングと、どこを変えたか スタディングのAI実力スコアは「 繰り返し学習した場合 にスコアが高くなる」と 公式に明記されている。つまり「できるか」と「やったか」が1つの数字に混ざっていて、 どちらがどれだけ効いているか利用者に見えない。 繰り返した人が受かりやすいのは事実だろうが、それは相関であって因果ではない。 しかも 教材を使うほど数字が上がる のは、教材提供者に都合がよい設計でもある。 ここでは繰り返しを一切加点しない。 入れた得点だけで判定する。 本試験での偏差値は出さない 出すには受験者の得点分布が要る。 宅建も行政書士も、得点分布は公表されていない。 合格率と合格点から逆算しようにも、式が1本で未知数が2つあり解けない。 根拠のない偏差値は嘘と同じ なので出さない。代わりに、公表された合格点だけで 言えることを出す。判定の根拠は「過去◯年のうち何年で合格ラインを超えたか」で、 1行で説明できる。 資格で合格基準の性質が違う 宅建 行政書士 基準 相対 （上位◯%） 絶対 （180点固定） 合格点 毎年動く（31〜38点） 180点 足切り なし あり （法令等122・基礎知識24） 見せ方 過去10年で何年合格したか 180点まであと何点か＋足切り 同じ見せ方はできない。 切り替えられるようにしてある。 足切りは総合点に埋めない。 総合が足りていても、基礎知識が24点未満なら不合格。 総合点の内側に隠すと気づけないので、E判定にして理由を書く。 模試の分布（行政書士のみ） 実際に受験した模試の得点分布を持っているの",
+      "readmeExcerpt": "shikaku score（erabiyori.jp）— 合格ラインとの距離 リポジトリ名は shikaku score だが、公開先は erabiyori.jp。 得点を入れると、合格ラインまでの距離と判定が出る。宅建と行政書士。 公開先: https://erabiyori.jp 配信: Vercel （下の「配信」を見る）。GitHub Pages は使っていない 入力した内容はどこにも送信されない。 ブラウザの中だけで動く 設計の前提 入力された得点だけで判定する。 学習履歴・解答回数・教材の消化率は受け取らないし、加点もしない。 「何回やったか」を点数に混ぜると、 「できるか」と「やったか」が1つの数字になり、 どちらがどれだけ効いているか利用者に見えない。 繰り返した人が受かりやすいのは相関であって因果ではない。 推定も予測もしない。 他社の方式を参照しない 資格講座のAI採点・実力推定には特許が成立しているものがある。 このツールは次の範囲に限る。 入力は 利用者が自分で入れた素点のみ （1回ぶん） 突き合わせる相手は 公表されている合格点・合格率だけ 解答履歴を持たない。復習の順番を決めない。将来の点数を予測しない 「AI」と名乗らない この範囲を出るときは、先に特許を調べる。 差分分析 必要得点率 = 合格点 ÷ 満点 行政書士なら 180 ÷ 300 = 60.0% 基準線 = 各形式の満点 × 必要得点率 差分 = 基準線 − 得点 形式ごとの合格者得点は公表されていないので「合格者はここで何点」とは書かない。 基準線は仮定ではなく定義で、画面にもそう出す。 足切りのある形式は、基準線と足切りの高いほうを使う。 並べるのは 差分の大きい順 。得点率ではなく点数で並べる。 本試験での偏差値は出さない 出すには受験者の得点分布が要る。 宅建も行政書士も、得点分布は公表されていない。 合格率と合格点から逆算しようにも、式が1本で未知数が2つあり解けない。 根拠のない偏差値は嘘と同じ なので出さない。代わりに、公表された合格点だけで 言えることを出す。判定",
       "url": "https://github.com/syunnjack/shikaku-score",
       "defaultBranch": "main",
       "primaryLanguage": "JavaScript",
@@ -10571,6 +10571,30 @@
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "847eae6",
+          "message": "README を実態に合わせる（配信はVercel／他社名を削除）",
+          "date": "2026-09-23T10:17:55Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/847eae63d150e90e0c712c4f4dab9a2b129dbe00"
+        },
+        {
+          "sha": "7547df4",
+          "message": "特商法表記の空欄を埋める（本名だけ残す）",
+          "date": "2026-09-23T10:09:29Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/7547df4a23be22d80da671df7a7e1e49f7c2f6dc"
+        },
+        {
+          "sha": "883d69f",
+          "message": "合格レベルとの差分を形式別に出す／他社方式を参照しない形にする",
+          "date": "2026-09-23T09:54:43Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/883d69f9bd08a07f0f62479b0a3388bbe5dacf6c"
+        },
+        {
+          "sha": "313f8e2",
+          "message": "有料会員を始める準備をする（表記・規約・ポリシー・開始スイッチ） (#6)",
+          "date": "2026-09-23T09:41:07Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/313f8e2146df8f67d8e9d7ba71fccbe312ce36a2"
+        },
         {
           "sha": "15fdca0",
           "message": "会員制の土台を作る (#5)",
@@ -10608,7 +10632,7 @@
           "url": "https://github.com/syunnjack/shikaku-score/commit/2d3ad9e9ab42020318174785fc7ff077c8ab5f8f"
         }
       ],
-      "updatedAt": "2026-09-16T17:00:54Z",
+      "updatedAt": "2026-09-23T10:18:02Z",
       "stars": 0,
       "forks": 0
     },
@@ -12201,6 +12225,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "39f44d9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-23T09:29:07Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/39f44d981aafe5bba6a57c8e274492a481efb9c0"
+        },
+        {
           "sha": "ee50271",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-23T08:34:32Z",
@@ -12265,15 +12295,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-22T22:24:37Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fc040475408c5da670ac42d31c4d1126dd5439a0"
-        },
-        {
-          "sha": "b044319",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-22T21:23:30Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b0443196dad0196eeb26d2428736b582b1e75489"
         }
       ],
-      "updatedAt": "2026-09-23T08:34:37Z",
+      "updatedAt": "2026-09-23T09:29:14Z",
       "stars": 0,
       "forks": 0
     },
