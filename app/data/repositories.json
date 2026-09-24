@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:35:56.173Z",
+  "generatedAt": "2026-09-24T02:35:11.113Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -11061,6 +11061,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "21939cc",
+          "message": "喫煙できる店を先に出し、根拠に使えない値を表示しない",
+          "date": "2026-09-24T01:50:09Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/21939cc29ff7c9ffb0bedf614aa473a1a4302516"
+        },
+        {
+          "sha": "bcc46c2",
+          "message": "/smoking の一覧をサーバー側で描く（Soft 404 の解消）",
+          "date": "2026-09-24T01:47:27Z",
+          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/bcc46c227347ff15ba55515076ecfdcfb0eba39e"
+        },
+        {
           "sha": "ab224f0",
           "message": "/smoking のタイトルと説明を、そのページのものにする",
           "date": "2026-08-27T13:15:02Z",
@@ -11119,21 +11131,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T20:58:47Z",
           "url": "https://github.com/syunnjack/smoking-spot-finder/commit/6cbd386ce18e5726249598df6c8118b2cfc9d61b"
-        },
-        {
-          "sha": "2084194",
-          "message": "Add ISR revalidation to sitemap.xml so it picks up new venues",
-          "date": "2026-08-09T08:40:55Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/20841948f18f7283b7c0e40c0fd988fadfca6b8b"
-        },
-        {
-          "sha": "06837b8",
-          "message": "Add IndexNow key file",
-          "date": "2026-08-08T02:02:11Z",
-          "url": "https://github.com/syunnjack/smoking-spot-finder/commit/06837b874d3d8270d784bb20b284d35ede43ed80"
         }
       ],
-      "updatedAt": "2026-08-27T13:17:19Z",
+      "updatedAt": "2026-09-24T01:50:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -12225,6 +12225,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "416f394",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-24T01:36:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/416f394edf3594a6295dde499621839d3e13773e"
+        },
+        {
           "sha": "9ec1c6c",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-24T01:00:11Z",
@@ -12289,15 +12295,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-23T14:29:05Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/f8f0f6953b4c45b116f5050c0941285feed55427"
-        },
-        {
-          "sha": "765664b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-23T13:27:19Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/765664b98a4234f8bcc11f7c2fa0b42cc4696052"
         }
       ],
-      "updatedAt": "2026-09-24T01:00:16Z",
+      "updatedAt": "2026-09-24T01:36:41Z",
       "stars": 0,
       "forks": 0
     },
