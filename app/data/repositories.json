@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T09:29:46.201Z",
+  "generatedAt": "2026-09-25T10:29:13.679Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -23,6 +23,7 @@
     "onsen-ranking",
     "shinsaku-calendar",
     "vr-content-gear-guide",
+    "yahoo-alert",
     "yuniba"
   ],
   "articles": [
@@ -12225,6 +12226,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fff1fa7",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-25T09:30:15Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/fff1fa780f3d2ccad74caf031477d58a190c7821"
+        },
+        {
           "sha": "970fcb5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-25T08:35:37Z",
@@ -12289,15 +12296,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-24T22:26:02Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/ac6dcbb1f6e9ac5a1c49827766fe08db18e16436"
-        },
-        {
-          "sha": "77ce387",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-24T21:25:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/77ce3870506fde13e81df907dcda7ede6907e4cd"
         }
       ],
-      "updatedAt": "2026-09-25T08:35:44Z",
+      "updatedAt": "2026-09-25T09:30:20Z",
       "stars": 0,
       "forks": 0
     },
@@ -13080,97 +13081,6 @@
         }
       ],
       "updatedAt": "2026-08-21T14:13:58Z",
-      "stars": 0,
-      "forks": 0
-    },
-    {
-      "slug": "yahoo-alert",
-      "name": "yahoo-alert",
-      "displayName": "Yahoo Alert",
-      "description": "Yahoo Alertは、Pythonを中心に設計・実装したプロジェクトです。",
-      "readmeExcerpt": "yahoo alert（choicecompass.jp）— Yahoo ショッピングの売れ筋ウォッチ リポジトリ名は yahoo alert だが、公開先は choicecompass.jp。 「公式ランキング」とは名乗らない Yahoo のランキングAPI（V1 ranking）は 500 を返す。 カテゴリを指定してもしなくても同じ（2026 09 04 実測）。動いていない。 代わりに商品検索APIの sort= sold （売れ筋順）を使う。これは実質の順位だが、 Yahooが公式に発表しているランキングではない。 「売れ筋順の◯位」と書き、 「公式ランキング1位」とは絶対に書かない。 そこを混ぜると、使った店が景表法の優良誤認を問われる。 何を知らせるか 抜けた 上位から消えた。 これがいちばん急ぐので先に並べる 動いた 順位が変わった 入った 上位に現れた 上限に注意 appid には1日の上限がある。 35分ほど（2,000件強）で 429 が返るようになる （2026 09 04・別のツールで実測）。キーワードを絞って使う。 応答が無かったときは記録しない。 0件と混同すると「抜けた」と誤って知らせる。 使い方",
-      "url": "https://github.com/syunnjack/yahoo-alert",
-      "defaultBranch": "main",
-      "primaryLanguage": "Python",
-      "languages": [
-        "Python"
-      ],
-      "files": [],
-      "commits": [
-        {
-          "sha": "296c023",
-          "message": "安い順ではなく売れ筋順で取る／取れた商品名を控える",
-          "date": "2026-09-25T09:28:03Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/296c023f0f4aa99b5512441f99c9ce5d631d9bcb"
-        },
-        {
-          "sha": "21c771b",
-          "message": "コスプレ衣装の相場を取る（halloween-event.com 向け）",
-          "date": "2026-09-25T09:25:59Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/21c771b67b0b3accdf9a4069a83842c02aba14a2"
-        },
-        {
-          "sha": "6217659",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-24T22:35:26Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/6217659de00739e711b0873b7d47ecd350722738"
-        },
-        {
-          "sha": "f851a72",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-23T22:35:00Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/f851a72f8f2650b2fcea9e3afcd646a3b37d03eb"
-        },
-        {
-          "sha": "672d05d",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-22T22:34:51Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/672d05d54cf5e7e483e2189d3139f3c99271455b"
-        },
-        {
-          "sha": "cdf11e0",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-21T22:36:36Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/cdf11e00ce9ccbb035250765a7fbdca2a870c91e"
-        },
-        {
-          "sha": "2c59f4a",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-20T22:34:16Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/2c59f4a877bbe0b4962394445f3e99606b904b2c"
-        },
-        {
-          "sha": "4fb18e1",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-19T22:34:22Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/4fb18e16d82412280acd8f91c6b184a891216bdb"
-        },
-        {
-          "sha": "89637c3",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-18T22:34:36Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/89637c3f2b63a2fc4c47f9d25b2f4c4f40f06dbb"
-        },
-        {
-          "sha": "a23ffa7",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-17T22:33:57Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/a23ffa716312e85d4697f989d0a3e50cf0b5e9d8"
-        },
-        {
-          "sha": "3264e9c",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-16T22:34:56Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/3264e9c3575964ddaa211bce3a7359785b2b510a"
-        },
-        {
-          "sha": "72d588b",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-09-15T22:35:05Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/72d588b8c93cd74606c8f6d3e9124bc6440f9552"
-        }
-      ],
-      "updatedAt": "2026-09-25T09:28:11Z",
       "stars": 0,
       "forks": 0
     },
