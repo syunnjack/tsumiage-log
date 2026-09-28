@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T22:26:11.544Z",
+  "generatedAt": "2026-09-28T23:26:04.849Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -9461,6 +9461,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "63a0e74",
+          "message": "スクショを撮り直す",
+          "date": "2026-09-28T23:13:50Z",
+          "url": "https://github.com/syunnjack/respo-check/commit/63a0e74701bf42b17f7c94241480d8e568c8f2b6"
+        },
+        {
           "sha": "91cf0ad",
           "message": "スクショを撮り直す",
           "date": "2026-09-21T23:12:50Z",
@@ -9491,7 +9497,7 @@
           "url": "https://github.com/syunnjack/respo-check/commit/7073865e3933c0e73ab87edce692d3755f45ee4b"
         }
       ],
-      "updatedAt": "2026-09-21T23:12:55Z",
+      "updatedAt": "2026-09-28T23:13:56Z",
       "stars": 0,
       "forks": 0
     },
@@ -12226,6 +12232,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "41265ed",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-28T22:26:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/41265eda0068f6d06a1357012a82c31c7b04daa1"
+        },
+        {
           "sha": "630e019",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-28T21:25:49Z",
@@ -12290,15 +12302,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-28T11:27:53Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/24980fd2c383dd64f3b098f6b76647cc1e312e59"
-        },
-        {
-          "sha": "3165301",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-28T10:31:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/3165301d610227b4935635013ca6d88c6b27a4e3"
         }
       ],
-      "updatedAt": "2026-09-28T21:25:54Z",
+      "updatedAt": "2026-09-28T22:26:47Z",
       "stars": 0,
       "forks": 0
     },
