@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:43:35.662Z",
+  "generatedAt": "2026-09-30T13:43:42.421Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -12232,6 +12232,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "bbca793",
+          "message": "手書き記事を4本足す（14→18本）",
+          "date": "2026-09-30T13:28:11Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/bbca7935ecb46a047a454bde123643f9f5a3927e"
+        },
+        {
+          "sha": "4055d4d",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-09-30T06:44:08Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/4055d4d36e7e30a84ceccbc44744f3dc7923c882"
+        },
+        {
           "sha": "a018f17",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-30T00:28:35Z",
@@ -12290,21 +12302,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-29T12:41:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/5c676366aff41ac9c830ad351b5fdb8327910358"
-        },
-        {
-          "sha": "cbe74ee",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T11:27:02Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/cbe74ee0863e26df64a6937e3d20b5c7d0ad3d64"
-        },
-        {
-          "sha": "9b2af98",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T10:30:09Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/9b2af98157026ae17a607876402440f650aa2634"
         }
       ],
-      "updatedAt": "2026-09-30T00:28:41Z",
+      "updatedAt": "2026-09-30T13:29:31Z",
       "stars": 0,
       "forks": 0
     },
