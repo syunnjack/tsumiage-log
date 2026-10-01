@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T13:14:18.515Z",
+  "generatedAt": "2026-10-01T18:55:26.212Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -4974,6 +4974,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6d32aef",
+          "message": "Search Console の所有権確認タグをビルドに渡す",
+          "date": "2026-10-01T15:07:52Z",
+          "url": "https://github.com/syunnjack/iniD-comunity/commit/6d32aef00d736e6ff4790a429fff414e8b1ae9a0"
+        },
+        {
           "sha": "68c4998",
           "message": "アミューズメントICカードのWeb連携とデータ移行の制約を追記し、Search Console の確認ファイルを置く",
           "date": "2026-09-12T10:33:54Z",
@@ -5038,15 +5044,9 @@
           "message": "Add UGC engagement loops",
           "date": "2026-08-02T03:38:33Z",
           "url": "https://github.com/syunnjack/iniD-comunity/commit/f249f7b2ec4f562188daab6e2f07cbcbe070cba6"
-        },
-        {
-          "sha": "a469ab9",
-          "message": "Prepare domain launch operations",
-          "date": "2026-08-02T03:13:20Z",
-          "url": "https://github.com/syunnjack/iniD-comunity/commit/a469ab9c3f83fdf10c752cd907fba5f3e269e5af"
         }
       ],
-      "updatedAt": "2026-09-12T10:34:00Z",
+      "updatedAt": "2026-10-01T15:08:14Z",
       "stars": 0,
       "forks": 0
     },
@@ -12244,6 +12244,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f221aa3",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-01T13:14:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f221aa3e49d1dbc60965a217fda65674270fae56"
+        },
+        {
           "sha": "91e477e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-01T05:53:49Z",
@@ -12308,15 +12314,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-29T17:27:02Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7bbf43a67c6fc90cdc48870b3e9919b442719ab6"
-        },
-        {
-          "sha": "b49fbb9",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T16:32:27Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/b49fbb91d5945b50a57551eba24163cb8d35552c"
         }
       ],
-      "updatedAt": "2026-10-01T05:53:55Z",
+      "updatedAt": "2026-10-01T13:14:55Z",
       "stars": 0,
       "forks": 0
     },
