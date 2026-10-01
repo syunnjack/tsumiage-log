@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T05:53:25.270Z",
+  "generatedAt": "2026-10-01T13:14:18.515Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -3448,6 +3448,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "eba3a8d",
+          "message": "robots.txt のサイトマップを本番ドメインに直す",
+          "date": "2026-10-01T11:07:12Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/eba3a8d78767908e0b5bc2f34ae1226eb458b38a"
+        },
+        {
           "sha": "fe71474",
           "message": "楽天カタログ同期のSSHを3回まで試す",
           "date": "2026-08-23T14:11:36Z",
@@ -3512,15 +3518,9 @@
           "message": "LINE連携が未設定のうちは、押せない表示にする",
           "date": "2026-08-18T22:35:57Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/4a2dceb0baaa38bf272c99faed2771e2b4084e70"
-        },
-        {
-          "sha": "89b29e1",
-          "message": "住民側のふるさと納税（控除額）も自治体ページに載せる",
-          "date": "2026-08-18T22:36:02Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/89b29e1496ed6bfc53c2c0e1189e161905860403"
         }
       ],
-      "updatedAt": "2026-08-23T14:11:54Z",
+      "updatedAt": "2026-10-01T11:07:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -6059,6 +6059,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "9e3c503",
+          "message": "SFTPアクションをやめてランナーから直接 scp で届ける",
+          "date": "2026-10-01T11:04:14Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/9e3c503cb56928064fac61e22e3542fcc076d77c"
+        },
+        {
+          "sha": "b0802f2",
+          "message": "canonical がクエリを落としていたのを直す",
+          "date": "2026-10-01T10:58:28Z",
+          "url": "https://github.com/syunnjack/like-mangavi/commit/b0802f26cabc62327b2392a32845c0d81843ea2a"
+        },
+        {
           "sha": "92c8b2a",
           "message": "楽天APIの認証情報を config 経由で読む",
           "date": "2026-08-30T08:36:35Z",
@@ -6117,21 +6129,9 @@
           "message": "Point sitemap at the production domain manga-kuchikomi.jp",
           "date": "2026-07-14T10:05:56Z",
           "url": "https://github.com/syunnjack/like-mangavi/commit/67fb6998f540a5d80b26afc4d7a5925f3199e25c"
-        },
-        {
-          "sha": "ce7959e",
-          "message": "Build マンガ口コミ検索: legal manga/photobook/DVD search with UGC",
-          "date": "2026-07-14T09:59:26Z",
-          "url": "https://github.com/syunnjack/like-mangavi/commit/ce7959e3d5a44391017affaae3c59dee7937b02a"
-        },
-        {
-          "sha": "90897ec",
-          "message": "Initial commit like-mangavi",
-          "date": "2025-07-26T12:01:17Z",
-          "url": "https://github.com/syunnjack/like-mangavi/commit/90897ecc024081dc21c3f36e53a6d1eaf4d124b2"
         }
       ],
-      "updatedAt": "2026-08-30T08:36:58Z",
+      "updatedAt": "2026-10-01T11:04:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -6733,6 +6733,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "fc75253",
+          "message": "Xserver を踏み台にして WPX へデプロイする",
+          "date": "2026-10-01T06:39:28Z",
+          "url": "https://github.com/syunnjack/maportal/commit/fc752537c5860e16486b23153d6378bb6547672b"
+        },
+        {
           "sha": "46c752a",
           "message": "Point robots.txt at the real sitemap",
           "date": "2026-08-30T10:57:50Z",
@@ -6797,15 +6803,9 @@
           "message": "Add GitHub Actions deployment workflow",
           "date": "2026-08-01T19:10:18Z",
           "url": "https://github.com/syunnjack/maportal/commit/6aa0e7dedf51960f3cc354b5d49f6be4dbeef009"
-        },
-        {
-          "sha": "3a4a3dd",
-          "message": "JSON-LDのbladeテンプレートで@contextがLaravelの予約ディレクティブと衝突していたバグを修正",
-          "date": "2026-07-14T22:00:44Z",
-          "url": "https://github.com/syunnjack/maportal/commit/3a4a3dd05b17e2d62766b4d2591fd96f4f085f03"
         }
       ],
-      "updatedAt": "2026-08-30T10:58:24Z",
+      "updatedAt": "2026-10-01T06:39:40Z",
       "stars": 0,
       "forks": 0
     },
@@ -10579,6 +10579,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "be66948",
+          "message": "Search Console の所有権確認タグを入れる",
+          "date": "2026-10-01T11:16:10Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/be669481a5278231b878c7719c980eea12c7bae9"
+        },
+        {
+          "sha": "756d08f",
+          "message": "canonical と robots.txt・sitemap.xml を置く",
+          "date": "2026-10-01T10:58:08Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/756d08f5adb6a664b3d163e73942d4c1af9a243f"
+        },
+        {
+          "sha": "bd5fea9",
+          "message": "GitHub Pages から配信する",
+          "date": "2026-10-01T07:53:48Z",
+          "url": "https://github.com/syunnjack/shikaku-score/commit/bd5fea91e34bc1c4ba233989c247d635234717d4"
+        },
+        {
           "sha": "847eae6",
           "message": "README を実態に合わせる（配信はVercel／他社名を削除）",
           "date": "2026-09-23T10:17:55Z",
@@ -10631,15 +10649,9 @@
           "message": "平均との差と、スコアの推移を出す (#1)",
           "date": "2026-09-16T16:38:57Z",
           "url": "https://github.com/syunnjack/shikaku-score/commit/b4ccc4b4145564ac5cbaac876c214b0497f3f32b"
-        },
-        {
-          "sha": "2d3ad9e",
-          "message": "合格ラインとの距離を出す（宅建・行政書士）",
-          "date": "2026-09-04T14:22:31Z",
-          "url": "https://github.com/syunnjack/shikaku-score/commit/2d3ad9e9ab42020318174785fc7ff077c8ab5f8f"
         }
       ],
-      "updatedAt": "2026-09-23T10:18:02Z",
+      "updatedAt": "2026-10-01T11:16:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -12232,6 +12244,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "91e477e",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-01T05:53:49Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/91e477ef54936fbffa9f3afbfdc2ce02f4ee0d37"
+        },
+        {
           "sha": "5682122",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-30T23:49:48Z",
@@ -12296,15 +12314,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-29T16:32:27Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/b49fbb91d5945b50a57551eba24163cb8d35552c"
-        },
-        {
-          "sha": "043f77b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T15:29:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/043f77bb9664b0a98ea5fa8dfa9d1808f12fc3e4"
         }
       ],
-      "updatedAt": "2026-09-30T23:49:53Z",
+      "updatedAt": "2026-10-01T05:53:55Z",
       "stars": 0,
       "forks": 0
     },
