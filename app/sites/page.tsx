@@ -43,6 +43,8 @@ const groups: Group[] = [
       { name: "引越し業者相見積もり口コミ", url: "https://hikkoshi-hikaku.jp/", description: "「引越安心マーク」を取得している事業者を掲載しています。" },
       { name: "キャンプ場比較", url: "https://camp-hikaku.jp/", description: "空き状況と口コミからキャンプ場を比べられます。" },
       { name: "暮らしとビジネスの比較ポータル", url: "https://kurabe-kurashi.jp/", description: "地域とジャンルの組み合わせで、比較の入口をまとめています。" },
+      { name: "マッサージ口コミポータル", url: "https://massage-kuchikomi.jp/", description: "全国のマッサージ・整体・リラクゼーション店を都道府県から探せます。" },
+      { name: "マンガ口コミ検索", url: "https://manga-kuchikomi.jp/", description: "マンガをジャンルから探し、試し読みと口コミを確認できます。" },
     ],
   },
   {
@@ -65,6 +67,7 @@ const groups: Group[] = [
       { name: "資格試験ガイド", url: "https://examdate.jp/", description: "主要な資格試験の制度と主催団体を、公式情報からまとめています。" },
       { name: "福祉の求人アラート", url: "https://welfarejob.jp/", description: "障害者雇用と福祉の仕事を扱っています。" },
       { name: "GoalPilot", url: "https://goalpilot.jp/", description: "続かなくなった目標を、戻すためのアプリです。" },
+      { name: "合格ラインとの距離", url: "https://erabiyori.jp/", description: "宅建・行政書士の得点から、合格点までの距離と足切りの判定を出します。予想問題60問と公式10年分のデータも無料で見られます。" },
     ],
   },
   {
@@ -77,6 +80,8 @@ const groups: Group[] = [
       { name: "くらしの節約データ", url: "https://enjoy-setsuyaku.jp/", description: "家計調査のデータから、都市ごとの支出を見られます。" },
       { name: "47めし", url: "https://47meshi.net/", description: "農林水産省「うちの郷土料理」をもとに、47都道府県の郷土料理を並べています。" },
       { name: "よろず掲示板", url: "https://yorozu-bbs.jp/", description: "誰でも匿名で書き込める掲示板です。" },
+      { name: "WANGAN BASE", url: "https://midnightpit.jp/", description: "湾岸ミッドナイト マキシマムチューンのプレイ記録と、公式設置店への都道府県別リンクです。" },
+      { name: "INITIAL D START LINE", url: "https://touge-start.jp/", description: "頭文字D THE ARCADE のプレイ記録です。" },
     ],
   },
 ]
