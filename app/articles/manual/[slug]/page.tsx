@@ -18,7 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!article) return {}
   const image = article.thumbnail ?? "/og.png"
   return {
-    title: `${article.title} | 積み上げログ`,
+    // 日本語の検索結果でタイトルが出るのは先頭30字前後。サイト名を付けると
+    // その7字ぶん検索語が切れるので、記事ページでは付けない。
+    title: article.title,
     description: article.description,
     alternates: { canonical: `/articles/manual/${article.slug}/` },
     openGraph: {

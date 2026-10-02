@@ -2,7 +2,7 @@
   "articles": [
     {
       "slug": "studying-chokuzen-set-goukaku-oiwaikin",
-      "title": "合格返金狙いで講座に入るのは2回目｜東京法経では返ってこず、スタディングはそもそも返金ではなかった",
+      "title": "スタディングの合格お祝い金は返金ではない｜東京法経の合格返金制度と比べた",
       "description": "2024年に東京法経学院の合格講座へ合格返金狙いで入り、12点足りずに不合格。返金はなかった。2026年も同じ発想でスタディングの直前対策セット（29,700円）を申し込んだら、今度はそもそも返金制度ではなかった。50を過ぎて気力と体力が落ちるなかで、動機を外から持ってくることにした話。",
       "category": "学習記録",
       "tags": [
@@ -154,7 +154,7 @@
     },
     {
       "slug": "contact-address-had-no-mx-record",
-      "title": "サイトに載せていた問い合わせ先に、メールが1通も届いていなかった｜MXレコードが無かった",
+      "title": "MXレコードが無いとメールは1通も届かない｜問い合わせ先を載せたまま3サイトで起きていた",
       "description": "3つのサイトのフッターに info@ のアドレスを載せていた。削除依頼の窓口として全ページに出していたのに、MXレコードが1本も設定されていなかった。送られたメールはすべてエラーで返っていたことになる。Cloudflare Email Routing で受信できるようにするまでの手順を書く。",
       "category": "サイト運営",
       "tags": [
@@ -256,7 +256,7 @@
     },
     {
       "slug": "cross-service-id-lookup-by-name",
-      "title": "3社のAPIを突き合わせるとき、IDを書き写してはいけない｜名前で引き当てる設計にした理由",
+      "title": "複数APIの突き合わせでIDを書き写さない｜名前で引き当てる設計にした理由",
       "description": "3つのサービスのAPIから同じ分類のデータを集めることになった。最初はIDをコードに書いていたが、取り違えても誰も気づけない。名前で引き当てる方式に変えたところ、社ごとに呼び方が違うことや、そもそも存在しない分類があることが分かった。",
       "category": "設計",
       "tags": [
@@ -347,7 +347,7 @@
     },
     {
       "slug": "ssh-timeout-retry-github-actions",
-      "title": "毎日の同期がSSHのタイムアウトで落ちていた｜GitHub Actionsで3回まで掛け直す",
+      "title": "GitHub ActionsのSSHタイムアウトを3回リトライする｜毎日の同期が4日に3日落ちていた",
       "description": "毎日13時に走る同期処理が、4日のうち3日失敗していた。ログを見ると dial tcp のタイムアウト。コマンドが失敗したのではなく、TCP接続すら張れていない。接続の待ち時間を延ばし、間隔を空けて3回試すようにした実装を書く。",
       "category": "CI/CD",
       "tags": [
@@ -431,7 +431,7 @@
     },
     {
       "slug": "spa-html-empty-for-llm-crawlers",
-      "title": "ReactのトップページはHTMLソースが空だった｜生成AIのクローラーには真っ白に見えている",
+      "title": "React SPAのHTMLが空でAIのクローラーに読まれない｜curlで見ると中身が無い",
       "description": "Vite + React で作ったトップページを curl で取得したら、リンクが1つも入っていなかった。div id=root が空で、中身はすべてJavaScriptが描いていた。Googleは実行してくれるが、生成AIのクローラーの多くは実行しない。何が見えていなかったのか、どう直したのかを書く。",
       "category": "SEO",
       "tags": [
@@ -527,7 +527,7 @@
     },
     {
       "slug": "postgres-function-public-execute-rls-hole",
-      "title": "SupabaseのRLSを固めたのに、匿名キーで承認関数を呼べた｜PostgreSQLの関数はPUBLICに実行権限がある",
+      "title": "PostgreSQLの関数はPUBLICに実行権がある｜SupabaseのRLSを固めても匿名キーで呼べた",
       "description": "静的サイトの投稿機能をSupabaseで作った。行レベルセキュリティ（RLS）は3つの条件を満たすよう慎重に書いた。ところが匿名キーで実際に攻撃してみたら、投稿者が自分の投稿を承認済みにできてしまった。PostgreSQLの関数は既定でPUBLICにEXECUTE権限が付くためだった。",
       "category": "セキュリティ",
       "tags": [
@@ -622,7 +622,7 @@
     },
     {
       "slug": "adsense-required-pages-checklist",
-      "title": "AdSense申請に必要なページ一式｜プライバシーポリシーに何を書くか、実際に使っているサービスから決める",
+      "title": "AdSense申請に必要なページ一式とプライバシーポリシーの書き方｜使っているサービスから決める",
       "description": "AdSenseの審査に落ちたサイトを整えるなかで、プライバシーポリシーもフッターも無いことに気づいた。テンプレートを貼るのではなく、コードを調べて実際に使っているサービスだけを書いた。必要なページと、それぞれに何を書いたかをまとめる。",
       "category": "サイト運営",
       "tags": [
@@ -755,7 +755,7 @@
     },
     {
       "slug": "whois-rdap-expired-domain-check",
-      "title": "whoisで「登録あり」に見えたドメインが、RDAPでは全部失効していた｜6件を調べ直した話",
+      "title": "whoisとRDAPでドメインの期限切れ判定が食い違う｜6件を調べ直した",
       "description": "AdSenseに登録したまま放置していたサイトを整理するため、ドメインの生死を調べた。whoisでは3件が「登録あり」に見えたが、RDAPで照会し直すと全件が失効していた。TLDごとに応答形式が違うことが原因だった。確実に判定する方法をまとめる。",
       "category": "インフラ",
       "tags": [
@@ -855,7 +855,7 @@
     },
     {
       "slug": "noindex-does-not-hide-from-adsense",
-      "title": "noindex はAdSenseの審査には効かない｜検索から消しても、審査員には見えている",
+      "title": "noindexはAdSenseの審査に効かない｜検索から消しても審査員には見えている",
       "description": "薄い自動生成ページ340本を noindex にしてサイトマップからも外した。それで対策は終わったつもりだった。しかし記事一覧を開くと、そのページへのリンクが343件並んだままだった。noindex は検索エンジンの索引から外す指定であって、審査員が見るのを止めるものではない。何を勘違いしていたのかを書く。",
       "category": "サイト運営",
       "tags": [
@@ -958,7 +958,7 @@
     },
     {
       "slug": "adsense-low-value-content-measured",
-      "title": "AdSenseに「有用性の低いコンテンツ」で落ちた原因を、記事340本の文字数を測って特定した",
+      "title": "AdSenseの「有用性の低いコンテンツ」の原因を記事340本の文字数で特定した",
       "description": "自動生成した記事340本を抱えた技術ブログが、AdSenseの審査に落ちた。理由は「有用性の低いコンテンツ」。感覚で直すのではなく、全記事の文字数と見出し構成を実測して原因を切り分けた。何が薄かったのか、どこを直したのかを数字で記録する。",
       "category": "サイト運営",
       "tags": [
@@ -1055,7 +1055,7 @@
     },
     {
       "slug": "reusable-workflow-secrets-inherit",
-      "title": "GitHub Actionsの再利用ワークフローでSecretが空になり、投票欄が消えていた｜secrets: inherit を忘れた話",
+      "title": "secrets: inherit 忘れでGitHub ActionsのSecretが空になる｜再利用ワークフロー",
       "description": "週次のデータ更新のたびに、サイトから投票ボタンと口コミ欄が消えていた。原因は、再利用ワークフローを呼ぶときに secrets: inherit を書いていなかったこと。pushでのデプロイでは正常に動くため、手元では再現しない。同じ経路で続けて踏んだ3つの落とし穴と、その直し方をまとめる。",
       "category": "CI/CD",
       "tags": [
@@ -1145,7 +1145,7 @@
     },
     {
       "slug": "cloudflare-nameservers-differ-per-zone",
-      "title": "Cloudflareのネームサーバーはゾーンごとに違う｜19ドメイン分の設定をやり直した話",
+      "title": "Cloudflareのネームサーバーはゾーンごとに違う｜pendingのまま19ドメイン止まった",
       "description": "未使用ドメインをCloudflare経由で301転送しようとして、19件が何時間経っても pending のままだった。原因は、Cloudflareが割り当てるネームサーバーの組がドメインごとに違うことだった。レジストリのwhoisで一件ずつ確認して初めて分かった経緯と、確認の手順をまとめる。",
       "category": "インフラ",
       "tags": [
@@ -1256,7 +1256,7 @@
     },
     {
       "slug": "ga4-not-tracking-static-analysis-pitfall",
-      "title": "GA4が計測されない原因を283サイト分調べた｜コード検索では絶対に分からない4つの落とし穴",
+      "title": "GA4が計測されない4つの原因｜283サイトを調べ、コード検索では分からなかった",
       "description": "「リポジトリにgtagが無い＝GA4が動いていない」と思って283リポジトリをgrepしたら、154件が未計測という結果が出た。実際にサイトへアクセスして確かめ直したら、本当に困っていたのは5件だけだった。静的解析が嘘をつく理由と、GA4 Admin APIを使った確実な確認手順をまとめる。",
       "category": "運用・計測",
       "tags": [
@@ -1456,7 +1456,7 @@
     },
     {
       "slug": "json-import-bundle-bloat",
-      "title": "5207件のJSONをそのままimportしたら本番バンドルが4.3MBになった話",
+      "title": "JSONをimportするとバンドルが4.3MBに肥大した｜5207件を外に出して直した",
       "description": "Reactの検索UIで`import data from './data.json'`していたら、データが5207件に増えた瞬間にメインバンドルが4.3MBになった。原因と、63KBまで削った方法の記録。",
       "category": "パフォーマンス改善",
       "tags": [
@@ -1508,7 +1508,7 @@
     },
     {
       "slug": "redirect-404-html-returns-404",
-      "title": "404.html で転送すると、ブラウザは飛ぶが検索エンジンには404のまま",
+      "title": "GitHub Pagesの404.html転送は検索エンジンに404を返す｜ブラウザでは飛ぶ",
       "description": "GitHub Pages は301を返せない。404.html に JS を入れて転送したが、HTTPステータスは404のままで、5日間 約7,000URLが行き先を失っていた。200を返す実体ファイルに置き換えるまでの記録。",
       "category": "SEO",
       "tags": [
@@ -1561,7 +1561,7 @@
     },
     {
       "slug": "wp-insert-post-author-zero",
-      "title": "wp_insert_post に post_author を渡さないと、テーマによっては公開ページに警告が出る",
+      "title": "wp_insert_postにpost_authorを渡さないと公開ページに警告が出る",
       "description": "WordPress に記事を一括投入したあと、片方のサイトだけ画面の先頭に PHP Warning が出た。原因は post_author=0。Cocoon では出ず AFFINGER では出る。3サイト143件を直すまで。",
       "category": "サイト運用",
       "tags": [
@@ -1612,7 +1612,7 @@
     },
     {
       "slug": "sitemap-and-canonical-contradict",
-      "title": "サイトマップに載せたURLが、canonical で「登録しないで」と言っていた",
+      "title": "canonicalとサイトマップが矛盾すると46ページが未登録になる",
       "description": "46ページが発見済み未登録。各ページに2万字あるのに、canonical が自分自身を指していなかった。修正は1か月半前にコミット済みで、本番に届いていなかっただけ。",
       "category": "SEO",
       "tags": [
@@ -1666,7 +1666,7 @@
     },
     {
       "slug": "dont-state-a-cause-before-measuring",
-      "title": "証明書が出ない原因を2回言い切って、2回とも外した",
+      "title": "GitHub Pagesの証明書が出ない原因を2回言い切って2回とも外した",
       "description": "GitHub Pages の証明書が発行されない。原因を推測で2回報告し、2回とも崩れた。手元のリゾルバのキャッシュを事実として扱ったのが間違いだった。",
       "category": "インフラ",
       "tags": [
