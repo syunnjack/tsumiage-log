@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:13:03.837Z",
+  "generatedAt": "2026-10-02T02:18:04.649Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -23,7 +23,6 @@
     "onsen-ranking",
     "shinsaku-calendar",
     "vr-content-gear-guide",
-    "yahoo-alert",
     "yuniba"
   ],
   "articles": [
@@ -407,6 +406,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "37aff4c",
+          "message": "Refresh bowling event data",
+          "date": "2026-10-01T23:51:11Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/37aff4ce5227a04b54a212fdf69856ee446d4abc"
+        },
+        {
           "sha": "f582a0a",
           "message": "Refresh bowling event data",
           "date": "2026-09-30T23:39:52Z",
@@ -471,15 +476,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-09-20T20:26:12Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/0aaf8c054584b4585bed807c2b318cb6ce071f3b"
-        },
-        {
-          "sha": "3f3dd21",
-          "message": "Refresh bowling event data",
-          "date": "2026-09-19T20:20:10Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/3f3dd21e7f89c0bb329abd8024f7ea5e5e2c7c8d"
         }
       ],
-      "updatedAt": "2026-09-30T23:39:57Z",
+      "updatedAt": "2026-10-01T23:51:16Z",
       "stars": 0,
       "forks": 0
     },
@@ -2259,6 +2258,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "65001ea",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-10-01T23:39:02Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/65001ea1e995770d1073f680dfad4897707c5662"
+        },
+        {
           "sha": "7fd9596",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-30T23:24:37Z",
@@ -2323,15 +2328,9 @@
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-20T20:08:07Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/3d50433350de82ab51bb4d51c749239611922167"
-        },
-        {
-          "sha": "b65d2d2",
-          "message": "配信状況を取り直す（TMDB）",
-          "date": "2026-09-19T20:08:32Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/b65d2d2c14ddd07541379acc2ba9ec6b364eebe3"
         }
       ],
-      "updatedAt": "2026-09-30T23:24:43Z",
+      "updatedAt": "2026-10-01T23:39:08Z",
       "stars": 0,
       "forks": 0
     },
@@ -10670,6 +10669,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "98646c8",
+          "message": "レビューの増減を記録する",
+          "date": "2026-10-02T01:16:58Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/98646c83ced4c6f53b27891507aa0fefa3ca6099"
+        },
+        {
           "sha": "c20d924",
           "message": "レビューの増減を記録する",
           "date": "2026-10-01T01:03:48Z",
@@ -10734,15 +10739,9 @@
           "message": "レビューの増減を記録する",
           "date": "2026-09-20T22:09:13Z",
           "url": "https://github.com/syunnjack/shop-review/commit/4facb89e94f49e4f73949bc8024dc1df8489a8dd"
-        },
-        {
-          "sha": "a4f30d1",
-          "message": "レビューの増減を記録する",
-          "date": "2026-09-19T22:08:58Z",
-          "url": "https://github.com/syunnjack/shop-review/commit/a4f30d115538f86c8032856bc5af22458eaea3a7"
         }
       ],
-      "updatedAt": "2026-10-01T01:03:54Z",
+      "updatedAt": "2026-10-02T01:17:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -12244,6 +12243,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "ceed22c",
+          "message": "Web関連に特化する。資格記事を gyosei-yosou.jp へ移し、新記事5本を足す",
+          "date": "2026-10-02T01:05:18Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/ceed22cbb5db702c1056969bf6c0cc5d7a204ec4"
+        },
+        {
+          "sha": "a705826",
+          "message": "記事タイトルを検索語が先頭30字に入る形に書き直す",
+          "date": "2026-10-02T00:47:54Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/a705826eea3adeae59616d4c48232b4aee83c558"
+        },
+        {
+          "sha": "5f6840c",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-01T23:13:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/5f6840c9a31b168ca679fd8bc2914d70974eb276"
+        },
+        {
           "sha": "6e84c00",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-01T18:55:57Z",
@@ -12296,27 +12313,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-09-30T00:28:35Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/a018f174adcc59793f7a3e7a81a0419755027c4e"
-        },
-        {
-          "sha": "47546de",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T20:30:35Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/47546de2c02c265875c58f96057282ca68ad3d5f"
-        },
-        {
-          "sha": "c0c7f3b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T19:26:54Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/c0c7f3bd496d795322dfbbb409d5cbb089e553de"
-        },
-        {
-          "sha": "ae4c27e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-09-29T18:34:25Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ae4c27ea04ed3359ac755a93e07f0cd2a6b2b4bc"
         }
       ],
-      "updatedAt": "2026-10-01T18:56:04Z",
+      "updatedAt": "2026-10-02T01:05:25Z",
       "stars": 0,
       "forks": 0
     },
@@ -13099,6 +13098,97 @@
         }
       ],
       "updatedAt": "2026-08-21T14:13:58Z",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "slug": "yahoo-alert",
+      "name": "yahoo-alert",
+      "displayName": "Yahoo Alert",
+      "description": "Yahoo Alertは、Pythonを中心に設計・実装したプロジェクトです。",
+      "readmeExcerpt": "yahoo alert（choicecompass.jp）— Yahoo ショッピングの売れ筋ウォッチ リポジトリ名は yahoo alert だが、公開先は choicecompass.jp。 「公式ランキング」とは名乗らない Yahoo のランキングAPI（V1 ranking）は 500 を返す。 カテゴリを指定してもしなくても同じ（2026 09 04 実測）。動いていない。 代わりに商品検索APIの sort= sold （売れ筋順）を使う。これは実質の順位だが、 Yahooが公式に発表しているランキングではない。 「売れ筋順の◯位」と書き、 「公式ランキング1位」とは絶対に書かない。 そこを混ぜると、使った店が景表法の優良誤認を問われる。 何を知らせるか 抜けた 上位から消えた。 これがいちばん急ぐので先に並べる 動いた 順位が変わった 入った 上位に現れた 上限に注意 appid には1日の上限がある。 35分ほど（2,000件強）で 429 が返るようになる （2026 09 04・別のツールで実測）。キーワードを絞って使う。 応答が無かったときは記録しない。 0件と混同すると「抜けた」と誤って知らせる。 使い方",
+      "url": "https://github.com/syunnjack/yahoo-alert",
+      "defaultBranch": "main",
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "files": [],
+      "commits": [
+        {
+          "sha": "df565be",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-02T01:45:33Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/df565be6058e2a36b31b062e4014045cbf1b276a"
+        },
+        {
+          "sha": "8ad8a63",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-01T01:24:50Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/8ad8a639fcc90a03e70392c6b109fae64c184b31"
+        },
+        {
+          "sha": "d140e61",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-29T22:37:58Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/d140e617a921f3c9a9722473414a2b53cb3e9466"
+        },
+        {
+          "sha": "18d0e3a",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-28T22:36:45Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/18d0e3ac29f38927beebcc47fa5064f3a5f73e07"
+        },
+        {
+          "sha": "198e805",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-27T22:37:28Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/198e80562cd719364a5eb6f39c3945cf0588130b"
+        },
+        {
+          "sha": "4b6474a",
+          "message": "コスプレ衣装の相場を取り直す",
+          "date": "2026-09-27T19:07:21Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/4b6474ae111ed88c8c51f28c74b761e04473d197"
+        },
+        {
+          "sha": "eb7d6cf",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-26T22:35:04Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/eb7d6cff4301881c0fdfcc92daf78076804ca85b"
+        },
+        {
+          "sha": "100f145",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-09-25T22:36:33Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/100f14540d036e9ae238c0fb67e8002afaca37fc"
+        },
+        {
+          "sha": "70424c8",
+          "message": "取得を週1回にする",
+          "date": "2026-09-25T09:55:00Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/70424c80528b24881a3f6ea446d728041ad4c60d"
+        },
+        {
+          "sha": "6cea5f2",
+          "message": "コスプレ衣装の相場を取り直す",
+          "date": "2026-09-25T09:49:07Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/6cea5f25167eaac5dbf0483ab80ab616a3992664"
+        },
+        {
+          "sha": "57c7b81",
+          "message": "中央値に近い3件を代表として残す",
+          "date": "2026-09-25T09:48:16Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/57c7b81be1b2cb93359971ab910d768fd4547861"
+        },
+        {
+          "sha": "c18702a",
+          "message": "コスプレ衣装の相場を取り直す",
+          "date": "2026-09-25T09:32:22Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/c18702a7374c7404d1d9173757c5ee48db1209f2"
+        }
+      ],
+      "updatedAt": "2026-10-02T01:45:38Z",
       "stars": 0,
       "forks": 0
     },
