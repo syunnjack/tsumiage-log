@@ -11,7 +11,6 @@ const items = [
   ["キャリア・学習", "/career-support/"],
   // 「動画」(/videos/) は自動生成の視聴ページ167本が並ぶ一覧なので、全ページの
   // ヘッダーからは外した。動画は /portfolio → リポジトリ記事 から辿れる。
-  ["お気に入り動画", "/videos/favorites/"],
 ]
 
 export default function GlobalNav() {

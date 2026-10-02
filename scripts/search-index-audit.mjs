@@ -76,10 +76,10 @@ if (failures.length === 0) {
   // 一覧の /videos/ 自体も外した（2026-08-29）。視聴ページ167本へのリンクが並ぶため、
   // AdSense の審査員には前回落ちたときと同じ画面に見えていた。noindex は検索に効くだけで、
   // 人が見る画面は変わらない（/articles/manual/noindex-does-not-hide-from-adsense/）。
-  // 選定理由を書いた手書きの /videos/favorites/ は残す。
+  // /videos/favorites/ は 2026-10-02 に削除した。ここも「入っていないこと」を守る。
   const videoSitemapEntries = sitemapUrls
     .map((url) => new URL(url).pathname)
-    .filter((path) => path.startsWith("/videos/") && path !== "/videos/favorites/")
+    .filter((path) => path.startsWith("/videos/"))
   if (videoSitemapEntries.length !== 0) {
     failures.push(`通常サイトマップに動画ページが${videoSitemapEntries.length}件入っています（${videoSitemapEntries.join(", ")}）。noindex にしたページなので載せないこと`)
   }

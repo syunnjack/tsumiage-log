@@ -86,15 +86,6 @@ export default function VideosPage() {
       </section>
 
       <section className="video-plan-section">
-        <Link className="favorite-video-entry" href="/videos/favorites/">
-          <div>
-            <p>おすすめ動画</p>
-            <h2>気に入った動画</h2>
-            <span>技術、F1、お笑い、犬猫、音楽など、実際に見て印象に残った動画を紹介します。</span>
-          </div>
-          <strong>お気に入りを見る →</strong>
-        </Link>
-
         <div className="original-video-panel">
           <div>
             <p className="eyebrow">

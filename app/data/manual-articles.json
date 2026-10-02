@@ -2050,6 +2050,508 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "sitemap-50000-url-limit-split",
+      "title": "サイトマップは1ファイル50,000URLまで｜超えた分は読まれない",
+      "description": "サーチコンソールの発見済みページが33,659件で止まっていた。サイトマップは54,780URLあり、1ファイルの上限50,000を超えていた。索引形式に分けると、どの種類が登録されていないかもGSCで読めるようになる。",
+      "category": "SEO",
+      "tags": [
+        "サイトマップ",
+        "Search Console",
+        "SEO",
+        "インデックス"
+      ],
+      "publishedAt": "2026-10-02T15:00:00+09:00",
+      "updatedAt": "2026-10-02T15:00:00+09:00",
+      "published": true,
+      "related": [
+        "sitemap-and-canonical-contradict",
+        "japanese-title-30-chars-serp"
+      ],
+      "sections": [
+        {
+          "heading": "発見済みページが途中で止まっていた",
+          "body": [
+            "サーチコンソールの「発見されたページ」が33,659件から増えなくなった。サイトマップには54,780のURLが入っている。",
+            "エラーは出ていない。ステータスは成功のまま。**足りないことだけが数字に出ていた。**"
+          ]
+        },
+        {
+          "heading": "上限は50,000URLまたは50MB",
+          "body": [
+            "サイトマップ1ファイルに書けるのは **50,000URL / 非圧縮50MB** まで。どちらかを超えると、超えた分は読まれない。",
+            "54,780 − 50,000 = 4,780。実際に止まっていた位置とはずれるが、**上限を超えたファイルは全体の扱いが不安定になる。** 先頭から50,000件まで読まれる保証も無い。",
+            "ファイルが壊れているわけではないので、エラーとしては出てこない。**件数を自分で数えないと気づけない。**"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s https://example.jp/sitemap.xml | grep -c '<loc>'"
+          }
+        },
+        {
+          "heading": "索引形式に分ける",
+          "body": [
+            "`<urlset>` を `<sitemapindex>` に変え、中身を種類ごとのファイルに分ける。"
+          ],
+          "code": {
+            "language": "xml",
+            "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap><loc>https://example.jp/sitemap-person.xml</loc></sitemap>\n  <sitemap><loc>https://example.jp/sitemap-genre.xml</loc></sitemap>\n  <sitemap><loc>https://example.jp/sitemap-static.xml</loc></sitemap>\n</sitemapindex>"
+          }
+        },
+        {
+          "heading": "送信済みのURLは変えない",
+          "body": [
+            "索引のURL（`/sitemap.xml`）を変えなければ、**サーチコンソールで送り直す必要は無い。** 中身が索引に変わったことは次のクロールで伝わる。",
+            "**件数で機械的に分けるより、種類で分けたほうがよい。** 「どの種類がインデックスされていないか」がGSCの画面でそのまま読めるようになる。全部を1本にまとめていると、3万件が未登録とだけ分かって、原因の切り分けができない。"
+          ]
+        },
+        {
+          "heading": "サイトマップを読む側も直す",
+          "body": [
+            "分けたあと、`<loc>` の中身がページURLではなくサイトマップURLに変わる。**それを読んでいる別の仕組みがあれば、索引をたどるよう直す必要がある。**",
+            "IndexNow に送る処理がサイトマップを読んでいた場合、索引のURLを3件送って終わってしまう。ここは分割した直後に壊れやすい。"
+          ]
+        },
+        {
+          "heading": "再送信を押すかどうか",
+          "body": [
+            "サイトマップの再送信は普段は不要。Googleは定期的に読み直す。",
+            "ただしGSCの「最終閲覧」が古いまま中身が大きく変わったときは、押す価値がある。**押した直後は最終閲覧も件数も変わらない。** 反映まで数時間から数日かかる。",
+            "押してすぐ数字を見て「効かない」と判断しないこと。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- 上限は1ファイル50,000URL / 50MB。超えた分は読まれない\n- エラーにならないので、件数を自分で数える\n- `<sitemapindex>` に変え、**種類ごと**に分ける\n- 索引のURLを変えなければ送り直しは不要\n- サイトマップを読む他の仕組みも索引対応に直す"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "github-pages-cannot-return-301-serve-200-stubs",
+      "title": "GitHub Pagesは301を返せない｜10,450ページぶんの200を置いて転送した",
+      "description": "ドメインを移したあと 404.html にJSを入れて転送していたが、HTTPステータスは404のままで、5日間Googleに404を返し続けていた。GitHub Pagesは301を返せないので、全パスぶんの200を返す実体を生成して置いた。",
+      "category": "SEO",
+      "tags": [
+        "GitHub Pages",
+        "リダイレクト",
+        "canonical",
+        "ドメイン移転",
+        "静的サイト"
+      ],
+      "publishedAt": "2026-10-02T16:00:00+09:00",
+      "updatedAt": "2026-10-02T16:00:00+09:00",
+      "published": true,
+      "related": [
+        "redirect-404-html-returns-404",
+        "github-pages-custom-domain-certificate-order"
+      ],
+      "sections": [
+        {
+          "heading": "ブラウザでは飛ぶのに、検索エンジンには404",
+          "body": [
+            "ドメインを別のドメインへ移し、旧ドメインには `404.html` を置いてJavaScriptでパスごとに転送していた。",
+            "ブラウザで旧URLを開くと、一瞬で新しいURLに変わる。動いているように見えた。",
+            "しかし**HTTPステータスは404のまま**だった。Googlebot は本文のJavaScriptを待たずにステータスを見る。5日間、発見済み未登録が6,162件のまま動かなかった。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s -o /dev/null -w '%{http_code}' https://old.example.jp/some/path/\n404"
+          }
+        },
+        {
+          "heading": "GitHub Pages には301を返す手段が無い",
+          "body": [
+            "Apache の `.htaccess` や nginx の `return 301` に当たるものが無い。サーバー側の設定ファイルを置ける仕組みが存在しない。",
+            "`404.html` は「存在しないパスに404を返しつつ、このHTMLを見せる」という機能で、**ステータスを変える機能ではない。**",
+            "選べるのは、**実際に200を返すファイルを置くこと**だけになる。"
+          ]
+        },
+        {
+          "heading": "全パスぶんの実体を生成する",
+          "body": [
+            "移転元のサイトマップから全URLを取り出し、同じパスに200を返すHTMLを置いた。10,450ファイルになった。",
+            "中身は3行だけでよい。"
+          ],
+          "code": {
+            "language": "html",
+            "content": "<link rel=\"canonical\" href=\"そのページ固有の移転先\">\n<meta http-equiv=\"refresh\" content=\"0; url=そのページ固有の移転先\">\n<meta name=\"robots\" content=\"noindex,follow\">"
+          }
+        },
+        {
+          "heading": "全部をトップページに飛ばさない",
+          "body": [
+            "**canonical と refresh は、ページごとの移転先を指す。** 全部をトップページに向けると、Googleは転送ではなく「中身の無いページ」として扱う。",
+            "1ファイル700バイト程度で、10,450件でも合計8MBほど。生成はスクリプトで一度に作れる。",
+            "即時の `meta refresh` は 301 と同じに扱われる。**301が返せない以上、これが上限。**"
+          ]
+        },
+        {
+          "heading": "置いたあとに200件を抜き取って確かめた",
+          "body": [
+            "生成しただけでは安心できないので、200件を抜き取って3項目を確認した。"
+          ],
+          "code": {
+            "language": "text",
+            "content": "HTTP 200        200 / 200\ncanonical一致    200 / 200\nrefresh一致      200 / 200"
+          }
+        },
+        {
+          "heading": "確認は相手と同じ見え方で取る",
+          "body": [
+            "この件の反省は、**ブラウザで飛んだのを成功の証拠にしたこと**だった。検索エンジンのために直したのだから、確認も検索エンジンと同じ見え方で取る。",
+            "`curl` でステータスだけを見る。リダイレクトを追う `-L` は付けない。追ってしまうと、また「飛んだから成功」に戻る。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- GitHub Pages は301を返せない\n- `404.html` の転送はステータスが404のまま。検索エンジンには転送に見えない\n- 全パスぶんの200を返す実体を置く\n- canonical と refresh は**ページごとの移転先**を指す\n- 確認は `curl` でステータスを見る。`-L` は付けない"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "affinger-disables-wp-sitemap-xml",
+      "title": "AFFINGERはwp-sitemap.xmlを無効化している｜404になる原因と3段の直し方",
+      "description": "WordPressのサイトマップが1本も存在せず、Search Consoleで取得できませんでしたになっていた。原因はテーマが本体のサイトマップを切っていたこと。1つ直すと次が出てくる3段構えだった。",
+      "category": "サイト運営",
+      "tags": [
+        "WordPress",
+        "AFFINGER",
+        "サイトマップ",
+        "wp-cli",
+        "Search Console"
+      ],
+      "publishedAt": "2026-10-02T17:00:00+09:00",
+      "updatedAt": "2026-10-02T17:00:00+09:00",
+      "published": true,
+      "related": [
+        "wp-insert-post-author-zero",
+        "sitemap-50000-url-limit-split"
+      ],
+      "sections": [
+        {
+          "heading": "サイトマップが1本も無かった",
+          "body": [
+            "Search Console で「サイトマップを取得できませんでした」と出た。URLを直接開くと404。",
+            "`/wp-sitemap.xml` も `/sitemap.xml` も `/sitemap_index.xml` も、全部404だった。**WordPress 5.5 以降は本体がサイトマップを持っているので、何も入れなくても出るはずのもの**が無い。"
+          ]
+        },
+        {
+          "heading": "1段目 テーマが本体のサイトマップを切っていた",
+          "body": [
+            "テーマの `functions.php` に、本体のサイトマップを止める記述があった。"
+          ],
+          "code": {
+            "language": "php",
+            "content": "// WordPress5.5本体のサイトマップ（wp-sitemap.xml）を無効化\nif ( trim( $GLOBALS['stdata505'] ) === '' ) {\n    remove_action( 'init', 'wp_sitemaps_get_server' );\n}"
+          }
+        },
+        {
+          "heading": "オプションが未保存だと既定で無効",
+          "body": [
+            "判定に使っているオプションはテーマ管理画面のチェックボックスで、**新規サイトでは未保存のまま**になっている。空文字と判定されて `remove_action` が走る。",
+            "つまり**テーマを入れた時点で、必ず `/wp-sitemap.xml` が404になる。** 設定を触っていないほうが壊れている、という形。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "wp option add st-data505 yes --autoload=yes"
+          }
+        },
+        {
+          "heading": "2段目 wp-cli の rewrite flush では入らない",
+          "body": [
+            "オプションを入れても404のままだった。`wp rewrite flush` を何度叩いても変わらない。",
+            "**テーマのグローバル変数は WP-CLI の実行中は未定義。** だからCLIの中でも `remove_action` が走り、フラッシュしてもサイトマップのリライトルールが1本も書かれない。",
+            "`Undefined global variable` の警告が出るのが目印になる。フロント側では有効なので、**`robots.txt` には `Sitemap:` の行だけ出て、そのURLは404**という食い違いが起きる。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "wp eval \"wp_sitemaps_get_server(); flush_rewrite_rules();\""
+          }
+        },
+        {
+          "heading": "3段目 子サイトマップが301で自分に戻る",
+          "body": [
+            "`/wp-sitemap.xml` は200になったが、`/wp-sitemap-posts-post-1.xml` だけが301を返し、飛び先が自分自身だった。無限ループになる。",
+            "原因はテーマ側の正規化処理だった。リライトルールが内部的に `paged=1` を立てるのに対し、テーマは `paged=1` を「1ページ目の重複URL」と見て `paged` を外したURLへ301する。**この `paged` はクエリ文字列に無いのでURLが変わらず、同じURLへ301し続ける。**",
+            "`/wp-sitemap.xml` には `paged` が無いので200、`-1.xml` だけ301、という出方になる。"
+          ]
+        },
+        {
+          "heading": "親テーマを直さない",
+          "body": [
+            "子テーマで、**サイトマップのリクエストに限って**親のフックを外した。親テーマを直すと更新で消える。",
+            "フック自体は消さない。`/page/1/` の正規化は必要な処理なので、消すと別の重複が出る。"
+          ]
+        },
+        {
+          "heading": "確かめ方",
+          "body": [
+            "3段あるので、どこまで進んだかを分けて見る。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s -o /dev/null -w '%{http_code} %{redirect_url}\n' https://example.jp/wp-sitemap.xml\ncurl -s -o /dev/null -w '%{http_code} %{redirect_url}\n' https://example.jp/wp-sitemap-posts-post-1.xml\ncurl -s https://example.jp/wp-sitemap-posts-post-1.xml | grep -c '<loc>'"
+          }
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- テーマが本体のサイトマップを切っていることがある\n- 判定に使うオプションが未保存だと既定で無効\n- `wp rewrite flush` ではルールが入らない。`wp eval` で直接呼ぶ\n- 子サイトマップだけ301で自分に戻るのは `paged=1` の正規化が原因\n- 直すのは子テーマ側。親を直すと更新で消える"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "windows-shell-japanese-argument-broken",
+      "title": "Windowsのシェルで日本語の引数が壊れる｜APIが効かないと誤診した",
+      "description": "curlの引数に日本語を直接書くと、受け取った側には別の文字列が届く。楽天のAPIで0件が返り、キーワードが効かないと結論づけたが、APIもフォームも正常だった。渡した文字列が届いているかを先に疑う。",
+      "category": "運用・計測",
+      "tags": [
+        "Windows",
+        "Git Bash",
+        "curl",
+        "文字コード",
+        "API"
+      ],
+      "publishedAt": "2026-10-02T18:00:00+09:00",
+      "updatedAt": "2026-10-02T18:00:00+09:00",
+      "published": true,
+      "related": [
+        "cross-service-id-lookup-by-name",
+        "ga4-not-tracking-static-analysis-pitfall"
+      ],
+      "sections": [
+        {
+          "heading": "APIが効いていないと思った",
+          "body": [
+            "商品検索のAPIに日本語のキーワードを渡したら、結果が0件で返ってきた。別のキーワードでは、まったく関係のない商品が並んだ。",
+            "**「このAPIはキーワード検索が効かない」と結論づけた。** 仕様書を読み直し、別のパラメータを試し、半日を使った。",
+            "同じ日に、問い合わせフォームのテスト送信でも日本語の値が空になり、入力エラーで弾かれていた。別の現象だと思っていた。"
+          ]
+        },
+        {
+          "heading": "両方とも同じ原因だった",
+          "body": [
+            "APIもフォームも正常だった。壊れていたのは**渡す側**で、コマンドの引数に直接書いた日本語が、シェルを通る間に別の文字コードに変換されていた。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "# 届かない\ncurl -s 'https://api.example.com/search' \\n  --data-urlencode 'keyword=ハロウィン'"
+          }
+        },
+        {
+          "heading": "受け取った側には別の文字列が届く",
+          "body": [
+            "送信側のログには正しく見える。受信側のログを見ない限り、何が届いたのかは分からない。**0件という結果だけが手元に残る。**",
+            "これは環境の問題なので、同じコマンドを別のPCで打つと通ることがある。「自分の環境だけ」の違いは原因として最後に疑いがちで、そのぶん遠回りになる。"
+          ]
+        },
+        {
+          "heading": "Pythonから直接呼ぶのが確実",
+          "body": [
+            "日本語を渡すときは、シェルの引数を経由させない。"
+          ],
+          "code": {
+            "language": "python",
+            "content": "import urllib.request, urllib.parse\n\nq = urllib.parse.urlencode({'keyword': 'ハロウィン'})\nurl = 'https://api.example.com/search?' + q\nwith urllib.request.urlopen(url, timeout=20) as r:\n    body = r.read().decode('utf-8')"
+          }
+        },
+        {
+          "heading": "ファイル経由でも渡せる",
+          "body": [
+            "multipart のフォーム送信なら、UTF-8のファイルに書いてから渡す。"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "printf '%s' 'ハロウィン' > /tmp/kw.txt\ncurl -s -F 'keyword=</tmp/kw.txt' https://example.jp/form"
+          }
+        },
+        {
+          "heading": "疑う順番を変える",
+          "body": [
+            "**「効かない」「壊れている」と判断する前に、渡した文字列が届いているかを疑う。** 0件やおかしな結果が返ったときの第一容疑者はこれになる。",
+            "確かめ方は簡単で、受け取った値をそのまま返すエンドポイントに同じコマンドを投げるか、取得したURLを `print` して目で見る。",
+            "**APIの仕様書を読み直す前に、1回これをやる。** 半日が5分で終わる。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- Windows のシェルでは、引数に直接書いた日本語が壊れることがある\n- 送信側のログは正しく見えるので、結果だけでは原因に辿り着けない\n- Python から直接呼ぶ。または UTF-8 のファイル経由で渡す\n- 「APIが効かない」と結論づける前に、届いた文字列を確かめる"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gsc-duplicate-warning-do-not-noindex",
+      "title": "GSCの「重複」は直さないほうがよいことがある｜noindexにしてクリックが0になった",
+      "description": "サーチコンソールの通知は「検出しました」であって「違反です」ではない。重複の通知に対してnoindexで応じたら、順位が付いていたページのクリックが0になった。直すべき通知と、そのままにしてよい通知を見分ける。",
+      "category": "SEO",
+      "tags": [
+        "Search Console",
+        "noindex",
+        "重複",
+        "canonical",
+        "インデックス"
+      ],
+      "publishedAt": "2026-10-02T19:00:00+09:00",
+      "updatedAt": "2026-10-02T19:00:00+09:00",
+      "published": true,
+      "related": [
+        "sitemap-and-canonical-contradict",
+        "japanese-title-30-chars-serp"
+      ],
+      "sections": [
+        {
+          "heading": "通知は「検出しました」であって「違反です」ではない",
+          "body": [
+            "サーチコンソールに「重複、Googleはユーザーとは異なる正規化タグを選択しました」が出た。",
+            "反射的に直したくなるが、**これはペナルティではない。** 同じ内容のページが複数あるとき、Googleが代表を1つ選ぶという正常な動作の報告でしかない。",
+            "同じ画面に出る通知でも、直すべきものとそうでないものが混ざっている。**区別せずに全部直そうとすると、動いていたものまで壊す。**"
+          ]
+        },
+        {
+          "heading": "本文が93%一致していた",
+          "body": [
+            "原因を測った。名前と読みしか事実が無いページが2,987件あり、名前を伏せて本文を比べると93〜94%が一致していた。"
+          ],
+          "code": {
+            "language": "text",
+            "content": "ページA ⇔ ページB   94.0%一致（本文 657〜665字）\nページC ⇔ ページD   93.5%一致"
+          }
+        },
+        {
+          "heading": "直す方法が「中身を足す」しかなかった",
+          "body": [
+            "重複を解く方法は、中身を変えて違うページにすることだけ。ところが**足せる事実が無かった。** 出典に無いことは書かない、というのが最初からの方針だった。",
+            "推測で埋めれば重複は解けるが、それは別の問題を作る。**重複のままにしておくほうが害が小さい。**"
+          ]
+        },
+        {
+          "heading": "noindexにして失敗した",
+          "body": [
+            "別のサイトで、同じ通知に対して noindex で応じたことがある。結果は明確だった。",
+            "**順位が付いていたページのクリックが0になった。** 重複としてまとめられていても、代表に選ばれたページ経由で流入はあった。noindex にするとその経路ごと消える。",
+            "検索エンジンは登録済みのURLを覚えている。**公開したURLを後から消すのは、重複より重い。**"
+          ]
+        },
+        {
+          "heading": "同じ通知でも対処が違う",
+          "body": [
+            "別のサイトでは、同じ重複の通知に対して431ページを noindex にした。そちらは正しかった。",
+            "違いは中身にある。"
+          ],
+          "code": {
+            "language": "text",
+            "content": "noindex にした  広告しか無いページ。読む人にとっての中身がゼロ\nそのままにした  名前と読みという事実がある。薄いが、嘘ではない"
+          }
+        },
+        {
+          "heading": "5xxの通知も、自分のデプロイが原因のことがある",
+          "body": [
+            "同じ時期に「サーバーエラー (5xx)」も出た。調べると、原因は自分のデプロイだった。",
+            "静的ホスティングは配信を切り替える瞬間があり、そこにクロールが当たると5xxが返る。3日で4回デプロイした時期と、クロールが1日6,000件規模だった時期が重なっていた。",
+            "抜き取った25件はすべて200で、ページ自体は健全だった。**対処は「大きな変更をまとめて1回のデプロイにする」**で、コードを直す話ではなかった。"
+          ]
+        },
+        {
+          "heading": "判断の順番",
+          "body": [
+            "- まず**測る**。何件か、本文は何字か、どれだけ一致しているか\n- 直す方法が「事実を足す」しかないなら、足せる事実があるかを確かめる\n- **無いなら、そのままにする。** noindex は最後の手段\n- 順位が付いているページは触らない",
+            "**通知が消えることと、クリックが増えることは別。** 画面を綺麗にするために流入を捨てない。"
+          ]
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- GSCの通知は「検出しました」であって「違反です」ではない\n- 重複は、Googleが代表を選ぶ正常な動作\n- 足せる事実が無いなら、そのままにしておくほうが害が小さい\n- noindex にすると、重複としてまとめられていた経路ごと流入が消える\n- 5xx は自分のデプロイが原因のことがある。まとめて出す"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vercel-push-not-deployed-git-not-connected",
+      "title": "Vercelにpushしても反映されないのはGit未接続だから｜canonicalが古いまま残る",
+      "description": "リポジトリを直しても本番が何か月も古いままだった。プロジェクトがGitHubに接続されておらず、過去にCLIから手で流したビルドが配信され続けていた。独自ドメインのcanonicalがvercel.appを指したままになっていた。",
+      "category": "サイト運営",
+      "tags": [
+        "Vercel",
+        "デプロイ",
+        "canonical",
+        "GitHub",
+        "SEO"
+      ],
+      "publishedAt": "2026-10-02T20:00:00+09:00",
+      "updatedAt": "2026-10-02T20:00:00+09:00",
+      "published": true,
+      "related": [
+        "sitemap-and-canonical-contradict",
+        "github-actions-proxyjump-ip-blocked-server"
+      ],
+      "sections": [
+        {
+          "heading": "直したはずのものが本番に出ていない",
+          "body": [
+            "リポジトリでは直っているのに、本番のHTMLが古いままだった。pushはできている。エラーも出ていない。",
+            "デプロイのログを探したが、**そもそも最近のデプロイが1件も無かった。** 最後のデプロイは数か月前で、そこから1度も走っていない。"
+          ]
+        },
+        {
+          "heading": "プロジェクトがGitに接続されていなかった",
+          "body": [
+            "プロジェクト一覧を見ると、該当するものに **Connect Git Repository** と表示されていた。",
+            "過去にCLIから手で流したビルドがそのまま配信され続けていた。**push しても何も起きないのは正しい動作**で、接続されていないのだから当然だった。",
+            "同じアカウントの中に、接続済みのプロジェクトと未接続のプロジェクトが混ざっている。接続済みのほうを見ていると、未接続のほうも同じだと思い込む。"
+          ]
+        },
+        {
+          "heading": "何が起きていたか",
+          "body": [
+            "古いビルドが配信され続けた結果、SEO上の実害が出ていた。",
+            "- 2つの独自ドメインの canonical が、どちらも `*.vercel.app` を指していた\n  → **独自ドメインが自分自身をインデックスさせられない状態**\n- 別のサイトでは、サイトマップと canonical が308でリダイレクトするURLを指していた\n- トップページの本文が180字のまま（修正後は704字）",
+            "どれもコードでは直っていた。**届いていなかっただけ。**"
+          ]
+        },
+        {
+          "heading": "直し方",
+          "body": [
+            "プロジェクト → Settings → Git → GitHub → リポジトリを検索して Connect。GitHub連携そのものが済んでいれば、承認画面は出ない。",
+            "**ブランチ名を確認する。** `master` のままのリポジトリが混ざっていると、接続しても対象ブランチが合わずにデプロイされない。"
+          ],
+          "code": {
+            "language": "text",
+            "content": "project-a  →  owner/project-a   ブランチ master（main ではない）\nproject-b  →  owner/project-b   ブランチ main"
+          }
+        },
+        {
+          "heading": "一覧で機械的に洗う",
+          "body": [
+            "1つ見つかったら、他も同じ状態の可能性が高い。**プロジェクト一覧で `Connect Git Repository` の表示を探す。**",
+            "実際に確認したところ、6件が未接続のまま残っていた。どれも独自ドメインが割り当てられていて、古いビルドが出ていた。"
+          ]
+        },
+        {
+          "heading": "本番側から確かめる",
+          "body": [
+            "管理画面だけ見ても、配信されている中身が新しいかは分からない。**本番のHTMLを取って、直したはずの箇所があるかを見る。**"
+          ],
+          "code": {
+            "language": "bash",
+            "content": "curl -s https://example.jp/ | grep -oE 'rel=\"canonical\" href=\"[^\"]*\"'\ncurl -s https://example.jp/sitemap.xml | grep -c '<loc>'"
+          }
+        },
+        {
+          "heading": "まとめ",
+          "body": [
+            "- push しても反映されないときは、Gitに接続されているかを先に見る\n- 未接続だと、過去に手で流したビルドが配信され続ける\n- canonical が `*.vercel.app` のままだと独自ドメインが評価されない\n- 接続時はブランチ名を確認する\n- 1件見つかったら、一覧で全部洗う"
+          ]
+        }
+      ]
     }
   ]
 }

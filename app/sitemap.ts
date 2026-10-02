@@ -10,8 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteSiteUrl("/beginner"), changeFrequency: "monthly", priority: 0.9 },
     { url: absoluteSiteUrl("/articles"), changeFrequency: "weekly", priority: 0.9 },
     // /videos は自動生成の視聴ページ167本が並ぶだけの一覧なので入れない（noindex にしてある）。
-    // /videos/favorites は選定理由を書いた手書きの紹介30本なので残す。
-    { url: absoluteSiteUrl("/videos/favorites"), changeFrequency: "weekly", priority: 0.75 },
+    // /videos/favorites は 2026-10-02 に削除した。他人のYouTube動画31本が主で、
+    // 自分の文章は1本あたり48字しか無く、Web関連という題材にも合わなかった。
     { url: absoluteSiteUrl("/store"), changeFrequency: "weekly", priority: 0.8 },
     { url: absoluteSiteUrl("/crowdsourcing"), changeFrequency: "monthly", priority: 0.85 },
     { url: absoluteSiteUrl("/portfolio"), changeFrequency: "weekly", priority: 0.9 },

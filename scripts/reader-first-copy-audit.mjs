@@ -8,7 +8,6 @@ const appDirectory = path.resolve("app")
 // code, not lazy copy on this site. Checking it here blocked every scheduled
 // run whenever any collected README happened to contain a banned word.
 const publicDataFiles = [
-  "app/data/favorite-videos.json",
   "app/data/manual-articles.json",
   "app/data/video-production.json",
 ]

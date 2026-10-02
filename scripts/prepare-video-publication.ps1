@@ -43,7 +43,6 @@ try {
   Invoke-NpmScript 'content:audit'
   Invoke-NpmScript 'manual:audit'
   Invoke-NpmScript 'copy:audit'
-  Invoke-NpmScript 'video:audit'
   Invoke-NpmScript 'video:assets:complete'
   Invoke-NpmScript 'lint'
   if (-not $SkipBuild) {

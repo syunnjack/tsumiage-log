@@ -46,7 +46,6 @@ jobs:
           npm run content:audit
           npm run manual:audit
           npm run copy:audit
-          npm run video:audit
           npm run video:assets:audit
 
       - name: Check code
