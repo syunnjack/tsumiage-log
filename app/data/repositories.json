@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T05:52:27.788Z",
+  "generatedAt": "2026-10-04T12:21:37.451Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -3447,6 +3447,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "46c2968",
+          "message": "高額返礼品の入口を作り、サイトマップを種類ごとに分ける",
+          "date": "2026-10-04T06:03:50Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/46c29682e7264d47e94f3de4fabf2e54cdf5b867"
+        },
+        {
           "sha": "eba3a8d",
           "message": "robots.txt のサイトマップを本番ドメインに直す",
           "date": "2026-10-01T11:07:12Z",
@@ -3511,15 +3517,9 @@
           "message": "中身が0件の検索ページを、検索結果に出さないようにする",
           "date": "2026-08-18T22:50:09Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/4beb5dd7b10f815f867f2b008e0316477b515b93"
-        },
-        {
-          "sha": "4a2dceb",
-          "message": "LINE連携が未設定のうちは、押せない表示にする",
-          "date": "2026-08-18T22:35:57Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/4a2dceb0baaa38bf272c99faed2771e2b4084e70"
         }
       ],
-      "updatedAt": "2026-10-01T11:07:19Z",
+      "updatedAt": "2026-10-04T06:04:19Z",
       "stars": 0,
       "forks": 0
     },
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "8a82323",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-04T05:52:55Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/8a823235faa6e113b0429011cdb6d7a839d27494"
+        },
+        {
           "sha": "6b1c8d9",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-03T23:48:58Z",
@@ -12307,15 +12313,9 @@
           "message": "お気に入り動画を削除し、Web記事を6本足す",
           "date": "2026-10-02T03:12:13Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/df429bc38f427a14ffd8e06ef0a315f234aeea21"
-        },
-        {
-          "sha": "e5cf695",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-02T02:18:28Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/e5cf695df318df5400c98d7f3ab9353b04f2b313"
         }
       ],
-      "updatedAt": "2026-10-03T23:49:03Z",
+      "updatedAt": "2026-10-04T05:53:00Z",
       "stars": 0,
       "forks": 0
     },
