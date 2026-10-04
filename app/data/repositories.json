@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T23:48:25.763Z",
+  "generatedAt": "2026-10-04T05:52:27.788Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -10669,6 +10669,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "9468f05",
+          "message": "レビューの増減を記録する",
+          "date": "2026-10-04T00:21:22Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/9468f0566102813b09834db0155ebf87a3140626"
+        },
+        {
           "sha": "2ad0def",
           "message": "レビューの増減を記録する",
           "date": "2026-10-03T00:55:45Z",
@@ -10733,15 +10739,9 @@
           "message": "レビューの増減を記録する",
           "date": "2026-09-22T22:08:51Z",
           "url": "https://github.com/syunnjack/shop-review/commit/1004ba835796b8583e1bebcdf5929727cf35aa89"
-        },
-        {
-          "sha": "08abcf2",
-          "message": "レビューの増減を記録する",
-          "date": "2026-09-21T22:10:19Z",
-          "url": "https://github.com/syunnjack/shop-review/commit/08abcf2bea85526fbfbd9aa52a89437ec142380f"
         }
       ],
-      "updatedAt": "2026-10-03T00:55:49Z",
+      "updatedAt": "2026-10-04T00:21:27Z",
       "stars": 0,
       "forks": 0
     },
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6b1c8d9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-03T23:48:58Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b1c8d955ea26ade2dd55e13869a3f11c05d06af"
+        },
+        {
           "sha": "ed7a581",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-03T21:15:09Z",
@@ -12307,15 +12313,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-02T02:18:28Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/e5cf695df318df5400c98d7f3ab9353b04f2b313"
-        },
-        {
-          "sha": "ceed22c",
-          "message": "Web関連に特化する。資格記事を gyosei-yosou.jp へ移し、新記事5本を足す",
-          "date": "2026-10-02T01:05:18Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/ceed22cbb5db702c1056969bf6c0cc5d7a204ec4"
         }
       ],
-      "updatedAt": "2026-10-03T21:15:15Z",
+      "updatedAt": "2026-10-03T23:49:03Z",
       "stars": 0,
       "forks": 0
     },
@@ -13116,6 +13116,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7e00b59",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-04T01:48:31Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/7e00b596f6805beb667655be68dea0a1994ef211"
+        },
+        {
           "sha": "6fc8930",
           "message": "売れ筋の順位を記録する",
           "date": "2026-10-03T01:17:51Z",
@@ -13180,15 +13186,9 @@
           "message": "コスプレ衣装の相場を取り直す",
           "date": "2026-09-25T09:49:07Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/6cea5f25167eaac5dbf0483ab80ab616a3992664"
-        },
-        {
-          "sha": "57c7b81",
-          "message": "中央値に近い3件を代表として残す",
-          "date": "2026-09-25T09:48:16Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/57c7b81be1b2cb93359971ab910d768fd4547861"
         }
       ],
-      "updatedAt": "2026-10-03T01:17:57Z",
+      "updatedAt": "2026-10-04T01:48:36Z",
       "stars": 0,
       "forks": 0
     },
