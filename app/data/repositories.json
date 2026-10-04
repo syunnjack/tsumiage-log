@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:35:07.826Z",
+  "generatedAt": "2026-10-04T21:25:08.570Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -1433,6 +1433,24 @@
       "files": [],
       "commits": [
         {
+          "sha": "178780e",
+          "message": "トップの猫カードの画像も自分の写真にする",
+          "date": "2026-10-04T20:59:11Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/178780e410a1e166c6152347455cdf799fcc3c54"
+        },
+        {
+          "sha": "273e7a1",
+          "message": "店舗カードからストック写真を外し、猫側の写真を自分のものにする",
+          "date": "2026-10-04T20:58:24Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/273e7a197b665147cef85c7cb04ff7a9d62e755d"
+        },
+        {
+          "sha": "5f00bb4",
+          "message": "猫カフェの訪問日記を1本足す（2026年9月19日・名古屋）",
+          "date": "2026-10-04T19:48:31Z",
+          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/5f00bb4253640de3ff5060cf010f232023e7addb"
+        },
+        {
           "sha": "7874623",
           "message": "スマホ写真を日記に載せる形に整える道具を足す",
           "date": "2026-09-04T11:00:15Z",
@@ -1485,27 +1503,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:02:36Z",
           "url": "https://github.com/syunnjack/cat-cafe-etc/commit/817a63572c3bc8103c9db9e05d87dc03e6081111"
-        },
-        {
-          "sha": "e5e7c83",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T20:58:51Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/e5e7c83cf93f9efd958c9f39fb9cb53a2f9f1f05"
-        },
-        {
-          "sha": "832f696",
-          "message": "Expand nationwide: add real cafes in 8 more prefectures",
-          "date": "2026-08-09T07:42:06Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/832f696b3d53a6213994fc958ffd455730526841"
-        },
-        {
-          "sha": "c802c7c",
-          "message": "Fix canonical/sitemap/robots pointing at a stale dev domain",
-          "date": "2026-08-09T07:33:03Z",
-          "url": "https://github.com/syunnjack/cat-cafe-etc/commit/c802c7c7667b57a38f701f792a52dfde870202e7"
         }
       ],
-      "updatedAt": "2026-09-04T11:04:12Z",
+      "updatedAt": "2026-10-04T20:59:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "45dadef",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-04T17:35:40Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/45dadefaf7fe34a0f4eb65e502b30f88131c2fd0"
+        },
+        {
           "sha": "f2ed5c5",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-04T12:22:06Z",
@@ -12307,15 +12313,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-02T09:46:33Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/595346e8d9985f183480695f6030a683efd19567"
-        },
-        {
-          "sha": "fb6856d",
-          "message": "運営サイト一覧に5件足す（32 → 37件）",
-          "date": "2026-10-02T08:54:26Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/fb6856db33c92836dadf831d441a82f12613a2c5"
         }
       ],
-      "updatedAt": "2026-10-04T12:22:11Z",
+      "updatedAt": "2026-10-04T17:35:45Z",
       "stars": 0,
       "forks": 0
     },
@@ -13116,6 +13116,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "81840ce",
+          "message": "コスプレ衣装の相場を取り直す",
+          "date": "2026-10-04T20:00:10Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/81840cef502af591c36f4abe440b876ff27bdea3"
+        },
+        {
           "sha": "7e00b59",
           "message": "売れ筋の順位を記録する",
           "date": "2026-10-04T01:48:31Z",
@@ -13180,15 +13186,9 @@
           "message": "取得を週1回にする",
           "date": "2026-09-25T09:55:00Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/70424c80528b24881a3f6ea446d728041ad4c60d"
-        },
-        {
-          "sha": "6cea5f2",
-          "message": "コスプレ衣装の相場を取り直す",
-          "date": "2026-09-25T09:49:07Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/6cea5f25167eaac5dbf0483ab80ab616a3992664"
         }
       ],
-      "updatedAt": "2026-10-04T01:48:36Z",
+      "updatedAt": "2026-10-04T20:00:15Z",
       "stars": 0,
       "forks": 0
     },
