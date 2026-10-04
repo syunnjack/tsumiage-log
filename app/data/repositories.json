@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:21:37.451Z",
+  "generatedAt": "2026-10-04T17:35:07.826Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "f2ed5c5",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-04T12:22:06Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/f2ed5c51e54a0757e5071dd854e1643186916b9f"
+        },
+        {
           "sha": "8a82323",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-04T05:52:55Z",
@@ -12307,15 +12313,9 @@
           "message": "運営サイト一覧に5件足す（32 → 37件）",
           "date": "2026-10-02T08:54:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/fb6856db33c92836dadf831d441a82f12613a2c5"
-        },
-        {
-          "sha": "df429bc",
-          "message": "お気に入り動画を削除し、Web記事を6本足す",
-          "date": "2026-10-02T03:12:13Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/df429bc38f427a14ffd8e06ef0a315f234aeea21"
         }
       ],
-      "updatedAt": "2026-10-04T05:53:00Z",
+      "updatedAt": "2026-10-04T12:22:11Z",
       "stars": 0,
       "forks": 0
     },
