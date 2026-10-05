@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T21:25:08.570Z",
+  "generatedAt": "2026-10-05T00:56:08.321Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -406,6 +406,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "4bb4baf",
+          "message": "Refresh bowling event data",
+          "date": "2026-10-04T22:54:48Z",
+          "url": "https://github.com/syunnjack/allbowl01/commit/4bb4baf56eac4d6614291c945b18f577f45bad4c"
+        },
+        {
           "sha": "7c1c6f1",
           "message": "Refresh bowling event data",
           "date": "2026-10-03T22:51:37Z",
@@ -470,15 +476,9 @@
           "message": "Refresh bowling event data",
           "date": "2026-09-23T20:21:23Z",
           "url": "https://github.com/syunnjack/allbowl01/commit/1a9f54ba963ed63f1aee09056093f250fd1e71c9"
-        },
-        {
-          "sha": "a1bfcf7",
-          "message": "Refresh bowling event data",
-          "date": "2026-09-22T20:20:56Z",
-          "url": "https://github.com/syunnjack/allbowl01/commit/a1bfcf75216f72f7b3b68500d7899e1b5cc77b91"
         }
       ],
-      "updatedAt": "2026-10-03T22:51:42Z",
+      "updatedAt": "2026-10-04T22:54:54Z",
       "stars": 0,
       "forks": 0
     },
@@ -2258,6 +2258,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "0387cb1",
+          "message": "配信状況を取り直す（TMDB）",
+          "date": "2026-10-04T22:41:39Z",
+          "url": "https://github.com/syunnjack/dokodemiru/commit/0387cb1641ea2a6dcdf4738ca6592b95332d8f92"
+        },
+        {
           "sha": "6eb401c",
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-10-03T22:37:36Z",
@@ -2322,15 +2328,9 @@
           "message": "配信状況を取り直す（TMDB）",
           "date": "2026-09-23T20:09:07Z",
           "url": "https://github.com/syunnjack/dokodemiru/commit/c5ef85756a315c6cc46788f87e3d6b55d83e6574"
-        },
-        {
-          "sha": "9de2fdd",
-          "message": "配信状況を取り直す（TMDB）",
-          "date": "2026-09-22T20:07:58Z",
-          "url": "https://github.com/syunnjack/dokodemiru/commit/9de2fdd0bf203a2c13f2ac321f17770026a2032b"
         }
       ],
-      "updatedAt": "2026-10-03T22:37:41Z",
+      "updatedAt": "2026-10-04T22:41:44Z",
       "stars": 0,
       "forks": 0
     },
@@ -10669,6 +10669,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "82a3cc9",
+          "message": "レビューの増減を記録する",
+          "date": "2026-10-05T00:26:08Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/82a3cc990cc83f67cdffd07ae9677bacb802ea17"
+        },
+        {
           "sha": "9468f05",
           "message": "レビューの増減を記録する",
           "date": "2026-10-04T00:21:22Z",
@@ -10733,15 +10739,9 @@
           "message": "レビューの増減を記録する",
           "date": "2026-09-23T22:10:09Z",
           "url": "https://github.com/syunnjack/shop-review/commit/20c9cc8689a0635498e87b157971b782f3493b28"
-        },
-        {
-          "sha": "1004ba8",
-          "message": "レビューの増減を記録する",
-          "date": "2026-09-22T22:08:51Z",
-          "url": "https://github.com/syunnjack/shop-review/commit/1004ba835796b8583e1bebcdf5929727cf35aa89"
         }
       ],
-      "updatedAt": "2026-10-04T00:21:27Z",
+      "updatedAt": "2026-10-05T00:26:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7743f24",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-04T21:25:41Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7743f24b97685c1803abc5d4184df7990da11377"
+        },
+        {
           "sha": "45dadef",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-04T17:35:40Z",
@@ -12307,15 +12313,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-02T16:17:21Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/769145bf090917c169a8ebc1f4fc1d220024a67c"
-        },
-        {
-          "sha": "595346e",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-02T09:46:33Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/595346e8d9985f183480695f6030a683efd19567"
         }
       ],
-      "updatedAt": "2026-10-04T17:35:45Z",
+      "updatedAt": "2026-10-04T21:25:45Z",
       "stars": 0,
       "forks": 0
     },
