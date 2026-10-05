@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T00:56:08.321Z",
+  "generatedAt": "2026-10-05T07:02:56.548Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -12243,6 +12243,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "7104e57",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-05T00:56:36Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/7104e5755a8e1228fddeacf9a90cbfeb69c4c98a"
+        },
+        {
           "sha": "7743f24",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-04T21:25:41Z",
@@ -12307,15 +12313,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-02T21:20:44Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/915f6ebdff6ace02886077723bf36503300e1a60"
-        },
-        {
-          "sha": "769145b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-02T16:17:21Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/769145bf090917c169a8ebc1f4fc1d220024a67c"
         }
       ],
-      "updatedAt": "2026-10-04T21:25:45Z",
+      "updatedAt": "2026-10-05T00:56:41Z",
       "stars": 0,
       "forks": 0
     },
@@ -13116,6 +13116,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "5d73379",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-05T01:06:58Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/5d73379c34ee4eca498aa9ff0412513f7735c395"
+        },
+        {
           "sha": "81840ce",
           "message": "コスプレ衣装の相場を取り直す",
           "date": "2026-10-04T20:00:10Z",
@@ -13180,15 +13186,9 @@
           "message": "売れ筋の順位を記録する",
           "date": "2026-09-25T22:36:33Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/100f14540d036e9ae238c0fb67e8002afaca37fc"
-        },
-        {
-          "sha": "70424c8",
-          "message": "取得を週1回にする",
-          "date": "2026-09-25T09:55:00Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/70424c80528b24881a3f6ea446d728041ad4c60d"
         }
       ],
-      "updatedAt": "2026-10-04T20:00:15Z",
+      "updatedAt": "2026-10-05T01:07:03Z",
       "stars": 0,
       "forks": 0
     },
