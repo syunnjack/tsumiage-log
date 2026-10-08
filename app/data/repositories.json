@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T16:28:39.755Z",
+  "generatedAt": "2026-10-08T22:05:18.606Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -2878,6 +2878,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "62ecc14",
+          "message": "会場データをOpenStreetMapの最新の内容に更新する",
+          "date": "2026-10-08T19:54:58Z",
+          "url": "https://github.com/syunnjack/event-trip-alert/commit/62ecc14a18fed2acbb16cf34c82bb80c3f2d3ebe"
+        },
+        {
           "sha": "6da3f02",
           "message": "会場データをOpenStreetMapの最新の内容に更新する",
           "date": "2026-09-08T19:40:41Z",
@@ -2942,15 +2948,9 @@
           "message": "支援・購入への導線を追加する",
           "date": "2026-08-15T00:52:42Z",
           "url": "https://github.com/syunnjack/event-trip-alert/commit/16ae0119e7886e731a01727a5b30553f56329604"
-        },
-        {
-          "sha": "be3e898",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:07:13Z",
-          "url": "https://github.com/syunnjack/event-trip-alert/commit/be3e898e5306049ec70402688f306255a272f3ab"
         }
       ],
-      "updatedAt": "2026-09-08T19:43:01Z",
+      "updatedAt": "2026-10-08T19:55:04Z",
       "stars": 0,
       "forks": 0
     },
@@ -12249,6 +12249,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6b07ff9",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-08T16:29:04Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/6b07ff98010d2acb2351b90c4c9f526ce86a13b4"
+        },
+        {
           "sha": "b75694e",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-08T08:58:38Z",
@@ -12313,15 +12319,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-05T22:38:01Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/7ae915e7fc0e7f27479331e47a2a4967e0c20ad7"
-        },
-        {
-          "sha": "bf75caf",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-05T16:01:12Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/bf75cafdc0b50b62cbcb0b3ba75a04a0561c6108"
         }
       ],
-      "updatedAt": "2026-10-08T08:58:43Z",
+      "updatedAt": "2026-10-08T16:29:10Z",
       "stars": 0,
       "forks": 0
     },
