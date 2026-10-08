@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:56:03.960Z",
+  "generatedAt": "2026-10-08T08:58:09.407Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -3440,12 +3440,18 @@
       "readmeExcerpt": "ふるさと納税比較 楽天市場に掲載されている実在のふるさと納税返礼品を、カテゴリ・都道府県・寄付額・レビューで比較するLaravelアプリです。 主な機能 楽天市場商品検索APIから最大1,500件をSQLiteへ同期 キーワード、カテゴリ、都道府県、寄付額による複合検索 人気、評価、寄付額、新着順での並べ替え 返礼品詳細、関連返礼品、利用者口コミ キーワードのLINEウォッチ通知 商品詳細URLを含む動的サイトマップ GitHub Actionsによる毎日3:20（日本時間）の自動同期 セットアップ .env に RAKUTEN APP ID 、 RAKUTEN ACCESS KEY 、必要に応じて RAKUTEN AFFILIATE ID を設定します。 楽天市場商品検索APIは1ページ30件・最大100ページです。通常はサーバー負荷とAPI利用制限を考慮して50ページを同期します。 品質確認 商品情報は楽天ウェブサービスから取得しています。寄付額・在庫・配送条件は申込前に掲載元の商品ページで確認してください。",
       "url": "https://github.com/syunnjack/furusato-hikaku",
       "defaultBranch": "main",
-      "primaryLanguage": "Blade",
+      "primaryLanguage": "PHP",
       "languages": [
-        "Blade"
+        "PHP"
       ],
       "files": [],
       "commits": [
+        {
+          "sha": "137d6f4",
+          "message": "構造化データの name を150字で切る",
+          "date": "2026-10-08T04:31:29Z",
+          "url": "https://github.com/syunnjack/furusato-hikaku/commit/137d6f44540a0f047a0d3772b86cc0101b3f54aa"
+        },
         {
           "sha": "46c2968",
           "message": "高額返礼品の入口を作り、サイトマップを種類ごとに分ける",
@@ -3511,15 +3517,9 @@
           "message": "actions/checkout と setup-node を v5 に上げる",
           "date": "2026-08-21T14:08:31Z",
           "url": "https://github.com/syunnjack/furusato-hikaku/commit/e7fd7539084961699104da4f875824a0ae4824f7"
-        },
-        {
-          "sha": "4beb5dd",
-          "message": "中身が0件の検索ページを、検索結果に出さないようにする",
-          "date": "2026-08-18T22:50:09Z",
-          "url": "https://github.com/syunnjack/furusato-hikaku/commit/4beb5dd7b10f815f867f2b008e0316477b515b93"
         }
       ],
-      "updatedAt": "2026-10-04T06:04:19Z",
+      "updatedAt": "2026-10-08T04:32:11Z",
       "stars": 0,
       "forks": 0
     },
@@ -12249,6 +12249,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b3aa784",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-08T01:56:31Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/b3aa7841579ade4129d6b67a10ca8efead83b09a"
+        },
+        {
           "sha": "4a18f4a",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-07T22:00:00Z",
@@ -12313,15 +12319,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-05T07:03:22Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/4c8cb0da8bc2de28c26be144e34b58c0376ab638"
-        },
-        {
-          "sha": "7104e57",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-05T00:56:36Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/7104e5755a8e1228fddeacf9a90cbfeb69c4c98a"
         }
       ],
-      "updatedAt": "2026-10-07T22:00:07Z",
+      "updatedAt": "2026-10-08T01:56:36Z",
       "stars": 0,
       "forks": 0
     },
@@ -13122,6 +13122,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "738e41f",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-08T02:10:49Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/738e41f633b74400010001d8cee7790572828195"
+        },
+        {
           "sha": "a3a8acb",
           "message": "売れ筋の順位を記録する",
           "date": "2026-10-07T01:43:00Z",
@@ -13186,15 +13192,9 @@
           "message": "売れ筋の順位を記録する",
           "date": "2026-09-27T22:37:28Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/198e80562cd719364a5eb6f39c3945cf0588130b"
-        },
-        {
-          "sha": "4b6474a",
-          "message": "コスプレ衣装の相場を取り直す",
-          "date": "2026-09-27T19:07:21Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/4b6474ae111ed88c8c51f28c74b761e04473d197"
         }
       ],
-      "updatedAt": "2026-10-07T01:43:05Z",
+      "updatedAt": "2026-10-08T02:10:54Z",
       "stars": 0,
       "forks": 0
     },
