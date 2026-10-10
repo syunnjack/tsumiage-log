@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T07:07:09.611Z",
+  "generatedAt": "2026-10-10T13:41:47.172Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -4305,6 +4305,18 @@
       "files": [],
       "commits": [
         {
+          "sha": "96e8313",
+          "message": "学習進捗記事を加筆：元のノルマと3教材の完了・復習方針を具体化",
+          "date": "2026-10-10T13:22:22Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/96e83136625e3a2592f2f4e5d4a7a287990376fd"
+        },
+        {
+          "sha": "4ed4008",
+          "message": "記事公開：本試験と模試3教材のノルマ完了を記録",
+          "date": "2026-10-10T13:14:55Z",
+          "url": "https://github.com/syunnjack/gyosei-yosou/commit/4ed4008af7041b21aa336ee6a2cdf11ed4cd3e9e"
+        },
+        {
           "sha": "2ba9a35",
           "message": "AI実力スコアのページを、実測を主役にして作り直す (#9)",
           "date": "2026-09-16T16:31:21Z",
@@ -4363,15 +4375,9 @@
           "message": "Clean up forecast view markup",
           "date": "2026-08-03T13:28:38Z",
           "url": "https://github.com/syunnjack/gyosei-yosou/commit/a4f3bb204d1e0e311d77f37397c05b09a9ecf042"
-        },
-        {
-          "sha": "4eca113",
-          "message": "Build AI-assisted administrative scrivener exam forecast site",
-          "date": "2026-08-03T13:28:20Z",
-          "url": "https://github.com/syunnjack/gyosei-yosou/commit/4eca11308baad7b5db799665c3bdeb16bcd01c98"
         }
       ],
-      "updatedAt": "2026-09-16T16:31:26Z",
+      "updatedAt": "2026-10-10T13:22:28Z",
       "stars": 0,
       "forks": 0
     },
@@ -12249,6 +12255,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "edee3e6",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-10T07:07:34Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/edee3e683642c5166a5c5d3d981e25c019a7ed90"
+        },
+        {
           "sha": "274bbc3",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-10T00:51:26Z",
@@ -12313,15 +12325,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-07T16:29:07Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/d248446df5cbc8dd5765c16e5dead94314c29fda"
-        },
-        {
-          "sha": "94f594b",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-07T08:39:34Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/94f594bc2c640164212a5f181621160b3f532008"
         }
       ],
-      "updatedAt": "2026-10-10T00:51:31Z",
+      "updatedAt": "2026-10-10T07:07:40Z",
       "stars": 0,
       "forks": 0
     },
