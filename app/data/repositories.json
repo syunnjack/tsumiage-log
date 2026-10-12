@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T00:32:43.421Z",
+  "generatedAt": "2026-10-12T07:21:43.587Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -10687,6 +10687,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "de55725",
+          "message": "レビューの増減を記録する",
+          "date": "2026-10-12T00:58:28Z",
+          "url": "https://github.com/syunnjack/shop-review/commit/de55725534337d75a85285e299958872ca7fa369"
+        },
+        {
           "sha": "08a2400",
           "message": "レビューの増減を記録する",
           "date": "2026-10-11T00:40:26Z",
@@ -10751,15 +10757,9 @@
           "message": "レビューの増減を記録する",
           "date": "2026-10-01T01:03:48Z",
           "url": "https://github.com/syunnjack/shop-review/commit/c20d92452ef66da3bbee3d81f5694d34b0366cda"
-        },
-        {
-          "sha": "2b09ebb",
-          "message": "レビューの増減を記録する",
-          "date": "2026-09-29T22:11:10Z",
-          "url": "https://github.com/syunnjack/shop-review/commit/2b09ebb4f1ff63c8ecab045296470bfa69809113"
         }
       ],
-      "updatedAt": "2026-10-11T00:40:31Z",
+      "updatedAt": "2026-10-12T00:58:33Z",
       "stars": 0,
       "forks": 0
     },
@@ -12261,6 +12261,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "e20f1ee",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-12T00:33:12Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/e20f1ee2bb3b389b5f169cf09a85987f93a74a29"
+        },
+        {
           "sha": "1d47ede",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-11T20:17:22Z",
@@ -12325,15 +12331,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-09T16:13:29Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/6b557a107660c13fadf4cb055a778cc10c864e7f"
-        },
-        {
-          "sha": "02b90d5",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-09T09:04:40Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/02b90d5cf700ebe41223612b7147923d014ff763"
         }
       ],
-      "updatedAt": "2026-10-11T20:17:28Z",
+      "updatedAt": "2026-10-12T00:33:17Z",
       "stars": 0,
       "forks": 0
     },
@@ -13134,6 +13134,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "6c2333d",
+          "message": "売れ筋の順位を記録する",
+          "date": "2026-10-12T01:32:26Z",
+          "url": "https://github.com/syunnjack/yahoo-alert/commit/6c2333d14301ef175bf16d7e12aff33199fd50d4"
+        },
+        {
           "sha": "23f2597",
           "message": "コスプレ衣装の相場を取り直す",
           "date": "2026-10-11T22:39:49Z",
@@ -13198,15 +13204,9 @@
           "message": "売れ筋の順位を記録する",
           "date": "2026-10-03T01:17:51Z",
           "url": "https://github.com/syunnjack/yahoo-alert/commit/6fc89302a483f3fee2a46fa89c4af3575fc8717c"
-        },
-        {
-          "sha": "df565be",
-          "message": "売れ筋の順位を記録する",
-          "date": "2026-10-02T01:45:33Z",
-          "url": "https://github.com/syunnjack/yahoo-alert/commit/df565be6058e2a36b31b062e4014045cbf1b276a"
         }
       ],
-      "updatedAt": "2026-10-11T22:39:53Z",
+      "updatedAt": "2026-10-12T01:32:31Z",
       "stars": 0,
       "forks": 0
     },
