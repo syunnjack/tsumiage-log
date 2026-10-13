@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T17:54:41.461Z",
+  "generatedAt": "2026-10-13T00:40:07.977Z",
   "owner": "syunnjack",
   "totalRepositories": 202,
   "publicRepositories": 202,
@@ -6860,6 +6860,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "b0d53f8",
+          "message": "24時間営業の店舗データを更新する",
+          "date": "2026-10-12T20:17:07Z",
+          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/b0d53f8c258c237294d847b608cfc0da7c43424b"
+        },
+        {
           "sha": "20ff1d3",
           "message": "24時間営業の店舗データを更新する",
           "date": "2026-09-12T19:40:38Z",
@@ -6924,15 +6930,9 @@
           "message": "seo: add Sitemap to robots.txt",
           "date": "2026-08-10T21:04:11Z",
           "url": "https://github.com/syunnjack/midnight-spot-alert/commit/2391c59d41cb8dafa7c12a6019c1e7ab4b377c0e"
-        },
-        {
-          "sha": "93902e0",
-          "message": "seo: add Sitemap to robots.txt",
-          "date": "2026-08-10T21:00:38Z",
-          "url": "https://github.com/syunnjack/midnight-spot-alert/commit/93902e0353c53b6b521fefb1b5e87b5e95392e9f"
         }
       ],
-      "updatedAt": "2026-09-12T19:40:44Z",
+      "updatedAt": "2026-10-12T20:17:13Z",
       "stars": 0,
       "forks": 0
     },
@@ -12261,6 +12261,12 @@
       "files": [],
       "commits": [
         {
+          "sha": "78074d4",
+          "message": "Update repository articles from GitHub activity",
+          "date": "2026-10-12T17:55:10Z",
+          "url": "https://github.com/syunnjack/tsumiage-log/commit/78074d4b94cc1397f80c240a975c427cba17d573"
+        },
+        {
           "sha": "0b61ece",
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-12T07:22:07Z",
@@ -12325,15 +12331,9 @@
           "message": "Update repository articles from GitHub activity",
           "date": "2026-10-10T00:51:26Z",
           "url": "https://github.com/syunnjack/tsumiage-log/commit/274bbc324cc895cc112998781abaed2a0306b8c7"
-        },
-        {
-          "sha": "dadda8a",
-          "message": "Update repository articles from GitHub activity",
-          "date": "2026-10-09T20:56:44Z",
-          "url": "https://github.com/syunnjack/tsumiage-log/commit/dadda8a15b8f50a13748bd43c7dba907d3382393"
         }
       ],
-      "updatedAt": "2026-10-12T07:22:13Z",
+      "updatedAt": "2026-10-12T17:55:15Z",
       "stars": 0,
       "forks": 0
     },
