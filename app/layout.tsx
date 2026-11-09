@@ -3,6 +3,7 @@ import Script from "next/script"
 import GlobalFooter from "./components/GlobalFooter"
 import Breadcrumbs from "./components/Breadcrumbs"
 import GlobalNav from "./components/GlobalNav"
+import { socialProfileUrls } from "./lib/social-profiles"
 import "./globals.css"
 
 const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim()
@@ -31,8 +32,13 @@ const organizationSchema = {
   url: "https://syunnjack.dev",
   logo: "https://syunnjack.dev/favicon.svg",
   description: "パソコンが苦手な方には専門用語をかみくだいて、ITエンジニアには実装やコミットまで深く解説するsyunnjackの技術ブログです。",
-  founder: { "@type": "Person", name: "syunnjack", url: "https://github.com/syunnjack" },
-  sameAs: ["https://github.com/syunnjack"],
+  founder: {
+    "@type": "Person",
+    name: "syunnjack",
+    url: "https://syunnjack.dev/profile/",
+    sameAs: socialProfileUrls,
+  },
+  sameAs: socialProfileUrls,
 }
 
 const websiteSchema = {

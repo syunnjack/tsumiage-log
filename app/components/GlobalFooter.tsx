@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { socialProfiles } from "../lib/social-profiles"
 
 /**
  * 全ページ共通のフッター。
@@ -31,7 +32,16 @@ export default function GlobalFooter() {
           <Link href="/portfolio/">制作物</Link>
           <Link href="/sites/">運営サイト一覧</Link>
           <Link href="/beginner/">パソコン操作でお困りの方へ</Link>
-          <a href="https://x.com/chitamarudev" rel="me noopener" target="_blank">X（@chitamarudev）</a>
+          {Object.values(socialProfiles).map((profile) => (
+            <a
+              href={profile.url}
+              key={profile.url}
+              rel="me noopener noreferrer"
+              target="_blank"
+            >
+              {profile.label}
+            </a>
+          ))}
         </nav>
 
         <nav aria-label="サービス">
