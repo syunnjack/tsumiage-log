@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import BusinessPage from "../components/BusinessPage"
+import { socialProfileUrls } from "../lib/social-profiles"
 
 const title = "プロフィール・経歴・実績 | 積み上げログ"
 const description =
@@ -35,7 +36,7 @@ const personSchema = {
   "@type": "Person",
   name: "syunnjack",
   url: "https://syunnjack.dev/profile/",
-  sameAs: ["https://github.com/syunnjack"],
+  sameAs: socialProfileUrls,
   description,
   knowsAbout: ["React", "Next.js", "Vite", "Laravel", "GitHub Actions", "SEO", "Web開発", "公開データの活用"],
   worksFor: { "@type": "Organization", name: "積み上げログ", url: "https://syunnjack.dev/" },
@@ -144,6 +145,34 @@ export default function ProfilePage() {
           公開しているコードは<a href="https://github.com/syunnjack" target="_blank" rel="noopener noreferrer">GitHub</a>にあります。
           情報の取り扱いについては<Link href="/privacy/">プライバシーポリシー</Link>をご確認ください。
         </p>
+      </section>
+
+      <section className="business-section">
+        <p className="section-kicker">SOCIAL</p>
+        <h2>公式アカウント</h2>
+        <p>
+          開発記録と解説動画は各公式アカウントでも発信しています。
+        </p>
+        <ul className="site-list">
+          <li>
+            <a href="https://www.youtube.com/@chitamaru3" rel="me noopener noreferrer" target="_blank">
+              YouTube（知多丸）
+            </a>
+            <span>学習・開発の解説動画</span>
+          </li>
+          <li>
+            <a href="https://x.com/chitamarudev" rel="me noopener noreferrer" target="_blank">
+              X（@chitamarudev）
+            </a>
+            <span>開発やサイト更新の記録</span>
+          </li>
+          <li>
+            <a href="https://github.com/syunnjack" rel="me noopener noreferrer" target="_blank">
+              GitHub（syunnjack）
+            </a>
+            <span>公開リポジトリと実装</span>
+          </li>
+        </ul>
       </section>
     </BusinessPage>
   )
